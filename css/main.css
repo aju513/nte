@@ -84,6 +84,29 @@
     @apply border-white fill-none;
   }
 
+  /* Header start */
+  .header {
+    @apply relative z-100;
+    .header__menu {
+      @apply w-full relative py-4 bg-white;
+      &::before {
+        @apply w-full shadow-md absolute left-0;
+      }
+    }
+
+    /* .biz__logo {
+      @apply relative;
+      img {
+        @apply w-18;
+      }
+    } */
+  }
+
+  /* Header search */
+  .search-box-elements {
+    @apply;
+  }
+
   /* Button Starts */
   button {
     @apply cursor-pointer;
