@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --color-primary: rgb(30, 95, 145); /*1e5f91*/
+  --color-secondary: rgb(225, 234, 241); /*e1eaf1*/
+  --color-text_color: rgb(66, 66, 66); /* #424242  */
+
+  --font-mulish: "Mulish", sans-serif;
+  --font-playfair-display: "Playfair Display", sans-serif;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply text-text_color font-mulish;
+  }
+  p {
+    @apply text-text_color font-mulish;
+  }
+}
+
+@utility container {
+  @apply mx-auto max-w-318 px-3.75;
+}
+@utility container-fluid {
+  @apply w-full mx-auto max-w-351 px-3.75 max-[1440px]:max-w-full;
+}
+
+@layer components {
+  /* headings */
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-text_color font-playfair-display font-bold;
+  }
+
+  /* common gapping */
+  .common-box {
+    @apply py-15;
+  }
+  .common-box.pt-0 {
+    @apply pt-0;
+  }
+  .common-box.pb-0 {
+    @apply pb-0;
+  }
+  .common-box.px-0 {
+    @apply py-0;
+  }
+
+  /* Section title  */
+  .has-title-btn {
+    @apply relative;
+    .section-title-btn {
+      @apply absolute;
+    }
+  }
+
+  /* Header top */
+  .header-top {
+    @apply bg-primary py-4;
+  }
+
+  .header-top_content {
+    @apply font-mulish relative flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-2 sm:gap-4 px-4 sm:px-6 lg:px-8 text-xs text-white;
+  }
+
+  .header-top_content_registration {
+    @apply flex justify-center sm:justify-start items-center gap-2;
+  }
+
+  .header-top_content_contact {
+    @apply flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-4;
+  }
+  .header-top_content_contact a {
+    @apply hover:underline;
+  }
+  .mail-icon {
+    @apply border-white fill-none;
+  }
+
+  /* Button Starts */
+  button {
+    @apply cursor-pointer;
+  }
+  .btn-primary {
+    @apply border-2 border-dotted  border-primary inline-flex w-fit  gap-2 px-2 py-2 text-sm  text-text_color rounded-full transition-all duration-500;
+    &:hover {
+      @apply bg-primary text-white;
+    }
+  }
+}
