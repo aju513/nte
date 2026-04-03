@@ -5,6 +5,7 @@
   --color-primary: rgb(30, 95, 145); /*1e5f91*/
   --color-secondary: rgb(225, 234, 241); /*e1eaf1*/
   --color-text_color: rgb(66, 66, 66); /* #424242  */
+  --color-dim_bg: rgb(255, 247, 239); /*#fff7ef */
 
   --font-mulish: "Mulish", sans-serif;
   --font-playfair-display: "Playfair Display", sans-serif;
@@ -52,6 +53,89 @@
   .common-box.px-0 {
     @apply py-0;
   }
+
+  /* Placeholder starts */
+  .placeholder_img-wrapper {
+    @apply w-100 h-100 relative overflow-hidden rounded;
+  }
+  .placeholder_img-wrapper {
+    @apply absolute;
+    background-image: url(/images/logo1.svg);
+    background-size: auto 20%;
+    background-position: 50% 50%;
+    content: "";
+  }
+
+  /* Category List starts */
+  .category-list__item {
+    @apply relative;
+    &:;before{
+      @apply absolute;
+    }
+
+    .category-list__item-image {
+     { @apply rounded-xl;
+        .placeholder__img-wrapper{
+          @apply aspect-3/4 rounded;
+          img{
+            @apply transition-all duration-500;
+            &:hover{
+              @apply scale-110 duration-500;
+            }
+          }
+        }
+      }
+    }
+    .category-list__item-content {
+      @apply absolute translate-x-2;
+    }
+    .category-list__item-title {
+      @apply font-bold;
+    }
+  }
+  .category-list__wrapper {
+    .container-fluid {
+      @apply relative px-0! py-10;
+      &::before {
+        @apply transform duration-500 scale-100;
+        :hover{
+          @apply scale-110 duration-500;
+        }
+      }
+    }
+  }
+
+  /* package-list */
+  .package-list__item {
+    @apply relative;
+    img {
+      @apply rounded w-full h-full object-cover transition-transform duration-500 group-hover:scale-105;
+      .placeholder_img-wrapper {
+        @apply pt-4;
+        &:after {
+          @apply rounded-2xl;
+        }
+      }
+    }
+  }
+  /* legal Documents */
+  .legal-document__item{
+    @apply bg-dim_bg p-12 rounded-xl;
+    .legal-document__item-image{
+      .placeholder__img-wrapper{
+        @apply pt-10;
+        img{
+          @apply object-cover;
+        }
+      }
+    }
+  }
+
+  /* last minute page */
+  /* review page */
+  /* Sitemap */
+
+  /* search page */
 
   /* Section title  */
   .has-title-btn {
@@ -118,3 +202,8 @@
     }
   }
 }
+/* homepage */
+.homepage .homepage__banner{
+    @apply relative z-5;
+  }
+
