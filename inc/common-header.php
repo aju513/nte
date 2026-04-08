@@ -9,7 +9,9 @@
     <link rel="icon" type="image/svg+xml" href="favicon/mountain.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet" />
     <!-- Local compiled CSS for PHP/XAMPP runtime -->
     <link rel="stylesheet" href="/css/main.build.css">
 
@@ -19,14 +21,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css" />
     <!-- Swiper Installation -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
     <style>
         @font-face {
             font-family: 'icomoon';
-            src: url('fonts/icomoon.eot?3m2l2b');
-            src: url('fonts/icomoon.eot?3m2l2b#iefix') format('embedded-opentype'),
-                url('fonts/icomoon.ttf?3m2l2b') format('truetype'),
-                url('fonts/icomoon.woff?3m2l2b') format('woff'),
-                url('fonts/icomoon.svg?3m2l2b#icomoon') format('svg');
+            src: url('fonts/icomoon.eot?bwr1lb');
+            src: url('fonts/icomoon.eot?bwr1lb#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?bwr1lb') format('truetype'),
+                url('fonts/icomoon.woff?bwr1lb') format('woff'),
+                url('fonts/icomoon.svg?bwr1lb#icomoon') format('svg');
             font-weight: normal;
             font-style: normal;
             font-display: block;
@@ -46,6 +49,27 @@
             /* Better Font Rendering =========== */
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
+        }
+
+        .icon-green-circle:before {
+            content: "\e929";
+            color: #2aaa6f;
+        }
+
+        .icon-star-rate:before {
+            content: "\e92a";
+        }
+
+        .icon-nav-itinerary:before {
+            content: "\e92b";
+        }
+
+        .icon-play-button:before {
+            content: "\e92c";
+        }
+
+        .icon-dropdown:before {
+            content: "\e928";
         }
 
         .icon-x-mark:before {
@@ -159,6 +183,10 @@
             content: "\e919";
         }
 
+        .icon-route:before {
+            content: "\e91a";
+        }
+
         .icon-searchicon:before {
             content: "\e91b";
         }
@@ -214,7 +242,4 @@
 </head>
 
 <body>
-
-</body>
-
-</html>
+ 

@@ -1,5 +1,5 @@
-<div class="header-top py-3 ">
-    <div class="container header-top_content ">
+<!-- <div class="header-top py-3 ">
+    <div class="container-fluid header-top_content ">
         <div class="header-top_content_registration">
             Tourism Liscense: 12345
             |
@@ -15,4 +15,7 @@
             </div>
         </div>
     </div>
+</div> -->
+<div class="bg-primary py-3">
+
 </div>
