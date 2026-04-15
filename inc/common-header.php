@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+    <?php
+    $basePath = htmlspecialchars(rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') ?: '/', ENT_QUOTES);
+    $mainBuildPath = __DIR__ . '/../css/main.build.css';
+    $mainBuildVersion = file_exists($mainBuildPath) ? filemtime($mainBuildPath) : time();
+    ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Travel Experience</title>
@@ -13,7 +18,7 @@
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet" />
     <!-- Local compiled CSS for PHP/XAMPP runtime -->
-    <link rel="stylesheet" href="/css/main.build.css">
+    <link rel="stylesheet" href="<?= $basePath ?>/css/main.build.css?v=<?= $mainBuildVersion ?>">
 
     <!-- Vite CSS for development (works when `npm run dev` is running) -->
     <link rel="stylesheet" href="http://localhost:5173/css/main.css">
@@ -25,11 +30,11 @@
     <style>
         @font-face {
             font-family: 'icomoon';
-            src: url('fonts/icomoon.eot?bwr1lb');
-            src: url('fonts/icomoon.eot?bwr1lb#iefix') format('embedded-opentype'),
-                url('fonts/icomoon.ttf?bwr1lb') format('truetype'),
-                url('fonts/icomoon.woff?bwr1lb') format('woff'),
-                url('fonts/icomoon.svg?bwr1lb#icomoon') format('svg');
+            src: url('fonts/icomoon.eot?bbu8f4');
+            src: url('fonts/icomoon.eot?bbu8f4#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?bbu8f4') format('truetype'),
+                url('fonts/icomoon.woff?bbu8f4') format('woff'),
+                url('fonts/icomoon.svg?bbu8f4#icomoon') format('svg');
             font-weight: normal;
             font-style: normal;
             font-display: block;
@@ -49,6 +54,44 @@
             /* Better Font Rendering =========== */
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
+        }
+
+        .icon-max-altitude:before {
+            content: "\e932";
+        }
+
+        .icon-accommodation:before {
+            content: "\e933";
+        }
+
+        .icon-calendar-lines:before {
+            content: "\e935";
+        }
+
+        .icon-distance:before {
+            content: "\e936";
+        }
+
+        .icon-meal:before {
+            content: "\e930";
+        }
+
+        .icon-transportation:before {
+            content: "\e92f";
+            color: #000;
+        }
+
+        .icon-exclude-icon:before {
+            content: "\e931";
+            color: #6ea8dc;
+        }
+
+        .icon-arrow-left:before {
+            content: "\e92e";
+        }
+
+        .icon-minus:before {
+            content: "\e92d";
         }
 
         .icon-green-circle:before {
@@ -242,4 +285,3 @@
 </head>
 
 <body>
- 

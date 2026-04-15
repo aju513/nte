@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?bwr1lb');
-  src:  url('fonts/icomoon.eot?bwr1lb#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?bwr1lb') format('truetype'),
-    url('fonts/icomoon.woff?bwr1lb') format('woff'),
-    url('fonts/icomoon.svg?bwr1lb#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?bbu8f4');
+  src:  url('fonts/icomoon.eot?bbu8f4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bbu8f4') format('truetype'),
+    url('fonts/icomoon.woff?bbu8f4') format('woff'),
+    url('fonts/icomoon.svg?bbu8f4#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-max-altitude:before {
+  content: "\e932";
+}
+.icon-accommodation:before {
+  content: "\e933";
+}
+.icon-calendar-lines:before {
+  content: "\e935";
+}
+.icon-distance:before {
+  content: "\e936";
+}
+.icon-meal:before {
+  content: "\e930";
+}
+.icon-transportation:before {
+  content: "\e92f";
+  color: #000;
+}
+.icon-exclude-icon:before {
+  content: "\e931";
+  color: #6ea8dc;
+}
+.icon-arrow-left:before {
+  content: "\e92e";
+}
+.icon-minus:before {
+  content: "\e92d";
+}
 .icon-green-circle:before {
   content: "\e929";
   color: #2aaa6f;
