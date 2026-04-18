@@ -192,6 +192,6 @@
 
 </footer>
 
-<script src="./js/script.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<script src="./js/index.js" defer></script>
+<script src="./js/script.js"></script>

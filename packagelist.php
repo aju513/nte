@@ -1037,7 +1037,7 @@
                 </div>
                 <div class="package__price-breakdown-wrap mt-5  border border-[#ffe3d2] bg-white rounded-[10px]">
                   <div class="p-3 collapsible__wrap rounded-[10px] bg-white">
-                    <button class="flex items-center justify-between w-full collapsible">
+                    <button class="flex items-center justify-between w-full collapsible" type="button" aria-expanded="true" data-default-open="true">
                       <span class="text-[15px] font-bold text-text_color">
                         Group Discount Price
                       </span>
@@ -1154,7 +1154,7 @@
 
 <script>
   //add class in body
-  document.body.classList.toggle('no-header-sticky');
+  document.body.classList.add('no-header-sticky');
   //package nav
   document.addEventListener('DOMContentLoaded', () => {
     const threshold = 200;

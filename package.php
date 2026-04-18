@@ -2,11 +2,11 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 
-<section class="package-page__nav custom-shadow fixed top-0 z-[1001] w-full overflow-x-auto bg-primary  hidden">
+<section class="package-sticky-nav ">
   <div class="container mx-auto">
-    <ul class="flex gap-2 w-max">
+    <ul class="nav-link-wrapper">
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item" href="#package-overview">
+        <a class="nav-item-link package-sticky-nav-item-link active" href="#package-overview">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-overview"></span>
           </span>
@@ -14,7 +14,7 @@
         </a>
       </li>
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item " href="#package-gallery">
+        <a class="nav-item-link package-sticky-nav-item-link " href="#package-gallery">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-gallery"></span>
           </span>
@@ -22,7 +22,7 @@
         </a>
       </li>
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item " href="#package-itinerary">
+        <a class="nav-item-link package-sticky-nav-item-link " href="#package-itinerary">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-itinerary"></span>
           </span>
@@ -30,16 +30,16 @@
         </a>
       </li>
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item " href="#package-route">
+        <a class="nav-item-link package-sticky-nav-item-link " href="#package-route">
           <span class="package-page__nav-item-icon">
-            <span class="relative text-xl text-white top-1 icon-nav-route"></span>
+            <span class="relative text-xl text-white top-1 icon-route"></span>
           </span>
           <span class="text-sm text-white package-page__nav-item-title"> Route Map</span>
         </a>
       </li>
 
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item " href="#package-cost-details">
+        <a class="nav-item-link package-sticky-nav-item-link " href="#package-cost-details">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-cost-details"></span>
           </span>
@@ -47,7 +47,7 @@
         </a>
       </li>
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item " href="#package-availability">
+        <a class="nav-item-link package-sticky-nav-item-link " href="#package-availability">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-available"></span>
           </span>
@@ -55,7 +55,7 @@
         </a>
       </li>
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item " href="#package-addons">
+        <a class="nav-item-link package-sticky-nav-item-link " href="#package-addons">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-addon"></span>
           </span>
@@ -63,7 +63,7 @@
         </a>
       </li>
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item " href="#package-essentials">
+        <a class="nav-item-link package-sticky-nav-item-link " href="#package-essentials">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-additional"></span>
           </span>
@@ -71,7 +71,7 @@
         </a>
       </li>
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item " href="#package-faq">
+        <a class="nav-item-link package-sticky-nav-item-link " href="#package-faq">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-faq"></span>
           </span>
@@ -79,7 +79,7 @@
         </a>
       </li>
       <li>
-        <a class="flex items-center gap-1 package-page__nav-item " href="#package-reviews">
+        <a class="nav-item-link package-sticky-nav-item-link " href="#package-reviews">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-review"></span>
           </span>
@@ -90,11 +90,11 @@
   </div>
 </section>
 
-<section class="common-box package-page bg-secondary" role="main">
+<section class=" package-page bg-secondary relative  " role="main">
   <?php include('./inc/breadcrumbs.php') ?>
-  <div class="package__banner common-box ">
-    <div class="container-fluid">
-      <div class="package__banner-wrapper">
+  <div class="package__banner  ">
+    <div class="container-fluid relative">
+      <div class="package__banner-wrapper common-box pb-0">
         <div class="package__banner-item banner-half lg">
           <a data-fancybox="package-banner" href="./images/dynamic/package1.webp">
             <div class="placeholder__img-wrapper">
@@ -140,11 +140,11 @@
       </div>
     </div>
   </div>
-  <section class="package__content-wrapper">
+  <section class="package__content-wrapper absolute -top-17">
     <div class="container">
-      <div class="grid grid-cols-12">
+      <div class="grid grid-cols-12 gap-5">
         <div class="col-span-12 lg:col-span-8 ">
-          <div class="package__title-wrap">
+          <div class="package__title-wrap common-box">
             <div class="page-title">
               <h1>Everest Base Camp Trek-15 Days</h1>
             </div>
@@ -192,7 +192,7 @@
                         <div class="block text-left text-sm font-bold text-text_color">
                           Easy to Moderate
                           <div class="relative inline-flex flex-col items-center ml-2 popover-wrap group">
-                            <span class="text-xl icon-info text-text_color">
+                            <span class="text-xl icon-info ">
                             </span>
 
                             <div class="absolute bottom-0 flex-col items-center hidden w-full mb-6 popover-bg sm:w-64 md:w-72">
@@ -216,7 +216,7 @@
                   <div class="package__facts-item">
                     <div class="flex gap-1 item-center">
                       <div class="package__facts-item-icon mt-1.25 flex-[0_0_25px]">
-                        <span class="text-2xl text-text_color icon-trip-grade"></span>
+                        <span class="text-2xl  icon-trip-grade"></span>
                       </div>
                       <div class="package__facts-item-content">
                         <div class="block text-left text-xs font-bold text-text_color">
@@ -233,7 +233,7 @@
                   <div class="package__facts-item">
                     <div class="flex gap-1 item-center">
                       <div class="package__facts-item-icon mt-[5px] flex-[0_0_25px]">
-                        <span class="text-2xl text-text_color icon-group-size"></span>
+                        <span class="text-2xl icon-group-size"></span>
                       </div>
                       <div class="package__facts-item-content">
                         <div class="block text-left text-xs font-bold text-text_color">
@@ -284,7 +284,7 @@
                   <div class="package__facts-item">
                     <div class="flex gap-1 item-center">
                       <div class="package__facts-item-icon mt-[5px] flex-[0_0_25px]">
-                        <span class="text-2xl text-text_color icon-travel-style"></span>
+                        <span class="text-2xl icon-travel-style"></span>
                       </div>
                       <div class="package__facts-item-content">
                         <div class="block text-left text-xs font-bold text-text_color">
@@ -352,7 +352,7 @@
               <a href="" class="inline-flex items-center mt-10 gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">Read More
               </a>
             </div>
-            <div class="package__gallery mb-3.75 " id="package-gallery">
+            <div class="package__gallery mb-3.75 common-module " id="package-gallery">
               <h2 class="package__section-title">Photo Gallery</h2>
               <div class="grid grid-cols-12  gap-3.75">
                 <div class="col-span-6 sm:col-span-3">
@@ -370,7 +370,7 @@
                         </div>
                       </div>
                       <span class="zoom-icon">
-                        <span class="text-2xl text-white icon-magnify-glass"></span>
+                        <span class="text-2xl text-white icon-search"></span>
                       </span>
                     </a>
                   </div>
@@ -436,21 +436,20 @@
                   </div>
                 </div>
               </div>
-              <div class="package__gallery-video common-module scroll-mt-[80px]" id="package-video">
+              <div class="package__gallery-video common-module scroll-mt-20 relative" id="package-video">
                 <a href="https://www.youtube.com/watch?v=a3ICNMQW7Ok"
                   data-fancybox="package-video">
-                  <div class="relative">
+                  <div class="">
                     <div class="placeholder__img-wrapper">
                       <div class="w-full placeholder__img">
                         <img
-                          src="/images/dynamic/package-video-thumb.webp"
+                          src="/images/dynamic/album.webp"
                           width="1200"
                           height="675"
                           alt="banner" />
                       </div>
                     </div>
-                    <span class="circular-animate absolute left-[50%] top-[50%] z-10 flex -translate-x-[50%] -translate-y-[50%] items-center justify-center rounded-full">
-                      <span class="text-3xl icon-play"></span>
+                    <span class="absolute left-1/2 top-1/2 z-10 flex h-[50px] w-12.5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-[75px] md:w-[75px]"><span class="icon icon-play-button text-xl px-4"></span>
                     </span>
                   </div>
                 </a>
@@ -787,7 +786,7 @@
               <div class="package__addons-content">
                 <div class="package__addons-wrapper">
                   <div class=" accordion-wrapper">
-                    <div class="accordion with-plus-minus" id="ddon-accordion">
+                    <div class="accordion with-plus-minus" id="addon-accordion">
                       <div class="accordion__item package__addons-item" data-id="q1">
                         <div class="package__addons-item-title-wrap accordion__item-title">
                           <span class="package__addons-item-title">1. HeliFlight from EBC to Kathmandu </span>
@@ -859,7 +858,7 @@
                 </ul>
               </div>
             </div>
-            <div class="package__faqs common-module" id="package-faqs">
+            <div class="package__faqs common-module" id="package-faq">
               <h2 class="package__section-title">FAQs</h2>
               <div class=" accordion-wrapper">
                 <div class="accordion with-arrow" id="faqs-accordion">
@@ -888,8 +887,19 @@
 
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-4">
-          <div class="package__price-sidebar">
+        <div class="col-span-12 lg:col-span-4 gap-8">
+
+          <div class="package__price-sidebar lg:mb-0 mb-8 lg:sticky lg:top-10 common-box pb-0">
+            <div class="gap-5 w-[95%] flex items-center justify-end  rounded-t-[10px] py-2.5 px-6.25">
+              <button class="share-btn rounded-[17px] bg-[#f6faff] text-text_color text-[15px] text-center py-2 px-4 font-semibold">
+                <span class="icon-send text-[18px] text-[#6cafda]"></span>
+                View Map
+              </button>
+              <button class="share-btn rounded-[17px] bg-primary text-white text-[15px] text-center py-2 px-4 font-semibold">
+                <span class="icon-share text-[18px]"></span>
+                Share
+              </button>
+            </div>
 
             <div class="package-price-main-wrapper">
               <div class="package-price-wrappper">
@@ -903,8 +913,8 @@
 
               <div class="package-group-price">
                 <div class="package__discount-list package__discount-list-group">
-                  <button class="collapsible.active + collapsible-content package__discount-list-item">
-                    <span class="text-[15px] font-bold text-text_color">
+                  <button class="collapsible active package__discount-list-item" type="button" aria-expanded="true" data-default-open="true">
+                    <span class="text-[15px] font-bold text-text_color px-6">
                       Group Discount Price
                     </span>
                     <span class="mr-1 text-2xl font-bold text-text_color icon">+</span>
@@ -1013,6 +1023,264 @@
         </div>
 
       </div>
+      <section class=" video-review common-box scroll-wrap mt-0">
+        <div class="container">
+          <h2 class="package__section-title ">
+            Travel Moments
+          </h2>
+          <div class="grid grid-cols-12 gap-5">
+            <div class="col-span-4">
+              <div class="video-review__item">
+                <div class="relative video-review__item-image">
+                  <div class="placeholder__img-wrapper">
+                    <div class="w-full placeholder__img">
+                      <img
+                        src="/images/dynamic/vide-review-thumb.webp"
+                        width="600"
+                        height="400"
+                        alt="banner" />
+                    </div>
+                  </div>
+                  <div class="absolute z-10 -translate-x-1/2 -translate-y-1/2 video-review__item-link left-1/2 top-1/2">
+                    <a
+                      data-fancybox
+                      href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="w- circular-animate ">
+
+                      <span class="absolute left-1/2 top-1/2 z-10 flex h-[50px] w-12.5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-[75px] md:w-[75px]"><span class="icon icon-play-button text-xl px-4"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-review__item-content">
+                  <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
+                    Trekking in Nepal
+                  </div>
+                  <div class="text-sm text-text_color">
+                    Jhone - USA
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-4">
+              <div class="video-review__item">
+                <div class="relative video-review__item-image">
+                  <div class="placeholder__img-wrapper">
+                    <div class="w-full placeholder__img">
+                      <img
+                        src="/images/dynamic/video-review-thumb.webp"
+                        width="600"
+                        height="400"
+                        alt="banner" />
+                    </div>
+                  </div>
+                  <div class="absolute z-10 -translate-x-1/2 -translate-y-1/2 video-review__item-link left-1/2 top-1/2">
+                    <a
+                      data-fancybox
+                      href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate">
+
+                      <span class="absolute left-1/2 top-1/2 z-10 flex h-[50px] w-[50px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-[75px] md:w-[75px]"><span class="icon icon-play-button text-xl px-4"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-review__item-content">
+                  <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
+                    Trekking in Nepal
+                  </div>
+                  <div class="text-sm text-text_color">
+                    Jhone - USA
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-4">
+              <div class="video-review__item">
+                <div class="relative video-review__item-image">
+                  <div class="placeholder__img-wrapper">
+                    <div class="w-full placeholder__img">
+                      <img
+                        src="/images/dynamic/video-review-thumb.webp"
+                        width="600"
+                        height="400"
+                        alt="banner" />
+                    </div>
+                  </div>
+                  <div class="">
+                    <a
+                      data-fancybox
+                      href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
+
+                      <span class="absolute left-1/2 top-1/2 z-10 flex h-[50px] w-[50px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-[75px] md:w-[75px]"><span class="icon icon-play-button text-xl px-4"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="video-review__item-content">
+                  <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
+                    Trekking in Nepal
+                  </div>
+                  <div class="text-sm text-text_color">
+                    Jhone - USA
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-0 pb-0 inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
+        <div class="container">
+          <div class="flex items-center justify-between mb-7.5">
+            <h2 class="package__section-title">
+              Customer Review
+            </h2>
+            <div class="flex items-center justify-between gap-14.75">
+              <div class="flex items-start sm:items-center gap-2">
+
+                <img
+                  src="/images/svg/circular-tripadvisor.svg"
+                  width="31"
+                  height="31"
+                  alt="banner" />
+                <div>
+
+                  <div class="flex items-center gap-1 green-dot-rating">
+                    <span class="text-sm ">4.9</span>
+                    <div class="rating-wrap rating-5">
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-black">Based on 22 reviews</div>
+                </div>
+
+              </div>
+              <div class="flex items-start sm:items-center gap-2">
+
+                <img
+                  src="/images/svg/circular-google.svg"
+                  width="31"
+                  height="31"
+                  alt="banner" />
+                <div>
+
+                  <div class="flex items-center gap-1 star-rating">
+                    <span class="text-sm ">4.9</span>
+                    <div class="rating-wrap rating-5">
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-black">Based on 22 reviews</div>
+                </div>
+
+              </div>
+              <div class="flex items-start sm:items-center gap-2">
+
+                <img
+                  src="/images/svg/trustpilot.svg"
+                  width="31"
+                  height="31"
+                  alt="banner" />
+                <div>
+
+                  <div class="flex items-center gap-1 green-dot-rating">
+                    <span class="text-sm ">4.9</span>
+                    <div class="rating-wrap rating-5">
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                    </div>
+                  </div>
+                  <div class="text-xs text-black">Based on 22 reviews</div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="relative">
+
+            <div class="grid grid-cols-12 gap-5">
+
+              <div class="col-span-6">
+                <div class="testimonial__list-item m-0!">
+                  <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
+                    <div class="testimonial__list-item-rating green-dot-rating">
+                      <div class="rating-wrap rating-5">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial__list-item-title">"The trek was life-changing</div>
+                  <div class="review-list__item-content text-text_color text-sm">
+                    <div class="testimonial__list-item-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas, eum mollitia. Similique harum veniam totam iste?</p>
+                    </div>
+                  </div>
+                  <div class="testimonial__list-item-reviewer ">
+                    <div class="reviewer-image">
+                      <div class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">A</div>
+                    </div>
+                    <div class="reviewer-content">
+                      <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza - USA</div>
+                      <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-span-6">
+                <div class="testimonial__list-item m-0!">
+                  <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
+                    <div class="testimonial__list-item-rating green-dot-rating">
+                      <div class="rating-wrap rating-5">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="testimonial__list-item-title">"The trek was life-changing</div>
+                  <div class="review-list__item-content text-text_color text-sm">
+                    <div class="testimonial__list-item-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas, eum mollitia. Similique harum veniam totam iste?</p>
+                    </div>
+                  </div>
+                  <div class="testimonial__list-item-reviewer ">
+                    <div class="reviewer-image">
+                      <div class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">A</div>
+                    </div>
+                    <div class="reviewer-content">
+                      <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza - USA</div>
+                      <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
     </div>
   </section>
 
@@ -1021,11 +1289,11 @@
 
 <script>
   //add class in body
-  document.body.classList.toggle('no-header-sticky');
+  document.body.classList.add('no-header-sticky');
   //package nav
   document.addEventListener('DOMContentLoaded', () => {
     const threshold = 200;
-    const nav = document.querySelector('.package__nav') || document.querySelector('.package-page__nav');
+    const nav = document.querySelector('.package__nav') || document.querySelector('.package-sticky-nav');
     if (!nav) return; // stop if nav does not exist
 
     let lastActiveId = null;
@@ -1041,7 +1309,7 @@
       }
 
       // --- Active link detection ---
-      const links = document.querySelectorAll('.package-page__nav-item');
+      const links = nav.querySelectorAll('.package-sticky-nav-item-link, .nav-item-link');
       links.forEach(link => {
         const targetId = link.getAttribute('data-target') || link.getAttribute('href')?.replace('#', '');
         const targetElement = targetId ? document.getElementById(targetId) : null;
@@ -1060,24 +1328,11 @@
           }
         }
       });
-
-      // --- Nav show/hide based on #no-nav ---
-      const commonBox = document.getElementById('no-nav');
-      if (commonBox) {
-        const rect = commonBox.getBoundingClientRect();
-        if (rect.top <= 50 || window.scrollY <= 750) {
-          nav.classList.remove('visible');
-          nav.classList.add('hidden');
-        } else {
-          nav.classList.add('visible');
-          nav.classList.remove('hidden');
-        }
-      }
     }
 
     // --- Scroll nav horizontally to active link ---
     function scrollToActiveLink() {
-      const activeLink = document.querySelector('.package-page__nav-item.active');
+      const activeLink = nav.querySelector('.package-sticky-nav-item-link.active, .nav-item-link.active');
       if (activeLink && nav) {
         const navRect = nav.getBoundingClientRect();
         const linkRect = activeLink.getBoundingClientRect();
@@ -1132,7 +1387,97 @@
     });
   });
 </script>
+<script>
+  //share
+  const shareToggle = document.getElementById('sharetoggle');
+  const dropdownMenu = document.getElementById('dropdownMenu');
+  const shareDropdown = document.getElementById('shareDropdown');
 
+  shareToggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    dropdownMenu.classList.toggle('show');
+  });
 
+  document.addEventListener('click', (event) => {
+    if (!shareDropdown.contains(event.target)) {
+      dropdownMenu.classList.remove('show');
+    }
+  });
+</script>
+
+<script>
+  //relocate price box
+  document.addEventListener("DOMContentLoaded", function() {
+    const facts = document.querySelector(".package__facts");
+    const sidebar = document.querySelector(".package__price-sidebar");
+
+    if (!facts || !sidebar) return;
+
+    function moveSidebar() {
+      if (window.innerWidth < 1024) {
+        // Move sidebar after facts
+        if (sidebar.parentNode !== facts.parentNode || sidebar.nextElementSibling !== facts.nextElementSibling) {
+          facts.insertAdjacentElement("afterend", sidebar);
+        }
+      } else {
+        // Optionally, move sidebar back to original position if needed
+        // You should save its original parent and sibling
+      }
+    }
+
+    // Run on load
+    moveSidebar();
+
+    // Run on window resize
+    window.addEventListener("resize", moveSidebar);
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const popoverWraps = document.querySelectorAll(".popover-wrap");
+    const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+
+    if (isTouchDevice) {
+      // Mobile: open/close on click
+      popoverWraps.forEach((wrap) => {
+        const trigger = wrap.querySelector(".i-icon");
+        const popover = wrap.querySelector(".popover-bg");
+        if (!trigger || !popover) return;
+
+        const togglePopover = (e) => {
+          e.stopPropagation();
+          document.querySelectorAll(".popover-bg").forEach((el) => {
+            if (el !== popover) el.classList.add("hidden");
+          });
+          popover.classList.toggle("hidden");
+        };
+
+        const closePopover = (e) => {
+          if (!wrap.contains(e.target)) {
+            popover.classList.add("hidden");
+          }
+        };
+
+        trigger.addEventListener("click", togglePopover);
+        document.addEventListener("click", closePopover);
+      });
+    } else {
+      // Desktop: show on hover
+      popoverWraps.forEach((wrap) => {
+        const popover = wrap.querySelector(".popover-bg");
+        if (!popover) return;
+
+        wrap.addEventListener("mouseenter", () => {
+          popover.classList.remove("hidden");
+          popover.classList.add("flex");
+        });
+        wrap.addEventListener("mouseleave", () => {
+          popover.classList.remove("flex");
+          popover.classList.add("hidden");
+        });
+      });
+    }
+  });
+</script>
 
 <?php include('./inc/footer.php'); ?>

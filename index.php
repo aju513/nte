@@ -10,15 +10,8 @@
             <div class="placeholder__img-wrapper w-full">
                 <div class="w-full placeholder__img">
                     <a href="">
-                        <img
-                            src="./images/dynamic/banner.webp"
-                            width="1920"
-                            height="700"
-                            loading="eager"
-                            decoding="async"
-                            data-nimg="1"
-                            alt="banner"
-                            style="color: transparent" />
+                        <img src="./images/dynamic/banner.webp" width="1920" height="700" loading="eager"
+                            decoding="async" data-nimg="1" alt="banner" style="color: transparent" />
                     </a>
                 </div>
             </div>
@@ -103,16 +96,13 @@
                             <div class="placeholder__img-wrapper">
                                 <div class="w-full placeholder__img">
                                     <a href="">
-                                        <img
-                                            src="/images/dynamic/package-thumb.webp"
-                                            width="600"
-                                            height="450"
+                                        <img src="/images/dynamic/package-thumb1.webp" width="600" height="450"
                                             alt="banner" />
                                     </a>
                                 </div>
                             </div>
                             <div class="homepage__package-badge top_rated">
-                                <span class="">TOP RATED</span>
+                                <span class="">TOP RATED</span>/
                             </div>
 
                         </div>
@@ -135,7 +125,7 @@
                                     </a>
                                 </h3>
                             </div>
-                            <div class=" flex items-center justify-between bg-white package-list__item-meta ">
+                            <div class=" flex items-end justify-between bg-white package-list__item-meta ">
                                 <div class="">
                                     <div class=" font-16px">
                                         Price From
@@ -162,10 +152,7 @@
                             <div class="placeholder__img-wrapper">
                                 <div class="w-full placeholder__img">
                                     <a href="">
-                                        <img
-                                            src="/images/dynamic/package-thumb.webp"
-                                            width="600"
-                                            height="450"
+                                        <img src="/images/dynamic/package-thumb2.webp" width="600" height="450"
                                             alt="banner" />
                                     </a>
                                 </div>
@@ -176,7 +163,7 @@
 
                         </div>
                         <div class="package-list__item-content">
-                            <div class="flex items-center justify-between  package-list__item-meta ">
+                            <div class="flex items-end justify-between  package-list__item-meta ">
                                 <div class="flex items-center gap-2 package-list__item-duration">
                                     <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
                                     <span class="text-xs font-bold text-text_color">Duration: 15 Days</span>
@@ -188,13 +175,13 @@
                                 </div>
                             </div>
                             <div class="package-list__item-title">
-                                <h3 class="min-h-[60px]">
+                                <h3 class="min-h-15">
                                     <a href="" class="homepage__package-title">
                                         Everest Base Camp Trekking
                                     </a>
                                 </h3>
                             </div>
-                            <div class=" flex items-center justify-between  package-list__item-meta ">
+                            <div class=" flex items-end justify-between  package-list__item-meta ">
                                 <div class="">
                                     <div class=" font-16px">
                                         Price From
@@ -221,10 +208,7 @@
                             <div class="placeholder__img-wrapper">
                                 <div class="w-full placeholder__img">
                                     <a href="">
-                                        <img
-                                            src="/images/dynamic/package-thumb.webp"
-                                            width="600"
-                                            height="450"
+                                        <img src="/images/dynamic/package-thumb3.webp" width="600" height="450"
                                             alt="banner" />
                                     </a>
                                 </div>
@@ -247,13 +231,13 @@
                                 </div>
                             </div>
                             <div class="package-list__item-title">
-                                <h3 class="min-h-[60px]">
+                                <h3 class="min-h-15">
                                     <a href="" class="homepage__package-title">
                                         Everest Base Camp Trekking
                                     </a>
                                 </h3>
                             </div>
-                            <div class=" flex items-center justify-between bg-white package-list__item-meta ">
+                            <div class=" flex items-end justify-between bg-white package-list__item-meta ">
                                 <div class="">
                                     <div class=" font-16px">
                                         Price From
@@ -263,7 +247,7 @@
                                         <span class="text-black line-through opacity-50 ">US$1800</span>
                                     </div>
                                 </div>
-                                <div class="flex items-center gap-2 package-list__item-duration">
+                                <div class="flex items-end gap-2 package-list__item-duration">
                                     <a href="#" class="explore_btn group">
                                         Explore
                                         <span class="icon-arrow-right"></span>
@@ -281,7 +265,7 @@
 
     <!-- Top Places to Explore Whole Section -->
 
-    <section class="homepage__featured homepage__feature-shell">
+    <section class="homepage__featured homepage__feature-shell ">
 
         <!-- Top places to Explore -->
         <div class="containers common-box hav-title-btn ">
@@ -297,7 +281,8 @@
                     </h2>
                 </div>
                 <div class="mb-0">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum magni recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum magni
+                        recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
                     <div class="section-title-btn">
                         <a href=""
                             class="inline-flex items-center gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">View
@@ -315,10 +300,7 @@
                             <div class="placeholder__img-wrapper w-full">
                                 <div class="w-full placeholder__img">
                                     <a href="">
-                                        <img
-                                            src="/images/dynamic/package-thumb.webp"
-                                            width="600"
-                                            height="450"
+                                        <img src="/images/dynamic/package-thumb1.webp" width="600" height="450"
                                             alt="banner" />
                                     </a>
                                 </div>
@@ -374,10 +356,7 @@
                             <div class="placeholder__img-wrapper">
                                 <div class="w-full placeholder__img">
                                     <a href="">
-                                        <img
-                                            src="/images/dynamic/package-thumb.webp"
-                                            width="600"
-                                            height="450"
+                                        <img src="/images/dynamic/package-thumb2.webp" width="600" height="450"
                                             alt="banner" />
                                     </a>
                                 </div>
@@ -433,10 +412,7 @@
                             <div class="placeholder__img-wrapper">
                                 <div class="w-full placeholder__img">
                                     <a href="">
-                                        <img
-                                            src="/images/dynamic/package-thumb.webp"
-                                            width="600"
-                                            height="450"
+                                        <img src="/images/dynamic/package-thumb3.webp" width="600" height="450"
                                             alt="banner" />
                                     </a>
                                 </div>
@@ -533,29 +509,37 @@
 
 
         <!-- Homepage-Content -->
-        <section class="homepage__main-content common-box">
+        <section class="homepage__main-content common-box pt-0 ">
             <div class="homepage__main-content-grid containers">
                 <div class="homepage__main-copy section-title-wrap ">
                     <div class="section-title-wrap">
                         <div class="relative text-lg leading-6 section-title-sm text-primary">
                             About Nepal Travel Experience
                         </div>
-                        <h2 class="section-title font-playfair text-[30px] font-black uppercase leading-9 text-black lg:text-[40px] lg:leading-10">
+                        <h2
+                            class="section-title font-playfair text-[30px] font-black uppercase leading-9 text-black lg:text-[40px] lg:leading-10">
                             Namaste!
                         </h2>
                     </div>
                     <div class="welcome-content mt-4">
-                        <blockquote>
-                            Nepal Travel Experience (NTE) offers customized tours for groups wanting to create their own tour with an array of memorable experiences from the likes of-
-                        </blockquote>
+                        <p>
+                            Nepal Travel Experience (NTE) offers customized tours for groups wanting to create their own
+                            tour with an array of memorable experiences from the likes of-
+                        </p>
                         <p>
                             Magnificient natural Nepali sights including soaring mountains and fast-flowing rivers,
-                            Visits to locations rich in Nepali art, culture and history, and Immersion with Nepalese in theor own ommunity environments. To help create your own special NTE tour we will-
-                            Adapt tour itineraries to match the objectives of your group. Provide guides who have excellent local knowledge and an ability to inform and entertain your group.
-                            Take you to locations suppported by our charity partners, and introduce you to people in local communities, to get involved in activities in an authentic environment, ranging from cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
+                            Visits to locations rich in Nepali art, culture and history, and Immersion with Nepalese in
+                            theor own ommunity environments. To help create your own special NTE tour we will-
+                            Adapt tour itineraries to match the objectives of your group. Provide guides who have
+                            excellent local knowledge and an ability to inform and entertain your group.
+                            Take you to locations suppported by our charity partners, and introduce you to people in
+                            local communities, to get involved in activities in an authentic environment, ranging from
+                            cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
                         </p>
                     </div>
-                    <a href="" class="inline-flex items-center mt-10 gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">More About Us <span class="text-sm icon-view"></span>
+                    <a href=""
+                        class="inline-flex items-center mt-10 gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">More
+                        About Us <span class="text-sm icon-view"></span>
                     </a>
                 </div>
 
@@ -566,7 +550,8 @@
 
                         <div class="why-choose-accordion__list">
                             <div class="why-choose-accordion__item is-open" data-id="q1">
-                                <button class="why-choose-accordion__trigger" type="button" aria-expanded="true" aria-controls="why-choose-q1">
+                                <button class="why-choose-accordion__trigger" type="button" aria-expanded="true"
+                                    aria-controls="why-choose-q1">
                                     <span class="why-choose-accordion__label">
                                         <span class="why-choose-accordion__icon">
                                             <span class="icon-circle-dollar-sign"></span>
@@ -576,13 +561,16 @@
                                     <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
                                 </button>
                                 <div class="why-choose-accordion__content" id="why-choose-q1">
-                                    <p>We keep pricing transparent and competitive, with quality service and value built into every trip.</p>
-                                    <a href="#" class="why-choose-accordion__link">Read More <span class="icon-arrow-right"></span></a>
+                                    <p>We keep pricing transparent and competitive, with quality service and value built
+                                        into every trip.</p>
+                                    <a href="#" class="why-choose-accordion__link">Read More <span
+                                            class="icon-arrow-right"></span></a>
                                 </div>
                             </div>
 
                             <div class="why-choose-accordion__item" data-id="q2">
-                                <button class="why-choose-accordion__trigger" type="button" aria-expanded="false" aria-controls="why-choose-q2">
+                                <button class="why-choose-accordion__trigger" type="button" aria-expanded="false"
+                                    aria-controls="why-choose-q2">
                                     <span class="why-choose-accordion__label">
                                         <span class="why-choose-accordion__icon">
                                             <span class="icon-binoculars"></span>
@@ -592,12 +580,14 @@
                                     <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
                                 </button>
                                 <div class="why-choose-accordion__content" id="why-choose-q2">
-                                    <p>Our local guides share firsthand knowledge, cultural insight, and practical support throughout your journey.</p>
+                                    <p>Our local guides share firsthand knowledge, cultural insight, and practical
+                                        support throughout your journey.</p>
                                 </div>
                             </div>
 
                             <div class="why-choose-accordion__item" data-id="q3">
-                                <button class="why-choose-accordion__trigger" type="button" aria-expanded="false" aria-controls="why-choose-q3">
+                                <button class="why-choose-accordion__trigger" type="button" aria-expanded="false"
+                                    aria-controls="why-choose-q3">
                                     <span class="why-choose-accordion__label">
                                         <span class="why-choose-accordion__icon">
                                             <span class="icon-route"></span>
@@ -607,12 +597,14 @@
                                     <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
                                 </button>
                                 <div class="why-choose-accordion__content" id="why-choose-q3">
-                                    <p>From choosing destinations to finalizing details, we make planning simple and flexible for your group.</p>
+                                    <p>From choosing destinations to finalizing details, we make planning simple and
+                                        flexible for your group.</p>
                                 </div>
                             </div>
 
                             <div class="why-choose-accordion__item" data-id="q4">
-                                <button class="why-choose-accordion__trigger" type="button" aria-expanded="false" aria-controls="why-choose-q4">
+                                <button class="why-choose-accordion__trigger" type="button" aria-expanded="false"
+                                    aria-controls="why-choose-q4">
                                     <span class="why-choose-accordion__label">
                                         <span class="why-choose-accordion__icon">
                                             <span class="icon-shield-check"></span>
@@ -622,7 +614,8 @@
                                     <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
                                 </button>
                                 <div class="why-choose-accordion__content" id="why-choose-q4">
-                                    <p>We focus on safe travel practices and thoughtful experiences that respect local communities and nature.</p>
+                                    <p>We focus on safe travel practices and thoughtful experiences that respect local
+                                        communities and nature.</p>
                                 </div>
                             </div>
                         </div>
@@ -694,7 +687,7 @@
 
 
         <!-- Most Popular -->
-        <section class="containers common-box hav-title-btn">
+        <section class="containers hav-title-btn">
             <div class="homepage__container containers">
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -708,7 +701,8 @@
                         </h2>
                     </div>
                     <div class="mb-0">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum magni recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum
+                            magni recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
                         <div class="section-title-btn">
                             <a href=""
                                 class="inline-flex items-center gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">View
@@ -731,14 +725,8 @@
                                         <div class="placeholder__img-wrapper w-full">
                                             <div class="w-full placeholder__img">
                                                 <a href="">
-                                                    <img
-                                                        src="/images/dynamic/trekking.webp"
-                                                        width="600"
-                                                        height="800"
-                                                        loading="lazy"
-                                                        decoding="async"
-                                                        data-nimg="1"
-                                                        alt="banner"
+                                                    <img src="/images/dynamic/trekking.webp" width="600" height="800"
+                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
                                                         style="color: transparent" />
                                                 </a>
                                             </div>
@@ -754,7 +742,9 @@
                                 </div>
 
                                 <h3 class="category-list__item-title">
-                                    <a href="" class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking in Nepal</a>
+                                    <a href=""
+                                        class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking
+                                        in Nepal</a>
                                 </h3>
 
                             </div>
@@ -764,14 +754,8 @@
                                         <div class="placeholder__img-wrapper w-full">
                                             <div class="w-full placeholder__img">
                                                 <a href="">
-                                                    <img
-                                                        src="/images/dynamic/trekking.webp"
-                                                        width="600"
-                                                        height="800"
-                                                        loading="lazy"
-                                                        decoding="async"
-                                                        data-nimg="1"
-                                                        alt="banner"
+                                                    <img src="/images/dynamic/trekking.webp" width="600" height="800"
+                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
                                                         style="color: transparent" />
                                                 </a>
                                             </div>
@@ -780,14 +764,16 @@
                                     <div class="category-list__item-meta">
                                         <div class="category-list__item-meta-content ">
                                             <div class="">
-                                                <span class="icon-milestone"> </span>12 Trips
+                                                <span class="icon-milestone icon-trip"> </span>12 Trips
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <h3 class="category-list__item-title">
-                                    <a href="" class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking in Nepal</a>
+                                    <a href=""
+                                        class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking
+                                        in Nepal</a>
                                 </h3>
 
                             </div>
@@ -797,14 +783,8 @@
                                         <div class="placeholder__img-wrapper w-full">
                                             <div class="w-full placeholder__img">
                                                 <a href="">
-                                                    <img
-                                                        src="/images/dynamic/trekking.webp"
-                                                        width="600"
-                                                        height="800"
-                                                        loading="lazy"
-                                                        decoding="async"
-                                                        data-nimg="1"
-                                                        alt="banner"
+                                                    <img src="/images/dynamic/trekking.webp" width="600" height="800"
+                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
                                                         style="color: transparent" />
                                                 </a>
                                             </div>
@@ -820,7 +800,9 @@
                                 </div>
 
                                 <h3 class="category-list__item-title">
-                                    <a href="" class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking in Nepal</a>
+                                    <a href=""
+                                        class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking
+                                        in Nepal</a>
                                 </h3>
 
                             </div>
@@ -830,14 +812,8 @@
                                         <div class="placeholder__img-wrapper w-full">
                                             <div class="w-full placeholder__img">
                                                 <a href="">
-                                                    <img
-                                                        src="/images/dynamic/trekking.webp"
-                                                        width="600"
-                                                        height="800"
-                                                        loading="lazy"
-                                                        decoding="async"
-                                                        data-nimg="1"
-                                                        alt="banner"
+                                                    <img src="/images/dynamic/trekking.webp" width="600" height="800"
+                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
                                                         style="color: transparent" />
                                                 </a>
                                             </div>
@@ -853,7 +829,9 @@
                                 </div>
 
                                 <h3 class="category-list__item-title">
-                                    <a href="" class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking in Nepal</a>
+                                    <a href=""
+                                        class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking
+                                        in Nepal</a>
                                 </h3>
 
                             </div>
@@ -863,14 +841,8 @@
                                         <div class="placeholder__img-wrapper w-full">
                                             <div class="w-full placeholder__img">
                                                 <a href="">
-                                                    <img
-                                                        src="/images/dynamic/trekking.webp"
-                                                        width="600"
-                                                        height="800"
-                                                        loading="lazy"
-                                                        decoding="async"
-                                                        data-nimg="1"
-                                                        alt="banner"
+                                                    <img src="/images/dynamic/trekking.webp" width="600" height="800"
+                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
                                                         style="color: transparent" />
                                                 </a>
                                             </div>
@@ -886,7 +858,9 @@
                                 </div>
 
                                 <h3 class="category-list__item-title">
-                                    <a href="" class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking in Nepal</a>
+                                    <a href=""
+                                        class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking
+                                        in Nepal</a>
                                 </h3>
 
                             </div>
@@ -912,7 +886,7 @@
     </section>
 
     <!-- Videos Section -->
-    <section class="homepage__videos common-box containers hav-title-btn scroll-wrap">
+    <section class="homepage__videos common-box pb-0 containers hav-title-btn scroll-wrap">
 
         <!-- Title Section -->
         <div class="flex items-center justify-between mb-6">
@@ -925,7 +899,9 @@
                 </h2>
             </div>
             <div class="flex items-center section-title-btn">
-                <a href="" class="inline-flex items-center mt-10 gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">View All Activities <span class="text-sm icon-view"></span></a>
+                <a href=""
+                    class="inline-flex items-center mt-10 gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">View
+                    All Activities <span class="text-sm icon-view"></span></a>
             </div>
         </div>
 
@@ -936,21 +912,17 @@
                     <div class="moments-list__item-image relative">
                         <div class="placeholder__img-wrapper  w-full">
                             <div class="placeholder__img w-full ">
-                                <img
-                                    src="/images/dynamic/hero3.jpg"
-                                    width="1200"
-                                    height="550"
-                                    loading="lazy"
-                                    decoding="async"
-                                    data-nimg="1"
-                                    style="color: transparent;"
+                                <img src="/images/dynamic/hero3.jpg" width="1200" height="550" loading="lazy"
+                                    decoding="async" data-nimg="1" style="color: transparent;"
                                     alt="Everest Base Camp" />
                             </div>
                         </div>
                         <div class="fancybox-wrapper">
-                            <div role="button" data-fancybox="true" data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s" area-label="Watch video review">
+                            <div role="button" data-fancybox="true"
+                                data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
+                                area-label="Watch video review">
                                 <span class="absolute inset-0 flex items-center justify-center z-10 cursor-pointer">
-                                    <span class="icon-play-button text-white text-5xl"></span>></spanclass>
+                                    <span class="icon-play-button text-white text-5xl"></span></span>
                             </div>
                         </div>
                         <div class="absolute bottom-6 left-6 text-white z-10">
@@ -967,21 +939,17 @@
                         <div class="moments-list__item-image relative">
                             <div class="placeholder__img-wrapper">
                                 <div class="placeholder__img w-full">
-                                    <img
-                                        src="/images/dynamic/hero3.jpg"
-                                        width="1200"
-                                        height="550"
-                                        loading="lazy"
-                                        decoding="async"
-                                        data-nimg="1"
-                                        style="color: transparent;"
+                                    <img src="/images/dynamic/hero3.jpg" width="1200" height="550" loading="lazy"
+                                        decoding="async" data-nimg="1" style="color: transparent;"
                                         alt="Everest Base Camp" />
                                 </div>
                             </div>
                             <div class="fancybox-wrapper">
-                                <div role="button" data-fancybox="true" data-src="https://www.youtube.com/watch?v=bVYJNM1Pih0&t=2s" area-label="Watch video review">
+                                <div role="button" data-fancybox="true"
+                                    data-src="https://www.youtube.com/watch?v=bVYJNM1Pih0&t=2s"
+                                    area-label="Watch video review">
                                     <span class="absolute inset-0 flex items-start justify-end z-10 mt-3">
-                                        <span class="icon-play-button text-white text-5xl"></span>></spanclass>
+                                        <span class="icon-play-button text-white text-5xl"></span></span>
                                 </div>
                             </div>
                             <div class="absolute bottom-4 left-4 text-white z-10">
@@ -996,21 +964,17 @@
                         <div class="moments-list__item-image relative">
                             <div class="placeholder__img-wrapper">
                                 <div class="placeholder__img w-full">
-                                    <img
-                                        src="/images/dynamic/hero3.jpg"
-                                        width="1200"
-                                        height="550"
-                                        loading="lazy"
-                                        decoding="async"
-                                        data-nimg="1"
-                                        style="color: transparent;"
+                                    <img src="/images/dynamic/hero3.jpg" width="1200" height="550" loading="lazy"
+                                        decoding="async" data-nimg="1" style="color: transparent;"
                                         alt="Everest Base Camp" />
                                 </div>
                             </div>
                             <div class="fancybox-wrapper">
-                                <div role="button" data-fancybox="true" data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s" area-label="Watch video review">
+                                <div role="button" data-fancybox="true"
+                                    data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
+                                    area-label="Watch video review">
                                     <span class="absolute inset-0 flex items-start justify-end z-10 mt-3">
-                                        <span class="icon-play-button text-white text-5xl"></span>></spanclass>
+                                        <span class="icon-play-button text-white text-5xl"></span></span>
                                 </div>
                             </div>
                             <div class="absolute bottom-4 left-4 text-white z-10">
@@ -1027,7 +991,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="containers common-box hav-title-btn">
+    <section class="containers common-box hav-title-btn pb-0">
 
         <div class="flex items-center justify-between">
             <div class="mb-0 section-title-wrap">
@@ -1039,7 +1003,9 @@
                 </h2>
             </div>
             <div class="flex items-center section-title-btn">
-                <a href="" class="inline-flex items-center mt-10 gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">View All Reviews <span class="text-sm icon-view"></span></a>
+                <a href=""
+                    class="inline-flex items-center mt-10 gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">View
+                    All Reviews <span class="text-sm icon-view"></span></a>
             </div>
         </div>
 
@@ -1047,35 +1013,42 @@
         <div class="homepage__review-summary review-block">
 
             <div class="homepage__review-tabs review-tabs">
-                <div class="homepage__review-tab review-tab-item">
+                <div class="homepage__review-tab review-tab-item cursor-pointer" data-name="All Reviews"
+                    data-count="500">
                     <span>All Reviews</span>
                     <span class="font-semibold">4.6</span>
                 </div>
-                <div class="homepage__review-tab review-tab-item">
-                    <img src="/images/svg/circular-tripadvisor.svg" alt="" class="w-5 h-5">
+
+                <div class="homepage__review-tab review-tab-item cursor-pointer" data-name="Trip Advisor"
+                    data-count="222">
+                    <img src="/images/svg/circular-tripadvisor.svg" class="w-5 h-5">
                     Trip Advisor
                     <span class="font-semibold">4.6</span>
                 </div>
-                <div class="homepage__review-tab review-tab-item">
-                    <img src="/images/svg/circular-facebook.svg" alt="" class="w-5 h-5">
+
+                <div class="homepage__review-tab review-tab-item cursor-pointer" data-name="Facebook" data-count="180">
+                    <img src="/images/svg/circular-facebook.svg" class="w-5 h-5">
                     Facebook
                     <span class="font-semibold">4.6</span>
                 </div>
-                <div class="homepage__review-tab review-tab-item">
-                    <img src="/images/svg/circular-google.svg" alt="" class="w-5 h-5">
+
+                <div class="homepage__review-tab review-tab-item" data-name="Google" data-count="300">
+                    <img src="/images/svg/circular-google.svg" class="w-5 h-5">
                     Google
                     <span class="font-semibold">4.6</span>
                 </div>
+
             </div>
             <div class="homepage__review-center review-center">
                 <div class="flex items-center gap-3">
-                    <img src="/images/svg/circular-tripadvisor.svg" alt="" class="w-5 h-5">
-                    <span class="text-xl sm:text-2xl lg:text-3xl font-bold">Trip Advisor</span>
+                    <img id="reviewIcon" src="/images/svg/circular-tripadvisor.svg" class="w-5 h-5">
+                    <span id="reviewTitle" class="text-xl sm:text-2xl lg:text-3xl font-bold">Trip Advisor</span>
                 </div>
                 <div>
-                    <span class="text-sm mt-1">222 reviews</span>
+                    <span id="reviewCount" class="text-sm mt-1">222 reviews</span>
                 </div>
             </div>
+
 
 
 
@@ -1103,15 +1076,19 @@
                             <div class="testimonial__list-item-title">"The trek was life-changing</div>
                             <div class="review-list__item-content text-text_color text-sm">
                                 <div class="testimonial__list-item-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas, eum mollitia. Similique harum veniam totam iste?</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis
+                                        fugit. Quas, eum mollitia. Similique harum veniam totam iste?</p>
                                 </div>
                             </div>
                             <div class="testimonial__list-item-reviewer ">
                                 <div class="reviewer-image">
-                                    <div class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">A</div>
+                                    <div
+                                        class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
+                                        A</div>
                                 </div>
                                 <div class="reviewer-content">
-                                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza - USA</div>
+                                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro
+                                        Barraza - USA</div>
                                     <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
                                 </div>
                             </div>
@@ -1135,15 +1112,19 @@
                             <div class="testimonial__list-item-title">"The trek was life-changing</div>
                             <div class="review-list__item-content text-text_color text-sm">
                                 <div class="testimonial__list-item-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas, eum mollitia. Similique harum veniam totam iste?</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis
+                                        fugit. Quas, eum mollitia. Similique harum veniam totam iste?</p>
                                 </div>
                             </div>
                             <div class="testimonial__list-item-reviewer ">
                                 <div class="reviewer-image">
-                                    <div class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">A</div>
+                                    <div
+                                        class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
+                                        A</div>
                                 </div>
                                 <div class="reviewer-content">
-                                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza - USA</div>
+                                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro
+                                        Barraza - USA</div>
                                     <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
                                 </div>
                             </div>
@@ -1166,15 +1147,19 @@
                             <div class="testimonial__list-item-title">"The trek was life-changing</div>
                             <div class="review-list__item-content text-text_color text-sm">
                                 <div class="testimonial__list-item-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas, eum mollitia. Similique harum veniam totam iste?</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis
+                                        fugit. Quas, eum mollitia. Similique harum veniam totam iste?</p>
                                 </div>
                             </div>
                             <div class="testimonial__list-item-reviewer ">
                                 <div class="reviewer-image">
-                                    <div class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">A</div>
+                                    <div
+                                        class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
+                                        A</div>
                                 </div>
                                 <div class="reviewer-content">
-                                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza - USA</div>
+                                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro
+                                        Barraza - USA</div>
                                     <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
                                 </div>
                             </div>
@@ -1196,7 +1181,7 @@
     </section>
 
     <!-- Blogs -->
-    <section class=" containers common-box hav-title-btn">
+    <section class=" containers common-box hav-title-btn scroll-wrap pb-0">
 
         <!-- title -->
         <div class="flex items-center justify-between mb-6">
@@ -1209,7 +1194,9 @@
                 </div>
             </div>
             <div class="flex items-center section-title-btn">
-                <a href="" class="inline-flex items-center mt-10 gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">View All Articles <span class="text-sm icon-view"></span></a>
+                <a href=""
+                    class="inline-flex items-center mt-10 gap-3 border-dotted border-2 border-primary rounded-[30px] px-5 py-2.5">View
+                    All Articles <span class="text-sm icon-view"></span></a>
             </div>
         </div>
 
@@ -1221,11 +1208,7 @@
                         <div class="placeholder__img-wrapper ">
                             <div class="w-full placeholder__img">
                                 <a href="">
-                                    <img
-                                        src="/images/dynamic/blog-thumb.webp"
-                                        width="600"
-                                        height="400"
-                                        alt="banner" />
+                                    <img src="/images/dynamic/blog-thumb.webp" width="600" height="400" alt="banner" />
                                 </a>
                             </div>
                         </div>
@@ -1255,11 +1238,7 @@
                         <div class="placeholder__img-wrapper ">
                             <div class="w-full placeholder__img">
                                 <a href="">
-                                    <img
-                                        src="/images/dynamic/blog-thumb.webp"
-                                        width="600"
-                                        height="400"
-                                        alt="banner" />
+                                    <img src="/images/dynamic/blog-thumb.webp" width="600" height="400" alt="banner" />
                                 </a>
                             </div>
                         </div>
@@ -1289,11 +1268,7 @@
                         <div class="placeholder__img-wrapper ">
                             <div class="w-full placeholder__img">
                                 <a href="">
-                                    <img
-                                        src="/images/dynamic/blog-thumb.webp"
-                                        width="600"
-                                        height="400"
-                                        alt="banner" />
+                                    <img src="/images/dynamic/blog-thumb.webp" width="600" height="400" alt="banner" />
                                 </a>
                             </div>
                         </div>
@@ -1330,7 +1305,32 @@
 
 <!-- Swipper -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    <script>
+        const tabs = document.querySelectorAll('.review-tab-item');
 
+tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+
+                const name = tab.dataset.name;
+                const count = tab.dataset.count;
+                const img = tab.querySelector('img');
+
+                document.getElementById('reviewTitle').innerText = name;
+                document.getElementById('reviewCount').innerText = count + ' reviews';
+
+                if (img) {
+                    document.getElementById('reviewIcon').src = img.src;
+                }
+
+                // active state (optional)
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+            });
+});
+</script>
+
+</script>
 <!-- <script>
     document.addEventListener("DOMContentLoaded", () => {
         const homeAccordion = document.querySelector(".why-choose-accordion");
@@ -1396,63 +1396,3 @@
         }
     });
 </script> -->
-
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const accordions = document.querySelectorAll(".accordion"); // select all accordions
-        const speed = 1; // match SCSS $speed
-
-        accordions.forEach((accordion) => {
-            const items = accordion.querySelectorAll(".accordion__item");
-
-            items.forEach((item) => {
-                const header = item.querySelector(".accordion__item-title");
-                const body = item.querySelector(".accordion__item-content");
-
-                header.addEventListener("click", () => {
-                    const isOpen = item.classList.contains("open");
-
-                    // Close other items inside the same accordion
-                    items.forEach((other) => {
-                        if (other !== item) collapse(other);
-                    });
-
-                    if (isOpen) {
-                        collapse(item);
-                    } else {
-                        expand(item);
-                    }
-                });
-
-                // start closed
-                body.style.height = "0px";
-            });
-
-            function expand(item) {
-                const body = item.querySelector(".accordion__item-content");
-                item.classList.add("open");
-                item.querySelector(".accordion__item-title").classList.add("active");
-
-                body.style.height = body.scrollHeight + "px";
-                setTimeout(() => {
-                    body.style.height = "auto";
-                }, speed);
-            }
-
-            function collapse(item) {
-                const body = item.querySelector(".accordion__item-content");
-                item.classList.remove("open");
-                item.querySelector(".accordion__item-title").classList.remove("active");
-
-                body.style.height = body.scrollHeight + "px"; // set current height
-                setTimeout(() => {
-                    body.style.height = "0px";
-                }, 10);
-            }
-        });
-    });
-</script>
-
-
-<script src="<?= htmlspecialchars(rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') ?: '/', ENT_QUOTES) ?>/js/index.js" defer></script>
-<script src="./js/index.js"></script>
