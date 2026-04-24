@@ -2500,6 +2500,93 @@
     @apply mx-auto mt-2 max-w-prose text-sm leading-relaxed text-white/90 md:mx-0;
   }
 }
+.homepage__why-choose {
+  @apply self-stretch lg:col-span-6;
+
+  .why-choose-accordion {
+    @apply h-full w-full rounded-[10px] sm:rounded-[10px_5px_5px_50px] lg:rounded-[10px_5px_5px_100px] bg-[#6cafda] p-4 pl-4 py-6 sm:px-8 sm:py-10 lg:px-30 lg:py-20 text-white;
+  }
+
+  .why-choose-accordion__heading {
+    @apply relative mb-8 pb-6 font-playfair text-xl font-black leading-11.5 text-white sm:text-2xl lg:text-3xl;
+  }
+
+  .why-choose-accordion__heading::after {
+    content: "";
+    @apply absolute bottom-0 left-0 h-px w-full bg-white/70;
+  }
+
+  .why-choose-accordion__list {
+    @apply flex flex-col;
+  }
+
+  .why-choose-accordion__item {
+    @apply border-b border-white/60 py-5;
+  }
+
+  .why-choose-accordion__item:first-child {
+    @apply pt-0;
+  }
+
+  .why-choose-accordion__item:last-child {
+    @apply border-b-0 pb-0;
+  }
+
+  .why-choose-accordion__item.is-open .why-choose-accordion__toggle::after {
+    @apply rotate-0;
+    transform: translate(-50%, -50%) scaleY(0);
+  }
+
+  .why-choose-accordion__trigger {
+    @apply flex w-full items-start justify-between gap-4 text-left;
+  }
+
+  .why-choose-accordion__label {
+    @apply flex min-w-0 items-start gap-4;
+  }
+
+  .why-choose-accordion__icon {
+    @apply mt-1 inline-flex shrink-0 items-center justify-center text-xl text-white;
+  }
+
+  .why-choose-accordion__title {
+    @apply font-mulish text-lg font-bold text-white lg:text-xl;
+  }
+
+  .why-choose-accordion__toggle {
+    @apply relative mt-1 block h-7 w-7 shrink-0 text-white/80;
+  }
+
+  .why-choose-accordion__toggle::before,
+  .why-choose-accordion__toggle::after {
+    content: "";
+    @apply absolute top-1/2 left-1/2 block h-0.5 w-6 -translate-x-1/2 -translate-y-1/2 bg-current transition-transform duration-300;
+  }
+
+  .why-choose-accordion__toggle::after {
+    @apply rotate-90;
+  }
+
+  .why-choose-accordion__content {
+    @apply max-h-0 overflow-hidden pl-9 pr-10 font-mulish text-white/95 transition-all duration-300;
+  }
+
+  .why-choose-accordion__content p {
+    @apply mb-0 pt-3 font-mulish text-sm leading-5 text-white/95;
+  }
+
+  .why-choose-accordion__link {
+    @apply mt-2 inline-flex items-center gap-2 text-sm font-semibold text-white no-underline;
+  }
+
+  .why-choose-accordion__link:hover {
+    @apply text-white underline;
+  }
+
+  .why-choose-accordion__link span {
+    @apply text-sm;
+  }
+}
 /* homepage ends*/
 
 /* inner why us starts */
