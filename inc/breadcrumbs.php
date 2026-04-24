@@ -1,31 +1,15 @@
-<!-- <section class="py-2">
+<div class="breadcrumbs__wrapper">
   <div class="container">
-    <ul class="breadcrumb">
-
-      <li class="breadcrumb-item">
-        <a href="#">Home</a>
+    <ul class="breadcrumbs__list">
+      <li class="breadcrumbs__list-item">
+        <a href="/">Home</a>
+        <span class="breadcrumbs__separator" aria-hidden="true">
+          <img src="./images/svg/back.svg" alt="">
+        </span>
       </li>
-
-      <li class="breadcrumb-item">
-        <a href="#">Destination</a>
+      <li class="breadcrumbs__list-item">
+        <span class="inline-flex items-center text-xs">Contact Us</span>
       </li>
-
-      <li class="breadcrumb-item">
-        <a href="#">Nepal</a>
-      </li>
-
-      <li class="breadcrumb-item">
-        <a href="#">Trekking and Hiking</a>
-      </li>
-
-      <li class="breadcrumb-item">
-        <a href="#">Everest Region</a>
-      </li>
-
-      <li class="breadcrumb-item">
-        Everest Base Camp Trek 15 Days
-      </li>
-
     </ul>
   </div>
-</section> -->
+</div>

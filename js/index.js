@@ -246,6 +246,170 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
+  const initReviewTabs = () => {
+    const reviewBlocks = qsa(".homepage__review-summary");
+
+    reviewBlocks.forEach((block) => {
+      if (!block || block.dataset.reviewTabsBound === "true") {
+        return;
+      }
+
+      const tabs = qsa(".review-tab-item", block);
+      const title = qs("#reviewTitle", block);
+      const count = qs("#reviewCount", block);
+      const rating = qs("#reviewRating", block);
+      const icon = qs("#reviewIcon", block);
+
+      if (tabs.length === 0 || !title || !count || !rating || !icon) {
+        return;
+      }
+
+      const setActive = (tab) => {
+        tabs.forEach((item) => {
+          const isActive = item === tab;
+          item.classList.toggle("active", isActive);
+          item.setAttribute("aria-pressed", isActive ? "true" : "false");
+        });
+
+        title.textContent = tab.dataset.name || "";
+        count.textContent = `${tab.dataset.count || "0"} reviews`;
+        rating.textContent = `${tab.dataset.rating || ""} rating`;
+
+        const iconSrc = tab.dataset.icon || "";
+        if (iconSrc) {
+          icon.src = iconSrc;
+          icon.alt = tab.dataset.name || "Review source";
+          icon.classList.remove("hidden");
+        } else {
+          icon.src = "";
+          icon.alt = "";
+          icon.classList.add("hidden");
+        }
+      };
+
+      const initialTab = tabs.find((tab) => tab.classList.contains("active")) || tabs[0];
+      setActive(initialTab);
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          setActive(tab);
+        });
+      });
+
+      block.dataset.reviewTabsBound = "true";
+    });
+  };
+
+  const initHeroNoticeSlider = () => {
+    const slider = qs("#heroNoticeSlider");
+    if (!slider || slider.dataset.noticeSliderBound === "true") {
+      return;
+    }
+
+    const slides = qsa(".js-search-slide", slider);
+    const prevButton = qs(".js-search-prev", slider);
+    const nextButton = qs(".js-search-next", slider);
+    const closeButton = qs(".js-search-close", slider);
+    const current = qs(".js-search-current", slider);
+
+    if (slides.length === 0 || !current) {
+      return;
+    }
+
+    let activeIndex = Math.max(
+      0,
+      slides.findIndex((slide) => slide.classList.contains("is-active")),
+    );
+
+    const update = () => {
+      slides.forEach((slide, index) => {
+        slide.classList.toggle("is-active", index === activeIndex);
+      });
+      current.textContent = String(activeIndex + 1);
+    };
+
+    prevButton?.addEventListener("click", () => {
+      activeIndex = (activeIndex - 1 + slides.length) % slides.length;
+      update();
+    });
+
+    nextButton?.addEventListener("click", () => {
+      activeIndex = (activeIndex + 1) % slides.length;
+      update();
+    });
+
+    closeButton?.addEventListener("click", () => {
+      slider.classList.add("hidden");
+    });
+
+    update();
+    slider.dataset.noticeSliderBound = "true";
+  };
+
+  const initPackageAddons = () => {
+    const addonLists = qsa("#package-addons-list");
+
+    addonLists.forEach((list) => {
+      if (!list || list.dataset.packageAddonsBound === "true") {
+        return;
+      }
+
+      const items = qsa(".package__addons-item", list);
+
+      const closeItem = (item) => {
+        const trigger = qs(".package__addons-item-trigger", item);
+        const panel = qs(".package__addons-item-panel", item);
+        if (!trigger || !panel) return;
+
+        item.classList.remove("is-open");
+        trigger.setAttribute("aria-expanded", "false");
+        panel.style.maxHeight = "0px";
+      };
+
+      const openItem = (item) => {
+        const trigger = qs(".package__addons-item-trigger", item);
+        const panel = qs(".package__addons-item-panel", item);
+        if (!trigger || !panel) return;
+
+        item.classList.add("is-open");
+        trigger.setAttribute("aria-expanded", "true");
+        panel.style.maxHeight = `${panel.scrollHeight}px`;
+      };
+
+      items.forEach((item) => {
+        const trigger = qs(".package__addons-item-trigger", item);
+        const panel = qs(".package__addons-item-panel", item);
+        if (!trigger || !panel) return;
+
+        if (item.classList.contains("is-open")) {
+          trigger.setAttribute("aria-expanded", "true");
+          panel.style.maxHeight = `${panel.scrollHeight}px`;
+        } else {
+          trigger.setAttribute("aria-expanded", "false");
+          panel.style.maxHeight = "0px";
+        }
+
+        trigger.addEventListener("click", () => {
+          const isOpen = item.classList.contains("is-open");
+
+          items.forEach((otherItem) => {
+            if (otherItem !== item) {
+              closeItem(otherItem);
+            }
+          });
+
+          if (isOpen) {
+            closeItem(item);
+          } else {
+            openItem(item);
+          }
+        });
+      });
+
+      list.dataset.packageAddonsBound = "true";
+    });
+  };
+
   const initHeaderInteractions = () => {
     const headerRoot = qs(".header");
     if (!headerRoot || headerRoot.dataset.headerInteractionsBound === "true") {
@@ -504,6 +668,9 @@ document.addEventListener("DOMContentLoaded", () => {
   initAccordions();
   initWhyChooseAccordions();
   initCollapsibles();
+  initReviewTabs();
+  initHeroNoticeSlider();
+  initPackageAddons();
 
   const mobileSearchPopup = document.getElementById("mobile-search-popup");
   if (mobileSearchPopup) {

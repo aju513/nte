@@ -2,11 +2,6 @@
 <html lang="en">
 
 <head>
-    <?php
-    $basePath = htmlspecialchars(rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\') ?: '/', ENT_QUOTES);
-    $mainBuildPath = __DIR__ . '/../css/main.build.css';
-    $mainBuildVersion = file_exists($mainBuildPath) ? filemtime($mainBuildPath) : time();
-    ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Travel Experience</title>
@@ -18,10 +13,9 @@
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet" />
     <!-- Local compiled CSS for PHP/XAMPP runtime -->
-    <link rel="stylesheet" href="<?= $basePath ?>/css/main.build.css?v=<?= $mainBuildVersion ?>">
-
+    <script type="module" src="http://localhost:5174/@vite/client"></script>
     <!-- Vite CSS for development (works when `npm run dev` is running) -->
-    <link rel="stylesheet" href="http://localhost:5173/css/main.css">
+    <link rel="stylesheet" href="http://localhost:5174/css/main.css">
     <!-- Fancy app installation -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css" />
     <!-- Swiper Installation -->
@@ -30,11 +24,11 @@
     <style>
         @font-face {
             font-family: 'icomoon';
-            src: url('fonts/icomoon.eot?bbu8f4');
-            src: url('fonts/icomoon.eot?bbu8f4#iefix') format('embedded-opentype'),
-                url('fonts/icomoon.ttf?bbu8f4') format('truetype'),
-                url('fonts/icomoon.woff?bbu8f4') format('woff'),
-                url('fonts/icomoon.svg?bbu8f4#icomoon') format('svg');
+            src: url('fonts/icomoon.eot?edcbr9');
+            src: url('fonts/icomoon.eot?edcbr9#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?edcbr9') format('truetype'),
+                url('fonts/icomoon.woff?edcbr9') format('woff'),
+                url('fonts/icomoon.svg?edcbr9#icomoon') format('svg');
             font-weight: normal;
             font-style: normal;
             font-display: block;
@@ -54,6 +48,74 @@
             /* Better Font Rendering =========== */
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
+        }
+
+        .icon-zoom-icon:before {
+            content: "\e946";
+        }
+
+        .icon-tiktok:before {
+            content: "\e940";
+        }
+
+        .icon-youtube:before {
+            content: "\e941";
+        }
+
+        .icon-pinterest:before {
+            content: "\e942";
+        }
+
+        .icon-x:before {
+            content: "\e943";
+        }
+
+        .icon-instagram:before {
+            content: "\e944";
+        }
+
+        .icon-facebook:before {
+            content: "\e945";
+        }
+
+        .icon-nav-equipment:before {
+            content: "\e934";
+        }
+
+        .icon-nav-addon:before {
+            content: "\e937";
+        }
+
+        .icon-nav-cost:before {
+            content: "\e938";
+        }
+
+        .icon-nav-information:before {
+            content: "\e939";
+        }
+
+        .icon-nav-review:before {
+            content: "\e93a";
+        }
+
+        .icon-nav-faqs:before {
+            content: "\e93b";
+        }
+
+        .icon-nav-availability:before {
+            content: "\e93c";
+        }
+
+        .icon-nav-map:before {
+            content: "\e93d";
+        }
+
+        .icon-nav-gallery:before {
+            content: "\e93e";
+        }
+
+        .icon-nav-overview:before {
+            content: "\e93f";
         }
 
         .icon-max-altitude:before {

@@ -1,6 +1,5 @@
-<footer class="footer relative">
-
-    <div class="bg-secondary h-14 md:h-36 w-full relative">
+<footer class="footer  relative">
+    <div class="bg-secondary md:h-54 lg:h-70 h-8 w-full relative">
         <div class="footer_wave ">
             <img
                 src="/images/svg/footer.svg"
@@ -70,17 +69,16 @@
         </div>
 
         <!-- Footer Grid -->
-        <div class="container mx-auto px-4">
+        <div class="container-fluid  px-4">
             <div class="footer_grid">
 
                 <!-- Logo -->
-                <div class="flex justify-center lg:justify-start lg:self-start">
+                <div class="flex lg:justify-start lg:self-start">
                     <img
                         width="171"
                         height="84"
                         src="/images/svg/logo1.svg"
-                        alt="Nepal Travel Experience"
-                        class="w-32.5 sm:w-40 ms:w-42.75" />
+                        alt="Nepal Travel Experience" />
                 </div>
 
                 <!-- Contact -->
@@ -137,27 +135,28 @@
 
                 <!-- Newsletter & Social -->
                 <div>
-                    <h4>Newsletter</h4>
-                    <p class="text-[15px] sm:text-[16px]">
-                        Sign up for the latest news, offers!
-                    </p>
+                    <div>
+                        <h4>Newsletter</h4>
+                        <p class="text-[16px] ">
+                            Sign up for the latest news, offers!
+                        </p>
 
-                    <button class="view_btn mt-4 mx-auto lg:mx-0">
-                        Subscribe Our Newsletter
-                    </button>
+                        <button class="footer-subscribe ">
+                            Subscribe Our Newsletter
+                        </button>
+                    </div>
 
                     <h4 class="mt-4">
                         Follow Us
                     </h4>
 
-                    <div class="flex flex-wrap gap-3 justify-center lg:justify-start text-primary">
-                        <span class=" icon-facebook1"></span>
-                        <!-- <span class="text-white icon-x-logo"></span> -->
+                    <div class="footer__contact-social flex flex-wrap gap-3  lg:justify-start text-primary">
+                        <span class=" icon-facebook"></span>
                         <span class=" icon-instagram"></span>
-                        <span class=" icon-linkedin"></span>
+                        <span class=" icon-x"></span>
                         <span class=" icon-youtube"></span>
-                        <!-- <span class="text-white icon-pintrest"></span> -->
-                        <!-- <span class="text-white icon-tik-tok"></span> -->
+                        <span class=" icon-pinterest"></span>
+                        <span class="icon-tiktok"></span>
                     </div>
                 </div>
 
@@ -170,7 +169,7 @@
                     width="230"
                     height="35"
                     alt="Payment Methods"
-                    class="mx-auto lg:mx-0 w-full max-w-57.5 h-auto">
+                    class="mx-auto lg:mx-0 w-full max-w-57.5 h-auto cursor-pointer">
 
                 <div class="text-center lg:text-right text-sm">
                     <div class="font-semibold mt-2">
@@ -192,6 +191,6 @@
 
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
 <script src="./js/index.js" defer></script>
 <script src="./js/script.js"></script>

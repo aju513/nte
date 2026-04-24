@@ -3,8 +3,8 @@
                 <div class="container-fluid relative">
                         <div class="grid grid-cols-12 gap-3.75">
                                 <div class="relative col-span-2"><a class="biz__logo" href="/"><img alt="logo" loading="lazy"
-                                                        width="122" height="59" decoding="async" data-nimg="1" style="color:transparent"
-                                                        src="./images/svg/logo1.svg"></a></div>
+                                                        width="125" height="60" decoding="async" data-nimg="1" style="color:transparent"
+                                                        src="./images/svg/logo.svg"></a></div>
                                 <div class="col-span-10">
                                         <div class="flex min-h-15 items-center justify-between">
                                                 <nav class="nav-menu flex items-center justify-end gap-7.5">
@@ -19,65 +19,65 @@
                                                                                 <div class="flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
                                                                                         <div class="flex gap-3">
                                                                                                 <ul class="nav-tab-links">
-                                                                                                        <li><button class="tab-item ">Nepal Tour</button></li>
-                                                                                                        <li><button class="tab-item ">Nepal Trekking</button></li>
-                                                                                                        <li><button class="tab-item active">Peak Climbing</button></li>
+                                                                                                        <li><button class="tab-item ">Nepal </button></li>
+                                                                                                        <li><button class="tab-item ">Bhutan</button></li>
+                                                                                                        <li><button class="tab-item active">Tibet</button></li>
                                                                                                 </ul>
                                                                                                 <div class="tab" style="display: none;">
                                                                                                         <div class="flex flex-wrap justify-start">
                                                                                                                 <ul class="megamenu-items columns-2 xl:columns-3">
                                                                                                                         <li class="p-0 lg:p-2"><a
-                                                                                                                                        class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                        class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         aria-expanded="false"
-                                                                                                                                        href="/categorylist">Everest</a>
+                                                                                                                                        href="/category.php">Everest</a>
                                                                                                                                 <ul class="space-y-2">
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Short Trek to Everest Base
+                                                                                                                                                        href="/package.php">Short Trek to Everest Base
                                                                                                                                                         Camp 7 Days<span
                                                                                                                                                                 class="text-primary -mt-0.5 block text-xs">Duration:
                                                                                                                                                                 7 Days</span></a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Gokyo Lakes Trek</a></li>
+                                                                                                                                                        href="../package.php">Gokyo Lakes Trek</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Everest View Trek</a></li>
+                                                                                                                                                        href="/package.php">Everest View Trek</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Everest Base Camp Trek with
+                                                                                                                                                        href="/package.php">Everest Base Camp Trek with
                                                                                                                                                         Helicopter Return</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Everest Three High Pass
+                                                                                                                                                        href="/package.php">Everest Three High Pass
                                                                                                                                                         Trek</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Everest Mani Rimdu Festival
+                                                                                                                                                        href="/package.php">Everest Mani Rimdu Festival
                                                                                                                                                         Trek</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Everest Base Camp Trek</a>
+                                                                                                                                                        href="/package.php">Everest Base Camp Trek</a>
                                                                                                                                         </li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Everest Base Camp Tour 5
+                                                                                                                                                        href="/package.php">Everest Base Camp Tour 5
                                                                                                                                                         Days</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Everest Gokyo Chola Pass
+                                                                                                                                                        href="/package.php">Everest Gokyo Chola Pass
                                                                                                                                                         Trek</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Sleeping at Everest Base
+                                                                                                                                                        href="/package.php">Sleeping at Everest Base
                                                                                                                                                         Camp Trek</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Everest Base Camp
+                                                                                                                                                        href="/package.php">Everest Base Camp
                                                                                                                                                         Helicopter Tour</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Kathmandu to Lukla
+                                                                                                                                                        href="/package.php">Kathmandu to Lukla
                                                                                                                                                         Helicopter Flight Booking</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Shortest Everest Base Camp
+                                                                                                                                                        href="/package.php">Shortest Everest Base Camp
                                                                                                                                                         EBC Trek 7 Day</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Everest Base Camp
+                                                                                                                                                        href="/package.php">Everest Base Camp
                                                                                                                                                         Helicopter Return Trek - 9 Days</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Numbur Cheese Circuit Trek
+                                                                                                                                                        href="/package.php">Numbur Cheese Circuit Trek
                                                                                                                                                         - 15 Days</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
-                                                                                                                                                        href="/category">Jiri to Everest Base Camp
+                                                                                                                                                        href="/package.php">Jiri to Everest Base Camp
                                                                                                                                                         Trek</a></li>
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
                                                                                                                                                         href="/category">Phaplu Lukla Everest Base
@@ -94,10 +94,10 @@
                                                                                                                                 </ul>
                                                                                                                         </li>
                                                                                                                         <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                        class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                        class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Multi City</a></li>
                                                                                                                         <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                        class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                        class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Kanchenjunga</a>
                                                                                                                                 <ul class="space-y-2">
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -106,7 +106,7 @@
                                                                                                                                 </ul>
                                                                                                                         </li>
                                                                                                                         <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                        class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                        class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Mustang and Manang</a>
                                                                                                                                 <ul class="space-y-2">
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -117,7 +117,7 @@
                                                                                                                                 </ul>
                                                                                                                         </li>
                                                                                                                         <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                        class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                        class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Mustang and Manang</a>
                                                                                                                                 <ul class="space-y-2">
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -128,7 +128,7 @@
                                                                                                                                 </ul>
                                                                                                                         </li>
                                                                                                                         <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                        class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                        class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Test</a>
                                                                                                                                 <ul class="space-y-2">
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -158,7 +158,7 @@
                                                                                                                                 </ul>
                                                                                                                         </li>
                                                                                                                         <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                        class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                        class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Mustang and Manang</a>
                                                                                                                                 <ul class="space-y-2">
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -169,7 +169,7 @@
                                                                                                                                 </ul>
                                                                                                                         </li>
                                                                                                                         <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                        class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                        class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Test</a>
                                                                                                                                 <ul class="space-y-2">
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -199,7 +199,7 @@
                                                                                                                                 </ul>
                                                                                                                         </li>
                                                                                                                         <li class="p-0 lg:p-2"><a
-                                                                                                                                        class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                        class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         aria-expanded="false" href="/categorylist">Test</a>
                                                                                                                                 <ul class="space-y-2">
                                                                                                                                         <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -236,7 +236,7 @@
                                                                                                                 <div class="flex flex-wrap justify-start">
                                                                                                                         <ul class="megamenu-items columns-2 xl:columns-3">
                                                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Annapurna</a>
                                                                                                                                         <ul class="space-y-2">
@@ -249,7 +249,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Manaslu</a>
                                                                                                                                         <ul class="space-y-2">
@@ -259,10 +259,10 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Multi City</a></li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Kanchenjunga</a>
                                                                                                                                         <ul class="space-y-2">
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -271,7 +271,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul class="space-y-2">
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -283,7 +283,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul class="space-y-2">
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -295,7 +295,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Test</a>
                                                                                                                                         <ul class="space-y-2">
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -325,7 +325,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul>
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -337,7 +337,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Test</a>
                                                                                                                                         <ul class="space-y-2">
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -367,7 +367,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Test</a>
                                                                                                                                         <ul class="space-y-2">
@@ -406,7 +406,7 @@
                                                                                                                 <div class="flex flex-wrap justify-start">
                                                                                                                         <ul class="megamenu-items columns-2 xl:columns-3">
                                                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Everest</a>
                                                                                                                                         <ul class="space-y-2">
@@ -473,7 +473,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Annapurna</a>
                                                                                                                                         <ul class="space-y-2">
@@ -486,7 +486,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Manaslu</a>
                                                                                                                                         <ul class="space-y-2">
@@ -496,10 +496,10 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Multi City</a></li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Kanchenjunga</a>
                                                                                                                                         <ul class="space-y-2">
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -508,7 +508,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul class="space-y-2">
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -520,7 +520,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Test</a>
                                                                                                                                         <ul class="space-y-2">
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -550,7 +550,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul class="space-y-2">
                                                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium transition-all duration-500"
@@ -562,7 +562,7 @@
                                                                                                                                         </ul>
                                                                                                                                 </li>
                                                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Test</a>
                                                                                                                                         <ul class="space-y-2">
@@ -609,46 +609,46 @@
                                                                                 <div class="flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
                                                                                         <ul class="megamenu-items columns-3 xl:columns-4">
                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 href="/categorylist">Everest</a>
                                                                                                         <ul class="space-y-2">
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Short Trek to Everest Base Camp 7
+                                                                                                                                href="../package.php">Short Trek to Everest Base Camp 7
                                                                                                                                 Days</a></li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Gokyo Lakes Trek</a></li>
+                                                                                                                                href="../package.php">Gokyo Lakes Trek</a></li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest View Trek</a></li>
+                                                                                                                                href="../package.php">Everest View Trek</a></li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Base Camp Trek with Helicopter
+                                                                                                                                href="../package.php">Everest Base Camp Trek with Helicopter
                                                                                                                                 Return</a></li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Three High Pass Trek</a></li>
+                                                                                                                                href="../package.php">Everest Three High Pass Trek</a></li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Mani Rimdu Festival Trek</a>
+                                                                                                                                href="../package.php">Everest Mani Rimdu Festival Trek</a>
                                                                                                                 </li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Base Camp Trek</a></li>
+                                                                                                                                href="../package.php">Everest Base Camp Trek</a></li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Base Camp Tour 5 Days</a></li>
+                                                                                                                                href="../package.php">Everest Base Camp Tour 5 Days</a></li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Gokyo Chola Pass Trek</a></li>
+                                                                                                                                href="../package.php">Everest Gokyo Chola Pass Trek</a></li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Sleeping at Everest Base Camp Trek</a>
+                                                                                                                                href="../package.php">Sleeping at Everest Base Camp Trek</a>
                                                                                                                 </li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Base Camp Helicopter Tour</a>
+                                                                                                                                href="../package.php">Everest Base Camp Helicopter Tour</a>
                                                                                                                 </li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Kathmandu to Lukla Helicopter Flight
+                                                                                                                                href="../package.php">Kathmandu to Lukla Helicopter Flight
                                                                                                                                 Booking</a></li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Base Camp Luxury Trek</a></li>
+                                                                                                                                href="../package.php">Everest Base Camp Luxury Trek</a></li>
                                                                                                         </ul>
                                                                                                 </li>
                                                                                                 <li class="p-0 lg:p-2"><a aria-expanded="false"
-                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
-                                                                                                                href="/categorylist">Annapurna</a>
+                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
+                                                                                                                href="../category.php">Annapurna</a>
                                                                                                         <ul class="space-y-2">
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
                                                                                                                                 href="/category">Annapurna Helicopter Tours</a></li>
@@ -657,10 +657,10 @@
                                                                                                         </ul>
                                                                                                 </li>
                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 href="/categorylist">Multi City</a></li>
                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Kanchenjunga</a>
                                                                                                         <ul class="space-y-2">
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
@@ -668,7 +668,7 @@
                                                                                                         </ul>
                                                                                                 </li>
                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Mustang and
                                                                                                                 Manang</a>
                                                                                                         <ul class="space-y-2">
@@ -679,7 +679,7 @@
                                                                                                         </ul>
                                                                                                 </li>
                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Mustang and
                                                                                                                 Manang</a>
                                                                                                         <ul class="space-y-2">
@@ -690,7 +690,7 @@
                                                                                                         </ul>
                                                                                                 </li>
                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Test</a>
                                                                                                         <ul class="space-y-2">
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
@@ -716,7 +716,7 @@
                                                                                                         </ul>
                                                                                                 </li>
                                                                                                 <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between text-base font-bold"
+                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Mustang and
                                                                                                                 Manang</a>
                                                                                                         <ul class="space-y-2">
@@ -823,20 +823,20 @@
                                                                 <li><a class="hover:text-primary text-text_color text-sm leading-3.5 font-bold transition-all duration-500"
                                                                                 href="">Blog</a></li>
                                                                 <li><a class="hover:text-primary text-text_color text-sm leading-3.5 font-bold transition-all duration-500"
-                                                                                href="">Contact Us</a></li>
+                                                                                href="../contact-new.php">Contact Us</a></li>
                                                         </ul>
                                                 </nav>
                                                 <div class="flex items-center gap-5 xl:gap-8">
                                                         <div class="web__menu-search">
                                                                 <div class="websearch-wrap"><span
-                                                                                class="websearch-trigger mt-1.5 hidden cursor-pointer lg:inline-block"><span class="icon icon-searchicon"></span></span>
+                                                                                class="websearch-trigger mt-1.5 hidden cursor-pointer lg:inline-block text-primary text-[20px]"><span class="icon icon-searchicon"></span></span>
                                                                         <div class="websearch-wrap">
                                                                                 <div class="websearch-form hidden"><a class="websearch-close" href="#"><span class="icon-close"></span></a>
                                                                                         <div class="search-wrapper">
                                                                                                 <form class="relative"><input type="text" id="default-search"
                                                                                                                 class="block h-13.75 w-full rounded-lg border border-gray-300 bg-white px-4 py-2"
                                                                                                                 placeholder="Search" required=""><button type="submit"
-                                                                                                                class="absolute end-2.5 bottom-2.5 rounded-lg bg-white px-2 py-2 text-sm font-medium"><span class="icon text-primary text-[16px] icon-searchicon"></span></button></form>
+                                                                                                                class="absolute end-2.5 bottom-2.5 rounded-lg bg-white px-2 py-2 text-sm font-medium"><span class="icon text-primary text-[20px] icon-searchicon"></span></button></form>
                                                                                                 <div class="search-wrapper__list"><a class="search-item" href="">Everest
                                                                                                                 Base Camp Trek - 14 days</a><a class="search-item"
                                                                                                                 href="">Everest Base Camp Trek - 14 days</a><a
@@ -847,7 +847,7 @@
                                                                         </div>
                                                                 </div>
                                                         </div><a href=""
-                                                                class="font-medium text-[15px] text-primary hidden xl:flex items-center gap-2 border border-primary px-4 py-1.5 border-dotted rounded-[42px] hover:bg-primary hover:text-white duration-500 transition-all">Plan Your Trip <span class="text-[15px]  icon-view "
+                                                                class="font-medium text-[15px] text-primary hidden xl:flex items-center gap-2 border border-primary px-4 py-1.5 border-dashed rounded-[42px] hover:bg-primary hover:text-white duration-500 transition-all">Plan Your Trip <span class="text-[15px]  icon-view "
                                                                         aria-hidden="true"></span></a>
                                                 </div>
                                         </div>
@@ -859,15 +859,11 @@
                 <div class="mobile__menu-wrap flex items-center justify-between">
                         <div class="biz__logo"><a class="flex items-center gap-3" href="/"><img alt="logo" loading="lazy" width="75"
                                                 height="40" decoding="async" data-nimg="1" style="color:transparent"
-                                                src="./images/svg/logo1.svg"></a></div>
+                                                src="./images/svg/logo.svg"></a></div>
                         <div class="flex items-center gap-2"><a class="wishlist" href=""><svg
                                                 class=" text-secondary h-6 w-6 fill-current" aria-hidden="true">
                                                 <use href="/sprite.svg#icon-heart-outline"></use>
-                                        </svg></a><span
-                                        class="show-search flex w-full cursor-pointer items-center gap-3 px-3 py-2 sm:px-5 sm:py-4"><svg
-                                                class=" text-secondary h-6 w-6 fill-current" aria-hidden="true">
-                                                <use href="/sprite.svg#icon-search"></use>
-                                        </svg></span>
+                                        </svg></a><span class="icon text-primary text-[20px] icon-searchicon"></span>
                                 <div class="mobile-menu-button" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"
                                         role="button">
                                         <div class="mobile-menu-trigger "><span class="menu-toggle-bar menu-toggle-bar--top"></span><span
