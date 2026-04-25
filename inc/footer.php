@@ -1,11 +1,5 @@
 <footer class="footer  relative">
-    <div class="bg-secondary md:h-54 lg:h-70 h-8 w-full relative">
-        <div class="footer_wave ">
-            <img
-                src="/images/svg/footer.svg"
-                alt=""
-                class="block w-full h-full object-cover object-bottom">
-        </div>
+    <div class="bg-secondary md:h-18 lg:h-46 h-6 w-full relative">
     </div>
 
 
@@ -22,47 +16,27 @@
             <div class="footer_affiliations-logos ">
                 <div class="footer_affiliations-item">
                     <a href="">
-                        <img
-                            width="43"
-                            height="58"
-                            src="/images/associate/taan-logo.svg"
-                            alt="logo" />
+                        <img width="43" height="58" src="/images/associate/taan-logo.svg" alt="logo" />
                     </a>
                 </div>
                 <div class="footer_affiliations-item">
                     <a href="">
-                        <img
-                            width="46"
-                            height="48"
-                            src="/images/associate/ntb-logo.svg"
-                            alt="logo" />
+                        <img width="46" height="48" src="/images/associate/ntb-logo.svg" alt="logo" />
                     </a>
                 </div>
                 <div class="footer_affiliations-item">
                     <a href="">
-                        <img
-                            width="68"
-                            height="58"
-                            src="/images/associate/nma-logo.svg"
-                            alt="logo" />
+                        <img width="68" height="58" src="/images/associate/nma-logo.svg" alt="logo" />
                     </a>
                 </div>
                 <div class="footer_affiliations-item">
                     <a href="">
-                        <img
-                            width="61"
-                            height="53"
-                            src="/images/associate/nepal-goverment-logo.svg"
-                            alt="logo" />
+                        <img width="61" height="53" src="/images/associate/nepal-goverment-logo.svg" alt="logo" />
                     </a>
                 </div>
                 <div class="footer_affiliations-item">
                     <a href="">
-                        <img
-                            width="110"
-                            height="42"
-                            src="/images/associate/keep-logo.svg"
-                            alt="logo" />
+                        <img width="110" height="42" src="/images/associate/keep-logo.svg" alt="logo" />
                     </a>
                 </div>
             </div>
@@ -74,11 +48,7 @@
 
                 <!-- Logo -->
                 <div class="flex lg:justify-start lg:self-start">
-                    <img
-                        width="171"
-                        height="84"
-                        src="/images/svg/logo1.svg"
-                        alt="Nepal Travel Experience" />
+                    <img width="171" height="84" src="/images/svg/logo.svg" alt="Nepal Travel Experience" />
                 </div>
 
                 <!-- Contact -->
@@ -94,23 +64,21 @@
                         <li>
                             <span class="icon-envelope"></span>
                             <a href="mailto:info@nepaltravelexperience.com"
-                                class="max-w-65 md:max-w-none wrap-break-words hover:text-primary transition">
+                                class="max-w-65 md:max-w-none wrap-break-words ">
                                 info@nepaltravelexperience.com
                             </a>
                         </li>
 
                         <li>
                             <span class="icon-phone"></span>
-                            <a href="tel:+977014123456"
-                                class="hover:text-primary transition">
+                            <a href="tel:+977014123456" class="">
                                 +977 - 01 - 4123456
                             </a>
                         </li>
 
                         <li>
                             <span class="icon-whatapp "></span>
-                            <a href="https://wa.me/9779851012345"
-                                class="hover:text-primary transition">
+                            <a href="https://wa.me/9779851012345" class="">
                                 +977 9851012345
                             </a>
                         </li>
@@ -137,9 +105,9 @@
                 <div>
                     <div>
                         <h4>Newsletter</h4>
-                        <p class="text-[16px] ">
+                        <div class="text-base ">
                             Sign up for the latest news, offers!
-                        </p>
+                        </div>
 
                         <button class="footer-subscribe ">
                             Subscribe Our Newsletter
@@ -150,13 +118,18 @@
                         Follow Us
                     </h4>
 
-                    <div class="footer__contact-social flex flex-wrap gap-3  lg:justify-start text-primary">
-                        <span class=" icon-facebook"></span>
-                        <span class=" icon-instagram"></span>
-                        <span class=" icon-x"></span>
-                        <span class=" icon-youtube"></span>
-                        <span class=" icon-pinterest"></span>
-                        <span class="icon-tiktok"></span>
+                    <div class="footer__contact-social flex flex-wrap gap-1.25  lg:justify-start ">
+                        <a class="social-common social-tiktok" aria-label="Tiktok" href=""> <span
+                                class="icon-tiktok"></span></a>
+                        <a class="social-common social-insta" aria-label="Instagram" href=""><span
+                                class=" icon-instagram"></span></a>
+                        <a class="social-common social-x" aria-label="X" href=""><span class=" icon-x"></span></a>
+                        <a class="social-common social-fb" aria-label="Facebook" href=""><span
+                                class=" icon-facebook "></span></a>
+                        <a class="social-common social-yt" aria-label="Youtube" href=""> <span
+                                class=" icon-youtube"></span></a>
+                        <!-- <a class="social-common social-pinterest" aria-label="Pinterest" href=""><span class=" icon-pinterest"></span></a> -->
+
                     </div>
                 </div>
 
@@ -164,23 +137,30 @@
 
             <!-- Bottom Bar -->
             <div class="footer_bottom">
+                <div class="flex gap-1.75">
+                    <div class="footer__payment">
+                        <img src="/images/payment/paypal.svg" width="48" height="13" alt="Payment Methods" />
+                    </div>
+                    <div class="footer__payment">
+                        <img src="/images/payment/mastercard.svg" width="42" height="26" alt="Payment Methods" />
+                    </div>
+                    <div class="footer__payment">
 
-                <img src="/images/payment/payment-logo.svg"
-                    width="230"
-                    height="35"
-                    alt="Payment Methods"
-                    class="mx-auto lg:mx-0 w-full max-w-57.5 h-auto cursor-pointer">
+                        <img src="/images/payment/visa.svg" width="47" height="16" alt="Payment Methods" />
+                    </div>
+                </div>
+
+
+
 
                 <div class="text-center lg:text-right text-sm">
                     <div class="font-semibold mt-2">
                         © <?= date('Y') ?>, Nepal Travel Experience Pvt. Ltd. All Rights Reserved.
                     </div>
 
-                    <div class="flex items-center justify-center lg:justify-end gap-2 mt-2">
+                    <div class="flex items-center justify-center lg:justify-end gap-2 mt-2 cursor-pointer">
                         <span>Crafted by</span>
-                        <img src="/images/svg/imagine-web-solution.svg"
-                            width="21"
-                            height="19"
+                        <img src="/images/svg/imagine-web-solution.svg" width="21" height="19"
                             alt="Imagine Web Solution">
                     </div>
                 </div>

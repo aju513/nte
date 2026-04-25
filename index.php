@@ -28,34 +28,39 @@
         </div>
 
     </section>
+    <div class="homepage__notice">
+        <div class="homepage__notice-wrap container" id="heroNoticeSlider" aria-live="polite">
+            <div class="homepage__notice-bar">
+                <div class="notice-message js-notice-slide is-active">
+                    Nepal bans solo trekkers throughout the country.
+                </div>
+                <div class="notice-message js-notice-slide">
+                    Spring trekking permits are now open for Everest, Annapurna, and Langtang regions.
+                </div>
+                <div class="notice-message js-notice-slide">
+                    Weather in high-altitude routes can change quickly, so always travel prepared.
+                </div>
 
-    <div class="homepage__notice-wrap container" id="heroNoticeSlider" aria-live="polite">
-        <div class="homepage__notice-bar">
-            <div class="search-box-message js-search-slide is-active">Nepal bans solo trekkers throughout the country.
-            </div>
-            <div class="search-box-message js-search-slide">Spring trekking permits are now open for Everest, Annapurna,
-                and Langtang regions.</div>
-            <div class="search-box-message js-search-slide">Weather in high-altitude routes can change quickly, so
-                always travel prepared.</div>
-
-            <div class="search-box-controls">
-                <div class="search-box-nav">
-                    <button type="button" class="search-box-btn js-search-prev" aria-label="Previous notice">
-                        <span class="icon-back rotate-180"></span>
-                    </button>
-                    <span class="search-box-counter"><span class="js-search-current">1</span>/3</span>
-                    <button type="button" class="search-box-btn js-search-next" aria-label="Next notice">
-                        <span class="icon-back"></span>
+                <div class="notice-controls">
+                    <div class="notice-nav">
+                        <button type="button" class="notice-btn js-notice-prev" aria-label="Previous notice">
+                            <span class="icon-back rotate-180"></span>
+                        </button>
+                        <span class="notice-counter">
+                            <span class="js-notice-current">1</span>/3
+                        </span>
+                        <button type="button" class="notice-btn js-notice-next" aria-label="Next notice">
+                            <span class="icon-back"></span>
+                        </button>
+                    </div>
+                    <button type="button" class="notice-btn homepage__notice-close js-notice-close"
+                        aria-label="Close notice">
+                        <span class="icon-close text-[8px]"></span>
                     </button>
                 </div>
-                <button type="button" class="search-box-btn homepage__notice-close js-search-close"
-                    aria-label="Close notice">
-                    <span class="icon-close text-[8px]"></span>
-                </button>
             </div>
         </div>
     </div>
-
     <!-- Bestselling -->
     <section class="homepage__bestselling common-box package-list hav-title-btn">
         <div class="container ">
@@ -78,6 +83,9 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
+                            <div class="package-list__item-badge">
+                                <span>TOP RATED</span>
+                            </div>
                             <div class="package-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
@@ -92,7 +100,7 @@
                                 <div class="package-list__item-top">
                                     <div class="package-list__item-duration">
                                         <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
-                                        <span class="content text-xs font-bold text-text_color">Duration: 15 Days</span>
+                                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
                                         <span class="icon-star-rate text-[#dfd200]"></span>
@@ -117,7 +125,7 @@
                                             <span class="text-black line-through opacity-50 ">US$1800</span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-explore-btn">
+                                    <div class="package-list__item-explore-btn arrow-move-effect">
                                         <a href="#" class="explore_btn">
                                             Explore
                                             <span class="icon-arrow-right"></span>
@@ -129,6 +137,9 @@
                     </div>
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
+                            <div class="package-list__item-badge">
+                                <span>TOP RATED</span>
+                            </div>
                             <div class="package-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
@@ -143,7 +154,7 @@
                                 <div class="package-list__item-top">
                                     <div class="package-list__item-duration">
                                         <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
-                                        <span class="content text-xs font-bold text-text_color">Duration: 15 Days</span>
+                                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
                                         <span class="icon-star-rate text-[#dfd200]"></span>
@@ -168,7 +179,7 @@
                                             <span class="text-black line-through opacity-50 ">US$1800</span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-explore-btn">
+                                    <div class="package-list__item-explore-btn arrow-move-effect">
                                         <a href="#" class="explore_btn">
                                             Explore
                                             <span class="icon-arrow-right"></span>
@@ -180,6 +191,9 @@
                     </div>
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
+                            <div class="package-list__item-badge">
+                                <span>TOP RATED</span>
+                            </div>
                             <div class="package-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
@@ -194,7 +208,7 @@
                                 <div class="package-list__item-top">
                                     <div class="package-list__item-duration">
                                         <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
-                                        <span class="content text-xs font-bold text-text_color">Duration: 15 Days</span>
+                                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
                                         <span class="icon-star-rate text-[#dfd200]"></span>
@@ -219,7 +233,7 @@
                                             <span class="text-black line-through opacity-50 ">US$1800</span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-explore-btn">
+                                    <div class="package-list__item-explore-btn arrow-move-effect">
                                         <a href="#" class="explore_btn">
                                             Explore
                                             <span class="icon-arrow-right"></span>
@@ -236,6 +250,7 @@
     <!-- Top Places to Explore Whole Section -->
 
     <section class="homepage__featured homepage__feature-shell ">
+
         <!-- Top places to Explore -->
         <div class="container common-box hav-title-btn ">
             <!-- Title -->
@@ -262,6 +277,9 @@
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
+                            <div class="package-list__item-badge">
+                                <span>TOP RATED</span>
+                            </div>
                             <div class="package-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
@@ -276,7 +294,7 @@
                                 <div class="package-list__item-top">
                                     <div class="package-list__item-duration">
                                         <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
-                                        <span class="content text-xs font-bold text-text_color">Duration: 15 Days</span>
+                                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
                                         <span class="icon-star-rate text-[#dfd200]"></span>
@@ -301,7 +319,7 @@
                                             <span class="text-black line-through opacity-50 ">US$1800</span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-explore-btn">
+                                    <div class="package-list__item-explore-btn arrow-move-effect">
                                         <a href="#" class="explore_btn">
                                             Explore
                                             <span class="icon-arrow-right"></span>
@@ -313,6 +331,9 @@
                     </div>
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
+                            <div class="package-list__item-badge">
+                                <span>TOP RATED</span>
+                            </div>
                             <div class="package-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
@@ -327,7 +348,7 @@
                                 <div class="package-list__item-top">
                                     <div class="package-list__item-duration">
                                         <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
-                                        <span class="content text-xs font-bold text-text_color">Duration: 15 Days</span>
+                                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
                                         <span class="icon-star-rate text-[#dfd200]"></span>
@@ -352,7 +373,7 @@
                                             <span class="text-black line-through opacity-50 ">US$1800</span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-explore-btn">
+                                    <div class="package-list__item-explore-btn arrow-move-effect">
                                         <a href="#" class="explore_btn">
                                             Explore
                                             <span class="icon-arrow-right"></span>
@@ -364,6 +385,9 @@
                     </div>
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
+                            <div class="package-list__item-badge">
+                                <span>TOP RATED</span>
+                            </div>
                             <div class="package-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
@@ -378,7 +402,7 @@
                                 <div class="package-list__item-top">
                                     <div class="package-list__item-duration">
                                         <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
-                                        <span class="content text-xs font-bold text-text_color">Duration: 15 Days</span>
+                                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
                                         <span class="icon-star-rate text-[#dfd200]"></span>
@@ -403,7 +427,7 @@
                                             <span class="text-black line-through opacity-50 ">US$1800</span>
                                         </div>
                                     </div>
-                                    <div class="package-list__item-explore-btn">
+                                    <div class="package-list__item-explore-btn arrow-move-effect">
                                         <a href="#" class="explore_btn">
                                             Explore
                                             <span class="icon-arrow-right"></span>
@@ -419,78 +443,76 @@
         </div>
 
         <!-- Join Our Upcoming Trips -->
-        <section class="homepage__info container-fluid common-box">
-            <div class="homepage__info-section flex justify-between items-center flex-wrap">
-                <div class="homepage__info-content">
-                    <h3 class="text-white text-4xl">Join our upcoming trips.</h3>
-                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
-                    </p>
+        <section class="homepage__join container common-box pt-0">
+            <div class="homepage__join-banner join-trip-banner">
+                <img src="/images/dynamic/website-img.jpg" alt="" class="homepage__join-image join-trip-image">
+                <div class="absolute inset-0 bg-primary/30"></div>
+                <div class="absolute inset-0 flex sm:flex-row flex-col justify-between items-center w-[90%] m-auto">
 
-                </div>
-                <div class="homepage__info-buttons flex justify-end items-center gap-2 mr-4">
-                    <button class="btn-primary flex items-center justify-center gap-2">
-                        View our upcoming trips<span class="icon-view text-[9px]"></span>
-                    </button>
-                    <button class="btn-primary flex items-center justify-center gap-2">
-                        Take Your Trip <span class="icon-view text-[9px]"></span>
-                    </button>
+                    <div class="homepage__join-content">
+                        <h2 class="font-playfair text-xl font-bold text-white  lg:text-4xl">
+                            Join Our Upcoming Trips
+                        </h2>
+                        <p class="text-white mt-2">
+                            Explore breathtaking destinations and travel with like-minded adventures.
+                        </p>
+                    </div>
+                    <div class="homepage__join-actions">
+                        <button class="btn-outline-primary">
+                            View All Packages
+                            <span class="hav-icon icon-arrow-right"></span>
+                        </button>
+
+                        <button class="btn-outline-primary">
+                            View All Packages
+                            <span class="hav-icon icon-arrow-right"></span>
+                        </button>
+                    </div>
+
                 </div>
             </div>
-
         </section>
 
 
         <!-- Homepage-Content -->
-        <section class="homepage__main-content common-box pt-0 ">
-            <div class="grid grid-cols-12 ">
-                <div class="col-span-6">
-                    <div class="  container">
-                        <div class="homepage__main-content-grid ">
-                            <div class="col-span-6 ">
-                                <div class="section-title-wrap">
-                                    <div class="section-title-sm ">
-                                        About Nepal Travel Experience
-                                    </div>
-                                    <h2 class="section-title ">
-                                        Namaste!
-                                    </h2>
-                                </div>
-                                <div class="welcome-content mt-4">
-                                    <p>
-                                        Nepal Travel Experience (NTE) offers customized tours for groups wanting to
-                                        create their own
-                                        tour with an array of memorable experiences from the likes of-
-                                    </p>
-                                    <p>
-                                        Magnificient natural Nepali sights including soaring mountains and fast-flowing
-                                        rivers,
-                                        Visits to locations rich in Nepali art, culture and history, and Immersion with
-                                        Nepalese in
-                                        theor own ommunity environments. To help create your own special NTE tour we
-                                        will-
-                                        Adapt tour itineraries to match the objectives of your group. Provide guides who
-                                        have
-                                        excellent local knowledge and an ability to inform and entertain your group.
-                                        Take you to locations suppported by our charity partners, and introduce you to
-                                        people in
-                                        local communities, to get involved in activities in an authentic environment,
-                                        ranging from
-                                        cookking, art, craft, music, dancing, meditation, yoga and organic farming.
-                                        [...]
-                                    </p>
-                                </div>
-                                <div class="primary-btn">
-                                    <a href="">More About Us <span class="icon-view"></span></a>
-                                </div>
+        <section class="homepage__main-content homepage__main-content-grid common-box pt-0 ">
+            <div class="container">
+                <div class=" grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-10">
+                    <div class="col-span-6 ">
+                        <div class="section-title-wrap">
+                            <div class="section-title-sm ">
+                                About Nepal Travel Experience
                             </div>
+                            <h2 class="section-title ">
+                                Namaste!
+                            </h2>
+                        </div>
+                        <div class="welcome-content mt-4">
+                            <p>
+                                Nepal Travel Experience (NTE) offers customized tours for groups wanting to create their
+                                own
+                                tour with an array of memorable experiences from the likes of-
+                            </p>
+                            <p>
+                                Magnificient natural Nepali sights including soaring mountains and fast-flowing rivers,
+                                Visits to locations rich in Nepali art, culture and history, and Immersion with Nepalese
+                                in
+                                theor own ommunity environments. To help create your own special NTE tour we will-
+                            </p>
+                            <p>
+                                Adapt tour itineraries to match the objectives of your group. Provide guides who have
+                                excellent local knowledge and an ability to inform and entertain your group.
+                                Take you to locations suppported by our charity partners, and introduce you to people in
+                                local communities, to get involved in activities in an authentic environment, ranging
+                                from
+                                cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
+                            </p>
+                        </div>
+                        <div class="primary-btn">
+                            <a href="">More About Us <span class="icon-view"></span></a>
                         </div>
                     </div>
-                </div>
-
-                <!-- Why Choose Us? -->
-                <div class="col-span-6">
-                    <div class="homepage__why-choose scroll-mt-20 font-mulish">
+                    <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish lg:-mr-36">
                         <div class="why-choose-accordion">
                             <h2 class="why-choose-accordion__heading">Why choose us?</h2>
 
@@ -577,13 +599,13 @@
                     </div>
                 </div>
 
-
+            </div>
             </div>
         </section>
 
 
         <!-- Most Popular -->
-        <section class="container hav-title-btn homepage__category">
+        <section class="container hav-title-btn">
             <!-- <div class=" container"> -->
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -759,12 +781,12 @@
 
                 <!-- LEFT ARROW -->
                 <button class="homepage__slider-prev category-prev prev-btn">
-                    <span class="icon-arrow-left text-primary text-[33px]"></span>
+                    <span class="icon-arrow-left text-primary text-[25px]"></span>
                 </button>
 
                 <!-- RIGHT ARROW -->
                 <button class="homepage__slider-next category-next next-btn">
-                    <span class="icon-arrow-right text-primary text-[33px]"></span>
+                    <span class="icon-arrow-right text-primary text-[25px] "></span>
                 </button>
 
             </div>
@@ -776,7 +798,7 @@
     </section>
 
     <!-- Videos Section -->
-    <section class="homepage__videos common-box pb-0 container hav-title-btn scroll-wrap">
+    <section class="homepage__videos common-box pb-0 container hav-title-btn scroll-wrap relative">
 
         <!-- Title Section -->
         <div class="flex items-center justify-between mb-6">
@@ -795,8 +817,8 @@
         </div>
 
         <!-- Videos Layout -->
-        <div class="grid grid-cols-12 gap-4">
-            <div class="col-span-8 row-span-12">
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-5">
+            <div class="lg:col-span-3">
                 <div class="moments-list__item">
                     <div class="moments-list__item-image relative">
                         <div class="placeholder__img-wrapper  w-full">
@@ -806,80 +828,82 @@
                                     alt="Everest Base Camp" />
                             </div>
                         </div>
-
-                        <div class="fancybox-wrapper"><button class="circular-animate" data-fancybox="video"
-                                data-src="https://www.youtube.com/watch?v=a3ICNMQW7Ok"><span
-                                    class="z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-white">
-                                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330"
-                                        style="enable-background:new 0 0 330 330;" xml:space="preserve">
-                                        <path id="XMLID_308_" d="M37.728,328.12c2.266,1.256,4.77,1.88,7.272,1.88c2.763,0,5.522-0.763,7.95-2.28l240-149.999
-    c4.386-2.741,7.05-7.548,7.05-12.72c0-5.172-2.664-9.979-7.05-12.72L52.95,2.28c-4.625-2.891-10.453-3.043-15.222-0.4
-    C32.959,4.524,30,9.547,30,15v300C30,320.453,32.959,325.476,37.728,328.12z" />
-                                    </svg></span></button>
+                        <div class="fancybox-wrapper video-review__item-link">
+                            <div role="button" data-fancybox="true"
+                                data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
+                                area-label="Watch video review" class="circular-animate">
+                                <span class="video-play-btn"><span class="icon-video icon-play-button"></span>
+                                </span>
+                            </div>
                         </div>
-                        <div class="moments-list__item-content">
-                            <h4 class="moments-list__item-title ">Everest Base Camp</h4>
-                            <span class="moments-list__item-meta">Jhon - Australia</span>
+                        <div class="absolute bottom-6 left-6 text-white z-10">
+                            <h4 class="text-2xl font-semibold text-white">Everest Base Camp</h4>
+                            <span class="text-sm">Jhon - Australia</span>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="col-span-4 row-span-6">
-                <div class="moments-list__item">
-                    <div class="moments-list__item-image relative">
-                        <div class="placeholder__img-wrapper">
-                            <div class="placeholder__img w-full">
-                                <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
-                                    decoding="async" data-nimg="1" style="color: transparent;"
-                                    alt="Everest Base Camp" />
-                            </div>
-                        </div>
-                        <div class="fancybox-wrapper">
-                            <div role="button" data-fancybox="true"
-                                data-src="https://www.youtube.com/watch?v=bVYJNM1Pih0&t=2s"
-                                area-label="Watch video review">
-                                <div class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3">
-                                    <span class="video-play-btn-side">
-                                        <span class="icon-play-button icon-video "></span></span>
+            <div class="flex flex-col gap-5 ">
+                <div class="flex flex-col gap-5 h-full">
+                    <div class="moments-list__item">
+                        <div class="moments-list__item-image relative">
+                            <div class="placeholder__img-wrapper">
+                                <div class="placeholder__img w-full">
+                                    <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
+                                        decoding="async" data-nimg="1" style="color: transparent;"
+                                        alt="Everest Base Camp" />
                                 </div>
                             </div>
-                        </div>
-                        <div class="moments-list__item-content">
-                            <h4 class="moments-list__item-title ">Everest Base Camp</h4>
-                            <span class="moments-list__item-meta">Jhon - Australia</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-4 row-span-6">
-                <div class="moments-list__item">
-                    <div class="moments-list__item-image relative">
-                        <div class="placeholder__img-wrapper">
-                            <div class="placeholder__img w-full">
-                                <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
-                                    decoding="async" data-nimg="1" style="color: transparent;"
-                                    alt="Everest Base Camp" />
-                            </div>
-                        </div>
-                        <div class="fancybox-wrapper">
-                            <div role="button" data-fancybox="true"
-                                data-src="https://www.youtube.com/watch?v=bVYJNM1Pih0&t=2s"
-                                area-label="Watch video review">
-                                <div class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3">
-                                    <span class="video-play-btn-side">
-                                        <span class="icon-play-button icon-video "></span></span>
+                            <div class="fancybox-wrapper">
+                                <div role="button" data-fancybox="true"
+                                    data-src="https://www.youtube.com/watch?v=bVYJNM1Pih0&t=2s"
+                                    area-label="Watch video review">
+                                    <div
+                                        class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3 ">
+                                        <span class="video-play-btn-side circular-animate">
+                                            <span class="icon-play-button z-30 text-primary"></span></span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="moments-list__item-content">
-                            <h4 class="moments-list__item-title ">Everest Base Camp</h4>
-                            <span class="moments-list__item-meta">Jhon - Australia</span>
+                            <div class="absolute bottom-4 left-4 text-white z-10">
+                                <h4 class="text-lg font-semibold text-white">Travel Nepal</h4>
+                                <span class="text-xs">John - Australia</span>
+                            </div>
                         </div>
                     </div>
+
+
+                    <div class="moments-list__item">
+                        <div class="moments-list__item-image relative">
+                            <div class="placeholder__img-wrapper">
+                                <div class="placeholder__img w-full">
+                                    <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
+                                        decoding="async" data-nimg="1" style="color: transparent;"
+                                        alt="Everest Base Camp" />
+                                </div>
+                            </div>
+                            <div class="fancybox-wrapper">
+                                <div role="button" data-fancybox="true"
+                                    data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
+                                    area-label="Watch video review">
+                                    <div class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3">
+                                        <span class="video-play-btn-side circular-animate">
+                                            <span
+                                                class="icon-video z-30 icon-play-button text-base text-primary "></span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="absolute bottom-4 left-4 text-white z-10">
+                                <h4 class="text-lg font-semibold text-white">Things to Do in Nepal</h4>
+                                <span class="text-xs">John - Australia</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+
         </div>
 
     </section>
@@ -1123,7 +1147,7 @@
                                 The Highest Mountain in the world
                             </a>
                         </h3>
-                        <div class="blog-list__item-btn">
+                        <div class="blog-list__item-btn arrow-move-effect">
                             <span>Continue Reading</span>
                             <span class="icon-arrow-right"></span>
                         </div>
@@ -1154,7 +1178,7 @@
                                 The Highest Mountain in the world
                             </a>
                         </h3>
-                        <div class="blog-list__item-btn">
+                        <div class="blog-list__item-btn arrow-move-effect">
                             <span>Continue Reading</span>
                             <span class="icon-arrow-right"></span>
                         </div>
@@ -1185,13 +1209,14 @@
                                 The Highest Mountain in the world
                             </a>
                         </h3>
-                        <div class="blog-list__item-btn">
+                        <div class="blog-list__item-btn arrow-move-effect">
                             <span>Continue Reading</span>
                             <span class="icon-arrow-right"></span>
                         </div>
 
                     </div>
                 </div>
+    
 
             </div>
         </div>

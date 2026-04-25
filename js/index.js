@@ -306,11 +306,16 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    const slides = qsa(".js-search-slide", slider);
-    const prevButton = qs(".js-search-prev", slider);
-    const nextButton = qs(".js-search-next", slider);
-    const closeButton = qs(".js-search-close", slider);
-    const current = qs(".js-search-current", slider);
+    const slides =
+      qsa(".js-notice-slide", slider).length > 0
+        ? qsa(".js-notice-slide", slider)
+        : qsa(".js-search-slide", slider);
+    const prevButton = qs(".js-notice-prev", slider) || qs(".js-search-prev", slider);
+    const nextButton = qs(".js-notice-next", slider) || qs(".js-search-next", slider);
+    const closeButton =
+      qs(".js-notice-close", slider) || qs(".js-search-close", slider);
+    const current =
+      qs(".js-notice-current", slider) || qs(".js-search-current", slider);
 
     if (slides.length === 0 || !current) {
       return;
