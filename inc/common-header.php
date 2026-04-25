@@ -13,9 +13,9 @@
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet" />
     <!-- Local compiled CSS for PHP/XAMPP runtime -->
-    <script type="module" src="http://localhost:5174/@vite/client"></script>
+    <script type="module" src="http://localhost:5173/@vite/client"></script>
     <!-- Vite CSS for development (works when `npm run dev` is running) -->
-    <link rel="stylesheet" href="http://localhost:5174/css/main.css">
+    <link rel="stylesheet" href="http://localhost:5173/css/main.css">
     <!-- Fancy app installation -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css" />
     <!-- Swiper Installation -->
