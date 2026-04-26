@@ -2,81 +2,105 @@
 <?php include('./inc/header.php') ?>
 <section class="bg-secondary">
   <?php include('./inc/breadcrumbs.php') ?>
-  <section class="common-box pb-0 team-details-page " role="main">
+  <section class="common-box team-details-page" role="main">
     <div class="common-page">
       <div class="container common-box">
         <div class="page-title">
-          <h1>
-            Mr. First Last Name
-          </h1>
-          <div class="team__item-designation">
-            Co-Founder/Tourist Guide
-          </div>
+          <h1>Mr. First Last Name Name</h1>
+          <div class="text-text_color/70 mt-1 text-base md:text-lg pb-3">Co-Founder / Business
+            Development Officer / Tourist Guide</div>
         </div>
-
-        <div class="team-details-page__description">
-
-          <div class="team-page__content lg:w-4/5 text-[15px] text-text_color">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem labore optio dignissimos repudiandae ab accusantium soluta maxime odit ratione officiis? Labore quasi natus esse tempore eum nulla illum, magni eos.
+        <div class="grid grid-cols-12 gap-5 lg:gap-10">
+          <div class="col-span-12 lg:col-span-4">
+            <div class="team-details__image">
+              <div class="placeholder__img-wrapper">
+                <div class="placeholder__img w-full"><img alt="author" loading="lazy" width="400" height="400"
+                    src="../images/dynamic/author.webp"></div>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <div class="mt-10 team-details-page__full-content">
-
-          <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-12 sm:col-span-4 md:col-span-3">
-              <div class="team-details__image">
-                <div class="placeholder__img-wrapper">
-                  <div class="w-full placeholder__img">
-                    <img
-                      src="/images/dynamic/male-placeholder.jpg"
-                      width="600"
-                      height="600"
-                      class="rounded-custom"
-                      alt="review" />
-                  </div>
+          <div class="col-span-12 lg:col-span-8">
+            <div class="page-summary">
+              <article>
+                <p>Proin vestibulum finibus dolor eget euismod. Suspendisse hendrerit, sapien eu mattis
+                  sagittis, tellus nisi posuere massa, in volutpat orci augue ut dui. Cras eget tincidunt
+                  velit. Sed malesuada fermentum vulputate. Vestibulum ultricies efficitur est non gravida.
+                </p>
+                <ul>
+                  <li>Vestibulum ultricies efficitur est non gravida.</li>
+                  <li> Proin vestibulum finibus dolor eget euismod.</li>
+                  <li>Cras eget tincidunt velit. Sed malesuada fermentum vulputate.</li>
+                  <li>Vestibulum ultricies efficitur est non gravida.</li>
+                </ul>
+              </article>
+            </div>
+            <div class="team-details__gallery mt-5">
+              <div class="innersection-title">Photo Gallery</div>
+              <div class="fancybox-wrapper">
+                <div class="team-details__gallery-wrap columns-1 sm:columns-2 md:columns-3">
+                  <button data-fancybox="gallery" data-src="../images/dynamic/stories1.webp"
+                    class="team-details__gallery-item">
+                    <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
+                      style="color:transparent" src="../images/dynamic/stories1.webp">
+                    <span class="zoom-icon">
+                      <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
+                        <use href="/sprite.svg#icon-zoom-in"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <button data-fancybox="gallery" data-src="../images/dynamic/stories1.webp"
+                    class="team-details__gallery-item">
+                    <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
+                      style="color:transparent" src="../images/dynamic/stories1.webp">
+                    <span class="zoom-icon">
+                      <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
+                        <use href="/sprite.svg#icon-zoom-in"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <button data-fancybox="gallery" data-src="../images/dynamic/stories1.webp"
+                    class="team-details__gallery-item">
+                    <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
+                      style="color:transparent" src="../images/dynamic/stories1.webp">
+                    <span class="zoom-icon">
+                      <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
+                        <use href="/sprite.svg#icon-zoom-in"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <button data-fancybox="gallery" data-src="../images/dynamic/stories1.webp"
+                    class="team-details__gallery-item">
+                    <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
+                      style="color:transparent" src="../images/dynamic/stories1.webp">
+                    <span class="zoom-icon">
+                      <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
+                        <use href="/sprite.svg#icon-zoom-in"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <button data-fancybox="gallery" data-src="../images/dynamic/stories2.webp"
+                    class="team-details__gallery-item">
+                    <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
+                      style="color:transparent" src="../images/dynamic/stories2.webp">
+                    <span class="zoom-icon">
+                      <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
+                        <use href="/sprite.svg#icon-zoom-in"></use>
+                      </svg>
+                    </span>
+                  </button>
+                  <button data-fancybox="gallery" data-src="../images/dynamic/stories3.webp"
+                    class="team-details__gallery-item">
+                    <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
+                      style="color:transparent" src="../images/dynamic/stories3.webp">
+                    <span class="zoom-icon">
+                      <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
+                        <use href="/sprite.svg#icon-zoom-in"></use>
+                      </svg>
+                    </span>
+                  </button>
                 </div>
               </div>
             </div>
-            <div class="col-span-12 sm:col-span-8 md:col-span-9 mt-2">
-              <div class="team-details-page__description-content">
-                <article class="common-module">
-                  <p>
-                    Embark on unforgettable adventures with our travel agency,
-                    where expertise meets passion. Our seasoned team meticulously
-                    plans each journey, ensuring seamless experiences tailored to
-                    your preferences. From off-the-beaten-path discoveries to
-                    iconic landmarks, we promise a diverse range of unique and
-                    authentic experiences.
-                  </p>
-
-                  <blockquote>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                    maecenas accumsan lacus vel facilisis.
-                  </blockquote>
-                  <ul>
-                    <li>
-                      Cras tempor purus id velit consequat, id mattis dui
-                      pellentesque.
-                    </li>
-                    <li>
-                      Quisque ac velit at sem scelerisque porta vel quis quam.
-                    </li>
-                    <li>Praesent sed mauris ac justo euismod facilisis.</li>
-                    <li>Vestibulum quis purus vel ligula elementum rutrum.</li>
-                    <li>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum suspendisse ultrices gravida. Risus
-                      commodo viverra maecenas accumsan lacus vel facilisis.
-                    </li>
-                  </ul>
-                </article>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>

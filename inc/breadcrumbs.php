@@ -1,15 +1,13 @@
-<div class="breadcrumbs__wrapper">
+<div class="breadcrumbs__wrapper" aria-label="Breadcrumb">
   <div class="container">
-    <ul class="breadcrumbs__list">
-      <li class="breadcrumbs__list-item">
-        <a href="/">Home</a>
-        <span class="breadcrumbs__separator" aria-hidden="true">
-          <img src="./images/svg/back.svg" alt="">
-        </span>
-      </li>
-      <li class="breadcrumbs__list-item">
-        <span class="inline-flex items-center text-xs">Contact Us</span>
-      </li>
+    <ul class="inline-flex flex-wrap items-center gap-1">
+      <li class="mr-3 inline-flex items-center"><a href="#">Home</a></li>
+      <li class="mr-3 inline-flex items-center"><a href="#">Destination</a></li>
+      <li class="mr-3 inline-flex items-center"><a href="#">Nepal</a></li>
+      <li class="mr-3 inline-flex items-center"><a href="#">Trekking and Hiking</a></li>
+      <li class="mr-3 inline-flex items-center"><a href="#">Annapurna Region</a></li>
+      <li class="mr-3 inline-flex items-center"><a href="#">Annapurna Circuit With Ghorepani Ghandruk Trek - 15
+          days</a></li>
     </ul>
   </div>
 </div>

@@ -10,7 +10,7 @@
                                                 <nav class="nav-menu flex items-center justify-end gap-7.5">
                                                         <ul class="items-center gap-5 lg:flex 2xl:gap-6.25">
                                                                 <li><span
-                                                                                class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-semibold transition-all duration-500"
+                                                                                class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-semibold transition-all duration-500"
                                                                                 aria-expanded="false">Destinations<span
                                                                                         class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -839,16 +839,21 @@
                                                                                                                 class="absolute end-2.5 bottom-2.5 rounded-lg bg-white px-2 py-2 text-sm font-medium"><span class="icon text-primary text-[20px] icon-searchicon"></span></button></form>
                                                                                                 <div class="search-wrapper__list"><a class="search-item" href="">Everest
                                                                                                                 Base Camp Trek - 14 days</a><a class="search-item"
-                                                                                                                href="">Everest Base Camp Trek - 14 days</a><a
-                                                                                                                class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+                                                                                                                href="">Everest Base Camp Trek - 14 days</a>
+                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+
+                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
                                                                                                 </div>
                                                                                         </div>
                                                                                 </div>
                                                                         </div>
                                                                 </div>
-                                                        </div><a href=""
-                                                                class="font-medium text-[15px] text-primary hidden xl:flex items-center gap-2 border border-primary px-4 py-1.5 border-dashed rounded-[42px] hover:bg-primary hover:text-white duration-500 transition-all">Plan Your Trip <span class="text-[15px]  icon-view "
-                                                                        aria-hidden="true"></span></a>
+                                                        </div>
+                                                        <div class="btn-outline-primary hav-icon ">
+                                                                <a href="">Plan Your Trip <span class="icon-view" aria-hidden="true"></span></a>
+                                                        </div>
                                                 </div>
                                         </div>
                                 </div>

@@ -502,7 +502,7 @@
                                 cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
                             </p>
                         </div>
-                        <div class="btn-primary">
+                        <div class="btn-outline-primary hav-icon mt-12.5">
                             <a href="">More About Us <span class="icon-view"></span></a>
                         </div>
                     </div>
@@ -775,12 +775,12 @@
 
                 <!-- LEFT ARROW -->
                 <button class="homepage__slider-prev category-prev prev-btn">
-                    <span class="icon-arrow-left text-primary text-[25px]"></span>
+                    <span class="icon-arrow-left text-primary text-2xl"></span>
                 </button>
 
                 <!-- RIGHT ARROW -->
                 <button class="homepage__slider-next category-next next-btn">
-                    <span class="icon-arrow-right text-primary text-[25px] "></span>
+                    <span class="icon-arrow-right text-primary text-2xl "></span>
                 </button>
 
             </div>
@@ -792,7 +792,7 @@
     </section>
 
     <!-- Videos Section -->
-    <section class="homepage__videos common-box pb-0 container hav-title-btn scroll-wrap relative">
+    <section class="homepage__videos common-box pb-0 container hav-title-btn  relative">
 
         <!-- Title Section -->
         <div class="flex items-center justify-between mb-6">
@@ -811,8 +811,8 @@
         </div>
 
         <!-- Videos Layout -->
-        <div class="grid grid-cols-1 lg:grid-cols-4 gap-5">
-            <div class="lg:col-span-3">
+        <div class="grid grid-cols-12 gap-5">
+            <div class="col-span-12 lg:col-span-9">
                 <div class="moments-list__item">
                     <div class="moments-list__item-image relative">
                         <div class="placeholder__img-wrapper  w-full">
@@ -826,19 +826,19 @@
                             <div role="button" data-fancybox="true"
                                 data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
                                 area-label="Watch video review" class="circular-animate">
-                                <span class="video-play-btn"><span class="icon-video icon-play-button"></span>
+                                <span class="video-play-btn"><span class="icon-play-button"></span>
                                 </span>
                             </div>
                         </div>
-                        <div class="absolute bottom-6 left-6 text-white z-10">
-                            <h4 class="text-2xl font-semibold text-white">Everest Base Camp</h4>
+                        <div class="absolute lg:bottom-6 bottom-1 left-6 text-white z-10">
+                            <h4 class="lg:text-2xl text-[16px] sm:text-xs text-white font-extrabold ">Everest Base Camp</h4>
                             <span class="text-sm">Jhon - Australia</span>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="flex flex-col gap-5 ">
+            <div class="col-span-12 lg:col-span-3">
                 <div class="flex flex-col gap-5 h-full">
                     <div class="moments-list__item">
                         <div class="moments-list__item-image relative">
@@ -900,6 +900,7 @@
 
         </div>
 
+
     </section>
 
     <!-- Testimonials -->
@@ -931,7 +932,7 @@
                 </button>
 
                 <button type="button" class="homepage__review-tab review-tab-item active" data-name="Trip Advisor"
-                    data-count="222" data-rating="4.6" data-icon="/images/svg/circular-tripadvisor.svg"
+                    data-count="222" data-rating="4.6" data-icon="/images/svg/tripadvisor.svg"
                     aria-pressed="true">
                     <img src="/images/svg/circular-tripadvisor.svg" class="w-5 h-5" alt="Trip Advisor">
                     <span>Trip Advisor</span>
@@ -939,14 +940,14 @@
                 </button>
 
                 <button type="button" class="homepage__review-tab review-tab-item" data-name="Facebook" data-count="180"
-                    data-rating="4.6" data-icon="/images/svg/circular-facebook.svg" aria-pressed="false">
+                    data-rating="4.6" data-icon="/images/svg/facebook.svg" aria-pressed="false">
                     <img src="/images/svg/circular-facebook.svg" class="w-5 h-5" alt="Facebook">
                     <span>Facebook</span>
                     <span class="font-semibold">4.6</span>
                 </button>
 
                 <button type="button" class="homepage__review-tab review-tab-item" data-name="Google" data-count="300"
-                    data-rating="4.6" data-icon="/images/svg/circular-google.svg" aria-pressed="false">
+                    data-rating="4.6" data-icon="/images/svg/google.svg" aria-pressed="false">
                     <img src="/images/svg/circular-google.svg" class="w-5 h-5" alt="Google">
                     <span>Google</span>
                     <span class="font-semibold">4.6</span>
@@ -955,9 +956,10 @@
             </div>
             <div class="homepage__review-center review-center">
                 <div class="flex items-center gap-3 ">
-                    <img id="reviewIcon" src="/images/svg/circular-tripadvisor.svg" class="w-5 h-5"
-                        alt="Trip Advisor" />
-                    <span id="reviewTitle" class="text-xl sm:text-2xl lg:text-3xl font-bold ">Trip Advisor</span>
+                    <a href="">
+                        <img id="reviewIcon" src="/images/svg/tripadvisor.svg" class="w-147px h-31px cursor-pointer"
+                            alt="Trip Advisor" />
+                    </a>
                 </div>
                 <div class="mt-2 flex items-center gap-3">
                     <span id="reviewCount" class="text-sm">222 reviews</span>
@@ -1108,12 +1110,12 @@
             </div>
             <!-- LEFT ARROW -->
             <button class="homepage__slider-prev testimonial-prev">
-                <span class="icon-arrow-left text-primary text-lg"></span>
+                <span class="icon-arrow-left text-primary text-2xl"></span>
             </button>
 
             <!-- RIGHT ARROW -->
             <button class="homepage__slider-next testimonial-next">
-                <span class="icon-arrow-right text-primary text-lg"></span>
+                <span class="icon-arrow-right text-primary text-2xl"></span>
             </button>
         </div>
 

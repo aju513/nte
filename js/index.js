@@ -255,12 +255,11 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       const tabs = qsa(".review-tab-item", block);
-      const title = qs("#reviewTitle", block);
       const count = qs("#reviewCount", block);
       const rating = qs("#reviewRating", block);
       const icon = qs("#reviewIcon", block);
 
-      if (tabs.length === 0 || !title || !count || !rating || !icon) {
+      if (tabs.length === 0 || !count || !rating || !icon) {
         return;
       }
 
@@ -271,7 +270,6 @@ document.addEventListener("DOMContentLoaded", () => {
           item.setAttribute("aria-pressed", isActive ? "true" : "false");
         });
 
-        title.textContent = tab.dataset.name || "";
         count.textContent = `${tab.dataset.count || "0"} reviews`;
         rating.textContent = `${tab.dataset.rating || ""} rating`;
 
@@ -287,7 +285,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       };
 
-      const initialTab = tabs.find((tab) => tab.classList.contains("active")) || tabs[0];
+      const initialTab =
+        tabs.find((tab) => tab.classList.contains("active")) || tabs[0];
       setActive(initialTab);
 
       tabs.forEach((tab) => {
@@ -310,8 +309,10 @@ document.addEventListener("DOMContentLoaded", () => {
       qsa(".js-notice-slide", slider).length > 0
         ? qsa(".js-notice-slide", slider)
         : qsa(".js-search-slide", slider);
-    const prevButton = qs(".js-notice-prev", slider) || qs(".js-search-prev", slider);
-    const nextButton = qs(".js-notice-next", slider) || qs(".js-search-next", slider);
+    const prevButton =
+      qs(".js-notice-prev", slider) || qs(".js-search-prev", slider);
+    const nextButton =
+      qs(".js-notice-next", slider) || qs(".js-search-next", slider);
     const closeButton =
       qs(".js-notice-close", slider) || qs(".js-search-close", slider);
     const current =
@@ -505,8 +506,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const container = tabList.parentElement;
         if (!container) return;
 
-        const panels = Array.from(container.children).filter(
-          (element) => element?.classList?.contains("tab"),
+        const panels = Array.from(container.children).filter((element) =>
+          element?.classList?.contains("tab"),
         );
         if (panels.length === 0) return;
 
