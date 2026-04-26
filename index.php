@@ -90,16 +90,16 @@
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
                                         <a href="#">
-                                            <img src="../images/dynamic/package-thumb.webp" width="600" height="400"
+                                            <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
                                                 alt="image">
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="package-list__item-content">
-                                <div class="package-list__item-top">
+                                <div class="package-list__item-meta">
                                     <div class="package-list__item-duration">
-                                        <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
+                                        <span class="icon-time-quarter-to"></span>
                                         <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
@@ -115,22 +115,22 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="package-list__item-meta ">
-                                    <div class="">
-                                        <div class="font-16px">
-                                            Price From
-                                        </div>
-                                        <div class="package-list__item-price">
-                                            <span class="text-lg font-bold text-primary">US$ 1680</span>
-                                            <span class="text-black line-through opacity-50 ">US$1800</span>
-                                        </div>
+                                <div class="text-lg text-text_color">
+                                    Price From
+                                </div>
+                                <div class="package-list__item-bottom ">
+                                    <div class="package-list__item-price">
+                                        <span class="package-list__item-price-new">US$ 1680</span>
+                                        <span class="package-list__item-price-old ">US$ 1800</span>
                                     </div>
+
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="explore_btn">
+                                        <a href="#" class="">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -144,16 +144,16 @@
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
                                         <a href="#">
-                                            <img src="../images/dynamic/package-thumb.webp" width="600" height="400"
+                                            <img src="../images/dynamic/package-thumb2.webp" width="600" height="400"
                                                 alt="image">
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="package-list__item-content">
-                                <div class="package-list__item-top">
+                                <div class="package-list__item-meta">
                                     <div class="package-list__item-duration">
-                                        <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
+                                        <span class="icon-time-quarter-to"></span>
                                         <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
@@ -169,45 +169,42 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="package-list__item-meta ">
-                                    <div class="">
-                                        <div class="font-16px">
-                                            Price From
-                                        </div>
-                                        <div class="package-list__item-price">
-                                            <span class="text-lg font-bold text-primary">US$ 1680</span>
-                                            <span class="text-black line-through opacity-50 ">US$1800</span>
-                                        </div>
+                                <div class="text-lg text-text_color">
+                                    Price From
+                                </div>
+                                <div class="package-list__item-bottom ">
+                                    <div class="package-list__item-price">
+                                        <span class="package-list__item-price-new">US$ 1680</span>
+                                        <span class="package-list__item-price-old ">US$ 1800</span>
                                     </div>
+
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="explore_btn">
+                                        <a href="#" class="">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
-                            <div class="package-list__item-badge">
-                                <span>TOP RATED</span>
-                            </div>
                             <div class="package-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
                                         <a href="#">
-                                            <img src="../images/dynamic/package-thumb.webp" width="600" height="400"
+                                            <img src="../images/dynamic/package-thumb3.webp" width="600" height="400"
                                                 alt="image">
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="package-list__item-content">
-                                <div class="package-list__item-top">
+                                <div class="package-list__item-meta">
                                     <div class="package-list__item-duration">
-                                        <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
+                                        <span class="icon-time-quarter-to"></span>
                                         <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
@@ -223,22 +220,22 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="package-list__item-meta ">
-                                    <div class="">
-                                        <div class="font-16px">
-                                            Price From
-                                        </div>
-                                        <div class="package-list__item-price">
-                                            <span class="text-lg font-bold text-primary">US$ 1680</span>
-                                            <span class="text-black line-through opacity-50 ">US$1800</span>
-                                        </div>
+                                <div class="text-lg text-text_color">
+                                    Price From
+                                </div>
+                                <div class="package-list__item-bottom ">
+                                    <div class="package-list__item-price">
+                                        <span class="package-list__item-price-new">US$ 1680</span>
+                                        <span class="package-list__item-price-old ">US$ 1800</span>
                                     </div>
+
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="explore_btn">
+                                        <a href="#" class="">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -273,7 +270,7 @@
                 </div>
             </div>
 
-            <div class="relative mt-8 ">
+            <div class="relative mt-8">
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
@@ -284,16 +281,16 @@
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
                                         <a href="#">
-                                            <img src="../images/dynamic/package-thumb.webp" width="600" height="400"
+                                            <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
                                                 alt="image">
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="package-list__item-content">
-                                <div class="package-list__item-top">
+                                <div class="package-list__item-meta">
                                     <div class="package-list__item-duration">
-                                        <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
+                                        <span class="icon-time-quarter-to"></span>
                                         <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
@@ -309,22 +306,22 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="package-list__item-meta ">
-                                    <div class="">
-                                        <div class="font-16px">
-                                            Price From
-                                        </div>
-                                        <div class="package-list__item-price">
-                                            <span class="text-lg font-bold text-primary">US$ 1680</span>
-                                            <span class="text-black line-through opacity-50 ">US$1800</span>
-                                        </div>
+                                <div class="text-lg text-text_color">
+                                    Price From
+                                </div>
+                                <div class="package-list__item-bottom ">
+                                    <div class="package-list__item-price">
+                                        <span class="package-list__item-price-new">US$ 1680</span>
+                                        <span class="package-list__item-price-old ">US$ 1800</span>
                                     </div>
+
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="explore_btn">
+                                        <a href="#" class="">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -338,16 +335,16 @@
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
                                         <a href="#">
-                                            <img src="../images/dynamic/package-thumb.webp" width="600" height="400"
+                                            <img src="../images/dynamic/package-thumb2.webp" width="600" height="400"
                                                 alt="image">
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="package-list__item-content">
-                                <div class="package-list__item-top">
+                                <div class="package-list__item-meta">
                                     <div class="package-list__item-duration">
-                                        <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
+                                        <span class="icon-time-quarter-to"></span>
                                         <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
@@ -363,45 +360,42 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="package-list__item-meta ">
-                                    <div class="">
-                                        <div class="font-16px">
-                                            Price From
-                                        </div>
-                                        <div class="package-list__item-price">
-                                            <span class="text-lg font-bold text-primary">US$ 1680</span>
-                                            <span class="text-black line-through opacity-50 ">US$1800</span>
-                                        </div>
+                                <div class="text-lg text-text_color">
+                                    Price From
+                                </div>
+                                <div class="package-list__item-bottom ">
+                                    <div class="package-list__item-price">
+                                        <span class="package-list__item-price-new">US$ 1680</span>
+                                        <span class="package-list__item-price-old ">US$ 1800</span>
                                     </div>
+
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="explore_btn">
+                                        <a href="#" class="">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
-                            <div class="package-list__item-badge">
-                                <span>TOP RATED</span>
-                            </div>
                             <div class="package-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img">
                                         <a href="#">
-                                            <img src="../images/dynamic/package-thumb.webp" width="600" height="400"
+                                            <img src="../images/dynamic/package-thumb3.webp" width="600" height="400"
                                                 alt="image">
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="package-list__item-content">
-                                <div class="package-list__item-top">
+                                <div class="package-list__item-meta">
                                     <div class="package-list__item-duration">
-                                        <span class="text-[15px] icon-time-quarter-to text-[#76b4dc]"></span>
+                                        <span class="icon-time-quarter-to"></span>
                                         <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
                                     <div class="package-list__item-reviews text-text_color text-xs">
@@ -417,22 +411,22 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="package-list__item-meta ">
-                                    <div class="">
-                                        <div class="font-16px">
-                                            Price From
-                                        </div>
-                                        <div class="package-list__item-price">
-                                            <span class="text-lg font-bold text-primary">US$ 1680</span>
-                                            <span class="text-black line-through opacity-50 ">US$1800</span>
-                                        </div>
+                                <div class="text-lg text-text_color">
+                                    Price From
+                                </div>
+                                <div class="package-list__item-bottom ">
+                                    <div class="package-list__item-price">
+                                        <span class="package-list__item-price-new">US$ 1680</span>
+                                        <span class="package-list__item-price-old ">US$ 1800</span>
                                     </div>
+
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="explore_btn">
+                                        <a href="#" class="">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
                                     </div>
+
                                 </div>
                             </div>
                         </div>
@@ -508,11 +502,11 @@
                                 cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
                             </p>
                         </div>
-                        <div class="primary-btn">
+                        <div class="btn-primary">
                             <a href="">More About Us <span class="icon-view"></span></a>
                         </div>
                     </div>
-                    <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish lg:-mr-36">
+                    <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish lg:-mr-72">
                         <div class="why-choose-accordion">
                             <h2 class="why-choose-accordion__heading">Why choose us?</h2>
 
@@ -1004,9 +998,17 @@
                             </div>
                             <div class="testimonial__list-item-reviewer ">
                                 <div class="reviewer-image">
-                                    <div
-                                        class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
-                                        A</div>
+                                    <div class="placeholder__img-wrapper">
+                                        <div class="w-full placeholder__img">
+                                            <img
+                                                src="/images/dynamic/reviewer.webp"
+                                                width="55"
+                                                height="55"
+                                                class="rounded-full"
+                                                alt="" />
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="mt-2">
                                     <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro
@@ -1039,9 +1041,17 @@
                             </div>
                             <div class="testimonial__list-item-reviewer ">
                                 <div class="reviewer-image">
-                                    <div
-                                        class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
-                                        A</div>
+                                    <div class="placeholder__img-wrapper">
+                                        <div class="w-full placeholder__img">
+                                            <img
+                                                src="/images/dynamic/reviewer.webp"
+                                                width="55"
+                                                height="55"
+                                                class="rounded-full"
+                                                alt="" />
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="reviewer-content">
                                     <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro
@@ -1074,9 +1084,17 @@
                             </div>
                             <div class="testimonial__list-item-reviewer ">
                                 <div class="reviewer-image">
-                                    <div
-                                        class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
-                                        A</div>
+                                    <div class="placeholder__img-wrapper">
+                                        <div class="w-full placeholder__img">
+                                            <img
+                                                src="/images/dynamic/reviewer.webp"
+                                                width="55"
+                                                height="55"
+                                                class="rounded-full"
+                                                alt="" />
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="reviewer-content">
                                     <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro
@@ -1102,7 +1120,7 @@
     </section>
 
     <!-- Blogs -->
-    <section class="container common-box hav-title-btn  pb-0 scroll-wrap">
+    <section class="container common-box hav-title-btn   ">
 
         <!-- title -->
         <div class="flex items-center justify-between mb-6">
@@ -1216,7 +1234,7 @@
 
                     </div>
                 </div>
-    
+
 
             </div>
         </div>

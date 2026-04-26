@@ -8,7 +8,7 @@
   --color-heading_color: rgb(0, 0, 0);
   --color-form: rgb(246, 250, 255); /*f6faff*/
   --color-block: rgb(108, 175, 218); /*6cafda*/
-  --color-dim_bg: rgb(244, 251, 254);
+  --color-dim_bg: rgb(246, 250, 255);
   --color-whatsapp: rgb(45, 169, 72);
   --color-rating_yellow: rgb(223, 210, 0);
   --color-footer: rgb(196, 223, 239); /*c4dfef*/
@@ -428,7 +428,7 @@
     @apply cursor-pointer;
   }
   /* button primary starts*/
-  .btn-primary {
+  /* .btn-primary {
     @apply bg-primary rounded-4xl px-5 py-2.5 text-sm font-bold text-white transition-all duration-500;
     &:hover {
       @apply text-white shadow-[inset_0_0_0_2em_var(--color-secondary)];
@@ -447,9 +447,34 @@
         @apply translate-x-0;
       }
     }
+  } */
+  .btn-primary a {
+    @apply inline-flex items-center mt-10 gap-3 border-dashed border border-primary rounded-[30px] px-5 py-2 text-sm font-medium;
+  }
+  .btn-primary a .icon-view {
+    @apply text-sm text-primary;
+    transition: transform 0.3s ease 0.15s; /* duration + delay */
+    &:hover {
+      @apply translate-x-1 duration-500;
+    }
+  }
+  @media (max-width: 1023px) {
+    .hav-title-btn {
+      position: relative;
+      padding-bottom: 110px !important;
+    }
+  }
+  @media (max-width: 1023px) {
+    .hav-title-btn {
+      @apply relative pb-27.5;
+    }
+
+    .hav-title-btn .section-title-btn {
+      @apply absolute left-3.75 bottom-9 z-10;
+    }
   }
   .section-title-btn a {
-    @apply inline-flex items-center gap-3 rounded-[30px] border border-dashed border-primary px-5 py-2.5  text-sm font-medium;
+    @apply inline-flex items-center gap-3 rounded-4xl border border-dashed border-primary px-5 py-2.5  text-sm font-medium;
     transition:
       color 0.3s ease,
       background-color 0.3s ease,
@@ -463,8 +488,11 @@
     transition: transform 0.3s ease 0.15s; /* duration + delay */
   }
 
-  .section-title-btn a:hover .icon-view {
+  /* .section-title-btn a:hover .icon-view {
     transform: rotate(45deg);
+  } */
+  .section-title-btn a:hover .icon-view {
+    @apply translate-x-1 duration-500;
   }
 
   .section-title-sm {
@@ -648,24 +676,29 @@
       @apply -bottom-1.25 bg-black;
     }
   }
+
   /* circular animation wave starts*/
+
   .circular-animate {
     @apply relative;
-    &::before {
-      content: "";
-      @apply absolute top-1/2 left-1/2 z-0 h-17.5 w-17.5 rounded-full bg-white/50 md:h-22.5 md:w-22.5;
-      animation: pulse-border 1.5s ease-out infinite;
-    }
+
     &::after {
       content: "";
-      @apply absolute top-1/2 left-1/2 z-10 h-16 w-16 -translate-1/2 rounded-full bg-white md:h-21.25 md:w-21.25;
+      @apply absolute top-1/2 left-1/2 z-10 h-22.5 w-22.5 -translate-1/2 rounded-full bg-white/50 opacity-0;
+      transition: opacity 1.5s ease-out;
     }
+
+    &:hover::before,
+    &:hover::after {
+      @apply opacity-60 duration-500;
+    }
+
     svg {
       @apply relative z-12;
     }
   }
-
   /* circular animation wave ends */
+
   /* table  */
   .table-responsive {
     @apply mb-5 w-full overflow-x-auto;
@@ -731,7 +764,7 @@
   }
   .placeholder__img-wrapper:before {
     @apply bg-dim_bg absolute inset-0 z-0 w-full rounded-[inherit] bg-no-repeat;
-    background-image: url("/themes/images/placeholder-logo.svg");
+    background-image: url("../images/placeholder-logo.svg");
     background-position: 50% 50%;
     background-size: auto 20%;
     content: "";
@@ -1009,9 +1042,9 @@
       @apply absolute left-4 top-4 z-10 cursor-pointer rounded-full bg-[#6cafda] px-3 py-1 text-[10px] font-medium uppercase text-white transition-all duration-300 ease-in-out hover:bg-[#6cafda]/90;
     }
     .package-list__item-image {
-      @apply rounded-custom relative rounded-b-none;
+      @apply rounded-t-[10px] relative rounded-b-none;
       &:after {
-        @apply rounded-[10px] pointer-events-none absolute top-0 left-0 z-2 size-full bg-black/15;
+        @apply rounded-t-[10px] pointer-events-none absolute top-0 left-0 z-2 size-full;
         content: "";
       }
       .placeholder__img-wrapper {
@@ -1034,19 +1067,37 @@
       }
     }
 
-    .package-list__item-top {
+    .package-list__item-meta {
       @apply flex flex-wrap items-center justify-between py-2;
       .package-list__item-duration,
       .package-list__item-reviews,
       .explore_btn {
         @apply flex items-center gap-2;
       }
+
+      .icon-time-quarter-to {
+        @apply text-base text-[#76b4dc];
+      }
     }
-    .package-list__item-meta {
-      @apply flex items-end justify-between bg-white;
-    }
-    .package-list__item-explore-btn {
-      @apply flex items-center text-primary hover:text-primary/90;
+
+    .package-list__item-bottom {
+      @apply flex items-center justify-between;
+      .package-list__item-price {
+        @apply flex gap-2 items-center;
+        .package-list__item-price-new {
+          @apply text-xl text-primary font-extrabold;
+        }
+        .package-list__item-price-old {
+          @apply text-base text-[#8b8b8b] line-through;
+        }
+      }
+
+      .package-list__item-explore-btn a {
+        @apply flex items-center text-text_color font-medium hover:text-primary/90 text-xs gap-2;
+      }
+      .icon-arrow-right {
+        @apply text-primary;
+      }
     }
   }
   /* package list ends */
@@ -1252,9 +1303,9 @@
       @apply px-2 py-1 flex items-center -bottom-2 left-6 text-white absolute rounded-full bg-[#6cafda] px-3 text-xs font-bold font-mulish gap-1 z-10;
     }
     .blog-list__item-content-title {
-      @apply hover:text-primary text-text_color text-lg leading-6 font-bold transition-all duration-500 lg:text-xl font-mulish p-4;
+      @apply hover:text-primary text-text_color text-base leading-6 font-bold transition-all duration-500 lg:text-xl font-mulish p-4;
       a {
-        @apply hover:text-primary text-text_color mb-3 text-lg leading-6 font-bold transition-all duration-500 lg:text-xl font-mulish;
+        @apply hover:text-primary text-text_color mb-3 text-base leading-6 font-bold transition-all duration-500 lg:text-xl font-mulish;
       }
     }
     .blog-list__item-btn {
@@ -1816,7 +1867,7 @@
   }
 }
 /* scroll wrap starts*/
-.scroll-wrap {
+/* .scroll-wrap {
   .col-span-4 {
     @apply p-px;
   }
@@ -1840,6 +1891,50 @@
       @apply flex-[0_0_70%] sm:flex-[0_0_40%] md:flex-[0_0_30%] lg:flex-none;
     }
   }
+} */
+.scroll-wrap .grid {
+  @apply flex overflow-x-auto pl-[5px] pt-[3px] md:grid md:overflow-visible md:pl-0 md:pt-0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Horizontal scroll row helper (non-grid) */
+.scroll-wrap .scroll-row {
+  @apply flex overflow-x-auto pl-[5px] pt-[3px] md:overflow-visible md:pl-0 md:pt-0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+}
+
+.scroll-wrap .grid::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.scroll-wrap .scroll-row::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.scroll-wrap .grid .col-span-3,
+.scroll-wrap .grid .col-span-4,
+.scroll-wrap .grid .col-span-6 {
+  @apply flex-none basis-[85%] sm:basis-[45%] md:basis-auto;
+  scroll-snap-align: start;
+}
+
+.scroll-wrap .grid .col-span-12 {
+  @apply flex-none basis-[85%] sm:basis-[45%] md:basis-auto;
+  scroll-snap-align: start;
+}
+
+.scroll-wrap .grid .col-span-2 {
+  @apply flex-none basis-[45%] sm:basis-[30%] md:basis-auto;
+  scroll-snap-align: start;
+}
+
+.scroll-wrap .scroll-row > * {
+  @apply flex-none;
+  scroll-snap-align: start;
 }
 /* scroll wrap ends*/
 
@@ -2207,7 +2302,7 @@
       top: -30px;
     }
     @media (min-width: 768px) {
-      top: -15px;
+      top: -40px;
     }
     @media (min-width: 900px) {
       top: -22px;
@@ -2231,10 +2326,10 @@
       top: -15px;
     }
     @media (min-width: 2150px) {
-      top: -40px;
+      top: 18px;
     }
     @media (min-width: 2370px) {
-      top: -40px;
+      top: 18px;
     }
   }
 
@@ -2420,6 +2515,9 @@
       @apply bg-[#6cafda] text-white hover:bg-primary rounded-full p-2 flex justify-center items-center;
     }
   }
+}
+.homepage__feature-shell {
+  @apply relative z-1 mx-auto w-[95%] rounded-[30px] bg-white py-8;
 }
 .homepage__join {
   .homepage__join-banner {

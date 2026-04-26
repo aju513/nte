@@ -1,5 +1,5 @@
 <footer class="footer  relative">
-    <div class="bg-secondary md:h-18 lg:h-46 h-6 w-full relative">
+    <div class="bg-secondary md:h-10 lg:h-46 h-6 w-full relative">
     </div>
 
 
