@@ -50,7 +50,7 @@
                             <span class="js-notice-current">1</span>/3
                         </span>
                         <button type="button" class="notice-btn js-notice-next" aria-label="Next notice">
-                            <span class="icon-back"></span>
+                            <span class="icon-back "></span>
                         </button>
                     </div>
                     <button type="button" class="notice-btn homepage__notice-close js-notice-close"
@@ -452,14 +452,14 @@
                         </p>
                     </div>
                     <div class="homepage__join-actions">
-                        <button class="btn-outline-primary">
+                        <button class="btn-outline-secondary hav-icon">
                             View All Packages
-                            <span class="hav-icon icon-arrow-right"></span>
+                            <span class="icon-view"></span>
                         </button>
 
-                        <button class="btn-outline-primary">
+                        <button class="btn-outline-secondary hav-icon">
                             View All Packages
-                            <span class="hav-icon icon-arrow-right"></span>
+                            <span class="icon-view"></span>
                         </button>
                     </div>
 
@@ -502,12 +502,12 @@
                                 cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
                             </p>
                         </div>
-                        <div class="btn-outline-primary hav-icon mt-12.5">
-                            <a href="">More About Us <span class="icon-view"></span></a>
-                        </div>
+                        <button class="btn-outline-primary hav-icon mt-12.5">
+                            More About Us <span class="icon-view"></span>
+                        </button>
                     </div>
                     <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish lg:-mr-72">
-                        <div class="why-choose-accordion">
+                        <div class="why-choose-accordion container">
                             <h2 class="why-choose-accordion__heading">Why choose us?</h2>
 
                             <div class="why-choose-accordion__list">
@@ -526,8 +526,8 @@
                                         <p>We keep pricing transparent and competitive, with quality service and value
                                             built
                                             into every trip.</p>
-                                        <a href="#" class="why-choose-accordion__link">Read More <span
-                                                class="icon-arrow-right"></span></a>
+                                        <a href="#" class="why-choose-accordion__link ">Read More <span
+                                                class="icon-arrow-right "></span></a>
                                     </div>
                                 </div>
 

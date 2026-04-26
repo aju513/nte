@@ -401,7 +401,7 @@
   /* accordion ends*/
   /* Breadcrumbs  */
   .breadcrumbs__wrapper {
-    @apply py-2;
+    @apply py-2 bg-secondary;
 
     li {
       @apply relative;
@@ -486,13 +486,13 @@
     @apply translate-x-1 duration-500;
   }
 
-  .section-title-sm {
+  /* .section-title-sm {
     @apply mb-2 block lg:text-lg text-sm leading-5 text-primary;
   }
 
   .section-title {
     @apply font-playfair text-[30px] font-black uppercase leading-12 text-black lg:text-[39px] lg:leading-10;
-  }
+  } */
   /*Button secondary*/
   .btn-secondary {
     @apply bg-secondary rounded-4xl px-5 py-2.5 text-sm font-bold text-white transition-all duration-500;
@@ -537,11 +537,11 @@
   }
   /*Button primary outline*/
   .btn-outline-primary {
-    @apply inline-flex w-full flex-none items-center justify-center gap-2 rounded-[30px] border border-dashed border-primary px-4 py-2.5 text-sm font-medium leading-none transition-all duration-500 sm:w-auto sm:min-w-40 lg:min-w-44;
+    @apply inline-flex w-full flex-none items-center justify-center gap-3 rounded-[30px] border border-dashed border-primary px-4 py-2.5 text-sm font-medium leading-none transition-all duration-500 sm:w-auto sm:min-w-40 lg:min-w-44;
     cursor: pointer;
 
     &:hover {
-      @apply bg-white text-text_color;
+      @apply text-text_color;
     }
 
     &.hav-icon {
@@ -551,7 +551,7 @@
 
       &:hover {
         .icon-view {
-          @apply translate-x-2.5;
+          @apply text-primary translate-x-2.5;
         }
 
         span.animate-spin {
@@ -562,10 +562,7 @@
   }
   /*Button secondary outline*/
   .btn-outline-secondary {
-    @apply border-secondary text-text_color rounded-4xl border bg-white px-5 py-2.5 text-sm font-bold transition-all duration-500;
-    &:hover {
-      @apply border-primary text-white! shadow-[inset_0_0_0_2em_var(--color-primary)];
-    }
+    @apply rounded-4xl border border-dashed border-white text-white  px-5 py-2.5 text-sm font-bold transition-all duration-500;
   }
   .btn-outline-secondary.hav-icon {
     @apply inline-flex items-center gap-2;
@@ -1030,7 +1027,7 @@
   .package-list__item {
     @apply rounded-[10px] shadow-custom relative bg-secondary transition-all duration-500;
     .package-list__item-badge {
-      @apply absolute left-4 top-4 z-10 cursor-pointer rounded-full bg-[#6cafda] px-3 py-1 text-[10px] font-medium uppercase text-white transition-all duration-300 ease-in-out hover:bg-[#6cafda]/90;
+      @apply absolute left-4 top-4 z-10 cursor-pointer rounded-full bg-[#6cafda] px-3 py-2 text-[10px] font-medium uppercase text-white transition-all duration-300 ease-in-out hover:bg-[#6cafda]/90;
     }
     .package-list__item-image {
       @apply rounded-t-[10px] relative rounded-b-none;
@@ -2441,15 +2438,18 @@
   @apply mb-0!;
 }
 .section-title {
-  @apply font-playfair text-[26px] leading-8.5 font-bold text-black sm:text-[30px] sm:leading-9 xl:text-[39px] xl:leading-12;
+  @apply font-playfair text-xl font-black uppercase leading-9 text-black lg:text-4xl lg:leading-10;
+}
+.section-title-sm {
+  @apply mb-2 block lg:text-lg text-sm leading-5 text-primary;
 }
 
 .homepage__banner {
-  @apply relative min-h-[100svh];
+  @apply relative;
   .homepage__banner-media {
-    @apply relative min-h-[100svh];
+    @apply relative;
     .placeholder__img-wrapper {
-      @apply h-full min-h-[100svh] rounded-none;
+      @apply h-full aspect-1920/700 rounded-none;
       &:after {
         @apply absolute top-0 left-0 z-2 size-full bg-black/30;
         content: "";
@@ -2469,7 +2469,7 @@
   .homepage__banner-content {
     @apply absolute left-[50%] top-[60%] lg:top-[50%] z-10 w-[95%] md:w-[65%] lg:w-[65%] translate-x-[-50%] translate-y-[-50%] text-center text-white;
     h2 {
-      @apply uppercase font-black text-white text-center text-[42px] leading-11.5 lg:text-[55px] lg:leading-15 font-playfair;
+      @apply uppercase font-black text-white text-center text-4xl leading-11.5 lg:text-6xl lg:leading-15 font-playfair;
     }
     .homepage__banner-subcontent {
       @apply sm:text-lg md:text-xl font-medium font-mulish mt-2 md:mt-3;
@@ -2484,7 +2484,7 @@
     @apply shadow-custom mx-auto flex w-full items-center justify-between gap-3 rounded-full bg-white px-4 py-2.5 sm:px-5;
 
     .notice-message {
-      @apply hidden flex-1 min-w-0 pr-2 text-xs sm:text-sm;
+      @apply hidden flex-1 min-w-0 pr-2 text-xs sm:text-sm text-text_color font-bold font-mulish;
 
       &.is-active {
         @apply block;
@@ -2492,10 +2492,10 @@
     }
 
     .notice-controls {
-      @apply flex shrink-0 items-center justify-end gap-2 sm:gap-3;
+      @apply flex  items-center justify-end gap-2 sm:gap-3;
 
       .notice-nav {
-        @apply flex items-center gap-1.5 text-xs sm:gap-2 sm:text-sm;
+        @apply flex items-center gap-1.5 text-xs sm:gap-2 sm:text-sm font-bold font-mulish;
 
         .notice-counter {
           @apply min-w-9 text-center;
@@ -2508,7 +2508,7 @@
     }
 
     .homepage__notice-close {
-      @apply bg-[#6cafda] text-white hover:bg-primary rounded-full p-2 flex justify-center items-center;
+      @apply bg-[#6cafda] text-white h-8 w-8 hover:bg-primary rounded-full p-2 flex justify-center items-center;
     }
   }
 }
@@ -2533,7 +2533,7 @@
   }
 }
 .homepage__main-content {
-  @apply relative overflow-hidden relative;
+  @apply relative overflow-hidden;
   .homepage__main-copy .welcome-content {
     @apply max-w-none lg:max-w-[80%];
   }
@@ -2548,14 +2548,7 @@
     &::before {
       content: "";
       @apply absolute inset-0 block h-108.25 w-213 lg:-left-51 -top-14;
-
       background-color: rgb(241, 245, 249);
-      /* background-color: rgb(225, 234, 241); */
-      /* background-color: (#f1f5f9); */
-
-      /* mask: url("/images/svg/map.svg") no-repeat center;
-    mask-size: contain; */
-
       -webkit-mask: url("/images/svg/map.svg") no-repeat center;
       -webkit-mask-size: contain;
 

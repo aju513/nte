@@ -852,7 +852,7 @@
                                                                 </div>
                                                         </div>
                                                         <div class="btn-outline-primary hav-icon ">
-                                                                <a href="">Plan Your Trip <span class="icon-view" aria-hidden="true"></span></a>
+                                                                Plan Your Trip <span class="icon-view" aria-hidden="true"></span>
                                                         </div>
                                                 </div>
                                         </div>
