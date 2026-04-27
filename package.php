@@ -62,11 +62,19 @@
         </a>
       </li>
       <li>
+        <a class="nav-item-link " href="#package-equipments">
+          <span class="package-page__nav-item-icon">
+            <span class="relative text-xl text-white top-1 icon-nav-equipment"></span>
+          </span>
+          <span class="package-page__nav-item-title">Equipment List</span>
+        </a>
+      </li>
+      <li>
         <a class="nav-item-link " href="#package-essentials">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-information"></span>
           </span>
-          <span class="package-page__nav-item-title"> Essentials Information</span>
+          <span class="package-page__nav-item-title"> Essential Information</span>
         </a>
       </li>
       <li>
@@ -135,16 +143,27 @@
             <div class="page-title">
               <h1>Everest Base Camp Trek-15 Days</h1>
             </div>
-            <div class="package__rating flex items-center gap-3 flex-wrap lg:gap-4.5">
-              <div class="flex items-center gap-2 package__rating-tripadvisor ">
-                <span class="icon-dot-rating"></span>
+            <div class="package__rating flex items-center gap-3 flex-wrap lg:gap-4.55">
+              <div class="flex items-center gap-1 package__rating-tripadvisor justify-center ">
+                <div class="flex justify-start items-center gap-1">
+                  <span class="icon-green-circle  text-[10px]"></span>
+                  <span class="icon-green-circle  text-[10px]"></span>
+                  <span class="icon-green-circle  text-[10px]"></span>
+                  <span class="icon-green-circle  text-[10px]"></span>
+                  <span class="icon-green-circle  text-[10px]"></span>
+                </div>
                 <span class="text-[13px] text-text_color leading-5">110 Reviews in Trip Advisor</span>
               </div>
-              <div class="flex items-center gap-2 package__rating-tripadvisor">
-                <span class="icon-star-ratings"></span>
+              <div class="flex items-center gap-1 package__rating-tripadvisor">
+                <div class="flex justify-start items-start">
+                  <span class="icon-star-rate text-[#ffc20e] text-[10px] "></span>
+                  <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
+                  <span class="icon-star-rate text-[#ffc20e] text-[10px] "></span>
+                  <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
+                  <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
+                </div>
                 <span class="text-[13px] text-text_color leading-5">120 Reviews in Google Reviews</span>
               </div>
-
             </div>
             <div class="package__summary common-module">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -429,10 +448,14 @@
                     <img src="/images/dynamic/album.webp" width="1200" height="675" alt="banner" />
                   </div>
                 </div>
-                <div class="video-review__item-link">
-                  <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
-                    <span class="video-play-btn"><span class="icon-play-button icon-video"></span>
-                    </span>
+                <div class="fancybox-wrapper absolute top-[40%] left-[40%] lg:left-[45%]">
+                  <a href="https://www.youtube.com/watch?v=K4TOrB7at0Y" data-fancybox="video"
+                    data-width="1080" data-height="608"
+                    class="circular-animate relative flex items-center justify-center h-18 w-18">
+                    <span class="absolute left-1/2 top-1/2 z-40 flex h-12.5 w-12.5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-18.75 md:w-18.75 cursor-pointer"><span
+                        class=" icon-play-button text-primary">
+                      </span></span>
+
                   </a>
                 </div>
               </div>
@@ -814,7 +837,7 @@
                 </div>
               </div>
             </div>
-            <div class="package__equipment common-module " id="package-equpipments">
+            <div class="package__equipment common-module " id="package-equipments">
               <h2 class="package__section-title">Equipment List</h2>
               <div class="package__equipment-content">
                 Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The Mount
@@ -824,7 +847,27 @@
                 you'll encounter charming Sherpa villages, ancient monasteries, and vibrant local culture.
               </div>
               <div class="package__equipment-wrapper">
-                <div class="package__equipment-item"></div>
+                <div class="package__equipment-item">
+                  <div class="package__equipment-item-title">Clothing</div>
+                  <div class="package__equipment-item-content">
+                    <ul>
+                      <li>Base Layers</li>
+                      <li>Outer Layers</li>
+                      <li>Trekking Pants</li>
+                      <li>Warm Layers</li>
+                    </ul>
+                  </div>
+                  <div class="package__cta-links flex justify-start items-center gap-3 underline">
+                    <button type="button"
+                      class="package__cta-btn expand-all-equipment ">
+                      See more list
+                    </button>
+                    <button type="button"
+                      class="package__cta-btn download-all-btn   ">
+                      Download list
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="package__additionalinfo common-module " id="package-essentials">

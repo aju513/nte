@@ -502,14 +502,14 @@
   }
   .btn-secondary.hav-icon {
     @apply inline-flex items-center gap-2;
-    svg {
+    .icon-view {
       @apply translate-x-0 transition-transform duration-500 ease-in-out;
     }
     &:hover {
-      svg {
+      .icon-view {
         @apply translate-x-2.5 transition-transform duration-500 ease-in-out;
       }
-      svg.animate-spin {
+      .icon-view.animate-spin {
         @apply translate-x-0;
       }
     }
@@ -523,14 +523,14 @@
   }
   .btn-dim.hav-icon {
     @apply inline-flex items-center gap-2;
-    svg {
+    .icon-view {
       @apply translate-x-0 transition-transform duration-500 ease-in-out;
     }
     &:hover {
-      svg {
+      .icon-view {
         @apply translate-x-2.5 transition-transform duration-500 ease-in-out;
       }
-      svg.animate-spin {
+      .icon-view.animate-spin {
         @apply translate-x-0;
       }
     }
@@ -802,7 +802,7 @@
         @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
         &::before {
           content: "";
-          @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#6cafda];
+          @apply absolute top-0.5 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
           mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
@@ -3074,10 +3074,10 @@
         @apply mb-0;
       }
       li {
-        @apply relative mb-2.75 pl-7.75 leading-6 text-text_color;
+        @apply relative mb-2.75 pl-7.75 text-base leading-6 text-text_color;
         &::before {
           content: "";
-          @apply absolute top-px left-0 block h-5 w-5 bg-current text-[#6cafda];
+          @apply absolute top-px left-0 block h-2.5 w-2.5 bg-current text-[#6cafda];
           mask: url("/images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
           -webkit-mask: url("/images/svg/splotch.svg") no-repeat center;
@@ -3344,7 +3344,18 @@
     }
   }
   .package__cta-btn {
-    @apply inline-flex w-full flex-none cursor-pointer items-center justify-center gap-2 rounded-full border-2 border-dotted border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition hover:bg-white hover:text-text_color sm:w-auto sm:min-w-40 lg:min-w-44;
+    @apply inline-flex w-full flex-none cursor-pointer items-center justify-center gap-2 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition sm:w-auto sm:min-w-40 lg:min-w-44;
+    .icon-view {
+      @apply translate-x-0 transition-transform duration-500 ease-in-out;
+    }
+    &:hover {
+      .icon-view {
+        @apply translate-x-2.5 transition-transform duration-500 ease-in-out;
+      }
+      .icon-view.animate-spin {
+        @apply translate-x-0;
+      }
+    }
   }
 }
 /* package visuals */
@@ -3782,7 +3793,7 @@
         @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
         &::before {
           content: "";
-          @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#6cafda];
+          @apply absolute top-0.5 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
           mask: url("/images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
@@ -4117,7 +4128,7 @@
   background-color: #00a96c; /* custom green */
 }
 .common-page-wrapper {
-  @apply w-[95%] bg-white rounded-[15px] m-auto;
+  @apply w-[95%] bg-white rounded-[15px] mx-auto;
 }
 
 /* header top starts */

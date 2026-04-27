@@ -32,7 +32,7 @@
               <h3 class="featured-blog__title"><a href="">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                   sed</a></h3>
               <div class="featured-blog__meta">
-                <div class="featured-blog__date"><span class="icon icon-itinerary-info-calendar"></span><span
+                <div class="featured-blog__date"><span class="icon icon-calendar-lines"></span><span
                     class="text-text_color text-sm font-semibold">December 12, 2024</span></div>
                 <div class="featured-blog__author"><span class="icon icon-users text-black"></span><span
                     class="text-text_color text-sm font-semibold">Aakash</span></div>
