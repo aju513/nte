@@ -254,17 +254,78 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
+      const toRatingClass = (value) => {
+        const parsed = Number.parseFloat(String(value));
+        if (!Number.isFinite(parsed)) return 0;
+        return Math.min(5, Math.max(0, Math.round(parsed)));
+      };
+
+      const buildRatingWrapMarkup = (value) => {
+        const ratingClass = toRatingClass(value);
+        const stars = Array.from(
+          { length: 5 },
+          () => '<span class="star"></span>',
+        ).join("");
+        const classSuffix = ratingClass >= 1 ? ` rating-${ratingClass}` : "";
+        return `<div class="rating-wrap${classSuffix}">${stars}</div>`;
+      };
+
+      const setRatingWrap = (container, value) => {
+        if (!container) return;
+
+        const ratingClass = toRatingClass(value);
+        const wrap = qs(".rating-wrap", container);
+
+        if (!wrap) {
+          container.insertAdjacentHTML(
+            "afterbegin",
+            buildRatingWrapMarkup(value),
+          );
+          return;
+        }
+
+        wrap.classList.remove(
+          "rating-1",
+          "rating-2",
+          "rating-3",
+          "rating-4",
+          "rating-5",
+        );
+        if (ratingClass >= 1) {
+          wrap.classList.add(`rating-${ratingClass}`);
+        }
+      };
+
+      const isTripAdvisorTab = (tab) => {
+        const haystack = [
+          tab?.dataset?.name,
+          tab?.dataset?.icon,
+          tab?.dataset?.testimonialIcon,
+        ]
+          .filter(Boolean)
+          .join(" ");
+        return /trip\s*advisor|tripadvisor/i.test(haystack);
+      };
+
       const tabs = qsa(".review-tab-item", block);
       const count = qs("#reviewCount", block);
       const rating = qs("#reviewRating", block);
       const icon = qs("#reviewIcon", block);
-      const testimonialIcons = qsa("[data-testimonial-review-icon]");
+      const scope = block.closest("section") || document;
+      const testimonialIcons = qsa("[data-testimonial-review-icon]", scope);
+      const testimonialRatingBlocks = qsa(
+        ".testimonial__list-item-rating",
+        scope,
+      );
 
       if (tabs.length === 0 || !count || !rating || !icon) {
         return;
       }
 
       const setActive = (tab) => {
+        const ratingValue = tab.dataset.rating || "0";
+        const useGreenDots = isTripAdvisorTab(tab);
+
         tabs.forEach((item) => {
           const isActive = item === tab;
           item.classList.toggle("active", isActive);
@@ -272,7 +333,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         count.textContent = `${tab.dataset.count || "0"} reviews`;
-        rating.textContent = `${tab.dataset.rating || ""} rating`;
+        rating.innerHTML = buildRatingWrapMarkup(ratingValue);
+        rating.classList.toggle("green-dot-rating", useGreenDots);
+
+        testimonialRatingBlocks.forEach((ratingBlock) => {
+          setRatingWrap(ratingBlock, ratingValue);
+          ratingBlock.classList.toggle("green-dot-rating", useGreenDots);
+        });
 
         const iconSrc = tab.dataset.icon || "";
         if (iconSrc) {

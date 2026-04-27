@@ -965,8 +965,16 @@
                     </a>
                 </div>
                 <div class="mt-2 flex items-center gap-3">
+                    <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2" id="reviewRating">
+                        <div class="rating-wrap rating-5">
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                        </div>
+                    </div>
                     <span id="reviewCount" class="text-sm">222 reviews</span>
-                    <span id="reviewRating" class="font-semibold text-primary">4.6 rating</span>
                 </div>
             </div>
 
@@ -1026,7 +1034,7 @@
                     <div class="swiper-slide">
                         <div class="testimonial__list-item m-0!">
                             <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
-                                <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2">
+                                <div class="testimonial__list-item-rating  flex items-center gap-2">
                                     <div class="rating-wrap rating-5">
                                         <span class="star"></span>
                                         <span class="star"></span>
@@ -1034,7 +1042,7 @@
                                         <span class="star"></span>
                                         <span class="star"></span>
                                     </div>
-                                    <img src="/images/svg/circular-tripadvisor.svg"
+                                    <img src="/images/svg/circular-facebook.svg"
                                         data-testimonial-review-icon
                                         class="w-10 h-10 cursor-pointer" alt="Trip Advisor" />
                                 </div>
@@ -1068,7 +1076,7 @@
                     <div class="swiper-slide">
                         <div class="testimonial__list-item m-0!">
                             <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
-                                <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2">
+                                <div class="testimonial__list-item-rating  flex items-center gap-2">
                                     <div class="rating-wrap rating-5">
                                         <span class="star"></span>
                                         <span class="star"></span>
@@ -1076,7 +1084,7 @@
                                         <span class="star"></span>
                                         <span class="star"></span>
                                     </div>
-                                    <img src="/images/svg/circular-tripadvisor.svg"
+                                    <img src="/images/svg/circular-google.svg"
                                         data-testimonial-review-icon
                                         class="w-10 h-10 cursor-pointer" alt="Trip Advisor" />
                                 </div>
