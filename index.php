@@ -831,7 +831,8 @@
                             </div>
                         </div>
                         <div class="absolute lg:bottom-6 bottom-1 left-6 text-white z-10">
-                            <h4 class="lg:text-2xl text-[16px] sm:text-xs text-white font-extrabold ">Everest Base Camp</h4>
+                            <h4 class="lg:text-2xl text-[16px] sm:text-xs text-white font-extrabold ">Everest Base Camp
+                            </h4>
                             <span class="text-sm">Jhon - Australia</span>
                         </div>
                     </div>
@@ -926,28 +927,30 @@
 
             <div class="homepage__review-tabs review-tabs" role="tablist" aria-label="Review sources">
                 <button type="button" class="homepage__review-tab review-tab-item " data-name="All Reviews"
-                    data-count="500" data-rating="4.6" data-icon="" aria-pressed="false">
+                    data-count="500" data-rating="4.6" data-icon="" data-testimonial-icon="" aria-pressed="false">
                     <span>All Reviews</span>
                     <span class="font-semibold">4.6</span>
                 </button>
 
                 <button type="button" class="homepage__review-tab review-tab-item active" data-name="Trip Advisor"
                     data-count="222" data-rating="4.6" data-icon="/images/svg/tripadvisor.svg"
-                    aria-pressed="true">
+                    data-testimonial-icon="/images/svg/circular-tripadvisor.svg" aria-pressed="true">
                     <img src="/images/svg/circular-tripadvisor.svg" class="w-5 h-5" alt="Trip Advisor">
                     <span>Trip Advisor</span>
                     <span class="font-semibold">4.6</span>
                 </button>
 
                 <button type="button" class="homepage__review-tab review-tab-item" data-name="Facebook" data-count="180"
-                    data-rating="4.6" data-icon="/images/svg/facebook.svg" aria-pressed="false">
+                    data-rating="4.6" data-icon="/images/svg/facebook.svg"
+                    data-testimonial-icon="/images/svg/circular-facebook.svg" aria-pressed="false">
                     <img src="/images/svg/circular-facebook.svg" class="w-5 h-5" alt="Facebook">
                     <span>Facebook</span>
                     <span class="font-semibold">4.6</span>
                 </button>
 
                 <button type="button" class="homepage__review-tab review-tab-item" data-name="Google" data-count="300"
-                    data-rating="4.6" data-icon="/images/svg/google.svg" aria-pressed="false">
+                    data-rating="4.6" data-icon="/images/svg/google.svg"
+                    data-testimonial-icon="/images/svg/circular-google.svg" aria-pressed="false">
                     <img src="/images/svg/circular-google.svg" class="w-5 h-5" alt="Google">
                     <span>Google</span>
                     <span class="font-semibold">4.6</span>
@@ -981,7 +984,7 @@
                     <div class="swiper-slide">
                         <div class="testimonial__list-item m-0!">
                             <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
-                                <div class="testimonial__list-item-rating green-dot-rating">
+                                <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2">
                                     <div class="rating-wrap rating-5">
                                         <span class="star"></span>
                                         <span class="star"></span>
@@ -989,6 +992,9 @@
                                         <span class="star"></span>
                                         <span class="star"></span>
                                     </div>
+                                    <img src="/images/svg/circular-tripadvisor.svg"
+                                        data-testimonial-review-icon
+                                        class="w-10 h-10 cursor-pointer" alt="Trip Advisor" />
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">"The trek was life-changing</div>
@@ -1002,12 +1008,8 @@
                                 <div class="reviewer-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="w-full placeholder__img">
-                                            <img
-                                                src="/images/dynamic/reviewer.webp"
-                                                width="55"
-                                                height="55"
-                                                class="rounded-full"
-                                                alt="" />
+                                            <img src="/images/dynamic/reviewer.webp" width="55" height="55"
+                                                class="rounded-full" alt="" />
                                         </div>
                                     </div>
 
@@ -1024,7 +1026,7 @@
                     <div class="swiper-slide">
                         <div class="testimonial__list-item m-0!">
                             <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
-                                <div class="testimonial__list-item-rating green-dot-rating">
+                                <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2">
                                     <div class="rating-wrap rating-5">
                                         <span class="star"></span>
                                         <span class="star"></span>
@@ -1032,6 +1034,9 @@
                                         <span class="star"></span>
                                         <span class="star"></span>
                                     </div>
+                                    <img src="/images/svg/circular-tripadvisor.svg"
+                                        data-testimonial-review-icon
+                                        class="w-10 h-10 cursor-pointer" alt="Trip Advisor" />
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">"The trek was life-changing</div>
@@ -1045,12 +1050,8 @@
                                 <div class="reviewer-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="w-full placeholder__img">
-                                            <img
-                                                src="/images/dynamic/reviewer.webp"
-                                                width="55"
-                                                height="55"
-                                                class="rounded-full"
-                                                alt="" />
+                                            <img src="/images/dynamic/reviewer.webp" width="55" height="55"
+                                                class="rounded-full" alt="" />
                                         </div>
                                     </div>
 
@@ -1067,7 +1068,7 @@
                     <div class="swiper-slide">
                         <div class="testimonial__list-item m-0!">
                             <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
-                                <div class="testimonial__list-item-rating green-dot-rating">
+                                <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2">
                                     <div class="rating-wrap rating-5">
                                         <span class="star"></span>
                                         <span class="star"></span>
@@ -1075,6 +1076,9 @@
                                         <span class="star"></span>
                                         <span class="star"></span>
                                     </div>
+                                    <img src="/images/svg/circular-tripadvisor.svg"
+                                        data-testimonial-review-icon
+                                        class="w-10 h-10 cursor-pointer" alt="Trip Advisor" />
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">"The trek was life-changing</div>
@@ -1088,12 +1092,8 @@
                                 <div class="reviewer-image">
                                     <div class="placeholder__img-wrapper">
                                         <div class="w-full placeholder__img">
-                                            <img
-                                                src="/images/dynamic/reviewer.webp"
-                                                width="55"
-                                                height="55"
-                                                class="rounded-full"
-                                                alt="" />
+                                            <img src="/images/dynamic/reviewer.webp" width="55" height="55"
+                                                class="rounded-full" alt="" />
                                         </div>
                                     </div>
 

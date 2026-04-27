@@ -258,6 +258,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const count = qs("#reviewCount", block);
       const rating = qs("#reviewRating", block);
       const icon = qs("#reviewIcon", block);
+      const testimonialIcons = qsa("[data-testimonial-review-icon]");
 
       if (tabs.length === 0 || !count || !rating || !icon) {
         return;
@@ -283,6 +284,19 @@ document.addEventListener("DOMContentLoaded", () => {
           icon.alt = "";
           icon.classList.add("hidden");
         }
+
+        const testimonialIconSrc = tab.dataset.testimonialIcon || "";
+        testimonialIcons.forEach((testimonialIcon) => {
+          if (testimonialIconSrc) {
+            testimonialIcon.src = testimonialIconSrc;
+            testimonialIcon.alt = tab.dataset.name || "Review source";
+            testimonialIcon.classList.remove("hidden");
+          } else {
+            testimonialIcon.src = "";
+            testimonialIcon.alt = "";
+            testimonialIcon.classList.add("hidden");
+          }
+        });
       };
 
       const initialTab =
