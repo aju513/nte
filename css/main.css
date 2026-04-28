@@ -408,12 +408,12 @@
       a {
         @apply text-text_color/70 inline-flex items-center text-xs font-medium transition-all duration-500;
         &:hover {
-          @apply text-secondary transition-all duration-500;
+          @apply text-primary transition-all duration-500;
         }
       }
       &:after {
-        @apply absolute top-px -right-2.5 z-0 h-1.25 w-1.25 text-xs opacity-70;
-        content: url("/themes/images/angle-right.svg");
+        @apply absolute top-1 -right-2 z-0 h-2 w-2 text-xs opacity-70 rotate-270;
+        content: url("../images/svg/angle-bottom.svg");
         /* content: "/"; */
       }
       &:last-child {
@@ -495,7 +495,7 @@
   } */
   /*Button secondary*/
   .btn-secondary {
-    @apply bg-secondary rounded-4xl px-5 py-2.5 text-sm font-bold text-white transition-all duration-500;
+    @apply bg-secondary rounded-4xl px-5 py-2.5 text-sm font-bold text-text_color transition-all duration-500;
     &:hover {
       @apply text-white shadow-[inset_0_0_0_2em_var(--color-primary)];
     }
@@ -976,11 +976,11 @@
   .booking-group-price {
     @apply bg-dim_bg rounded-custom mx-5.5;
   }
-  .booking__discount-list,
+  /* .booking__discount-list,
   .package__discount-list {
     @apply max-h-0 overflow-hidden;
     transition: max-height 0.3s ease-out;
-  }
+  } */
   /* collapse end */
   /* notice bar */
   .notice-bar {
@@ -1408,7 +1408,7 @@
       }
       .zoom-icon {
         @apply rounded-custom absolute top-1/2 left-1/2 z-1 size-full -translate-x-1/2 -translate-y-1/2 bg-black/20 opacity-0 transition-all duration-500;
-        svg {
+        .icon-zoom-icon {
           @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-500;
         }
       }
@@ -1990,7 +1990,7 @@
       content: "";
     }
     .nav-tab-links {
-      @apply bg-primary/80 rounded-custom mt-6 flex w-62.5 min-w-62.5 flex-col gap-1 pt-2.5 pb-2.5 pl-3.75;
+      @apply bg-primary/80 rounded-custom mt-3 flex w-62.5 min-w-62.5 flex-col gap-1 pt-2.5 pb-2.5 pl-3.75;
       button {
         @apply w-full cursor-pointer px-2.5 py-1.75 font-medium text-white;
         &.active {
@@ -2112,7 +2112,7 @@
       }
     }
     .megamenu-items {
-      @apply pt-5;
+      @apply pt-2;
       li {
         @apply mb-0 grid min-w-65 break-inside-avoid pb-0;
         grid-template-rows: 1fr auto;
@@ -2151,6 +2151,11 @@
     }
     a.nested-dropdown-wrap {
       @apply border-b border-dashed border-[#ebebeb] py-2.5;
+    }
+  }
+  .icon-searchicon {
+    &:hover {
+      @apply bg-secondary rounded-full w-5 h-5;
     }
   }
   /* websearch */
@@ -2616,16 +2621,16 @@
   }
 
   .why-choose-accordion__heading {
-    @apply relative mb-8 pb-6 font-playfair text-xl font-black leading-11.5 text-white sm:text-2xl lg:text-3xl;
+    @apply relative mb-8 pb-6 font-playfair text-xl font-black leading-11.5 text-white sm:text-2xl lg:text-3xl pr-30 lg:max-w-[484px];
   }
 
   .why-choose-accordion__heading::after {
     content: "";
-    @apply absolute bottom-0 left-0 h-px w-full bg-white/70;
+    @apply absolute bottom-0 left-0 h-px  w-full bg-white/70;
   }
 
   .why-choose-accordion__list {
-    @apply flex flex-col;
+    @apply flex flex-col lg:max-w-[484px];
   }
 
   .why-choose-accordion__item {
@@ -2814,28 +2819,123 @@
 }
 /* booking page ends */
 /* contact page starts */
-.contact-page__form {
-  @apply bg-dim_bg py-15;
-  input,
-  textarea {
-    @apply border-white;
+.contact-page {
+  .contact-page__heading {
+    @apply flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between;
   }
-}
-.contact-info {
-  @apply mt-4 max-lg:mb-5;
-  .contact-info__item {
-    @apply mb-4 flex items-center gap-5 border-b border-[#b6e1cf] pb-4 last:mb-0 last:border-0 last:pb-0;
+
+  .contact-page__share {
+    @apply flex items-start sm:items-center;
   }
-}
-.contact-map-wrapper {
-  @apply relative;
-  &:before {
-    @apply bg-dim_bg pointer-events-none absolute -top-10 left-0 -z-1 h-60 w-full;
-    content: "";
+
+  .contact-page__description {
+    @apply mt-2 max-w-4xl;
   }
-  iframe {
-    @apply rounded-custom h-86 border-4 border-white;
+
+  .contact-page__content {
+    @apply leading-7 text-text_color;
   }
+
+  .contact-page__layout {
+    @apply grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-12;
+  }
+
+  .contact-page__info {
+    @apply pr-0 lg:pr-8;
+  }
+
+  .contact-page__info-title {
+    @apply mb-4 font-playfair text-2xl font-bold text-black lg:text-3xl;
+  }
+
+  .contact-page__info-list {
+    @apply space-y-4;
+  }
+
+  .contact-page__info-item {
+    @apply flex items-center gap-3 text-text_color;
+
+    span {
+      @apply mt-1 shrink-0 text-lg text-[#89bfe1];
+    }
+
+    p {
+      @apply mb-0;
+    }
+
+    a {
+      @apply text-text_color transition-colors duration-300 hover:text-primary;
+    }
+  }
+
+  .contact-page__divider {
+    @apply my-8 h-1 w-14 rounded-full bg-[#89bfe1];
+  }
+
+  .contact-page__social-title {
+    @apply mb-4 font-playfair text-xl font-bold text-black;
+  }
+
+  .contact-page__socials {
+    @apply flex flex-wrap gap-4 text-xl text-primary;
+
+    a {
+      @apply inline-flex h-10 w-10 items-center justify-center rounded-full bg-white transition-all duration-300 hover:-translate-y-1 hover:bg-primary hover:text-white;
+    }
+  }
+
+  .contact-page__form-card {
+    @apply rounded-[12px] bg-[#6cafda] p-5 shadow-lg sm:p-7 lg:p-8;
+  }
+
+  .contact-page__form-title {
+    @apply mb-5 font-playfair text-2xl font-bold text-white lg:text-[28px];
+  }
+
+  .contact-page__form-grid {
+    @apply grid grid-cols-1 gap-4 sm:grid-cols-2;
+  }
+
+  .contact-page__field {
+    @apply min-w-0;
+  }
+
+  .contact-page__field--full {
+    @apply sm:col-span-2;
+  }
+
+  .contact-page__field label {
+    @apply mb-2 block text-sm font-semibold text-white;
+  }
+
+  .contact-page__field input,
+  .contact-page__field select,
+  .contact-page__field textarea {
+    @apply w-full rounded-[6px] border border-white/60 bg-white px-4 py-3 text-sm text-text_color shadow-sm transition-all duration-300 placeholder:text-text_color;
+  }
+
+  .contact-page__field textarea {
+    @apply min-h-36 resize-y;
+  }
+
+  .contact-page__field input:focus,
+  .contact-page__field select:focus,
+  .contact-page__field textarea:focus {
+    @apply border-primary;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+  }
+
+  .contact-page__submit {
+    @apply mt-5 inline-flex items-center gap-2 rounded-full border border-dashed border-primary bg-white px-5 py-2.5 font-semibold text-text_color transition-all duration-300;
+  }
+
+  .contact-page__submit .icon-arrow-right {
+    @apply text-sm transition-transform duration-300 hover:-translate-y-1;
+  }
+
+  /* .contact-page__submit:hover .icon-arrow-right {
+    transform: translateX(4px);
+  } */
 }
 /* contact page ends*/
 /* inner page common page starts */
@@ -2895,7 +2995,7 @@
 }
 /* package section title */
 .package__section-title {
-  @apply font-playfair mb-4 text-2xl font-extrabold text-black uppercase md:text-3xl lg:text-[39px];
+  @apply font-playfair mb-4 text-3xl font-black;
 }
 /* package banner starts */
 .package__banner {
@@ -2977,16 +3077,16 @@
 }
 /* package summary*/
 .package__summary {
-  @apply font-bold leading-[22px];
+  @apply font-bold leading-[22px] mt-6;
   a,
   p,
   div {
-    @apply font-bold;
+    @apply font-bold text-base leading-[22px];
   }
 }
 /* package facts */
 .package__facts {
-  @apply gap-6 border-t-2 border-b-2 border-primary border-dotted  px-8.75 py-7.5 sm:p-7.5 xl:gap-6.25 mt-6.75;
+  @apply gap-6 border-t border-b border-primary border-dashed px-1 py-6 xl:gap-6.25;
   .package__facts-item {
     @apply flex  items-start text-center gap-3;
     .package__facts-item-icon {
@@ -3039,6 +3139,7 @@
     }
   }
 }
+
 /* package overview */
 .package__overview {
   .package__overview-content {
@@ -3069,19 +3170,15 @@
       font-size: clamp(1rem, 3vw, 1rem);
     }
     ul {
-      @apply mb-7;
-      &:last-of-type {
-        @apply mb-0;
-      }
+      @apply mb-8;
+
       li {
-        @apply relative mb-2.75 pl-7.75 text-base leading-6 text-text_color;
+        @apply relative text-text_color;
         &::before {
           content: "";
-          @apply absolute top-px left-0 block h-2.5 w-2.5 bg-current text-[#6cafda];
+          @apply absolute left-0 w-2.5 h-2.5 bg-current text-block;
           mask: url("/images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
-          -webkit-mask: url("/images/svg/splotch.svg") no-repeat center;
-          -webkit-mask-size: contain;
         }
       }
     }
@@ -3137,32 +3234,32 @@
 /* package full itinerary */
 .package__full-itinerary {
   .package__full-itinerary-note {
-    @apply bg-[#f6faff] mb-2.5 rounded-[10px] p-6;
+    @apply bg-dim_bg mb-8 rounded-[10px] p-6;
     .package__full-itinerary-note-title {
-      @apply text-text_color font-semibold lg:text-lg;
+      @apply text-text_color font-mulish text-base font-semibold lg:text-lg;
     }
     .package__full-itinerary-note-content {
       a {
         @apply text-secondary font-medium underline;
       }
       h2 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-extrabold text-black;
         font-size: clamp(1.5rem, 3vw, 1.7rem);
       }
       h3 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-extrabold text-black;
         font-size: clamp(1.3rem, 3vw, 1.6rem);
       }
       h4 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-extrabold text-black;
         font-size: clamp(1.2rem, 3vw, 1.5rem);
       }
       h5 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-extrabold text-black;
         font-size: clamp(1rem, 3vw, 1.25rem);
       }
       h6 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-extrabold text-black;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3175,7 +3272,7 @@
           &::before {
             content: "";
             @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#7680bd];
-            mask: url("/images/svg/splotch.svg") no-repeat center;
+            mask: url("/themes/images/list-bullet.svg") no-repeat center;
             mask-size: contain;
           }
         }
@@ -3190,28 +3287,28 @@
       @apply relative cursor-pointer rounded-[10px]  p-7.5 max-sm:px-4 max-sm:pb-3;
       &:before {
         @apply absolute top-7 right-3 h-auto w-3 transition-all duration-700 max-sm:top-6 max-sm:right-5 max-sm:w-3.75;
-        content: url(/images/svg/down.svg);
+        content: url(/images/svg/dropdown.svg);
       }
     }
     .package__full-itinerary-item-day {
       @apply bg-primary absolute font-bold -left-2.5 flex items-center gap-2 text-white rounded-custom px-2 py-2;
     }
     .package__full-itinerary-item-title {
-      @apply font-playfair text-text_color text-lg font-bold lg:text-[25px] pl-20;
+      @apply font-mulish text-text_color text-lg font-extrabold lg:text-2xl pl-20;
     }
     .package__full-itinerary-item-title-meta {
       @apply text-text_color text-sm;
     }
 
     .package__full-itinerary-item-content {
-      @apply max-h-0 overflow-hidden px-16 pt-0 pb-0 opacity-0;
+      @apply px-6 pt-0 pb-0 text-base;
       transition:
         max-height 150ms ease,
         opacity 150ms ease,
         padding 150ms ease,
         margin 0.4s ease;
       .package__full-itinerary-item-content-description {
-        @apply mb-5 mt-2;
+        @apply mb-5 text-base;
         &:last-of-type {
           @apply mb-0;
         }
@@ -3219,24 +3316,27 @@
           @apply text-secondary font-medium underline;
         }
         h2 {
-          @apply font-playfair mb-3 font-bold text-black;
+          @apply font-mulish mb-3 font-bold text-black;
           font-size: clamp(1.5rem, 3vw, 1.7rem);
         }
         h3 {
-          @apply font-playfair mb-3 font-bold text-black;
+          @apply font-mulish mb-3 font-bold text-black;
           font-size: clamp(1.3rem, 3vw, 1.6rem);
         }
         h4 {
-          @apply font-playfair mb-3 font-bold text-black;
+          @apply font-mulish mb-3 font-bold text-black;
           font-size: clamp(1.2rem, 3vw, 1.5rem);
         }
         h5 {
-          @apply font-playfair mb-3 font-bold text-black;
+          @apply font-mulish mb-3 font-bold text-black;
           font-size: clamp(1rem, 3vw, 1.25rem);
         }
         h6 {
-          @apply font-playfair mb-3 font-bold text-black;
+          @apply font-mulish mb-3 font-bold text-black;
           font-size: clamp(1rem, 3vw, 1rem);
+        }
+        p {
+          @apply font-mulish text-base leading-6;
         }
         ul {
           @apply mb-7;
@@ -3248,42 +3348,33 @@
             &::before {
               content: "";
               @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#7680bd];
-              mask: url("/images/svg/splotch.svg") no-repeat center;
+              mask: url("/themes/images/list-bullet.svg") no-repeat center;
               mask-size: contain;
             }
           }
         }
       }
+
       .package__full-itinerary-item-facts-wrapper {
-        @apply mb-3;
+        @apply mb-3 flex flex-col flex-wrap justify-between items-start gap-x-10 gap-y-3 rounded-[10px];
         &:last-of-type {
           @apply mb-0;
         }
         .itinerary-item-facts-unit {
-          @apply gap-2  px-3.75 mt-2;
+          @apply flex  items-center gap-4;
         }
       }
-      .package__full-itinerary-meta-facts-item {
-        @apply flex items-center gap-2;
-      }
-      .package__full-itinerary-item-content-layout {
-        @apply mt-4 grid grid-cols-1 gap-5 px-6 pb-2 lg:gap-6;
-      }
-      .package__full-itinerary-item-facts-grid {
-        @apply grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-1;
-      }
       .package__full-itinerary-item-gallery {
-        @apply mb-3 w-full;
+        @apply mb-3 rounded-custom;
         &:last-of-type {
           @apply mb-0;
         }
-
         .fancybox-wrapper {
           @apply grid gap-3;
           grid-template-columns: repeat(3, 1fr);
         }
         .placeholder__img-wrapper {
-          @apply aspect-600/450 rounded-[10px];
+          @apply aspect-600/450 rounded-custom;
         }
       }
       .content-main-image-wrapper {
@@ -3298,7 +3389,7 @@
           }
         }
         .content-main-image-title {
-          @apply font-playfair absolute bottom-4 left-5 z-10 font-semibold text-white;
+          @apply font-mulish absolute bottom-4 left-5 z-10 font-semibold text-white;
         }
       }
     }
@@ -3319,22 +3410,17 @@
           margin 0.4s ease;
       }
     }
-    @media (min-width: 1280px) {
-      .package__full-itinerary-item-content-layout {
-        grid-template-columns: minmax(0, 1fr) 240px;
-        align-items: start;
-      }
-    }
   }
 }
+
 /* package cta */
 .package__cta {
   @apply flex flex-col items-start gap-4 rounded-[10px] bg-[#6cafda] px-6 py-4 sm:px-8.75 sm:py-6.25 lg:flex-row lg:items-center lg:justify-between lg:gap-5;
   .package__cta-title {
-    @apply font-playfair mb-1 text-lg font-bold text-white lg:text-[25px];
+    @apply font-mulish mb-1 text-lg font-extrabold text-white lg:text-2xl leading-5;
   }
   .package__cta-content {
-    @apply text-white;
+    @apply text-white text-base leading-5;
   }
   .package__cta-links {
     @apply flex w-full flex-col items-stretch gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:justify-end sm:gap-3 lg:w-auto lg:flex-nowrap;
@@ -3393,7 +3479,7 @@
   .package__cost-details-includes {
     @apply mb-8;
     .includes-title {
-      @apply font-playfair text-text_color mb-2 text-lg font-extrabold lg:text-[25px];
+      @apply font-mulish text-text_color mb-2 text-lg font-extrabold lg:text-xl leading-6;
     }
     .includes-content {
       a {
@@ -3403,23 +3489,23 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1.3rem, 3vw, 1.4rem);
       }
       h3 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1.2rem, 3vw, 1.3rem);
       }
       h4 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1.1rem, 3vw, 1.2rem);
       }
       h5 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1.1rem);
       }
       h6 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3431,7 +3517,7 @@
           @apply text-text_color relative mb-2.75 pl-7.75 leading-6;
           &::before {
             content: "";
-            @apply absolute top-px left-0 h-6 w-6 bg-current text-[#7680bd];
+            @apply absolute top-px left-0 h-6 w-6 bg-current text-block;
             mask: url("../images/svg/correct.svg") no-repeat center;
             mask-size: contain;
           }
@@ -3446,23 +3532,23 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1.3rem, 3vw, 1.4rem);
       }
       h3 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1.2rem, 3vw, 1.3rem);
       }
       h4 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1.1rem, 3vw, 1.2rem);
       }
       h5 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1.1rem);
       }
       h6 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3471,10 +3557,10 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.75 leading-6;
+          @apply text-text_color relative mb-2.75 pl-7.75 leading-9 text-base;
           &::before {
             content: "";
-            @apply absolute top-0.5 left-0 h-6 w-6  text-primary;
+            @apply absolute top-2 left-0 h-5 w-5  text-primary;
             mask: url("../images/svg/correct.svg") no-repeat center;
             mask-size: contain;
           }
@@ -3484,7 +3570,7 @@
   }
   .package__cost-details-excludes {
     .excludes-title {
-      @apply font-playfair text-text_color mb-2 text-lg font-extrabold lg:text-[25px];
+      @apply font-mulish text-text_color mb-2 text-lg font-extrabold lg:text-xl leading-6;
     }
 
     .excludes-content {
@@ -3495,23 +3581,23 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1.3rem, 3vw, 1.4rem);
       }
       h3 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1.2rem, 3vw, 1.3rem);
       }
       h4 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1.1rem, 3vw, 1.2rem);
       }
       h5 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1.1rem);
       }
       h6 {
-        @apply font-playfair text-text_color mb-3 font-bold;
+        @apply font-mulish text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3520,10 +3606,10 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.75 leading-6;
+          @apply text-text_color relative mb-2.75 pl-7.75 leading-9 text-base;
           &::before {
             content: "";
-            @apply absolute left-0 top-1 block h-6 w-6 bg-primary;
+            @apply absolute left-0 top-2 block h-5 w-5 bg-block;
             mask: url("/images/svg/exclude-icon.svg") no-repeat center;
             mask-size: contain;
             -webkit-mask: url("/images/svg/exclude-icon.svg") no-repeat center;
@@ -3537,7 +3623,7 @@
 /* package availability  */
 .package__availability {
   .package__availability-content {
-    @apply text-text_color leading-5 text-[22px] font-bold;
+    @apply text-text_color leading-6 text-xl font-extrabold font-mulish;
   }
   .tab {
     @apply mt-5;
@@ -3545,14 +3631,14 @@
   .package__availability-filter {
     @apply mt-5 flex flex-wrap items-center gap-2;
     .availability-filter__item {
-      @apply text-text_color cursor-pointer rounded-custom bg-[#f6faff] px-4 py-2 text-[13px] font-bold uppercase transition-all duration-500 hover:text-primary;
+      @apply text-text_color cursor-pointer rounded-custom bg-[#f6faff] px-4  text-base leading-11 font-bold transition-all duration-500 hover:text-primary;
     }
     .availability-filter__item.active {
       @apply bg-[#6cafda] text-white;
     }
   }
   .package__availability-tabs {
-    @apply relative mt-5 flex flex-wrap items-center gap-x-10 gap-y-8 border-b border-[#6cafda] pb-3;
+    @apply relative mt-5 flex flex-wrap items-center gap-x-10 gap-y-8 border-b-[0.5px] border-[#6cafda] pb-3;
     .tab-item {
       @apply text-text_color relative px-3 font-bold uppercase;
     }
@@ -3567,7 +3653,7 @@
   .package__availability-wrapper {
     @apply mt-4 grid grid-cols-1 gap-3;
     .package__availability-list {
-      @apply rounded-[15px] border border-[#6cafda] p-0;
+      @apply rounded-[10px] border border-[#6cafda] p-0;
       .package__availability-item {
         @apply px-3 md:px-4;
         .inner {
@@ -3595,35 +3681,35 @@
     }
   }
   .package__book-cta {
-    @apply bg-primary text-white rounded-custom px-2 py-1.5;
+    @apply bg-primary text-white rounded-custom px-2.5  leading-11 text-base font-semibold;
   }
   .package__availability-note {
     @apply bg-[#f6faff] mb-2.5 rounded-[10px] p-6 mt-[12px];
     .package__availability-note-title {
-      @apply text-text_color font-bold;
+      @apply text-text_color font-bold leading-6 text-base;
     }
     .package__availability-note-content {
       a {
         @apply text-secondary font-medium underline;
       }
       h2 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-bold text-black;
         font-size: clamp(1.5rem, 3vw, 1.7rem);
       }
       h3 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-bold text-black;
         font-size: clamp(1.3rem, 3vw, 1.6rem);
       }
       h4 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-bold text-black;
         font-size: clamp(1.2rem, 3vw, 1.5rem);
       }
       h5 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-bold text-black;
         font-size: clamp(1rem, 3vw, 1.25rem);
       }
       h6 {
-        @apply font-playfair mb-3 font-bold text-black;
+        @apply font-mulish mb-3 font-bold text-black;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3647,7 +3733,7 @@
 /* package addons */
 .package__addons {
   .package__addons-wrapper {
-    @apply bg-[#6cafda] rounded-[10px] p-5 sm:p-7.5;
+    @apply bg-[#6cafda] rounded-[10px] p-2.5 sm:p-7.5 mt-5;
   }
   .package__addons-content {
     a {
@@ -3657,23 +3743,119 @@
       @apply leading-6 text-text_color;
     }
     h2 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
       font-size: clamp(1.3rem, 3vw, 1.4rem);
     }
     h3 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
       font-size: clamp(1.2rem, 3vw, 1.3rem);
     }
     h4 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
       font-size: clamp(1.1rem, 3vw, 1.2rem);
     }
     h5 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
       font-size: clamp(1rem, 3vw, 1.1rem);
     }
     h6 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
+      font-size: clamp(1rem, 3vw, 1rem);
+    }
+    ul {
+      @apply mb-7;
+      &:last-of-type {
+        @apply mb-0;
+      }
+      li {
+        @apply relative mb-2.75 pl-7.75 leading-6 text-text_color;
+        &::before {
+          content: "";
+          @apply absolute top-px left-0 h-6 w-6 bg-current text-text_color;
+          mask: url("/images/svg/splotch.svg") no-repeat center;
+          mask-size: contain;
+        }
+      }
+    }
+  }
+  .package__addons-list {
+    @apply mt-2;
+  }
+  .package__addons-item {
+    @apply rounded-custom bg-white last:mb-0 mb-4 p-4;
+  }
+  .package__addons-item-trigger {
+    @apply flex w-full items-start justify-between gap-4 bg-transparent  text-left;
+  }
+  .package__addons-item-title-wrap {
+    @apply flex min-w-0 flex-1 items-start justify-between gap-3 max-md:flex-col md:items-center;
+  }
+  .package__addons-item-title {
+    @apply font-mulish text-text_color font-extrabold leading-6 lg:text-xl;
+  }
+  .package__addons-item-price {
+    @apply text-text_color shrink-0 font-bold md:flex-[0_0_170px] md:text-right text-sm leading-5;
+  }
+  .package__addons-item-toggle {
+    @apply relative  inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-custom bg-[#eef7fd] text-primary;
+  }
+  .package__addons-item-toggle::before,
+  .package__addons-item-toggle::after {
+    content: "";
+    @apply absolute h-0.5 w-3 bg-current transition-transform duration-300;
+  }
+  .package__addons-item-toggle::after {
+    @apply rotate-90;
+  }
+  .package__addons-item.is-open .package__addons-item-toggle::after {
+    transform: rotate(0deg) scaleX(0);
+  }
+  .package__addons-item-panel {
+    @apply max-h-0 overflow-hidden px-4 opacity-0 transition-all duration-300 sm:px-5;
+  }
+  .package__addons-item.is-open .package__addons-item-panel {
+    @apply opacity-100;
+  }
+  .package__addons-item-content {
+    @apply text-sm leading-4 text-text_color max-w-[70%];
+  }
+  .package__addons-links {
+    @apply mt-3;
+    buttton,
+    a {
+      @apply hover:text-primary mt-3 flex items-center gap-2  font-bold text-white transition-all duration-500 lg:text-lg;
+    }
+  }
+}
+/* .package__addons {
+  .package__addons-wrapper {
+    @apply flex flex-col justify-start items-center gap-3 bg-[#6cafda] py-10 px-7 rounded-[15px] mt-5;
+  }
+  .package__addons-content {
+    a {
+      @apply text-white font-medium underline;
+    }
+    p {
+      @apply leading-6 text-text_color;
+    }
+    h2 {
+      @apply font-mulish mb-3 font-extrabold text-text_color;
+      font-size: clamp(1.3rem, 3vw, 1.4rem);
+    }
+    h3 {
+      @apply font-mulish mb-3 font-extrabold text-text_color;
+      font-size: clamp(1.2rem, 3vw, 1.3rem);
+    }
+    h4 {
+      @apply font-mulish mb-3 font-extrabold text-text_color;
+      font-size: clamp(1.1rem, 3vw, 1.2rem);
+    }
+    h5 {
+      @apply font-mulish mb-3 font-extrabold text-text_color;
+      font-size: clamp(1rem, 3vw, 1.1rem);
+    }
+    h6 {
+      @apply font-mulish mb-3 font-extrabold text-text_color;
       font-size: clamp(1rem, 3vw, 1rem);
     }
     ul {
@@ -3696,42 +3878,19 @@
     @apply mt-5;
   }
   .package__addons-item {
-    @apply rounded-custom bg-white last:mb-0 mb-4;
-  }
-  .package__addons-item-trigger {
-    @apply flex w-full items-start justify-between gap-4 bg-transparent px-4 py-4 text-left sm:px-5 sm:py-5;
-  }
-  .package__addons-item-title-wrap {
-    @apply flex min-w-0 flex-1 items-start justify-between gap-3 max-md:flex-col md:items-center;
-  }
-  .package__addons-item-title {
-    @apply font-mulish text-text_color font-bold leading-snug lg:text-lg;
-  }
-  .package__addons-item-price {
-    @apply text-text_color shrink-0 font-bold md:flex-[0_0_170px] md:text-right;
-  }
-  .package__addons-item-toggle {
-    @apply relative mt-1 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#eef7fd] text-primary;
-  }
-  .package__addons-item-toggle::before,
-  .package__addons-item-toggle::after {
-    content: "";
-    @apply absolute h-0.5 w-3 bg-current transition-transform duration-300;
-  }
-  .package__addons-item-toggle::after {
-    @apply rotate-90;
-  }
-  .package__addons-item.is-open .package__addons-item-toggle::after {
-    transform: rotate(0deg) scaleX(0);
-  }
-  .package__addons-item-panel {
-    @apply max-h-0 overflow-hidden px-4 opacity-0 transition-all duration-300 sm:px-5;
-  }
-  .package__addons-item.is-open .package__addons-item-panel {
-    @apply pb-4 opacity-100 sm:pb-5;
-  }
-  .package__addons-item-content {
-    @apply max-w-3xl text-sm leading-6 text-text_color;
+    @apply rounded-[5px] bg-white block md:flex justify-between items-start p-4; */
+/* .package__addons-item-title-wrap {
+      @apply flex items-start justify-between gap-y-2 max-md:flex-wrap md:gap-5;
+    } */
+/* .package__addons-item-title {
+      @apply font-playfair text-black font-medium lg:text-lg;
+    }
+    .package__addons-item-price {
+      @apply text-text_color font-medium;
+    }
+    .package__addons-item-content {
+      @apply text-text_color w-full md:w-5/8;
+    }
   }
   .package__addons-links {
     @apply mt-3;
@@ -3740,7 +3899,8 @@
       @apply hover:text-primary mt-3 flex items-center gap-2  font-bold text-white transition-all duration-500 lg:text-lg;
     }
   }
-}
+} */
+
 /* package gallery */
 .package__gallery {
   .package__gallery-photo {
@@ -3762,7 +3922,7 @@
 .package__additionalinfo {
   .useful-info {
     a {
-      @apply text-secondary font-medium underline;
+      @apply text-block font-medium underline;
     }
     h2 {
       @apply font-playfair mb-3 font-bold text-black;
@@ -3847,15 +4007,15 @@
     @apply mt-5;
     .package__equipment-item {
       @apply relative mb-5 last:mb-0;
-      /* &:before {
+      &:before {
         @apply absolute top-0 right-0 h-auto w-3.75 transition-all duration-700;
-        content: url(/images/svg/splotch.svg);
-      } */
-      /* &.active::before {
+        content: " ";
+      }
+      &.active::before {
         @apply rotate-180 transition-all duration-700;
-      } */
+      }
       .package__equipment-item-title {
-        @apply font-playfair flex items-center gap-5 text-lg font-bold lg:text-xl;
+        @apply font-mulish flex items-center gap-5 text-lg font-bold lg:text-xl;
       }
       .package__equipment-item-content {
         @apply relative max-h-0 overflow-hidden opacity-0;
@@ -3865,13 +4025,13 @@
           margin 0.6s ease-in-out;
         ol,
         ul {
-          @apply mb-0 pl-11;
+          @apply mb-0 pl-11 mt-2;
           &:last-of-type {
             @apply mb-0;
           }
 
           li {
-            @apply mb-3 list-inside list-decimal pl-4.5 -indent-4.5;
+            @apply mb-3 list-inside list-decimal pl-4.5 -indent-4.5 text-base leading-7;
             &:before {
               content: none !important;
             }
@@ -3952,6 +4112,7 @@
 .package__addons {
   @apply max-lg:mb-0;
 }
+
 /* package sidebar price */
 .package-price-meta {
   @apply absolute -top-3 right-7.5 flex items-center gap-1;
@@ -3966,10 +4127,10 @@
   }
 }
 .package-price-main-wrapper {
-  @apply relative mt-8 rounded-[10px] bg-primary border border-[#6cafda];
+  @apply relative mt-8 rounded-[10px] bg-primary;
 }
 .package-price-wrappper {
-  @apply p-7.5;
+  @apply p-6.25;
 }
 .package-price-title {
   @apply text-base font-bold text-white;
@@ -3977,16 +4138,16 @@
 .package-price {
   @apply flex items-center gap-2;
   .package-price-net {
-    @apply font-mulish text-white text-lg font-extrabold lg:text-xl;
+    @apply font-mulish text-white text-lg font-extrabold lg:text-xl leading-7;
   }
   .package-price-gross {
-    @apply text-[#8fafc8] line-through  lg:text-lg;
+    @apply text-[#a9bacd] line-through  lg:text-lg;
   }
 }
 .package-group-price {
   @apply mt-3  bg-white;
   .package__discount-list {
-    @apply px-5.5;
+    @apply px-3.5;
   }
   .package__discount-list-group {
     .package__discount-list-item {
@@ -3998,10 +4159,10 @@
   }
 }
 .package-book-options {
-  @apply bg-[#f6faff] p-7.5 rounded-b-[10px];
+  @apply bg-[#f6faff] p-6.25;
   a,
   button {
-    @apply font-playfair mb-3 block w-full py-4 text-center font-bold uppercase;
+    @apply font-mulish mb-3 block w-full py-4 text-center font-bold uppercase;
   }
 }
 .package-price-rating {
@@ -4021,7 +4182,7 @@
   .package-sidebar-contact-title-wrap {
     @apply bg-primary rounded-t-[10px] px-7 py-5;
     .main-title {
-      @apply font-playfair text-lg font-bold text-white lg:text-xl;
+      @apply font-mulish text-lg font-bold text-white lg:text-xl;
     }
     .sub-title {
       @apply text-white;
@@ -4135,9 +4296,9 @@
 .header-top {
   @apply py-3 bg-primary;
   .header-top_content {
-    @apply font-mulish relative flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-2 sm:gap-4 px-4 sm:px-6 lg:px-8 text-xs text-white;
+    @apply font-mulish relative flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-2 text-xs text-white;
     .header-top_content_registration {
-      @apply flex justify-center sm:justify-start items-center gap-2;
+      @apply flex  justify-center items-center gap-2;
     }
     .header-top_content_contact {
       @apply flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-4;

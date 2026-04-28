@@ -508,7 +508,7 @@
                     </div>
                     <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish lg:-mr-72">
                         <div class="why-choose-accordion container">
-                            <h2 class="why-choose-accordion__heading">Why choose us?</h2>
+                            <h2 class="why-choose-accordion__heading ">Why choose us?</h2>
 
                             <div class="why-choose-accordion__list">
                                 <div class="why-choose-accordion__item is-open" data-id="q1">

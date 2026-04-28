@@ -3,21 +3,21 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php'); ?>
 
-<section class="bg-secondary common-box contact-page" role="main">
+<section class="bg-secondary common-box contact-page pb-25" role="main">
   <div class="package__content-wrapper">
     <div class="container">
       <div class="page-title contact-page__heading mb-0">
         <h1 class="package__section-title">Contact Us</h1>
         <div class="contact-page__share">
           <button
-            class="share-btn ">
+            class="btn-primary ">
             <span class="icon-share text-[18px]"></span>
             Share
           </button>
         </div>
       </div>
 
-      <div class="contact-page__description">
+      <div class="contact-page__description ">
         <div class="contact-page__content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
         </div>
@@ -29,22 +29,22 @@
 
           <div class="contact-page__info-list">
             <div class="contact-page__info-item">
-              <span class="icon-place text-[#89bfe1]"></span>
+              <span class="icon-place "></span>
               <p>Thamel, Kathmandu, Nepal</p>
             </div>
 
             <div class="contact-page__info-item">
-              <span class="icon-envelope text-[#89bfe1]"></span>
+              <span class="icon-envelope "></span>
               <p><a href="mailto:info@nepaltravelexperience.com">info@nepaltravelexperience.com</a></p>
             </div>
 
             <div class="contact-page__info-item">
-              <span class="icon-whatapp text-[#89bfe1]"></span>
+              <span class="icon-whatapp "></span>
               <p><a href="tel:+977015123456">+977 015123456</a></p>
             </div>
 
             <div class="contact-page__info-item">
-              <span class="icon-phone text-[#89bfe1]"></span>
+              <span class="icon-phone "></span>
               <p><a href="tel:+9779851234567">+977 9851234567</a></p>
             </div>
           </div>
@@ -53,7 +53,7 @@
 
           <h3 class="contact-page__social-title">Follow Us</h3>
           <div class="contact-page__socials">
-            <a href="#"><span class="icon-facebook1"></span></a>
+            <a href="#"><span class="icon-facebook "></span></a>
             <a href="#"><span class="icon-instagram"></span></a>
             <a href="#"><span class="icon-linkedin"></span></a>
             <a href="#"><span class="icon-youtube"></span></a>
@@ -95,7 +95,7 @@
               </div>
             </div>
 
-            <button type="submit" class="contact-page__submit">
+            <button type="submit" class="btn-outline-primary hav-icon mt-2 bg-white">
               Send Message
               <span class="icon-view text-primary"></span>
             </button>

@@ -1,9 +1,9 @@
 <div class="header-top ">
     <div class="container-fluid header-top_content ">
         <div class="header-top_content_registration">
-            Tourism Liscense: 12345
-            |
-            Regd. No.: 12345/012/012
+            <span>Tourism Liscense: 12345</span>
+            <span>|</span>
+            <span>Regd. No.: 12345/012/012</span>
         </div>
         <div class="header-top_content_contact">
             <div>

@@ -93,12 +93,13 @@
           <span class="package-page__nav-item-title"> Reviews</span>
         </a>
       </li>
+
     </ul>
   </div>
 </section>
+<?php include('./inc/breadcrumbs.php') ?>
 
-<section class=" package-page bg-secondary relative md:-mb-15.5 pb-10" role="main">
-  <?php include('./inc/breadcrumbs.php') ?>
+<section class="common-box  package-page bg-secondary relative md:-mb-15.5 pb-20" role="main">
   <div class="package__banner pt-5">
     <div class="container-fluid relative">
       <div class="package__banner-wrapper">
@@ -139,7 +140,7 @@
     <div class="container">
       <div class="grid grid-cols-12 gap-5">
         <div class="col-span-12 lg:col-span-8 ">
-          <div class="package__title-wrap common-box">
+          <div class="package__title-wrap common-box pb-0">
             <div class="page-title">
               <h1>Everest Base Camp Trek-15 Days</h1>
             </div>
@@ -155,7 +156,7 @@
                 <span class="text-[13px] text-text_color leading-5">110 Reviews in Trip Advisor</span>
               </div>
               <div class="flex items-center gap-1 package__rating-tripadvisor">
-                <div class="flex justify-start items-start">
+                <div class="flex justify-start items-start gap-1">
                   <span class="icon-star-rate text-[#ffc20e] text-[10px] "></span>
                   <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
                   <span class="icon-star-rate text-[#ffc20e] text-[10px] "></span>
@@ -174,13 +175,13 @@
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
-                      <span class="text-2xl icon-duration"></span>
+                      <span class="text-3xl icon-duration"></span>
                     </div>
                     <div class="package__facts-item-content">
-                      <div class="block text-left text-xs font-bold text-text_color ">
+                      <div class="block text-left text-sm font-extrabold text-text_color ">
                         Duration
                       </div>
-                      <div class="block text-left text-sm font-bold text-text_color">
+                      <div class="block text-left text-xs text-text_color">
                         15 Days
                       </div>
                     </div>
@@ -190,13 +191,13 @@
                   <div class="package__facts-item">
                     <div class="flex gap-1 item-center">
                       <div class="package__facts-item-icon ">
-                        <span class=" text-2xl icon-trip-grade"></span>
+                        <span class="text-3xl icon-trip-grade"></span>
                       </div>
                       <div class="package__facts-item-content">
-                        <div class="block text-left text-xs font-bold text-text_color">
+                        <div class="block text-left text-sm font-extrabold text-text_color">
                           Trip Grade
                         </div>
-                        <div class="block text-left text-sm font-bold text-text_color">
+                        <div class="block text-left text-xs text-text_color">
                           Easy to Moderate
                           <div class="relative inline-flex flex-col items-center ml-2 popover-wrap group">
                             <span class="text-xl icon-info ">
@@ -223,119 +224,105 @@
                 </div>
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
-                    <div class="flex gap-1 item-center">
-                      <div class="package__facts-item-icon">
-                        <span class="text-2xl  icon-trip-grade"></span>
+                    <div class="package__facts-item-icon">
+                      <span class="text-3xl  icon-trip-grade"></span>
+                    </div>
+                    <div class="package__facts-item-content">
+                      <div class="block text-left text-sm font-extrabold text-text_color">
+                        Maximum Altitude
                       </div>
-                      <div class="package__facts-item-content">
-                        <div class="block text-left text-xs font-bold text-text_color">
-                          Maximum Altitude
-                        </div>
-                        <div class="block text-left text-sm font-bold text-text_color">
-                          5643 m.
-                        </div>
+                      <div class="block text-left text-xs text-text_color">
+                        5643 m.
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
-                    <div class="flex gap-1 item-center">
-                      <div class="package__facts-item-icon ">
-                        <span class="text-2xl icon-group-size"></span>
+                    <div class="package__facts-item-icon ">
+                      <span class="text-3xl icon-group-size"></span>
+                    </div>
+                    <div class="package__facts-item-content">
+                      <div class="block text-left text-sm font-extrabold text-text_color">
+                        Group Size
                       </div>
-                      <div class="package__facts-item-content">
-                        <div class="block text-left text-xs font-bold text-text_color">
-                          Group Size
-                        </div>
-                        <div class="block text-left text-sm font-bold text-text_color">
-                          Up to 10 Travelers
-                        </div>
+                      <div class="block text-left text-xs text-text_color">
+                        Up to 10 Travelers
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
-                    <div class="flex gap-1 item-center">
-                      <div class="package__facts-item-icon ">
-                        <span class="text-2xl  icon-start"></span>
+                    <div class="package__facts-item-icon ">
+                      <span class="text-3xl  icon-start"></span>
+                    </div>
+                    <div class="package__facts-item-content">
+                      <div class="block text-left text-sm font-extrabold text-text_color">
+                        Starts
                       </div>
-                      <div class="package__facts-item-content">
-                        <div class="block text-left text-xs font-bold text-text_color">
-                          Starts
-                        </div>
-                        <div class="block text-left text-sm font-bold text-text_color">
-                          Kathmandu, Nepal
-                        </div>
+                      <div class="block text-left text-xs text-text_color">
+                        Kathmandu, Nepal
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
-                    <div class="flex gap-1 item-center">
-                      <div class="package__facts-item-icon ">
-                        <span class="text-2xl icon-start"></span>
+                    <div class="package__facts-item-icon ">
+                      <span class="text-3xl icon-start"></span>
+                    </div>
+                    <div class="package__facts-item-content">
+                      <div class="block text-left text-sm font-extrabold text-text_color">
+                        Ends
                       </div>
-                      <div class="package__facts-item-content">
-                        <div class="block text-left text-sm font-bold text-text_color">
-                          Ends
-                        </div>
-                        <div class="block text-left text-sm font-bold text-text_color">
-                          Kathmandu, Nepal
-                        </div>
+                      <div class="block text-left text-xs text-text_color">
+                        Kathmandu, Nepal
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
-                    <div class="flex gap-1 item-center">
-                      <div class="package__facts-item-icon">
-                        <span class="text-2xl icon-travel-style"></span>
+                    <div class="package__facts-item-icon">
+                      <span class="text-3xl icon-travel-style"></span>
+                    </div>
+                    <div class="package__facts-item-content">
+                      <div class="block text-left text-sm font-extrabold text-text_color">
+                        Activities
                       </div>
-                      <div class="package__facts-item-content">
-                        <div class="block text-left text-xs font-bold text-text_color">
-                          Activities
-                        </div>
-                        <div class="block text-left text-sm font-bold text-text_color">
-                          Trekking and Hiking
-                        </div>
+                      <div class="block text-left text-xs text-text_color">
+                        Trekking and Hiking
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
-                    <div class="flex gap-1 item-center">
-                      <div class="package__facts-item-icon ">
-                        <span class="text-2xl  icon-best-time"></span>
+                    <div class="package__facts-item-icon ">
+                      <span class="text-3xl  icon-best-time"></span>
+                    </div>
+                    <div class="package__facts-item-content">
+                      <div class="block text-left text-sm font-extrabold text-text_color">
+                        Best Time
                       </div>
-                      <div class="package__facts-item-content">
-                        <div class="block text-left text-xs font-bold text-text_color">
-                          Best Time
-                        </div>
-                        <div class="block text-left text-sm font-bold text-text_color">
-                          Mar-May, Sep-Nov
-                        </div>
+                      <div class="block text-left text-xs text-text_color">
+                        Mar-May, Sep-Nov
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
-                    <div class="flex gap-1 item-center">
-                      <div class="package__facts-item-icon ">
-                        <span class="text-2xl  icon-best-time"></span>
+                    <div class="package__facts-item-icon ">
+                      <span class="text-3xl  icon-best-time"></span>
+                    </div>
+                    <div class="package__facts-item-content">
+                      <div class="block text-left text-sm font-extrabold text-text_color">
+                        Country
                       </div>
-                      <div class="package__facts-item-content">
-                        <div class="block text-left text-xs font-bold text-text_color">
-                          Country
-                        </div>
-                        <div class="block text-left text-sm font-bold text-text_color">
-                          Nepal
-                        </div>
+                      <div class="block text-left text-xs text-text_color">
+                        Nepal
                       </div>
                     </div>
                   </div>
@@ -362,9 +349,12 @@
                   </p>
                 </article>
               </div>
-              <a href="" class="primary-btn">Read
-                More
-              </a>
+
+              <button>
+                <a href="" class="outline-btn-primary hav-icon">Read
+                  More
+                </a>
+              </button>
             </div>
             <div class="package__gallery mb-3.75 common-module " id="package-gallery">
               <h2 class="package__section-title">Photo Gallery</h2>
@@ -381,7 +371,7 @@
                           </div>
                         </div>
                         <span class="zoom-icon">
-                          <span class="text-2xl text-white icon-searchicon"></span>
+                          <span class="text-2xl text-white icon-zoom-icon"></span>
                         </span>
                       </figure>
                     </a>
@@ -399,7 +389,7 @@
                           </div>
                         </div>
                         <span class="zoom-icon">
-                          <span class="text-2xl text-white icon-searchicon"></span>
+                          <span class="text-2xl text-white icon-zoom-icon"></span>
                         </span>
                       </figure>
                     </a>
@@ -417,7 +407,7 @@
                           </div>
                         </div>
                         <span class="zoom-icon">
-                          <span class="text-2xl text-white icon-searchicon"></span>
+                          <span class="text-2xl text-white icon-zoom-icon"></span>
                         </span>
                       </figure>
                     </a>
@@ -435,7 +425,7 @@
                           </div>
                         </div>
                         <span class="zoom-icon">
-                          <span class="text-2xl text-white icon-searchicon"></span>
+                          <span class="text-2xl text-white icon-zoom-icon"></span>
                         </span>
                       </figure>
                     </a>
@@ -482,48 +472,49 @@
                     <h3> Arrival in Kathmandu, transfer to the hotel.</h3>
                   </div>
 
-                  <div class="package__full-itinerary-item-content-description px-6 mt-6">
-                    <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
-                      awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
-                      tradition can be found. At this very day, we’ll meet each other in person after your arrival in
-                      Kathmandu Airport</p>
-                  </div>
-
-                  <div class="flex md:flex-row flex-col justify-between items-start p-5 gap-5">
-
-                    <div class="package__full-itinerary-item-facts-wrapper ">
-                      <div class="itinerary-item-facts-unit ">
-                        <div class="package__full-itinerary-meta-facts-item ">
-                          <span class="text-2xl text-text_color icon-max-altitude"></span>
-                          <span class="text-sm text-text_color">Max Altitude: 1300m</span>
+                  <div class="package__full-itinerary-item-content">
+                    <div class="package__full-itinerary-item-content-description px-6 mt-6">
+                      <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
+                        awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
+                        tradition can be found. At this very day, we’ll meet each other in person after your arrival in
+                        Kathmandu Airport
+                      </p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4">
+                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-[15px]">
+                          <div class="itinerary-item-facts-unit ">
+                            <span class="text-xl text-text_color icon-max-altitude"></span>
+                            <span class="text-sm text-text_color">Max Altitude: 1300m</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-meal"></span>
+                            <span class="text-sm text-text_color">Meals: B/L/D</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-calendar-lines"></span>
+                            <span class="text-sm text-text_color">Duration: 1 day</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-distance"></span>
+                            <span class="text-sm text-text_color">Distance: 2 km</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-accommodation"></span>
+                            <span class="text-sm text-text_color">Accommodation: Hotel</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-travel-style"></span>
+                            <span class="text-sm text-text_color">Trekking: 5 hours</span>
+                          </div>
                         </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-meal"></span>
-                          <span class="text-sm text-text_color">Meals: B/L/D</span>
-                        </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-calendar-lines"></span>
-                          <span class="text-sm text-text_color">Duration: 1 day</span>
-                        </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-distance"></span>
-                          <span class="text-sm text-text_color">Distance: 2 km</span>
-                        </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-accommodation"></span>
-                          <span class="text-sm text-text_color">Accommodation: Hotel</span>
-                        </div>
-                        <div class="package__full-itinerary-item-facts-grid">
-                          <span class="text-2xl text-text_color icon-travel-style"></span>
-                          <span class="text-sm text-text_color">Trekking: 5 hours</span>
+                        <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
+                          <img
+                            src="/images/dynamic/day1.webp"
+                            width="600"
+                            height="630"
+                            alt="banner" />
                         </div>
                       </div>
                     </div>
-
-                    <div class="package__full-itinerary-item-gallery col-span-4">
-                      <img src="/images/dynamic/package-thumb.webp" width="350" height="120" alt="banner" />
-                    </div>
-
                   </div>
                 </div>
                 <div class="package__full-itinerary-item mb-6.25 last:mb-0">
@@ -531,55 +522,56 @@
                     <span class="icon-place">
 
                     </span>
-                    <span> Day 2</span>
+                    <span> Day 1</span>
                   </div>
 
                   <div class="package__full-itinerary-item-title">
                     <h3> Arrival in Kathmandu, transfer to the hotel.</h3>
                   </div>
 
-                  <div class="package__full-itinerary-item-content-description px-6 mt-6">
-                    <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
-                      awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
-                      tradition can be found. At this very day, we’ll meet each other in person after your arrival in
-                      Kathmandu Airport</p>
-                  </div>
-
-                  <div class="flex md:flex-row flex-col justify-between items-start p-5 gap-5">
-
-                    <div class="package__full-itinerary-item-facts-wrapper ">
-                      <div class="itinerary-item-facts-unit ">
-                        <div class="package__full-itinerary-meta-facts-item ">
-                          <span class="text-2xl text-text_color icon-max-altitude"></span>
-                          <span class="text-sm text-text_color">Max Altitude: 1300m</span>
+                  <div class="package__full-itinerary-item-content">
+                    <div class="package__full-itinerary-item-content-description px-6 mt-6">
+                      <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
+                        awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
+                        tradition can be found. At this very day, we’ll meet each other in person after your arrival in
+                        Kathmandu Airport
+                      </p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4">
+                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-[15px]">
+                          <div class="itinerary-item-facts-unit ">
+                            <span class="text-xl text-text_color icon-max-altitude"></span>
+                            <span class="text-sm text-text_color">Max Altitude: 1300m</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-meal"></span>
+                            <span class="text-sm text-text_color">Meals: B/L/D</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-calendar-lines"></span>
+                            <span class="text-sm text-text_color">Duration: 1 day</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-distance"></span>
+                            <span class="text-sm text-text_color">Distance: 2 km</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-accommodation"></span>
+                            <span class="text-sm text-text_color">Accommodation: Hotel</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-travel-style"></span>
+                            <span class="text-sm text-text_color">Trekking: 5 hours</span>
+                          </div>
                         </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-meal"></span>
-                          <span class="text-sm text-text_color">Meals: B/L/D</span>
-                        </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-calendar-lines"></span>
-                          <span class="text-sm text-text_color">Duration: 1 day</span>
-                        </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-distance"></span>
-                          <span class="text-sm text-text_color">Distance: 2 km</span>
-                        </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-accommodation"></span>
-                          <span class="text-sm text-text_color">Accommodation: Hotel</span>
-                        </div>
-                        <div class="package__full-itinerary-item-facts-grid">
-                          <span class="text-2xl text-text_color icon-travel-style"></span>
-                          <span class="text-sm text-text_color">Trekking: 5 hours</span>
+                        <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
+                          <img
+                            src="/images/dynamic/day1.webp"
+                            width="600"
+                            height="630"
+                            alt="banner" />
                         </div>
                       </div>
                     </div>
-
-                    <div class="package__full-itinerary-item-gallery col-span-4">
-                      <img src="/images/dynamic/package-thumb.webp" width="350" height="120" alt="banner" />
-                    </div>
-
                   </div>
                 </div>
                 <div class="package__full-itinerary-item mb-6.25 last:mb-0">
@@ -587,894 +579,953 @@
                     <span class="icon-place">
 
                     </span>
-                    <span> Day 3</span>
+                    <span> Day 1</span>
                   </div>
 
                   <div class="package__full-itinerary-item-title">
                     <h3> Arrival in Kathmandu, transfer to the hotel.</h3>
                   </div>
 
-                  <div class="package__full-itinerary-item-content-description px-6 mt-6">
-                    <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
-                      awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
-                      tradition can be found. At this very day, we’ll meet each other in person after your arrival in
-                      Kathmandu Airport</p>
-                  </div>
-
-                  <div class="flex md:flex-row flex-col justify-between items-start p-5 gap-5">
-
-                    <div class="package__full-itinerary-item-facts-wrapper ">
-                      <div class="itinerary-item-facts-unit ">
-                        <div class="package__full-itinerary-meta-facts-item ">
-                          <span class="text-2xl text-text_color icon-max-altitude"></span>
-                          <span class="text-sm text-text_color">Max Altitude: 1300m</span>
+                  <div class="package__full-itinerary-item-content">
+                    <div class="package__full-itinerary-item-content-description px-6 mt-6">
+                      <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
+                        awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
+                        tradition can be found. At this very day, we’ll meet each other in person after your arrival in
+                        Kathmandu Airport
+                      </p>
+                      <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4">
+                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-[15px]">
+                          <div class="itinerary-item-facts-unit ">
+                            <span class="text-xl text-text_color icon-max-altitude"></span>
+                            <span class="text-sm text-text_color">Max Altitude: 1300m</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-meal"></span>
+                            <span class="text-sm text-text_color">Meals: B/L/D</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-calendar-lines"></span>
+                            <span class="text-sm text-text_color">Duration: 1 day</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-distance"></span>
+                            <span class="text-sm text-text_color">Distance: 2 km</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-accommodation"></span>
+                            <span class="text-sm text-text_color">Accommodation: Hotel</span>
+                          </div>
+                          <div class="itinerary-item-facts-unit">
+                            <span class="text-xl text-text_color icon-travel-style"></span>
+                            <span class="text-sm text-text_color">Trekking: 5 hours</span>
+                          </div>
                         </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-meal"></span>
-                          <span class="text-sm text-text_color">Meals: B/L/D</span>
-                        </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-calendar-lines"></span>
-                          <span class="text-sm text-text_color">Duration: 1 day</span>
-                        </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-distance"></span>
-                          <span class="text-sm text-text_color">Distance: 2 km</span>
-                        </div>
-                        <div class="package__full-itinerary-meta-facts-item">
-                          <span class="text-2xl text-text_color icon-accommodation"></span>
-                          <span class="text-sm text-text_color">Accommodation: Hotel</span>
-                        </div>
-                        <div class="package__full-itinerary-item-facts-grid">
-                          <span class="text-2xl text-text_color icon-travel-style"></span>
-                          <span class="text-sm text-text_color">Trekking: 5 hours</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="package__full-itinerary-item-gallery col-span-4">
-                      <img src="/images/dynamic/package-thumb.webp" width="350" height="120" alt="banner" />
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-              <div class="package__cta common-module mt-15">
-                <div class="flex flex-col">
-                  <div class="package__cta-title">
-                    Still Confused?
-                  </div>
-                  <div class="package__cta-content">
-                    No worries. Our team is ready to guide you every step of the way.
-                  </div>
-                </div>
-                <div class="package__cta-links sm:pb-0">
-                  <button type="button" class="package__cta-btn"> Download Itinerary <span class="icon-view"></span>
-                  </button>
-                  <a href="" class="package__cta-btn">Customize trip <span class="text-sm icon-view"></span></a>
-                </div>
-              </div>
-            </div>
-            <div class="package__route common-module " id="package-route">
-              <h2 class="package__section-title">Route Map</h2>
-              <a href="./images/dynamic/route-map.webp" data-fancybox="package-route">
-                <img width="900" height="1200" class="rounded-[10px]" src="./images/dynamic/route-map.webp"
-                  alt="thumb" />
-              </a>
-            </div>
-            <div class="package__altitude common-module " id="package-altitude">
-              <h2 class="package__section-title">Altitude Chart</h2>
-              <a href="./images/dynamic/altitude-chart.webp" data-fancybox="package-route">
-                <img width="1200" height="650" class="rounded-[10px]" src="./images/dynamic/altitude-chart.webp"
-                  alt="thumb" />
-              </a>
-            </div>
-            <div class="package__cost-details common-module " id="package-cost-details">
-              <h2 class="package__section-title">Cost Details</h2>
-              <div class="package__cost-details-includes">
-                <h3 class="includes-title ">
-                  Includes
-                </h3>
-                <div class="includes-content ">
-                  <ul>
-                    <li>Vestibulum eu ex eget ipsum lobortis hendrerit eget nec dolor.</li>
-                    <li>Maecenas vitae arcu vel libero varius mattis non et lectus.</li>
-                    <li>Nunc egestas erat quis condimentum pharetra.</li>
-                    <li>Nunc egestas erat quis condimentum pharetra.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="package__cost-details-excludes ">
-                <h3 class="excludes-title">
-                  Excludes
-                </h3>
-                <div class="excludes-content">
-                  <ul>
-                    <li>Vestibulum eu ex eget ipsum lobortis hendrerit eget nec dolor.</li>
-                    <li>Maecenas vitae arcu vel libero varius mattis non et lectus.</li>
-                    <li>Nunc egestas erat quis condimentum pharetra.</li>
-                    <li>Nunc egestas erat quis condimentum pharetra.</li>
-                  </ul>
-
-                </div>
-              </div>
-            </div>
-            <div class="package__availability common-module " id="package-availability">
-              <h2 class="package__section-title">Dates & Availability</h2>
-              <div class="package__availability-content">Select Departure Date
-              </div>
-              <div class="package__availability-filter">
-                <div class="availability-filter__item">
-                  Feb 2024
-                </div>
-                <div class="availability-filter__item active">
-                  Mar 2024
-                </div>
-                <div class="availability-filter__item">
-                  Apr 2024
-                </div>
-                <div class="availability-filter__item">
-                  May 2024
-                </div>
-              </div>
-              <div class="package__availability-wrapper">
-                <div class="package__availability-list ">
-                  <div class="package__availability-item ">
-                    <div class="inner">
-
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">14 Feb, 2025</span>
-                        <span>Start on Sunday</span>
-                      </div>
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">28 Feb, 2025</span>
-                        <span>Ends on Sunday</span>
-                      </div>
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">20</span>
-                        <span>Group Size</span>
-                      </div>
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">Guaranteed</span>
-                        <span>2 spaces left</span>
-                      </div>
-
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">US$ 1680</span>
-                        <span>US$ 1800</span>
-                      </div>
-                      <div class="package__book-cta">
-                        <a href="" class="package__book-cta">Book Now</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="package__availability-item ">
-                    <div class="inner">
-
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">14 Feb, 2025</span>
-                        <span>Start on Sunday</span>
-                      </div>
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">28 Feb, 2025</span>
-                        <span>Ends on Sunday</span>
-                      </div>
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">20</span>
-                        <span>Group Size</span>
-                      </div>
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">Guaranteed</span>
-                        <span>2 spaces left</span>
-                      </div>
-
-                      <div class="package__availability-item-meta">
-                        <span class="font-bold">US$ 1680</span>
-                        <span>US$ 1800</span>
-                      </div>
-                      <div class="package__book-cta">
-                        <a href="" class="package__book-cta">Book Now</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="package__availability-note">
-                <div class="package__availability-note-title">
-                  Note to Solo Travelers:
-                </div>
-                <div class="package__availability-note-content">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et
-                  dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                </div>
-              </div>
-            </div>
-            <div class="package__addons common-module " id="package-addons">
-              <h2 class="package__section-title">Add-on</h2>
-              <div class="text-text_color">Embark on the ultimate adventure with a trek to Mount Everest, the world's
-                highest peak. The Mount Everest trekking route offers unparalled views of breathtaking landscapes.
-              </div>
-              <div class="package__addons-content">
-                <div class="package__addons-wrapper">
-                  <div class="package__addons-list" id="package-addons-list">
-                    <div class="package__addons-item is-open">
-                      <button type="button" class="package__addons-item-trigger" aria-expanded="true">
-                        <span class="package__addons-item-title-wrap">
-                          <span class="package__addons-item-title">1. HeliFlight from EBC to Kathmandu</span>
-                          <span class="package__addons-item-price">US$ 1300 per person</span>
-                        </span>
-                        <span class="package__addons-item-toggle" aria-hidden="true"></span>
-                      </button>
-                      <div class="package__addons-item-panel">
-                        <div class="package__addons-item-content">
-                          Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The
-                          Mount Everest trekking route offers unparalleled views of breathtaking landscapes from the
-                          heart of the Himalayas.
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="package__addons-item">
-                      <button type="button" class="package__addons-item-trigger" aria-expanded="false">
-                        <span class="package__addons-item-title-wrap">
-                          <span class="package__addons-item-title">2. HeliFlight from EBC to Kathmandu</span>
-                          <span class="package__addons-item-price">US$ 1300 per person</span>
-                        </span>
-                        <span class="package__addons-item-toggle" aria-hidden="true"></span>
-                      </button>
-                      <div class="package__addons-item-panel">
-                        <div class="package__addons-item-content">
-                          Choose a quick and scenic return to Kathmandu with a helicopter flight from Everest Base Camp.
-                          This add-on saves time while giving you spectacular aerial views of glaciers, valleys, and
-                          snowy ridgelines.
+                        <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
+                          <img
+                            src="/images/dynamic/day1.webp"
+                            width="600"
+                            height="630"
+                            alt="banner" />
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
 
+              </div>
+
+            </div>
+            <div class="package__cta common-module">
+              <div class="flex flex-col">
+                <div class="package__cta-title">
+                  Still Confused?
+                </div>
+                <div class="package__cta-content">
+                  No worries. Our team is ready to guide you every step of the way.
                 </div>
               </div>
-            </div>
-            <div class="package__equipment common-module " id="package-equipments">
-              <h2 class="package__section-title">Equipment List</h2>
-              <div class="package__equipment-content">
-                Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The Mount
-                Everest trekking route offers unparalleled views of breathtaking landscapes, including towering
-                snow-capped peaks, lush valleys, and rugged terrain. As you journey through the Khumbu region of
-                Nepal,
-                you'll encounter charming Sherpa villages, ancient monasteries, and vibrant local culture.
-              </div>
-              <div class="package__equipment-wrapper">
-                <div class="package__equipment-item">
-                  <div class="package__equipment-item-title">Clothing</div>
-                  <div class="package__equipment-item-content">
-                    <ul>
-                      <li>Base Layers</li>
-                      <li>Outer Layers</li>
-                      <li>Trekking Pants</li>
-                      <li>Warm Layers</li>
-                    </ul>
-                  </div>
-                  <div class="package__cta-links flex justify-start items-center gap-3 underline">
-                    <button type="button"
-                      class="package__cta-btn expand-all-equipment ">
-                      See more list
-                    </button>
-                    <button type="button"
-                      class="package__cta-btn download-all-btn   ">
-                      Download list
-                    </button>
-                  </div>
-                </div>
+              <div class="package__cta-links sm:pb-0">
+                <button type="button" class="package__cta-btn"> Download Itinerary <span class="icon-view"></span>
+                </button>
+                <a href="" class="package__cta-btn">Customize trip <span class="text-sm icon-view"></span></a>
               </div>
             </div>
-            <div class="package__additionalinfo common-module " id="package-essentials">
-              <h2 class="package__section-title">Essential Information</h2>
-              <div class="useful-info">
-                <p>
-                  Embark on the ultimate adventure with a trek to Mount
-                  Everest, the world's highest peak. The Mount Everest
-                  trekking route offers unparalleled views of breathtaking
-                  landscapes, including towering snow-capped peaks, lush
-                  valleys, and rugged terrain. As you journey through the
-                  <Link href=""> Khumbu region of Nepal</Link>, you'll
-                  encounter charming Sherpa villages, ancient monasteries, and
-                  vibrant local culture. Experience the thrill of ascending to
-                  Everest Base Camp, where you'll stand in awe of the iconic
-                  summit towering above. Whether you're an experienced
-                  mountaineer or a novice adventurer, trekking to Mount
-                  Everest promises an unforgettable journey filled with
-                  exhilarating challenges and unforgettable memories.
-                </p>
+          </div>
+          <div class="package__route common-module " id="package-route">
+            <h2 class="package__section-title">Route Map</h2>
+            <a href="./images/dynamic/route-map.webp" data-fancybox="package-route">
+              <img width="900" height="1200" class="rounded-[10px]" src="./images/dynamic/route-map.webp"
+                alt="thumb" />
+            </a>
+          </div>
+          <div class="package__altitude common-module " id="package-altitude">
+            <h2 class="package__section-title">Altitude Chart</h2>
+            <a href="./images/dynamic/altitude-chart.webp" data-fancybox="package-route">
+              <img width="1200" height="650" class="rounded-[10px]" src="./images/dynamic/altitude-chart.webp"
+                alt="thumb" />
+            </a>
+          </div>
+          <div class="package__cost-details common-module " id="package-cost-details">
+            <h2 class="package__section-title">Cost Details</h2>
+            <div class="package__cost-details-includes">
+              <h3 class="includes-title ">
+                Includes
+              </h3>
+              <div class="includes-content ">
                 <ul>
-                  <li>
-                    Cras tempor purus id{' '}
-                    <Link href=""> velit consequat,</Link> id mattis dui
-                    pellentesque.
-                  </li>
-                  <li>
-                    Quisque ac velit at sem scelerisque porta vel quis quam.
-                  </li>
-                  <li>Praesent sed mauris ac justo euismod facilisis. </li>
-                  <li>Vestibulum quis purus vel ligula elementum rutrum. </li>
+                  <li>Vestibulum eu ex eget ipsum lobortis hendrerit eget nec dolor.</li>
+                  <li>Maecenas vitae arcu vel libero varius mattis non et lectus.</li>
+                  <li>Nunc egestas erat quis condimentum pharetra.</li>
+                  <li>Nunc egestas erat quis condimentum pharetra.</li>
                 </ul>
               </div>
             </div>
-            <div class="package__faqs common-module" id="package-faq">
-              <h2 class="package__section-title">FAQs</h2>
-              <div class=" accordion-wrapper">
-                <div class="accordion with-arrow" id="faqs-accordion">
-                  <div class="accordion__item active open" data-id="q1">
-                    <button type="button" class="accordion__item-title package__faq-trigger">
-                      <span>1. HeliFlight from EBC to Kathmandu</span>
-                      <span class="package__faq-icon icon-dropdown" aria-hidden="true"></span>
-                    </button>
-                    <div class="accordion__item-content">
-                      <div class="package__faqs-content">
-                        <p>
-                          Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The
-                          Mount Everest trekking route offers breathtaking mountain views and a memorable Himalayan
-                          experience from start to finish.
-                        </p>
-                      </div>
+            <div class="package__cost-details-excludes ">
+              <h3 class="excludes-title">
+                Excludes
+              </h3>
+              <div class="excludes-content">
+                <ul>
+                  <li>Vestibulum eu ex eget ipsum lobortis hendrerit eget nec dolor.</li>
+                  <li>Maecenas vitae arcu vel libero varius mattis non et lectus.</li>
+                  <li>Nunc egestas erat quis condimentum pharetra.</li>
+                  <li>Nunc egestas erat quis condimentum pharetra.</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+          <div class="package__availability common-module " id="package-availability">
+            <h2 class="package__section-title">Dates & Availability</h2>
+            <div class="package__availability-content">Select Departure Date
+            </div>
+            <div class="package__availability-filter">
+              <div class="availability-filter__item">
+                Feb 2024
+              </div>
+              <div class="availability-filter__item active">
+                Mar 2024
+              </div>
+              <div class="availability-filter__item">
+                Apr 2024
+              </div>
+              <div class="availability-filter__item">
+                May 2024
+              </div>
+            </div>
+            <div class="package__availability-wrapper">
+              <div class="package__availability-list ">
+                <div class="package__availability-item ">
+                  <div class="inner">
+
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-base leading-6">14 Feb, 2025</span>
+                      <span class="font-medium text-sm leading-6">Start on Sunday</span>
+                    </div>
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-base leading-6">28 Feb, 2025</span>
+                      <span class="font-medium text-sm leading-6">Ends on Sunday</span>
+                    </div>
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-base leading-6">20</span>
+                      <span class="font-medium text-sm leading-6">Group Size</span>
+                    </div>
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-base leading-6">Guaranteed</span>
+                      <span class="font-medium text-sm leading-6">2 spaces left</span>
+                    </div>
+
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-lg leading-5">US$ 1680</span>
+                      <span class="font-medium text-lg leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
+                    </div>
+                    <div class="package__book-cta">
+                      <a href="" class="package__book-cta">Book Now</a>
                     </div>
                   </div>
-                  <div class="accordion__item" data-id="q2">
-                    <button type="button" class="accordion__item-title package__faq-trigger">
-                      <span>1. HeliFlight from EBC to Kathmandu</span>
-                      <span class="package__faq-icon icon-dropdown" aria-hidden="true"></span>
+                </div>
+                <div class="package__availability-item ">
+                  <div class="inner">
+
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-base leading-6">14 Feb, 2025</span>
+                      <span class="font-medium text-sm leading-6">Start on Sunday</span>
+                    </div>
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-base leading-6">28 Feb, 2025</span>
+                      <span class="font-medium text-sm leading-6">Ends on Sunday</span>
+                    </div>
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-base leading-6">20</span>
+                      <span class="font-medium text-sm leading-6">Group Size</span>
+                    </div>
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-base leading-6">Guaranteed</span>
+                      <span class="font-medium text-sm leading-6">2 spaces left</span>
+                    </div>
+
+                    <div class="package__availability-item-meta">
+                      <span class="font-bold text-lg leading-5">US$ 1680</span>
+                      <span class="font-medium text-lg leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
+                    </div>
+                    <div class="package__book-cta">
+                      <a href="" class="package__book-cta">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="package__availability-note">
+              <div class="package__availability-note-title">
+                Note to Solo Travelers:
+              </div>
+              <div class="package__availability-note-content leading-7">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+              </div>
+            </div>
+          </div>
+          <div class="package__addons common-module " id="package-addons">
+            <h2 class="package__section-title">Add-on</h2>
+            <div class="package__addons-content">
+              <div class="text-text_color">Embark on the ultimate adventure with a trek to Mount Everest, the world's
+                highest peak. The Mount Everest trekking route offers unparalled views of breathtaking landscapes.
+              </div>
+              <div class="package__addons-wrapper">
+                <div class="package__addons-list" id="package-addons-list">
+                  <div class="package__addons-item is-open">
+                    <button type="button" class="package__addons-item-trigger" aria-expanded="true">
+                      <span class="package__addons-item-title-wrap">
+                        <span class="package__addons-item-title">1. HeliFlight from EBC to Kathmandu</span>
+                        <span class="package__addons-item-price">US$ 1300 per person</span>
+                      </span>
+                      <span class="package__addons-item-toggle" aria-hidden="true"></span>
                     </button>
-                    <div class="accordion__item-content">
-                      <div class="package__faqs-content">
-                        <p>
-                          Choose this add-on if you want a faster and more comfortable return journey. The helicopter
-                          flight helps save trekking days while giving you panoramic aerial views of glaciers, ridges,
-                          and the Khumbu landscape.
-                        </p>
+                    <div class="package__addons-item-panel">
+                      <div class="package__addons-item-content">
+                        Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The
+                        Mount Everest trekking route
                       </div>
                     </div>
                   </div>
 
+                  <div class="package__addons-item">
+                    <button type="button" class="package__addons-item-trigger" aria-expanded="false">
+                      <span class="package__addons-item-title-wrap">
+                        <span class="package__addons-item-title">2. HeliFlight from EBC to Kathmandu</span>
+                        <span class="package__addons-item-price">US$ 1300 per person</span>
+                      </span>
+                      <span class="package__addons-item-toggle" aria-hidden="true"></span>
+                    </button>
+                    <div class="package__addons-item-panel">
+                      <div class="package__addons-item-content">
+                        Choose a quick and scenic return to Kathmandu with a helicopter flight from Everest Base Camp.
+                        This add-on saves time while giving you spectacular aerial views of glaciers, valleys, and
+                        snowy ridgelines.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- <div class="package__addons common-module " id="package-addons">
+              <h2 class="package__section-title ">Add-ons</h2>
+              <div class="package__addons-content">
+                <div class="text-text_color">Embark on the ultimate adventure with a trek to Mount Everest, the world's
+                  highest peak. The Mount Everest trekking route offers unparalled views of breathtaking landscapes.
+                </div>
+                <div class="package__addons-wrapper">
+                  <div class=" accordion-wrapper">
+                    <div class="" id="addon-accordion">
+                      <div class="package__addons-item " data-id="q1">
+                        <div class="package__addons-item-content">
+                          <h4 class="package__addons-item-title mb-0! text-[18px]">HeliFlight
+                            from EBC
+                            to
+                            Kathmandu </h4>
+                          <span class="text-[14px]"> Embark on the ultimate
+                            adventure with a trek to Mount
+                            Everest,
+                            the world's highest peak. The Mount Everest trekking
+                            route.</span>
+                        </div>
+                        <div class="package__addons-item-price">
+                          <span class="package__addons-item-price text-[16px]">US$1300 per
+                            person
+                          </span>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class=" accordion-wrapper">
+                    <div class="accordion with-plus-minus" id="addon-accordion">
+                      <div class="accordion__item package__addons-item" data-id="q1">
+                        <div class="package__addons-item-content">
+                          <h4 class="package__addons-item-title mb-0! text-[18px]">HeliFlight
+                            from EBC
+                            to
+                            Kathmandu </h4>
+                          <span class="text-[14px]"> Embark on the ultimate
+                            adventure with a trek to Mount
+                            Everest,
+                            the world's highest peak. The Mount Everest trekking
+                            route.</span>
+                        </div>
+                        <div class="package__addons-item-price">
+                          <span class="package__addons-item-price text-[16px]">US$1300 per
+                            person
+                          </span>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div> -->
+
+          <div class="package__equipment common-module " id="package-equipments">
+            <h2 class="package__section-title">Equipment List</h2>
+            <div class="package__equipment-content">
+              Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The Mount
+              Everest trekking route offers unparalleled views of breathtaking landscapes, including towering
+              snow-capped peaks, lush valleys, and rugged terrain. As you journey through the Khumbu region of
+              Nepal,
+              you'll encounter charming Sherpa villages, ancient monasteries, and vibrant local culture.
+            </div>
+            <div class="package__equipment-wrapper">
+              <div class="package__equipment-item">
+                <div class=" package__equipment-item-title ">Clothing</div>
+                <ol>
+                  <li>Base Layers</li>
+                  <li>Outer Layers</li>
+                  <li>Trekking Pants</li>
+                  <li>Warm Layers</li>
+                </ol>
+                <div class="package__cta-links flex justify-start items-center gap-3 underline">
+                  <button type="button"
+                    class="package__cta-btn expand-all-equipment">
+                    See more list
+                  </button>
+                  <button type="button"
+                    class="package__cta-btn download-all-btn">
+                    Download list
+                  </button>
                 </div>
               </div>
             </div>
+          </div>
+          <div class="package__additionalinfo common-module" id="package-essentials">
+            <h2 class="package__section-title">Essential Information</h2>
+            <div class="useful-info">
+              <p>
+                Embark on the ultimate adventure with a trek to Mount
+                Everest, the world's highest peak. The Mount Everest
+                trekking route offers unparalleled views of breathtaking
+                landscapes, including towering snow-capped peaks, lush
+                valleys, and rugged terrain. As you journey through the
+                <a href=""> Khumbu region of Nepal</a>, you'll
+                encounter charming Sherpa villages, ancient monasteries, and
+                vibrant local culture. Experience the thrill of ascending to
+                Everest Base Camp, where you'll stand in awe of the iconic
+                summit towering above. Whether you're an experienced
+                mountaineer or a novice adventurer, trekking to Mount
+                Everest promises an unforgettable journey filled with
+                exhilarating challenges and unforgettable memories.
+              </p>
+              <ul>
+                <li>
+                  Cras tempor purus
+                  <a href=""> velit consequat,</a> id mattis dui
+                  pellentesque.
+                </li>
+                <li>
+                  Quisque ac velit at sem scelerisque porta vel quis quam.
+                </li>
+                <li>Praesent sed mauris ac justo euismod facilisis. </li>
+                <li>Vestibulum quis purus vel ligula elementum rutrum. </li>
+              </ul>
+            </div>
+          </div>
+          <div class="package__faqs common-module" id="package-faq">
+            <h2 class="package__section-title">FAQs</h2>
+            <div class=" accordion-wrapper">
+              <div class="accordion with-arrow" id="faqs-accordion">
+                <div class="accordion__item active open" data-id="q1">
+                  <button type="button" class="accordion__item-title package__faq-trigger">
+                    <span>1. HeliFlight from EBC to Kathmandu</span>
+                    <span class="package__faq-icon icon-dropdown" aria-hidden="true"></span>
+                  </button>
+                  <div class="accordion__item-content">
+                    <div class="package__faqs-content">
+                      <p>
+                        Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The
+                        Mount Everest trekking route offers breathtaking mountain views and a memorable Himalayan
+                        experience from start to finish.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion__item" data-id="q2">
+                  <button type="button" class="accordion__item-title package__faq-trigger">
+                    <span>1. HeliFlight from EBC to Kathmandu</span>
+                    <span class="package__faq-icon icon-dropdown" aria-hidden="true"></span>
+                  </button>
+                  <div class="accordion__item-content">
+                    <div class="package__faqs-content">
+                      <p>
+                        Choose this add-on if you want a faster and more comfortable return journey. The helicopter
+                        flight helps save trekking days while giving you panoramic aerial views of glaciers, ridges,
+                        and the Khumbu landscape.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-span-12 lg:col-span-4 gap-8">
+
+        <div class="package__price-sidebar lg:mb-0 mb-8 lg:sticky lg:top-10 common-box pb-0">
+          <div class="gap-5 w-[95%] flex items-center justify-end  rounded-t-[10px] py-2.5 px-6.25">
+            <button class="btn-secondary bg-[#f6faff]">
+              <span class="icon-send text-[18px] text-[#6cafda]"></span>
+              View Map
+            </button>
+            <button class="btn-primary ">
+              <span class="icon-share text-[18px]"></span>
+              Share
+            </button>
+          </div>
+
+          <div class="package-price-main-wrapper">
+            <div class="package-price-wrappper">
+
+              <div class="package-price-title">Price For</div>
+              <div class="package-price">
+                <div class="package-price-net">US$1500</div>
+                <div class="package-price-gross">US$1600</div>
+              </div>
+            </div>
+
+            <div class="package-group-price">
+              <div class="package__discount-list ">
+                <button class="collapsible active package__discount-list-item py-3" type="button" aria-expanded="true"
+                  data-default-open="true">
+                  <span class="text-sm font-bold text-text_color px-4 uppercase">
+                    Group Discount Cost
+                  </span>
+                  <span class="mr-1 text-2xl font-bold text-text_color icon">+</span>
+                </button>
+                <div class="collapsible-content">
+                  <div class="package__discount-list">
+                    <ul class="package__discount-list-group">
+                      <li class="package__discount-list-item  ">
+                        <span class="text-sm font-bold text-text_color">No. of traveler</span>
+                        <span class="text-sm font-bold text-text_color">Price per person</span>
+                      </li>
+                      <li class="package__discount-list-item  ">
+                        <span class="text-sm text-text_color">1-1</span>
+                        <span class="text-sm text-text_color">US$1600</span>
+                      </li>
+                      <li class="package__discount-list-item   ">
+                        <span class="text-sm text-text_color">2 - 2</span>
+                        <span class="text-sm text-text_color">US$1600</span>
+                      </li>
+                      <li class="package__discount-list-item  ">
+                        <span class="text-sm text-text_color">3-5</span>
+                        <span class="text-sm text-text_color">US$1600</span>
+                      </li>
+                      <li class="package__discount-list-item  ">
+                        <span class="text-sm text-text_color">10+</span>
+                        <span class="text-sm text-text_color">US$1600</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" package-book-options  ">
+              <button type="button"
+                class="bg-[#6cafda] font-extrabold mt-[10px] block text-white uppercase rounded-custom py-[15px] w-full font-mulish text-center ">
+                Book This Trip
+              </button>
+              <a href=""
+                class="bg-[#ebf0f7] font-bold mt-[10px] text-text_color block uppercase rounded-[10px] py-[15px] w-full text-center font-mulish bg-secondary-effect">
+                Check Avalilability
+              </a>
+              <button type="button" data-fancybox data-src="#dialog-content"
+                class="bg-primary font-bold mt-[10px] block text-white uppercase rounded-custom py-[15px] w-full text-center bg-primary-effect font-mulish">
+                Make an INQUIRY
+              </button>
+
+              <div class="package-price-note">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+              </div>
+
+              <div class="hidden package-sidebar-contact" id="dialog-content">
+                <form class="normal-form">
+                  <div class="package-sidebar-contact-title-wrap ">
+                    <h4 class="main-title ">
+                      Ask a Question?
+                    </h4>
+                  </div>
+
+                  <div class="relative w-full mb-3">
+                    <input type="text" name="fullname" id="fullname"
+                      class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                      placeholder="Full Name" required />
+                  </div>
+
+                  <div class="relative w-full mb-3">
+                    <input type="email" name="mail" id="mail"
+                      class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                      placeholder="Email Address" required />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <input type="text" name="phone" id="phone"
+                      class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                      placeholder="Phone Number " required />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <textarea name="extra_info" id="extrainfo" rows={4}
+                      class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                      placeholder="Questions / Comments" required></textarea>
+                  </div>
+                  <button
+                    class="mb-2 block w-full rounded-[5px] bg-secondary-effect border border-primary bg-primary py-3 font-bold  text-sm text-white transition-all duration-500 bg-secondary-effect">
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+
+
 
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-4 gap-8">
+      </div>
 
-          <div class="package__price-sidebar lg:mb-0 mb-8 lg:sticky lg:top-10 common-box pb-0">
-            <div class="gap-5 w-[95%] flex items-center justify-end  rounded-t-[10px] py-2.5 px-6.25">
-              <button class="view-btn ">
-                <span class="icon-send text-[18px] text-[#6cafda]"></span>
-                View Map
-              </button>
-              <button class="share-btn ">
-                <span class="icon-share text-[18px]"></span>
-                Share
-              </button>
-            </div>
-
-            <div class="package-price-main-wrapper">
-              <div class="package-price-wrappper">
-
-                <div class="package-price-title">Price For</div>
-                <div class="package-price">
-                  <div class="package-price-net">US$1500</div>
-                  <div class="package-price-gross">US$1600</div>
-                </div>
-              </div>
-
-              <div class="package-group-price">
-                <div class="package__discount-list package__discount-list-group">
-                  <button class="collapsible active package__discount-list-item" type="button" aria-expanded="true"
-                    data-default-open="true">
-                    <span class="text-[15px] font-bold text-text_color px-6">
-                      Group Discount Price
-                    </span>
-                    <span class="mr-1 text-2xl font-bold text-text_color icon">+</span>
-                  </button>
-                  <div class="collapsible-content">
-                    <div class="package__discount-list">
-                      <ul class="package__discount-list-group">
-                        <li class="package__discount-list-item  ">
-                          <span class="text-sm font-bold text-text_color">No. of traveler</span>
-                          <span class="text-sm font-bold text-text_color">Price per person</span>
-                        </li>
-                        <li class="package__discount-list-item  ">
-                          <span class="text-sm text-text_color">1-1</span>
-                          <span class="text-sm text-text_color">US$1600</span>
-                        </li>
-                        <li class="package__discount-list-item   ">
-                          <span class="text-sm text-text_color">2 - 2</span>
-                          <span class="text-sm text-text_color">US$1600</span>
-                        </li>
-                        <li class="package__discount-list-item  ">
-                          <span class="text-sm text-text_color">3-5</span>
-                          <span class="text-sm text-text_color">US$1600</span>
-                        </li>
-                        <li class="package__discount-list-item  ">
-                          <span class="text-sm text-text_color">10+</span>
-                          <span class="text-sm text-text_color">US$1600</span>
-                        </li>
-                      </ul>
-                    </div>
+    </div>
+    <section class=" video-review common-box scroll-wrap mt-0">
+      <div class="container">
+        <h2 class="package__section-title ">
+          Travel Moments
+        </h2>
+        <div class="grid grid-cols-12 gap-5">
+          <div class="col-span-4">
+            <div class="moments-list__item">
+              <div class="relative moments-list__item-image">
+                <div class="placeholder__img-wrapper">
+                  <div class="w-full placeholder__img">
+                    <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                   </div>
                 </div>
-              </div>
-              <div class=" package-book-options  ">
-                <button type="button"
-                  class="bg-[#6cafda] font-extrabold mt-[10px] block text-white uppercase rounded-custom py-[15px] w-full font-mulish text-center ">
-                  Book This Trip
-                </button>
-                <a href=""
-                  class="bg-[#ebf0f7] font-bold mt-[10px] text-text_color block uppercase rounded-[10px] py-[15px] w-full text-center font-mulish bg-secondary-effect">
-                  Check Avalilability
-                </a>
-                <button type="button" data-fancybox data-src="#dialog-content"
-                  class="bg-primary font-bold mt-[10px] block text-white uppercase rounded-custom py-[15px] w-full text-center bg-primary-effect font-mulish">
-                  Make an INQUIRY
-                </button>
+                <div class="video-review__item-link">
+                  <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                <div class="package-price-note">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
-                </div>
-
-                <div class="hidden package-sidebar-contact" id="dialog-content">
-                  <form class="normal-form">
-                    <div class="package-sidebar-contact-title-wrap ">
-                      <h4 class="main-title ">
-                        Ask a Question?
-                      </h4>
-                    </div>
-
-                    <div class="relative w-full mb-3">
-                      <input type="text" name="fullname" id="fullname"
-                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                        placeholder="Full Name" required />
-                    </div>
-
-                    <div class="relative w-full mb-3">
-                      <input type="email" name="mail" id="mail"
-                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                        placeholder="Email Address" required />
-                    </div>
-                    <div class="relative w-full mb-3">
-                      <input type="text" name="phone" id="phone"
-                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                        placeholder="Phone Number " required />
-                    </div>
-                    <div class="relative w-full mb-3">
-                      <textarea name="extra_info" id="extrainfo" rows={4}
-                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                        placeholder="Questions / Comments" required></textarea>
-                    </div>
-                    <button
-                      class="mb-2 block w-full rounded-[5px] bg-secondary-effect border border-primary bg-primary py-3 font-bold  text-sm text-white transition-all duration-500 bg-secondary-effect">
-                      Send Message
-                    </button>
-                  </form>
+                    <span class="video-play-btn"><span class=" icon-play-button icon-video"></span>
+                    </span>
+                  </a>
                 </div>
               </div>
+              <div class="video-review__item-content">
+                <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
+                  Trekking in Nepal
+                </div>
+                <div class="text-sm text-text_color">
+                  Jhone - USA
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-4">
+            <div class="moments-list__item">
+              <div class="relative moments-list__item-image">
+                <div class="placeholder__img-wrapper">
+                  <div class="w-full placeholder__img">
+                    <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
+                  </div>
+                </div>
+                <div class=" video-review__item-link">
+                  <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate">
 
+                    <span class="video-play-btn"><span class=" icon-play-button icon-video"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="video-review__item-content">
+                <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
+                  Trekking in Nepal
+                </div>
+                <div class="text-sm text-text_color">
+                  Jhone - USA
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-4">
+            <div class="moments-list__item">
+              <div class="relative moments-list__item-image">
+                <div class="placeholder__img-wrapper">
+                  <div class="w-full placeholder__img">
+                    <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
+                  </div>
+                </div>
+                <div class="video-review__item-link">
+                  <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
+                    <span class="video-play-btn"><span class="icon-play-button icon-video"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="video-review__item-content">
+                <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
+                  Trekking in Nepal
+                </div>
+                <div class="text-sm text-text_color">
+                  Jhone - USA
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" pb-0 inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
+      <div class="container">
+        <div class="package__reviews-header mb-7.5">
+          <h2 class="package__section-title">
+            Customer Review
+          </h2>
+          <div class="package__review-platforms">
+            <div class="package__review-platform">
+
+              <img src="/images/svg/circular-tripadvisor.svg" width="31" height="31" alt="Tripadvisor" />
+              <div class="package__review-platform-copy">
+
+                <div class="package__review-platform-rating green-dot-rating">
+                  <span class="text-sm ">4.9</span>
+                  <div class="rating-wrap rating-5">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </div>
+                </div>
+                <div class="text-xs text-black">Based on 22 reviews</div>
+              </div>
+
+            </div>
+            <div class="package__review-platform">
+
+              <img src="/images/svg/circular-google.svg" width="31" height="31" alt="Google" />
+              <div class="package__review-platform-copy">
+
+                <div class="package__review-platform-rating star-rating">
+                  <span class="text-sm ">4.9</span>
+                  <div class="rating-wrap rating-5">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </div>
+                </div>
+                <div class="text-xs text-black">Based on 22 reviews</div>
+              </div>
+
+            </div>
+            <div class="package__review-platform">
+
+              <img src="/images/svg/trustpilot.svg" width="31" height="31" alt="Trustpilot" />
+              <div class="package__review-platform-copy">
+
+                <div class="package__review-platform-rating green-dot-rating">
+                  <span class="text-sm ">4.9</span>
+                  <div class="rating-wrap rating-5">
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                    <span class="star"></span>
+                  </div>
+                </div>
+                <div class="text-xs text-black">Based on 22 reviews</div>
+              </div>
 
             </div>
           </div>
+
+        </div>
+        <div class="relative">
+
+          <div class="grid grid-cols-12 gap-5">
+
+            <div class="col-span-6">
+              <div class="testimonial__list-item m-0!">
+                <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
+                  <div class="testimonial__list-item-rating green-dot-rating">
+                    <div class="rating-wrap rating-5">
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial__list-item-title">"The trek was life-changing</div>
+                <div class="review-list__item-content text-text_color text-sm">
+                  <div class="testimonial__list-item-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
+                      eum mollitia. Similique harum veniam totam iste?</p>
+                  </div>
+                </div>
+                <div class="testimonial__list-item-reviewer ">
+                  <div class="reviewer-image">
+                    <div
+                      class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
+                      A</div>
+                  </div>
+                  <div class="reviewer-content">
+                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza -
+                      USA
+                    </div>
+                    <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-span-6">
+              <div class="testimonial__list-item m-0!">
+                <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
+                  <div class="testimonial__list-item-rating green-dot-rating">
+                    <div class="rating-wrap rating-5">
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial__list-item-title">"The trek was life-changing</div>
+                <div class="review-list__item-content text-text_color text-sm">
+                  <div class="testimonial__list-item-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
+                      eum mollitia. Similique harum veniam totam iste?</p>
+                  </div>
+                </div>
+                <div class="testimonial__list-item-reviewer ">
+                  <div class="reviewer-image">
+                    <div
+                      class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
+                      A</div>
+                  </div>
+                  <div class="reviewer-content">
+                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza -
+                      USA
+                    </div>
+                    <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
 
       </div>
-      <section class=" video-review common-box scroll-wrap mt-0">
-        <div class="container">
-          <h2 class="package__section-title ">
-            Travel Moments
-          </h2>
+    </section>
+    <section class="common-box  package-list relative top-50 -mt-50">
+      <div class="container ">
+        <h2 class="package__section-title">
+          You May Also Like </h2>
+
+        <!--Package Grid -->
+        <div class="relative mt-8">
           <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-4">
-              <div class="moments-list__item">
-                <div class="relative moments-list__item-image">
+            <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+              <div class="package-list__item">
+                <div class="package-list__item-badge">
+                  <span>TOP RATED</span>
+                </div>
+                <div class="package-list__item-image">
                   <div class="placeholder__img-wrapper">
-                    <div class="w-full placeholder__img">
-                      <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
+                    <div class="placeholder__img">
+                      <a href="#">
+                        <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                          alt="image">
+                      </a>
                     </div>
                   </div>
-                  <div class="video-review__item-link">
-                    <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
-
-                      <span class="video-play-btn"><span class=" icon-play-button icon-video"></span>
-                      </span>
-                    </a>
-                  </div>
                 </div>
-                <div class="video-review__item-content">
-                  <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
-                    Trekking in Nepal
+                <div class="package-list__item-content">
+                  <div class="package-list__item-meta">
+                    <div class="package-list__item-duration">
+                      <span class="icon-time-quarter-to"></span>
+                      <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                    </div>
+                    <div class="package-list__item-reviews text-text_color text-xs">
+                      <span class="icon-star-rate text-[#dfd200]"></span>
+                      <span class="font-bold ">4.9</span>
+                      <span>(4 Reviews)</span>
+                    </div>
                   </div>
-                  <div class="text-sm text-text_color">
-                    Jhone - USA
+                  <div class="package-list__item-title">
+                    <h3 class="homepage__package-title">
+                      <a href="#" class="">
+                        Everest Base Camp Trekking
+                      </a>
+                    </h3>
+                  </div>
+                  <div class="text-lg text-text_color">
+                    Price From
+                  </div>
+                  <div class="package-list__item-bottom ">
+                    <div class="package-list__item-price">
+                      <span class="package-list__item-price-new">US$ 1680</span>
+                      <span class="package-list__item-price-old ">US$ 1800</span>
+                    </div>
+
+                    <div class="package-list__item-explore-btn arrow-move-effect">
+                      <a href="#" class="">
+                        Explore
+                        <span class="icon-arrow-right"></span>
+                      </a>
+                    </div>
+
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-span-4">
-              <div class="moments-list__item">
-                <div class="relative moments-list__item-image">
+            <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+              <div class="package-list__item">
+                <div class="package-list__item-badge">
+                  <span>TOP RATED</span>
+                </div>
+                <div class="package-list__item-image">
                   <div class="placeholder__img-wrapper">
-                    <div class="w-full placeholder__img">
-                      <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
+                    <div class="placeholder__img">
+                      <a href="#">
+                        <img src="../images/dynamic/package-thumb2.webp" width="600" height="400"
+                          alt="image">
+                      </a>
                     </div>
                   </div>
-                  <div class=" video-review__item-link">
-                    <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate">
-
-                      <span class="video-play-btn"><span class=" icon-play-button icon-video"></span>
-                      </span>
-                    </a>
-                  </div>
                 </div>
-                <div class="video-review__item-content">
-                  <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
-                    Trekking in Nepal
+                <div class="package-list__item-content">
+                  <div class="package-list__item-meta">
+                    <div class="package-list__item-duration">
+                      <span class="icon-time-quarter-to"></span>
+                      <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                    </div>
+                    <div class="package-list__item-reviews text-text_color text-xs">
+                      <span class="icon-star-rate text-[#dfd200]"></span>
+                      <span class="font-bold ">4.9</span>
+                      <span>(4 Reviews)</span>
+                    </div>
                   </div>
-                  <div class="text-sm text-text_color">
-                    Jhone - USA
+                  <div class="package-list__item-title">
+                    <h3 class="homepage__package-title">
+                      <a href="#" class="">
+                        Everest Base Camp Trekking
+                      </a>
+                    </h3>
+                  </div>
+                  <div class="text-lg text-text_color">
+                    Price From
+                  </div>
+                  <div class="package-list__item-bottom ">
+                    <div class="package-list__item-price">
+                      <span class="package-list__item-price-new">US$ 1680</span>
+                      <span class="package-list__item-price-old ">US$ 1800</span>
+                    </div>
+
+                    <div class="package-list__item-explore-btn arrow-move-effect">
+                      <a href="#" class="">
+                        Explore
+                        <span class="icon-arrow-right"></span>
+                      </a>
+                    </div>
+
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-span-4">
-              <div class="moments-list__item">
-                <div class="relative moments-list__item-image">
+            <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+              <div class="package-list__item">
+                <div class="package-list__item-image">
                   <div class="placeholder__img-wrapper">
-                    <div class="w-full placeholder__img">
-                      <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
+                    <div class="placeholder__img">
+                      <a href="#">
+                        <img src="../images/dynamic/package-thumb3.webp" width="600" height="400"
+                          alt="image">
+                      </a>
                     </div>
                   </div>
-                  <div class="video-review__item-link">
-                    <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
-
-                      <span class="video-play-btn"><span class="icon-play-button icon-video"></span>
-                      </span>
-                    </a>
-                  </div>
                 </div>
-                <div class="video-review__item-content">
-                  <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
-                    Trekking in Nepal
+                <div class="package-list__item-content">
+                  <div class="package-list__item-meta">
+                    <div class="package-list__item-duration">
+                      <span class="icon-time-quarter-to"></span>
+                      <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                    </div>
+                    <div class="package-list__item-reviews text-text_color text-xs">
+                      <span class="icon-star-rate text-[#dfd200]"></span>
+                      <span class="font-bold ">4.9</span>
+                      <span>(4 Reviews)</span>
+                    </div>
                   </div>
-                  <div class="text-sm text-text_color">
-                    Jhone - USA
+                  <div class="package-list__item-title">
+                    <h3 class="homepage__package-title">
+                      <a href="#" class="">
+                        Everest Base Camp Trekking
+                      </a>
+                    </h3>
+                  </div>
+                  <div class="text-lg text-text_color">
+                    Price From
+                  </div>
+                  <div class="package-list__item-bottom ">
+                    <div class="package-list__item-price">
+                      <span class="package-list__item-price-new">US$ 1680</span>
+                      <span class="package-list__item-price-old ">US$ 1800</span>
+                    </div>
+
+                    <div class="package-list__item-explore-btn arrow-move-effect">
+                      <a href="#" class="">
+                        Explore
+                        <span class="icon-arrow-right"></span>
+                      </a>
+                    </div>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class=" pb-0 inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
-        <div class="container">
-          <div class="package__reviews-header mb-7.5">
-            <h2 class="package__section-title">
-              Customer Review
-            </h2>
-            <div class="package__review-platforms">
-              <div class="package__review-platform">
-
-                <img src="/images/svg/circular-tripadvisor.svg" width="31" height="31" alt="Tripadvisor" />
-                <div class="package__review-platform-copy">
-
-                  <div class="package__review-platform-rating green-dot-rating">
-                    <span class="text-sm ">4.9</span>
-                    <div class="rating-wrap rating-5">
-                      <span class="star"></span>
-                      <span class="star"></span>
-                      <span class="star"></span>
-                      <span class="star"></span>
-                      <span class="star"></span>
-                    </div>
-                  </div>
-                  <div class="text-xs text-black">Based on 22 reviews</div>
-                </div>
-
-              </div>
-              <div class="package__review-platform">
-
-                <img src="/images/svg/circular-google.svg" width="31" height="31" alt="Google" />
-                <div class="package__review-platform-copy">
-
-                  <div class="package__review-platform-rating star-rating">
-                    <span class="text-sm ">4.9</span>
-                    <div class="rating-wrap rating-5">
-                      <span class="star"></span>
-                      <span class="star"></span>
-                      <span class="star"></span>
-                      <span class="star"></span>
-                      <span class="star"></span>
-                    </div>
-                  </div>
-                  <div class="text-xs text-black">Based on 22 reviews</div>
-                </div>
-
-              </div>
-              <div class="package__review-platform">
-
-                <img src="/images/svg/trustpilot.svg" width="31" height="31" alt="Trustpilot" />
-                <div class="package__review-platform-copy">
-
-                  <div class="package__review-platform-rating green-dot-rating">
-                    <span class="text-sm ">4.9</span>
-                    <div class="rating-wrap rating-5">
-                      <span class="star"></span>
-                      <span class="star"></span>
-                      <span class="star"></span>
-                      <span class="star"></span>
-                      <span class="star"></span>
-                    </div>
-                  </div>
-                  <div class="text-xs text-black">Based on 22 reviews</div>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-          <div class="relative">
-
-            <div class="grid grid-cols-12 gap-5">
-
-              <div class="col-span-6">
-                <div class="testimonial__list-item m-0!">
-                  <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
-                    <div class="testimonial__list-item-rating green-dot-rating">
-                      <div class="rating-wrap rating-5">
-                        <span class="star"></span>
-                        <span class="star"></span>
-                        <span class="star"></span>
-                        <span class="star"></span>
-                        <span class="star"></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial__list-item-title">"The trek was life-changing</div>
-                  <div class="review-list__item-content text-text_color text-sm">
-                    <div class="testimonial__list-item-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
-                        eum mollitia. Similique harum veniam totam iste?</p>
-                    </div>
-                  </div>
-                  <div class="testimonial__list-item-reviewer ">
-                    <div class="reviewer-image">
-                      <div
-                        class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
-                        A</div>
-                    </div>
-                    <div class="reviewer-content">
-                      <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza -
-                        USA
-                      </div>
-                      <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-span-6">
-                <div class="testimonial__list-item m-0!">
-                  <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
-                    <div class="testimonial__list-item-rating green-dot-rating">
-                      <div class="rating-wrap rating-5">
-                        <span class="star"></span>
-                        <span class="star"></span>
-                        <span class="star"></span>
-                        <span class="star"></span>
-                        <span class="star"></span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="testimonial__list-item-title">"The trek was life-changing</div>
-                  <div class="review-list__item-content text-text_color text-sm">
-                    <div class="testimonial__list-item-content">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
-                        eum mollitia. Similique harum veniam totam iste?</p>
-                    </div>
-                  </div>
-                  <div class="testimonial__list-item-reviewer ">
-                    <div class="reviewer-image">
-                      <div
-                        class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
-                        A</div>
-                    </div>
-                    <div class="reviewer-content">
-                      <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza -
-                        USA
-                      </div>
-                      <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-      <section class="common-box  package-list relative top-50 -mt-50">
-        <div class="container ">
-          <h2 class="package__section-title">
-            You May Also Like </h2>
-
-          <!--Package Grid -->
-          <div class="relative mt-8">
-            <div class="grid grid-cols-12 gap-5">
-              <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                <div class="package-list__item">
-                  <div class="package-list__item-badge">
-                    <span>TOP RATED</span>
-                  </div>
-                  <div class="package-list__item-image">
-                    <div class="placeholder__img-wrapper">
-                      <div class="placeholder__img">
-                        <a href="#">
-                          <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
-                            alt="image">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="package-list__item-content">
-                    <div class="package-list__item-meta">
-                      <div class="package-list__item-duration">
-                        <span class="icon-time-quarter-to"></span>
-                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                      </div>
-                      <div class="package-list__item-reviews text-text_color text-xs">
-                        <span class="icon-star-rate text-[#dfd200]"></span>
-                        <span class="font-bold ">4.9</span>
-                        <span>(4 Reviews)</span>
-                      </div>
-                    </div>
-                    <div class="package-list__item-title">
-                      <h3 class="homepage__package-title">
-                        <a href="#" class="">
-                          Everest Base Camp Trekking
-                        </a>
-                      </h3>
-                    </div>
-                    <div class="text-lg text-text_color">
-                      Price From
-                    </div>
-                    <div class="package-list__item-bottom ">
-                      <div class="package-list__item-price">
-                        <span class="package-list__item-price-new">US$ 1680</span>
-                        <span class="package-list__item-price-old ">US$ 1800</span>
-                      </div>
-
-                      <div class="package-list__item-explore-btn arrow-move-effect">
-                        <a href="#" class="">
-                          Explore
-                          <span class="icon-arrow-right"></span>
-                        </a>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                <div class="package-list__item">
-                  <div class="package-list__item-badge">
-                    <span>TOP RATED</span>
-                  </div>
-                  <div class="package-list__item-image">
-                    <div class="placeholder__img-wrapper">
-                      <div class="placeholder__img">
-                        <a href="#">
-                          <img src="../images/dynamic/package-thumb2.webp" width="600" height="400"
-                            alt="image">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="package-list__item-content">
-                    <div class="package-list__item-meta">
-                      <div class="package-list__item-duration">
-                        <span class="icon-time-quarter-to"></span>
-                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                      </div>
-                      <div class="package-list__item-reviews text-text_color text-xs">
-                        <span class="icon-star-rate text-[#dfd200]"></span>
-                        <span class="font-bold ">4.9</span>
-                        <span>(4 Reviews)</span>
-                      </div>
-                    </div>
-                    <div class="package-list__item-title">
-                      <h3 class="homepage__package-title">
-                        <a href="#" class="">
-                          Everest Base Camp Trekking
-                        </a>
-                      </h3>
-                    </div>
-                    <div class="text-lg text-text_color">
-                      Price From
-                    </div>
-                    <div class="package-list__item-bottom ">
-                      <div class="package-list__item-price">
-                        <span class="package-list__item-price-new">US$ 1680</span>
-                        <span class="package-list__item-price-old ">US$ 1800</span>
-                      </div>
-
-                      <div class="package-list__item-explore-btn arrow-move-effect">
-                        <a href="#" class="">
-                          Explore
-                          <span class="icon-arrow-right"></span>
-                        </a>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                <div class="package-list__item">
-                  <div class="package-list__item-image">
-                    <div class="placeholder__img-wrapper">
-                      <div class="placeholder__img">
-                        <a href="#">
-                          <img src="../images/dynamic/package-thumb3.webp" width="600" height="400"
-                            alt="image">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="package-list__item-content">
-                    <div class="package-list__item-meta">
-                      <div class="package-list__item-duration">
-                        <span class="icon-time-quarter-to"></span>
-                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                      </div>
-                      <div class="package-list__item-reviews text-text_color text-xs">
-                        <span class="icon-star-rate text-[#dfd200]"></span>
-                        <span class="font-bold ">4.9</span>
-                        <span>(4 Reviews)</span>
-                      </div>
-                    </div>
-                    <div class="package-list__item-title">
-                      <h3 class="homepage__package-title">
-                        <a href="#" class="">
-                          Everest Base Camp Trekking
-                        </a>
-                      </h3>
-                    </div>
-                    <div class="text-lg text-text_color">
-                      Price From
-                    </div>
-                    <div class="package-list__item-bottom ">
-                      <div class="package-list__item-price">
-                        <span class="package-list__item-price-new">US$ 1680</span>
-                        <span class="package-list__item-price-old ">US$ 1800</span>
-                      </div>
-
-                      <div class="package-list__item-explore-btn arrow-move-effect">
-                        <a href="#" class="">
-                          Explore
-                          <span class="icon-arrow-right"></span>
-                        </a>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
-      </section>
+    </section>
     </div>
   </section>
 
@@ -1758,5 +1809,6 @@
     }
   });
 </script>
+<script src="../js/accordian.js"></script>
 
 <?php include('./inc/footer.php'); ?>

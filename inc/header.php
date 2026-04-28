@@ -23,7 +23,7 @@
                                                                                 aria-expanded="false">Destinations
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
-                                                                        <div class="item dropdown shadow-custom rounded-br-custom rounded-bl-custom absolute top-19 left-0 z-10 w-full p-6 hidden">
+                                                                        <div class="item dropdown shadow-custom rounded-br-custom rounded-bl-custom absolute top-19 left-0 z-10 w-full px-6 py-3 hidden">
                                                                                 <div class="flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
                                                                                         <div class="flex gap-3">
                                                                                                 <ul class="nav-tab-links">
