@@ -526,7 +526,7 @@
                                         <p>We keep pricing transparent and competitive, with quality service and value
                                             built
                                             into every trip.</p>
-                                        <a href="#" class="why-choose-accordion__link ">Read More <span
+                                        <a href="#" class="why-choose-accordion__link arrow-move-effect ">Read More <span
                                                 class="icon-arrow-right "></span></a>
                                     </div>
                                 </div>
@@ -545,7 +545,7 @@
                                     <div class="why-choose-accordion__content" id="why-choose-q2">
                                         <p>Our local guides share firsthand knowledge, cultural insight, and practical
                                             support throughout your journey.</p>
-                                        <a href="#" class="why-choose-accordion__link">Read More <span
+                                        <a href="#" class="why-choose-accordion__link arrow-move-effect">Read More <span
                                                 class="icon-arrow-right"></span></a>
                                     </div>
                                 </div>
@@ -564,7 +564,7 @@
                                     <div class="why-choose-accordion__content" id="why-choose-q3">
                                         <p>From choosing destinations to finalizing details, we make planning simple and
                                             flexible for your group.</p>
-                                        <a href="#" class="why-choose-accordion__link">Read More <span
+                                        <a href="#" class="why-choose-accordion__link arrow-move-effect">Read More <span
                                                 class="icon-arrow-right"></span></a>
                                     </div>
                                 </div>
@@ -584,7 +584,7 @@
                                         <p>We focus on safe travel practices and thoughtful experiences that respect
                                             local
                                             communities and nature.</p>
-                                        <a href="#" class="why-choose-accordion__link">Read More <span
+                                        <a href="#" class="why-choose-accordion__link arrow-move-effect">Read More <span
                                                 class="icon-arrow-right"></span></a>
                                     </div>
                                 </div>
@@ -1002,7 +1002,7 @@
                                     </div>
                                     <img src="/images/svg/circular-tripadvisor.svg"
                                         data-testimonial-review-icon
-                                        class="w-10 h-10 cursor-pointer" alt="Trip Advisor" />
+                                        class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">"The trek was life-changing</div>
@@ -1044,7 +1044,7 @@
                                     </div>
                                     <img src="/images/svg/circular-facebook.svg"
                                         data-testimonial-review-icon
-                                        class="w-10 h-10 cursor-pointer" alt="Trip Advisor" />
+                                        class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">"The trek was life-changing</div>
@@ -1086,7 +1086,7 @@
                                     </div>
                                     <img src="/images/svg/circular-google.svg"
                                         data-testimonial-review-icon
-                                        class="w-10 h-10 cursor-pointer" alt="Trip Advisor" />
+                                        class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">"The trek was life-changing</div>
@@ -1104,7 +1104,6 @@
                                                 class="rounded-full" alt="" />
                                         </div>
                                     </div>
-
                                 </div>
                                 <div class="reviewer-content">
                                     <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro

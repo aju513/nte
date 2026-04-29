@@ -787,6 +787,7 @@
               </div>
             </div>
           </div>
+
           <div class="package__addons common-module " id="package-addons">
             <h2 class="package__section-title">Add-on</h2>
             <div class="package__addons-content">
@@ -890,7 +891,7 @@
 
             </div> -->
 
-          <div class="package__equipment common-module " id="package-equipments">
+          <div class="package__equipment common-module" id="package-equipments">
             <h2 class="package__section-title">Equipment List</h2>
             <div class="package__equipment-content text-base leading-7">
               Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The Mount
@@ -900,119 +901,113 @@
               you'll encounter charming Sherpa villages, ancient monasteries, and vibrant local culture.
             </div>
             <div class="package__equipment-wrapper">
-              <div class="accordion">
-                <div class="accordion__item active">
-                  <div class="accordion__item-title">
-                    Upper Body
-                  </div>
-                  <div class="accordion__item-content">
-                    <ol>
-                      <li>Moisture-wicking base layers (2-3 t-shirts, long-sleeve shirts)</li>
-                      <li>Mid-layers (fleece jacket, lightweight micro-fleece)</li>
-                      <li>Insulated jacket (down or synthetic for -10°C nights)</li>
-                      <li>Waterproof/windproof shell (Gore-Tex jacket)</li>
-                      <li>Gloves (liner pair + insulated mittens/overmitts)</li>
-                    </ol>
-                  </div>
+              <div class="package__equipment-item ">
+                <div class="package__equipment-item-title ">
+                  Upper Body
                 </div>
-                <div class="accordion__item">
-                  <div class="accordion__item-title">
-                    Lower Body
-                  </div>
-                  <div class="accordion__item-content">
-                    <ol>
-                      <li>Trekking pants (2 pairs, convertible to shorts)</li>
-                      <li>Hiking shorts (1 pair)</li>
-                      <li>Fleece or softshell pants</li>
-                      <li>Waterproof overpants</li>
-                      <li>Thermal long underwear (2 sets)</li>
-                      <li>Wool/thermal socks (8-10 pairs)</li>
-                      <li>Liner socks (3-4 pairs ¬¬¬¬¬for blister prevention)</li>
-                    </ol>
-                  </div>
+                <div class="package__equipment-item-content">
+                  <ol>
+                    <li>Moisture-wicking base layers (2-3 t-shirts, long-sleeve shirts)</li>
+                    <li>Mid-layers (fleece jacket, lightweight micro-fleece)</li>
+                    <li>Insulated jacket (down or synthetic for -10°C nights)</li>
+                    <li>Waterproof/windproof shell (Gore-Tex jacket)</li>
+                    <li>Gloves (liner pair + insulated mittens/overmitts)</li>
+                  </ol>
                 </div>
-                <div class="accordion__item">
-                  <div class="accordion__item-title">
-                    Footwear and Accessories
-                  </div>
-                  <div class="accordion__item-content">
-                    <ol>
-                      <li>Mid-weight trekking boots (broken in, waterproof)</li>
-                      <li>Camp sandals or lightweight trainers</li>
-                      <li>Gaiters (for snow, Dec-Feb)</li>
-                      <li>Trekking poles (collapsible, adjustable)</li>
-                    </ol>
-                  </div>
+              </div>
+              <div class="package__equipment-item hidden-item">
+                <div class="package__equipment-item-title">
+                  Lower Body
                 </div>
-                <div class="accordion__item">
-                  <div class="accordion__item-title">
-                    Heat and Sun Protection
-                  </div>
-                  <div class="accordion__item-content">
-                    <ol>
-                      <li>Sunglasses (100% UV, with spare strap)</li>
-                      <li>Wide-brim sun hat or cap</li>
-                      <li>Wool beanie or balaclava</li>
-                      <li>Buff or neck gaiter</li>
-                    </ol>
-                  </div>
+                <div class="package__equipment-item-content">
+                  <ol>
+                    <li>Trekking pants (2 pairs, convertible to shorts)</li>
+                    <li>Hiking shorts (1 pair)</li>
+                    <li>Fleece or softshell pants</li>
+                    <li>Waterproof overpants</li>
+                    <li>Thermal long underwear (2 sets)</li>
+                    <li>Wool/thermal socks (8-10 pairs)</li>
+                    <li>Liner socks (3-4 pairs ¬¬¬¬¬for blister prevention)</li>
+                  </ol>
                 </div>
-                <div class="accordion__item">
-                  <div class="accordion__item-title">
-                    Equipment & Backpacks
-                  </div>
-                  <div class="accordion__item-content">
-                    <ol>
-                      <li>Daypack (30-40L with rain cover)</li>
-                      <li>Water bottles (2x1L Nalgene) or hydration bladder + purification tablets</li>
-                      <li>Headlamp + spare batteries</li>
-                      <li>Power bank (10,000mAh+)</li>
-                      <li>Duffel bag (60-80L for porter)</li>
-                    </ol>
-                  </div>
+              </div>
+              <div class="package__equipment-item hidden-item">
+                <div class="package__equipment-item-title">
+                  Footwear and Accessories
                 </div>
-                <div class="accordion__item">
-                  <div class="accordion__item-title">
-                    Personal & Medical Kits
-                  </div>
-                  <div class="accordion__item-content">
-                    <ol>
-                      <li>First-aid kit (blister pads, ibuprofen, altitude meds like Diamox)</li>
-                      <li>Sunscreen (SPF 50+), lip balm</li>
-                      <li>Toiletries (wet wipes, hand sanitizer)</li>
-                      <li>Snacks (energy bars, nuts)</li>
-                      <li>Cash (small NPR notes), earplugs</li>
-                    </ol>
-                  </div>
-
+                <div class="package__equipment-item-content">
+                  <ol>
+                    <li>Mid-weight trekking boots (broken in, waterproof)</li>
+                    <li>Camp sandals or lightweight trainers</li>
+                    <li>Gaiters (for snow, Dec-Feb)</li>
+                    <li>Trekking poles (collapsible, adjustable)</li>
+                  </ol>
                 </div>
-                <div class="accordion__item">
-                  <div class="accordion__item-title">
-                    Travel Documents
-                  </div>
-                  <div class="accordion__item-content">
-                    <ol>
-                      <li>Passport</li>
-                      <li>Extra copies of passport-sized photos</li>
-                    </ol>
-                  </div>
-
+              </div>
+              <div class="package__equipment-item hidden-item">
+                <div class="package__equipment-item-title">
+                  Heat and Sun Protection
                 </div>
-                <div class="accordion__item">
-                  <div class="accordion__item-title">
-                    Miscellaneous
-                  </div>
-                  <div class="accordion__item-content">
-                    <ol>
-                      <li>Power bank or extra batteries</li>
-                      <li>Cameras and mobile phone</li>
-                      <li>Cards/book</li>
-                      <li>Binoculars</li>
-                    </ol>
-                  </div>
-
+                <div class="package__equipment-item-content">
+                  <ol>
+                    <li>Sunglasses (100% UV, with spare strap)</li>
+                    <li>Wide-brim sun hat or cap</li>
+                    <li>Wool beanie or balaclava</li>
+                    <li>Buff or neck gaiter</li>
+                  </ol>
                 </div>
-
+              </div>
+              <div class="package__equipment-item hidden-item">
+                <div class="package__equipment-item-title">
+                  Equipment & Backpacks
+                </div>
+                <div class="package__equipment-item-content">
+                  <ol>
+                    <li>Daypack (30-40L with rain cover)</li>
+                    <li>Water bottles (2x1L Nalgene) or hydration bladder + purification tablets</li>
+                    <li>Headlamp + spare batteries</li>
+                    <li>Power bank (10,000mAh+)</li>
+                    <li>Duffel bag (60-80L for porter)</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="package__equipment-item hidden-item">
+                <div class="package__equipment-item-title">
+                  Personal & Medical Kits
+                </div>
+                <div class="package__equipment-item-content">
+                  <ol>
+                    <li>First-aid kit (blister pads, ibuprofen, altitude meds like Diamox)</li>
+                    <li>Sunscreen (SPF 50+), lip balm</li>
+                    <li>Toiletries (wet wipes, hand sanitizer)</li>
+                    <li>Snacks (energy bars, nuts)</li>
+                    <li>Cash (small NPR notes), earplugs</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="package__equipment-item hidden-item">
+                <div class="package__equipment-item-title">
+                  Travel Documents
+                </div>
+                <div class="package__equipment-item-content">
+                  <ol>
+                    <li>Passport</li>
+                    <li>Extra copies of passport-sized photos</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="package__equipment-item hidden-item">
+                <div class="package__equipment-item-title">
+                  Miscellaneous
+                </div>
+                <div class="package__equipment-item-content">
+                  <ol>
+                    <li>Power bank or extra batteries</li>
+                    <li>Cameras and mobile phone</li>
+                    <li>Cards/book</li>
+                    <li>Binoculars</li>
+                  </ol>
+                </div>
               </div>
             </div>
             <div class="package__cta-links flex justify-start items-center gap-3 underline">
@@ -1221,16 +1216,16 @@
                 <div class="video-review__item-link">
                   <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                    <span class="video-play-btn"><span class=" icon-play-button icon-video"></span>
+                    <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
                   </a>
                 </div>
               </div>
               <div class="video-review__item-content">
-                <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
-                  Trekking in Nepal
+                <div class="font-mulish font-extrabold md:text-2xl text-text_color text-[22px] mt-2 leading-7.5">
+                  Everest Base Camp
                 </div>
-                <div class="text-sm text-text_color">
+                <div class="text-[16px] text-text_color leading-4.5">
                   Jhone - USA
                 </div>
               </div>
@@ -1247,16 +1242,16 @@
                 <div class=" video-review__item-link">
                   <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate">
 
-                    <span class="video-play-btn"><span class=" icon-play-button icon-video"></span>
+                    <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
                   </a>
                 </div>
               </div>
               <div class="video-review__item-content">
-                <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
-                  Trekking in Nepal
+                <div class="font-mulish font-extrabold md:text-2xl text-text_color text-[22px] mt-2 leading-7.5">
+                  Manaslu Trekking
                 </div>
-                <div class="text-sm text-text_color">
+                <div class="text-[16px] text-text_color leading-4.5">
                   Jhone - USA
                 </div>
               </div>
@@ -1273,16 +1268,16 @@
                 <div class="video-review__item-link">
                   <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                    <span class="video-play-btn"><span class="icon-play-button icon-video"></span>
+                    <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
                   </a>
                 </div>
               </div>
               <div class="video-review__item-content">
-                <div class="font-playfair font-bold md:text-[25px] text-text_color text-[22px] mt-2">
-                  Trekking in Nepal
+                <div class="font-mulish font-extrabold md:text-2xl text-text_color text-[22px] mt-2 leading-7.5">
+                  Ghorepani Poonhill Trek
                 </div>
-                <div class="text-sm text-text_color">
+                <div class="text-[16px] text-text_color leading-4.5">
                   Jhone - USA
                 </div>
               </div>
