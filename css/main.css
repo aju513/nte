@@ -242,10 +242,10 @@
       @apply bg-white relative mb-3 rounded-[10px] p-5 sm:px-7 sm:py-6;
     }
     .accordion__item-title {
-      @apply font-mulish text-text_color cursor-pointer pr-5 font-bold sm:pr-10 md:text-xl;
+      @apply font-mulish text-text_color cursor-pointer pr-5 font-extrabold sm:pr-10 md:text-xl leading-6;
     }
     .accordion__item-content {
-      @apply max-h-0 overflow-hidden opacity-0;
+      @apply max-h-0 overflow-hidden opacity-0 leading-6 text-base;
       transition:
         max-height 0.4s ease-in-out,
         opacity 0.3s ease-in-out,
@@ -271,8 +271,8 @@
         @apply text-text_color relative mb-3.75 pl-7.5 text-[15px] leading-5.5;
         &::before {
           content: "";
-          @apply absolute top-0.5 left-0 h-5 w-5 bg-current;
-          mask: url("/images/svg/dropdown.svg") no-repeat center;
+          @apply absolute top-0 left-5 h-5 w-5 bg-black;
+          mask: url("/images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -281,8 +281,8 @@
   .accordion.with-arrow {
     .accordion__item {
       &:before {
-        @apply absolute top-5 right-5 h-auto w-3.75 transition-all duration-700;
-        content: url(/images/svg/dropdown);
+        @apply absolute  top-5 right-5 h-auto w-3.75 transition-all duration-700 text-text_color;
+        content: url(/images/svg/angle-bottom.svg);
       }
       &.active::before {
         @apply rotate-180 transition-all duration-700;
@@ -333,72 +333,7 @@
     }
   }
   /* custom radio ends */
-  /* accordion starts*/
-  .accordion {
-    .accordion__item {
-      @apply bg-dim_bg relative mb-3 rounded-[10px] p-5 sm:px-7 sm:py-6;
-    }
-    .accordion__item-title {
-      @apply font-playfair text-text_color cursor-pointer pr-5 text-base font-bold sm:pr-10 md:text-xl;
-    }
-    .accordion__item-content {
-      @apply max-h-0 overflow-hidden opacity-0;
-      transition:
-        max-height 0.4s ease-in-out,
-        opacity 0.3s ease-in-out,
-        margin 0.6s ease-in-out;
-    }
 
-    .accordion__item.active .accordion__item-content {
-      @apply mt-3 max-h-250 opacity-100;
-      transition:
-        max-height 0.6s ease-in-out,
-        opacity 0.4s ease-in-out,
-        margin 0.6s ease-in-out;
-    }
-    a {
-      @apply text-secondary font-medium underline;
-    }
-    ul {
-      @apply mb-7;
-      &:last-of-type {
-        @apply mb-0;
-      }
-      li {
-        @apply text-text_color relative mb-3.75 pl-7.5 text-[15px] leading-5.5;
-        &::before {
-          content: "";
-          @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#a79ad9];
-          mask: url("/themes/images/list-bullet.svg") no-repeat center;
-          mask-size: contain;
-        }
-      }
-    }
-  }
-  .accordion.with-arrow {
-    .accordion__item {
-      &:before {
-        @apply absolute top-5 right-5 h-auto w-3.75 transition-all duration-700;
-        content: url(/themes/images/angle-bottom.svg);
-      }
-      &.active::before {
-        @apply rotate-180 transition-all duration-700;
-      }
-    }
-  }
-  .accordion.with-plus-minus {
-    .accordion__item {
-      &:before {
-        @apply absolute top-5 right-5 h-auto w-3.75 transition-all duration-700;
-        content: url(/themes/images/plus.svg);
-      }
-      &.active::before {
-        @apply h-2;
-        content: url(/themes/images/minus.svg);
-      }
-    }
-  }
-  /* accordion ends*/
   /* Breadcrumbs  */
   .breadcrumbs__wrapper {
     @apply py-2 bg-secondary;
@@ -429,7 +364,7 @@
   }
   /* button primary starts*/
   .btn-primary {
-    @apply bg-primary rounded-4xl px-5 py-2.5 text-sm font-bold text-white transition-all duration-500;
+    @apply bg-primary rounded-[17px] rounded-[17px] px-3 py-1.5 text-xs leading-5 font-semibold  text-white transition-all duration-500;
     &:hover {
       @apply text-white shadow-[inset_0_0_0_2em_var(--color-block)];
     }
@@ -495,7 +430,7 @@
   } */
   /*Button secondary*/
   .btn-secondary {
-    @apply bg-secondary rounded-4xl px-5 py-2.5 text-sm font-bold text-text_color transition-all duration-500;
+    @apply bg-secondary rounded-[17px] px-3 py-1.5 text-xs leading-5 font-semibold text-text_color transition-all duration-500;
     &:hover {
       @apply text-white shadow-[inset_0_0_0_2em_var(--color-primary)];
     }
@@ -970,7 +905,7 @@
   /* collapse start */
   .collapsible__wrap {
     .collapsible {
-      @apply flex w-full cursor-pointer items-center justify-between px-5.5 py-3 text-left text-sm text-white outline-0;
+      @apply flex w-full cursor-pointer items-center justify-between px-5.5 py-3 text-right text-sm text-white outline-0;
     }
   }
   .booking-group-price {
@@ -1370,7 +1305,7 @@
       @apply mb-2 flex flex-col items-start max-sm:gap-3 sm:mb-6 sm:flex-row sm:items-center sm:justify-between;
     }
     .testimonial__list-item-reviewer {
-      @apply flex items-center gap-5 mt-5 justify-start;
+      @apply flex  gap-5 mt-5 justify-start;
     }
     a .testimonial__list-item-rating {
       @apply flex items-center justify-end gap-px;
@@ -1382,10 +1317,10 @@
       }
     }
     .testimonial__list-item-title {
-      @apply text-black font-mulish mb-3 text-lg font-bold lg:text-xl;
+      @apply leading-7 font-mulish text-lg font-extrabold lg:text-xl;
     }
     .testimonial__list-item-content {
-      @apply text-text_color text-[15px];
+      @apply text-text_color text-base leading-5;
       p {
         @apply text-text_color text-[15px];
       }
@@ -3426,7 +3361,7 @@
     @apply flex w-full flex-col items-stretch gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:justify-end sm:gap-3 lg:w-auto lg:flex-nowrap;
     a,
     button {
-      @apply max-[480px]:w-full max-[480px]:justify-center max-[480px]:text-center max-sm:text-sm;
+      @apply max-[480px]:w-full max-[480px]:justify-center max-[480px]:text-center max-sm:text-sm text-base font-bold leading-6;
     }
   }
   .package__cta-btn {
@@ -3993,10 +3928,10 @@
         @apply mb-0;
       }
       li {
-        @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
+        @apply text-text_color relative mb-2.75 pl-7.5 text-base leading-9;
         &::before {
           content: "";
-          @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#6cafda];
+          @apply absolute top-0.5 left-2 w-2.5 h-2.5 bg-current text-block;
           mask: url("/images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
@@ -4004,12 +3939,15 @@
     }
   }
   .package__equipment-wrapper {
-    @apply mt-5;
+    @apply mt-5 left-0;
+    .accordion__item {
+      @apply py-2 px-0;
+    }
     .package__equipment-item {
       @apply relative mb-5 last:mb-0;
       &:before {
-        @apply absolute top-0 right-0 h-auto w-3.75 transition-all duration-700;
-        content: " ";
+        @apply absolute top-5 left-0 h-auto w-3.75 transition-all duration-700;
+        content: url(" ");
       }
       &.active::before {
         @apply rotate-180 transition-all duration-700;
@@ -4081,6 +4019,19 @@
 /* package faqs */
 /* package faqs */
 .package__faqs {
+  @apply max-lg:mb-0;
+  .accordion__item {
+    @apply bg-[#f6faff];
+    .accordion__item-title {
+      @apply text-xl leading-6;
+    }
+    .accordion__item-content {
+      @apply text-base leading-5;
+    }
+  }
+}
+/* package faqs */
+/* .package__faqs {
   .package__faqs-content {
     @apply pb-4 text-sm leading-6 text-text_color sm:pb-5;
   }
@@ -4108,7 +4059,7 @@
   .accordion__item-content {
     @apply px-5 sm:px-7;
   }
-}
+} */
 .package__addons {
   @apply max-lg:mb-0;
 }
@@ -4118,7 +4069,7 @@
   @apply absolute -top-3 right-7.5 flex items-center gap-1;
 }
 .package-price-sidebar {
-  @apply static top-20 max-lg:mb-5 lg:sticky;
+  @apply static max-lg:mb-5 lg:mb-0 mb-8;
 }
 .package-actions {
   @apply flex items-center justify-start gap-6 lg:justify-end;
@@ -4127,13 +4078,13 @@
   }
 }
 .package-price-main-wrapper {
-  @apply relative mt-8 rounded-[10px] bg-primary;
+  @apply mt-8 rounded-[10px] bg-primary lg:sticky border-block border;
 }
 .package-price-wrappper {
   @apply p-6.25;
 }
 .package-price-title {
-  @apply text-base font-bold text-white;
+  @apply text-base font-bold text-white leading-7;
 }
 .package-price {
   @apply flex items-center gap-2;
@@ -4141,25 +4092,25 @@
     @apply font-mulish text-white text-lg font-extrabold lg:text-xl leading-7;
   }
   .package-price-gross {
-    @apply text-[#a9bacd] line-through  lg:text-lg;
+    @apply text-[#a9bacd] line-through  lg:text-lg leading-8;
   }
 }
 .package-group-price {
-  @apply mt-3  bg-white;
+  @apply bg-white;
   .package__discount-list {
     @apply px-3.5;
   }
   .package__discount-list-group {
     .package__discount-list-item {
-      @apply flex justify-between border-t border-[#6cafda] py-2;
+      @apply flex justify-between items-center border-b border-[#6cafda] py-2;
     }
   }
-  .collapsible.active + .collapsible-content {
+  /* .collapsible.active .collapsible-content {
     @apply pb-2.5;
-  }
+  } */
 }
 .package-book-options {
-  @apply bg-[#f6faff] p-6.25;
+  @apply bg-[#f6faff] p-6.25 rounded-b-[10px];
   a,
   button {
     @apply font-mulish mb-3 block w-full py-4 text-center font-bold uppercase;

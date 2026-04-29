@@ -371,7 +371,7 @@
                           </div>
                         </div>
                         <span class="zoom-icon">
-                          <span class="text-2xl text-white icon-zoom-icon"></span>
+                          <span class="text-xl text-white icon-zoom-icon"></span>
                         </span>
                       </figure>
                     </a>
@@ -389,7 +389,7 @@
                           </div>
                         </div>
                         <span class="zoom-icon">
-                          <span class="text-2xl text-white icon-zoom-icon"></span>
+                          <span class="text-xl text-white icon-zoom-icon"></span>
                         </span>
                       </figure>
                     </a>
@@ -407,7 +407,7 @@
                           </div>
                         </div>
                         <span class="zoom-icon">
-                          <span class="text-2xl text-white icon-zoom-icon"></span>
+                          <span class="text-xl text-white icon-zoom-icon"></span>
                         </span>
                       </figure>
                     </a>
@@ -425,7 +425,7 @@
                           </div>
                         </div>
                         <span class="zoom-icon">
-                          <span class="text-2xl text-white icon-zoom-icon"></span>
+                          <span class="text-xl text-white icon-zoom-icon"></span>
                         </span>
                       </figure>
                     </a>
@@ -644,7 +644,7 @@
                   No worries. Our team is ready to guide you every step of the way.
                 </div>
               </div>
-              <div class="package__cta-links sm:pb-0">
+              <div class="flex gap-2">
                 <button type="button" class="package__cta-btn"> Download Itinerary <span class="icon-view"></span>
                 </button>
                 <a href="" class="package__cta-btn">Customize trip <span class="text-sm icon-view"></span></a>
@@ -892,7 +892,7 @@
 
           <div class="package__equipment common-module " id="package-equipments">
             <h2 class="package__section-title">Equipment List</h2>
-            <div class="package__equipment-content">
+            <div class="package__equipment-content text-base leading-7">
               Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The Mount
               Everest trekking route offers unparalleled views of breathtaking landscapes, including towering
               snow-capped peaks, lush valleys, and rugged terrain. As you journey through the Khumbu region of
@@ -900,25 +900,130 @@
               you'll encounter charming Sherpa villages, ancient monasteries, and vibrant local culture.
             </div>
             <div class="package__equipment-wrapper">
-              <div class="package__equipment-item">
-                <div class=" package__equipment-item-title ">Clothing</div>
-                <ol>
-                  <li>Base Layers</li>
-                  <li>Outer Layers</li>
-                  <li>Trekking Pants</li>
-                  <li>Warm Layers</li>
-                </ol>
-                <div class="package__cta-links flex justify-start items-center gap-3 underline">
-                  <button type="button"
-                    class="package__cta-btn expand-all-equipment">
-                    See more list
-                  </button>
-                  <button type="button"
-                    class="package__cta-btn download-all-btn">
-                    Download list
-                  </button>
+              <div class="accordion">
+                <div class="accordion__item active">
+                  <div class="accordion__item-title">
+                    Upper Body
+                  </div>
+                  <div class="accordion__item-content">
+                    <ol>
+                      <li>Moisture-wicking base layers (2-3 t-shirts, long-sleeve shirts)</li>
+                      <li>Mid-layers (fleece jacket, lightweight micro-fleece)</li>
+                      <li>Insulated jacket (down or synthetic for -10°C nights)</li>
+                      <li>Waterproof/windproof shell (Gore-Tex jacket)</li>
+                      <li>Gloves (liner pair + insulated mittens/overmitts)</li>
+                    </ol>
+                  </div>
                 </div>
+                <div class="accordion__item">
+                  <div class="accordion__item-title">
+                    Lower Body
+                  </div>
+                  <div class="accordion__item-content">
+                    <ol>
+                      <li>Trekking pants (2 pairs, convertible to shorts)</li>
+                      <li>Hiking shorts (1 pair)</li>
+                      <li>Fleece or softshell pants</li>
+                      <li>Waterproof overpants</li>
+                      <li>Thermal long underwear (2 sets)</li>
+                      <li>Wool/thermal socks (8-10 pairs)</li>
+                      <li>Liner socks (3-4 pairs ¬¬¬¬¬for blister prevention)</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__item-title">
+                    Footwear and Accessories
+                  </div>
+                  <div class="accordion__item-content">
+                    <ol>
+                      <li>Mid-weight trekking boots (broken in, waterproof)</li>
+                      <li>Camp sandals or lightweight trainers</li>
+                      <li>Gaiters (for snow, Dec-Feb)</li>
+                      <li>Trekking poles (collapsible, adjustable)</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__item-title">
+                    Heat and Sun Protection
+                  </div>
+                  <div class="accordion__item-content">
+                    <ol>
+                      <li>Sunglasses (100% UV, with spare strap)</li>
+                      <li>Wide-brim sun hat or cap</li>
+                      <li>Wool beanie or balaclava</li>
+                      <li>Buff or neck gaiter</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__item-title">
+                    Equipment & Backpacks
+                  </div>
+                  <div class="accordion__item-content">
+                    <ol>
+                      <li>Daypack (30-40L with rain cover)</li>
+                      <li>Water bottles (2x1L Nalgene) or hydration bladder + purification tablets</li>
+                      <li>Headlamp + spare batteries</li>
+                      <li>Power bank (10,000mAh+)</li>
+                      <li>Duffel bag (60-80L for porter)</li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__item-title">
+                    Personal & Medical Kits
+                  </div>
+                  <div class="accordion__item-content">
+                    <ol>
+                      <li>First-aid kit (blister pads, ibuprofen, altitude meds like Diamox)</li>
+                      <li>Sunscreen (SPF 50+), lip balm</li>
+                      <li>Toiletries (wet wipes, hand sanitizer)</li>
+                      <li>Snacks (energy bars, nuts)</li>
+                      <li>Cash (small NPR notes), earplugs</li>
+                    </ol>
+                  </div>
+
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__item-title">
+                    Travel Documents
+                  </div>
+                  <div class="accordion__item-content">
+                    <ol>
+                      <li>Passport</li>
+                      <li>Extra copies of passport-sized photos</li>
+                    </ol>
+                  </div>
+
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__item-title">
+                    Miscellaneous
+                  </div>
+                  <div class="accordion__item-content">
+                    <ol>
+                      <li>Power bank or extra batteries</li>
+                      <li>Cameras and mobile phone</li>
+                      <li>Cards/book</li>
+                      <li>Binoculars</li>
+                    </ol>
+                  </div>
+
+                </div>
+
               </div>
+            </div>
+            <div class="package__cta-links flex justify-start items-center gap-3 underline">
+              <button type="button"
+                class="package__cta-btn expand-all-equipment  ">
+                See more list
+              </button>
+              <button type="button"
+                class="package__cta-btn download-all-btn ">
+                Download
+              </button>
             </div>
           </div>
           <div class="package__additionalinfo common-module" id="package-essentials">
@@ -955,168 +1060,150 @@
           </div>
           <div class="package__faqs common-module" id="package-faq">
             <h2 class="package__section-title">FAQs</h2>
-            <div class=" accordion-wrapper">
-              <div class="accordion with-arrow" id="faqs-accordion">
-                <div class="accordion__item active open" data-id="q1">
-                  <button type="button" class="accordion__item-title package__faq-trigger">
-                    <span>1. HeliFlight from EBC to Kathmandu</span>
-                    <span class="package__faq-icon icon-dropdown" aria-hidden="true"></span>
-                  </button>
-                  <div class="accordion__item-content">
-                    <div class="package__faqs-content">
-                      <p>
-                        Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The
-                        Mount Everest trekking route offers breathtaking mountain views and a memorable Himalayan
-                        experience from start to finish.
-                      </p>
-                    </div>
-                  </div>
+            <div class="accordion with-arrow">
+              <div class="accordion__item active">
+                <div class="accordion__item-title">
+                  1. Q1. How difficult is the Everest Base Camp Trek?
                 </div>
-                <div class="accordion__item" data-id="q2">
-                  <button type="button" class="accordion__item-title package__faq-trigger">
-                    <span>1. HeliFlight from EBC to Kathmandu</span>
-                    <span class="package__faq-icon icon-dropdown" aria-hidden="true"></span>
-                  </button>
-                  <div class="accordion__item-content">
-                    <div class="package__faqs-content">
-                      <p>
-                        Choose this add-on if you want a faster and more comfortable return journey. The helicopter
-                        flight helps save trekking days while giving you panoramic aerial views of glaciers, ridges,
-                        and the Khumbu landscape.
-                      </p>
-                    </div>
-                  </div>
+                <div class="accordion__item-content">
+                  <p>It is said that difficult roads often lead to beautiful destination, this can be sad for the trek too. The journey leads person to calming state of mind.</p>
                 </div>
-
+              </div>
+              <div class="accordion__item">
+                <div class="accordion__item-title">
+                  2. Q1. How long does it take to hike Everest Base Camp?
+                </div>
+                <div class="accordion__item-content">
+                  <p>It is said that difficult roads often lead to beautiful destination, this can be sad for the trek too. The journey leads person to calming state of mind.</p>
+                </div>
               </div>
             </div>
           </div>
-
         </div>
-      </div>
-      <div class="col-span-12 lg:col-span-4 gap-8">
+        <div class="col-span-12 lg:col-span-4 gap-8">
 
-        <div class="package__price-sidebar lg:mb-0 mb-8 lg:sticky lg:top-10 common-box pb-0">
-          <div class="gap-5 w-[95%] flex items-center justify-end  rounded-t-[10px] py-2.5 px-6.25">
-            <button class="btn-secondary bg-[#f6faff]">
-              <span class="icon-send text-[18px] text-[#6cafda]"></span>
-              View Map
-            </button>
-            <button class="btn-primary ">
-              <span class="icon-share text-[18px]"></span>
-              Share
-            </button>
-          </div>
-
-          <div class="package-price-main-wrapper">
-            <div class="package-price-wrappper">
-
-              <div class="package-price-title">Price For</div>
-              <div class="package-price">
-                <div class="package-price-net">US$1500</div>
-                <div class="package-price-gross">US$1600</div>
-              </div>
+          <div class="package__price-sidebar  common-box pb-0">
+            <div class="gap-5 w-[95%] flex items-center justify-end  rounded-t-[10px] py-2.5 px-6.25">
+              <button class="btn-secondary bg-[#f6faff] gap-2">
+                <span class="icon-send text-lg text-[#6cafda] hover:text-white"></span>
+                View Map
+              </button>
+              <button class="btn-primary ">
+                <span class="icon-share text-lg"></span>
+                Share
+              </button>
             </div>
 
-            <div class="package-group-price">
-              <div class="package__discount-list ">
-                <button class="collapsible active package__discount-list-item py-3" type="button" aria-expanded="true"
-                  data-default-open="true">
-                  <span class="text-sm font-bold text-text_color px-4 uppercase">
-                    Group Discount Cost
-                  </span>
-                  <span class="mr-1 text-2xl font-bold text-text_color icon">+</span>
+            <div class="package-price-main-wrapper lg:sticky lg:top-5">
+              <div class="package-price-wrappper">
+
+                <div class="package-price-title">Price For</div>
+                <div class="package-price">
+                  <div class="package-price-net">US$1500</div>
+                  <div class="package-price-gross">US$1600</div>
+                </div>
+              </div>
+
+              <div class="package-group-price">
+                <div class="package__discount-list">
+                  <button class="collapsible package__discount-list-item active gap-10 p-3 " type="button" aria-expanded="true"
+                    data-default-open="true">
+                    <span class="text-sm font-bold text-text_color px-4r"> Group Discount Cost</span>
+                    <span class="text-2xl font-bold text-text_color icon">+
+                    </span>
+                  </button>
+                  <div class="collapsible-content">
+                    <div class="package__discount-list">
+                      <ul class="package__discount-list-group">
+                        <li class="package__discount-list-item  ">
+                          <span class="text-sm font-bold text-text_color">No. of traveler</span>
+                          <span class="text-sm font-bold text-text_color">Price per person</span>
+                        </li>
+                        <li class="package__discount-list-item  ">
+                          <span class="text-sm text-text_color">1-1</span>
+                          <span class="text-sm text-text_color">US$1600</span>
+                        </li>
+                        <li class="package__discount-list-item   ">
+                          <span class="text-sm text-text_color">2 - 2</span>
+                          <span class="text-sm text-text_color">US$1600</span>
+                        </li>
+                        <li class="package__discount-list-item  ">
+                          <span class="text-sm text-text_color">3-5</span>
+                          <span class="text-sm text-text_color">US$1600</span>
+                        </li>
+                        <li class="package__discount-list-item  ">
+                          <span class="text-sm text-text_color">10+</span>
+                          <span class="text-sm text-text_color">US$1600</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class=" package-book-options  ">
+                <button type="button"
+                  class="bg-block rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)] ">
+                  Book This Trip
                 </button>
-                <div class="collapsible-content">
-                  <div class="package__discount-list">
-                    <ul class="package__discount-list-group">
-                      <li class="package__discount-list-item  ">
-                        <span class="text-sm font-bold text-text_color">No. of traveler</span>
-                        <span class="text-sm font-bold text-text_color">Price per person</span>
-                      </li>
-                      <li class="package__discount-list-item  ">
-                        <span class="text-sm text-text_color">1-1</span>
-                        <span class="text-sm text-text_color">US$1600</span>
-                      </li>
-                      <li class="package__discount-list-item   ">
-                        <span class="text-sm text-text_color">2 - 2</span>
-                        <span class="text-sm text-text_color">US$1600</span>
-                      </li>
-                      <li class="package__discount-list-item  ">
-                        <span class="text-sm text-text_color">3-5</span>
-                        <span class="text-sm text-text_color">US$1600</span>
-                      </li>
-                      <li class="package__discount-list-item  ">
-                        <span class="text-sm text-text_color">10+</span>
-                        <span class="text-sm text-text_color">US$1600</span>
-                      </li>
-                    </ul>
-                  </div>
+                <a href=""
+                  class="bg-secondary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-text_color transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)]">
+                  Check Avalilability
+                </a>
+                <button type="button" data-fancybox data-src="#dialog-content"
+                  class="bg-primary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)]">
+                  Make an INQUIRY
+                </button>
+
+                <div class="package-price-note">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+                </div>
+
+                <div class="hidden package-sidebar-contact" id="dialog-content">
+                  <form class="normal-form">
+                    <div class="package-sidebar-contact-title-wrap ">
+                      <h4 class="main-title ">
+                        Ask a Question?
+                      </h4>
+                    </div>
+
+                    <div class="relative w-full mb-3">
+                      <input type="text" name="fullname" id="fullname"
+                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                        placeholder="Full Name" required />
+                    </div>
+
+                    <div class="relative w-full mb-3">
+                      <input type="email" name="mail" id="mail"
+                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                        placeholder="Email Address" required />
+                    </div>
+                    <div class="relative w-full mb-3">
+                      <input type="text" name="phone" id="phone"
+                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                        placeholder="Phone Number " required />
+                    </div>
+                    <div class="relative w-full mb-3">
+                      <textarea name="extra_info" id="extrainfo" rows={4}
+                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                        placeholder="Questions / Comments" required></textarea>
+                    </div>
+                    <button
+                      class="mb-2 block w-full rounded-[5px] bg-secondary-effect border border-primary bg-primary py-3 font-bold  text-sm text-white transition-all duration-500 bg-secondary-effect">
+                      Send Message
+                    </button>
+                  </form>
                 </div>
               </div>
+
+
+
             </div>
-            <div class=" package-book-options  ">
-              <button type="button"
-                class="bg-[#6cafda] font-extrabold mt-[10px] block text-white uppercase rounded-custom py-[15px] w-full font-mulish text-center ">
-                Book This Trip
-              </button>
-              <a href=""
-                class="bg-[#ebf0f7] font-bold mt-[10px] text-text_color block uppercase rounded-[10px] py-[15px] w-full text-center font-mulish bg-secondary-effect">
-                Check Avalilability
-              </a>
-              <button type="button" data-fancybox data-src="#dialog-content"
-                class="bg-primary font-bold mt-[10px] block text-white uppercase rounded-custom py-[15px] w-full text-center bg-primary-effect font-mulish">
-                Make an INQUIRY
-              </button>
-
-              <div class="package-price-note">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
-              </div>
-
-              <div class="hidden package-sidebar-contact" id="dialog-content">
-                <form class="normal-form">
-                  <div class="package-sidebar-contact-title-wrap ">
-                    <h4 class="main-title ">
-                      Ask a Question?
-                    </h4>
-                  </div>
-
-                  <div class="relative w-full mb-3">
-                    <input type="text" name="fullname" id="fullname"
-                      class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                      placeholder="Full Name" required />
-                  </div>
-
-                  <div class="relative w-full mb-3">
-                    <input type="email" name="mail" id="mail"
-                      class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                      placeholder="Email Address" required />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <input type="text" name="phone" id="phone"
-                      class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                      placeholder="Phone Number " required />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <textarea name="extra_info" id="extrainfo" rows={4}
-                      class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                      placeholder="Questions / Comments" required></textarea>
-                  </div>
-                  <button
-                    class="mb-2 block w-full rounded-[5px] bg-secondary-effect border border-primary bg-primary py-3 font-bold  text-sm text-white transition-all duration-500 bg-secondary-effect">
-                    Send Message
-                  </button>
-                </form>
-              </div>
-            </div>
-
-
-
           </div>
         </div>
       </div>
-
     </div>
+
     <section class=" video-review common-box scroll-wrap mt-0">
       <div class="container">
         <h2 class="package__section-title ">
@@ -1271,13 +1358,13 @@
           </div>
 
         </div>
-        <div class="relative">
+        <div class="relative mb-7.5">
 
           <div class="grid grid-cols-12 gap-5">
 
             <div class="col-span-6">
               <div class="testimonial__list-item m-0!">
-                <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
+                <div class="testimonial__list-item-meta mb-0 flex items-center justify-between">
                   <div class="testimonial__list-item-rating green-dot-rating">
                     <div class="rating-wrap rating-5">
                       <span class="star"></span>
@@ -1288,7 +1375,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="testimonial__list-item-title">"The trek was life-changing</div>
+                <div class="testimonial__list-item-title">" The trek was life-changing!</div>
                 <div class="review-list__item-content text-text_color text-sm">
                   <div class="testimonial__list-item-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
@@ -1302,10 +1389,10 @@
                       A</div>
                   </div>
                   <div class="reviewer-content">
-                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza -
+                    <div class=" text-lg font-bold leading-6 text-text_color ">Ramiro Barraza -
                       USA
                     </div>
-                    <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
+                    <span class=" block text-xs leading-11 text-text_color">Annapurna Circuit, 2014</span>
                   </div>
                 </div>
               </div>
@@ -1314,7 +1401,7 @@
 
             <div class="col-span-6">
               <div class="testimonial__list-item m-0!">
-                <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
+                <div class="testimonial__list-item-meta mb-0 flex items-center justify-between">
                   <div class="testimonial__list-item-rating green-dot-rating">
                     <div class="rating-wrap rating-5">
                       <span class="star"></span>
@@ -1325,7 +1412,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="testimonial__list-item-title">"The trek was life-changing</div>
+                <div class="testimonial__list-item-title">" The trek was life-changing!</div>
                 <div class="review-list__item-content text-text_color text-sm">
                   <div class="testimonial__list-item-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
@@ -1338,11 +1425,11 @@
                       class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
                       A</div>
                   </div>
-                  <div class="reviewer-content">
-                    <div class="-mt-3 text-[15px] font-bold leading-5 text-text_color md:text-lg">Ramiro Barraza -
+                  <div class="reviewer-content ">
+                    <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
                       USA
                     </div>
-                    <span class="-mt-1 block text-[13px] text-text_color">Annapurna Circuit, 2014</span>
+                    <span class=" block text-xs leading-11 text-text_color">Annapurna Circuit, 2014</span>
                   </div>
                 </div>
               </div>
@@ -1351,9 +1438,13 @@
           </div>
 
         </div>
+        <button class="text-lg font-bold text-text_color font-mulish leading-7 underline">
+          Load More
+        </button>
 
       </div>
     </section>
+    <div id="no-nav"></div>
     <section class="common-box  package-list relative top-50 -mt-50">
       <div class="container ">
         <h2 class="package__section-title">
@@ -1526,7 +1617,6 @@
 
 
     </section>
-    </div>
   </section>
 
 </section>
@@ -1623,6 +1713,18 @@
 
       if (activeSectionId) {
         setActiveLink(activeSectionId);
+      }
+    }
+    // --- Nav show/hide based on #no-nav ---
+    const commonBox = document.getElementById('no-nav');
+    if (commonBox) {
+      const rect = commonBox.getBoundingClientRect();
+      if (rect.top <= 50 || window.scrollY <= 750) {
+        nav.classList.remove('visible');
+        nav.classList.add('hidden');
+      } else {
+        nav.classList.add('visible');
+        nav.classList.remove('hidden');
       }
     }
 
@@ -1809,6 +1911,6 @@
     }
   });
 </script>
-<script src="../js/accordian.js"></script>
+<script src="../js/accordion.js"></script>
 
 <?php include('./inc/footer.php'); ?>

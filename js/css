@@ -1,0 +1,41 @@
+.accordion {
+  .accordion__item {
+    @apply bg-white relative mb-3 rounded-[10px] p-5 sm:px-7 sm:py-6;
+  }
+  .accordion__item-title {
+    @apply font-mulish text-text_color cursor-pointer pr-5 font-bold sm:pr-10 md:text-xl;
+  }
+  .accordion__item-content {
+    @apply max-h-0 overflow-hidden opacity-0;
+    transition:
+      max-height 0.4s ease-in-out,
+      opacity 0.3s ease-in-out,
+      margin 0.6s ease-in-out;
+  }
+
+  .accordion__item.active .accordion__item-content {
+    @apply mt-3 max-h-250 opacity-100;
+    transition:
+      max-height 0.6s ease-in-out,
+      opacity 0.4s ease-in-out,
+      margin 0.6s ease-in-out;
+  }
+  a {
+    @apply text-secondary font-medium underline;
+  }
+  ul {
+    @apply mb-7;
+    &:last-of-type {
+      @apply mb-0;
+    }
+    li {
+      @apply text-text_color relative mb-3.75 pl-7.5 text-[15px] leading-5.5;
+      &::before {
+        content: "";
+        @apply absolute top-0 left-5 h-5 w-5 bg-black;
+        mask: url("/images/svg/splotch.svg") no-repeat center;
+        mask-size: contain;
+      }
+    }
+  }
+}

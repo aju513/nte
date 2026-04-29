@@ -390,12 +390,16 @@ document.addEventListener("DOMContentLoaded", () => {
       qsa(".js-notice-slide", slider).length > 0
         ? qsa(".js-notice-slide", slider)
         : qsa(".js-search-slide", slider);
+
     const prevButton =
       qs(".js-notice-prev", slider) || qs(".js-search-prev", slider);
+
     const nextButton =
       qs(".js-notice-next", slider) || qs(".js-search-next", slider);
+
     const closeButton =
       qs(".js-notice-close", slider) || qs(".js-search-close", slider);
+
     const current =
       qs(".js-notice-current", slider) || qs(".js-search-current", slider);
 
@@ -412,17 +416,31 @@ document.addEventListener("DOMContentLoaded", () => {
       slides.forEach((slide, index) => {
         slide.classList.toggle("is-active", index === activeIndex);
       });
+
       current.textContent = String(activeIndex + 1);
+
+      // disable buttons at start/end
+      prevButton?.toggleAttribute("disabled", activeIndex === 0);
+      nextButton?.toggleAttribute(
+        "disabled",
+        activeIndex === slides.length - 1,
+      );
     };
 
+    // stop at first slide
     prevButton?.addEventListener("click", () => {
-      activeIndex = (activeIndex - 1 + slides.length) % slides.length;
-      update();
+      if (activeIndex > 0) {
+        activeIndex--;
+        update();
+      }
     });
 
+    // stop at last slide
     nextButton?.addEventListener("click", () => {
-      activeIndex = (activeIndex + 1) % slides.length;
-      update();
+      if (activeIndex < slides.length - 1) {
+        activeIndex++;
+        update();
+      }
     });
 
     closeButton?.addEventListener("click", () => {

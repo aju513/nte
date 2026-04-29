@@ -30,7 +30,7 @@ function setupExpandAll(btnSelector, scopeSelector) {
     );
 
     items.forEach((el) => el.classList.toggle("active", !allExpanded));
-    btn.textContent = allExpanded ? "Expand All" : "Collapse All";
+    btn.textContent = allExpanded ? "See More List" : "Collapse All";
   });
 }
 
