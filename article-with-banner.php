@@ -1,8 +1,8 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php'); ?>
+<?php include('./inc/breadcrumbs.php'); ?>
+<?php include('./inc/innerbanner.php'); ?>
 <section class="bg-secondary">
-  <?php include('./inc/innerbanner.php'); ?>
-  <?php include('./inc/breadcrumbs.php'); ?>
   <section class="common-box article-page" role="main">
     <div class="container">
       <div class="page-title">

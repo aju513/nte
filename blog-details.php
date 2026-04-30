@@ -2,8 +2,9 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<div class="bg-secondary blog-page common-box relative" role="main">
-  <div class="innerpage-banner">
+
+<section class="bg-secondary blog-page common-box relative" role="main">
+  <div class="innerpage-banner ">
     <div class="container-fluid">
       <div class="placeholder__img-wrapper">
         <div class="placeholder__img w-full"><img alt="about" loading="lazy"
@@ -17,9 +18,10 @@
     </div>
 
   </div>
-  <div class="common-page-wrapper absolute top-140">
+
+  <section class="common-page-wrapper">
     <div class="container common-box">
-      <div class="page-title common-box pb-0">
+      <div class="page-title  pb-0">
         <h1>Manaslu Circuit Trek – An Authentic Himalayan Experience That Still Feels Real</h1>
       </div>
     </div>
@@ -247,8 +249,7 @@
 
       </div>
     </div>
-
-    <section class="scroll-wrap blog-details-recent-post bg-dim_bg blog-list common-box">
+    <section class="scroll-wrap blog-details-recent-post blog-list common-box">
       <div class="container">
         <div class="innersection-title">Recent Post</div>
         <div class="grid grid-cols-12 gap-5">
@@ -313,5 +314,7 @@
       </div>
 
     </section>
-  </div>
-</div>
+  </section>
+</section>
+
+<?php include('./inc/footer.php') ?>

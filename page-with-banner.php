@@ -1,9 +1,9 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
+<?php include('./inc/breadcrumbs.php') ?>
 
 <div class="bg-secondary">
-  <?php include('./inc/breadcrumbs.php') ?>
   <?php include('./inc/innerbanner.php') ?>
   <div class="w-[95%] common-box bg-white rounded-[15px] m-auto relative -top-[65px]">
     <section class=" common-page" role="main">

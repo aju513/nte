@@ -2,7 +2,7 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 
-<section class="package-sticky-nav sticky ">
+<section class="package-sticky-nav visible sticky ">
   <div class="container mx-auto">
     <ul class="nav-link-wrapper">
       <li>
@@ -99,8 +99,8 @@
 </section>
 <?php include('./inc/breadcrumbs.php') ?>
 
-<section class="common-box  package-page bg-secondary relative md:-mb-15.5 pb-20" role="main">
-  <div class="package__banner pt-5">
+<section class="common-box  package-page bg-secondary relative md:-mb-15.5 lg:pb-30" role="main">
+  <div class="package__banner">
     <div class="container-fluid relative">
       <div class="package__banner-wrapper">
         <div class="package__banner-item banner-half lg">
@@ -114,7 +114,7 @@
           </a>
         </div>
         <div class="package__banner-item banner-quarter">
-          <a data-fancybox="package-banner" href="./images/dynamic/package-2.webp">
+          <a data-fancybox="package-banner" href="./images/dynamic/package2.webp">
             <div class="placeholder__img-wrapper">
               <div class="w-full placeholder__img">
                 <img width={1200} height={900} class="rounded-custom" src="./images/dynamic/package2.webp"
@@ -172,7 +172,7 @@
             </div>
             <div class="package__facts common-module ">
               <div class="grid grid-cols-12 gap-5">
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl icon-duration"></span>
@@ -187,7 +187,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="flex gap-1 item-center">
                       <div class="package__facts-item-icon ">
@@ -222,7 +222,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon">
                       <span class="text-3xl  icon-trip-grade"></span>
@@ -237,7 +237,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl icon-group-size"></span>
@@ -252,7 +252,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl  icon-start"></span>
@@ -267,7 +267,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl icon-start"></span>
@@ -282,7 +282,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon">
                       <span class="text-3xl icon-travel-style"></span>
@@ -297,7 +297,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl  icon-best-time"></span>
@@ -312,7 +312,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl  icon-best-time"></span>
@@ -350,8 +350,8 @@
                 </article>
               </div>
 
-              <button>
-                <a href="" class="outline-btn-primary hav-icon">Read
+              <button class="mt-5">
+                <a href="" class="btn-outline-primary hover:bg-primary hover:text-white">Read
                   More
                 </a>
               </button>
@@ -450,7 +450,7 @@
                 </div>
               </div>
             </div>
-            <div class="package__full-itinerary common-module " id="package-itinerary">
+            <div class="package__full-itinerary common-module" id="package-itinerary">
               <div class="package__full-itinerary-wrapper relative">
                 <h2 class="package__section-title">Everest Base Camp Trek Itinerary</h2>
                 <div class="package__full-itinerary-note">
@@ -461,15 +461,80 @@
                   </div>
                 </div>
                 <div class="package__full-itinerary-item mb-6.25 last:mb-0">
+                  <!-- <div class="package__full-itinerary-item-title-wrap"> -->
                   <div class="package__full-itinerary-item-day">
                     <span class="icon-place">
 
                     </span>
                     <span> Day 1</span>
                   </div>
+                  <!-- <div class="package__full-itinerary-item-title"> -->
+                  <h3 class="package__full-itinerary-item-title">Arrival in Kathmandu, transfer to the hotel.</h3>
+                  <!-- </div> -->
+                  <!-- </div> -->
 
-                  <div class="package__full-itinerary-item-title">
-                    <h3> Arrival in Kathmandu, transfer to the hotel.</h3>
+                  <div class="package__full-itinerary-item-content">
+                    <div class="fancybox-wrapper">
+                      <div class="package__full-itinerary-item-content-description px-6 mt-6">
+                        <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
+                          awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
+                          tradition can be found. At this very day, we’ll meet each other in person after your arrival in
+                          Kathmandu Airport
+                        </p>
+                      </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4 px-6.25">
+                      <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-3.75">
+                        <div class="itinerary-item-facts-unit ">
+                          <span class="text-xl text-text_color icon-max-altitude"></span>
+                          <span class="text-sm text-text_color">Max Altitude: 1300m</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-meal"></span>
+                          <span class="text-sm text-text_color">Meals: B/L/D</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-calendar-lines"></span>
+                          <span class="text-sm text-text_color">Duration: 1 day</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-distance"></span>
+                          <span class="text-sm text-text_color">Distance: 2 km</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-accommodation"></span>
+                          <span class="text-sm text-text_color">Accommodation: Hotel</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-travel-style"></span>
+                          <span class="text-sm text-text_color">Trekking: 5 hours</span>
+                        </div>
+                      </div>
+                      <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
+                        <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
+                          data-src="./images/dynamic/day1.webp">
+                          <img
+                            src="/images/dynamic/day1.webp"
+                            width="600"
+                            height="630"
+                            alt="banner" />
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="package__full-itinerary-item mb-6.25 last:mb-0">
+                  <div class="flex flex-col lg:flex-row items-start gap-5">
+                    <div class="package__full-itinerary-item-day">
+                      <span class="icon-place">
+
+                      </span>
+                      <span> Day 2</span>
+                    </div>
+                    <div class="package__full-itinerary-item-title">
+                      Arrival in Kathmandu, transfer to the hotel.
+                    </div>
                   </div>
 
                   <div class="package__full-itinerary-item-content">
@@ -480,7 +545,7 @@
                         Kathmandu Airport
                       </p>
                       <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4">
-                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-[15px]">
+                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-3.75">
                           <div class="itinerary-item-facts-unit ">
                             <span class="text-xl text-text_color icon-max-altitude"></span>
                             <span class="text-sm text-text_color">Max Altitude: 1300m</span>
@@ -507,84 +572,31 @@
                           </div>
                         </div>
                         <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
-                          <img
-                            src="/images/dynamic/day1.webp"
-                            width="600"
-                            height="630"
-                            alt="banner" />
+                          <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
+                            data-src="./images/dynamic/day1.webp">
+                            <img
+                              src="/images/dynamic/day1.webp"
+                              width="600"
+                              height="630"
+                              alt="banner" />
+                          </a>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="package__full-itinerary-item mb-6.25 last:mb-0">
-                  <div class="package__full-itinerary-item-day">
-                    <span class="icon-place">
+                  <div class="flex flex-col lg:flex-row items-start gap-5">
+                    <div class="package__full-itinerary-item-day">
+                      <span class="icon-place">
 
-                    </span>
-                    <span> Day 1</span>
-                  </div>
-
-                  <div class="package__full-itinerary-item-title">
-                    <h3> Arrival in Kathmandu, transfer to the hotel.</h3>
-                  </div>
-
-                  <div class="package__full-itinerary-item-content">
-                    <div class="package__full-itinerary-item-content-description px-6 mt-6">
-                      <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
-                        awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
-                        tradition can be found. At this very day, we’ll meet each other in person after your arrival in
-                        Kathmandu Airport
-                      </p>
-                      <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4">
-                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-[15px]">
-                          <div class="itinerary-item-facts-unit ">
-                            <span class="text-xl text-text_color icon-max-altitude"></span>
-                            <span class="text-sm text-text_color">Max Altitude: 1300m</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-meal"></span>
-                            <span class="text-sm text-text_color">Meals: B/L/D</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-calendar-lines"></span>
-                            <span class="text-sm text-text_color">Duration: 1 day</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-distance"></span>
-                            <span class="text-sm text-text_color">Distance: 2 km</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-accommodation"></span>
-                            <span class="text-sm text-text_color">Accommodation: Hotel</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-travel-style"></span>
-                            <span class="text-sm text-text_color">Trekking: 5 hours</span>
-                          </div>
-                        </div>
-                        <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
-                          <img
-                            src="/images/dynamic/day1.webp"
-                            width="600"
-                            height="630"
-                            alt="banner" />
-                        </div>
-                      </div>
+                      </span>
+                      <span> Day 3</span>
+                    </div>
+                    <div class="package__full-itinerary-item-title">
+                      Arrival in Kathmandu, transfer to the hotel.
                     </div>
                   </div>
-                </div>
-                <div class="package__full-itinerary-item mb-6.25 last:mb-0">
-                  <div class="package__full-itinerary-item-day">
-                    <span class="icon-place">
-
-                    </span>
-                    <span> Day 1</span>
-                  </div>
-
-                  <div class="package__full-itinerary-item-title">
-                    <h3> Arrival in Kathmandu, transfer to the hotel.</h3>
-                  </div>
 
                   <div class="package__full-itinerary-item-content">
                     <div class="package__full-itinerary-item-content-description px-6 mt-6">
@@ -594,7 +606,7 @@
                         Kathmandu Airport
                       </p>
                       <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4">
-                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-[15px]">
+                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-3.75">
                           <div class="itinerary-item-facts-unit ">
                             <span class="text-xl text-text_color icon-max-altitude"></span>
                             <span class="text-sm text-text_color">Max Altitude: 1300m</span>
@@ -621,11 +633,14 @@
                           </div>
                         </div>
                         <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
-                          <img
-                            src="/images/dynamic/day1.webp"
-                            width="600"
-                            height="630"
-                            alt="banner" />
+                          <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
+                            data-src="./images/dynamic/day1.webp">
+                            <img
+                              src="/images/dynamic/day1.webp"
+                              width="600"
+                              height="630"
+                              alt="banner" />
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -903,6 +918,7 @@
             <div class="package__equipment-wrapper">
               <div class="package__equipment-item ">
                 <div class="package__equipment-item-title ">
+                  <span class="icon-upper-body"></span>
                   Upper Body
                 </div>
                 <div class="package__equipment-item-content">
@@ -917,6 +933,7 @@
               </div>
               <div class="package__equipment-item hidden-item">
                 <div class="package__equipment-item-title">
+                  <span class="icon-lower-body"></span>
                   Lower Body
                 </div>
                 <div class="package__equipment-item-content">
@@ -933,6 +950,7 @@
               </div>
               <div class="package__equipment-item hidden-item">
                 <div class="package__equipment-item-title">
+                  <span class="icon-footprints"></span>
                   Footwear and Accessories
                 </div>
                 <div class="package__equipment-item-content">
@@ -946,6 +964,7 @@
               </div>
               <div class="package__equipment-item hidden-item">
                 <div class="package__equipment-item-title">
+                  <span class="icon-upper-body"></span>
                   Heat and Sun Protection
                 </div>
                 <div class="package__equipment-item-content">
@@ -959,6 +978,7 @@
               </div>
               <div class="package__equipment-item hidden-item">
                 <div class="package__equipment-item-title">
+                  <span class="icon-upper-body"></span>
                   Equipment & Backpacks
                 </div>
                 <div class="package__equipment-item-content">
@@ -973,6 +993,7 @@
               </div>
               <div class="package__equipment-item hidden-item">
                 <div class="package__equipment-item-title">
+                  <span class="icon-medicine"></span>
                   Personal & Medical Kits
                 </div>
                 <div class="package__equipment-item-content">
@@ -987,6 +1008,7 @@
               </div>
               <div class="package__equipment-item hidden-item">
                 <div class="package__equipment-item-title">
+                  <span class="icon-passport"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
                   Travel Documents
                 </div>
                 <div class="package__equipment-item-content">
@@ -998,6 +1020,7 @@
               </div>
               <div class="package__equipment-item hidden-item">
                 <div class="package__equipment-item-title">
+                  <span class="icon-binoculars"></span>
                   Miscellaneous
                 </div>
                 <div class="package__equipment-item-content">
@@ -1039,18 +1062,6 @@
                 Everest promises an unforgettable journey filled with
                 exhilarating challenges and unforgettable memories.
               </p>
-              <ul>
-                <li>
-                  Cras tempor purus
-                  <a href=""> velit consequat,</a> id mattis dui
-                  pellentesque.
-                </li>
-                <li>
-                  Quisque ac velit at sem scelerisque porta vel quis quam.
-                </li>
-                <li>Praesent sed mauris ac justo euismod facilisis. </li>
-                <li>Vestibulum quis purus vel ligula elementum rutrum. </li>
-              </ul>
             </div>
           </div>
           <div class="package__faqs common-module" id="package-faq">
@@ -1075,22 +1086,20 @@
             </div>
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-4 gap-8">
-
-          <div class="package__price-sidebar  common-box pb-0">
-            <div class="gap-5 w-[95%] flex items-center justify-end  rounded-t-[10px] py-2.5 px-6.25">
-              <button class="btn-secondary bg-[#f6faff] gap-2">
-                <span class="icon-send text-lg text-[#6cafda] hover:text-white"></span>
+        <div class="col-span-12 lg:col-span-4 gap-8 common-box">
+          <div class="package__price-sidebar  lg:mb-0 mb-5">
+            <div class="package-actions">
+              <button class="package-actions__item btn-secondary bg-[#f6faff] gap-2 hav-icon">
+                <span class="icon-send text-lg text-[#6cafda]"></span>
                 View Map
               </button>
-              <button class="btn-primary ">
+              <button class="package-actions__item btn-primary">
                 <span class="icon-share text-lg"></span>
                 Share
               </button>
             </div>
-
-            <div class="package-price-main-wrapper lg:sticky lg:top-5">
-              <div class="package-price-wrappper">
+            <div class="package-price-main-wrapper lg:sticky ">
+              <div class="package-price-wrapper ">
 
                 <div class="package-price-title">Price For</div>
                 <div class="package-price">
@@ -1100,40 +1109,37 @@
               </div>
 
               <div class="package-group-price">
-                <div class="package__discount-list">
-                  <button class="collapsible package__discount-list-item active gap-10 p-3 " type="button" aria-expanded="true"
-                    data-default-open="true">
-                    <span class="text-sm font-bold text-text_color px-4r"> Group Discount Cost</span>
-                    <span class="text-2xl font-bold text-text_color icon">+
-                    </span>
+                <div class="collapsible__wrap">
+                  <button role="button" type="button" class="collapsible active">
+                    <span class="text-text_color text-[15px] font-bold uppercase">Group Discount Price</span>
+                    <span class="text-text_color mr-1 text-2xl font-bold">-</span>
                   </button>
                   <div class="collapsible-content">
-                    <div class="package__discount-list">
+                    <div class="package__discount-list px-6.5">
                       <ul class="package__discount-list-group">
                         <li class="package__discount-list-item  ">
                           <span class="text-sm font-bold text-text_color">No. of traveler</span>
                           <span class="text-sm font-bold text-text_color">Price per person</span>
                         </li>
                         <li class="package__discount-list-item  ">
-                          <span class="text-sm text-text_color">1-1</span>
-                          <span class="text-sm text-text_color">US$1600</span>
+                          <span class="text-sm text-text_color">1 - 1</span>
+                          <span class="text-sm text-text_color">US$1620</span>
                         </li>
                         <li class="package__discount-list-item   ">
                           <span class="text-sm text-text_color">2 - 2</span>
                           <span class="text-sm text-text_color">US$1600</span>
                         </li>
                         <li class="package__discount-list-item  ">
-                          <span class="text-sm text-text_color">3-5</span>
-                          <span class="text-sm text-text_color">US$1600</span>
+                          <span class="text-sm text-text_color">3 - 5</span>
+                          <span class="text-sm text-text_color">US$1590</span>
                         </li>
                         <li class="package__discount-list-item  ">
                           <span class="text-sm text-text_color">10+</span>
-                          <span class="text-sm text-text_color">US$1600</span>
+                          <span class="text-sm text-text_color">US$1200</span>
                         </li>
                       </ul>
                     </div>
                   </div>
-
                 </div>
               </div>
               <div class=" package-book-options  ">
@@ -1379,19 +1385,22 @@
                 </div>
                 <div class="testimonial__list-item-reviewer ">
                   <div class="reviewer-image">
-                    <div
-                      class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
-                      A</div>
+                    <div class="placeholder__img-wrapper">
+                      <div class="w-full placeholder__img">
+                        <img src="/images/dynamic/reviewer.webp" width="55" height="55"
+                          class="rounded-full" alt="" />
+                      </div>
+                    </div>
+
                   </div>
-                  <div class="reviewer-content">
-                    <div class=" text-lg font-bold leading-6 text-text_color ">Ramiro Barraza -
+                  <div class="reviewer-content ">
+                    <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
                       USA
                     </div>
-                    <span class=" block text-xs leading-11 text-text_color">Annapurna Circuit, 2014</span>
+                    <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
                   </div>
                 </div>
               </div>
-
             </div>
 
             <div class="col-span-6">
@@ -1416,15 +1425,19 @@
                 </div>
                 <div class="testimonial__list-item-reviewer ">
                   <div class="reviewer-image">
-                    <div
-                      class="flex h-12.5 w-12.5 items-center justify-center rounded-full bg-secondary font-playfair text-xl text-white">
-                      A</div>
+                    <div class="placeholder__img-wrapper">
+                      <div class="w-full placeholder__img">
+                        <img src="/images/dynamic/reviewer.webp" width="55" height="55"
+                          class="rounded-full" alt="" />
+                      </div>
+                    </div>
+
                   </div>
                   <div class="reviewer-content ">
                     <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
                       USA
                     </div>
-                    <span class=" block text-xs leading-11 text-text_color">Annapurna Circuit, 2014</span>
+                    <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
                   </div>
                 </div>
               </div>
@@ -1709,19 +1722,21 @@
       if (activeSectionId) {
         setActiveLink(activeSectionId);
       }
-    }
-    // --- Nav show/hide based on #no-nav ---
-    const commonBox = document.getElementById('no-nav');
-    if (commonBox) {
-      const rect = commonBox.getBoundingClientRect();
-      if (rect.top <= 50 || window.scrollY <= 750) {
-        nav.classList.remove('visible');
-        nav.classList.add('hidden');
-      } else {
-        nav.classList.add('visible');
-        nav.classList.remove('hidden');
+
+      // --- Nav show/hide based on #no-nav ---
+      const commonBox = document.getElementById('no-nav');
+      if (commonBox) {
+        const rect = commonBox.getBoundingClientRect();
+        if (rect.top <= 50 || window.scrollY <= 750) {
+          nav.classList.remove('visible');
+          nav.classList.add('hidden');
+        } else {
+          nav.classList.add('visible');
+          nav.classList.remove('hidden');
+        }
       }
     }
+
 
     // --- Scroll nav horizontally to active link ---
     function scrollToActiveLink() {

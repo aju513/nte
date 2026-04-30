@@ -15,29 +15,19 @@
 
             <div class="footer_affiliations-logos ">
                 <div class="footer_affiliations-item">
-                    <a href="">
-                        <img width="43" height="58" src="/images/associate/taan-logo.svg" alt="logo" />
-                    </a>
+                    <img width="43" height="58" src="/images/associate/taan-logo.svg" alt="logo" />
                 </div>
                 <div class="footer_affiliations-item">
-                    <a href="">
-                        <img width="46" height="48" src="/images/associate/ntb-logo.svg" alt="logo" />
-                    </a>
+                    <img width="46" height="48" src="/images/associate/ntb-logo.svg" alt="logo" />
                 </div>
                 <div class="footer_affiliations-item">
-                    <a href="">
-                        <img width="68" height="58" src="/images/associate/nma-logo.svg" alt="logo" />
-                    </a>
+                    <img width="68" height="58" src="/images/associate/nma-logo.svg" alt="logo" />
                 </div>
                 <div class="footer_affiliations-item">
-                    <a href="">
-                        <img width="61" height="53" src="/images/associate/nepal-goverment-logo.svg" alt="logo" />
-                    </a>
+                    <img width="61" height="53" src="/images/associate/nepal-goverment-logo.svg" alt="logo" />
                 </div>
                 <div class="footer_affiliations-item">
-                    <a href="">
-                        <img width="110" height="42" src="/images/associate/keep-logo.svg" alt="logo" />
-                    </a>
+                    <img width="110" height="42" src="/images/associate/keep-logo.svg" alt="logo" />
                 </div>
             </div>
         </div>
