@@ -1094,7 +1094,7 @@
                                         </svg>
                                 </a>
                                 <span class="icon text-primary text-[20px] icon-searchicon"></span>
-                                <div class="mobile-menu-button" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"
+                                <div class="mobile-menu-button text-primary" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"
                                         role="button">
                                         <div class="mobile-menu-trigger ">
                                                 <span class="menu-toggle-bar menu-toggle-bar--top"></span>

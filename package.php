@@ -2,7 +2,7 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 
-<section class="package-sticky-nav visible sticky ">
+<section class="package-sticky-nav sticky ">
   <div class="container mx-auto">
     <ul class="nav-link-wrapper">
       <li>
@@ -1087,7 +1087,7 @@
           </div>
         </div>
         <div class="col-span-12 lg:col-span-4 gap-8 common-box">
-          <div class="package__price-sidebar  lg:mb-0 mb-5">
+          <div class="package__price-sidebar lg:sticky top-15  lg:mb-0 mb-5">
             <div class="package-actions">
               <button class="package-actions__item btn-secondary bg-[#f6faff] gap-2 hav-icon">
                 <span class="icon-send text-lg text-[#6cafda]"></span>
@@ -1098,7 +1098,7 @@
                 Share
               </button>
             </div>
-            <div class="package-price-main-wrapper lg:sticky ">
+            <div class="package-price-main-wrapper ">
               <div class="package-price-wrapper ">
 
                 <div class="package-price-title">Price For</div>

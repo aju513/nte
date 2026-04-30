@@ -815,7 +815,7 @@
   /* blockquote ends */
   /* inner banner starts */
   .innerpage-banner {
-    @apply rounded-custom relative  bg-secondary;
+    @apply rounded-custom relative  bg-secondary pt-5;
     .placeholder__img-wrapper {
       @apply rounded-custom relative aspect-1400/630;
     }
@@ -4139,7 +4139,7 @@
   @apply absolute -top-3 right-7.5 flex items-center gap-1;
 }
 .package-price-sidebar {
-  @apply static max-lg:mb-5 lg:mb-0 mb-8;
+  @apply static max-lg:mb-5 lg:sticky lg:mb-0 mb-8;
 }
 .package-actions {
   @apply flex items-center justify-start gap-6 lg:justify-end;
@@ -4148,7 +4148,7 @@
   }
 }
 .package-price-main-wrapper {
-  @apply mt-8 rounded-[10px] bg-primary lg:sticky border-block border;
+  @apply mt-8 rounded-[10px] bg-primary  border-block border;
 }
 .package-price-wrapper {
   @apply p-6.25;
@@ -4328,4 +4328,10 @@
       }
     }
   }
+}
+.why-travel-icon {
+  @apply flex items-center justify-center w-10 h-10 rounded-[53px] bg-block text-white text-[23px] flex-shrink-0;
+}
+.page-summary {
+  @apply text-base;
 }
