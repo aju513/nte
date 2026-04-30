@@ -3,12 +3,12 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
 
-<div class="bg-secondary">
-  <div class="w-[95%] common-box bg-white rounded-[15px] m-auto relative ">
-    <section class=" common-page" role="main">
-      <div class="container common-box pb-0">
+<div class="bg-secondary" role="main">
+  <div class="w-[95%]  common-box bg-white rounded-[15px] m-auto relative ">
+    <section class=" common-page">
+      <div class="container ">
         <div class="page-title">
-          <h1 class="">About us</h1>
+          <h1>About us</h1>
         </div>
         <div class="page-summary lg:w-4/5">
           <article>
@@ -27,59 +27,7 @@
               unforgettable journey filled with exhilarating challenges and
               unforgettable memories.
             </p>
-            <h2>Experience the thrill of ascending to Everest Base Camp</h2>
-            <p>
-              As you journey through the Khumbu region of Nepal, you'll
-              encounter charming Sherpa villages, ancient monasteries, and
-              vibrant local culture. Experience the thrill of ascending to
-              Everest Base Camp, where you'll stand in awe of the iconic
-              summit towering above. Whether you're an experienced mountaineer
-              or a novice adventurer,{' '}
-            </p>
-            <h3>Experience the thrill of ascending to Everest Base Camp</h3>
-            <p>
-              As you journey through the Khumbu region of Nepal, you'll
-              encounter charming Sherpa villages, ancient monasteries, and
-              vibrant local culture. Experience the thrill of ascending to
-              Everest Base Camp, where you'll stand in awe of the iconic
-              summit towering above. Whether you're an experienced mountaineer
-              or a novice adventurer,{' '}
-            </p>
-            <h4>Experience the thrill of ascending to Everest Base Camp</h4>
-            <p>
-              As you journey through the Khumbu region of Nepal, you'll
-              encounter charming Sherpa villages, ancient monasteries, and
-              vibrant local culture. Experience the thrill of ascending to
-              Everest Base Camp, where you'll stand in awe of the iconic
-              summit towering above. Whether you're an experienced mountaineer
-              or a novice adventurer,{' '}
-            </p>
-            <h5>Experience the thrill of ascending to Everest Base Camp</h5>
-            <p>
-              As you journey through the Khumbu region of Nepal, you'll
-              encounter charming Sherpa villages, ancient monasteries, and
-              vibrant local culture. Experience the thrill of ascending to
-              Everest Base Camp, where you'll stand in awe of the iconic
-              summit towering above. Whether you're an experienced mountaineer
-              or a novice adventurer,{' '}
-            </p>
-            <h6>Experience the thrill of ascending to Everest Base Camp</h6>
-            <p>
-              As you journey through the Khumbu region of Nepal, you'll
-              encounter charming Sherpa villages, ancient monasteries, and
-              vibrant local culture. Experience the thrill of ascending to
-              Everest Base Camp, where you'll stand in awe of the iconic
-              summit towering above. Whether you're an experienced mountaineer
-              or a novice adventurer,{' '}
-            </p>
-
-            <blockquote>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida.
-            </blockquote>
-
-            <h3 class="py-[30px]">Our Journey</h3>
+            <h3 class="py-4 font-extrabold font-mulish text-2xl">Our Journey</h3>
             <figure>
               <img class="rounded-custom" src="../images/dynamic/about.webp" width="1200" height="675" alt="about" />
               <figcaption>Travel with Confidence</figcaption>
@@ -89,9 +37,9 @@
         </div>
       </div>
     </section>
-    <section class="inner_whyus why-us  common-box pb-0 relative ">
+    <section class="inner_whyus why-us  common-box  relative ">
       <div class="container scroll-wrap">
-        <h2 class="section-title">
+        <h2 class="font-black text-3xl">
           Why Choose Us
         </h2>
         <div class="grid grid-cols-12 gap-2 mt-2">
@@ -103,7 +51,7 @@
               </div>
 
               <div class="space-y-1">
-                <h4 class="text-text_color font-bold text-xl">
+                <h4 class="text-text_color font-bold text-2xl font-mulish">
                   Best Price Guarantee
                 </h4>
                 <p class="text-gray-500">
@@ -122,7 +70,7 @@
               </div>
 
               <div class="space-y-1">
-                <h4 class="text-text_color font-bold text-xl">
+                <h4 class="text-text_color font-bold text-2xl font-mulish">
                   Local Expert Guides
                 </h4>
                 <p class="text-gray-500">
@@ -141,7 +89,7 @@
               </div>
 
               <div class="space-y-1">
-                <h4 class="text-text_color font-bold text-xl">
+                <h4 class="text-text_color font-bold text-2xl font-mulish">
                   Easy Trip Planning
                 </h4>
                 <p class="text-gray-500">
@@ -160,8 +108,8 @@
               </div>
 
               <div class="space-y-1">
-                <h4 class="text-text_color font-bold text-xl">
-                  Safety and Responsibility
+                <h4 class="text-text_color font-bold text-2xl font-mulish">
+                  Safety and Responsible
                 </h4>
                 <p class="text-gray-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequatur. Velit quia tenetur maiores
@@ -176,7 +124,7 @@
       <section class=" video-review common-box scroll-wrap mt-0">
         <div class="container">
           <h2 class="package__section-title ">
-            Travel Moments
+            Video Reviews
           </h2>
           <div class="grid grid-cols-12 gap-5">
             <div class="col-span-4">
@@ -420,13 +368,13 @@
 
         </div>
       </section>
-      <section class="common-box  package-list relative top-50 -mt-50">
+      <section class="common-box top-65 -mt-64 package-list relative">
         <div class="container ">
           <h2 class="package__section-title">
             You May Also Like </h2>
 
           <!--Package Grid -->
-          <div class="relative mt-8">
+          <div class="relative">
             <div class="grid grid-cols-12 gap-5">
               <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                 <div class="package-list__item">
@@ -593,7 +541,6 @@
 
       </section>
     </section>
-
   </div>
 </div>
 
