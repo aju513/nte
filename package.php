@@ -1,6 +1,7 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
+<?php include('./inc/breadcrumbs.php') ?>
 
 <section class="package-sticky-nav sticky ">
   <div class="container mx-auto">
@@ -97,7 +98,7 @@
     </ul>
   </div>
 </section>
-<?php include('./inc/breadcrumbs.php') ?>
+
 
 <section class="common-box  package-page bg-secondary relative md:-mb-15.5 lg:pb-30" role="main">
   <div class="package__banner">
