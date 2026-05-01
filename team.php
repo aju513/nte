@@ -15,13 +15,29 @@
       <div class="team-list-page__wrapper">
         <div class="innersection-title">Team Group</div>
         <div class="grid grid-cols-12 gap-5">
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
+            <div class="team__item">
+              <!-- <div class="team__item-image"> -->
+              <div class="placeholder__img-wrapper">
+                <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
+                      width="400" height="400" decoding="async" data-nimg="1"
+                      style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
+                </div>
+              </div>
+              <!-- </div> -->
+              <div class="team__item-content">
+                <div class="team__item-title"><a href="">Sobita Khanal</a></div>
+                <div class="team__item-designation">Co-Founder</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -32,13 +48,13 @@
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -49,13 +65,13 @@
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -66,13 +82,13 @@
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -83,30 +99,13 @@
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team__item-content">
-                <div class="team__item-title"><a href="">Sobita Khanal</a></div>
-                <div class="team__item-designation">Co-Founder / Business Development Officer / Tourist
-                  Guide</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
-            <div class="team__item">
-              <div class="team__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
-                        width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -119,16 +118,33 @@
           </div>
         </div>
       </div>
+
       <div class="team-list-page__wrapper">
         <div class="innersection-title">Team Group</div>
         <div class="grid grid-cols-12 gap-5">
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
+            <div class="team__item">
+              <!-- <div class="team__item-image"> -->
+              <div class="placeholder__img-wrapper">
+                <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
+                      width="400" height="400" decoding="async" data-nimg="1"
+                      style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
+                </div>
+              </div>
+              <!-- </div> -->
+              <div class="team__item-content">
+                <div class="team__item-title"><a href="">Sobita Khanal</a></div>
+                <div class="team__item-designation">Co-Founder</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -139,13 +155,13 @@
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -156,13 +172,13 @@
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -173,13 +189,13 @@
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -190,30 +206,13 @@
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 mb-10">
             <div class="team__item">
               <div class="team__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
                         width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team__item-content">
-                <div class="team__item-title"><a href="">Sobita Khanal</a></div>
-                <div class="team__item-designation">Co-Founder / Business Development Officer / Tourist
-                  Guide</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
-            <div class="team__item">
-              <div class="team__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img w-full"><a href=""><img alt="author" loading="lazy"
-                        width="400" height="400" decoding="async" data-nimg="1"
-                        style="color:transparent" src="../images/dynamic/author.webp"></a>
+                        style="color:transparent" src="../images/dynamic/reviewer.webp"></a>
                   </div>
                 </div>
               </div>
@@ -226,6 +225,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>

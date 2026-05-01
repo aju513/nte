@@ -20,67 +20,20 @@
       <div class="faqs__wrapper">
         <div class="faqs__wrapper-title">Faq Title</div>
         <div class="accordion with-arrow">
-          <div class="accordion__item">
+          <div class="accordion__item active">
             <div class="accordion__item-title">
-              What is included in the package?
+              1. Q1. How difficult is the Everest Base Camp Trek?
             </div>
-            <div class="accordion__item-content-outer">
-              <div class="accordion__item-content">
-                <p>
-                  This package includes accommodation, meals, guide service,
-                  and transportation.
-                </p>
-
-                <ul>
-                  <li>3-star hotel accommodation</li>
-                  <li>Daily breakfast and dinner</li>
-                  <li>Licensed trekking guide</li>
-                </ul>
-
-                <a href="#">Read more details</a>
-              </div>
+            <div class="accordion__item-content">
+              <p>It is said that difficult roads often lead to beautiful destination, this can be sad for the trek too. The journey leads person to calming state of mind.</p>
             </div>
           </div>
           <div class="accordion__item">
             <div class="accordion__item-title">
-              What is included in the package?
+              2. Q1. How long does it take to hike Everest Base Camp?
             </div>
-            <div class="accordion__item-content-outer">
-              <div class="accordion__item-content">
-                <p>
-                  This package includes accommodation, meals, guide service,
-                  and transportation.
-                </p>
-
-                <ul>
-                  <li>3-star hotel accommodation</li>
-                  <li>Daily breakfast and dinner</li>
-                  <li>Licensed trekking guide</li>
-                </ul>
-
-                <a href="#">Read more details</a>
-              </div>
-            </div>
-          </div>
-          <div class="accordion__item">
-            <div class="accordion__item-title">
-              What is included in the package?
-            </div>
-            <div class="accordion__item-content-outer">
-              <div class="accordion__item-content">
-                <p>
-                  This package includes accommodation, meals, guide service,
-                  and transportation.
-                </p>
-
-                <ul>
-                  <li>3-star hotel accommodation</li>
-                  <li>Daily breakfast and dinner</li>
-                  <li>Licensed trekking guide</li>
-                </ul>
-
-                <a href="#">Read more details</a>
-              </div>
+            <div class="accordion__item-content">
+              <p>It is said that difficult roads often lead to beautiful destination, this can be sad for the trek too. The journey leads person to calming state of mind.</p>
             </div>
           </div>
         </div>

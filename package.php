@@ -190,7 +190,7 @@
                 </div>
                 <div class="col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
-                    <div class="flex gap-1 item-center">
+                    <div class="flex gap-3 item-center">
                       <div class="package__facts-item-icon ">
                         <span class="text-3xl icon-trip-grade"></span>
                       </div>
@@ -200,22 +200,22 @@
                         </div>
                         <div class="block text-left text-xs text-text_color">
                           Easy to Moderate
-                          <div class="relative inline-flex flex-col items-center ml-2 popover-wrap group">
-                            <span class="text-xl icon-info ">
-                            </span>
+                          <div class="relative inline-flex ml-2 items-center group popover-wrap">
+                            <span class="text-sm icon-nav-information cursor-pointer"></span>
 
-                            <div
-                              class="absolute bottom-0 flex-col items-center hidden w-full mb-6 popover-bg sm:w-64 md:w-72">
-                              <span
-                                class="popover-wrap-content custom-shadow relative z-10 mb-0 rounded-[5px] bg-white p-3 text-[13px] leading-4 text-gray-800">
+                            <div class="tooltip-content">
+                              <div
+                                class="relative rounded-custom popover-wrap-content bg-black/80 p-3 text-[13px] leading-5 text-white">
                                 <p>
-                                  The moderate grade includes a one-week to fifteen-day itinerary. It can reach up to
-                                  5000 meter altitude range, but the trails will be moderate (neither easy nor tough).
-                                  High altitude may affect walking speed and distance. You need to have acclimatization
-                                  over 3000 meters.
+                                  The moderate grade includes a one-week to fifteen-day itinerary.
+                                  It can reach up to 5000 meter altitude range, but the trails
+                                  will be moderate (neither easy nor tough). High altitude may
+                                  affect walking speed and distance. You need to have
+                                  acclimatization over 3000 meters.
                                 </p>
-                              </span>
-                              <div class="w-3 h-3 -mt-2 rotate-45 bg-white"></div>
+                              </div>
+
+                              <div class="absolute h-3 w-3  rotate-45  bg-black/70 left-1/2 -translate-x-1/2 -translate-y-2"></div>
                             </div>
                           </div>
                         </div>
@@ -352,7 +352,7 @@
               </div>
 
               <button class="mt-5">
-                <a href="" class="btn-outline-primary hover:bg-primary hover:text-white">Read
+                <a href="" class="inline-flex w-full flex-none items-center justify-center gap-3 rounded-[21px] border border-dashed border-primary px-4 py-2.5 text-sm font-medium leading-none transition-all duration-500   hover:bg-primary hover:text-white">Read
                   More
                 </a>
               </button>
@@ -945,7 +945,7 @@
                     <li>Waterproof overpants</li>
                     <li>Thermal long underwear (2 sets)</li>
                     <li>Wool/thermal socks (8-10 pairs)</li>
-                    <li>Liner socks (3-4 pairs ¬¬¬¬¬for blister prevention)</li>
+                    <li>Linen socks (3-4 pairs for blister prevention)</li>
                   </ol>
                 </div>
               </div>
@@ -1112,31 +1112,31 @@
               <div class="package-group-price">
                 <div class="collapsible__wrap">
                   <button role="button" type="button" class="collapsible active">
-                    <span class="text-text_color text-[15px] font-bold uppercase">Group Discount Price</span>
+                    <span class="text-text_color text-sm font-bold uppercase">Group Discount cost</span>
                     <span class="text-text_color mr-1 text-2xl font-bold">-</span>
                   </button>
                   <div class="collapsible-content">
                     <div class="package__discount-list px-6.5">
                       <ul class="package__discount-list-group">
                         <li class="package__discount-list-item  ">
-                          <span class="text-sm font-bold text-text_color">No. of traveler</span>
-                          <span class="text-sm font-bold text-text_color">Price per person</span>
+                          <span class="text-base font-bold text-text_color">No. of traveler</span>
+                          <span class="text-base font-bold text-text_color">Price per person</span>
                         </li>
                         <li class="package__discount-list-item  ">
                           <span class="text-sm text-text_color">1 - 1</span>
-                          <span class="text-sm text-text_color">US$1620</span>
+                          <span class="text-sm text-text_color">US$ 1620</span>
                         </li>
                         <li class="package__discount-list-item   ">
                           <span class="text-sm text-text_color">2 - 2</span>
-                          <span class="text-sm text-text_color">US$1600</span>
+                          <span class="text-sm text-text_color">US$ 1600</span>
                         </li>
                         <li class="package__discount-list-item  ">
                           <span class="text-sm text-text_color">3 - 5</span>
-                          <span class="text-sm text-text_color">US$1590</span>
+                          <span class="text-sm text-text_color">US$ 1590</span>
                         </li>
                         <li class="package__discount-list-item  ">
                           <span class="text-sm text-text_color">10+</span>
-                          <span class="text-sm text-text_color">US$1200</span>
+                          <span class="text-sm text-text_color">US$ 1200</span>
                         </li>
                       </ul>
                     </div>
@@ -1150,7 +1150,7 @@
                 </button>
                 <a href=""
                   class="bg-secondary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-text_color transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)]">
-                  Check Avalilability
+                  Check Availability
                 </a>
                 <button type="button" data-fancybox data-src="#dialog-content"
                   class="bg-primary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)]">

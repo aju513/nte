@@ -22,7 +22,7 @@
 
       <!-- Wrapper 1 -->
       <div class="legal-document__wrapper mt-8">
-        <div class="font-merriweather text-primary mb-5 text-xl font-bold lg:text-2xl">
+        <div class="font-mulish text-primary mb-5 text-xl font-bold lg:text-2xl">
           Documents List title
         </div>
 
@@ -35,7 +35,7 @@
                 <div class="placeholder__img-wrapper w-full">
                   <div class="placeholder__img w-full">
                     <button data-fancybox="gallery" data-src="/images/dynamic/tour.webp">
-                      <img src="/images/dynamic/tour.webp" alt="Documents" width="400" height="400">
+                      <img src="/images/dynamic/company-regd-certificate.webp" alt="Documents" width="400" height="400">
                     </button>
                   </div>
                 </div>
@@ -57,8 +57,8 @@
               <div class="legal-document__item-image">
                 <div class="placeholder__img-wrapper w-full">
                   <div class="placeholder__img w-full">
-                    <button data-fancybox="gallery" data-src="/themes/images/document.webp">
-                      <img src="/themes/images/document.webp" alt="Documents" width="400" height="400">
+                    <button data-fancybox="gallery" data-src="/images/dynamic/company-regd-certificate.webp">
+                      <img src="/images/dynamic/company-regd-certificate.webp" alt="Documents" width="400" height="400">
                     </button>
                   </div>
                 </div>
@@ -68,7 +68,8 @@
               </div>
               <div class="legal-document__item-content">
                 Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit.
+                sit amet, consectetur adipisicing elit. Reprehenderit
+                totam laborum ipsam voluptate rerum iure molestias.
               </div>
             </div>
           </div>
@@ -89,8 +90,8 @@
               <div class="legal-document__item-image">
                 <div class="placeholder__img-wrapper w-full">
                   <div class="placeholder__img w-full">
-                    <button data-fancybox="gallery" data-src="/themes/images/document.webp">
-                      <img src="/themes/images/document.webp" alt="Documents" width="400" height="400">
+                    <button data-fancybox="gallery" data-src="/images/dynamic/company-regd-certificate.webp">
+                      <img src="/images/dynamic/company-regd-certificate.webp" alt="Documents" width="400" height="400">
                     </button>
                   </div>
                 </div>
@@ -110,8 +111,8 @@
               <div class="legal-document__item-image">
                 <div class="placeholder__img-wrapper w-full">
                   <div class="placeholder__img w-full">
-                    <button data-fancybox="gallery" data-src="/themes/images/document.webp">
-                      <img src="/themes/images/document.webp" alt="Documents" width="400" height="400">
+                    <button data-fancybox="gallery" data-src="/images/dynamic/company-regd-certificate.webp">
+                      <img src="/images/dynamic/company-regd-certificate.webp" alt="Documents" width="400" height="400">
                     </button>
                   </div>
                 </div>

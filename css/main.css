@@ -169,17 +169,14 @@
     }
   }
   /* tooltip start*/
-  .package__info .react-tooltip {
-    @apply z-10! opacity-100;
+  .tooltip-content {
+    @apply absolute left-1/2 bottom-full z-10! mt-4 w-72 -translate-x-1/2  opacity-0 invisible transition-all duration-500 group-hover:visible group-hover:opacity-100 group-hover:-translate-y-2;
+    p {
+      @apply text-sm text-white!;
+    }
   }
-  .package__info .react-tooltip p {
-    @apply text-white!;
-  }
-  .react-tooltip {
-    @apply z-10! opacity-100;
-  }
-  .react-tooltip p {
-    @apply text-sm text-white!;
+  .popover-wrap-content {
+    @apply shadow-xl;
   }
   /* tooltip end*/
   /* common gapping */
@@ -728,7 +725,7 @@
         @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
         &::before {
           content: "";
-          @apply absolute top-0.5 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
+          @apply absolute top-1 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
           mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
@@ -896,7 +893,7 @@
   /* collapse start */
   .collapsible__wrap {
     .collapsible {
-      @apply flex w-full cursor-pointer items-center justify-between px-5.5 py-3 text-right text-sm text-white outline-0;
+      @apply flex w-full cursor-pointer items-center justify-between px-5.5 py-2 text-right text-sm text-white outline-0;
     }
   }
   .booking-group-price {
@@ -1561,7 +1558,7 @@
       }
     }
     .legal-document__item-title {
-      @apply text-text_color font-playfair mt-2 text-left text-base font-bold lg:text-lg;
+      @apply text-text_color font-mulish mt-2 text-left text-base font-bold lg:text-lg;
     }
     .legal-document__item-content {
       @apply text-text_color mt-1;
@@ -1608,25 +1605,22 @@
       @apply mt-8;
     }
     .team__item {
-      @apply bg-dim_bg rounded-custom shadow-custom p-3;
+      @apply relative;
       .placeholder__img-wrapper {
         @apply aspect-square;
-        img {
-          @apply scale-100 transition-all duration-500 ease-in-out;
-          &:hover {
-            @apply scale-110 duration-500;
-          }
+      }
+    }
+    .team__item-content {
+      @apply absolute bg-white rounded-custom shadow-custom p-4 -bottom-8 w-[93%] mx-auto items-center z-10 left-2.5;
+      .team__item-title {
+        @apply text-text_color font-playfair hover:text-primary  text-lg font-bold transition-all duration-500;
+        a {
+          @apply text-text_color font-playfair hover:text-primary  text-lg font-bold transition-all duration-500;
         }
       }
-    }
-    .team__item-title {
-      @apply text-primary font-playfair hover:text-secondary mt-2 text-lg font-bold transition-all duration-500;
-      a {
-        @apply text-primary font-playfair hover:text-secondary mt-2 text-lg font-bold transition-all duration-500;
+      .team__item-designation {
+        @apply text-primary text-sm font-semibold;
       }
-    }
-    .team__item-designation {
-      @apply text-text_color text-sm font-semibold;
     }
   }
   .team-details-page {
@@ -1650,7 +1644,7 @@
       @apply relative cursor-pointer overflow-hidden rounded-2xl;
       .zoom-icon {
         @apply absolute inset-0 z-1 bg-black/20 opacity-0 transition-opacity duration-500;
-        svg {
+        .icon-zoom-icon {
           @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-500;
         }
       }
@@ -2376,6 +2370,9 @@
   @apply mt-8;
   .faqs__wrapper-title {
     @apply font-playfair text-primary mb-5 text-lg font-bold lg:text-xl;
+  }
+  .accordion__item {
+    @apply bg-[#f6faff];
   }
   .accordion__item button {
     @apply text-left font-semibold;
@@ -4035,7 +4032,7 @@
           @apply mt-0 mb-0;
 
           li {
-            @apply mb-3 list-decimal text-base  text-text_color;
+            @apply mb-3 list-decimal text-base  text-text_color leading-5;
           }
         }
       }

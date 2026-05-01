@@ -14,7 +14,7 @@
           <div class="team-details__image">
             <div class="placeholder__img-wrapper">
               <div class="placeholder__img w-full"><img alt="author" loading="lazy" width="400" height="400"
-                  src="../images/dynamic/author.webp"></div>
+                  src="../images/dynamic/reviewer.webp"></div>
             </div>
           </div>
         </div>
@@ -37,64 +37,52 @@
             <div class="innersection-title">Photo Gallery</div>
             <div class="fancybox-wrapper">
               <div class="team-details__gallery-wrap columns-1 sm:columns-2 md:columns-3">
-                <button data-fancybox="gallery" data-src="../images/dynamic/stories1.webp"
+                <button data-fancybox="gallery" data-src="../images/dynamic/nepal.webp"
                   class="team-details__gallery-item">
                   <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
-                    style="color:transparent" src="../images/dynamic/stories1.webp">
+                    style="color:transparent" src="../images/dynamic/nepal.webp">
                   <span class="zoom-icon">
-                    <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
-                      <use href="/sprite.svg#icon-zoom-in"></use>
-                    </svg>
+                    <span class="text-xl text-white icon-zoom-icon"></span>
                   </span>
                 </button>
-                <button data-fancybox="gallery" data-src="../images/dynamic/stories1.webp"
+                <button data-fancybox="gallery" data-src="../images/dynamic/nepal.webp"
                   class="team-details__gallery-item">
                   <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
-                    style="color:transparent" src="../images/dynamic/stories1.webp">
+                    style="color:transparent" src="../images/dynamic/nepal.webp">
                   <span class="zoom-icon">
-                    <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
-                      <use href="/sprite.svg#icon-zoom-in"></use>
-                    </svg>
+                    <span class="text-xl text-white icon-zoom-icon"></span>
                   </span>
                 </button>
-                <button data-fancybox="gallery" data-src="../images/dynamic/stories1.webp"
+                <button data-fancybox="gallery" data-src="../images/dynamic/nepal.webp"
                   class="team-details__gallery-item">
                   <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
-                    style="color:transparent" src="../images/dynamic/stories1.webp">
+                    style="color:transparent" src="../images/dynamic/nepal.webp">
                   <span class="zoom-icon">
-                    <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
-                      <use href="/sprite.svg#icon-zoom-in"></use>
-                    </svg>
+                    <span class="text-xl text-white icon-zoom-icon"></span>
                   </span>
                 </button>
-                <button data-fancybox="gallery" data-src="../images/dynamic/stories1.webp"
+                <button data-fancybox="gallery" data-src="../images/dynamic/nepal.webp"
                   class="team-details__gallery-item">
                   <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
-                    style="color:transparent" src="../images/dynamic/stories1.webp">
+                    style="color:transparent" src="../images/dynamic/nepal.webp">
                   <span class="zoom-icon">
-                    <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
-                      <use href="/sprite.svg#icon-zoom-in"></use>
-                    </svg>
+                    <span class="text-xl text-white icon-zoom-icon"></span>
                   </span>
                 </button>
-                <button data-fancybox="gallery" data-src="../images/dynamic/stories2.webp"
+                <button data-fancybox="gallery" data-src="../images/dynamic/nepal.webp"
                   class="team-details__gallery-item">
                   <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
-                    style="color:transparent" src="../images/dynamic/stories2.webp">
+                    style="color:transparent" src="../images/dynamic/nepal.webp">
                   <span class="zoom-icon">
-                    <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
-                      <use href="/sprite.svg#icon-zoom-in"></use>
-                    </svg>
+                    <span class="text-xl text-white icon-zoom-icon"></span>
                   </span>
                 </button>
-                <button data-fancybox="gallery" data-src="../images/dynamic/stories3.webp"
+                <button data-fancybox="gallery" data-src="../images/dynamic/nepal.webp"
                   class="team-details__gallery-item">
                   <img alt="gallery" loading="lazy" width="720" height="900" decoding="async"
-                    style="color:transparent" src="../images/dynamic/stories3.webp">
+                    style="color:transparent" src="../images/dynamic/nepal.webp">
                   <span class="zoom-icon">
-                    <svg class="h-6 w-6 fill-current text-white" aria-hidden="true">
-                      <use href="/sprite.svg#icon-zoom-in"></use>
-                    </svg>
+                    <span class="text-xl text-white icon-zoom-icon"></span>
                   </span>
                 </button>
               </div>
