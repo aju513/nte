@@ -79,7 +79,26 @@
               <div class="blog-list__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img"><a href=""><img alt="image" loading="lazy" width="600"
-                        height="550" src="../images/dynamic/album.webp"></a>
+                        height="550" src="../images/dynamic/blog-thumb.webp"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-list__item-content">
+                <div class="blog-list__item-meta">
+                  <div class="blog-list__item-post-date">05 Jan, 2025</div>
+                  <div class="blog-list__item-post-author"> admin</div>
+                </div>
+                <h3 class="blog-list__item-content-title"><a href="">Meet Nature And Wildlife in Chitwan
+                    National Park</a></h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+            <div class="blog-list__item">
+              <div class="blog-list__item-image">
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img"><a href=""><img alt="image" loading="lazy" width="600"
+                        height="550" src="../images/dynamic/blog-thumb.webp"></a>
                   </div>
                 </div>
               </div>
@@ -117,26 +136,7 @@
               <div class="blog-list__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img"><a href=""><img alt="image" loading="lazy" width="600"
-                        height="550" src="../images/dynamic/album.webp"></a>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-list__item-content">
-                <div class="blog-list__item-meta">
-                  <div class="blog-list__item-post-date">05 Jan, 2025</div>
-                  <div class="blog-list__item-post-author"> admin</div>
-                </div>
-                <h3 class="blog-list__item-content-title"><a href="">Meet Nature And Wildlife in Chitwan
-                    National Park</a></h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="blog-list__item">
-              <div class="blog-list__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img"><a href=""><img alt="image" loading="lazy" width="600"
-                        height="550" src="../images/dynamic/album.webp"></a>
+                        height="400" src="../images/dynamic/blog.webp"></a>
                   </div>
                 </div>
               </div>

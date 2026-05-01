@@ -3,25 +3,25 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
 
-<section class="bg-secondary blog-page common-box relative" role="main">
+<section class="bg-secondary blog-page common-box " role="main">
   <div class="innerpage-banner ">
     <div class="container-fluid">
       <div class="placeholder__img-wrapper">
-        <div class="placeholder__img w-full"><img alt="about" loading="lazy"
+        <div class="placeholder__img w-full">
+          <img alt="about" loading="lazy"
             width="1400"
             height="630"
             decoding="async"
             data-nimg="1" class="rounded-custom" style="color:transparent"
-            src="../images/dynamic/page-banner.webp">
+            src="../images/dynamic/page-banner.webp" />
         </div>
       </div>
     </div>
-
   </div>
 
-  <section class="common-page-wrapper">
-    <div class="container common-box">
-      <div class="page-title  pb-0">
+  <div class="common-page-wrapper ">
+    <div class="container common-box pb-0">
+      <div class="page-title  ">
         <h1>Manaslu Circuit Trek – An Authentic Himalayan Experience That Still Feels Real</h1>
       </div>
     </div>
@@ -32,7 +32,7 @@
             <div class="placeholder__img-wrapper">
               <div class="placeholder__img w-full"><img alt="author" loading="lazy" width="400" height="400"
                   decoding="async" data-nimg="1" class="rounded-full" style="color:transparent"
-                  src="../images/dynamic/author.webp"></div>
+                  src="../images/dynamic/reviewer.webp"></div>
             </div>
           </div>
           <div class="blog-page__author-content">
@@ -43,7 +43,7 @@
         <div class="flex items-center gap-3">
 
           <div class="share-wrap">
-            <button type="button" class="share-btn bg-[#bedff5] rounded-full text-[13px] p-2.5 py-1">
+            <button type="button" class="share-btn bg-primary text-white rounded-full text-[13px] p-2.5 py-1">
               <span class="icon-share"></span>Share
             </button>
             <div class="share-list" aria-label="Share options">
@@ -314,7 +314,7 @@
       </div>
 
     </section>
-  </section>
+    </di>
 </section>
 
 <?php include('./inc/footer.php') ?>
