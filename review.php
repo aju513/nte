@@ -4,7 +4,7 @@
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box testimonial-page" role="main">
   <div class="common-page-wrapper">
-    <div class="container common-box">
+    <div class="container">
       <div class="page-title flex flex-col items-start justify-between sm:flex-row">
         <h1>Reviews</h1>
         <div class="review-list__sort max-sm:w-full">

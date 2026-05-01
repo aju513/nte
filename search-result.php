@@ -3,7 +3,7 @@
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box pb-0 search-page bg-secondary" role="main">
   <div class="common-page-wrapper">
-    <div class="container common-box">
+    <div class="container">
       <div class="flex flex-col items-start justify-start md:items-center md:justify-between md:flex-row">
         <div class="page-title">
           <h1>

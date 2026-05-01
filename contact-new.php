@@ -95,9 +95,9 @@
               </div>
             </div>
 
-            <button type="submit" class="btn-outline-primary hav-icon mt-2 bg-white">
+            <button type="submit" class="btn-primary hav-icon mt-2">
               Send Message
-              <span class="icon-view text-primary"></span>
+              <span class="icon-view "></span>
             </button>
           </form>
         </div>

@@ -1070,7 +1070,7 @@
             <div class="accordion with-arrow">
               <div class="accordion__item active">
                 <div class="accordion__item-title">
-                  1. Q1. How difficult is the Everest Base Camp Trek?
+                  Q1. How difficult is the Everest Base Camp Trek?
                 </div>
                 <div class="accordion__item-content">
                   <p>It is said that difficult roads often lead to beautiful destination, this can be sad for the trek too. The journey leads person to calming state of mind.</p>
@@ -1078,7 +1078,7 @@
               </div>
               <div class="accordion__item">
                 <div class="accordion__item-title">
-                  2. Q1. How long does it take to hike Everest Base Camp?
+                  Q1. How long does it take to hike Everest Base Camp?
                 </div>
                 <div class="accordion__item-content">
                   <p>It is said that difficult roads often lead to beautiful destination, this can be sad for the trek too. The journey leads person to calming state of mind.</p>

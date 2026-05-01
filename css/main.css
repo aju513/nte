@@ -118,13 +118,13 @@
     background-repeat: no-repeat !important;
     background-position: right 16px center !important;
     background-size: 1em !important;
-    background-image: url("/themes/images/down.svg");
+    background-image: url("/images/svg/angle-bottom.svg");
     option {
       padding-right: 10px;
     }
   }
   select.bg-primary {
-    background-image: url("/themes/images/white-down.svg");
+    background-image: url("/images/svg/angle-bottom.svg");
   }
   .input-file {
     @apply bg-text_color border-text_color/20 rounded-custom text-text_color h-12.5 w-auto border;
@@ -365,7 +365,7 @@
   .btn-primary {
     @apply bg-primary rounded-[17px]  px-5 py-1.5 text-xs leading-5 font-semibold  text-white transition-all duration-500;
     &:hover {
-      @apply text-white shadow-[inset_0_0_0_2em_var(--color-block)];
+      @apply text-text_color shadow-[inset_0_0_0_2em_var(--color-secondary)];
     }
   }
   .btn-primary.hav-icon {
@@ -375,7 +375,7 @@
     }
     &:hover {
       span {
-        @apply translate-x-2.5 duration-500 ease-in-out text-white;
+        @apply translate-x-2.5 duration-500 ease-in-out text-text_color;
       }
       span.animate-spin {
         @apply translate-x-0;
@@ -697,23 +697,23 @@
       @apply text-primary font-semibold hover:underline;
     }
     h2 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-mulish mb-3 font-bold text-black;
       font-size: clamp(1.4rem, 3vw, 1.7rem);
     }
     h3 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-mulish mb-3 font-bold text-black;
       font-size: clamp(1.2rem, 3vw, 1.25rem);
     }
     h4 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-mulish mb-3 font-bold text-black;
       font-size: clamp(1.1rem, 3vw, 1.125rem);
     }
     h5 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-mulish mb-3 font-bold text-black;
       font-size: clamp(0.875rem, 3vw, 1rem);
     }
     h6 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-mulish mb-3 font-bold text-black;
       font-size: clamp(0.875rem, 3vw, 0.875rem);
     }
     ul {
@@ -756,9 +756,9 @@
       }
     }
     .article-list__item-title {
-      @apply font-playfair text-text_color hover:text-primary mb-1 text-lg font-bold transition-all duration-500;
+      @apply font-mulish text-text_color hover:text-primary mb-1 text-lg font-bold transition-all duration-500;
       a {
-        @apply font-playfair text-text_color hover:text-primary text-lg font-bold transition-all duration-500;
+        @apply font-mulish text-text_color hover:text-primary text-lg font-bold transition-all duration-500;
       }
     }
     .article-list__item-content {
@@ -803,7 +803,7 @@
         &::before {
           content: "";
           @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#a79ad9];
-          mask: url("/themes/images/list-bullet.svg") no-repeat center;
+          mask: url("/images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -1039,24 +1039,23 @@
       }
     }
     .category-list__item-meta {
-      @apply -bottom-4 pl-4 z-10 absolute;
+      @apply -bottom-3 pl-4 z-10 absolute;
     }
     .category-list__item-meta-content {
-      @apply inline-flex text-center rounded-[11.5px] bg-[#6cafda] py-[5px] px-[15px] text-[14px] text-white gap-4 leading-[18px];
+      @apply inline-flex text-center rounded-xl bg-[#6cafda] py-0.75 px-3.5 text-sm text-white gap-4 leading-4.5;
     }
     .icon-milestone {
       @apply text-xs;
     }
-
-    .category-list__item-title {
-      @apply relative;
-      &:before {
-        @apply absolute left-6 h-px w-23.75;
-        content: "";
-      }
-      a {
-        @apply font-playfair text-[33px] font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary;
-      }
+  }
+  .category-list__item-title {
+    @apply relative mt-6;
+    &:before {
+      @apply absolute left-6 h-px w-23.75;
+      content: "";
+    }
+    a {
+      @apply font-mulish text-2xl font-extrabold transition-all duration-500 leading-7.5 hover:text-primary;
     }
   }
   .category-list__wrapper {
@@ -1503,7 +1502,7 @@
           @apply relative h-5 w-5;
           &:after {
             @apply absolute top-0 left-0 z-1 h-5 w-5 brightness-0 invert;
-            content: url("/themes/images/rating-star.svg");
+            content: url("/images/svg/star-rate.svg");
           }
         }
       }
@@ -1513,7 +1512,7 @@
           @apply relative h-5 w-5;
           &:after {
             @apply absolute top-0 left-0 z-1 h-5 w-5 brightness-0 invert;
-            content: url("/themes/images/time-quarter-to.svg");
+            content: url("/images/svg/duration.svg");
           }
         }
       }
@@ -2369,7 +2368,7 @@
 .faqs__wrapper {
   @apply mt-8;
   .faqs__wrapper-title {
-    @apply font-playfair text-primary mb-5 text-lg font-bold lg:text-xl;
+    @apply font-mulish text-primary mb-5 text-lg font-bold lg:text-xl;
   }
   .accordion__item {
     @apply bg-[#f6faff];
@@ -2741,6 +2740,7 @@
   }
 }
 /* booking page ends */
+
 /* contact page starts */
 .contact-page {
   .contact-page__heading {
@@ -3195,7 +3195,7 @@
           &::before {
             content: "";
             @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#7680bd];
-            mask: url("/themes/images/list-bullet.svg") no-repeat center;
+            mask: url("images/svg/splotch.svg") no-repeat center;
             mask-size: contain;
           }
         }
@@ -3271,7 +3271,7 @@
             &::before {
               content: "";
               @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#7680bd];
-              mask: url("/themes/images/list-bullet.svg") no-repeat center;
+              mask: url("images/svg/splotch.svg") no-repeat center;
               mask-size: contain;
             }
           }
@@ -3695,7 +3695,7 @@
         &::before {
           content: "";
           @apply absolute top-px left-0 h-6 w-6 bg-current text-white;
-          mask: url("/themes/images/list-bullet.svg") no-repeat center;
+          mask: url("images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -4307,7 +4307,7 @@
   background-color: #00a96c; /* custom green */
 }
 .common-page-wrapper {
-  @apply w-[95%] bg-white rounded-[15px] mx-auto;
+  @apply w-[95%] bg-white rounded-[15px] mx-auto py-8 mb-15;
 }
 
 /* header top starts */

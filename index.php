@@ -651,15 +651,18 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
 
-                            <h3 class="category-list__item-title">
-                                <a href=""
-                                    class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking</a>
-                            </h3>
-
+                                    <div class="category-list__item-title">
+                                        <a href="">Trekking</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class=" swiper-slide">
                             <div class="category-list__item">
                                 <div class="category-list__item-image">
                                     <div class="placeholder__img-wrapper w-full">
@@ -675,45 +678,20 @@
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
                                         <div class="">
-                                            <span class="icon-milestone icon-trip"> </span>12 Trips
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <h3 class="category-list__item-title">
-                                <a href=""
-                                    class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Hiking</a>
-                            </h3>
-
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="category-list__item">
-                                <div class="category-list__item-image">
-                                    <div class="placeholder__img-wrapper w-full">
-                                        <div class="w-full placeholder__img">
-                                            <a href="">
-                                                <img src="/images/dynamic/climbing.webp" width="600" height="800"
-                                                    loading="lazy" decoding="async" data-nimg="1" alt="banner"
-                                                    style="color: transparent" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="category-list__item-meta">
-                                    <div class="category-list__item-meta-content ">
-                                        <div class="">
                                             <span class="icon-milestone"> </span>12 Trips
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
 
-                            <h3 class="category-list__item-title">
-                                <a href=""
-                                    class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Climbing</a>
-                            </h3>
-
+                                    <div class="category-list__item-title">
+                                        <a href="">Hiking</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="category-list__item">
@@ -735,13 +713,47 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
 
-                            <h3 class="category-list__item-title">
-                                <a href=""
-                                    class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Tour</a>
-                            </h3>
+                                    <div class="category-list__item-title">
+                                        <a href="">Tour</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-list__item">
+                                <div class="category-list__item-image">
+                                    <div class="placeholder__img-wrapper w-full">
+                                        <div class="w-full placeholder__img">
+                                            <a href="">
+                                                <img src="/images/dynamic/climbing.webp" width="600" height="800"
+                                                    loading="lazy" decoding="async" data-nimg="1" alt="banner"
+                                                    style="color: transparent" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-list__item-meta">
+                                    <div class="category-list__item-meta-content ">
+                                        <div class="">
+                                            <span class="icon-milestone"> </span>12 Trips
+                                        </div>
+                                    </div>
+                                </div>
 
+                            </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
+
+                                    <div class="category-list__item-title">
+                                        <a href="">Climbing</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="category-list__item">
@@ -763,14 +775,16 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
 
-                            <h3 class="category-list__item-title">
-                                <a href=""
-                                    class="font-playfair text-xl font-extrabold transition-all duration-500 leading-19 pl-4 hover:text-primary">Trekking
-                                    in Nepal</a>
-                            </h3>
-
+                                    <div class="category-list__item-title">
+                                        <a href="">Trekking</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

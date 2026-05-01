@@ -3,7 +3,7 @@
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box contact-page bg-secondary" role="main">
   <div class="common-page-wrapper">
-    <div class="container common-box pb-0">
+    <div class="container">
       <div class="page-title">
         <h1>
           Contact
@@ -71,99 +71,51 @@
           </div>
         </div>
       </div>
-      <div class="common-box contact-page__form floating-form">
+      <div class="common-box contact-page__form ">
         <div class="grid grid-cols-12">
           <div class="col-span-12 lg:col-span-6">
             <div class="mb-3 text-xl font-extrabold text-text_color">We Would love to hear from you.</div>
-            <form class="contact-form ">
-              <div class="relative z-0 w-full mb-5 group">
-                <input
-                  type="text"
-                  name="fullname"
-                  id="fullname"
-                  class="block w-full text-heading_color custom-rounded peer focus:outline-none focus:ring-0"
-                  placeholder=" "
-                  required />
-                <label
-                  for="fullname"
-                  class="text-text-color peer-focus:text-text-color pl-4 peer-focus:dark:text-text-color absolute top-3 origin-[0] -translate-y-3 scale-75 transform duration-300 focus:pl-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-3 peer-focus:scale-75 rtl:peer-focus:translate-x-1/4">
-                  Full Name<span class="text-red-700">*</span>
-                </label>
-              </div>
-              <div class="relative z-0 w-full mb-5 group">
-                <input
-                  type="email"
-                  name="mail"
-                  id="mail"
-                  class="block w-full appearance-none text-heading_color custom-rounded peer focus:outline-none focus:ring-0"
-                  placeholder=" "
-                  required />
-                <label
-                  for="mail"
-                  class="text-text-color peer-focus:text-text-color pl-4 peer-focus:dark:text-text-color absolute top-3 origin-[0] -translate-y-3 scale-75 transform duration-300 focus:pl-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-3 peer-focus:scale-75 rtl:peer-focus:translate-x-1/4">
-                  Email Address<span class="text-red-700">*</span>
-                </label>
-              </div>
-              <div class="grid md:grid-cols-2 md:gap-6">
-                <div class="relative z-0 w-full group lg:mb-5">
-                  <input
-                    type="text"
-                    name="phone"
-                    id="phone"
-                    class="block w-full appearance-none text-heading_color custom-rounded peer focus:outline-none focus:ring-0"
-                    placeholder=" "
-                    required />
-                  <label
-                    for="phone"
-                    class="text-text-color peer-focus:text-text-color pl-4 peer-focus:dark:text-text-color absolute top-3 origin-[0] -translate-y-3 scale-75 transform duration-300 focus:pl-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-3 peer-focus:scale-75 rtl:peer-focus:translate-x-1/4">
-                    Phone Number<span class="text-red-700">*</span>
-                  </label>
-                </div>
-                <div class="relative z-0 w-full mb-5 group">
-                  <select
-                    name="country"
-                    id="country"
-                    class="block w-full appearance-none text-heading_color custom-rounded peer focus:outline-none focus:ring-0">
-                    <option selected>Choose a country</option>
-                    <option value="NEP" selected>
-                      Nepal
-                    </option>
-                    <option value="US">United States</option>
-                    <option value="CA">Canada</option>
-                    <option value="FR">France</option>
-                    <option value="DE">Germany</option>
-                  </select>
-                  <label
-                    for="country"
-                    class="text-text-color peer-focus:text-text-color pl-4 peer-focus:dark:text-text-color absolute top-3 origin-[0] -translate-y-3 scale-75 transform duration-300 focus:pl-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-3 peer-focus:scale-75 rtl:peer-focus:translate-x-1/4">
-                    Choose a Country
-                    <span class="text-red-700">*</span>
-                  </label>
-                  <small class="font-semibold text-red-500">
-                    Country field is required
-                  </small>
-                </div>
-              </div>
-              <div class="relative z-0 w-full mb-5">
-                <textarea
-                  name="extra_info"
-                  id="extrainfo"
-                  rows={4}
-                  class="block w-full appearance-none text-heading_color custom-rounded peer focus:outline-none focus:ring-0"
-                  placeholder=" "
-                  required></textarea>
-                <label
-                  for="extrainfo"
-                  class="peer-focus:text-text-color peer-focus:dark:text-text-color pl-4 absolute top-3 origin-[0] -translate-y-3 scale-75 transform duration-300 focus:pl-0 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:start-0 peer-focus:-translate-y-3 peer-focus:scale-75 rtl:peer-focus:translate-x-1/4">
-                  Questions / Comments*
-                </label>
-              </div>
+            <div class="contact-page__form-card">
+              <div class="contact-page__form-title">Get in touch</div>
 
-              <button href="" class="inline-flex items-center gap-3 arrow-move-effect bg-[#90d4ff] rounded-[30px] px-5 py-[10px]">
-                Send message
-                <span class="text-sm icon-slanted-arrow"></span>
-              </button>
-            </form>
+              <form class="contact-page__form" action="#" method="post">
+                <div class="contact-page__form-grid">
+                  <div class="contact-page__field contact-page__field--full">
+                    <input type="text" id="contact-name" name="name" placeholder="Your full name" required>
+                  </div>
+
+                  <div class="contact-page__field contact-page__field--full">
+                    <input type="email" id="contact-email" name="email" placeholder="you@example.com" required>
+                  </div>
+
+                  <div class="contact-page__field">
+                    <input type="tel" id="contact-phone" name="phone" placeholder="+977" required>
+                  </div>
+
+                  <div class="contact-page__field">
+                    <select id="contact-country" name="country" required>
+                      <option value="">Select your country</option>
+                      <option value="Nepal">Nepal</option>
+                      <option value="India">India</option>
+                      <option value="United States">United States</option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Canada">Canada</option>
+                    </select>
+                  </div>
+
+                  <div class="contact-page__field contact-page__field--full">
+                    <textarea id="contact-message" name="message" rows="6"
+                      placeholder="Tell us about your plan, preferred destinations, dates, or any special requirements."></textarea>
+                  </div>
+                </div>
+
+                <button type="submit" class="btn-primary hav-icon mt-2">
+                  Send Message
+                  <span class="icon-view "></span>
+                </button>
+              </form>
+            </div>
           </div>
           <div class="col-span-12 lg:col-span-6">
             <div class="contact-page__map">

@@ -4,7 +4,7 @@
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box bg-secondary legal-page" role="main">
   <div class="common-page-wrapper">
-    <div class="container common-box">
+    <div class="container">
 
       <div class="page-title">
         <h1>Legal Document</h1>
