@@ -100,7 +100,7 @@
 </section>
 
 
-<section class="common-box  package-page bg-secondary relative md:-mb-15.5 lg:pb-30" role="main">
+<section class="common-box pt-0 package-page bg-secondary relative md:-mb-15.5 lg:pb-30" role="main">
   <div class="package__banner">
     <div class="container-fluid relative">
       <div class="package__banner-wrapper">
@@ -214,8 +214,8 @@
                                   acclimatization over 3000 meters.
                                 </p>
                               </div>
-
-                              <div class="absolute h-3 w-3  rotate-45  bg-black/70 left-1/2 -translate-x-1/2 -translate-y-2"></div>
+                              <div class="absolute left-1/2 -translate-x-1/2 border-l-[6px] border-r-[6px] border-b-[8px] border-l-transparent border-r-transparent border-b-black/70 rotate-180">
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -461,22 +461,22 @@
                     et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                   </div>
                 </div>
-                <div class="package__full-itinerary-item mb-6.25 last:mb-0">
-                  <!-- <div class="package__full-itinerary-item-title-wrap"> -->
-                  <div class="package__full-itinerary-item-day">
-                    <span class="icon-place">
+                <div class="package__full-itinerary-item relative mb-6.25 last:mb-0">
+                  <div class="flex flex-col lg:flex-row items-start gap-2 lg:gap-4">
 
-                    </span>
-                    <span> Day 1</span>
+                    <div class="package__full-itinerary-item-day ">
+                      <span class="icon-place"></span>
+                      <span>Day 1</span>
+                    </div>
+
+                    <h3 class="package__full-itinerary-item-title">
+                      Arrival in Kathmandu, transfer to the hotel.
+                    </h3>
+
                   </div>
-                  <!-- <div class="package__full-itinerary-item-title"> -->
-                  <h3 class="package__full-itinerary-item-title">Arrival in Kathmandu, transfer to the hotel.</h3>
-                  <!-- </div> -->
-                  <!-- </div> -->
-
                   <div class="package__full-itinerary-item-content">
                     <div class="fancybox-wrapper">
-                      <div class="package__full-itinerary-item-content-description px-6 mt-6">
+                      <div class="package__full-itinerary-item-content-description ">
                         <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
                           awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
                           tradition can be found. At this very day, we’ll meet each other in person after your arrival in
@@ -484,8 +484,8 @@
                         </p>
                       </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4 px-6.25">
-                      <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-3.75">
+                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 lg:px-5">
+                      <div class="package__full-itinerary-item-facts-wrapper flex items-stretch  ">
                         <div class="itinerary-item-facts-unit ">
                           <span class="text-xl text-text_color icon-max-altitude"></span>
                           <span class="text-sm text-text_color">Max Altitude: 1300m</span>
@@ -525,126 +525,132 @@
 
                   </div>
                 </div>
-                <div class="package__full-itinerary-item mb-6.25 last:mb-0">
-                  <div class="flex flex-col lg:flex-row items-start gap-5">
-                    <div class="package__full-itinerary-item-day">
-                      <span class="icon-place">
+                <div class="package__full-itinerary-item relative mb-6.25 last:mb-0">
+                  <div class="flex flex-col lg:flex-row items-start gap-2 lg:gap-4">
 
-                      </span>
-                      <span> Day 2</span>
+                    <div class="package__full-itinerary-item-day ">
+                      <span class="icon-place"></span>
+                      <span>Day 2</span>
                     </div>
-                    <div class="package__full-itinerary-item-title">
+
+                    <h3 class="package__full-itinerary-item-title">
                       Arrival in Kathmandu, transfer to the hotel.
-                    </div>
-                  </div>
+                    </h3>
 
+                  </div>
                   <div class="package__full-itinerary-item-content">
-                    <div class="package__full-itinerary-item-content-description px-6 mt-6">
-                      <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
-                        awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
-                        tradition can be found. At this very day, we’ll meet each other in person after your arrival in
-                        Kathmandu Airport
-                      </p>
-                      <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4">
-                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-3.75">
-                          <div class="itinerary-item-facts-unit ">
-                            <span class="text-xl text-text_color icon-max-altitude"></span>
-                            <span class="text-sm text-text_color">Max Altitude: 1300m</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-meal"></span>
-                            <span class="text-sm text-text_color">Meals: B/L/D</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-calendar-lines"></span>
-                            <span class="text-sm text-text_color">Duration: 1 day</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-distance"></span>
-                            <span class="text-sm text-text_color">Distance: 2 km</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-accommodation"></span>
-                            <span class="text-sm text-text_color">Accommodation: Hotel</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-travel-style"></span>
-                            <span class="text-sm text-text_color">Trekking: 5 hours</span>
-                          </div>
-                        </div>
-                        <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
-                          <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
-                            data-src="./images/dynamic/day1.webp">
-                            <img
-                              src="/images/dynamic/day1.webp"
-                              width="600"
-                              height="630"
-                              alt="banner" />
-                          </a>
-                        </div>
+                    <div class="fancybox-wrapper">
+                      <div class="package__full-itinerary-item-content-description ">
+                        <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
+                          awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
+                          tradition can be found. At this very day, we’ll meet each other in person after your arrival in
+                          Kathmandu Airport
+                        </p>
                       </div>
                     </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 lg:px-5">
+                      <div class="package__full-itinerary-item-facts-wrapper flex items-stretch  ">
+                        <div class="itinerary-item-facts-unit ">
+                          <span class="text-xl text-text_color icon-max-altitude"></span>
+                          <span class="text-sm text-text_color">Max Altitude: 1300m</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-meal"></span>
+                          <span class="text-sm text-text_color">Meals: B/L/D</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-calendar-lines"></span>
+                          <span class="text-sm text-text_color">Duration: 1 day</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-distance"></span>
+                          <span class="text-sm text-text_color">Distance: 2 km</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-accommodation"></span>
+                          <span class="text-sm text-text_color">Accommodation: Hotel</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-travel-style"></span>
+                          <span class="text-sm text-text_color">Trekking: 5 hours</span>
+                        </div>
+                      </div>
+                      <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
+                        <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
+                          data-src="./images/dynamic/day1.webp">
+                          <img
+                            src="/images/dynamic/day1.webp"
+                            width="600"
+                            height="630"
+                            alt="banner" />
+                        </a>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
-                <div class="package__full-itinerary-item mb-6.25 last:mb-0">
-                  <div class="flex flex-col lg:flex-row items-start gap-5">
-                    <div class="package__full-itinerary-item-day">
-                      <span class="icon-place">
+                <div class="package__full-itinerary-item relative mb-6.25 last:mb-0">
+                  <div class="flex flex-col lg:flex-row items-start gap-2 lg:gap-4">
 
-                      </span>
-                      <span> Day 3</span>
+                    <div class="package__full-itinerary-item-day ">
+                      <span class="icon-place"></span>
+                      <span>Day 3</span>
                     </div>
-                    <div class="package__full-itinerary-item-title">
+
+                    <h3 class="package__full-itinerary-item-title">
                       Arrival in Kathmandu, transfer to the hotel.
-                    </div>
-                  </div>
+                    </h3>
 
+                  </div>
                   <div class="package__full-itinerary-item-content">
-                    <div class="package__full-itinerary-item-content-description px-6 mt-6">
-                      <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
-                        awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
-                        tradition can be found. At this very day, we’ll meet each other in person after your arrival in
-                        Kathmandu Airport
-                      </p>
-                      <div class="grid grid-cols-1 md:grid-cols-2 py-6 gap-4">
-                        <div class="package__full-itinerary-item-facts-wrapper   flex items-stretch gap-3.75">
-                          <div class="itinerary-item-facts-unit ">
-                            <span class="text-xl text-text_color icon-max-altitude"></span>
-                            <span class="text-sm text-text_color">Max Altitude: 1300m</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-meal"></span>
-                            <span class="text-sm text-text_color">Meals: B/L/D</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-calendar-lines"></span>
-                            <span class="text-sm text-text_color">Duration: 1 day</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-distance"></span>
-                            <span class="text-sm text-text_color">Distance: 2 km</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-accommodation"></span>
-                            <span class="text-sm text-text_color">Accommodation: Hotel</span>
-                          </div>
-                          <div class="itinerary-item-facts-unit">
-                            <span class="text-xl text-text_color icon-travel-style"></span>
-                            <span class="text-sm text-text_color">Trekking: 5 hours</span>
-                          </div>
-                        </div>
-                        <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
-                          <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
-                            data-src="./images/dynamic/day1.webp">
-                            <img
-                              src="/images/dynamic/day1.webp"
-                              width="600"
-                              height="630"
-                              alt="banner" />
-                          </a>
-                        </div>
+                    <div class="fancybox-wrapper">
+                      <div class="package__full-itinerary-item-content-description ">
+                        <p>Welcome to Nepal; the land of vivid colours, cultures and heritages. Also blessed with the
+                          awe-inspiring Himalayas, Nepal is among the few countries where such a unique blend of nature and
+                          tradition can be found. At this very day, we’ll meet each other in person after your arrival in
+                          Kathmandu Airport
+                        </p>
                       </div>
                     </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 lg:px-5">
+                      <div class="package__full-itinerary-item-facts-wrapper flex items-stretch  ">
+                        <div class="itinerary-item-facts-unit ">
+                          <span class="text-xl text-text_color icon-max-altitude"></span>
+                          <span class="text-sm text-text_color">Max Altitude: 1300m</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-meal"></span>
+                          <span class="text-sm text-text_color">Meals: B/L/D</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-calendar-lines"></span>
+                          <span class="text-sm text-text_color">Duration: 1 day</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-distance"></span>
+                          <span class="text-sm text-text_color">Distance: 2 km</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-accommodation"></span>
+                          <span class="text-sm text-text_color">Accommodation: Hotel</span>
+                        </div>
+                        <div class="itinerary-item-facts-unit">
+                          <span class="text-xl text-text_color icon-travel-style"></span>
+                          <span class="text-sm text-text_color">Trekking: 5 hours</span>
+                        </div>
+                      </div>
+                      <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
+                        <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
+                          data-src="./images/dynamic/day1.webp">
+                          <img
+                            src="/images/dynamic/day1.webp"
+                            width="600"
+                            height="630"
+                            alt="banner" />
+                        </a>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
 
@@ -660,7 +666,7 @@
                   No worries. Our team is ready to guide you every step of the way.
                 </div>
               </div>
-              <div class="flex gap-2">
+              <div class="flex flex-col lg:flex-row gap-2">
                 <button type="button" class="package__cta-btn"> Download Itinerary <span class="icon-view"></span>
                 </button>
                 <a href="" class="package__cta-btn">Customize trip <span class="text-sm icon-view"></span></a>
@@ -796,14 +802,69 @@
               <div class="package__availability-note-title">
                 Note to Solo Travelers:
               </div>
-              <div class="package__availability-note-content leading-7">
+              <div class="package__availability-note-content">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et
                 dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
               </div>
             </div>
           </div>
+          <!-- <div class="package__addons common-module " id="package-addons">
+            <h2 class="package__section-title">Add-ons</h2>
+            <div class="font-medium mb-4 leading-6.5 text-base">
+              Embark on the ultimate adventure with a trek to Mount Everest, the world's
+              highest peak. The Mount Everest trekking route offers unparalled views of breathtaking landscapes.</div>
+            <div class="package__addons-content">
+              <div class="package__addons-wrapper">
+                <div class=" accordion-wrapper">
+                  <div class="" id="addon-accordion">
+                    <div class="package__addons-item " data-id="q1">
+                      <div class="package__addons-item-content">
+                        <h4 class="package__addons-item-title mb-0! text-[18px]">HeliFlight
+                          from EBC
+                          to
+                          Kathmandu </h4>
+                        <span class="text-[14px]"> Embark on the ultimate
+                          adventure with a trek to Mount
+                          Everest,
+                          the world's highest peak. The Mount Everest trekking
+                          route.</span>
+                      </div>
+                      <div class="package__addons-item-price">
+                        <span class="package__addons-item-price text-[16px]">US$1300 per
+                          person
+                        </span>
+                      </div>
+                    </div>
 
+                  </div>
+                </div>
+                <div class=" accordion-wrapper">
+                  <div class="accordion with-plus-minus" id="addon-accordion">
+                    <div class="accordion__item package__addons-item" data-id="q1">
+                      <div class="package__addons-item-content">
+                        <h4 class="package__addons-item-title mb-0! text-[18px]">HeliFlight
+                          from EBC
+                          to
+                          Kathmandu </h4>
+                        <span class="text-[14px]"> Embark on the ultimate
+                          adventure with a trek to Mount
+                          Everest,
+                          the world's highest peak. The Mount Everest trekking
+                          route.</span>
+                      </div>
+                      <div class="package__addons-item-price">
+                        <span class="package__addons-item-price text-[16px]">US$1300 per
+                          person
+                        </span>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
           <div class="package__addons common-module " id="package-addons">
             <h2 class="package__section-title">Add-on</h2>
             <div class="package__addons-content">
@@ -812,7 +873,7 @@
               </div>
               <div class="package__addons-wrapper">
                 <div class="package__addons-list" id="package-addons-list">
-                  <div class="package__addons-item is-open">
+                  <div class="package__addons-item is-open mb-3">
                     <button type="button" class="package__addons-item-trigger" aria-expanded="true">
                       <span class="package__addons-item-title-wrap">
                         <span class="package__addons-item-title">1. HeliFlight from EBC to Kathmandu</span>
@@ -849,64 +910,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="package__addons common-module " id="package-addons">
-              <h2 class="package__section-title ">Add-ons</h2>
-              <div class="package__addons-content">
-                <div class="text-text_color">Embark on the ultimate adventure with a trek to Mount Everest, the world's
-                  highest peak. The Mount Everest trekking route offers unparalled views of breathtaking landscapes.
-                </div>
-                <div class="package__addons-wrapper">
-                  <div class=" accordion-wrapper">
-                    <div class="" id="addon-accordion">
-                      <div class="package__addons-item " data-id="q1">
-                        <div class="package__addons-item-content">
-                          <h4 class="package__addons-item-title mb-0! text-[18px]">HeliFlight
-                            from EBC
-                            to
-                            Kathmandu </h4>
-                          <span class="text-[14px]"> Embark on the ultimate
-                            adventure with a trek to Mount
-                            Everest,
-                            the world's highest peak. The Mount Everest trekking
-                            route.</span>
-                        </div>
-                        <div class="package__addons-item-price">
-                          <span class="package__addons-item-price text-[16px]">US$1300 per
-                            person
-                          </span>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                  <div class=" accordion-wrapper">
-                    <div class="accordion with-plus-minus" id="addon-accordion">
-                      <div class="accordion__item package__addons-item" data-id="q1">
-                        <div class="package__addons-item-content">
-                          <h4 class="package__addons-item-title mb-0! text-[18px]">HeliFlight
-                            from EBC
-                            to
-                            Kathmandu </h4>
-                          <span class="text-[14px]"> Embark on the ultimate
-                            adventure with a trek to Mount
-                            Everest,
-                            the world's highest peak. The Mount Everest trekking
-                            route.</span>
-                        </div>
-                        <div class="package__addons-item-price">
-                          <span class="package__addons-item-price text-[16px]">US$1300 per
-                            person
-                          </span>
-                        </div>
-                      </div>
-
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div> -->
-
           <div class="package__equipment common-module" id="package-equipments">
             <h2 class="package__section-title">Equipment List</h2>
             <div class="package__equipment-content text-base leading-7">
@@ -1088,17 +1091,17 @@
           </div>
         </div>
         <div class="col-span-12 lg:col-span-4 gap-8 common-box">
-          <div class="package__price-sidebar lg:sticky top-15  lg:mb-0 mb-5">
-            <div class="package-actions">
-              <button class="package-actions__item btn-secondary bg-[#f6faff] gap-2 hav-icon">
-                <span class="icon-send text-lg text-[#6cafda]"></span>
-                View Map
-              </button>
-              <button class="package-actions__item btn-primary">
-                <span class="icon-share text-lg"></span>
-                Share
-              </button>
-            </div>
+          <div class="package-actions">
+            <button class="package-actions__item btn-secondary bg-[#f6faff] gap-2 hav-icon">
+              <span class="icon-send text-lg text-[#6cafda]"></span>
+              View Map
+            </button>
+            <button class="package-actions__item btn-primary">
+              <span class="icon-share text-lg"></span>
+              Share
+            </button>
+          </div>
+          <div class="package__price-sidebar ">
             <div class="package-price-main-wrapper ">
               <div class="package-price-wrapper ">
 
@@ -1302,7 +1305,7 @@
           <div class="package__review-platforms">
             <div class="package__review-platform">
 
-              <img src="/images/svg/circular-tripadvisor.svg" width="31" height="31" alt="Tripadvisor" />
+              <img src="/images/svg/circular-tripadvisor.svg" width="31" height="31" alt="Tripadvisor" class="cursor-pointer" />
               <div class="package__review-platform-copy">
 
                 <div class="package__review-platform-rating green-dot-rating">
@@ -1321,7 +1324,7 @@
             </div>
             <div class="package__review-platform">
 
-              <img src="/images/svg/circular-google.svg" width="31" height="31" alt="Google" />
+              <img src="/images/svg/circular-google.svg" width="31" height="31" alt="Google" class="cursor-pointer" />
               <div class="package__review-platform-copy">
 
                 <div class="package__review-platform-rating star-rating">
@@ -1340,7 +1343,7 @@
             </div>
             <div class="package__review-platform">
 
-              <img src="/images/svg/trustpilot.svg" width="31" height="31" alt="Trustpilot" />
+              <img src="/images/svg/trustpilot.svg" width="31" height="31" alt="Trustpilot" class="cursor-pointer" />
               <div class="package__review-platform-copy">
 
                 <div class="package__review-platform-rating green-dot-rating">
@@ -1366,7 +1369,7 @@
 
             <div class="col-span-6">
               <div class="testimonial__list-item m-0!">
-                <div class="testimonial__list-item-meta mb-0 flex items-center justify-between">
+                <div class="testimonial__list-item-meta mb-0 ">
                   <div class="testimonial__list-item-rating green-dot-rating">
                     <div class="rating-wrap rating-5">
                       <span class="star"></span>
@@ -1395,10 +1398,10 @@
 
                   </div>
                   <div class="reviewer-content ">
-                    <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                    <div class="text-base md:text-lg leading-6 font-bold text-text_color">Ramiro Barraza -
                       USA
                     </div>
-                    <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
+                    <span class="block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
                   </div>
                 </div>
               </div>
@@ -1406,7 +1409,7 @@
 
             <div class="col-span-6">
               <div class="testimonial__list-item m-0!">
-                <div class="testimonial__list-item-meta mb-0 flex items-center justify-between">
+                <div class="testimonial__list-item-meta mb-0">
                   <div class="testimonial__list-item-rating green-dot-rating">
                     <div class="rating-wrap rating-5">
                       <span class="star"></span>
@@ -1418,7 +1421,7 @@
                   </div>
                 </div>
                 <div class="testimonial__list-item-title">" The trek was life-changing!</div>
-                <div class="review-list__item-content text-text_color text-sm">
+                <div class="review-list__item-content ">
                   <div class="testimonial__list-item-content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
                       eum mollitia. Similique harum veniam totam iste?</p>
@@ -1426,16 +1429,10 @@
                 </div>
                 <div class="testimonial__list-item-reviewer ">
                   <div class="reviewer-image">
-                    <div class="placeholder__img-wrapper">
-                      <div class="w-full placeholder__img">
-                        <img src="/images/dynamic/reviewer.webp" width="55" height="55"
-                          class="rounded-full" alt="" />
-                      </div>
-                    </div>
-
+                    <div class="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-secondary font-poppins text-xl text-white">R</div>
                   </div>
                   <div class="reviewer-content ">
-                    <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                    <div class=" text-base md:text-lg leading-6 font-bold text-text_color">Ramiro Barraza -
                       USA
                     </div>
                     <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
@@ -1447,7 +1444,7 @@
           </div>
 
         </div>
-        <button class="text-lg font-bold text-text_color font-mulish leading-7 underline">
+        <button class="text-lg font-bold text-text_color font-mulish leading-7 underline hover:text-primary">
           Load More
         </button>
 
@@ -1724,16 +1721,21 @@
         setActiveLink(activeSectionId);
       }
 
-      // --- Nav show/hide based on #no-nav ---
-      const commonBox = document.getElementById('no-nav');
-      if (commonBox) {
-        const rect = commonBox.getBoundingClientRect();
-        if (rect.top <= 50 || window.scrollY <= 750) {
-          nav.classList.remove('visible');
-          nav.classList.add('hidden');
+      // --- Hide nav after #no-nav section ---
+      const noNavSection = document.getElementById("no-nav");
+
+      if (noNavSection) {
+        const noNavTop = noNavSection.offsetTop;
+
+        if (window.scrollY + getScrollOffset() >= noNavTop) {
+          nav.classList.remove("sticky");
+          nav.classList.add("hidden");
         } else {
-          nav.classList.add('visible');
-          nav.classList.remove('hidden');
+          nav.classList.remove("hidden");
+
+          if (window.scrollY > stickyThreshold) {
+            nav.classList.add("sticky");
+          }
         }
       }
     }

@@ -2,9 +2,9 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box album-page bg-secondary" role="main">
+<section class="common-box pt-0 album-page bg-secondary" role="main">
   <div class="common-page-wrapper">
-    <div class="container common-box">
+    <div class="container common-box pt-0">
       <div class="page-title">
         <h1>Album</h1>
       </div>

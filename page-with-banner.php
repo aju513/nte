@@ -6,7 +6,7 @@
 <?php include('./inc/innerbanner.php') ?>
 <div class="bg-secondary common-box" role="main">
   <div class="w-[95%]  bg-white rounded-[15px] m-auto relative  -top-40">
-    <section class=" common-page common-box pb-0">
+    <section class="common-box pb-0">
       <div class="container ">
         <div class="page-title common-box pb-0">
           <h1 class="pt-6">About us</h1>
@@ -363,7 +363,7 @@
             </div>
 
           </div>
-          <button class="text-lg font-bold text-text_color font-mulish leading-7 underline">
+          <button class="text-lg font-bold text-text_color font-mulish leading-7 underline hover:text-primary">
             Load More
           </button>
 

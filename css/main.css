@@ -170,7 +170,7 @@
   }
   /* tooltip start*/
   .tooltip-content {
-    @apply absolute left-1/2 bottom-full z-10! mt-4 w-72 -translate-x-1/2  opacity-0 invisible transition-all duration-500 group-hover:visible group-hover:opacity-100 group-hover:-translate-y-2;
+    @apply absolute left-1/2 bottom-full z-10! mt-2 w-72 -translate-x-1/2  opacity-0 invisible transition-all duration-500 group-hover:visible group-hover:opacity-100 group-hover:-translate-y-2;
     p {
       @apply text-sm text-white!;
     }
@@ -469,7 +469,7 @@
 
     &.hav-icon {
       .icon-view {
-        @apply inline-block translate-x-0 transition-transform duration-500 ease-in-out;
+        @apply inline-block translate-x-0 transition-transform duration-500 ease-in-out text-xs;
       }
 
       &:hover {
@@ -490,7 +490,7 @@
   .btn-outline-secondary.hav-icon {
     @apply inline-flex items-center gap-2;
     span {
-      @apply translate-x-0 transition-transform duration-500 ease-in-out;
+      @apply translate-x-0 transition-transform duration-500 ease-in-out text-xs;
     }
     &:hover {
       span {
@@ -679,6 +679,11 @@
     background-position: 50% 50%;
     background-size: auto 20%;
     content: "";
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(247, 248, 250, 0) 35%
+    );
   }
   .placeholder__img {
     @apply absolute top-0 size-full w-full rounded-[inherit];
@@ -717,12 +722,12 @@
       font-size: clamp(0.875rem, 3vw, 0.875rem);
     }
     ul {
-      @apply mb-7;
+      @apply mb-2;
       &:last-of-type {
         @apply mb-0;
       }
       li {
-        @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
+        @apply text-text_color relative mb-2.5 pl-5.5 text-base leading-5;
         &::before {
           content: "";
           @apply absolute top-1 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
@@ -812,7 +817,7 @@
   /* blockquote ends */
   /* inner banner starts */
   .innerpage-banner {
-    @apply rounded-custom relative  bg-secondary pt-5;
+    @apply rounded-custom relative  bg-secondary;
     .placeholder__img-wrapper {
       @apply rounded-custom relative aspect-1400/630;
     }
@@ -950,7 +955,7 @@
   .package-list__item {
     @apply rounded-[10px] shadow-custom relative bg-secondary transition-all duration-500;
     .package-list__item-badge {
-      @apply absolute left-4 top-4 z-10 cursor-pointer rounded-full bg-[#6cafda] px-3 py-2 text-[10px] font-medium uppercase text-white transition-all duration-300 ease-in-out hover:bg-[#6cafda]/90;
+      @apply absolute left-4 top-4 z-10 cursor-pointer rounded-full bg-[#6cafda] px-2.5 py-1.5 text-[10px] font-medium uppercase text-white transition-all duration-300 ease-in-out hover:bg-[#6cafda]/90;
     }
     .package-list__item-image {
       @apply rounded-t-[10px] relative rounded-b-none;
@@ -1190,7 +1195,7 @@
 
   /* blog search */
   .blog-search {
-    @apply rounded-custom shadow-custom mb-9 bg-white p-4 lg:p-10;
+    @apply rounded-custom shadow-custom mb-9 bg-block/20 p-4 lg:p-10;
   }
   /* blog list starts */
   .blog-list__item {
@@ -1287,21 +1292,24 @@
   }
 
   .testimonial__list-item {
-    @apply rounded-xl bg-white lg:p-12.5 p-14 shadow-custom mt-6;
+    @apply rounded-xl bg-white p-4 lg:p-10 shadow-custom;
     .testimonial__list-item-meta {
       @apply mb-2 flex flex-col items-start max-sm:gap-3 sm:mb-6 sm:flex-row sm:items-center sm:justify-between;
     }
     .testimonial__list-item-reviewer {
-      @apply flex  gap-5 mt-5 justify-start;
+      @apply flex  gap-5 mt-5 justify-start items-center;
     }
     a .testimonial__list-item-rating {
       @apply flex items-center justify-end gap-px;
     }
     .reviewer-image {
-      @apply flex-[0_0_50px];
+      @apply w-[50px] h-[50px] flex-shrink-0;
       .placeholder__img-wrapper {
         @apply aspect-square rounded-full;
       }
+    }
+    .reviewer-content {
+      @apply text-text_color leading-2;
     }
     .testimonial__list-item-title {
       @apply leading-7 font-mulish text-lg font-extrabold lg:text-xl;
@@ -1421,7 +1429,7 @@
   /* blog navigation ends */
   /* featured blog starts */
   .featured-blog {
-    @apply mb-5 lg:mb-15;
+    @apply mb-5 lg:mb-10 mt-5;
     .featured-blog__image {
       @apply mt-8 rounded-2xl lg:mt-0;
       .placeholder__img-wrapper {
@@ -1435,7 +1443,7 @@
       }
     }
     .featured-blog__content-wrap {
-      @apply bg-dim_bg relative z-10 mt-5 h-[calc(100%-40px)] rounded-2xl p-5 max-lg:pb-17 max-sm:pb-12 sm:p-10 lg:-left-10 lg:bg-white;
+      @apply bg-secondary relative z-10 mt-5 h-[calc(100%-40px)] rounded-2xl p-5 max-lg:pb-17 max-sm:pb-12 sm:p-10 lg:-left-10;
       a {
         @apply max-lg:mb-4;
       }
@@ -2878,59 +2886,59 @@
 
 /* package page starts */
 /* package nav list */
-.package-sticky-nav::-webkit-scrollbar {
-  @apply hidden;
-}
 .package-sticky-nav {
-  scrollbar-width: none;
-}
-.package-sticky-nav {
-  -ms-overflow-style: none;
-}
-.package-sticky-nav {
-  @apply shadow-custom bg-primary top-0 z-100 hidden w-full overflow-x-auto;
+  @apply shadow-custom bg-primary top-0 z-100 w-full;
+  display: none;
 
   .nav-link-wrapper {
     @apply flex w-max gap-2;
   }
+
   .nav-item-link {
     @apply hover:text-secondary flex items-center gap-2 px-3 py-3 text-sm text-white transition-all duration-500;
+
     span {
       @apply transition-all duration-500;
     }
+
     &:hover span {
       @apply text-secondary transition-all duration-500;
     }
   }
+
   .nav-item-link.active {
     @apply hover:text-primary bg-[#6cafda];
+
     &:hover svg {
       @apply text-primary;
     }
   }
+
   .package-page__nav-item-title {
     @apply text-sm text-white;
   }
 }
+
 .package-sticky-nav.sticky {
   @apply fixed top-0 z-1001 block w-full;
+
   animation: 0.6s ease-out slideDown;
 }
 /* package section title */
 .package__section-title {
-  @apply font-playfair mb-4 text-3xl font-black;
+  @apply font-playfair mb-4 text-3xl font-black text-black;
 }
 /* package banner starts */
 .package__banner {
   @apply max-lg:mt-5;
   .placeholder__img-wrapper {
-    @apply aspect-1200/900 h-full rounded-[10px] lg:rounded-[25px];
+    @apply aspect-1200/900 h-full rounded-[10px];
     &:after {
-      @apply pointer-events-none absolute inset-0 z-3 h-full w-full rounded-[10px] bg-black/15 lg:rounded-[25px];
+      @apply pointer-events-none absolute inset-0 z-3 h-full w-full rounded-[10px] bg-black/15;
       content: "";
     }
     img {
-      @apply relative z-1 h-full w-full rounded-[10px] object-cover lg:rounded-[25px];
+      @apply relative z-1 h-full w-full rounded-[10px] object-cover;
     }
   }
   .package__banner-wrapper {
@@ -3073,30 +3081,30 @@
       @apply leading-6 text-text_color;
     }
     h2 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
       font-size: clamp(1.3rem, 3vw, 1.4rem);
     }
     h3 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
       font-size: clamp(1.2rem, 3vw, 1.3rem);
     }
     h4 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
       font-size: clamp(1.1rem, 3vw, 1.2rem);
     }
     h5 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
       font-size: clamp(1rem, 3vw, 1.1rem);
     }
     h6 {
-      @apply font-playfair mb-3 font-bold text-text_color;
+      @apply font-mulish mb-3 font-bold text-text_color;
       font-size: clamp(1rem, 3vw, 1rem);
     }
     ul {
-      @apply mb-8;
+      @apply mb-3;
 
       li {
-        @apply relative text-text_color;
+        @apply relative text-text_color leading-5 text-base;
         &::before {
           content: "";
           @apply absolute left-0 w-2.5 h-2.5 bg-current text-block;
@@ -3194,7 +3202,7 @@
           @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
           &::before {
             content: "";
-            @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#7680bd];
+            @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-block;
             mask: url("images/svg/splotch.svg") no-repeat center;
             mask-size: contain;
           }
@@ -3204,7 +3212,7 @@
   }
   .package__full-itinerary-wrapper {
     .package__full-itinerary-item {
-      @apply mb-2.5 rounded-[10px]  bg-[#f6faff] last:mb-0 p-2;
+      @apply mb-2.5 rounded-[10px] bg-[#f6faff] last:mb-0 p-5;
     }
     .package__full-itinerary-item-title-wrap {
       @apply relative cursor-pointer rounded-[10px] lg:p-7.5 max-sm:px-4 max-sm:pb-3;
@@ -3214,10 +3222,14 @@
       }
     }
     .package__full-itinerary-item-day {
-      @apply bg-primary absolute font-bold -left-2.5 flex items-center gap-2 text-white rounded-custom px-2 py-1.25 text-base;
+      @apply bg-primary font-bold flex items-center gap-2 text-white rounded-custom px-3 py-1.5 text-sm shadow-md;
+      @apply relative lg:absolute lg:-left-5;
+    }
+    .icon-place {
+      @apply text-sm;
     }
     .package__full-itinerary-item-title {
-      @apply font-mulish text-text_color text-lg font-extrabold lg:text-2xl lg:pl-20 pl-2;
+      @apply font-mulish text-lg font-extrabold lg:text-2xl pl-0 lg:pl-20;
     }
     .package__full-itinerary-item-title-meta {
       @apply text-text_color text-sm;
@@ -3231,7 +3243,7 @@
         padding 150ms ease,
         margin 0.4s ease;
       .package__full-itinerary-item-content-description {
-        @apply mb-5 text-base;
+        @apply mb-5 text-base py-5 lg:p-5;
         &:last-of-type {
           @apply mb-0;
         }
@@ -3270,7 +3282,7 @@
             @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
             &::before {
               content: "";
-              @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#7680bd];
+              @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-block;
               mask: url("images/svg/splotch.svg") no-repeat center;
               mask-size: contain;
             }
@@ -3279,12 +3291,12 @@
       }
 
       .package__full-itinerary-item-facts-wrapper {
-        @apply mb-3 flex flex-col flex-wrap justify-between items-start gap-x-10 gap-y-3 rounded-[10px];
+        @apply mb-3 flex flex-col flex-wrap justify-between items-start gap-x-5 gap-y-3 rounded-[10px];
         &:last-of-type {
           @apply mb-0;
         }
         .itinerary-item-facts-unit {
-          @apply flex  items-center gap-4;
+          @apply flex items-center gap-4;
         }
       }
       .package__full-itinerary-item-gallery {
@@ -3338,12 +3350,12 @@
 
 /* package cta */
 .package__cta {
-  @apply flex flex-col items-start gap-4 rounded-[10px] bg-[#6cafda] px-6 py-4 sm:px-8.75 sm:py-6.25 lg:flex-row lg:items-center lg:justify-between lg:gap-5;
+  @apply flex flex-col items-start gap-4 rounded-[10px] bg-[#6cafda] px-6 py-4 sm:px-8.75 sm:py-6.25  lg:gap-5;
   .package__cta-title {
-    @apply font-mulish mb-1 text-lg font-extrabold text-white lg:text-2xl leading-5;
+    @apply font-mulish mb-3 text-lg font-extrabold text-white lg:text-2xl leading-5;
   }
   .package__cta-content {
-    @apply text-white text-base leading-5;
+    @apply text-white text-base;
   }
   .package__cta-links {
     @apply flex w-full flex-col items-stretch gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:justify-end sm:gap-3 lg:w-auto lg:flex-nowrap;
@@ -3353,9 +3365,9 @@
     }
   }
   .package__cta-btn {
-    @apply inline-flex w-full flex-none cursor-pointer items-center justify-center gap-2 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition sm:w-auto sm:min-w-40 lg:min-w-44;
+    @apply inline-flex w-full flex-none cursor-pointer items-center justify-center gap-4 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition sm:w-auto sm:min-w-40 lg:min-w-44;
     .icon-view {
-      @apply translate-x-0 transition-transform duration-500 ease-in-out;
+      @apply translate-x-0 transition-transform duration-500 ease-in-out text-[10px];
     }
     &:hover {
       .icon-view {
@@ -3604,7 +3616,7 @@
     }
   }
   .package__book-cta {
-    @apply bg-primary text-white rounded-custom px-2.5  leading-11 text-base font-semibold;
+    @apply bg-primary text-white rounded-custom px-2.5 py-0.75 text-base font-semibold;
   }
   .package__availability-note {
     @apply bg-[#f6faff] mb-2.5 rounded-[10px] p-6 mt-[12px];
@@ -3641,10 +3653,10 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
+          @apply text-text_color relative mb-2.75 pl-7.5 text-sm;
           &::before {
             content: "";
-            @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#7680bd];
+            @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-block;
             mask: url("/images/svg/splotch.svg") no-repeat center;
             mask-size: contain;
           }
@@ -3730,7 +3742,7 @@
 /* package addons */
 .package__addons {
   .package__addons-wrapper {
-    @apply bg-[#6cafda] rounded-[10px] p-2.5 sm:p-7.5 mt-5;
+    @apply bg-[#6cafda] rounded-[10px] sm:p-5 p-2.5 mt-5;
   }
   .package__addons-content {
     a {
@@ -3779,7 +3791,7 @@
     @apply mt-2;
   } */
   .package__addons-item {
-    @apply rounded-custom bg-white last:mb-0 mb-2 p-5;
+    @apply rounded-custom bg-white  p-5;
   }
   .package__addons-item-trigger {
     @apply flex w-full items-start justify-between gap-4 bg-transparent  text-left;
@@ -3808,13 +3820,13 @@
     transform: rotate(0deg) scaleX(0);
   }
   .package__addons-item-panel {
-    @apply max-h-0 overflow-hidden px-4 opacity-0 transition-all duration-300 sm:px-5;
+    @apply max-h-0 overflow-hidden lg:px-4 mt-2 opacity-0 transition-all duration-300;
   }
   .package__addons-item.is-open .package__addons-item-panel {
     @apply opacity-100;
   }
   .package__addons-item-content {
-    @apply text-sm leading-4 text-text_color max-w-[70%];
+    @apply text-sm leading-4 text-text_color lg:max-w-[70%];
   }
   .package__addons-links {
     @apply mt-3;
@@ -4132,11 +4144,12 @@
 }
 
 /* package sidebar price */
+/* package sidebar price */
 .package-price-meta {
   @apply absolute -top-3 right-7.5 flex items-center gap-1;
 }
-.package-price-sidebar {
-  @apply static max-lg:mb-5 lg:sticky lg:mb-0 mb-8;
+.package__price-sidebar {
+  @apply static max-lg:mb-5 lg:sticky lg:top-20;
 }
 .package-actions {
   @apply flex items-center justify-start gap-6 lg:justify-end;
@@ -4145,7 +4158,7 @@
   }
 }
 .package-price-main-wrapper {
-  @apply mt-8 rounded-[10px] bg-primary  border-block border;
+  @apply mt-8 rounded-[10px] bg-primary border-block border;
 }
 .package-price-wrapper {
   @apply p-6.25;
@@ -4331,4 +4344,77 @@
 }
 .page-summary {
   @apply text-base;
+}
+.package__addons {
+  .package__addons-wrapper {
+    @apply bg-secondary rounded-[10px] p-5 sm:p-7.5;
+  }
+  .package__addons-content {
+    a {
+      @apply text-primary font-medium underline;
+    }
+    p {
+      @apply leading-6 text-white;
+    }
+    h2 {
+      @apply font-mulish mb-3 font-bold text-white;
+      font-size: clamp(1.3rem, 3vw, 1.4rem);
+    }
+    h3 {
+      @apply font-mulish mb-3 font-bold text-white;
+      font-size: clamp(1.2rem, 3vw, 1.3rem);
+    }
+    h4 {
+      @apply font-mulish mb-3 font-bold text-white;
+      font-size: clamp(1.1rem, 3vw, 1.2rem);
+    }
+    h5 {
+      @apply font-mulish mb-3 font-bold text-white;
+      font-size: clamp(1rem, 3vw, 1.1rem);
+    }
+    h6 {
+      @apply font-mulish mb-3 font-bold text-white;
+      font-size: clamp(1rem, 3vw, 1rem);
+    }
+    ul {
+      @apply mb-7;
+      &:last-of-type {
+        @apply mb-0;
+      }
+      li {
+        @apply relative mb-2.75 pl-7.75 leading-6 text-white;
+        &::before {
+          content: "";
+          @apply absolute top-px left-0 h-6 w-6 bg-current text-white;
+          mask: url("/themes/images/list-bullet.svg") no-repeat center;
+          mask-size: contain;
+        }
+      }
+    }
+  }
+  .package__addons-list {
+    @apply mt-5;
+  }
+  .package__addons-item {
+    @apply rounded-custom mb-3 bg-white p-3.75 last:mb-0;
+    .package__addons-item-title-wrap {
+      @apply flex items-start justify-between gap-y-2 max-md:flex-wrap md:gap-5;
+    }
+    .package__addons-item-title {
+      @apply font-mulish text-text_color text-base font-bold lg:text-lg;
+    }
+    .package__addons-item-price {
+      @apply text-text_color font-bold md:flex-[0_0_160px] md:text-right;
+    }
+    .package__addons-item-content {
+      @apply text-text_color mt-2 text-sm;
+    }
+  }
+  .package__addons-links {
+    @apply mt-3;
+    buttton,
+    a {
+      @apply hover:text-primary mt-3 flex items-center gap-2 text-base font-bold text-white transition-all duration-500 lg:text-lg;
+    }
+  }
 }

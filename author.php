@@ -2,14 +2,14 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box album-page bg-secondary" role="main">
+<section class="common-box pt-0 album-page bg-secondary" role="main">
   <div class="common-page-wrapper">
-    <div class="container common-box">
+    <div class="container">
       <div class="author-profile">
         <div class="author-profile__image">
           <div class="placeholder__img-wrapper">
             <div class="placeholder__img w-full"><img alt="author" loading="lazy" width="400" height="400"
-                src="../images/dynamic/author.webp"></div>
+                src="../images/dynamic/reviewer.webp"></div>
           </div>
         </div>
         <div class="author-profile__content">
@@ -21,10 +21,10 @@
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.</p>
           <div class="flex flex-wrap gap-3"><a
-              class="border-primary bg-dim_bg hover:text-text_color rounded-custom hover:bg-primary/50 flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
-              href="#!"><span class="text-5 text-black icon icon-facebook"></span>Facebook</a><a
-              class="border-primary bg-dim_bg hover:text-text_color rounded-custom hover:bg-primary/50 flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
-              href="#!"><span class="text-5 text-black icon icon-twitter"></span>Twitter</a><a
+              class="border-primary bg-dim_bg hover:text-white rounded-custom hover:bg-[#1877f2] flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
+              href="#!"><span class="text-5 text-black icon icon-facebook hover:text-white"></span>Facebook</a><a
+              class="border-primary bg-dim_bg hover:text-text_color rounded-custom hover:bg-black flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
+              href="#!"><span class="text-5 text-black icon icon-x"></span>Twitter</a><a
               class="border-primary bg-dim_bg hover:text-text_color rounded-custom hover:bg-primary/50 flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
               href="#!"> <span class="text-5 text-black icon icon-linkedin"></span>Linkedin</a></div>
         </div>
@@ -37,119 +37,186 @@
         </div>
         <div class="grid grid-cols-12 gap-5">
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="blog-list__item">
-              <div class="blog-list__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img">
+            <div class="blog-list__item ">
+              <div class="blog-list__item-image relative ">
+                <div class="placeholder__img-wrapper ">
+                  <div class="w-full placeholder__img">
                     <a href="">
-                      <img alt="image" loading="lazy" width="600"
-                        height="550" src="../images/dynamic/blog-thumb.webp" />
+                      <img src="/images/dynamic/blog-thumb.webp" width="600" height="400"
+                        alt="banner" />
                     </a>
                   </div>
                 </div>
-              </div>
-              <div class="blog-list__item-content">
-                <div class="blog-list__item-meta">
-                  <div class="blog-list__item-post-date">05 Jan, 2025</div>
-                  <div class="blog-list__item-post-author"> admin</div>
+                <div class="blog-list__item-meta homepage__blog-badge">
+                  <span class="icon-calendar text-white">
+
+                  </span>
+                  <span class=""> 20 Jan</span>
                 </div>
-                <h3 class="blog-list__item-content-title"><a href="">Meet Nature And Wildlife in Chitwan
-                    National Park</a></h3>
+              </div>
+
+              <h3 class="blog-list__item-content-title">
+                <a href="">
+                  The Highest Mountain in the world
+                </a>
+              </h3>
+              <div class="blog-list__item-btn arrow-move-effect">
+                <span>Continue Reading</span>
+                <span class="icon-arrow-right"></span>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+            <div class="blog-list__item ">
+              <div class="blog-list__item-image relative ">
+                <div class="placeholder__img-wrapper ">
+                  <div class="w-full placeholder__img">
+                    <a href="">
+                      <img src="/images/dynamic/blog-thumb.webp" width="600" height="400"
+                        alt="banner" />
+                    </a>
+                  </div>
+                </div>
+                <div class="blog-list__item-meta homepage__blog-badge">
+                  <span class="icon-calendar text-white">
+
+                  </span>
+                  <span class=""> 20 Jan</span>
+                </div>
+              </div>
+
+              <h3 class="blog-list__item-content-title">
+                <a href="">
+                  The Highest Mountain in the world
+                </a>
+              </h3>
+              <div class="blog-list__item-btn arrow-move-effect">
+                <span>Continue Reading</span>
+                <span class="icon-arrow-right"></span>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+            <div class="blog-list__item ">
+              <div class="blog-list__item-image relative ">
+                <div class="placeholder__img-wrapper ">
+                  <div class="w-full placeholder__img">
+                    <a href="">
+                      <img src="/images/dynamic/blog-thumb.webp" width="600" height="400"
+                        alt="banner" />
+                    </a>
+                  </div>
+                </div>
+                <div class="blog-list__item-meta homepage__blog-badge">
+                  <span class="icon-calendar text-white">
+
+                  </span>
+                  <span class=""> 20 Jan</span>
+                </div>
+              </div>
+
+              <h3 class="blog-list__item-content-title">
+                <a href="">
+                  The Highest Mountain in the world
+                </a>
+              </h3>
+              <div class="blog-list__item-btn arrow-move-effect">
+                <span>Continue Reading</span>
+                <span class="icon-arrow-right"></span>
               </div>
             </div>
           </div>
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="blog-list__item">
-              <div class="blog-list__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img"><a href=""><img alt="image" loading="lazy" width="600"
-                        height="550" src="../images/dynamic/blog-thumb.webp"></a>
+            <div class="blog-list__item ">
+              <div class="blog-list__item-image relative ">
+                <div class="placeholder__img-wrapper ">
+                  <div class="w-full placeholder__img">
+                    <a href="">
+                      <img src="/images/dynamic/blog-thumb.webp" width="600" height="400"
+                        alt="banner" />
+                    </a>
                   </div>
                 </div>
-              </div>
-              <div class="blog-list__item-content">
-                <div class="blog-list__item-meta">
-                  <div class="blog-list__item-post-date">05 Jan, 2025</div>
-                  <div class="blog-list__item-post-author"> admin</div>
+                <div class="blog-list__item-meta homepage__blog-badge">
+                  <span class="icon-calendar text-white">
+
+                  </span>
+                  <span class=""> 20 Jan</span>
                 </div>
-                <h3 class="blog-list__item-content-title"><a href="">Meet Nature And Wildlife in Chitwan
-                    National Park</a></h3>
               </div>
+
+              <h3 class="blog-list__item-content-title">
+                <a href="">
+                  The Highest Mountain in the world
+                </a>
+              </h3>
+              <div class="blog-list__item-btn arrow-move-effect">
+                <span>Continue Reading</span>
+                <span class="icon-arrow-right"></span>
+              </div>
+
             </div>
           </div>
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="blog-list__item">
-              <div class="blog-list__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img"><a href=""><img alt="image" loading="lazy" width="600"
-                        height="550" src="../images/dynamic/blog-thumb.webp"></a>
+            <div class="blog-list__item ">
+              <div class="blog-list__item-image relative ">
+                <div class="placeholder__img-wrapper ">
+                  <div class="w-full placeholder__img">
+                    <a href="">
+                      <img src="/images/dynamic/blog-thumb.webp" width="600" height="400"
+                        alt="banner" />
+                    </a>
                   </div>
                 </div>
-              </div>
-              <div class="blog-list__item-content">
-                <div class="blog-list__item-meta">
-                  <div class="blog-list__item-post-date">05 Jan, 2025</div>
-                  <div class="blog-list__item-post-author"> admin</div>
+                <div class="blog-list__item-meta homepage__blog-badge">
+                  <span class="icon-calendar text-white">
+
+                  </span>
+                  <span class=""> 20 Jan</span>
                 </div>
-                <h3 class="blog-list__item-content-title"><a href="">Meet Nature And Wildlife in Chitwan
-                    National Park</a></h3>
               </div>
+
+              <h3 class="blog-list__item-content-title">
+                <a href="">
+                  The Highest Mountain in the world
+                </a>
+              </h3>
+              <div class="blog-list__item-btn arrow-move-effect">
+                <span>Continue Reading</span>
+                <span class="icon-arrow-right"></span>
+              </div>
+
             </div>
           </div>
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="blog-list__item">
-              <div class="blog-list__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img"><a href=""><img alt="image" loading="lazy" width="600"
-                        height="550" src="../images/dynamic/blog-thumb.webp"></a>
+            <div class="blog-list__item ">
+              <div class="blog-list__item-image relative ">
+                <div class="placeholder__img-wrapper ">
+                  <div class="w-full placeholder__img">
+                    <a href="">
+                      <img src="/images/dynamic/blog-thumb.webp" width="600" height="400"
+                        alt="banner" />
+                    </a>
                   </div>
                 </div>
-              </div>
-              <div class="blog-list__item-content">
-                <div class="blog-list__item-meta">
-                  <div class="blog-list__item-post-date">05 Jan, 2025</div>
-                  <div class="blog-list__item-post-author"> admin</div>
-                </div>
-                <h3 class="blog-list__item-content-title"><a href="">Meet Nature And Wildlife in Chitwan
-                    National Park</a></h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="blog-list__item">
-              <div class="blog-list__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img"><a href=""><img alt="image" loading="lazy" width="600"
-                        height="550" src="../images/dynamic/blog-thumb.webp"></a>
-                  </div>
+                <div class="blog-list__item-meta homepage__blog-badge">
+                  <span class="icon-calendar text-white">
+
+                  </span>
+                  <span class=""> 20 Jan</span>
                 </div>
               </div>
-              <div class="blog-list__item-content">
-                <div class="blog-list__item-meta">
-                  <div class="blog-list__item-post-date">05 Jan, 2025</div>
-                  <div class="blog-list__item-post-author"> admin</div>
-                </div>
-                <h3 class="blog-list__item-content-title"><a href="">Meet Nature And Wildlife in Chitwan
-                    National Park</a></h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="blog-list__item">
-              <div class="blog-list__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img"><a href=""><img alt="image" loading="lazy" width="600"
-                        height="550" src="../images/dynamic/blog-thumb.webp"></a>
-                  </div>
-                </div>
-              </div>
-              <div class="blog-list__item-content">
-                <div class="blog-list__item-meta">
-                  <div class="blog-list__item-post-date">05 Jan, 2025</div>
-                  <div class="blog-list__item-post-author"> admin</div>
-                </div>
-                <h3 class="blog-list__item-content-title"><a href="">Meet Nature And Wildlife in Chitwan
-                    National Park</a></h3>
+
+              <h3 class="blog-list__item-content-title">
+                <a href="">
+                  The Highest Mountain in the world
+                </a>
+              </h3>
+              <div class="blog-list__item-btn arrow-move-effect">
+                <span>Continue Reading</span>
+                <span class="icon-arrow-right"></span>
               </div>
             </div>
           </div>
