@@ -188,7 +188,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-6 lg:col-span-4">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="flex gap-3 item-center">
                       <div class="package__facts-item-icon ">
@@ -223,7 +223,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-6 lg:col-span-4">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon">
                       <span class="text-3xl  icon-trip-grade"></span>
@@ -238,7 +238,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-6 lg:col-span-4">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl icon-group-size"></span>
@@ -253,7 +253,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-6 lg:col-span-4">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl  icon-start"></span>
@@ -268,7 +268,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-6 lg:col-span-4">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl icon-start"></span>
@@ -283,7 +283,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-6 lg:col-span-4">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon">
                       <span class="text-3xl icon-travel-style"></span>
@@ -298,7 +298,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-6 lg:col-span-4">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl  icon-best-time"></span>
@@ -313,7 +313,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-span-6 lg:col-span-4">
+                <div class="col-span-12 md:col-span-6 lg:col-span-4">
                   <div class="package__facts-item">
                     <div class="package__facts-item-icon ">
                       <span class="text-3xl  icon-best-time"></span>
@@ -666,7 +666,7 @@
                   No worries. Our team is ready to guide you every step of the way.
                 </div>
               </div>
-              <div class="flex flex-col lg:flex-row gap-2">
+              <div class="flex flex-col md:flex-row lg:flex-row gap-2">
                 <button type="button" class="package__cta-btn"> Download Itinerary <span class="icon-view"></span>
                 </button>
                 <a href="" class="package__cta-btn">Customize trip <span class="text-sm icon-view"></span></a>
@@ -809,69 +809,13 @@
               </div>
             </div>
           </div>
-          <!-- <div class="package__addons common-module " id="package-addons">
-            <h2 class="package__section-title">Add-ons</h2>
-            <div class="font-medium mb-4 leading-6.5 text-base">
-              Embark on the ultimate adventure with a trek to Mount Everest, the world's
-              highest peak. The Mount Everest trekking route offers unparalled views of breathtaking landscapes.</div>
-            <div class="package__addons-content">
-              <div class="package__addons-wrapper">
-                <div class=" accordion-wrapper">
-                  <div class="" id="addon-accordion">
-                    <div class="package__addons-item " data-id="q1">
-                      <div class="package__addons-item-content">
-                        <h4 class="package__addons-item-title mb-0! text-[18px]">HeliFlight
-                          from EBC
-                          to
-                          Kathmandu </h4>
-                        <span class="text-[14px]"> Embark on the ultimate
-                          adventure with a trek to Mount
-                          Everest,
-                          the world's highest peak. The Mount Everest trekking
-                          route.</span>
-                      </div>
-                      <div class="package__addons-item-price">
-                        <span class="package__addons-item-price text-[16px]">US$1300 per
-                          person
-                        </span>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-                <div class=" accordion-wrapper">
-                  <div class="accordion with-plus-minus" id="addon-accordion">
-                    <div class="accordion__item package__addons-item" data-id="q1">
-                      <div class="package__addons-item-content">
-                        <h4 class="package__addons-item-title mb-0! text-[18px]">HeliFlight
-                          from EBC
-                          to
-                          Kathmandu </h4>
-                        <span class="text-[14px]"> Embark on the ultimate
-                          adventure with a trek to Mount
-                          Everest,
-                          the world's highest peak. The Mount Everest trekking
-                          route.</span>
-                      </div>
-                      <div class="package__addons-item-price">
-                        <span class="package__addons-item-price text-[16px]">US$1300 per
-                          person
-                        </span>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
           <div class="package__addons common-module " id="package-addons">
             <h2 class="package__section-title">Add-on</h2>
             <div class="package__addons-content">
               <div class="text-text_color">Embark on the ultimate adventure with a trek to Mount Everest, the world's
                 highest peak. The Mount Everest trekking route offers unparalled views of breathtaking landscapes.
               </div>
-              <div class="package__addons-wrapper">
+              <div class="package__addons-wrapper mb-7.5">
                 <div class="package__addons-list" id="package-addons-list">
                   <div class="package__addons-item is-open mb-3">
                     <button type="button" class="package__addons-item-trigger" aria-expanded="true">
@@ -889,20 +833,20 @@
                     </div>
                   </div>
 
-                  <div class="package__addons-item">
-                    <button type="button" class="package__addons-item-trigger" aria-expanded="false">
-                      <span class="package__addons-item-title-wrap">
-                        <span class="package__addons-item-title">2. HeliFlight from EBC to Kathmandu</span>
-                        <span class="package__addons-item-price">US$ 1300 per person</span>
-                      </span>
-                      <span class="package__addons-item-toggle" aria-hidden="true"></span>
-                    </button>
-                    <div class="package__addons-item-panel">
-                      <div class="package__addons-item-content">
-                        Choose a quick and scenic return to Kathmandu with a helicopter flight from Everest Base Camp.
-                        This add-on saves time while giving you spectacular aerial views of glaciers, valleys, and
-                        snowy ridgelines.
-                      </div>
+                </div>
+                <div class="package__addons-item">
+                  <button type="button" class="package__addons-item-trigger" aria-expanded="false">
+                    <span class="package__addons-item-title-wrap">
+                      <span class="package__addons-item-title">2. HeliFlight from EBC to Kathmandu</span>
+                      <span class="package__addons-item-price">US$ 1300 per person</span>
+                    </span>
+                    <span class="package__addons-item-toggle" aria-hidden="true"></span>
+                  </button>
+                  <div class="package__addons-item-panel">
+                    <div class="package__addons-item-content">
+                      Choose a quick and scenic return to Kathmandu with a helicopter flight from Everest Base Camp.
+                      This add-on saves time while giving you spectacular aerial views of glaciers, valleys, and
+                      snowy ridgelines.
                     </div>
                   </div>
                 </div>
@@ -1090,7 +1034,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-4 gap-8 common-box">
+        <div class="col-span-12 lg:col-span-4 gap-8 lg:pt-15">
           <div class="package-actions">
             <button class="package-actions__item btn-secondary bg-[#f6faff] gap-2 hav-icon">
               <span class="icon-send text-lg text-[#6cafda]"></span>
@@ -1209,7 +1153,7 @@
       </div>
     </div>
 
-    <section class=" video-review common-box scroll-wrap mt-0">
+    <section class="video-review common-box scroll-wrap ">
       <div class="container">
         <h2 class="package__section-title ">
           Travel Moments
@@ -1296,7 +1240,7 @@
         </div>
       </div>
     </section>
-    <section class=" pb-0 inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
+    <section class="inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
       <div class="container">
         <div class="package__reviews-header mb-7.5">
           <h2 class="package__section-title">

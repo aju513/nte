@@ -30,7 +30,7 @@
         </div>
       </div>
     </div>
-    <section class="blog-list common-box pt-0">
+    <section class="blog-list common-box ">
       <div class="container">
         <div class="page-title">
           <h1>Latest Blog</h1>

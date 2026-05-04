@@ -299,7 +299,7 @@
   }
 
   /* When open → show minus */
-  .accordion.with-plus-minus .accordion__item.open::before {
+  .accordion.with-plus-minus .accordion__item.active::before {
     content: url("/images/svg/minus.svg");
     @apply absolute top-5 right-5 w-[15px] transition-all duration-700;
   }
@@ -312,7 +312,7 @@
     .custom-radio__item {
       @apply border-primary/80 rounded-custom hover:bg-primary/80 border transition-all duration-500 hover:text-white;
       &:hover label {
-        svg {
+        span {
           @apply brightness-100 invert-100 transition-all duration-500;
         }
       }
@@ -902,7 +902,18 @@
     }
   }
   .booking-group-price {
-    @apply bg-dim_bg rounded-custom mx-5.5;
+    @apply bg-dim_bg rounded-custom;
+    .booking__discount-list {
+      @apply px-2;
+    }
+    .booking__discount-list-group {
+      .booking__discount-list-item {
+        @apply flex justify-between items-center border-t border-[#6cafda] py-2;
+      }
+    }
+    /* .collapsible.active .collapsible-content {
+      @apply pb-2.5;
+    } */
   }
   /* .booking__discount-list,
   .package__discount-list {
@@ -1098,9 +1109,18 @@
   /* last minute starts */
   .last-minute {
     .last-minute__wrapper {
-      @apply rounded-custom items-center gap-4 bg-white p-3;
+      /* @apply rounded-custom items-center gap-4 bg-block/30 p-3; */
       .last-minute__wrapper-header {
         @apply rounded-custom grid grid-cols-2 items-center gap-2 bg-white p-3 lg:grid-cols-7;
+      }
+      .accordion__item {
+        @apply bg-block/30 relative mb-3 rounded-[10px] p-5 sm:px-7 sm:py-6;
+      }
+      .accordion__item-content {
+        @apply bg-white relative mb-3 rounded-[10px] p-5 sm:px-7 sm:py-6;
+      }
+      .accordion__item-title {
+        @apply font-mulish text-text_color cursor-pointer pr-5;
       }
       .last-minute__title {
         @apply col-span-4;
@@ -1112,7 +1132,7 @@
         @apply max-sm:col-span-4 max-sm:mt-2;
       }
       .last-minute__next-date {
-        @apply max-sm:col-span-4 max-sm:mt-2 xl:pl-10;
+        @apply max-sm:col-span-4 max-sm:mt-2;
       }
       .all-dates {
         @apply text-primary mt-1 flex cursor-pointer items-center gap-1 text-sm underline;
@@ -1127,7 +1147,7 @@
       }
     }
     .last-minute__item-body {
-      @apply max-h-0 overflow-hidden opacity-0;
+      @apply max-h-20 overflow-hidden;
       transition:
         max-height 0.4s ease-in-out,
         opacity 0.3s ease-in-out,
@@ -1787,31 +1807,6 @@
   }
 }
 /* scroll wrap starts*/
-/* .scroll-wrap {
-  .col-span-4 {
-    @apply p-px;
-  }
-  *::-webkit-scrollbar {
-    @apply hidden;
-  }
-  * {
-    scrollbar-width: none;
-  }
-  * {
-    -ms-overflow-style: none;
-  }
-  .grid {
-    @apply flex overflow-x-scroll pt-1 pl-1.25 lg:grid lg:overflow-auto! lg:p-0!;
-    .col-span-6,
-    .col-span-4,
-    .col-span-3 {
-      @apply flex-[0_0_90%] sm:flex-[0_0_60%] md:flex-[0_0_45%] lg:flex-none;
-    }
-    .col-span-2 {
-      @apply flex-[0_0_70%] sm:flex-[0_0_40%] md:flex-[0_0_30%] lg:flex-none;
-    }
-  }
-} */
 .scroll-wrap .grid {
   @apply flex overflow-x-auto pl-[5px] pt-[3px] md:grid md:overflow-visible md:pl-0 md:pt-0;
   scroll-snap-type: x mandatory;
@@ -1904,6 +1899,16 @@
   100% {
     opacity: 1;
     transform: scaleY(1);
+  }
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 /* animation ends */
@@ -2291,7 +2296,7 @@
       @apply flex flex-col items-center  lg:justify-center absolute lg:-top-9 top-4 z-10 w-full px-2 sm:px-4 w-fit;
 
       span {
-        @apply text-xl uppercase font-bold text-center tracking-wider;
+        @apply text-sm lg:text-xl uppercase font-bold text-center tracking-wider;
       }
 
       .footer_affiliations-logos {
@@ -2321,7 +2326,7 @@
           @apply space-y-2;
 
           li {
-            @apply flex items-center md:text-base sm:text-sm lg:justify-start gap-3;
+            @apply flex items-center sm:text-sm md:text-base lg:justify-start gap-3;
 
             span {
               @apply text-primary mt-0.5 text-base shrink-0;
@@ -2344,7 +2349,7 @@
             @apply mb-2;
 
             a {
-              @apply hover:text-primary transition text-base font-mulish;
+              @apply hover:text-primary transition text-sm lg:text-base font-mulish;
             }
           }
         }
@@ -2893,6 +2898,9 @@
   .nav-link-wrapper {
     @apply flex w-max gap-2;
   }
+  .nav-link-wrapper li {
+    @apply shrink-0;
+  }
 
   .nav-item-link {
     @apply hover:text-secondary flex items-center gap-2 px-3 py-3 text-sm text-white transition-all duration-500;
@@ -2926,7 +2934,7 @@
 }
 /* package section title */
 .package__section-title {
-  @apply font-playfair mb-4 text-3xl font-black text-black;
+  @apply font-playfair mb-4 text-xl lg:text-3xl font-black text-black;
 }
 /* package banner starts */
 .package__banner {
@@ -3449,7 +3457,7 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.75 leading-6;
+          @apply text-text_color relative mb-2.75 pl-7.75 leading-5;
           &::before {
             content: "";
             @apply absolute top-px left-0 h-6 w-6 bg-current text-block;
@@ -3492,10 +3500,10 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.75 leading-6 text-base;
+          @apply text-text_color relative mb-2.75 pl-7.75 leading-5 text-base;
           &::before {
             content: "";
-            @apply absolute top-0.5 left-0 h-5 w-5  text-primary;
+            @apply absolute top-0.25 left-0 h-5 w-5  text-primary;
             mask: url("../images/svg/correct.svg") no-repeat center;
             mask-size: contain;
           }
@@ -3541,10 +3549,10 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.75 leading-6 text-base;
+          @apply text-text_color relative mb-2.75 pl-7.75 leading-5 text-base;
           &::before {
             content: "";
-            @apply absolute left-0 top-0.5 block h-5 w-5 bg-block;
+            @apply absolute left-0 top-0.25 block h-5 w-5 bg-block;
             mask: url("/images/svg/exclude-icon.svg") no-repeat center;
             mask-size: contain;
             -webkit-mask: url("/images/svg/exclude-icon.svg") no-repeat center;
@@ -3566,7 +3574,7 @@
   .package__availability-filter {
     @apply mt-5 flex flex-wrap items-center gap-2;
     .availability-filter__item {
-      @apply text-text_color cursor-pointer rounded-custom bg-[#f6faff] px-4  text-base leading-11 font-bold transition-all duration-500 hover:text-primary;
+      @apply text-text_color cursor-pointer rounded-custom bg-[#f6faff] px-4 py-1.5 text-base font-bold transition-all duration-500 hover:text-primary;
     }
     .availability-filter__item.active {
       @apply bg-[#6cafda] text-white;
@@ -3665,80 +3673,6 @@
     }
   }
 }
-
-/* .package__addons {
-  .package__addons-wrapper {
-    @apply bg-block rounded-[10px] p-5 sm:p-7.5;
-  }
-  .package__addons-content {
-    a {
-      @apply text-primary font-medium underline;
-    }
-    p {
-      @apply leading-6 text-white;
-    }
-    h2 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1.3rem, 3vw, 1.4rem);
-    }
-    h3 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1.2rem, 3vw, 1.3rem);
-    }
-    h4 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1.1rem, 3vw, 1.2rem);
-    }
-    h5 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1rem, 3vw, 1.1rem);
-    }
-    h6 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1rem, 3vw, 1rem);
-    }
-    ul {
-      @apply mb-7;
-      &:last-of-type {
-        @apply mb-0;
-      }
-      li {
-        @apply relative mb-2.75 pl-7.75 leading-6 text-white;
-        &::before {
-          content: "";
-          @apply absolute top-px left-0 h-6 w-6 bg-current text-white;
-          mask: url("images/svg/splotch.svg") no-repeat center;
-          mask-size: contain;
-        }
-      }
-    }
-  }
-  .package__addons-list {
-    @apply mt-5;
-  }
-  .package__addons-item {
-    @apply rounded-custom mb-3 bg-white p-3.75 last:mb-0;
-    .package__addons-item-title-wrap {
-      @apply flex items-start justify-between gap-y-2 max-md:flex-wrap md:gap-5;
-    }
-    .package__addons-item-title {
-      @apply font-mulish text-text_color text-base font-bold lg:text-lg;
-    }
-    .package__addons-item-price {
-      @apply text-text_color font-bold md:flex-[0_0_160px] md:text-right;
-    }
-    .package__addons-item-content {
-      @apply text-text_color mt-2 text-sm;
-    }
-  }
-  .package__addons-links {
-    @apply mt-3;
-    buttton,
-    a {
-      @apply hover:text-primary mt-3 flex items-center gap-2 text-base font-bold text-white transition-all duration-500 lg:text-lg;
-    }
-  }
-} */
 /* package addons */
 .package__addons {
   .package__addons-wrapper {
@@ -3787,9 +3721,6 @@
       }
     }
   }
-  /* .package__addons-list {
-    @apply mt-2;
-  } */
   .package__addons-item {
     @apply rounded-custom bg-white  p-5;
   }
@@ -3800,7 +3731,7 @@
     @apply flex min-w-0 flex-1 items-start justify-between gap-3 max-md:flex-col md:items-center;
   }
   .package__addons-item-title {
-    @apply font-mulish text-text_color font-extrabold leading-6 lg:text-xl;
+    @apply font-mulish text-text_color font-extrabold leading-6 text-base lg:text-xl;
   }
   .package__addons-item-price {
     @apply text-text_color shrink-0 font-bold md:flex-[0_0_170px] md:text-right text-sm leading-5;
@@ -3836,80 +3767,6 @@
     }
   }
 }
-/* .package__addons {
-  .package__addons-wrapper {
-    @apply flex flex-col justify-start items-center gap-3 bg-[#6cafda] py-10 px-7 rounded-[15px] mt-5;
-  }
-  .package__addons-content {
-    a {
-      @apply text-white font-medium underline;
-    }
-    p {
-      @apply leading-6 text-text_color;
-    }
-    h2 {
-      @apply font-mulish mb-3 font-extrabold text-text_color;
-      font-size: clamp(1.3rem, 3vw, 1.4rem);
-    }
-    h3 {
-      @apply font-mulish mb-3 font-extrabold text-text_color;
-      font-size: clamp(1.2rem, 3vw, 1.3rem);
-    }
-    h4 {
-      @apply font-mulish mb-3 font-extrabold text-text_color;
-      font-size: clamp(1.1rem, 3vw, 1.2rem);
-    }
-    h5 {
-      @apply font-mulish mb-3 font-extrabold text-text_color;
-      font-size: clamp(1rem, 3vw, 1.1rem);
-    }
-    h6 {
-      @apply font-mulish mb-3 font-extrabold text-text_color;
-      font-size: clamp(1rem, 3vw, 1rem);
-    }
-    ul {
-      @apply mb-7;
-      &:last-of-type {
-        @apply mb-0;
-      }
-      li {
-        @apply relative mb-2.75 pl-7.75 leading-6 text-text_color;
-        &::before {
-          content: "";
-          @apply absolute top-px left-0 h-6 w-6 bg-current text-text_color;
-          mask: url("/images/svg/splotch.svg") no-repeat center;
-          mask-size: contain;
-        }
-      }
-    }
-  }
-  .package__addons-list {
-    @apply mt-5;
-  }
-  .package__addons-item {
-    @apply rounded-[5px] bg-white block md:flex justify-between items-start p-4; */
-/* .package__addons-item-title-wrap {
-      @apply flex items-start justify-between gap-y-2 max-md:flex-wrap md:gap-5;
-    } */
-/* .package__addons-item-title {
-      @apply font-playfair text-black font-medium lg:text-lg;
-    }
-    .package__addons-item-price {
-      @apply text-text_color font-medium;
-    }
-    .package__addons-item-content {
-      @apply text-text_color w-full md:w-5/8;
-    }
-  }
-  .package__addons-links {
-    @apply mt-3;
-    buttton,
-    a {
-      @apply hover:text-primary mt-3 flex items-center gap-2  font-bold text-white transition-all duration-500 lg:text-lg;
-    }
-  }
-} */
-
 /* package gallery */
 .package__gallery {
   .package__gallery-photo {
@@ -4056,6 +3913,9 @@
       }
     }
   }
+  .expand-all-equipment {
+    animaton: slideDown;
+  }
 
   .package__cta-links {
     @apply mt-8 flex items-center gap-10;
@@ -4102,10 +3962,10 @@
   .accordion__item {
     @apply bg-[#f6faff];
     .accordion__item-title {
-      @apply text-xl leading-6;
+      @apply text-base lg:text-xl font-bold;
     }
     .accordion__item-content {
-      @apply text-base leading-5;
+      @apply text-base;
     }
   }
 }
@@ -4344,77 +4204,4 @@
 }
 .page-summary {
   @apply text-base;
-}
-.package__addons {
-  .package__addons-wrapper {
-    @apply bg-secondary rounded-[10px] p-5 sm:p-7.5;
-  }
-  .package__addons-content {
-    a {
-      @apply text-primary font-medium underline;
-    }
-    p {
-      @apply leading-6 text-white;
-    }
-    h2 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1.3rem, 3vw, 1.4rem);
-    }
-    h3 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1.2rem, 3vw, 1.3rem);
-    }
-    h4 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1.1rem, 3vw, 1.2rem);
-    }
-    h5 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1rem, 3vw, 1.1rem);
-    }
-    h6 {
-      @apply font-mulish mb-3 font-bold text-white;
-      font-size: clamp(1rem, 3vw, 1rem);
-    }
-    ul {
-      @apply mb-7;
-      &:last-of-type {
-        @apply mb-0;
-      }
-      li {
-        @apply relative mb-2.75 pl-7.75 leading-6 text-white;
-        &::before {
-          content: "";
-          @apply absolute top-px left-0 h-6 w-6 bg-current text-white;
-          mask: url("/themes/images/list-bullet.svg") no-repeat center;
-          mask-size: contain;
-        }
-      }
-    }
-  }
-  .package__addons-list {
-    @apply mt-5;
-  }
-  .package__addons-item {
-    @apply rounded-custom mb-3 bg-white p-3.75 last:mb-0;
-    .package__addons-item-title-wrap {
-      @apply flex items-start justify-between gap-y-2 max-md:flex-wrap md:gap-5;
-    }
-    .package__addons-item-title {
-      @apply font-mulish text-text_color text-base font-bold lg:text-lg;
-    }
-    .package__addons-item-price {
-      @apply text-text_color font-bold md:flex-[0_0_160px] md:text-right;
-    }
-    .package__addons-item-content {
-      @apply text-text_color mt-2 text-sm;
-    }
-  }
-  .package__addons-links {
-    @apply mt-3;
-    buttton,
-    a {
-      @apply hover:text-primary mt-3 flex items-center gap-2 text-base font-bold text-white transition-all duration-500 lg:text-lg;
-    }
-  }
 }

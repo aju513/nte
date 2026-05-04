@@ -1,11 +1,11 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box last-minute-page bg-secondary" role="main">
+<section class="common-box pt-0 last-minute-page bg-secondary" role="main">
   <div class="common-page-wrapper">
-    <div class="page-title">
-      <div class="container">
-        <h1 class="font-playfair text-[28px] font-black leading-8 text-black sm:text-[30px] lg:text-[40px] lg:leading-[40px]">
+    <div class="container">
+      <div class="page-title">
+        <h1>
           Last Minute Departure
         </h1>
       </div>
@@ -63,7 +63,168 @@
     </div>
     <div class=" last-minute last-minute-list">
       <div class="container">
-        <div class="mb-8 last-minute-wrap last:mb-0">
+        <div class="last-minute__wrapper last:mb-0">
+          <div class="accordion with-arrow last:mb-0">
+            <div class="accordion__item  last-minute__item-body open">
+
+              <div class="flex justify-between items-center accordion__item-title mb-2">
+                <div class="flex flex-col">
+                  <span class="text-primary font-mulish">Everest Base Camp Trek - 15 Days</span>
+                  <div><span class="text-base font-normal">Duration: 15 Days</span>
+                    <span class="text-base font-normal">|</span>
+                    <span class="text-base font-normal">Next Departure Date: Apr 03, 2026</span>
+                  </div>
+                </div>
+
+                <div class="flex gap-10">
+                  <div class="flex flex-col">
+                    <span>Available</span>
+                    <span class="text-base font-normal">2 Seats Left</span>
+                  </div>
+                  <div class="flex flex-col items-end">
+                    <span class="text-base font-normal line-through">US$ 1680</span>
+                    <div class="text-primary items-center">
+                      <span class="icon-tag"></span>
+                      <span class="">US$ 1680</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion__item-content flex justify-between items-center">
+                <div class="last-minute__next-date font-bold"> Apr 27, 2025 - May 10, 2026</div>
+                <div class="last-minute__availability "> <span class="font-bold">Available </span><span class="rounded-full bg-secondary px-3 py-1.25">2 seats</span></div>
+                <div class="last-minute__price">
+                  <div class="flex gap-5">
+                    <div>
+                      <span class="icon-tag"></span>
+                      <span class="text-primary font-bold">US$ 1680</span>
+                    </div>
+                    <span class="text-gray-300 line-through">US$ 1680</span>
+                    <button class="btn-primary hav-icon"> Book Now
+                      <span class="icon-view"></span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="accordion__item-content flex justify-between items-center">
+                <div class="last-minute__next-date font-bold"> Apr 27, 2025 - May 10, 2026</div>
+                <div class="last-minute__availability "> <span class="font-bold">Available </span><span class="rounded-full bg-secondary px-3 py-1.25">2 seats</span></div>
+                <div class="last-minute__price">
+                  <div class="flex gap-5">
+                    <div>
+                      <span class="icon-tag"></span>
+                      <span class="text-primary font-bold">US$ 1680</span>
+                    </div>
+                    <span class="text-gray-300 line-through">US$ 1680</span>
+                    <button class="btn-primary hav-icon"> Book Now
+                      <span class="icon-view"></span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="accordion__item-content flex justify-between items-center last:mb-0">
+                <div class="last-minute__next-date font-bold"> Apr 27, 2025 - May 10, 2026</div>
+                <div class="last-minute__availability "> <span class="font-bold">Available </span><span class="rounded-full bg-secondary px-3 py-1.25">2 seats</span></div>
+                <div class="last-minute__price">
+                  <div class="flex gap-5">
+                    <div>
+                      <span class="icon-tag"></span>
+                      <span class="text-primary font-bold">US$ 1680</span>
+                    </div>
+                    <span class="text-gray-300 line-through">US$ 1680</span>
+                    <button class="btn-primary hav-icon"> Book Now
+                      <span class="icon-view"></span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion with-arrow last:mb-0">
+            <div class="accordion__item  last-minute__item-body">
+
+              <div class="flex justify-between items-center accordion__item-title mb-2">
+                <div class="flex flex-col">
+                  <span class="text-primary font-mulish">Everest Base Camp Trek - 15 Days</span>
+                  <div><span class="text-base font-normal">Duration: 15 Days</span>
+                    <span class="text-base font-normal">|</span>
+                    <span class="text-base font-normal">Next Departure Date: Apr 03, 2026</span>
+                  </div>
+                </div>
+
+                <div class="flex gap-10">
+                  <div class="flex flex-col">
+                    <span>Available</span>
+                    <span class="text-base font-normal">2 Seats Left</span>
+                  </div>
+                  <div class="flex flex-col items-end">
+                    <span class="text-base font-normal line-through">US$ 1680</span>
+                    <div class="text-primary items-center">
+                      <span class="icon-tag"></span>
+                      <span class="">US$ 1680</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion__item-content flex justify-between items-center">
+                <div class="last-minute__next-date font-bold"> Apr 27, 2025 - May 10, 2026</div>
+                <div class="last-minute__availability "> <span class="font-bold">Available </span><span class="rounded-full bg-secondary px-3 py-1.25">2 seats</span></div>
+                <div class="last-minute__price">
+                  <div class="flex gap-5">
+                    <div>
+                      <span class="icon-tag"></span>
+                      <span class="text-primary font-bold">US$ 1680</span>
+                    </div>
+                    <span class="text-gray-300 line-through">US$ 1680</span>
+                    <button class="btn-primary hav-icon"> Book Now
+                      <span class="icon-view"></span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="accordion__item-content flex justify-between items-center">
+                <div class="last-minute__next-date font-bold"> Apr 27, 2025 - May 10, 2026</div>
+                <div class="last-minute__availability "> <span class="font-bold">Available </span><span class="rounded-full bg-secondary px-3 py-1.25">2 seats</span></div>
+                <div class="last-minute__price">
+                  <div class="flex gap-5">
+                    <div>
+                      <span class="icon-tag"></span>
+                      <span class="text-primary font-bold">US$ 1680</span>
+                    </div>
+                    <span class="text-gray-300 line-through">US$ 1680</span>
+                    <button class="btn-primary hav-icon"> Book Now
+                      <span class="icon-view"></span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+              <div class="accordion__item-content flex justify-between items-center last:mb-0">
+                <div class="last-minute__next-date font-bold"> Apr 27, 2025 - May 10, 2026</div>
+                <div class="last-minute__availability "> <span class="font-bold">Available </span><span class="rounded-full bg-secondary px-3 py-1.25">2 seats</span></div>
+                <div class="last-minute__price">
+                  <div class="flex gap-5">
+                    <div>
+                      <span class="icon-tag"></span>
+                      <span class="text-primary font-bold">US$ 1680</span>
+                    </div>
+                    <span class="text-gray-300 line-through">US$ 1680</span>
+                    <button class="btn-primary hav-icon"> Book Now
+                      <span class="icon-view"></span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="mb-8 last-minute-wrap last:mb-0">
           <div class="last-minute-package-title">
             <div class="font-playfair font-bold text-primary text-[25px] mb-1">Everest Base Camp Trek - 15 Days</div>
             <div class="flex items-center gap-1">
@@ -402,7 +563,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>

@@ -127,7 +127,7 @@
 
             <!-- Bottom Bar -->
             <div class="footer_bottom">
-                <div class="flex gap-1.75">
+                <div class="flex gap-1.75 text-center">
                     <div class="footer__payment">
                         <img src="/images/payment/paypal.svg" width="48" height="13" alt="Payment Methods" />
                     </div>
