@@ -2,7 +2,7 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box write-review-page bg-secondary" role="main">
+<section class="common-box pt-0 write-review-page bg-secondary" role="main">
   <div class="common-page-wrapper">
     <div class="container">
       <div class="page-title">
@@ -11,7 +11,7 @@
       <div class="page-summary lg:w-4/5">
         <p>Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The<!-- --> <a
             href="">Mount Everest trekking </a> route offers unparalleled views of breathtaking landscapes,
-          including towering snow-capped peaks, lush valleys, and rugged tVerrain.</p>
+          including towering snow-capped peaks, lush valleys, and rugged terrain.</p>
       </div>
       <div class="write-review__form">
         <form>
@@ -27,33 +27,52 @@
                   Address<sup>*</sup></label></div>
             </div>
             <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-              <div class="form-group"><select name="package-name" id="package-name"
+              <div class="form-group">
+                <select name="package-name" id="package-name"
                   class="floating-input peer">
                   <option disabled="" selected="">Choose a Package</option>
                   <option>Everest Base camp Trek</option>
                   <option>Everest Base camp Trek</option>
                   <option>Everest Base camp Trek</option>
                   <option>Everest Base camp Trek</option>
-                </select><label for="package-name" class="floating-label">Choose a
-                  Package<sup>*</sup></label></div>
+                </select>
+                <label for="package-name" class="floating-label">Choose a
+                  Package<sup>*</sup>
+                </label>
+              </div>
             </div>
             <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-              <div class="form-group"><input type="text" id="review-title" placeholder=" "
-                  class="floating-input peer"><label for="review-title" class="floating-label">Review
-                  Title<sup>*</sup></label></div>
+              <div class="form-group">
+                <input type="text" id="review-title" placeholder=" "
+                  class="floating-input peer">
+                <label for="review-title" class="floating-label">Review
+                  Title<sup>*</sup>
+                </label>
+              </div>
             </div>
             <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-              <div class="form-group"><input type="text" id="review-title" placeholder=" "
-                  class="floating-input peer"><label for="review-title" class="floating-label">Review
-                  Date<sup>*</sup></label></div>
+              <div class="form-group">
+                <input type="text" id="review-title" placeholder=" "
+                  class="floating-input peer">
+                <label for="review-title" class="floating-label">Review
+                  Date<sup>*</sup>
+                </label>
+              </div>
             </div>
             <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-              <div class="form-group"><select name="country" id="country" class="floating-input peer">
+              <div class="form-group">
+                <select name="country" id="country" class="floating-input peer">
                   <option disabled="" selected="">Country</option>
                   <option>Nepal</option>
                   <option>USA</option>
                   <option>Canada</option>
-                </select><label for="phone" class="floating-label">Choose a Country<sup>*</sup></label>
+                </select>
+                <label
+                  for="phone"
+                  class="floating-label">
+                  Choose a Country
+                  <sup>*</sup>
+                </label>
               </div>
             </div>
             <div class="col-span-12 sm:col-span-6 lg:col-span-4">

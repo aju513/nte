@@ -1032,13 +1032,13 @@
                                                 <div class="flex items-center gap-5 xl:gap-8">
                                                         <div class="web__menu-search">
                                                                 <div class="websearch-wrap">
-                                                                        <span class="websearch-trigger mt-1.5 hidden cursor-pointer lg:inline-block text-primary text-[20px]">
+                                                                        <span class="websearch-trigger">
                                                                                 <span class="icon icon-searchicon"></span>
                                                                         </span>
                                                                         <div class="websearch-wrap">
                                                                                 <div class="websearch-form hidden">
                                                                                         <a class="websearch-close" href="#">
-                                                                                                <span class="icon-close"></span>
+                                                                                                <span class="icon-close text-xs"></span>
                                                                                         </a>
                                                                                         <div class="search-wrapper">
                                                                                                 <form class="relative">
@@ -1047,7 +1047,7 @@
                                                                                                                 placeholder="Search" required="">
                                                                                                         <button type="submit"
                                                                                                                 class="absolute inset-e-2.5 bottom-2.5 rounded-lg bg-white px-2 py-2 text-sm font-medium">
-                                                                                                                <span class="icon text-primary text-[20px] icon-searchicon"></span>
+                                                                                                                <span class="icon  icon-searchicon"></span>
                                                                                                         </button>
                                                                                                 </form>
                                                                                                 <div class="search-wrapper__list">
@@ -1254,11 +1254,19 @@
                                                 <li><a href="#">Visa and Entry Procedure</a></li>
                                         </ul>
                                 </li>
-                                <li class="parent"><a aria-expanded="false" href="#">Company</a><span class="mobile-toggle-icon"><span
-                                                        class="icon-plus"></span><span class="icon-minus"></span></span>
+                                <li class="parent">
+                                        <a aria-expanded="false" href="#">Company</a>
+                                        <span class="mobile-toggle-icon">
+                                                <span class="icon-plus"></span>
+                                                <span class="icon-minus"></span>
+                                        </span>
                                         <ul>
-                                                <li><a aria-expanded="false" href="#">About Us</a><span class="mobile-toggle-icon"><span
-                                                                        class="icon-plus">+</span><span class="icon-minus">-</span></span>
+                                                <li>
+                                                        <a aria-expanded="false" href="#">About Us</a>
+                                                        <span class="mobile-toggle-icon">
+                                                                <span class="icon-plus">+</span>
+                                                                <span class="icon-minus">-</span>
+                                                        </span>
                                                         <ul>
                                                                 <li><a href="#">Meet The Team</a></li>
                                                                 <li><a href="#">Legal Documents </a></li>

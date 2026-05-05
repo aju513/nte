@@ -1207,7 +1207,7 @@
                             <div class="placeholder__img-wrapper ">
                                 <div class="w-full placeholder__img">
                                     <a href="">
-                                        <img src="/images/dynamic/blog-thumb.webp" width="600" height="400"
+                                        <img src="/images/dynamic/blog2.webp" width="600" height="400"
                                             alt="banner" />
                                     </a>
                                 </div>
@@ -1238,7 +1238,7 @@
                             <div class="placeholder__img-wrapper ">
                                 <div class="w-full placeholder__img">
                                     <a href="">
-                                        <img src="/images/dynamic/blog-thumb.webp" width="600" height="400"
+                                        <img src="/images/dynamic/blog3.webp" width="600" height="400"
                                             alt="banner" />
                                     </a>
                                 </div>
