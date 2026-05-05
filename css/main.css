@@ -644,7 +644,7 @@
       @apply z-1010;
     }
   }
-  .no-header-sticky :where(.web__menu.sticky, .mobile__menu.sticky) {
+  /* .no-header-sticky :where(.web__menu.sticky, .mobile__menu.sticky) {
     @apply relative!;
   }
   .no-header-sticky .mob-quick-contact {
@@ -658,7 +658,7 @@
   }
   .mob-quick-contact {
     @apply bg-dim_bg fixed bottom-0 left-0 z-9999 flex w-full items-center gap-2 p-3 lg:hidden;
-  }
+  } */
   @keyframes slide-progress {
     0% {
       transform: translateX(-100%);
@@ -1312,9 +1312,9 @@
   }
 
   .testimonial__list-item {
-    @apply rounded-xl bg-white p-4 lg:p-10 shadow-custom;
+    @apply rounded-xl bg-white p-4 lg:p-10 shadow-custom mb-3;
     .testimonial__list-item-meta {
-      @apply mb-2 flex flex-col items-start max-sm:gap-3 sm:mb-6 sm:flex-row sm:items-center sm:justify-between;
+      @apply mb-2 flex flex-col items-start max-sm:gap-3 sm:mb-6 sm:flex-row sm:items-center gap-2;
     }
     .testimonial__list-item-reviewer {
       @apply flex  gap-5 mt-5 justify-start items-center;
@@ -1916,7 +1916,7 @@
 .header {
   @apply relative z-100;
   .web__menu {
-    @apply relative z-2 hidden w-full bg-white py-4 lg:block;
+    @apply relative z-2 hidden w-full bg-white! py-4 lg:block;
     &:before {
       @apply shadow-custom pointer-events-none absolute top-0 left-0 z-50 size-full;
       content: "";
@@ -2009,8 +2009,8 @@
       @apply fixed top-0 z-99 w-full bg-white/60 py-3 backdrop-blur-sm;
       &:before {
         content: "";
+        animation: slideDown ease-out 0.8s;
       }
-      animation: slideDown ease-out 0.8s;
 
       .flex.flex-col {
         @apply gap-0;
@@ -2126,7 +2126,7 @@
       scrollbar-width: none;
     }
     .mobile__menu-content {
-      @apply bg-secondary absolute left-0 z-9999 mt-2 w-full overflow-x-hidden overflow-y-auto px-3;
+      @apply bg-primary absolute left-0 z-9999 mt-2 w-full overflow-x-hidden overflow-y-auto px-3;
     }
     .mobile__menu-content > ul {
       @apply max-h-0 overflow-hidden opacity-0 transition-all duration-500 ease-in-out;
@@ -2135,7 +2135,7 @@
       }
     }
     .mobile-toggle-icon {
-      @apply absolute top-4 -right-px w-full text-right text-2xl leading-6 font-bold text-white;
+      @apply absolute top-4 -right-px w-full text-right text-xl leading-6 font-bold text-white;
     }
     ul {
       @apply relative mx-1 max-h-0 overflow-hidden p-0 transition-all duration-500;
@@ -2196,10 +2196,10 @@
     @apply relative -left-3 -mt-0.75 w-6.25;
   }
   .mobile-menu-button {
-    @apply text-secondary flex items-center gap-1.25;
+    @apply text-primary flex items-center gap-1.25;
   }
   .menu-toggle-bar {
-    @apply rounded-custom bg-secondary absolute right-2 left-1/2 block h-0.5 w-full transition-all duration-500;
+    @apply rounded-custom bg-primary absolute right-2 left-1/2 block h-0.5 w-full transition-all duration-500;
   }
   .menu-toggle-bar.menu-toggle-bar--top {
     transform: translate(0, -8px);
@@ -3914,7 +3914,7 @@
     }
   }
   .expand-all-equipment {
-    animaton: slideDown;
+    animaton: slideDown ease-out 0.8s;
   }
 
   .package__cta-links {

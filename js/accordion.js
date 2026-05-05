@@ -48,6 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (toggleBtn && equipmentWrapper) {
     let expanded = false;
+    const hiddenItems = equipmentWrapper.querySelectorAll(
+      ".package__equipment-item.hidden-item",
+    );
 
     toggleBtn.addEventListener("click", () => {
       expanded = !expanded;

@@ -79,7 +79,7 @@
                 </div>
             </div>
             <!--Package Grid -->
-            <div class="relative mt-8">
+            <div class="relative mt-7">
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
@@ -270,7 +270,7 @@
                 </div>
             </div>
 
-            <div class="relative mt-8">
+            <div class="relative mt-9">
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
@@ -1007,8 +1007,11 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial__list-item m-0!">
-                            <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
-                                <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2">
+                            <div class="testimonial__list-item-meta mb-2 ">
+                                <img src="/images/svg/circular-facebook.svg"
+                                    data-testimonial-review-icon
+                                    class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
+                                <div class="testimonial__list-item-rating  flex items-center gap-2">
                                     <div class="rating-wrap rating-5">
                                         <span class="star"></span>
                                         <span class="star"></span>
@@ -1016,9 +1019,6 @@
                                         <span class="star"></span>
                                         <span class="star"></span>
                                     </div>
-                                    <img src="/images/svg/circular-tripadvisor.svg"
-                                        data-testimonial-review-icon
-                                        class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">" The trek was life-changing!</div>
@@ -1050,7 +1050,10 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial__list-item m-0!">
-                            <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
+                            <div class="testimonial__list-item-meta mb-2 ">
+                                <img src="/images/svg/circular-facebook.svg"
+                                    data-testimonial-review-icon
+                                    class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
                                 <div class="testimonial__list-item-rating  flex items-center gap-2">
                                     <div class="rating-wrap rating-5">
                                         <span class="star"></span>
@@ -1059,9 +1062,6 @@
                                         <span class="star"></span>
                                         <span class="star"></span>
                                     </div>
-                                    <img src="/images/svg/circular-facebook.svg"
-                                        data-testimonial-review-icon
-                                        class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">" The trek was life-changing!</div>
@@ -1093,7 +1093,10 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial__list-item m-0!">
-                            <div class="testimonial__list-item-meta mb-2 flex items-center justify-between">
+                            <div class="testimonial__list-item-meta mb-2 ">
+                                <img src="/images/svg/circular-facebook.svg"
+                                    data-testimonial-review-icon
+                                    class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
                                 <div class="testimonial__list-item-rating  flex items-center gap-2">
                                     <div class="rating-wrap rating-5">
                                         <span class="star"></span>
@@ -1102,9 +1105,6 @@
                                         <span class="star"></span>
                                         <span class="star"></span>
                                     </div>
-                                    <img src="/images/svg/circular-google.svg"
-                                        data-testimonial-review-icon
-                                        class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">" The trek was life-changing!</div>

@@ -20,138 +20,171 @@
       <div class="testimonial-page__wrapper columns-1 md:columns-2">
 
         <!-- Review 1 (no platform badge) -->
-        <div class="testimonial__list-item">
-          <div class="testimonial__list-item-meta">
-            <div class="testimonial__list-item-rating">
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
+        <div class="testimonial__list-item ">
+          <div class="testimonial__list-item-meta gap-3">
+            <img src="/images/svg/circular-tripadvisor.svg"
+              data-testimonial-review-icon
+              class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
+            <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2">
+              <div class="rating-wrap rating-5">
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+              </div>
             </div>
-            <img src="../images/svg/google.svg" alt="Google" class="h-8 w-8">
           </div>
-          <h3 class="testimonial__list-item-title">" The trek was life-changing!</h3>
-          <div class="testimonial__list-item-content">I booked for the Mardi Trek and it was amazing. They
-            briefed the itinerary and it was on schedule. I booked for the Mardi Trek and it was amazing. I
-            booked for the Mardi Trek and it was amazing. They briefed the itinerary and it was on schedule. I
-            booked for the Mardi Trek and it was amazing. They briefed the itinerary and it was on schedule. I
-            booked for the Mardi Trek and it was amazing. They briefed the itinerary and it was on schedule.
-            They briefed the itinerary and it was on schedule. I love how this trip was a blend of culture,
-            everything was excellent no complaints. Thanks and cheers
+          <div class="testimonial__list-item-title">" The trek was life-changing!</div>
+          <div class="review-list__item-content text-text_color text-sm">
+            <div class="testimonial__list-item-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
+                eum mollitia. Similique harum veniam totam iste?</p>
+            </div>
           </div>
-          <div class="testimonial__list-item-reviewer">
-            <div class="reviewer-image">A</div>
-            <div class="reviewer-content">
-              <div class="text-text_color -mb-2 text-[15px] font-bold lg:text-lg">Ramiro Barraza - USA</div>
-              <span class="text-text_color text-[13px]">Annapurna Circuit, 2014</span>
+          <div class="testimonial__list-item-reviewer ">
+            <div class="reviewer-image">
+              <div class="placeholder__img-wrapper">
+                <div class="w-full placeholder__img">
+                  <img src="/images/dynamic/reviewer.webp" width="55" height="55"
+                    class="rounded-full" alt="" />
+                </div>
+              </div>
+
+            </div>
+            <div class="reviewer-content ">
+              <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                USA
+              </div>
+              <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
             </div>
           </div>
         </div>
 
         <!-- Review 2 (TripAdvisor) -->
-        <div class="testimonial__list-item">
+        <div class="testimonial__list-item ">
           <div class="testimonial__list-item-meta">
-            <div class="testimonial__list-item-rating">
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-            </div>
-            <!-- TripAdvisor platform badge -->
-            <span class="icon icon-circular-tripadvisor mr-2 h-8 w-8 flex-shrink-0"></span>
-          </div>
-          <h3 class="testimonial__list-item-title">" The trek was life-changing!</h3>
-          <div class="testimonial__list-item-content">I booked for the Mardi Trek and it was amazing. They
-            briefed the itinerary and it was on schedule. I love how this trip was a blend of culture, nature
-            and people. Thanks and cheers :)
-          </div>
-          <div class="testimonial__list-item-reviewer">
-            <div class="reviewer-image">
-              <div class="placeholder__img-wrapper">
-                <div class="placeholder__img">
-                  <img alt="image" loading="lazy" width="50" height="50" decoding="async"
-                    class="rounded-full" style="color:transparent" src="../images/dynamic/author.webp">
-                </div>
+            <img src="/images/svg/circular-tripadvisor.svg"
+              data-testimonial-review-icon
+              class="w-7.5 h-7.5 cursor-pointer" alt="Trip Advisor" />
+            <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2">
+              <div class="rating-wrap rating-5">
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
               </div>
             </div>
-            <div class="reviewer-content">
-              <div class="text-text_color -mb-2 text-[15px] font-bold lg:text-lg">Ramiro Barraza - USA</div>
-              <span class="text-text_color text-[13px]">Annapurna Circuit, 2014</span>
+          </div>
+          <div class="testimonial__list-item-title">" The trek was life-changing!</div>
+          <div class="review-list__item-content text-text_color text-sm">
+            <div class="testimonial__list-item-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
+                eum mollitia. Similique harum veniam totam iste?</p>
+            </div>
+          </div>
+          <div class="testimonial__list-item-reviewer ">
+            <div class="reviewer-image">
+              <div class="placeholder__img-wrapper">
+                <div class="w-full placeholder__img">
+                  <img src="/images/dynamic/reviewer.webp" width="55" height="55"
+                    class="rounded-full" alt="" />
+                </div>
+              </div>
+
+            </div>
+            <div class="reviewer-content ">
+              <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                USA
+              </div>
+              <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
             </div>
           </div>
         </div>
 
         <!-- Review 3 (Google) -->
-        <div class="testimonial__list-item">
-          <div class="testimonial__list-item-meta">
-            <div class="testimonial__list-item-rating">
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-            </div>
-            <!-- Google platform badge -->
-            <span class="icon icon-circular-google mr-2 h-8 w-8 flex-shrink-0"></span>
-          </div>
-          <h3 class="testimonial__list-item-title">" The trek was life-changing!</h3>
-          <div class="testimonial__list-item-content">I booked for the Mardi Trek and it was amazing. They
-            briefed the itinerary and it was on schedule. I love how this trip was a blend of culture, nature
-            and people. I booked for the Mardi Trek and it was amazing. They briefed the itinerary and it was on
-            schedule. I love how this trip was a blend of culture, nature and people. I booked for the Mardi
-            Trek and it was amazing. They briefed the itinerary and it was on schedule. I love how this trip was
-            a blend of culture, nature and people. I booked for the Mardi Trek and it was amazing. They briefed
-            the itinerary and it was on schedule. I love how this trip was a blend of culture, nature and
-            people. Thanks and cheers :)
-          </div>
-          <div class="testimonial__list-item-reviewer">
-            <div class="reviewer-image">
-              <div class="placeholder__img-wrapper">
-                <div class="placeholder__img">
-                  <img alt="image" loading="lazy" width="50" height="50" decoding="async"
-                    class="rounded-full" style="color:transparent" src="../images/dynamic/author.webp">
-                </div>
+        <div class="testimonial__list-item ">
+          <div class="testimonial__list-item-meta gap-3">
+            <a href="">
+              <img src="/images/svg/circular-google.svg"
+                data-testimonial-review-icon
+                class="w-7.5 h-7.5 cursor-pointer" alt="Google" />
+            </a>
+            <div class="testimonial__list-item-rating flex items-center gap-2">
+              <div class="rating-wrap rating-5">
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
               </div>
             </div>
-            <div class="reviewer-content">
-              <div class="text-text_color -mb-2 text-[15px] font-bold lg:text-lg">Ramiro Barraza - USA</div>
-              <span class="text-text_color text-[13px]">Annapurna Circuit, 2014</span>
+          </div>
+          <div class="testimonial__list-item-title">" The trek was life-changing!</div>
+          <div class="review-list__item-content text-text_color text-sm">
+            <div class="testimonial__list-item-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
+                eum mollitia. Similique harum veniam totam iste?</p>
+            </div>
+          </div>
+          <div class="testimonial__list-item-reviewer ">
+            <div class="reviewer-image">
+              <div class="placeholder__img-wrapper">
+                <div class="w-full placeholder__img">
+                  <img src="/images/dynamic/reviewer.webp" width="55" height="55"
+                    class="rounded-full" alt="" />
+                </div>
+              </div>
+
+            </div>
+            <div class="reviewer-content ">
+              <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                USA
+              </div>
+              <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
             </div>
           </div>
         </div>
 
         <!-- Review 4 (Facebook) -->
-        <div class="testimonial__list-item">
-          <div class="testimonial__list-item-meta">
-            <div class="testimonial__list-item-rating">
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-              <span class="icon icon-star-rate text-white text-3.5"></span>
-            </div>
-            <!-- Facebook platform badge -->
-            <span class="icon icon-circular-facebook mr-2 h-8 w-8 flex-shrink-0"></span>
-          </div>
-          <h3 class="testimonial__list-item-title">" The trek was life-changing!</h3>
-          <div class="testimonial__list-item-content">I booked for the Mardi Trek and it was amazing. They
-            briefed the itinerary and it was on schedule. I love how this trip was a blend of culture, nature
-            and people. Thanks and cheers :)
-          </div>
-          <div class="testimonial__list-item-reviewer">
-            <div class="reviewer-image">
-              <div class="placeholder__img-wrapper">
-                <div class="placeholder__img">
-                  <img alt="image" loading="lazy" width="50" height="50" decoding="async"
-                    class="rounded-full" style="color:transparent" src="../images/dynamic/author.webp">
-                </div>
+        <div class="testimonial__list-item m-0!">
+          <div class="testimonial__list-item-meta gap-3">
+            <img src="/images/svg/circular-facebook.svg"
+              data-testimonial-review-icon
+              class="w-7.5 h-7.5 cursor-pointer" alt="Facebook" />
+            <div class="testimonial__list-item-rating flex items-center gap-2">
+              <div class="rating-wrap rating-5">
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
+                <span class="star"></span>
               </div>
             </div>
-            <div class="reviewer-content">
-              <div class="text-text_color -mb-2 text-[15px] font-bold lg:text-lg">Ramiro Barraza - USA</div>
-              <span class="text-text_color text-[13px]">Annapurna Circuit, 2014</span>
+          </div>
+          <div class="testimonial__list-item-title">" The trek was life-changing!</div>
+          <div class="review-list__item-content text-text_color text-sm">
+            <div class="testimonial__list-item-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
+                eum mollitia. Similique harum veniam totam iste?</p>
+            </div>
+          </div>
+          <div class="testimonial__list-item-reviewer ">
+            <div class="reviewer-image">
+              <div class="placeholder__img-wrapper">
+                <div class="w-full placeholder__img">
+                  <img src="/images/dynamic/reviewer.webp" width="55" height="55"
+                    class="rounded-full" alt="" />
+                </div>
+              </div>
+
+            </div>
+            <div class="reviewer-content ">
+              <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                USA
+              </div>
+              <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
             </div>
           </div>
         </div>

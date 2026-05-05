@@ -1087,14 +1087,9 @@
                                                 src="./images/svg/logo.svg">
                                 </a>
                         </div>
-                        <div class="flex items-center gap-2">
-                                <a class="wishlist" href="">
-                                        <svg class=" text-secondary h-6 w-6 fill-current" aria-hidden="true">
-                                                <use href="/sprite.svg#icon-heart-outline"></use>
-                                        </svg>
-                                </a>
-                                <span class="icon text-primary text-[20px] icon-searchicon"></span>
-                                <div class="mobile-menu-button text-primary" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"
+                        <div class="flex items-center gap-3">
+                                <span class="icon text-primary text-2xl icon-searchicon"></span>
+                                <div class="mobile-menu-button" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"
                                         role="button">
                                         <div class="mobile-menu-trigger ">
                                                 <span class="menu-toggle-bar menu-toggle-bar--top"></span>
