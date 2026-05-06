@@ -864,7 +864,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (window.Swiper) {
     new Swiper(".searchSwiper", {
       slidesPerView: 1,
-      loop: true,
+      loop: false,
       speed: 800,
       autoplay: {
         delay: 3500,
@@ -875,7 +875,7 @@ document.addEventListener("DOMContentLoaded", () => {
     new Swiper(".categorySwiper", {
       slidesPerView: 4,
       spaceBetween: 20,
-      loop: true,
+      loop: false,
       speed: 900,
       preventInteractionOnTransition: true,
       navigation: {
@@ -899,7 +899,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     new Swiper(".testimonialSwiper", {
-      loop: true,
+      loop: false,
       slidesPerView: 1,
       spaceBetween: 20,
       navigation: {

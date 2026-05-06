@@ -115,7 +115,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-lg text-text_color">
+                                <div class="text-sm text-text_color">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -169,7 +169,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-lg text-text_color">
+                                <div class="text-sm text-text_color">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -220,7 +220,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-lg text-text_color">
+                                <div class="text-sm text-text_color">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -306,7 +306,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-lg text-text_color">
+                                <div class="text-sm text-text_color">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -360,7 +360,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-lg text-text_color">
+                                <div class="text-sm text-text_color">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -411,7 +411,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-lg text-text_color">
+                                <div class="text-sm text-text_color">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -437,13 +437,10 @@
         </div>
 
         <!-- Join Our Upcoming Trips -->
-        <section class="homepage__join container common-box pt-0">
-            <div class="homepage__join-banner join-trip-banner">
-                <img src="/images/dynamic/website-img.jpg" alt="" class="homepage__join-image join-trip-image">
-                <div class="absolute inset-0 bg-primary/30"></div>
-                <div class="absolute inset-0 flex sm:flex-row flex-col justify-between items-center w-[90%] m-auto">
-
-                    <div class="homepage__join-content">
+        <section class="homepage__explore-section container common-box pt-0 ">
+            <div class="homepage__join-banner ">
+                <div class="homepage__explore-content">
+                    <div class="flex flex-col items-star">
                         <h2 class="font-playfair text-xl font-bold text-white  lg:text-4xl">
                             Join Our Upcoming Trips
                         </h2>
@@ -451,22 +448,20 @@
                             Explore breathtaking destinations and travel with like-minded adventures.
                         </p>
                     </div>
-                    <div class="homepage__join-actions">
+                    <div class="homepage__explore-content-actions">
                         <button class="btn-outline-secondary hav-icon">
-                            View All Packages
+                            View Our Upcoming Trips
                             <span class="icon-view"></span>
                         </button>
 
                         <button class="btn-outline-secondary hav-icon">
-                            View All Packages
+                            Customize Your Own Trip
                             <span class="icon-view"></span>
                         </button>
                     </div>
-
                 </div>
             </div>
         </section>
-
 
         <!-- Homepage-Content -->
         <section class="homepage__main-content homepage__main-content-grid common-box pt-0 ">
@@ -601,7 +596,7 @@
 
 
         <!-- Most Popular -->
-        <section class="container hav-title-btn">
+        <section class="container hav-title-btn common-box pt-0">
             <!-- <div class=" container"> -->
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -827,7 +822,7 @@
         </div>
 
         <!-- Videos Layout -->
-        <div class="grid grid-cols-12 gap-5">
+        <div class="grid grid-cols-12 gap-5 scroll-wrap">
             <div class="col-span-12 lg:col-span-9">
                 <div class="moments-list__item">
                     <div class="moments-list__item-image relative">
@@ -842,12 +837,12 @@
                             <div role="button" data-fancybox="true"
                                 data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
                                 area-label="Watch video review" class="circular-animate">
-                                <span class="video-play-btn"><span class="icon-play-button"></span>
+                                <span class="video-play-btn"><span class="icon-play-button "></span>
                                 </span>
                             </div>
                         </div>
-                        <div class="absolute lg:bottom-6 bottom-1 left-6 text-white z-10">
-                            <h4 class="lg:text-2xl text-[16px] sm:text-xs text-white font-extrabold ">Everest Base Camp
+                        <div class="absolute lg:bottom-6 bottom-1 left-4 text-white z-10">
+                            <h4 class="text-base sm:text-xs lg:text-2xl text-white font-extrabold ">Everest Base Camp
                             </h4>
                             <span class="text-sm">Jhon - Australia</span>
                         </div>
@@ -873,12 +868,12 @@
                                     <div
                                         class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3 ">
                                         <span class="video-play-btn-side circular-animate">
-                                            <span class="icon-play-button z-30 text-primary"></span></span>
+                                            <span class="icon-play-button text-xs"></span></span>
                                     </div>
                                 </div>
                             </div>
                             <div class="absolute bottom-4 left-4 text-white z-10">
-                                <h4 class="text-lg font-semibold text-white">Travel Nepal</h4>
+                                <h4 class="text-sm font-semibold text-white">Travel Nepal</h4>
                                 <span class="text-xs">John - Australia</span>
                             </div>
                         </div>
@@ -901,7 +896,7 @@
                                     <div class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3">
                                         <span class="video-play-btn-side circular-animate">
                                             <span
-                                                class="icon-video z-30 icon-play-button text-base text-primary "></span></span>
+                                                class="icon-play-button text-xs "></span></span>
                                     </div>
                                 </div>
                             </div>
@@ -1116,17 +1111,10 @@
                             </div>
                             <div class="testimonial__list-item-reviewer ">
                                 <div class="reviewer-image">
-                                    <div class="placeholder__img-wrapper">
-                                        <div class="w-full placeholder__img">
-                                            <img src="/images/dynamic/reviewer.webp" width="55" height="55"
-                                                class="rounded-full" alt="" />
-                                        </div>
-                                    </div>
-
+                                    <div class="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-secondary font-poppins text-xl text-white">R</div>
                                 </div>
                                 <div class="reviewer-content ">
-                                    <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
-                                        USA
+                                    <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza - USA
                                     </div>
                                     <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
                                 </div>

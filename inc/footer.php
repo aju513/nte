@@ -37,7 +37,7 @@
             <div class="footer_grid">
 
                 <!-- Logo -->
-                <div class="flex lg:justify-start lg:self-start">
+                <div class="col-span-1 lg:col-span-2 flex lg:justify-start lg:self-start">
                     <img width="171" height="84" src="/images/svg/logo.svg" alt="Nepal Travel Experience" />
                 </div>
 
@@ -92,42 +92,52 @@
                 </div>
 
                 <!-- Newsletter & Social -->
-                <div>
-                    <div>
+                <div class="col-span-1 sm:col-span-2 lg:col-span-3">
+                    <div class="flex flex-col">
                         <h4>Newsletter</h4>
                         <div class="text-base ">
                             Sign up for the latest news, offers!
                         </div>
+                        <div class="flex items-start">
+                            <button class="footer-subscribe">
+                                Subscribe Our Newsletter
+                            </button>
+                            </divcl>
+                        </div>
 
-                        <button class="footer-subscribe ">
-                            Subscribe Our Newsletter
-                        </button>
+                        <h4 class="mt-4">
+                            Follow Us
+                        </h4>
+
+                        <div class="footer__contact-social flex flex-wrap gap-1.25  lg:justify-start ">
+                            <a class="social-common social-tiktok" aria-label="Tiktok" href="">
+                                <span class="icon-tiktok"></span>
+                            </a>
+                            <a class="social-common social-insta" aria-label="Instagram" href="">
+                                <span class=" icon-instagram"></span>
+                            </a>
+                            <a class="social-common social-linkedin" aria-label="Instagram" href="">
+                                <span class=" icon-linkedin"></span>
+                            </a>
+                            <a class="social-common social-x" aria-label="X" href="">
+                                <span class=" icon-x"></span>
+                            </a>
+                            <a class="social-common social-fb" aria-label="Facebook" href="">
+                                <span class=" icon-facebook "></span>
+                            </a>
+                            <a class="social-common social-yt" aria-label="Youtube" href="">
+                                <span class=" icon-youtube"></span>
+                            </a>
+
+                        </div>
                     </div>
 
-                    <h4 class="mt-4">
-                        Follow Us
-                    </h4>
-
-                    <div class="footer__contact-social flex flex-wrap gap-1.25  lg:justify-start ">
-                        <a class="social-common social-tiktok" aria-label="Tiktok" href=""> <span
-                                class="icon-tiktok"></span></a>
-                        <a class="social-common social-insta" aria-label="Instagram" href=""><span
-                                class=" icon-instagram"></span></a>
-                        <a class="social-common social-x" aria-label="X" href=""><span class=" icon-x"></span></a>
-                        <a class="social-common social-fb" aria-label="Facebook" href=""><span
-                                class=" icon-facebook "></span></a>
-                        <a class="social-common social-yt" aria-label="Youtube" href=""> <span
-                                class=" icon-youtube"></span></a>
-                        <!-- <a class="social-common social-pinterest" aria-label="Pinterest" href=""><span class=" icon-pinterest"></span></a> -->
-
-                    </div>
                 </div>
 
             </div>
-
             <!-- Bottom Bar -->
             <div class="footer_bottom">
-                <div class="flex gap-1.75 text-center">
+                <div class="flex gap-1.75 items-center justify-center">
                     <div class="footer__payment">
                         <img src="/images/payment/paypal.svg" width="48" height="13" alt="Payment Methods" />
                     </div>
@@ -157,7 +167,6 @@
 
             </div>
         </div>
-    </div>
 
 </footer>
 

@@ -15,11 +15,11 @@
                                 </div>
                                 <div class="col-span-10">
                                         <div class="flex min-h-15 items-center justify-between">
-                                                <nav class="nav-menu flex items-center justify-end gap-7.5">
-                                                        <ul class="items-center gap-5 lg:flex 2xl:gap-6.25">
+                                                <nav class="nav-menu flex items-center justify-end gap-5">
+                                                        <ul class="items-center gap-3 lg:flex">
                                                                 <li>
                                                                         <span
-                                                                                class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-bold transition-all duration-500"
+                                                                                class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-extrabold transition-all duration-500"
                                                                                 aria-expanded="false">Destinations
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -772,7 +772,7 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-bold transition-all duration-500"
+                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-extrabold transition-all duration-500"
                                                                                 aria-expanded="false">Trekking in Nepal
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -784,107 +784,191 @@
                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 href="/categorylist">Everest</a>
                                                                                                         <ul class="space-y-2">
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Short Trek to Everest Base Camp 7
-                                                                                                                                Days</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Gokyo Lakes Trek</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Everest View Trek</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Short Trek to Everest Base Camp 7 Days
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Gokyo Lakes Trek
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Everest View Trek
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
                                                                                                                                 href="../package.php">Everest Base Camp Trek with Helicopter
-                                                                                                                                Return</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Everest Three High Pass Trek</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Everest Mani Rimdu Festival Trek</a>
+                                                                                                                                Return
+                                                                                                                        </a>
                                                                                                                 </li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Everest Base Camp Trek</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Everest Base Camp Tour 5 Days</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Everest Gokyo Chola Pass Trek</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Sleeping at Everest Base Camp Trek</a>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Everest Three High Pass Trek
+                                                                                                                        </a>
                                                                                                                 </li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Everest Base Camp Helicopter Tour</a>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Everest Mani Rimdu Festival Trek
+                                                                                                                        </a>
                                                                                                                 </li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Everest Base Camp Trek
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Everest Base Camp Tour 5 Days
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Everest Gokyo Chola Pass Trek
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Sleeping at Everest Base Camp Trek
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Everest Base Camp Helicopter Tour
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
                                                                                                                                 href="../package.php">Kathmandu to Lukla Helicopter Flight
-                                                                                                                                Booking</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="../package.php">Everest Base Camp Luxury Trek</a></li>
+                                                                                                                                Booking
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="../package.php">Everest Base Camp Luxury Trek
+                                                                                                                        </a>
+                                                                                                                </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                <li class="p-0 lg:p-2">
+                                                                                                        <a aria-expanded="false"
                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
-                                                                                                                href="../category.php">Annapurna</a>
+                                                                                                                href="../category.php">Annapurna
+                                                                                                        </a>
                                                                                                         <ul class="space-y-2">
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Annapurna Helicopter Tours</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Annapurna Region</a></li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Annapurna Helicopter Tours
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Annapurna Region
+                                                                                                                        </a>
+                                                                                                                </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
-                                                                                                                href="/categorylist">Multi City</a></li>
-                                                                                                <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
+                                                                                                <li class="p-0 lg:p-2">
+                                                                                                        <a class="text-primary mb-0.75 flex justify-between font-bold"
+                                                                                                                href="/categorylist">Multi City
+                                                                                                        </a>
+                                                                                                </li>
+                                                                                                <li class="p-0 lg:p-2">
+                                                                                                        <a class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Kanchenjunga</a>
                                                                                                         <ul class="space-y-2">
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Kanchenjunga Base Camp Trek</a></li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Kanchenjunga Base Camp Trek
+                                                                                                                        </a>
+                                                                                                                </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
+                                                                                                <li class="p-0 lg:p-2">
+                                                                                                        <a class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Mustang and
-                                                                                                                Manang</a>
+                                                                                                                Manang
+                                                                                                        </a>
                                                                                                         <ul class="space-y-2">
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Upper Mustang Trek</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Upper Mustang Jeep Tour</a></li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Upper Mustang Trek
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Upper Mustang Jeep Tour
+                                                                                                                        </a>
+                                                                                                                </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
+                                                                                                <li class="p-0 lg:p-2">
+                                                                                                        <a class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Mustang and
-                                                                                                                Manang</a>
+                                                                                                                Manang
+                                                                                                        </a>
                                                                                                         <ul class="space-y-2">
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Upper Mustang Trek</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Upper Mustang Jeep Tour</a></li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Upper Mustang Trek
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Upper Mustang Jeep Tour
+                                                                                                                        </a>
+                                                                                                                </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2"><a
-                                                                                                                class="text-primary mb-0.75 flex justify-between font-bold"
-                                                                                                                aria-expanded="false" href="/categorylist">Test</a>
+                                                                                                <li class="p-0 lg:p-2">
+                                                                                                        <a class="text-primary mb-0.75 flex justify-between font-bold"
+                                                                                                                aria-expanded="false" href="/categorylist">Test
+                                                                                                        </a>
                                                                                                         <ul class="space-y-2">
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
                                                                                                                                 href="/category">Short Trek to Everest Base Camp 7
-                                                                                                                                Days</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Base Camp Trek</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Base Camp Tour 5 Days</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Gokyo Chola Pass Trek</a></li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Sleeping at Everest Base Camp Trek</a>
+                                                                                                                                Days
+                                                                                                                        </a>
                                                                                                                 </li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Base Camp Helicopter Tour</a>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Everest Base Camp Trek
+                                                                                                                        </a>
                                                                                                                 </li>
-                                                                                                                <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Everest Base Camp Tour 5 Days
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Everest Gokyo Chola Pass Trek
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Sleeping at Everest Base Camp Trek
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
+                                                                                                                                href="/category">Everest Base Camp Helicopter Tour
+                                                                                                                        </a>
+                                                                                                                </li>
+                                                                                                                <li>
+                                                                                                                        <a class="text-text_color hover:text-primary text-sm font-medium duration-200"
                                                                                                                                 href="/category">Kathmandu to Lukla Helicopter Flight
-                                                                                                                                Booking</a></li>
+                                                                                                                                Booking
+                                                                                                                        </a>
+                                                                                                                </li>
                                                                                                                 <li><a class="text-text_color hover:text-primary text-sm font-medium duration-200"
-                                                                                                                                href="/category">Everest Base Camp Luxury Trek</a></li>
+                                                                                                                                href="/category">Everest Base Camp Luxury Trek
+                                                                                                                        </a>
+                                                                                                                </li>
                                                                                                         </ul>
                                                                                                 </li>
                                                                                                 <li class="p-0 lg:p-2"><a
@@ -903,7 +987,7 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-bold transition-all duration-500"
+                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-extrabold transition-all duration-500"
                                                                                 aria-expanded="false">Travel Guide
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -938,7 +1022,7 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-bold transition-all duration-500"
+                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-extrabold transition-all duration-500"
                                                                                 aria-expanded="false">Company
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -1023,9 +1107,9 @@
                                                                                 </div>
                                                                         </div>
                                                                 </li>
-                                                                <li><a class="hover:text-primary text-text_color text-sm leading-3.5 font-bold transition-all duration-500"
+                                                                <li><a class="hover:text-primary text-text_color text-sm leading-3.5 font-extrabold transition-all duration-500"
                                                                                 href="">Blog</a></li>
-                                                                <li><a class="hover:text-primary text-text_color text-sm leading-3.5 font-bold transition-all duration-500"
+                                                                <li><a class="hover:text-primary text-text_color text-sm leading-3.5 font-extrabold transition-all duration-500"
                                                                                 href="../contact-new.php">Contact Us</a></li>
                                                         </ul>
                                                 </nav>
@@ -1073,7 +1157,7 @@
                         </div>
                 </div>
         </div>
-        <div class="shadow-custom mobile__menu block bg-white px-3.75 py-2 lg:hidden">
+        <div class="shadow-custom mobile__menu block bg-white px-3.75 py-2 lg:hidden sticky">
                 <div class="mobile__menu-wrap flex items-center justify-between">
                         <div class="biz__logo">
                                 <a class="flex items-center gap-3" href="/">

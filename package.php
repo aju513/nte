@@ -1179,7 +1179,7 @@
                 <div class="font-mulish font-extrabold md:text-2xl text-text_color text-[22px] mt-2 leading-7.5">
                   Everest Base Camp
                 </div>
-                <div class="text-[16px] text-text_color leading-4.5">
+                <div class="text-base text-text_color leading-4.5">
                   Jhone - USA
                 </div>
               </div>
@@ -1395,7 +1395,7 @@
       </div>
     </section>
     <div id="no-nav"></div>
-    <section class="common-box  package-list relative top-50 -mt-50">
+    <section class="common-box pt-0 package-list relative top-50 -mt-50">
       <div class="container ">
         <h2 class="package__section-title">
           You May Also Like </h2>
