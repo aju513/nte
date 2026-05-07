@@ -100,7 +100,7 @@
 </section>
 
 
-<section class="common-box pt-0 package-page bg-secondary relative md:-mb-15.5 lg:pb-30" role="main">
+<section class="common-box pt-0 package-page bg-secondary relative md:-mb-5 " role="main">
   <div class="package__banner">
     <div class="container-fluid relative">
       <div class="package__banner-wrapper">
@@ -156,7 +156,7 @@
                 </div>
                 <span class="text-[13px] text-text_color leading-5">110 Reviews in Trip Advisor</span>
               </div>
-              <div class="flex items-center gap-1 package__rating-tripadvisor">
+              <div class="flex items-center gap-1 package__rating-google">
                 <div class="flex justify-start items-start gap-1">
                   <span class="icon-star-rate text-[#ffc20e] text-[10px] "></span>
                   <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
@@ -1034,13 +1034,13 @@
             </div>
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-4 gap-8 lg:pt-15">
+        <div class="col-span-12 lg:col-span-4 gap-8 pt-0 lg:pt-15">
           <div class="package-actions">
-            <button class="package-actions__item btn-secondary bg-[#f6faff] gap-2 hav-icon">
+            <button class="package-actions__item btn-secondary gap-2 hav-icon">
               <span class="icon-send text-lg text-[#6cafda]"></span>
               View Map
             </button>
-            <button class="package-actions__item btn-primary">
+            <button class="package-actions__item btn-primary gap-2">
               <span class="icon-share text-lg"></span>
               Share
             </button>
@@ -1153,7 +1153,7 @@
       </div>
     </div>
 
-    <section class="video-review common-box scroll-wrap ">
+    <section class="video-review common-box pb-0 scroll-wrap ">
       <div class="container">
         <h2 class="package__section-title ">
           Travel Moments
@@ -1193,8 +1193,8 @@
                     <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                   </div>
                 </div>
-                <div class=" video-review__item-link">
-                  <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate">
+                <div class="video-review__item-link">
+                  <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
                     <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
@@ -1274,7 +1274,7 @@
                 <div class="package__review-platform-rating star-rating">
                   <span class="text-sm ">4.9</span>
                   <div class="rating-wrap rating-5">
-                    <span class="star"></span>
+                    <span class="star "></span>
                     <span class="star"></span>
                     <span class="star"></span>
                     <span class="star"></span>
@@ -1290,9 +1290,9 @@
               <img src="/images/svg/trustpilot.svg" width="31" height="31" alt="Trustpilot" class="cursor-pointer" />
               <div class="package__review-platform-copy">
 
-                <div class="package__review-platform-rating green-dot-rating">
+                <div class="package__review-platform-rating">
                   <span class="text-sm ">4.9</span>
-                  <div class="rating-wrap rating-5">
+                  <div class="rating-wrap rating-5 ">
                     <span class="star"></span>
                     <span class="star"></span>
                     <span class="star"></span>
@@ -1401,7 +1401,7 @@
           You May Also Like </h2>
 
         <!--Package Grid -->
-        <div class="relative mt-8">
+        <div class="relative scroll-wrap md:mb-10">
           <div class="grid grid-cols-12 gap-5">
             <div class="col-span-12 sm:col-span-6 lg:col-span-4">
               <div class="package-list__item">
@@ -1437,7 +1437,7 @@
                       </a>
                     </h3>
                   </div>
-                  <div class="text-lg text-text_color">
+                  <div class="text-sm text-text_color">
                     Price From
                   </div>
                   <div class="package-list__item-bottom ">
@@ -1491,7 +1491,7 @@
                       </a>
                     </h3>
                   </div>
-                  <div class="text-lg text-text_color">
+                  <div class="text-sm text-text_color">
                     Price From
                   </div>
                   <div class="package-list__item-bottom ">
@@ -1542,7 +1542,7 @@
                       </a>
                     </h3>
                   </div>
-                  <div class="text-lg text-text_color">
+                  <div class="text-sm text-text_color">
                     Price From
                   </div>
                   <div class="package-list__item-bottom ">

@@ -28,8 +28,9 @@
           <div class="flex items-center gap-3">
 
             <div class="share-wrap">
-              <button type="button" class="share-btn bg-primary text-white rounded-full text-[13px] p-2.5 py-1">
-                <span class="icon-share"></span>Share
+              <button class="btn-primary">
+                <span class="icon-share text-lg"></span>
+                Share
               </button>
               <div class="share-list" aria-label="Share options">
                 <button type="button" class="share-facebook">
@@ -58,7 +59,7 @@
                 </button>
 
                 <button type="button" class="share-copy">
-                  <span class="mr-2 text-2xl icon-link-45deg"></span>
+                  <span class="mr-2 text-2xl icon-copylink"></span>
                   <span class="text-sm">Copy</span>
                 </button>
               </div>

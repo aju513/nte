@@ -27,40 +27,40 @@
             </div>
         </div>
 
-    </section>
-    <div class="homepage__notice">
-        <div class="homepage__notice-wrap container" id="heroNoticeSlider" aria-live="polite">
-            <div class="homepage__notice-bar">
-                <div class="notice-message js-notice-slide is-active">
-                    Nepal bans solo trekkers throughout the country.
-                </div>
-                <div class="notice-message js-notice-slide">
-                    Spring trekking permits are now open for Everest, Annapurna, and Langtang regions.
-                </div>
-                <div class="notice-message js-notice-slide">
-                    Weather in high-altitude routes can change quickly, so always travel prepared.
-                </div>
+        <div class="homepage__notice container">
+            <div class="homepage__notice-wrap" id="heroNoticeSlider" aria-live="polite">
+                <div class="homepage__notice-bar">
+                    <div class="notice-message js-notice-slide is-active">
+                        Nepal bans solo trekkers throughout the country.
+                    </div>
+                    <div class="notice-message js-notice-slide">
+                        Spring trekking permits are now open for Everest, Annapurna, and Langtang regions.
+                    </div>
+                    <div class="notice-message js-notice-slide">
+                        Weather in high-altitude routes can change quickly, so always travel prepared.
+                    </div>
 
-                <div class="notice-controls">
-                    <div class="notice-nav">
-                        <button type="button" class="notice-btn js-notice-prev" aria-label="Previous notice">
-                            <span class="icon-back rotate-180"></span>
-                        </button>
-                        <span class="notice-counter">
-                            <span class="js-notice-current">1</span>/3
-                        </span>
-                        <button type="button" class="notice-btn js-notice-next" aria-label="Next notice">
-                            <span class="icon-back "></span>
+                    <div class="notice-controls">
+                        <div class="notice-nav">
+                            <button type="button" class="notice-btn js-notice-prev" aria-label="Previous notice">
+                                <span class="icon-back rotate-180"></span>
+                            </button>
+                            <span class="notice-counter">
+                                <span class="js-notice-current">1</span>/3
+                            </span>
+                            <button type="button" class="notice-btn js-notice-next" aria-label="Next notice">
+                                <span class="icon-back "></span>
+                            </button>
+                        </div>
+                        <button type="button" class="notice-btn homepage__notice-close js-notice-close"
+                            aria-label="Close notice">
+                            <span class="icon-close text-[8px]"></span>
                         </button>
                     </div>
-                    <button type="button" class="notice-btn homepage__notice-close js-notice-close"
-                        aria-label="Close notice">
-                        <span class="icon-close text-[8px]"></span>
-                    </button>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Bestselling -->
     <section class="homepage__bestselling common-box package-list hav-title-btn">
         <div class="container ">
@@ -251,16 +251,18 @@
         <!-- Top places to Explore -->
         <div class="container common-box hav-title-btn ">
             <!-- Title -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-6 ">
-                <div class="mb-0 section-title-wrap ">
-                    <div class="section-title-sm ">
-                        Top Places to Explore
+            <div class="grid grid-cols-12 gap-5 mb-6 ">
+                <div class="mb-0 section-title-wrap col-span-12 lg:col-span-5 ">
+                    <div class=" lg:col-span-4">
+                        <div class="section-title-sm ">
+                            Top Places to Explore
+                        </div>
+                        <h2 class="section-title ">
+                            Book your next NTE Designer Tours
+                        </h2>
                     </div>
-                    <h2 class="section-title ">
-                        Book your next <br> NTE Designer Tours
-                    </h2>
                 </div>
-                <div class="mb-0">
+                <div class="mb-0 col-span-12 lg:col-span-6">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum magni
                         recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
                     <div class="section-title-btn">
@@ -501,7 +503,7 @@
                             More About Us <span class="icon-view"></span>
                         </button>
                     </div>
-                    <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish lg:-mr-72">
+                    <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish ">
                         <div class="why-choose-accordion container">
                             <h2 class="why-choose-accordion__heading ">Why choose us?</h2>
 
@@ -522,7 +524,7 @@
                                             built
                                             into every trip.</p>
                                         <a href="#" class="why-choose-accordion__link arrow-move-effect ">Read More <span
-                                                class="icon-arrow-right "></span></a>
+                                                class="icon-arrow-right"></span></a>
                                     </div>
                                 </div>
 
@@ -822,94 +824,96 @@
         </div>
 
         <!-- Videos Layout -->
-        <div class="grid grid-cols-12 gap-5 scroll-wrap">
-            <div class="col-span-12 lg:col-span-9">
-                <div class="moments-list__item">
-                    <div class="moments-list__item-image relative">
-                        <div class="placeholder__img-wrapper  w-full">
-                            <div class="placeholder__img w-full ">
-                                <img src="/images/dynamic/video-thumb.webp" width="1200" height="550" loading="lazy"
-                                    decoding="async" data-nimg="1" style="color: transparent;"
-                                    alt="Everest Base Camp" />
-                            </div>
-                        </div>
-                        <div class="fancybox-wrapper video-review__item-link">
-                            <div role="button" data-fancybox="true"
-                                data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
-                                area-label="Watch video review" class="circular-animate">
-                                <span class="video-play-btn"><span class="icon-play-button "></span>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="absolute lg:bottom-6 bottom-1 left-4 text-white z-10">
-                            <h4 class="text-base sm:text-xs lg:text-2xl text-white font-extrabold ">Everest Base Camp
-                            </h4>
-                            <span class="text-sm">Jhon - Australia</span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-span-12 lg:col-span-3">
-                <div class="flex flex-col gap-5 h-full">
-                    <div class="moments-list__item">
+        <div class="scroll-wrap">
+            <div class="grid grid-cols-12 gap-5  ">
+                <div class="col-span-12 lg:col-span-9">
+                    <div class="homepage-moments-list__item">
                         <div class="moments-list__item-image relative">
-                            <div class="placeholder__img-wrapper">
-                                <div class="placeholder__img w-full">
-                                    <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
+                            <div class="placeholder__img-wrapper  w-full">
+                                <div class="placeholder__img w-full ">
+                                    <img src="/images/dynamic/video-thumb.webp" width="1200" height="550" loading="lazy"
                                         decoding="async" data-nimg="1" style="color: transparent;"
                                         alt="Everest Base Camp" />
                                 </div>
                             </div>
-                            <div class="fancybox-wrapper">
-                                <div role="button" data-fancybox="true"
-                                    data-src="https://www.youtube.com/watch?v=bVYJNM1Pih0&t=2s"
-                                    area-label="Watch video review">
-                                    <div
-                                        class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3 ">
-                                        <span class="video-play-btn-side circular-animate">
-                                            <span class="icon-play-button text-xs"></span></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="absolute bottom-4 left-4 text-white z-10">
-                                <h4 class="text-sm font-semibold text-white">Travel Nepal</h4>
-                                <span class="text-xs">John - Australia</span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="moments-list__item">
-                        <div class="moments-list__item-image relative">
-                            <div class="placeholder__img-wrapper">
-                                <div class="placeholder__img w-full">
-                                    <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
-                                        decoding="async" data-nimg="1" style="color: transparent;"
-                                        alt="Everest Base Camp" />
-                                </div>
-                            </div>
-                            <div class="fancybox-wrapper">
+                            <div class="fancybox-wrapper video-review__item-link">
                                 <div role="button" data-fancybox="true"
                                     data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
-                                    area-label="Watch video review">
-                                    <div class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3">
-                                        <span class="video-play-btn-side circular-animate">
-                                            <span
-                                                class="icon-play-button text-xs "></span></span>
-                                    </div>
+                                    area-label="Watch video review" class="circular-animate">
+                                    <span class="video-play-btn"><span class="icon-play-button "></span>
+                                    </span>
                                 </div>
                             </div>
-                            <div class="absolute bottom-4 left-4 text-white z-10">
-                                <h4 class="text-lg font-semibold text-white">Things to Do in Nepal</h4>
-                                <span class="text-xs">John - Australia</span>
+                            <div class="absolute lg:bottom-6 bottom-1 left-4 text-white z-10">
+                                <h4 class="text-base sm:text-xs lg:text-2xl text-white font-extrabold ">Everest Base Camp
+                                </h4>
+                                <span class="text-sm">Jhon - Australia</span>
                             </div>
                         </div>
                     </div>
 
                 </div>
-            </div>
+                <div class="col-span-12 lg:col-span-3">
+                    <div class="flex flex-col gap-5 h-full">
+                        <div class="homepage-moments-list__item">
+                            <div class="moments-list__item-image relative">
+                                <div class="placeholder__img-wrapper">
+                                    <div class="placeholder__img w-full">
+                                        <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
+                                            decoding="async" data-nimg="1" style="color: transparent;"
+                                            alt="Everest Base Camp" />
+                                    </div>
+                                </div>
+                                <div class="fancybox-wrapper">
+                                    <div role="button" data-fancybox="true"
+                                        data-src="https://www.youtube.com/watch?v=bVYJNM1Pih0&t=2s"
+                                        area-label="Watch video review">
+                                        <div
+                                            class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3 right-2">
+                                            <span class="video-play-btn-side circular-animate">
+                                                <span class="icon-play-button text-xs"></span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute bottom-4 left-4 text-white z-10">
+                                    <h4 class="text-lg font-semibold text-white">Travel Nepal</h4>
+                                    <span class="text-xs">John - Australia</span>
+                                </div>
+                            </div>
+                        </div>
 
+
+                        <div class="homepage-moments-list__item">
+                            <div class="moments-list__item-image relative">
+                                <div class="placeholder__img-wrapper">
+                                    <div class="placeholder__img w-full">
+                                        <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
+                                            decoding="async" data-nimg="1" style="color: transparent;"
+                                            alt="Everest Base Camp" />
+                                    </div>
+                                </div>
+                                <div class="fancybox-wrapper">
+                                    <div role="button" data-fancybox="true"
+                                        data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
+                                        area-label="Watch video review">
+                                        <div class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3 right-2">
+                                            <span class="video-play-btn-side circular-animate">
+                                                <span
+                                                    class="icon-play-button text-xs "></span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute bottom-4 left-4 text-white z-10">
+                                    <h4 class="text-lg font-semibold text-white">Things to Do in Nepal</h4>
+                                    <span class="text-xs">John - Australia</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
 
 
@@ -1156,7 +1160,7 @@
         </div>
 
         <!-- blogs -->
-        <div class="scroll-wrap">
+        <div class="scroll-wrap ">
             <div class="grid grid-cols-12 gap-5">
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                     <div class="blog-list__item ">

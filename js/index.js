@@ -917,46 +917,6 @@ document.addEventListener("DOMContentLoaded", () => {
         },
       },
     });
-
-    new Swiper(".bestsellingSwiper", {
-      loop: false,
-      slidesPerView: 1,
-      spaceBetween: 16,
-      navigation: {
-        nextEl: ".bestselling-next",
-        prevEl: ".bestselling-prev",
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
-      },
-    });
-
-    new Swiper(".featuredSwiper", {
-      loop: false,
-      slidesPerView: 1,
-      spaceBetween: 16,
-      navigation: {
-        nextEl: ".featured-next",
-        prevEl: ".featured-prev",
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
-      },
-    });
   }
 
   if (window.Fancybox) {

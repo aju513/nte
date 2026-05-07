@@ -27,11 +27,11 @@
     <style>
         @font-face {
             font-family: 'icomoon';
-            src: url('fonts/icomoon.eot?8s0nn5');
-            src: url('fonts/icomoon.eot?8s0nn5#iefix') format('embedded-opentype'),
-                url('fonts/icomoon.ttf?8s0nn5') format('truetype'),
-                url('fonts/icomoon.woff?8s0nn5') format('woff'),
-                url('fonts/icomoon.svg?8s0nn5#icomoon') format('svg');
+            src: url('fonts/icomoon.eot?b0hkxg');
+            src: url('fonts/icomoon.eot?b0hkxg#iefix') format('embedded-opentype'),
+                url('fonts/icomoon.ttf?b0hkxg') format('truetype'),
+                url('fonts/icomoon.woff?b0hkxg') format('woff'),
+                url('fonts/icomoon.svg?b0hkxg#icomoon') format('svg');
             font-weight: normal;
             font-style: normal;
             font-display: block;
@@ -51,6 +51,10 @@
             /* Better Font Rendering =========== */
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
+        }
+
+        .icon-copylink:before {
+            content: "\e949";
         }
 
         .icon-tag:before {

@@ -153,12 +153,12 @@
 
 
 
-                <div class="text-center lg:text-right text-sm">
-                    <div class="font-semibold mt-2">
+                <div class="text-center lg:text-right  text-text_color">
+                    <div class="font-extrabold mt-2 text-[15px]">
                         © <?= date('Y') ?>, Nepal Travel Experience Pvt. Ltd. All Rights Reserved.
                     </div>
 
-                    <div class="flex items-center justify-center lg:justify-end gap-2 mt-2 cursor-pointer">
+                    <div class="flex items-center justify-center lg:justify-end gap-2 mt-2 cursor-pointer text-sm">
                         <span>Crafted by</span>
                         <img src="/images/svg/imagine-web-solution.svg" width="21" height="19"
                             alt="Imagine Web Solution">
