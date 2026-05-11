@@ -20,17 +20,24 @@
             aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.</p>
-          <div class="flex flex-wrap gap-3"><a
-              class="border-primary bg-dim_bg hover:text-white rounded-custom hover:bg-[#1877f2] flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
-              href="#!"><span class="text-5 text-black icon icon-facebook hover:text-white"></span>Facebook</a><a
-              class="border-primary bg-dim_bg hover:text-text_color rounded-custom hover:bg-black flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
-              href="#!"><span class="text-5 text-black icon icon-x"></span>Twitter</a><a
-              class="border-primary bg-dim_bg hover:text-text_color rounded-custom hover:bg-primary/50 flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
-              href="#!"> <span class="text-5 text-black icon icon-linkedin"></span>Linkedin</a></div>
+          <div class="flex flex-wrap gap-3 group">
+            <a class="border-primary bg-dim_bg group-hover:text-white! rounded-custom hover:bg-[#1877f2] flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
+              href="#!">
+              <span class="text-5 text-black icon icon-facebook "></span>Facebook
+            </a>
+            <a class="border-primary bg-dim_bg hover:text-white rounded-custom hover:bg-black flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
+              href="#!">
+              <span class="text-5 text-black icon icon-x"></span>Twitter
+            </a>
+            <a class="border-primary bg-dim_bg hover:text-white rounded-custom hover:bg-[#0076b1] flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
+              href="#!">
+              <span class="text-5 text-black icon icon-linkedin"></span>Linkedin
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <section class="blog-list common-box ">
+    <section class="blog-list common-box scroll-wrap">
       <div class="container">
         <div class="page-title">
           <h1>Latest Blog</h1>

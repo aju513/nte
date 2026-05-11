@@ -18,8 +18,7 @@
                                                 <nav class="nav-menu flex items-center justify-end gap-5">
                                                         <ul class="items-center gap-3 lg:flex">
                                                                 <li>
-                                                                        <span
-                                                                                class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-extrabold transition-all duration-500"
+                                                                        <span class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm  leading-3.5 font-extrabold transition-all duration-500"
                                                                                 aria-expanded="false">Destinations
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -35,7 +34,7 @@
                                                                                                         <div class="flex flex-wrap justify-start">
                                                                                                                 <ul class="megamenu-items columns-2 xl:columns-3">
                                                                                                                         <li class="p-0 lg:p-2">
-                                                                                                                                <a class="text-primary mb-0.75 flex justify-between font-bold"
+                                                                                                                                <a class="text-primary! mb-0.75 flex justify-between font-bold"
                                                                                                                                         aria-expanded="false"
                                                                                                                                         href="/category-list.php">Everest
                                                                                                                                 </a>

@@ -56,50 +56,53 @@
             <a href="#"><span class="icon-facebook "></span></a>
             <a href="#"><span class="icon-instagram"></span></a>
             <a href="#"><span class="icon-linkedin"></span></a>
+            <a href="#"><span class="icon-tiktok"></span></a>
+            <a href="#"><span class="icon-x"></span></a>
             <a href="#"><span class="icon-youtube"></span></a>
           </div>
         </div>
+        <div>
+          <div class="contact-page__form-card">
+            <div class="contact-page__form-title">Get in touch</div>
 
-        <div class="contact-page__form-card">
-          <div class="contact-page__form-title">Get in touch</div>
+            <form class="contact-page__form" action="#" method="post">
+              <div class="contact-page__form-grid">
+                <div class="contact-page__field contact-page__field--full">
+                  <input type="text" id="contact-name" name="name" placeholder="Your full name" required>
+                </div>
 
-          <form class="contact-page__form" action="#" method="post">
-            <div class="contact-page__form-grid">
-              <div class="contact-page__field contact-page__field--full">
-                <input type="text" id="contact-name" name="name" placeholder="Your full name" required>
+                <div class="contact-page__field contact-page__field--full">
+                  <input type="email" id="contact-email" name="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="contact-page__field">
+                  <input type="tel" id="contact-phone" name="phone" placeholder="+977" required>
+                </div>
+
+                <div class="contact-page__field">
+                  <select id="contact-country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="India">India</option>
+                    <option value="United States">United States</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                  </select>
+                </div>
+
+                <div class="contact-page__field contact-page__field--full">
+                  <textarea id="contact-message" name="message" rows="6"
+                    placeholder="Tell us about your plan, preferred destinations, dates, or any special requirements."></textarea>
+                </div>
               </div>
 
-              <div class="contact-page__field contact-page__field--full">
-                <input type="email" id="contact-email" name="email" placeholder="you@example.com" required>
-              </div>
-
-              <div class="contact-page__field">
-                <input type="tel" id="contact-phone" name="phone" placeholder="+977" required>
-              </div>
-
-              <div class="contact-page__field">
-                <select id="contact-country" name="country" required>
-                  <option value="">Select your country</option>
-                  <option value="Nepal">Nepal</option>
-                  <option value="India">India</option>
-                  <option value="United States">United States</option>
-                  <option value="United Kingdom">United Kingdom</option>
-                  <option value="Australia">Australia</option>
-                  <option value="Canada">Canada</option>
-                </select>
-              </div>
-
-              <div class="contact-page__field contact-page__field--full">
-                <textarea id="contact-message" name="message" rows="6"
-                  placeholder="Tell us about your plan, preferred destinations, dates, or any special requirements."></textarea>
-              </div>
-            </div>
-
-            <button type="submit" class="btn-primary hav-icon mt-2">
-              Send Message
-              <span class="icon-view "></span>
-            </button>
-          </form>
+            </form>
+          </div>
+          <button type="submit" class="btn-outline-primary hav-icon mt-6">
+            Send Message
+            <span class="icon-view "></span>
+          </button>
         </div>
       </div>
 

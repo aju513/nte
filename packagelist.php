@@ -2,7 +2,7 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box packagelist-page" role="main">
+<section class="common-box pt-0 bg-secondary packagelist-page" role="main">
   <div class="common-page-wrapper">
     <div class="container">
       <div class="page-title">
@@ -21,389 +21,384 @@
         </div>
         <div class="grid grid-cols-12 gap-x-5 gap-y-10">
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="package-list__item relative overflow-hidden">
-              <div class="package-list__item-promo-wishlist ">
-                <!--$-->
-                <div class="package-list__item-wishlist" role="button" aria-disabled="false"
-                  aria-label="Add to wishlist">
-                  <img src="./images/svg/wishlist.svg" width="29" height="29" alt="">
-                </div>
-                <div class="package-list__item-promo">
-                  <div class="package-list__item-promot-list">
-                    <span class="package-list__item-promot-list-item">Save up to 15%</span>
-                  </div>
-                </div>
+            <div class="package-list__item">
+              <div class="package-list__item-badge">
+                <span>TOP RATED</span>
               </div>
-
               <div class="package-list__item-image">
                 <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img"><a href="#"><img
-                        alt="Everest Base Camp Trek with Heli Return - 11 Days" loading="lazy"
-                        width="600" height="450" decoding="async" data-nimg="1"
-                        style="color :transparent" src="../images/dynamic/package.png"></a>
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                        alt="image">
+                    </a>
                   </div>
                 </div>
               </div>
               <div class="package-list__item-content">
-                <div class="package-list__item-content-icons">
-                  <h4> <span class="icon-calendar text-primary" aria-hidden="true"></span>
-                    Duration: 15 Days</h4>
-                  <h4> <span class="icon-circle-gauge text-primary" aria-hidden="true"></span>
-                    Challenging</h4>
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                  </div>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
+                  </div>
                 </div>
-                <h3 class="package-list__item-title min-h-[63px] p-5">
-                  <a class="" href="#">Everest Base Camp Trek with
-                    Heli Return - 11 Days</a>
-                </h3>
-
-                <div class="package-list__item-price-container ">
-                  <div class="package-list__item-price"><span
-                      class="text-sm text-[#465469] font-normal font-poppins text-xs md:text-[14px]">Price
-                      From</span>
-                    <div class="flex justify-start gap-2">
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins font-semibold text-primary text-lg md:text-xl lg:text-[22px]">US$<!-- -->2050</span>
-                      </div>
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins text-gray-400 text-xs md:text-[14px] lg:text-[16px] line-through">US$<!-- -->2050</span>
-                      </div>
-                    </div>
-
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#" class="">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
                   </div>
-                  <div class="package-list__item-book-now flex items-center justify-end gap-1 pb-1">
-                    <div class="flex justify-between items-center">
-                      <button class="btn-secondary">
-                        Book Now
-                        <span class="icon-view text-[9px]"></span>
-                      </button>
 
-                    </div>
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#" class="">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
                   </div>
+
                 </div>
               </div>
             </div>
-
           </div>
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="package-list__item relative overflow-hidden">
-              <div class="package-list__item-promo-wishlist ">
-                <!--$-->
-                <div class="package-list__item-wishlist" role="button" aria-disabled="false"
-                  aria-label="Add to wishlist">
-                  <img src="./images/svg/wishlist.svg" width="29" height="29" alt="">
-                </div><!--/$-->
-                <div class="package-list__item-promo">
-                  <div class="package-list__item-promot-list">
-                    <span class="package-list__item-promot-list-item">Save up to 15%</span>
-                  </div>
-                </div>
+            <div class="package-list__item">
+              <div class="package-list__item-badge">
+                <span>TOP RATED</span>
               </div>
-
               <div class="package-list__item-image">
-                <div class="placeholder__img-wrapper w-full">
-                  <div class="placeholder__img w-full"><a href="#"><img
-                        alt="Everest Base Camp Trek with Heli Return - 11 Days" loading="lazy"
-                        width="600" height="450" decoding="async" data-nimg="1"
-                        style="color :transparent" src="../images/dynamic/package.png"></a>
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                        alt="image">
+                    </a>
                   </div>
                 </div>
               </div>
               <div class="package-list__item-content">
-                <div class="package-list__item-content-icons">
-                  <h4> <span class="icon-calendar text-primary" aria-hidden="true"></span>
-                    Duration: 15 Days</h4>
-                  <h4> <span class="icon-circle-gauge text-primary" aria-hidden="true"></span>
-                    Challenging</h4>
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                  </div>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
+                  </div>
                 </div>
-                <h3 class="package-list__item-title min-h-[63px] p-5">
-                  <a class="" href="#">Everest Base Camp Trek with
-                    Heli Return - 11 Days</a>
-                </h3>
-
-                <div class="package-list__item-price-container ">
-                  <div class="package-list__item-price"><span
-                      class="text-sm text-[#465469] font-normal font-poppins text-xs md:text-[14px]">Price
-                      From</span>
-                    <div class="flex justify-start gap-2">
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins font-semibold text-primary text-lg md:text-xl lg:text-[22px]">US$<!-- -->2050</span>
-                      </div>
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins text-gray-400 text-xs md:text-[14px] lg:text-[16px] line-through">US$<!-- -->2050</span>
-                      </div>
-                    </div>
-
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#" class="">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
                   </div>
-                  <div class="package-list__item-book-now flex items-center justify-end gap-1 pb-1">
-                    <div class="flex justify-between items-center">
-                      <button class="btn-secondary">
-                        Book Now
-                        <span class="icon-view text-[9px]"></span>
-                      </button>
 
-                    </div>
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#" class="">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
                   </div>
+
                 </div>
               </div>
             </div>
-
           </div>
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="package-list__item relative overflow-hidden">
-              <div class="package-list__item-promo-wishlist ">
-                <!--$-->
-                <div class="package-list__item-wishlist" role="button" aria-disabled="false"
-                  aria-label="Add to wishlist">
-                  <img src="./images/svg/wishlist.svg" width="29" height="29" alt="">
-                </div><!--/$-->
-                <div class="package-list__item-promo">
-                  <div class="package-list__item-promot-list">
-                    <span class="package-list__item-promot-list-item">Save up to 15%</span>
-                  </div>
-                </div>
+            <div class="package-list__item">
+              <div class="package-list__item-badge">
+                <span>TOP RATED</span>
               </div>
-
               <div class="package-list__item-image">
-                <div class="placeholder__img-wrapper w-full">
-                  <div class="placeholder__img w-full"><a href="#"><img
-                        alt="Everest Base Camp Trek with Heli Return - 11 Days" loading="lazy"
-                        width="600" height="450" decoding="async" data-nimg="1"
-                        style="color :transparent" src="../images/dynamic/package.png"></a>
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                        alt="image">
+                    </a>
                   </div>
                 </div>
               </div>
               <div class="package-list__item-content">
-                <div class="package-list__item-content-icons">
-                  <h4> <span class="icon-calendar text-primary" aria-hidden="true"></span>
-                    Duration: 15 Days</h4>
-                  <h4> <span class="icon-circle-gauge text-primary" aria-hidden="true"></span>
-                    Challenging</h4>
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                  </div>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
+                  </div>
                 </div>
-                <h3 class="package-list__item-title min-h-[63px] p-5">
-                  <a class="" href="#">Everest Base Camp Trek with
-                    Heli Return - 11 Days</a>
-                </h3>
-
-                <div class="package-list__item-price-container ">
-                  <div class="package-list__item-price"><span
-                      class="text-sm text-[#465469] font-normal font-poppins text-xs md:text-[14px]">Price
-                      From</span>
-                    <div class="flex justify-start gap-2">
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins font-semibold text-primary text-lg md:text-xl lg:text-[22px]">US$<!-- -->2050</span>
-                      </div>
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins text-gray-400 text-xs md:text-[14px] lg:text-[16px] line-through">US$<!-- -->2050</span>
-                      </div>
-                    </div>
-
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#" class="">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
                   </div>
-                  <div class="package-list__item-book-now flex items-center justify-end gap-1 pb-1">
-                    <div class="flex justify-between items-center">
-                      <button class="btn-secondary">
-                        Book Now
-                        <span class="icon-view text-[9px]"></span>
-                      </button>
 
-                    </div>
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#" class="">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
                   </div>
+
                 </div>
               </div>
             </div>
-
           </div>
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="package-list__item relative overflow-hidden">
-              <div class="package-list__item-promo-wishlist ">
-                <!--$-->
-                <div class="package-list__item-wishlist" role="button" aria-disabled="false"
-                  aria-label="Add to wishlist">
-                  <img src="./images/svg/wishlist.svg" width="29" height="29" alt="">
-                </div><!--/$-->
-                <div class="package-list__item-promo">
-                  <div class="package-list__item-promot-list">
-                    <span class="package-list__item-promot-list-item">Save up to 15%</span>
-                  </div>
-                </div>
+            <div class="package-list__item">
+              <div class="package-list__item-badge">
+                <span>TOP RATED</span>
               </div>
-
               <div class="package-list__item-image">
-                <div class="placeholder__img-wrapper w-full">
-                  <div class="placeholder__img w-full"><a href="#"><img
-                        alt="Everest Base Camp Trek with Heli Return - 11 Days" loading="lazy"
-                        width="600" height="450" decoding="async" data-nimg="1"
-                        style="color :transparent" src="../images/dynamic/package.png"></a>
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                        alt="image">
+                    </a>
                   </div>
                 </div>
               </div>
               <div class="package-list__item-content">
-                <div class="package-list__item-content-icons">
-                  <h4> <span class="icon-calendar text-primary" aria-hidden="true"></span>
-                    Duration: 15 Days</h4>
-                  <h4> <span class="icon-circle-gauge text-primary" aria-hidden="true"></span>
-                    Challenging</h4>
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                  </div>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
+                  </div>
                 </div>
-                <h3 class="package-list__item-title min-h-[63px] p-5">
-                  <a class="" href="#">Everest Base Camp Trek with
-                    Heli Return - 11 Days</a>
-                </h3>
-
-                <div class="package-list__item-price-container ">
-                  <div class="package-list__item-price"><span
-                      class="text-sm text-[#465469] font-normal font-poppins text-xs md:text-[14px]">Price
-                      From</span>
-                    <div class="flex justify-start gap-2">
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins font-semibold text-primary text-lg md:text-xl lg:text-[22px]">US$<!-- -->2050</span>
-                      </div>
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins text-gray-400 text-xs md:text-[14px] lg:text-[16px] line-through">US$<!-- -->2050</span>
-                      </div>
-                    </div>
-
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#" class="">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
                   </div>
-                  <div class="package-list__item-book-now flex items-center justify-end gap-1 pb-1">
-                    <div class="flex justify-between items-center">
-                      <button class="btn-secondary">
-                        Book Now
-                        <span class="icon-view text-[9px]"></span>
-                      </button>
 
-                    </div>
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#" class="">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
                   </div>
+
                 </div>
               </div>
             </div>
-
           </div>
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="package-list__item relative overflow-hidden">
-              <div class="package-list__item-promo-wishlist ">
-                <!--$-->
-                <div class="package-list__item-wishlist" role="button" aria-disabled="false"
-                  aria-label="Add to wishlist">
-                  <img src="./images/svg/wishlist.svg" width="29" height="29" alt="">
-                </div><!--/$-->
-                <div class="package-list__item-promo">
-                  <div class="package-list__item-promot-list">
-                    <span class="package-list__item-promot-list-item">Save up to 15%</span>
-                  </div>
-                </div>
+            <div class="package-list__item">
+              <div class="package-list__item-badge">
+                <span>TOP RATED</span>
               </div>
-
               <div class="package-list__item-image">
-                <div class="placeholder__img-wrapper w-full">
-                  <div class="placeholder__img w-full"><a href="#"><img
-                        alt="Everest Base Camp Trek with Heli Return - 11 Days" loading="lazy"
-                        width="600" height="450" decoding="async" data-nimg="1"
-                        style="color :transparent" src="../images/dynamic/package.png"></a>
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                        alt="image">
+                    </a>
                   </div>
                 </div>
               </div>
               <div class="package-list__item-content">
-                <div class="package-list__item-content-icons">
-                  <h4> <span class="icon-calendar text-primary" aria-hidden="true"></span>
-                    Duration: 15 Days</h4>
-                  <h4> <span class="icon-circle-gauge text-primary" aria-hidden="true"></span>
-                    Challenging</h4>
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                  </div>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
+                  </div>
                 </div>
-                <h3 class="package-list__item-title min-h-[63px] p-5">
-                  <a class="" href="#">Everest Base Camp Trek with
-                    Heli Return - 11 Days</a>
-                </h3>
-
-                <div class="package-list__item-price-container ">
-                  <div class="package-list__item-price"><span
-                      class="text-sm text-[#465469] font-normal font-poppins text-xs md:text-[14px]">Price
-                      From</span>
-                    <div class="flex justify-start gap-2">
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins font-semibold text-primary text-lg md:text-xl lg:text-[22px]">US$<!-- -->2050</span>
-                      </div>
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins text-gray-400 text-xs md:text-[14px] lg:text-[16px] line-through">US$<!-- -->2050</span>
-                      </div>
-                    </div>
-
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#" class="">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
                   </div>
-                  <div class="package-list__item-book-now flex items-center justify-end gap-1 pb-1">
-                    <div class="flex justify-between items-center">
-                      <button class="btn-secondary">
-                        Book Now
-                        <span class="icon-view text-[9px]"></span>
-                      </button>
 
-                    </div>
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#" class="">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
                   </div>
+
                 </div>
               </div>
             </div>
-
           </div>
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="package-list__item relative overflow-hidden">
-              <div class="package-list__item-promo-wishlist ">
-                <!--$-->
-                <div class="package-list__item-wishlist" role="button" aria-disabled="false"
-                  aria-label="Add to wishlist">
-                  <img src="./images/svg/wishlist.svg" width="29" height="29" alt="">
-                </div><!--/$-->
-                <div class="package-list__item-promo">
-                  <div class="package-list__item-promot-list">
-                    <span class="package-list__item-promot-list-item">Save up to 15%</span>
-                  </div>
-                </div>
+            <div class="package-list__item">
+              <div class="package-list__item-badge">
+                <span>TOP RATED</span>
               </div>
-
               <div class="package-list__item-image">
-                <div class="placeholder__img-wrapper w-full">
-                  <div class="placeholder__img w-full"><a href="#"><img
-                        alt="Everest Base Camp Trek with Heli Return - 11 Days" loading="lazy"
-                        width="600" height="450" decoding="async" data-nimg="1"
-                        style="color :transparent" src="../images/dynamic/package.png"></a>
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                        alt="image">
+                    </a>
                   </div>
                 </div>
               </div>
               <div class="package-list__item-content">
-                <div class="package-list__item-content-icons">
-                  <h4> <span class="icon-calendar text-primary" aria-hidden="true"></span>
-                    Duration: 15 Days</h4>
-                  <h4> <span class="icon-circle-gauge text-primary" aria-hidden="true"></span>
-                    Challenging</h4>
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                  </div>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
+                  </div>
                 </div>
-                <h3 class="package-list__item-title min-h-[63px] p-5">
-                  <a class="" href="#">Everest Base Camp Trek with
-                    Heli Return - 11 Days</a>
-                </h3>
-
-                <div class="package-list__item-price-container ">
-                  <div class="package-list__item-price"><span
-                      class="text-sm text-[#465469] font-normal font-poppins text-xs md:text-[14px]">Price
-                      From</span>
-                    <div class="flex justify-start gap-2">
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins font-semibold text-primary text-lg md:text-xl lg:text-[22px]">US$<!-- -->2050</span>
-                      </div>
-                      <div class="flex items-center gap-2"><span
-                          class="font-poppins text-gray-400 text-xs md:text-[14px] lg:text-[16px] line-through">US$<!-- -->2050</span>
-                      </div>
-                    </div>
-
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#" class="">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
                   </div>
-                  <div class="package-list__item-book-now flex items-center justify-end gap-1 pb-1">
-                    <div class="flex justify-between items-center">
-                      <button class="btn-secondary">
-                        Book Now
-                        <span class="icon-view text-[9px]"></span>
-                      </button>
 
-                    </div>
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#" class="">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
                   </div>
+
                 </div>
               </div>
             </div>
-
           </div>
+          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+            <div class="package-list__item">
+              <div class="package-list__item-badge">
+                <span>TOP RATED</span>
+              </div>
+              <div class="package-list__item-image">
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                        alt="image">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="package-list__item-content">
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                  </div>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
+                  </div>
+                </div>
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#" class="">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
+                  </div>
+
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#" class="">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

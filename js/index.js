@@ -374,6 +374,9 @@ document.addEventListener("DOMContentLoaded", () => {
         tab.addEventListener("click", () => {
           setActive(tab);
         });
+        tab.addEventListener("mouseenter", () => {
+          setActive(tab);
+        });
       });
 
       block.dataset.reviewTabsBound = "true";
