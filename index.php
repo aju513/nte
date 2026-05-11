@@ -252,8 +252,8 @@
         <div class="container common-box hav-title-btn ">
             <!-- Title -->
             <div class="grid grid-cols-12 gap-5 mb-6 ">
-                <div class="mb-0 section-title-wrap col-span-12 lg:col-span-5 ">
-                    <div class=" lg:col-span-4">
+                <div class="mb-0 section-title-wrap col-span-12 lg:col-span-6 max-w-[410px] ">
+                    <div class=" lg:col-span-6">
                         <div class="section-title-sm ">
                             Top Places to Explore
                         </div>
@@ -262,7 +262,7 @@
                         </h2>
                     </div>
                 </div>
-                <div class="mb-0 col-span-12 lg:col-span-6">
+                <div class="mb-0 col-span-12 lg:col-span-6 max-w-[600px]">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum magni
                         recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
                     <div class="section-title-btn">
@@ -601,16 +601,18 @@
         <section class="container hav-title-btn common-box pt-0">
             <!-- <div class=" container"> -->
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                <div class="mb-0 section-title-wrap ">
-                    <div class=" section-title-sm ">
-                        Best Moment Captured
+            <div class="grid grid-cols-12 gap-5 mb-6">
+                <div class="mb-0 section-title-wrap lg:max-w-[460px] col-span-12 lg:col-span-6">
+                    <div class="lg:col-span-6">
+                        <div class=" section-title-sm ">
+                            Best Moment Captured
+                        </div>
+                        <h2 class="section-title">
+                            Most Popular Activities and Experiences to Enjoy
+                        </h2>
                     </div>
-                    <h2 class="section-title">
-                        Most Popular Activities <br> and Experiences to Enjoy
-                    </h2>
                 </div>
-                <div class="mb-0">
+                <div class="mb-0 mb-0 col-span-12 lg:col-span-6 max-w-[600px]">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum
                         magni recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
                     <div class="section-title-btn">
@@ -829,8 +831,8 @@
                 <div class="col-span-12 lg:col-span-9">
                     <div class="homepage-moments-list__item">
                         <div class="moments-list__item-image relative">
-                            <div class="placeholder__img-wrapper  w-full">
-                                <div class="placeholder__img w-full ">
+                            <div class="placeholder__img-wrapper  ">
+                                <div class="placeholder__img  ">
                                     <img src="/images/dynamic/video-thumb.webp" width="1200" height="550" loading="lazy"
                                         decoding="async" data-nimg="1" style="color: transparent;"
                                         alt="Everest Base Camp" />
@@ -844,8 +846,8 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="absolute lg:bottom-6 bottom-1 left-4 text-white z-10">
-                                <h4 class="text-base sm:text-xs lg:text-2xl text-white font-extrabold ">Everest Base Camp
+                            <div class="absolute bottom-6 left-4 text-white z-10">
+                                <h4 class="text-2xl text-white font-extrabold ">Everest Base Camp
                                 </h4>
                                 <span class="text-sm">Jhon - Australia</span>
                             </div>
@@ -871,7 +873,7 @@
                                         <div
                                             class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3 right-2">
                                             <span class="video-play-btn-side circular-animate">
-                                                <span class="icon-play-button text-xs"></span></span>
+                                                <span class="icon-play-button text-xs!"></span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -899,7 +901,7 @@
                                         <div class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3 right-2">
                                             <span class="video-play-btn-side circular-animate">
                                                 <span
-                                                    class="icon-play-button text-xs "></span></span>
+                                                    class="icon-play-button text-xs! "></span></span>
                                         </div>
                                     </div>
                                 </div>

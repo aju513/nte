@@ -2,7 +2,7 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box category-page bg-secondary" role="main">
+<section class="common-box pt-0 category-page bg-secondary" role="main">
   <div class="common-page-wrapper">
     <div class="container common-box pt-0">
       <div class="page-title">

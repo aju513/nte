@@ -1,5 +1,5 @@
 <footer class="footer  relative">
-    <div class="bg-secondary md:h-10 lg:h-46 h-6 w-full relative">
+    <div class="bg-secondary md:h-10 lg:h-43 h-6 w-full relative">
     </div>
 
 
@@ -92,17 +92,16 @@
                 </div>
 
                 <!-- Newsletter & Social -->
-                <div class="col-span-1 sm:col-span-2 lg:col-span-3">
+                <div class="col-span-1 sm:col-span-1 lg:col-span-3 ">
                     <div class="flex flex-col">
                         <h4>Newsletter</h4>
                         <div class="text-base ">
                             Sign up for the latest news, offers!
                         </div>
-                        <div class="flex items-start">
+                        <div class="flex  items-start">
                             <button class="footer-subscribe">
-                                Subscribe Our Newsletter
+                                <span>Subscribe Our Newsletter</span>
                             </button>
-                            </divcl>
                         </div>
 
                         <h4 class="mt-4">
