@@ -4,14 +4,13 @@
   /* Color Variables */
   --color-primary: rgb(30, 95, 145); /*1e5f91*/
   --color-secondary: rgb(225, 234, 241); /*e1eaf1*/
+  --color-block: rgb(108, 175, 218); /*6cafda*/
+  --color-form: rgb(246, 250, 255); /*f6faff*/
   --color-text_color: rgb(66, 66, 66);
   --color-heading_color: rgb(0, 0, 0);
-  --color-form: rgb(246, 250, 255); /*f6faff*/
-  --color-block: rgb(108, 175, 218); /*6cafda*/
   --color-dim_bg: rgb(246, 250, 255);
   --color-whatsapp: rgb(45, 169, 72);
   --color-rating_yellow: rgb(223, 210, 0);
-  --color-footer: rgb(196, 223, 239); /*c4dfef*/
 
   /* Typography */
   --font-mulish: "Mulish", sans-serif;
@@ -19,8 +18,7 @@
   --font-icomoon: "icomoon", sans-serif;
   /* Layout & Borders */
   --radius-custom: 5px;
-  --shadow-custom: 0px 1px 4px 0px rgba(128, 128, 128, 0.2);
-  --shadow-customs: 0px 8px 20px 0px rgba(0, 0, 0, 0.12);
+  --shadow-custom: 0px 1px 4px 0px rgba(2, 97, 179, 0.2);
   --gradient-custom: linear-gradient(180deg, #f4fbfe, #fff);
 
   /* Header */
@@ -170,13 +168,13 @@
   }
   /* tooltip start*/
   .tooltip-content {
-    @apply absolute left-1/2 bottom-full z-10! mt-2 w-72 -translate-x-1/2  opacity-0 invisible transition-all duration-500 group-hover:visible group-hover:opacity-100 group-hover:-translate-y-2;
+    @apply absolute left-1/2 bottom-full z-10! mt-2 w-72 -translate-x-1/2 -translate-y-2;
     p {
       @apply text-sm text-white!;
     }
   }
   .popover-wrap-content {
-    @apply shadow-xl;
+    @apply rounded-custom bg-black/80 p-3 text-[13px] leading-5 text-white;
   }
   /* tooltip end*/
   /* common gapping */
@@ -243,7 +241,7 @@
       @apply font-mulish text-text_color cursor-pointer pr-5 font-extrabold sm:pr-10 md:text-xl leading-6;
     }
     .accordion__item-content {
-      @apply max-h-0 overflow-hidden opacity-0 leading-6 text-base;
+      @apply max-h-0 overflow-hidden opacity-0 leading-6! text-base;
       transition:
         max-height 0.4s ease-in-out,
         opacity 0.3s ease-in-out,
@@ -266,10 +264,10 @@
         @apply mb-0;
       }
       li {
-        @apply text-text_color relative mb-3.75 pl-7.5 text-[15px] leading-5.5;
+        @apply text-text_color relative mb-3.75 pl-5.5 text-[15px] leading-7;
         &::before {
           content: "";
-          @apply absolute top-0 left-5 h-5 w-5 bg-black;
+          @apply absolute top-2 left-0 h-2.5 w-2.5 bg-block;
           mask: url("/images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
@@ -499,6 +497,13 @@
       span.animate-spin {
         @apply translate-x-0;
       }
+    }
+  }
+
+  .btn-outline-common {
+    @apply inline-flex w-full flex-none items-center justify-center gap-3 rounded-[21px] border border-dashed border-primary px-4 py-2.5 text-sm font-medium leading-none;
+    &:hover {
+      @apply bg-primary text-white transition-transform duration-500 ease-in-out;
     }
   }
   /*Button text outline*/
@@ -859,13 +864,14 @@
     @apply relative;
   }
   .share-btn {
-    @apply flex items-center justify-end gap-2;
+    @apply flex items-center justify-end gap-2 bg-primary rounded-[17px]  px-5 py-1.5 text-xs leading-5 font-semibold  text-white transition-all duration-500;
     .icon-title {
       @apply text-text_color text-sm;
     }
   }
   .share-list {
-    @apply rounded-custom absolute top-6 right-0 z-50 w-36.25 border border-[#dbdbdb] bg-white;
+    @apply rounded-custom absolute top-9 right-0 z-50 w-36.25 border border-[#dbdbdb] bg-white;
+    display: none;
     button {
       @apply flex w-full items-center gap-1 border-b border-dashed border-[#e0e0e0] px-3 py-2 text-sm text-[17px] font-semibold text-black;
       &:last-child {
@@ -874,7 +880,7 @@
     }
     button:hover {
       @apply bg-dim_bg text-white transition-all duration-500;
-      svg {
+      span {
         @apply brightness-0 invert transition-all duration-500;
       }
     }
@@ -896,6 +902,9 @@
     .share-copy:hover {
       @apply bg-primary;
     }
+  }
+  .share-list.show {
+    display: block;
   }
   .social-common {
     @apply flex h-7.5 w-7.5 items-center justify-center rounded-full text-white hover:-translate-y-1 duration-500;
@@ -936,9 +945,9 @@
         @apply flex justify-between items-center border-t border-[#6cafda] py-2;
       }
     }
-    /* .collapsible.active .collapsible-content {
+    .collapsible.active .collapsible-content {
       @apply pb-2.5;
-    } */
+    }
   }
   /* .booking__discount-list,
   .package__discount-list {
@@ -1120,7 +1129,7 @@
     @apply -right-2 md:right-15 lg:-right-4;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 1024px) {
     .homepage__slider-prev,
     .homepage__slider-next,
     .homepage__slider-prev,
@@ -1348,7 +1357,7 @@
       @apply flex items-center justify-end gap-px;
     }
     .reviewer-image {
-      @apply w-[50px] h-[50px] flex-shrink-0;
+      @apply w-12.5 h-12.5 shrink-0;
       .placeholder__img-wrapper {
         @apply aspect-square rounded-full;
       }
@@ -2407,7 +2416,7 @@
         @apply col-span-1 sm:col-span-2 lg:col-span-5 font-mulish;
 
         ul {
-          @apply columns-1 lg:columns-2;
+          @apply columns-1 md:columns-2 lg:columns-2;
 
           li {
             @apply mb-2;
@@ -2513,7 +2522,7 @@
 }
 
 .homepage__notice-wrap {
-  @apply absolute z-20 -mt-4.5 items-center w-[93%]! max-w-[1241px]! mx-auto;
+  @apply absolute z-20 -mt-4.5 items-center w-full mx-auto;
 
   .homepage__notice-bar {
     @apply shadow-custom mx-auto flex w-full items-center justify-between gap-3 rounded-full bg-white pl-4 pr-1 py-1;
@@ -3190,7 +3199,7 @@
       @apply text-white font-medium underline;
     }
     p {
-      @apply leading-6 text-text_color;
+      @apply leading-6.5 text-text_color;
     }
     h2 {
       @apply font-mulish mb-3 font-bold text-text_color;
@@ -3213,13 +3222,13 @@
       font-size: clamp(1rem, 3vw, 1rem);
     }
     ul {
-      @apply mb-3;
+      @apply mb-5;
 
       li {
         @apply relative text-text_color leading-5 text-base;
         &::before {
           content: "";
-          @apply absolute left-0 w-2.5 h-2.5 bg-current text-block;
+          @apply absolute top-1.25 left-0 w-2.5 h-2.5 bg-current text-block;
           mask: url("/images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
@@ -3311,10 +3320,10 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
+          @apply text-text_color relative mb-2.75 pl-5.5 text-base leading-6;
           &::before {
             content: "";
-            @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-block;
+            @apply absolute top-2 left-0 h-2.5 w-2.5 text-block;
             mask: url("images/svg/splotch.svg") no-repeat center;
             mask-size: contain;
           }
@@ -3360,7 +3369,7 @@
           @apply mb-0;
         }
         a {
-          @apply text-secondary font-medium underline;
+          @apply text-block font-medium underline;
         }
         h2 {
           @apply font-mulish mb-3 font-bold text-black;
@@ -3391,10 +3400,10 @@
             @apply mb-0;
           }
           li {
-            @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
+            @apply text-text_color relative mb-2.75 pl-5.5 text-base leading-6;
             &::before {
               content: "";
-              @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-block;
+              @apply absolute top-2 left-0 h-2.5 w-2.5 text-block;
               mask: url("images/svg/splotch.svg") no-repeat center;
               mask-size: contain;
             }
@@ -3477,7 +3486,7 @@
     }
   }
   .package__cta-btn {
-    @apply inline-flex w-full flex-none cursor-pointer items-center justify-center gap-4 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition sm:w-auto sm:min-w-40 lg:min-w-44;
+    @apply inline-flex flex-wrap w-fit flex-none cursor-pointer items-center justify-center gap-4 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition sm:w-auto sm:min-w-40 lg:min-w-44;
     .icon-view {
       @apply translate-x-0 transition-transform duration-500 ease-in-out text-[10px];
     }
@@ -3656,7 +3665,7 @@
           @apply text-text_color relative mb-2.75 pl-7.75 leading-6 text-base;
           &::before {
             content: "";
-            @apply absolute left-0 top-0.25 block h-5 w-5 bg-block;
+            @apply absolute left-0 top-px block h-5 w-5 bg-block;
             mask: url("/images/svg/exclude-icon.svg") no-repeat center;
             mask-size: contain;
             -webkit-mask: url("/images/svg/exclude-icon.svg") no-repeat center;
@@ -3879,12 +3888,12 @@
       @apply grid grid-cols-2 gap-2.5 sm:grid-cols-4;
     }
     .placeholder__img-wrapper {
-      @apply aspect-600/450;
+      @apply aspect-600/450 rounded-[10px];
     }
   }
   .package__gallery-video {
     .placeholder__img-wrapper {
-      @apply aspect-1200/675;
+      @apply aspect-1200/675 bg-dim_bg rounded-[10px];
     }
   }
 }
@@ -3920,10 +3929,10 @@
         @apply mb-0;
       }
       li {
-        @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
+        @apply text-text_color relative mb-2.75 pl-5.5 text-base leading-7;
         &::before {
           content: "";
-          @apply absolute top-0.5 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
+          @apply absolute top-2 left-0 w-2.5 h-2.5 bg-current text-block;
           mask: url("/images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }

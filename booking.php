@@ -68,13 +68,12 @@
                       <div class="form-group">
                         <span class="flex items-center gap-3 font-semibold">
                           Private Porter Service
-                          <div class="relative inline-flex flex-col items-center ml-2 popover-wrap group">
-                            <span class="text-xl icon-nav-information text-text_color">
-                            </span>
+                          <div class="relative inline-flex ml-2 items-center group popover-wrap">
+                            <span class="text-sm icon-nav-information cursor-pointer "></span>
 
-                            <div class="tooltip-content">
+                            <div class="tooltip-content hidden">
                               <div
-                                class="relative rounded-custom popover-wrap-content bg-black/80 p-3 text-[13px] leading-5 text-white">
+                                class="popover-wrap-content ">
                                 <p>
                                   The moderate grade includes a one-week to fifteen-day itinerary.
                                   It can reach up to 5000 meter altitude range, but the trails
@@ -309,7 +308,7 @@
                       <div class="collapsible__wrap">
                         <button role="button" type="button" class="collapsible active">
                           <span class="text-text_color text-sm font-bold uppercase">Group Discount cost</span>
-                          <span class="text-text_color mr-1 text-2xl font-bold">-</span>
+                          <span class="text-text_color mr-1 text-2xl font-bold icon">-</span>
                         </button>
                         <div class="collapsible-content">
                           <div class="booking__discount-list">
@@ -483,49 +482,96 @@
 </script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const popoverWraps = document.querySelectorAll(".popover-wrap");
-    const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    const wraps = document.querySelectorAll(".popover-wrap");
 
-    if (isTouchDevice) {
-      // Mobile: open/close on click
-      popoverWraps.forEach((wrap) => {
-        const trigger = wrap.querySelector(".i-icon");
-        const popover = wrap.querySelector(".popover-bg");
-        if (!trigger || !popover) return;
+    wraps.forEach((wrap) => {
+      const trigger = wrap.querySelector(".icon-nav-information");
+      const popover = wrap.querySelector(".tooltip-content");
 
-        const togglePopover = (e) => {
-          e.stopPropagation();
-          document.querySelectorAll(".popover-bg").forEach((el) => {
-            if (el !== popover) el.classList.add("hidden");
-          });
-          popover.classList.toggle("hidden");
-        };
+      if (!trigger || !popover) return;
 
-        const closePopover = (e) => {
-          if (!wrap.contains(e.target)) {
-            popover.classList.add("hidden");
-          }
-        };
+      // CLICK TOGGLE
+      trigger.addEventListener("click", (e) => {
+        e.stopPropagation();
 
-        trigger.addEventListener("click", togglePopover);
-        document.addEventListener("click", closePopover);
-      });
-    } else {
-      // Desktop: show on hover
-      popoverWraps.forEach((wrap) => {
-        const popover = wrap.querySelector(".popover-bg");
-        if (!popover) return;
-
-        wrap.addEventListener("mouseenter", () => {
-          popover.classList.remove("hidden");
-          popover.classList.add("flex");
+        // close others
+        document.querySelectorAll(".tooltip-content").forEach((el) => {
+          if (el !== popover) el.classList.add("hidden");
         });
-        wrap.addEventListener("mouseleave", () => {
-          popover.classList.remove("flex");
-          popover.classList.add("hidden");
-        });
+
+        popover.classList.toggle("hidden");
       });
-    }
+    });
+
+    // CLICK OUTSIDE TO CLOSE
+    document.addEventListener("click", () => {
+      document.querySelectorAll(".tooltip-content").forEach((el) => {
+        el.classList.add("hidden");
+      });
+    });
   });
+</script>
+<script>
+  const initCollapsibles = () => {
+    const triggers = qsa(".collapsible");
+    const speed = 220;
+
+    const open = (trigger, content) => {
+      trigger.classList.add("active");
+      trigger.setAttribute("aria-expanded", "true");
+      const icon = qs(".icon", trigger);
+      if (icon) icon.textContent = "-";
+
+      content.style.overflow = "hidden";
+      content.style.maxHeight = `${content.scrollHeight}px`;
+      window.setTimeout(() => {
+        if (trigger.classList.contains("active")) {
+          content.style.maxHeight = "none";
+        }
+      }, speed);
+    };
+
+    const close = (trigger, content) => {
+      trigger.classList.remove("active");
+      trigger.setAttribute("aria-expanded", "false");
+      const icon = qs(".icon", trigger);
+      if (icon) icon.textContent = "+";
+
+      content.style.overflow = "hidden";
+      content.style.maxHeight = `${content.scrollHeight}px`;
+      requestAnimationFrame(() => {
+        content.style.maxHeight = "0px";
+      });
+    };
+
+    triggers.forEach((trigger) => {
+      if (!trigger || trigger.dataset.collapsibleBound === "true") return;
+
+      const content = trigger.nextElementSibling;
+      if (!content?.classList?.contains("collapsible-content")) return;
+
+      const shouldOpen =
+        trigger.classList.contains("active") ||
+        trigger.dataset.defaultOpen === "true" ||
+        trigger.getAttribute("aria-expanded") === "true";
+
+      if (shouldOpen) {
+        open(trigger, content);
+      } else {
+        close(trigger, content);
+      }
+
+      trigger.addEventListener("click", (event) => {
+        event.preventDefault();
+        if (trigger.classList.contains("active")) {
+          close(trigger, content);
+        } else {
+          open(trigger, content);
+        }
+      });
+
+      trigger.dataset.collapsibleBound = "true";
+    });
+  };
 </script>
 <?php include('./inc/footer.php') ?>

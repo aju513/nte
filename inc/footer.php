@@ -168,6 +168,41 @@
         </div>
 
 </footer>
+<div class="fixed bottom-0 z-[10000] hidden  w-full bg-white bg-opacity-95 py-5">
+    <div class="container">
+        <div class="flex flex-col items-center justify-between lg:flex-row">
+            <p class="mb-3 text-sm text-center md:text-base lg:mb-0 lg:text-left">
+                We use cookies to ensure that we give you the best experience on
+                our website.
+            </p>
+            <div class="flex flex-row items-center gap-2">
+                <a
+                    class="flex min-w-[140px] items-center gap-2 text-sm font-bold text-primary md:text-base"
+                    href="#!">
+                    <span class="text-2xl icon-include"></span> Privacy Policy
+                </a>
+                <a
+                    href="/"
+                    class="block px-3 py-2 text-sm font-bold text-center text-white transition-all ease-in delay-75 border rounded border-primary bg-primary hover:bg-white hover:text-primary">
+                    Allow Cookies
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="absolute right-4 top-[-15px] rounded-full bg-primary p-2 w-10 h-10">
+        <span class="text-2xl text-secondary icon-cross"></span>
+    </div>
+</div>
+
+<div class="fixed hidden left-5 bottom-5 whatsapp-sticky lg:block z-[10000]">
+    <a
+        href="https://wa.me/+9779851012345"
+        target="_blank"
+        aria-label="whatsapp"
+        class="rounded-full bg-[#29A71A] p-[3px] flex items-center justify-center w-[60px] h-[60px]">
+        <span class="text-3xl text-white icon-whatapp "></span>
+    </a>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
 <script src="./js/index.js" defer></script>

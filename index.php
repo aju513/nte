@@ -27,35 +27,37 @@
             </div>
         </div>
 
-        <div class="homepage__notice container">
-            <div class="homepage__notice-wrap" id="heroNoticeSlider" aria-live="polite">
-                <div class="homepage__notice-bar">
-                    <div class="notice-message js-notice-slide is-active">
-                        Nepal bans solo trekkers throughout the country.
-                    </div>
-                    <div class="notice-message js-notice-slide">
-                        Spring trekking permits are now open for Everest, Annapurna, and Langtang regions.
-                    </div>
-                    <div class="notice-message js-notice-slide">
-                        Weather in high-altitude routes can change quickly, so always travel prepared.
-                    </div>
+        <div class="homepage__notice ">
+            <div class="homepage__notice-wrap " id="heroNoticeSlider" aria-live="polite">
+                <div class="container">
+                    <div class="homepage__notice-bar">
+                        <div class="notice-message js-notice-slide is-active">
+                            Nepal bans solo trekkers throughout the country.
+                        </div>
+                        <div class="notice-message js-notice-slide">
+                            Spring trekking permits are now open for Everest, Annapurna, and Langtang regions.
+                        </div>
+                        <div class="notice-message js-notice-slide">
+                            Weather in high-altitude routes can change quickly, so always travel prepared.
+                        </div>
 
-                    <div class="notice-controls">
-                        <div class="notice-nav">
-                            <button type="button" class="notice-btn js-notice-prev" aria-label="Previous notice">
-                                <span class="icon-back rotate-180"></span>
-                            </button>
-                            <span class="notice-counter">
-                                <span class="js-notice-current">1</span>/3
-                            </span>
-                            <button type="button" class="notice-btn js-notice-next" aria-label="Next notice">
-                                <span class="icon-back "></span>
+                        <div class="notice-controls">
+                            <div class="notice-nav">
+                                <button type="button" class="notice-btn js-notice-prev" aria-label="Previous notice">
+                                    <span class="icon-back rotate-180"></span>
+                                </button>
+                                <span class="notice-counter">
+                                    <span class="js-notice-current">1</span>/3
+                                </span>
+                                <button type="button" class="notice-btn js-notice-next" aria-label="Next notice">
+                                    <span class="icon-back "></span>
+                                </button>
+                            </div>
+                            <button type="button" class="notice-btn homepage__notice-close js-notice-close"
+                                aria-label="Close notice">
+                                <span class="icon-close text-[8px]"></span>
                             </button>
                         </div>
-                        <button type="button" class="notice-btn homepage__notice-close js-notice-close"
-                            aria-label="Close notice">
-                            <span class="icon-close text-[8px]"></span>
-                        </button>
                     </div>
                 </div>
             </div>
@@ -110,7 +112,7 @@
                                 </div>
                                 <div class="package-list__item-title">
                                     <h3 class="homepage__package-title">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Everest Base Camp Trekking
                                         </a>
                                     </h3>
@@ -125,7 +127,7 @@
                                     </div>
 
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
@@ -164,7 +166,7 @@
                                 </div>
                                 <div class="package-list__item-title">
                                     <h3 class="homepage__package-title">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Everest Base Camp Trekking
                                         </a>
                                     </h3>
@@ -179,7 +181,7 @@
                                     </div>
 
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
@@ -215,7 +217,7 @@
                                 </div>
                                 <div class="package-list__item-title">
                                     <h3 class="homepage__package-title">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Everest Base Camp Trekking
                                         </a>
                                     </h3>
@@ -230,7 +232,7 @@
                                     </div>
 
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
@@ -303,7 +305,7 @@
                                 </div>
                                 <div class="package-list__item-title">
                                     <h3 class="homepage__package-title">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Everest Base Camp Trekking
                                         </a>
                                     </h3>
@@ -318,7 +320,7 @@
                                     </div>
 
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
@@ -357,7 +359,7 @@
                                 </div>
                                 <div class="package-list__item-title">
                                     <h3 class="homepage__package-title">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Everest Base Camp Trekking
                                         </a>
                                     </h3>
@@ -372,7 +374,7 @@
                                     </div>
 
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
@@ -408,7 +410,7 @@
                                 </div>
                                 <div class="package-list__item-title">
                                     <h3 class="homepage__package-title">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Everest Base Camp Trekking
                                         </a>
                                     </h3>
@@ -423,7 +425,7 @@
                                     </div>
 
                                     <div class="package-list__item-explore-btn arrow-move-effect">
-                                        <a href="#" class="">
+                                        <a href="#">
                                             Explore
                                             <span class="icon-arrow-right"></span>
                                         </a>
@@ -499,7 +501,7 @@
                                 cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
                             </p>
                         </div>
-                        <button class="btn-outline-primary hav-icon mt-12.5">
+                        <button class="btn-outline-primary hav-icon mt-6.5 lg:mt-12.5">
                             More About Us <span class="icon-view"></span>
                         </button>
                     </div>
@@ -645,7 +647,7 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div class="">
+                                        <div>
                                             <span class="icon-milestone"> </span>12 Trips
                                         </div>
                                     </div>
@@ -676,7 +678,7 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div class="">
+                                        <div>
                                             <span class="icon-milestone"> </span>12 Trips
                                         </div>
                                     </div>
@@ -707,7 +709,7 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div class="">
+                                        <div>
                                             <span class="icon-milestone"> </span>12 Trips
                                         </div>
                                     </div>
@@ -738,7 +740,7 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div class="">
+                                        <div>
                                             <span class="icon-milestone"> </span>12 Trips
                                         </div>
                                     </div>
@@ -769,7 +771,7 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div class="">
+                                        <div>
                                             <span class="icon-milestone"> </span>12 Trips
                                         </div>
                                     </div>
@@ -922,7 +924,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="container common-box hav-title-btn pb-0">
+    <section class="container md:pt-15 lg:pt-15 hav-title-btn pb-0">
 
         <div class="flex items-center justify-between">
             <div class="mb-0 section-title-wrap">
@@ -1143,7 +1145,7 @@
     </section>
 
     <!-- Blogs -->
-    <section class="container common-box hav-title-btn   ">
+    <section class="homepage__blogs container md:py-15 lg:py-15 hav-title-btn ">
 
         <!-- title -->
         <div class="flex items-center justify-between mb-6">
@@ -1179,7 +1181,7 @@
                                 <span class="icon-calendar text-white">
 
                                 </span>
-                                <span class=""> 20 Jan</span>
+                                <span> 20 Jan</span>
                             </div>
                         </div>
 
@@ -1210,7 +1212,7 @@
                                 <span class="icon-calendar text-white">
 
                                 </span>
-                                <span class=""> 20 Jan</span>
+                                <span> 20 Jan</span>
                             </div>
                         </div>
 
@@ -1241,7 +1243,7 @@
                                 <span class="icon-calendar text-white">
 
                                 </span>
-                                <span class=""> 20 Jan</span>
+                                <span> 20 Jan</span>
                             </div>
                         </div>
 

@@ -201,11 +201,11 @@
                         <div class="block text-left text-xs text-text_color">
                           Easy to Moderate
                           <div class="relative inline-flex ml-2 items-center group popover-wrap">
-                            <span class="text-sm icon-nav-information cursor-pointer"></span>
+                            <span class="text-sm icon-nav-information cursor-pointer "></span>
 
-                            <div class="tooltip-content">
+                            <div class="tooltip-content hidden">
                               <div
-                                class="relative rounded-custom popover-wrap-content bg-black/80 p-3 text-[13px] leading-5 text-white">
+                                class="popover-wrap-content ">
                                 <p>
                                   The moderate grade includes a one-week to fifteen-day itinerary.
                                   It can reach up to 5000 meter altitude range, but the trails
@@ -334,7 +334,7 @@
             <div class="package__overview common-module" id="package-overview">
               <div class="package__overview-content">
                 <article>
-                  <h4>Highlights</h4>
+                  <h2>Highlights</h2>
                   <ul>
                     <li>Cras tempor purus id velit consequat, id mattis dui pellentesque.</li>
                     <li>Quisque ac velit at sem scelerisque porta vel quis quam.</li>
@@ -352,7 +352,7 @@
               </div>
 
               <button class="mt-5">
-                <a href="" class="inline-flex w-full flex-none items-center justify-center gap-3 rounded-[21px] border border-dashed border-primary px-4 py-2.5 text-sm font-medium leading-none transition-all duration-500   hover:bg-primary hover:text-white">Read
+                <a href="" class="inline-flex w-full flex-none items-center justify-center gap-3 rounded-[21px] border border-dashed border-primary px-4 py-2.5 text-sm font-medium leading-none transition-all duration-500  hover:bg-primary hover:text-white hover">Read
                   More
                 </a>
               </button>
@@ -436,10 +436,13 @@
               <div class="package__gallery-video common-module scroll-mt-20 relative " id="package-video">
                 <div class="placeholder__img-wrapper">
                   <div class="w-full placeholder__img">
-                    <img src="/images/dynamic/album.webp" width="1200" height="675" alt="banner" />
+                    <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
+                      data-src="./images/dynamic/album.webp">
+                      <img src="/images/dynamic/album.webp" width="1200" height="675" alt="banner" />
+                    </a>
                   </div>
                 </div>
-                <div class="fancybox-wrapper absolute top-[40%] left-[40%] lg:left-[45%]">
+                <div class="fancybox-wrapper absolute top-[27%] md:top-[40%] lg:top-[40%] left-[38%] md:left-[45%] lg:left-[45%]">
                   <a href="https://www.youtube.com/watch?v=K4TOrB7at0Y" data-fancybox="video"
                     data-width="1080" data-height="608"
                     class="circular-animate relative flex items-center justify-center h-18 w-18">
@@ -455,7 +458,7 @@
               <div class="package__full-itinerary-wrapper relative">
                 <h2 class="package__section-title">Everest Base Camp Trek Itinerary</h2>
                 <div class="package__full-itinerary-note">
-                  <h3 class="package__full-itinerary-note-title">Note to Solo Travellers</h3>
+                  <h3 class="package__full-itinerary-note-title">Note to Solo Travelers</h3>
                   <div class="package__full-itinerary-note-content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
@@ -762,7 +765,7 @@
                       <span class="font-medium text-lg leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
                     </div>
                     <div class="package__book-cta">
-                      <a href="" class="package__book-cta">Book Now</a>
+                      <a href="" class="package__book-cta ">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -833,20 +836,20 @@
                     </div>
                   </div>
 
-                </div>
-                <div class="package__addons-item">
-                  <button type="button" class="package__addons-item-trigger" aria-expanded="false">
-                    <span class="package__addons-item-title-wrap">
-                      <span class="package__addons-item-title">2. HeliFlight from EBC to Kathmandu</span>
-                      <span class="package__addons-item-price">US$ 1300 per person</span>
-                    </span>
-                    <span class="package__addons-item-toggle" aria-hidden="true"></span>
-                  </button>
-                  <div class="package__addons-item-panel">
-                    <div class="package__addons-item-content">
-                      Choose a quick and scenic return to Kathmandu with a helicopter flight from Everest Base Camp.
-                      This add-on saves time while giving you spectacular aerial views of glaciers, valleys, and
-                      snowy ridgelines.
+                  <div class="package__addons-item">
+                    <button type="button" class="package__addons-item-trigger" aria-expanded="false">
+                      <span class="package__addons-item-title-wrap">
+                        <span class="package__addons-item-title">2. HeliFlight from EBC to Kathmandu</span>
+                        <span class="package__addons-item-price">US$ 1300 per person</span>
+                      </span>
+                      <span class="package__addons-item-toggle" aria-hidden="true"></span>
+                    </button>
+                    <div class="package__addons-item-panel">
+                      <div class="package__addons-item-content">
+                        Choose a quick and scenic return to Kathmandu with a helicopter flight from Everest Base Camp.
+                        This add-on saves time while giving you spectacular aerial views of glaciers, valleys, and
+                        snowy ridgelines.
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -1035,118 +1038,155 @@
           </div>
         </div>
         <div class="col-span-12 lg:col-span-4 gap-8 pt-0 lg:pt-15">
-          <div class="package-actions">
-            <button class="package-actions__item btn-secondary gap-2 hav-icon">
-              <span class="icon-send text-lg text-[#6cafda]"></span>
-              View Map
-            </button>
-            <button class="package-actions__item btn-primary gap-2">
-              <span class="icon-share text-lg"></span>
-              Share
-            </button>
-          </div>
-          <div class="package__price-sidebar ">
-            <div class="package-price-main-wrapper ">
-              <div class="package-price-wrapper ">
-
-                <div class="package-price-title">Price For</div>
-                <div class="package-price">
-                  <div class="package-price-net">US$1500</div>
-                  <div class="package-price-gross">US$1600</div>
-                </div>
-              </div>
-
-              <div class="package-group-price">
-                <div class="collapsible__wrap">
-                  <button role="button" type="button" class="collapsible active">
-                    <span class="text-text_color text-sm font-bold uppercase">Group Discount cost</span>
-                    <span class="text-text_color mr-1 text-2xl font-bold">-</span>
+          <div class="package__sidebar">
+            <div class="package-actions">
+              <button class="package-actions__item btn-secondary gap-2 hav-icon" data-src="./images/dynamic/route-map.webp" data-fancybox="true">
+                <span class=" icon-send text-lg text-[#6cafda]"></span>
+                View Map
+              </button>
+              <div class=" package-actions__item group ">
+                <div class=" share-wrap" id="shareDropdown">
+                  <button type="button" class=" share-btn gap-2" id="sharetoggle">
+                    <span class="icon-share text-lg"></span>
+                    Share
                   </button>
-                  <div class="collapsible-content">
-                    <div class="package__discount-list px-6.5">
-                      <ul class="package__discount-list-group">
-                        <li class="package__discount-list-item  ">
-                          <span class="text-base font-bold text-text_color">No. of traveler</span>
-                          <span class="text-base font-bold text-text_color">Price per person</span>
-                        </li>
-                        <li class="package__discount-list-item  ">
-                          <span class="text-sm text-text_color">1 - 1</span>
-                          <span class="text-sm text-text_color">US$ 1620</span>
-                        </li>
-                        <li class="package__discount-list-item   ">
-                          <span class="text-sm text-text_color">2 - 2</span>
-                          <span class="text-sm text-text_color">US$ 1600</span>
-                        </li>
-                        <li class="package__discount-list-item  ">
-                          <span class="text-sm text-text_color">3 - 5</span>
-                          <span class="text-sm text-text_color">US$ 1590</span>
-                        </li>
-                        <li class="package__discount-list-item  ">
-                          <span class="text-sm text-text_color">10+</span>
-                          <span class="text-sm text-text_color">US$ 1200</span>
-                        </li>
-                      </ul>
-                    </div>
+                  <div class="share-list" aria-label="Share options" id="dropdownMenu">
+                    <button type="button" class="share-facebook">
+                      <span class="mr-2 h-5 w-5 icon-facebook text-[#1877f2]"></span>
+                      <span class="text-sm">Facebook</span>
+                    </button>
+
+                    <button type="button" class="share-x">
+                      <span class="mr-2 h-5 w-5 icon-x text-black"></span>
+                      <span class="text-sm">X Corp</span>
+                    </button>
+
+                    <button type="button" class="share-linkedin">
+                      <span class="mr-2 h-5 w-5 icon-linkedin text-[#0a66c2]"></span>
+                      <span class="text-sm">Linkedin</span>
+                    </button>
+
+                    <button type="button" class="share-instagram">
+                      <span class="mr-2 h-5 w-5 icon-instagram text-[#c32aa3]"></span>
+                      <span class="text-sm">Instagram</span>
+                    </button>
+
+                    <button type="button" class="share-whatsapp">
+                      <span class="mr-2 h-5 w-5 icon-whatapp text-whatsapp"></span>
+                      <span class="text-sm">WhatsApp</span>
+                    </button>
+
+                    <button type="button" class="share-copy">
+                      <span class="mr-2 text-2xl icon-copylink"></span>
+                      <span class="text-sm">Copy</span>
+                    </button>
                   </div>
                 </div>
               </div>
-              <div class=" package-book-options  ">
-                <button type="button"
-                  class="bg-block rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)] ">
-                  Book This Trip
-                </button>
-                <a href=""
-                  class="bg-secondary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-text_color transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)]">
-                  Check Availability
-                </a>
-                <button type="button" data-fancybox data-src="#dialog-content"
-                  class="bg-primary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)]">
-                  Make an INQUIRY
-                </button>
+            </div>
+            <div class="package__price-sidebar ">
+              <div class="package-price-main-wrapper ">
+                <div class="package-price-wrapper ">
 
-                <div class="package-price-note">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+                  <div class="package-price-title">Price For</div>
+                  <div class="package-price">
+                    <div class="package-price-net">US$1500</div>
+                    <div class="package-price-gross">US$1600</div>
+                  </div>
                 </div>
 
-                <div class="hidden package-sidebar-contact" id="dialog-content">
-                  <form class="normal-form">
-                    <div class="package-sidebar-contact-title-wrap ">
-                      <h4 class="main-title ">
-                        Ask a Question?
-                      </h4>
-                    </div>
-
-                    <div class="relative w-full mb-3">
-                      <input type="text" name="fullname" id="fullname"
-                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                        placeholder="Full Name" required />
-                    </div>
-
-                    <div class="relative w-full mb-3">
-                      <input type="email" name="mail" id="mail"
-                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                        placeholder="Email Address" required />
-                    </div>
-                    <div class="relative w-full mb-3">
-                      <input type="text" name="phone" id="phone"
-                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                        placeholder="Phone Number " required />
-                    </div>
-                    <div class="relative w-full mb-3">
-                      <textarea name="extra_info" id="extrainfo" rows={4}
-                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                        placeholder="Questions / Comments" required></textarea>
-                    </div>
-                    <button
-                      class="mb-2 block w-full rounded-[5px] bg-secondary-effect border border-primary bg-primary py-3 font-bold  text-sm text-white transition-all duration-500 bg-secondary-effect">
-                      Send Message
+                <div class="package-group-price">
+                  <div class="collapsible__wrap">
+                    <button role="button" type="button" class="collapsible active">
+                      <span class="text-text_color text-sm font-bold uppercase">Group Discount Cost</span>
+                      <span class="text-text_color mr-1 text-2xl font-bold icon">-</span>
                     </button>
-                  </form>
+                    <div class="collapsible-content">
+                      <div class="package__discount-list px-6.5">
+                        <ul class="package__discount-list-group">
+                          <li class="package__discount-list-item  ">
+                            <span class="text-base font-bold text-text_color">No. of traveler</span>
+                            <span class="text-base font-bold text-text_color">Price per person</span>
+                          </li>
+                          <li class="package__discount-list-item  ">
+                            <span class="text-sm text-text_color">1 - 1</span>
+                            <span class="text-sm text-text_color">US$ 1620</span>
+                          </li>
+                          <li class="package__discount-list-item   ">
+                            <span class="text-sm text-text_color">2 - 2</span>
+                            <span class="text-sm text-text_color">US$ 1600</span>
+                          </li>
+                          <li class="package__discount-list-item  ">
+                            <span class="text-sm text-text_color">3 - 5</span>
+                            <span class="text-sm text-text_color">US$ 1590</span>
+                          </li>
+                          <li class="package__discount-list-item  ">
+                            <span class="text-sm text-text_color">10+</span>
+                            <span class="text-sm text-text_color">US$ 1200</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div class=" package-book-options">
+                  <button type="button"
+                    class="bg-block rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)] ">
+                    Book This Trip
+                  </button>
+                  <a href=""
+                    class="bg-secondary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-text_color transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)]">
+                    Check Availability
+                  </a>
+                  <button type="button" data-fancybox data-src="#dialog-content"
+                    class="bg-primary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)]">
+                    Make an INQUIRY
+                  </button>
+
+                  <div class="package-price-note">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
+                  </div>
+
+                  <div class="hidden package-sidebar-contact" id="dialog-content">
+                    <form class="normal-form">
+                      <div class="package-sidebar-contact-title-wrap ">
+                        <h4 class="main-title ">
+                          Ask a Question?
+                        </h4>
+                      </div>
+
+                      <div class="relative w-full mb-3">
+                        <input type="text" name="fullname" id="fullname"
+                          class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                          placeholder="Full Name" required />
+                      </div>
+
+                      <div class="relative w-full mb-3">
+                        <input type="email" name="mail" id="mail"
+                          class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                          placeholder="Email Address" required />
+                      </div>
+                      <div class="relative w-full mb-3">
+                        <input type="text" name="phone" id="phone"
+                          class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                          placeholder="Phone Number " required />
+                      </div>
+                      <div class="relative w-full mb-3">
+                        <textarea name="extra_info" id="extrainfo" rows={4}
+                          class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                          placeholder="Questions / Comments" required></textarea>
+                      </div>
+                      <button
+                        class="mb-2 block w-full rounded-[5px] bg-secondary-effect border border-primary bg-primary py-3 font-bold  text-sm text-white transition-all duration-500 bg-secondary-effect">
+                        Send Message
+                      </button>
+                    </form>
+                  </div>
+                </div>
+
+
+
               </div>
-
-
-
             </div>
           </div>
         </div>
@@ -1432,7 +1472,7 @@
                   </div>
                   <div class="package-list__item-title">
                     <h3 class="homepage__package-title">
-                      <a href="#" class="">
+                      <a href="#">
                         Everest Base Camp Trekking
                       </a>
                     </h3>
@@ -1447,7 +1487,7 @@
                     </div>
 
                     <div class="package-list__item-explore-btn arrow-move-effect">
-                      <a href="#" class="">
+                      <a href="#">
                         Explore
                         <span class="icon-arrow-right"></span>
                       </a>
@@ -1486,7 +1526,7 @@
                   </div>
                   <div class="package-list__item-title">
                     <h3 class="homepage__package-title">
-                      <a href="#" class="">
+                      <a href="#">
                         Everest Base Camp Trekking
                       </a>
                     </h3>
@@ -1501,7 +1541,7 @@
                     </div>
 
                     <div class="package-list__item-explore-btn arrow-move-effect">
-                      <a href="#" class="">
+                      <a href="#">
                         Explore
                         <span class="icon-arrow-right"></span>
                       </a>
@@ -1537,7 +1577,7 @@
                   </div>
                   <div class="package-list__item-title">
                     <h3 class="homepage__package-title">
-                      <a href="#" class="">
+                      <a href="#">
                         Everest Base Camp Trekking
                       </a>
                     </h3>
@@ -1552,7 +1592,7 @@
                     </div>
 
                     <div class="package-list__item-explore-btn arrow-move-effect">
-                      <a href="#" class="">
+                      <a href="#">
                         Explore
                         <span class="icon-arrow-right"></span>
                       </a>
@@ -1823,49 +1863,33 @@
 </script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const popoverWraps = document.querySelectorAll(".popover-wrap");
-    const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    const wraps = document.querySelectorAll(".popover-wrap");
 
-    if (isTouchDevice) {
-      // Mobile: open/close on click
-      popoverWraps.forEach((wrap) => {
-        const trigger = wrap.querySelector(".i-icon");
-        const popover = wrap.querySelector(".popover-bg");
-        if (!trigger || !popover) return;
+    wraps.forEach((wrap) => {
+      const trigger = wrap.querySelector(".icon-nav-information");
+      const popover = wrap.querySelector(".tooltip-content");
 
-        const togglePopover = (e) => {
-          e.stopPropagation();
-          document.querySelectorAll(".popover-bg").forEach((el) => {
-            if (el !== popover) el.classList.add("hidden");
-          });
-          popover.classList.toggle("hidden");
-        };
+      if (!trigger || !popover) return;
 
-        const closePopover = (e) => {
-          if (!wrap.contains(e.target)) {
-            popover.classList.add("hidden");
-          }
-        };
+      // CLICK TOGGLE
+      trigger.addEventListener("click", (e) => {
+        e.stopPropagation();
 
-        trigger.addEventListener("click", togglePopover);
-        document.addEventListener("click", closePopover);
-      });
-    } else {
-      // Desktop: show on hover
-      popoverWraps.forEach((wrap) => {
-        const popover = wrap.querySelector(".popover-bg");
-        if (!popover) return;
-
-        wrap.addEventListener("mouseenter", () => {
-          popover.classList.remove("hidden");
-          popover.classList.add("flex");
+        // close others
+        document.querySelectorAll(".tooltip-content").forEach((el) => {
+          if (el !== popover) el.classList.add("hidden");
         });
-        wrap.addEventListener("mouseleave", () => {
-          popover.classList.remove("flex");
-          popover.classList.add("hidden");
-        });
+
+        popover.classList.toggle("hidden");
       });
-    }
+    });
+
+    // CLICK OUTSIDE TO CLOSE
+    document.addEventListener("click", () => {
+      document.querySelectorAll(".tooltip-content").forEach((el) => {
+        el.classList.add("hidden");
+      });
+    });
   });
 </script>
 <script src="../js/accordion.js"></script>

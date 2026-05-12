@@ -109,3 +109,67 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+// const initCollapsibles = () => {
+//     const triggers = qsa(".collapsible");
+//     const speed = 220;
+
+//     const open = (trigger, content) => {
+//       trigger.classList.add("active");
+//       trigger.setAttribute("aria-expanded", "true");
+
+//       const icon = qs(".icon", trigger);
+//       if (icon) icon.textContent = "-";
+
+//       content.style.overflow = "hidden";
+//       content.style.maxHeight = "0px";
+
+//       requestAnimationFrame(() => {
+//         content.style.maxHeight = content.scrollHeight + "px";
+//       });
+//     };
+
+//     const close = (trigger, content) => {
+//       trigger.classList.remove("active");
+//       trigger.setAttribute("aria-expanded", "false");
+
+//       const icon = qs(".icon", trigger);
+//       if (icon) icon.textContent = "+";
+
+//       content.style.overflow = "hidden";
+//       content.style.maxHeight = content.scrollHeight + "px";
+
+//       requestAnimationFrame(() => {
+//         content.style.maxHeight = "0px";
+//       });
+//     };
+
+//     triggers.forEach((trigger) => {
+//       if (!trigger || trigger.dataset.collapsibleBound === "true") return;
+
+//       const content = trigger.nextElementSibling;
+//       if (!content?.classList?.contains("collapsible-content")) return;
+
+//       const shouldOpen =
+//         trigger.classList.contains("active") ||
+//         trigger.dataset.defaultOpen === "true" ||
+//         trigger.getAttribute("aria-expanded") === "true";
+
+//       if (shouldOpen) {
+//         open(trigger, content);
+//       } else {
+//         close(trigger, content);
+//       }
+
+//       trigger.addEventListener("click", (event) => {
+//         event.preventDefault();
+//         if (trigger.classList.contains("active")) {
+//           close(trigger, content);
+//         } else {
+//           open(trigger, content);
+//         }
+//       });
+
+//       trigger.dataset.collapsibleBound = "true";
+//     });
+//   };
