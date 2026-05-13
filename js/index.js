@@ -183,19 +183,248 @@ document.addEventListener("DOMContentLoaded", () => {
       accordion.dataset.whyChooseAccordionBound = "true";
     });
   };
+  // const initCollapsibles = () => {
+  //   const triggers = qsa(".collapsible");
+  //   const speed = 220;
 
+  //   const open = (trigger, content) => {
+  //     trigger.classList.add("active");
+  //     trigger.setAttribute("aria-expanded", "true");
+
+  //     const icon = qs(".icon", trigger);
+  //     if (icon) icon.textContent = "-";
+
+  //     content.style.overflow = "hidden";
+  //     content.style.maxHeight = `${content.scrollHeight}px`;
+
+  //     window.setTimeout(() => {
+  //       if (trigger.classList.contains("active")) {
+  //         content.style.maxHeight = "none";
+  //       }
+  //     }, speed);
+  //   };
+
+  //   const close = (trigger, content) => {
+  //     trigger.classList.remove("active");
+  //     trigger.setAttribute("aria-expanded", "false");
+
+  //     const icon = qs(".icon", trigger);
+  //     if (icon) icon.textContent = "+";
+
+  //     content.style.overflow = "hidden";
+  //     content.style.maxHeight = `${content.scrollHeight}px`;
+
+  //     requestAnimationFrame(() => {
+  //       content.style.maxHeight = "0px";
+  //     });
+  //   };
+
+  //   triggers.forEach((trigger) => {
+  //     if (!trigger || trigger.dataset.collapsibleBound === "true") return;
+
+  //     const content = trigger.nextElementSibling;
+
+  //     if (!content?.classList?.contains("collapsible-content")) return;
+
+  //     const shouldOpen =
+  //       trigger.classList.contains("active") ||
+  //       trigger.dataset.defaultOpen === "true" ||
+  //       trigger.getAttribute("aria-expanded") === "true";
+
+  //     if (shouldOpen) {
+  //       open(trigger, content);
+  //     } else {
+  //       close(trigger, content);
+  //     }
+
+  //     trigger.addEventListener("click", (event) => {
+  //       event.preventDefault();
+
+  //       if (trigger.classList.contains("active")) {
+  //         close(trigger, content);
+  //       } else {
+  //         open(trigger, content);
+  //       }
+  //     });
+
+  //     trigger.dataset.collapsibleBound = "true";
+  //   });
+
+  //   // CLOSE ACTIVE COLLAPSIBLE ON SCROLL
+  //   window.addEventListener("scroll", () => {
+  //     if (window.innerWidth < 1024) return;
+
+  //     triggers.forEach((trigger) => {
+  //       const content = trigger.nextElementSibling;
+
+  //       if (
+  //         trigger.classList.contains("active") &&
+  //         content?.classList?.contains("collapsible-content")
+  //       ) {
+  //         close(trigger, content);
+  //       }
+  //     });
+  //   });
+  // };
+
+  // const initCollapsibles = () => {
+  //   const triggers = qsa(".collapsible");
+  //   const speed = 220;
+
+  //   const open = (trigger, content) => {
+  //     trigger.classList.add("active");
+  //     trigger.setAttribute("aria-expanded", "true");
+  //     const icon = qs(".icon", trigger);
+  //     if (icon) icon.textContent = "-";
+
+  //     content.style.overflow = "hidden";
+  //     content.style.maxHeight = `${content.scrollHeight}px`;
+  //     window.setTimeout(() => {
+  //       if (trigger.classList.contains("active")) {
+  //         content.style.maxHeight = "none";
+  //       }
+  //     }, speed);
+  //   };
+
+  //   const close = (trigger, content) => {
+  //     trigger.classList.remove("active");
+  //     trigger.setAttribute("aria-expanded", "false");
+  //     const icon = qs(".icon", trigger);
+  //     if (icon) icon.textContent = "+";
+
+  //     content.style.overflow = "hidden";
+  //     content.style.maxHeight = `${content.scrollHeight}px`;
+  //     requestAnimationFrame(() => {
+  //       content.style.maxHeight = "0px";
+  //     });
+  //   };
+
+  //   triggers.forEach((trigger) => {
+  //     if (!trigger || trigger.dataset.collapsibleBound === "true") return;
+
+  //     const content = trigger.nextElementSibling;
+  //     if (!content?.classList?.contains("collapsible-content")) return;
+
+  //     const shouldOpen =
+  //       trigger.classList.contains("active") ||
+  //       trigger.dataset.defaultOpen === "true" ||
+  //       trigger.getAttribute("aria-expanded") === "true";
+
+  //     if (shouldOpen) {
+  //       open(trigger, content);
+  //     } else {
+  //       close(trigger, content);
+  //     }
+
+  //     trigger.addEventListener("click", (event) => {
+  //       event.preventDefault();
+  //       if (trigger.classList.contains("active")) {
+  //         close(trigger, content);
+  //       } else {
+  //         open(trigger, content);
+  //       }
+  //     });
+
+  //     trigger.dataset.collapsibleBound = "true";
+  //   });
+  //   //  function handleScroll() {
+  //   //   if (window.innerWidth < 1024) return; // disable auto-close below 1024
+  //   //   if (window.scrollY > 800) {
+  //   //     closeCollapsible();
+  //   //   } else {
+  //   //     openCollapsible();
+  //   //   }
+  //   // }
+
+  //   // window.addEventListener("scroll", handleScroll);
+
+  //   // function initCollapsible() {
+  //   //   if (window.innerWidth < 1024) {
+  //   //     // default open below 1024
+  //   //     toggleButton.classList.add("active");
+  //   //     content.style.maxHeight = content.scrollHeight + "px";
+  //   //   } else {
+  //   //     // default open above 1024
+  //   //     openCollapsible();
+  //   //   }
+  //   // }
+  //   // initCollapsible();
+  //   // window.addEventListener("resize", initCollapsible);
+  // };
+
+  // document.addEventListener("DOMContentLoaded", function () {
+  //   const toggleButton = document.querySelector(".collapsible");
+  //   const content = document.querySelector(".collapsible-content");
+  //   const icon = toggleButton.querySelector(".icon");
+
+  //   if (!toggleButton || !content || !icon) return;
+
+  //   function openCollapsible() {
+  //     toggleButton.classList.add("active");
+  //     content.style.maxHeight = content.scrollHeight + "px";
+  //     icon.textContent = "-";
+  //   }
+
+  //   function closeCollapsible() {
+  //     toggleButton.classList.remove("active");
+  //     content.style.maxHeight = null;
+  //     icon.textContent = "+";
+  //   }
+
+  //   function handleToggle() {
+  //     const isActive = toggleButton.classList.toggle("active");
+  //     if (isActive) {
+  //       content.style.maxHeight = content.scrollHeight + "px";
+  //       icon.textContent = "-";
+  //     } else {
+  //       content.style.maxHeight = null;
+  //       icon.textContent = "+";
+  //     }
+  //   }
+
+  //   toggleButton.addEventListener("click", handleToggle);
+
+  //   function handleScroll() {
+  //     if (window.innerWidth < 1024) return; // disable auto-close below 1024
+  //     if (window.scrollY > 800) {
+  //       closeCollapsible();
+  //     } else {
+  //       openCollapsible();
+  //     }
+  //   }
+
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   function initCollapsible() {
+  //     if (window.innerWidth < 1024) {
+  //       // default open below 1024
+  //       toggleButton.classList.add("active");
+  //       content.style.maxHeight = content.scrollHeight + "px";
+  //     } else {
+  //       // default open above 1024
+  //       openCollapsible();
+  //     }
+  //   }
+
+  //   initCollapsible();
+
+  //   window.addEventListener("resize", initCollapsible);
+  // });
   const initCollapsibles = () => {
     const triggers = qsa(".collapsible");
     const speed = 220;
+    const scrollLimit = 800;
 
     const open = (trigger, content) => {
       trigger.classList.add("active");
       trigger.setAttribute("aria-expanded", "true");
+
       const icon = qs(".icon", trigger);
       if (icon) icon.textContent = "-";
 
       content.style.overflow = "hidden";
       content.style.maxHeight = `${content.scrollHeight}px`;
+
       window.setTimeout(() => {
         if (trigger.classList.contains("active")) {
           content.style.maxHeight = "none";
@@ -206,11 +435,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const close = (trigger, content) => {
       trigger.classList.remove("active");
       trigger.setAttribute("aria-expanded", "false");
+
       const icon = qs(".icon", trigger);
       if (icon) icon.textContent = "+";
 
       content.style.overflow = "hidden";
       content.style.maxHeight = `${content.scrollHeight}px`;
+
       requestAnimationFrame(() => {
         content.style.maxHeight = "0px";
       });
@@ -220,6 +451,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!trigger || trigger.dataset.collapsibleBound === "true") return;
 
       const content = trigger.nextElementSibling;
+
       if (!content?.classList?.contains("collapsible-content")) return;
 
       const shouldOpen =
@@ -235,6 +467,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       trigger.addEventListener("click", (event) => {
         event.preventDefault();
+
         if (trigger.classList.contains("active")) {
           close(trigger, content);
         } else {
@@ -244,8 +477,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
       trigger.dataset.collapsibleBound = "true";
     });
-  };
 
+    // AUTO CLOSE / OPEN ON SCROLL
+    const handleScroll = () => {
+      if (window.innerWidth < 1024) return;
+
+      triggers.forEach((trigger) => {
+        const content = trigger.nextElementSibling;
+
+        if (!content?.classList?.contains("collapsible-content")) {
+          return;
+        }
+
+        if (window.scrollY > scrollLimit) {
+          close(trigger, content);
+        } else {
+          open(trigger, content);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // INITIAL CHECK
+    handleScroll();
+  };
   const initReviewTabs = () => {
     const reviewBlocks = qsa(".homepage__review-summary");
 

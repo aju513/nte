@@ -3,17 +3,12 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php'); ?>
 
-<section class="bg-secondary common-box contact-page pb-25" role="main">
+<section class="bg-secondary common-box pt-0 contact-page pb-25" role="main">
   <div class="package__content-wrapper">
     <div class="container">
-      <div class="page-title contact-page__heading mb-0">
-        <h1 class="package__section-title">Contact Us</h1>
+      <div class="page-title">
+        <h1>Contact Us</h1>
         <div class="contact-page__share">
-          <button
-            class="btn-primary ">
-            <span class="icon-share text-[18px]"></span>
-            Share
-          </button>
         </div>
       </div>
 
@@ -23,9 +18,9 @@
         </div>
       </div>
 
-      <div class="contact-page__layout common-box">
+      <div class="contact-page__layout py-9">
         <div class="contact-page__info">
-          <h2 class="contact-page__info-title">Holy Kailash Tours</h2>
+          <h2 class="contact-page__info-title">Nepal Travel Experience</h2>
 
           <div class="contact-page__info-list">
             <div class="contact-page__info-item">
@@ -107,7 +102,7 @@
       </div>
 
       <div class="common-box pt-0">
-        <h2 class="text-2xl font-bold mb-6 font-playfair">We are located here</h2>
+        <h2 class="text-2xl font-black mb-6 font-playfair">We are located here</h2>
 
         <div class="h-105 relative z-10 overflow-hidden rounded-2xl border-4 border-white shadow-xl -mb-52.5">
           <iframe src="https://maps.google.com/maps?q=thamel,kathmandu&t=&z=13&ie=UTF8&iwloc=&output=embed"

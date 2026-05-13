@@ -828,10 +828,11 @@
         </div>
 
         <!-- Videos Layout -->
-        <div class="scroll-wrap">
+        <div class="homepage-moments scroll-wrap">
             <div class="grid grid-cols-12 gap-5  ">
+                <!-- <div class="moments__list-wrapper"> -->
                 <div class="col-span-12 lg:col-span-9">
-                    <div class="homepage-moments-list__item">
+                    <div class="moments-list__item">
                         <div class="moments-list__item-image relative">
                             <div class="placeholder__img-wrapper  ">
                                 <div class="placeholder__img  ">
@@ -859,7 +860,7 @@
                 </div>
                 <div class="col-span-12 lg:col-span-3">
                     <div class="flex flex-col gap-5 h-full">
-                        <div class="homepage-moments-list__item">
+                        <div class="moments-list__item">
                             <div class="moments-list__item-image relative">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img w-full">
@@ -886,8 +887,7 @@
                             </div>
                         </div>
 
-
-                        <div class="homepage-moments-list__item">
+                        <div class="moments-list__item">
                             <div class="moments-list__item-image relative">
                                 <div class="placeholder__img-wrapper">
                                     <div class="placeholder__img w-full">
@@ -913,9 +913,9 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
+                <!-- </div> -->
 
             </div>
         </div>
@@ -982,24 +982,20 @@
                         <img id="reviewIcon" src="/images/svg/tripadvisor.svg" class="w-147px h-31px cursor-pointer"
                             alt="Trip Advisor" />
                     </a>
-                </div>
-                <div class="mt-2 flex items-center gap-3">
-                    <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2" id="reviewRating">
-                        <div class="rating-wrap rating-5">
-                            <span class="star"></span>
-                            <span class="star"></span>
-                            <span class="star"></span>
-                            <span class="star"></span>
-                            <span class="star"></span>
+                    <div class="mt-2 flex items-center justify-center gap-3">
+                        <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2" id="reviewRating">
+                            <div class="rating-wrap rating-5">
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                                <span class="star"></span>
+                            </div>
                         </div>
+                        <span id="reviewCount" class="text-xs">222 reviews</span>
                     </div>
-                    <span id="reviewCount" class="text-sm">222 reviews</span>
                 </div>
             </div>
-
-
-
-
         </div>
 
         <!-- Testimonials -->

@@ -37,8 +37,11 @@
             <div class="footer_grid">
 
                 <!-- Logo -->
-                <div class="col-span-1 lg:col-span-2 flex lg:justify-start lg:self-start">
+                <div class="col-span-1 lg:col-span-2 flex lg:justify-start lg:self-start hidden lg:block ">
                     <img width="171" height="84" src="/images/svg/logo.svg" alt="Nepal Travel Experience" />
+                </div>
+                <div class="col-span-1 lg:col-span-2 flex lg:justify-start lg:self-start lg:hidden">
+                    <img width="110" height="50" src="/images/svg/logo.svg" alt="Nepal Travel Experience" />
                 </div>
 
                 <!-- Contact -->
@@ -93,7 +96,7 @@
 
                 <!-- Newsletter & Social -->
                 <div class="col-span-1 sm:col-span-1 lg:col-span-3 ">
-                    <div class="flex flex-col">
+                    <div class="flex flex-col gap-0.5">
                         <h4>Newsletter</h4>
                         <div class="text-base ">
                             Sign up for the latest news, offers!
@@ -152,12 +155,12 @@
 
 
 
-                <div class="text-center lg:text-right  text-text_color">
+                <div class="text-left md:text-center lg:text-right  text-text_color">
                     <div class="font-extrabold mt-2 text-[15px]">
                         © <?= date('Y') ?>, Nepal Travel Experience Pvt. Ltd. All Rights Reserved.
                     </div>
 
-                    <div class="flex items-center justify-center lg:justify-end gap-2 mt-2 cursor-pointer text-sm">
+                    <div class="flex items-start md:items-center md:justify-center lg:justify-end gap-2 mt-2 cursor-pointer text-sm">
                         <span>Crafted by</span>
                         <img src="/images/svg/imagine-web-solution.svg" width="21" height="19"
                             alt="Imagine Web Solution">

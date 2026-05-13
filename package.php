@@ -101,38 +101,40 @@
 
 
 <section class="common-box pt-0 package-page bg-secondary relative md:-mb-5 " role="main">
-  <div class="package__banner">
-    <div class="container-fluid relative">
-      <div class="package__banner-wrapper">
-        <div class="package__banner-item banner-half lg">
-          <a data-fancybox="package-banner" href="./images/dynamic/package1.webp">
-            <div class="placeholder__img-wrapper">
-              <div class="w-full placeholder__img">
-                <img width={1200} height={900} class="rounded-custom" src="./images/dynamic/package1.webp"
-                  alt="thumb" />
+  <div class="package__banner relative">
+    <div class="container-fluid ">
+      <div class="fancybox-wrapper">
+        <div class="package__banner-wrapper">
+          <div class="package__banner-item banner-half lg">
+            <a data-fancybox="package-banner" href="./images/dynamic/package1.webp">
+              <div class="placeholder__img-wrapper">
+                <div class="w-full placeholder__img">
+                  <img width=1200 height=900 class="rounded-custom" src="./images/dynamic/package1.webp"
+                    alt="thumb" />
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div class="package__banner-item banner-quarter">
-          <a data-fancybox="package-banner" href="./images/dynamic/package2.webp">
-            <div class="placeholder__img-wrapper">
-              <div class="w-full placeholder__img">
-                <img width={1200} height={900} class="rounded-custom" src="./images/dynamic/package2.webp"
-                  alt="thumb" />
+            </a>
+          </div>
+          <div class="package__banner-item banner-quarter">
+            <a data-fancybox="package-banner" href="./images/dynamic/package2.webp">
+              <div class="placeholder__img-wrapper">
+                <div class="w-full placeholder__img">
+                  <img width=1200 height=900 class="rounded-custom" src="./images/dynamic/package2.webp"
+                    alt="thumb" />
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
-        <div class="package__banner-item banner-quarter">
-          <a data-fancybox="package-banner" href="./images/dynamic/package3.webp">
-            <div class="placeholder__img-wrapper">
-              <div class="w-full placeholder__img">
-                <img width={1200} height={900} class="rounded-custom" src="./images/dynamic/package3.webp"
-                  alt="thumb" />
+            </a>
+          </div>
+          <div class="package__banner-item banner-quarter">
+            <a data-fancybox="package-banner" href="./images/dynamic/package3.webp">
+              <div class="placeholder__img-wrapper">
+                <div class="w-full placeholder__img">
+                  <img width=1200 height=900 class="rounded-custom" src="./images/dynamic/package3.webp"
+                    alt="thumb" />
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -140,33 +142,84 @@
   <section class="package__content-wrapper absolute -top-17">
     <div class="container">
       <div class="grid grid-cols-12 gap-5">
+        <div class="col-span-12 common-box pb-0">
+          <div class="flex flex-wrap items-center justify-between gap-2.5">
+            <div class="package__title-wrap ">
+              <div class="page-title">
+                <h1>Everest Base Camp Trek-15 Days</h1>
+              </div>
+              <div class="package__rating flex items-center gap-2 flex-wrap lg:gap-4.55">
+                <div class="flex items-center gap-1 package__rating-tripadvisor justify-center ">
+                  <div class="flex justify-start items-center gap-1">
+                    <span class="icon-green-circle  text-[10px]"></span>
+                    <span class="icon-green-circle  text-[10px]"></span>
+                    <span class="icon-green-circle  text-[10px]"></span>
+                    <span class="icon-green-circle  text-[10px]"></span>
+                    <span class="icon-green-circle  text-[10px]"></span>
+                  </div>
+                  <span class="text-[13px] text-text_color leading-4">110 Reviews in Trip Advisor</span>
+                </div>
+                <div class="flex items-center gap-1 package__rating-google">
+                  <div class="flex justify-start items-start gap-1">
+                    <span class="icon-star-rate text-[#ffc20e] text-[10px] "></span>
+                    <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
+                    <span class="icon-star-rate text-[#ffc20e] text-[10px] "></span>
+                    <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
+                    <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
+                  </div>
+                  <span class="text-[13px] text-text_color leading-4">120 Reviews in Google Reviews</span>
+                </div>
+              </div>
+            </div>
+            <div class="package-actions">
+              <button class="package-actions__item btn-primary gap-2" data-src="./images/dynamic/route-map.webp" data-fancybox="true">
+                <span class=" icon-send text-lg hover:text-[#6cafda]"></span>
+                View Map
+              </button>
+              <div class=" package-actions__item group ">
+                <div class=" share-wrap" id="shareDropdown">
+                  <button type="button" class=" share-btn gap-2" id="sharetoggle">
+                    <span class="icon-share text-lg"></span>
+                    Share
+                  </button>
+                  <div class="share-list" aria-label="Share options" id="dropdownMenu">
+                    <button type="button" class="share-facebook">
+                      <span class="mr-2 h-5 w-5 icon-facebook text-[#1877f2]"></span>
+                      <span class="text-sm">Facebook</span>
+                    </button>
+
+                    <button type="button" class="share-x">
+                      <span class="mr-2 h-5 w-5 icon-x text-black"></span>
+                      <span class="text-sm">X Corp</span>
+                    </button>
+
+                    <button type="button" class="share-linkedin">
+                      <span class="mr-2 h-5 w-5 icon-linkedin text-[#0a66c2]"></span>
+                      <span class="text-sm">Linkedin</span>
+                    </button>
+
+                    <button type="button" class="share-instagram">
+                      <span class="mr-2 h-5 w-5 icon-instagram text-[#c32aa3]"></span>
+                      <span class="text-sm">Instagram</span>
+                    </button>
+
+                    <button type="button" class="share-whatsapp">
+                      <span class="mr-2 h-5 w-5 icon-whatapp text-whatsapp"></span>
+                      <span class="text-sm">WhatsApp</span>
+                    </button>
+
+                    <button type="button" class="share-copy">
+                      <span class="mr-2 text-2xl icon-copylink"></span>
+                      <span class="text-sm">Copy</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col-span-12 lg:col-span-8 ">
-          <div class="package__title-wrap common-box pb-0">
-            <div class="page-title">
-              <h1>Everest Base Camp Trek-15 Days</h1>
-            </div>
-            <div class="package__rating flex items-center gap-3 flex-wrap lg:gap-4.55">
-              <div class="flex items-center gap-1 package__rating-tripadvisor justify-center ">
-                <div class="flex justify-start items-center gap-1">
-                  <span class="icon-green-circle  text-[10px]"></span>
-                  <span class="icon-green-circle  text-[10px]"></span>
-                  <span class="icon-green-circle  text-[10px]"></span>
-                  <span class="icon-green-circle  text-[10px]"></span>
-                  <span class="icon-green-circle  text-[10px]"></span>
-                </div>
-                <span class="text-[13px] text-text_color leading-5">110 Reviews in Trip Advisor</span>
-              </div>
-              <div class="flex items-center gap-1 package__rating-google">
-                <div class="flex justify-start items-start gap-1">
-                  <span class="icon-star-rate text-[#ffc20e] text-[10px] "></span>
-                  <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
-                  <span class="icon-star-rate text-[#ffc20e] text-[10px] "></span>
-                  <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
-                  <span class="icon-star-rate text-[#ffc20e] text-[10px]"></span>
-                </div>
-                <span class="text-[13px] text-text_color leading-5">120 Reviews in Google Reviews</span>
-              </div>
-            </div>
+          <div class="  pb-0">
             <div class="package__summary common-module">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. cididunt ut labore et dolore magna aliqua. </p>
@@ -367,7 +420,7 @@
                       <figure class="relative">
                         <div class="placeholder__img-wrapper">
                           <div class="w-full placeholder__img">
-                            <img width={600} height={450} class="rounded-custom" src="./images/dynamic/album.webp"
+                            <img width={600} height={450} src="./images/dynamic/album.webp"
                               alt="thumb" />
                           </div>
                         </div>
@@ -385,7 +438,7 @@
                       <figure class="relative">
                         <div class="placeholder__img-wrapper">
                           <div class="w-full placeholder__img">
-                            <img width={600} height={450} class="rounded-custom" src="./images/dynamic/album.webp"
+                            <img width={600} height={450} src="./images/dynamic/album.webp"
                               alt="thumb" />
                           </div>
                         </div>
@@ -403,7 +456,7 @@
                       <figure class="relative">
                         <div class="placeholder__img-wrapper">
                           <div class="w-full placeholder__img">
-                            <img width={600} height={450} class="rounded-custom" src="./images/dynamic/album.webp"
+                            <img width={600} height={450} src="./images/dynamic/album.webp"
                               alt="thumb" />
                           </div>
                         </div>
@@ -421,7 +474,7 @@
                       <figure class="relative">
                         <div class="placeholder__img-wrapper">
                           <div class="w-full placeholder__img">
-                            <img width={600} height={450} class="rounded-custom" src="./images/dynamic/album.webp"
+                            <img width={600} height={450} src="./images/dynamic/album.webp"
                               alt="thumb" />
                           </div>
                         </div>
@@ -442,10 +495,10 @@
                     </a>
                   </div>
                 </div>
-                <div class="fancybox-wrapper absolute top-[27%] md:top-[40%] lg:top-[40%] left-[38%] md:left-[45%] lg:left-[45%]">
+                <div class="fancybox-wrapper absolute top-1/2 left-1/2">
                   <a href="https://www.youtube.com/watch?v=K4TOrB7at0Y" data-fancybox="video"
                     data-width="1080" data-height="608"
-                    class="circular-animate relative flex items-center justify-center h-18 w-18">
+                    class="circular-animate ">
                     <span class="absolute left-1/2 top-1/2 z-40 flex h-12.5 w-12.5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-18.75 md:w-18.75 cursor-pointer"><span
                         class=" icon-play-button text-primary">
                       </span></span>
@@ -683,7 +736,7 @@
                 alt="thumb" />
             </a>
           </div>
-          <div class="package__altitude common-module " id="package-altitude">
+          <div class="package__altitude common-module" id="package-altitude">
             <h2 class="package__section-title">Altitude Chart</h2>
             <a href="./images/dynamic/altitude-chart.webp" data-fancybox="package-route">
               <img width="1200" height="650" class="rounded-[10px]" src="./images/dynamic/altitude-chart.webp"
@@ -1037,160 +1090,114 @@
             </div>
           </div>
         </div>
-        <div class="col-span-12 lg:col-span-4 gap-8 pt-0 lg:pt-15">
-          <div class="package__sidebar">
-            <div class="package-actions">
-              <button class="package-actions__item btn-secondary gap-2 hav-icon" data-src="./images/dynamic/route-map.webp" data-fancybox="true">
-                <span class=" icon-send text-lg text-[#6cafda]"></span>
-                View Map
-              </button>
-              <div class=" package-actions__item group ">
-                <div class=" share-wrap" id="shareDropdown">
-                  <button type="button" class=" share-btn gap-2" id="sharetoggle">
-                    <span class="icon-share text-lg"></span>
-                    Share
-                  </button>
-                  <div class="share-list" aria-label="Share options" id="dropdownMenu">
-                    <button type="button" class="share-facebook">
-                      <span class="mr-2 h-5 w-5 icon-facebook text-[#1877f2]"></span>
-                      <span class="text-sm">Facebook</span>
-                    </button>
+        <div class="col-span-12 lg:col-span-4">
+          <div class="package__price-sidebar ">
+            <div class="package-price-main-wrapper ">
+              <div class="package-price-wrapper ">
 
-                    <button type="button" class="share-x">
-                      <span class="mr-2 h-5 w-5 icon-x text-black"></span>
-                      <span class="text-sm">X Corp</span>
-                    </button>
-
-                    <button type="button" class="share-linkedin">
-                      <span class="mr-2 h-5 w-5 icon-linkedin text-[#0a66c2]"></span>
-                      <span class="text-sm">Linkedin</span>
-                    </button>
-
-                    <button type="button" class="share-instagram">
-                      <span class="mr-2 h-5 w-5 icon-instagram text-[#c32aa3]"></span>
-                      <span class="text-sm">Instagram</span>
-                    </button>
-
-                    <button type="button" class="share-whatsapp">
-                      <span class="mr-2 h-5 w-5 icon-whatapp text-whatsapp"></span>
-                      <span class="text-sm">WhatsApp</span>
-                    </button>
-
-                    <button type="button" class="share-copy">
-                      <span class="mr-2 text-2xl icon-copylink"></span>
-                      <span class="text-sm">Copy</span>
-                    </button>
-                  </div>
+                <div class="package-price-title">Price For</div>
+                <div class="package-price">
+                  <div class="package-price-net">US$1500</div>
+                  <div class="package-price-gross">US$1600</div>
                 </div>
               </div>
-            </div>
-            <div class="package__price-sidebar ">
-              <div class="package-price-main-wrapper ">
-                <div class="package-price-wrapper ">
 
-                  <div class="package-price-title">Price For</div>
-                  <div class="package-price">
-                    <div class="package-price-net">US$1500</div>
-                    <div class="package-price-gross">US$1600</div>
-                  </div>
-                </div>
-
-                <div class="package-group-price">
-                  <div class="collapsible__wrap">
-                    <button role="button" type="button" class="collapsible active">
-                      <span class="text-text_color text-sm font-bold uppercase">Group Discount Cost</span>
-                      <span class="text-text_color mr-1 text-2xl font-bold icon">-</span>
-                    </button>
-                    <div class="collapsible-content">
-                      <div class="package__discount-list px-6.5">
-                        <ul class="package__discount-list-group">
-                          <li class="package__discount-list-item  ">
-                            <span class="text-base font-bold text-text_color">No. of traveler</span>
-                            <span class="text-base font-bold text-text_color">Price per person</span>
-                          </li>
-                          <li class="package__discount-list-item  ">
-                            <span class="text-sm text-text_color">1 - 1</span>
-                            <span class="text-sm text-text_color">US$ 1620</span>
-                          </li>
-                          <li class="package__discount-list-item   ">
-                            <span class="text-sm text-text_color">2 - 2</span>
-                            <span class="text-sm text-text_color">US$ 1600</span>
-                          </li>
-                          <li class="package__discount-list-item  ">
-                            <span class="text-sm text-text_color">3 - 5</span>
-                            <span class="text-sm text-text_color">US$ 1590</span>
-                          </li>
-                          <li class="package__discount-list-item  ">
-                            <span class="text-sm text-text_color">10+</span>
-                            <span class="text-sm text-text_color">US$ 1200</span>
-                          </li>
-                        </ul>
-                      </div>
+              <div class="package-group-price">
+                <div class="collapsible__wrap">
+                  <button role="button" type="button" class="collapsible active">
+                    <span class="text-text_color text-sm font-bold uppercase">Group Discount Cost</span>
+                    <span class="text-text_color mr-1 text-2xl font-bold icon">-</span>
+                  </button>
+                  <div class="collapsible-content">
+                    <div class="package__discount-list px-6.5">
+                      <ul class="package__discount-list-group">
+                        <li class="package__discount-list-item  ">
+                          <span class="text-base font-bold text-text_color">No. of traveler</span>
+                          <span class="text-base font-bold text-text_color">Price per person</span>
+                        </li>
+                        <li class="package__discount-list-item  ">
+                          <span class="text-sm text-text_color">1 - 1</span>
+                          <span class="text-sm text-text_color">US$ 1620</span>
+                        </li>
+                        <li class="package__discount-list-item   ">
+                          <span class="text-sm text-text_color">2 - 2</span>
+                          <span class="text-sm text-text_color">US$ 1600</span>
+                        </li>
+                        <li class="package__discount-list-item  ">
+                          <span class="text-sm text-text_color">3 - 5</span>
+                          <span class="text-sm text-text_color">US$ 1590</span>
+                        </li>
+                        <li class="package__discount-list-item  ">
+                          <span class="text-sm text-text_color">10+</span>
+                          <span class="text-sm text-text_color">US$ 1200</span>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-                <div class=" package-book-options">
-                  <button type="button"
-                    class="bg-block rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)] ">
-                    Book This Trip
-                  </button>
-                  <a href=""
-                    class="bg-secondary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-text_color transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)]">
-                    Check Availability
-                  </a>
-                  <button type="button" data-fancybox data-src="#dialog-content"
-                    class="bg-primary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)]">
-                    Make an INQUIRY
-                  </button>
+              </div>
+              <div class=" package-book-options">
+                <button type="button"
+                  class="bg-block rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)] ">
+                  Book This Trip
+                </button>
+                <a href=""
+                  class="bg-secondary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-text_color transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)]">
+                  Check Availability
+                </a>
+                <button type="button" data-fancybox data-src="#dialog-content"
+                  class="bg-primary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)]">
+                  Make an INQUIRY
+                </button>
 
-                  <div class="package-price-note">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
-                  </div>
-
-                  <div class="hidden package-sidebar-contact" id="dialog-content">
-                    <form class="normal-form">
-                      <div class="package-sidebar-contact-title-wrap ">
-                        <h4 class="main-title ">
-                          Ask a Question?
-                        </h4>
-                      </div>
-
-                      <div class="relative w-full mb-3">
-                        <input type="text" name="fullname" id="fullname"
-                          class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                          placeholder="Full Name" required />
-                      </div>
-
-                      <div class="relative w-full mb-3">
-                        <input type="email" name="mail" id="mail"
-                          class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                          placeholder="Email Address" required />
-                      </div>
-                      <div class="relative w-full mb-3">
-                        <input type="text" name="phone" id="phone"
-                          class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                          placeholder="Phone Number " required />
-                      </div>
-                      <div class="relative w-full mb-3">
-                        <textarea name="extra_info" id="extrainfo" rows={4}
-                          class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
-                          placeholder="Questions / Comments" required></textarea>
-                      </div>
-                      <button
-                        class="mb-2 block w-full rounded-[5px] bg-secondary-effect border border-primary bg-primary py-3 font-bold  text-sm text-white transition-all duration-500 bg-secondary-effect">
-                        Send Message
-                      </button>
-                    </form>
-                  </div>
+                <div class="package-price-note">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididun</p>
                 </div>
 
+                <div class="hidden package-sidebar-contact" id="dialog-content">
+                  <form class="normal-form">
+                    <div class="package-sidebar-contact-title-wrap ">
+                      <h4 class="main-title ">
+                        Ask a Question?
+                      </h4>
+                    </div>
 
+                    <div class="relative w-full mb-3">
+                      <input type="text" name="fullname" id="fullname"
+                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                        placeholder="Full Name" required />
+                    </div>
 
+                    <div class="relative w-full mb-3">
+                      <input type="email" name="mail" id="mail"
+                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                        placeholder="Email Address" required />
+                    </div>
+                    <div class="relative w-full mb-3">
+                      <input type="text" name="phone" id="phone"
+                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                        placeholder="Phone Number " required />
+                    </div>
+                    <div class="relative w-full mb-3">
+                      <textarea name="extra_info" id="extrainfo" rows={4}
+                        class="text-heading_color peer block w-full appearance-none rounded-[5px] bg-transparent text-base focus:outline-none focus:ring-0"
+                        placeholder="Questions / Comments" required></textarea>
+                    </div>
+                    <button
+                      class="mb-2 block w-full rounded-[5px] bg-secondary-effect border border-primary bg-primary py-3 font-bold  text-sm text-white transition-all duration-500 bg-secondary-effect">
+                      Send Message
+                    </button>
+                  </form>
+                </div>
               </div>
+
+
+
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
 
     <section class="video-review common-box pb-0 scroll-wrap ">
@@ -1287,11 +1294,9 @@
             Customer Review
           </h2>
           <div class="package__review-platforms">
-            <div class="package__review-platform">
-
+            <a href="" class="package__review-platform">
               <img src="/images/svg/circular-tripadvisor.svg" width="31" height="31" alt="Tripadvisor" class="cursor-pointer" />
               <div class="package__review-platform-copy">
-
                 <div class="package__review-platform-rating green-dot-rating">
                   <span class="text-sm ">4.9</span>
                   <div class="rating-wrap rating-5">
@@ -1304,13 +1309,10 @@
                 </div>
                 <div class="text-xs text-black">Based on 22 reviews</div>
               </div>
-
-            </div>
-            <div class="package__review-platform">
-
+            </a>
+            <a href="" class="package__review-platform">
               <img src="/images/svg/circular-google.svg" width="31" height="31" alt="Google" class="cursor-pointer" />
               <div class="package__review-platform-copy">
-
                 <div class="package__review-platform-rating star-rating">
                   <span class="text-sm ">4.9</span>
                   <div class="rating-wrap rating-5">
@@ -1323,11 +1325,9 @@
                 </div>
                 <div class="text-xs text-black">Based on 22 reviews</div>
               </div>
-
-            </div>
-            <div class="package__review-platform">
-
-              <img src="/images/svg/trustpilot.svg" width="31" height="31" alt="Trustpilot" class="cursor-pointer" />
+            </a>
+            <a href="" class="package__review-platform">
+              <img src="/images/svg/trustpilot.svg" width="31" height="31" alt="Trustpilot" />
               <div class="package__review-platform-copy">
 
                 <div class="package__review-platform-rating">
@@ -1342,14 +1342,14 @@
                 </div>
                 <div class="text-xs text-black">Based on 22 reviews</div>
               </div>
+            </a>
 
-            </div>
           </div>
 
         </div>
         <div class="relative mb-7.5">
 
-          <div class="grid grid-cols-12 gap-5">
+          <div class="grid grid-cols-12 gap-5 p-1!">
 
             <div class="col-span-6">
               <div class="testimonial__list-item m-0!">
@@ -1877,10 +1877,22 @@
 
         // close others
         document.querySelectorAll(".tooltip-content").forEach((el) => {
-          if (el !== popover) el.classList.add("hidden");
+          if (el !== popover) {
+            el.classList.add("hidden");
+          }
         });
 
         popover.classList.toggle("hidden");
+      });
+
+      // HOVER SHOW
+      wrap.addEventListener("mouseenter", () => {
+        popover.classList.remove("hidden");
+      });
+
+      // HOVER HIDE
+      wrap.addEventListener("mouseleave", () => {
+        popover.classList.add("hidden");
       });
     });
 
