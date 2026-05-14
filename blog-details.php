@@ -162,7 +162,7 @@
                           </div>
                           <div class="blog__nav-prev-content">
                             <div class="text-text_color flex items-center gap-2 text-xs uppercase"><span
-                                class="icon icon-move-right rotate-180"></span>Previous post</div>
+                                class="icon icon-arrow-right rotate-180"></span>Previous post</div>
                             <div
                               class="blog__nav-title font-merriweather text-text_color hover:text-primary mt-2 inline-block text-lg leading-5 font-semibold transition-all duration-500">
                               Discover the river and its people in our latest</div>
@@ -174,7 +174,7 @@
                           <div class="blog__nav-next-content">
                             <div
                               class="text-text_color flex items-center justify-end gap-2 text-xs uppercase">
-                              Next post <span class="icon icon-move-right"></span></div>
+                              Next post <span class="icon icon-arrow-right"></span></div>
                             <div
                               class="blog__nav-title font-merriweather text-text_color hover:text-primary mt-2 inline-block text-right text-lg leading-5 font-semibold transition-all duration-500">
                               Discover the river and its people in our latest</div>
@@ -230,7 +230,7 @@
 
           </div>
         </div>
-        <section class="scroll-wrap blog-details-recent-post blog-list common-box">
+        <div class="scroll-wrap blog-details-recent-post blog-list common-box">
           <div class="container">
             <div class="grid grid-cols-12 gap-5">
               <div class="col-span-12 sm:col-span-6 lg:col-span-4">
@@ -328,7 +328,7 @@
             </div>
           </div>
 
-        </section>
+        </div>
       </div>
 </section>
 

@@ -1,7 +1,7 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php') ?>
-<section class="  bg-secondary" role="main">
-  <?php include('./inc/breadcrumbs.php') ?>
+<?php include('./inc/breadcrumbs.php') ?>
+<section class="bg-secondary" role="main">
   <div class=" common-box pt-0 newsletter-page">
     <div class="common-page-wrapper">
       <div class="container">
@@ -46,12 +46,12 @@
                   Email<sup>*</sup>
                 </label>
               </div>
-              <div class="flex items-center mb-4 custom-radio">
+              <div class="flex items-center mb-4 ">
                 <input
                   id="checkbox"
-                  type="radio"
+                  type="checkbox"
                   value=""
-                  class="custom-radio__item" />
+                  class="custom-checkbox" />
                 <label
                   htmlFor="checkbox"
                   class="text-sm font-semibold cursor-pointer ms-2 text-text_color">

@@ -2,7 +2,7 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box pt-0 album-page bg-secondary" role="main">
+<section class="pb-8 author-page bg-secondary" role="main">
   <div class="common-page-wrapper">
     <div class="container">
       <div class="author-profile">
@@ -20,24 +20,24 @@
             aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.</p>
-          <div class="flex flex-wrap gap-3 group">
-            <a class="border-primary bg-dim_bg group-hover:text-white! rounded-custom hover:bg-[#1877f2] flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
-              href="#!">
-              <span class="text-5 text-black icon icon-facebook "></span>Facebook
+          <div class="flex flex-wrap gap-3  ">
+            <a href="" class="group border-primary hover:text-white rounded-custom hover:bg-[#1877f2] flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500">
+              <span class="text-5 text-[#1877f2] icon icon-facebook transition-colors duration-500 group-hover:text-white"></span>
+              <span>Facebook</span>
             </a>
-            <a class="border-primary bg-dim_bg hover:text-white rounded-custom hover:bg-black flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
-              href="#!">
-              <span class="text-5 text-black icon icon-x"></span>Twitter
+            <a href="" class="group border-primary hover:text-white rounded-custom hover:bg-black flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500">
+              <span class="text-5 text-black icon icon-x transition-colors duration-500 group-hover:text-white"></span>
+              <span>X Corp</span>
             </a>
-            <a class="border-primary bg-dim_bg hover:text-white rounded-custom hover:bg-[#0076b1] flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500"
-              href="#!">
-              <span class="text-5 text-black icon icon-linkedin"></span>Linkedin
+            <a href="" class="group border-primary hover:text-white rounded-custom hover:bg-[#0076b1] flex items-center gap-2 border px-4 py-2 text-sm font-medium transition-all duration-500">
+              <span class="text-5 text-[#0076b1] transition-colors duration-500 icon-linkedin group-hover:text-white"></span>
+              <span>Linkedin</span>
             </a>
           </div>
         </div>
       </div>
     </div>
-    <section class="blog-list common-box scroll-wrap">
+    <div class="blog-list pt-15">
       <div class="container">
         <div class="page-title">
           <h1>Latest Blog</h1>
@@ -229,7 +229,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </div>
 </section>
 

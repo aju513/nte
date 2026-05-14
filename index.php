@@ -35,10 +35,10 @@
                             Nepal bans solo trekkers throughout the country.
                         </div>
                         <div class="notice-message js-notice-slide">
-                            Spring trekking permits are now open for Everest, Annapurna, and Langtang regions.
+                            Spring trekking permits are now open for Everest regions.
                         </div>
                         <div class="notice-message js-notice-slide">
-                            Weather in high-altitude routes can change quickly, so always travel prepared.
+                            Weather in high-altitude routes can change quickly.
                         </div>
 
                         <div class="notice-controls">
@@ -63,6 +63,7 @@
             </div>
         </div>
     </section>
+
     <!-- Bestselling -->
     <section class="homepage__bestselling common-box package-list hav-title-btn">
         <div class="container ">
@@ -441,7 +442,7 @@
         </div>
 
         <!-- Join Our Upcoming Trips -->
-        <section class="homepage__explore-section container common-box pt-0 ">
+        <div class="homepage__explore-section container common-box pt-0 ">
             <div class="homepage__join-banner ">
                 <div class="homepage__explore-content">
                     <div class="flex flex-col items-star">
@@ -465,10 +466,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         <!-- Homepage-Content -->
-        <section class="homepage__main-content homepage__main-content-grid common-box pt-0 ">
+        <div class="homepage__main-content homepage__main-content-grid common-box pt-0 ">
             <div class="container">
                 <div class=" grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-10">
                     <div class="col-span-6 ">
@@ -595,12 +596,11 @@
                 </div>
 
             </div>
-            </div>
-        </section>
-
+        </div>
+        </div>
 
         <!-- Most Popular -->
-        <section class="container hav-title-btn common-box pt-0">
+        <div class="container hav-title-btn common-box pt-0">
             <!-- <div class=" container"> -->
 
             <div class="grid grid-cols-12 gap-5 mb-6">
@@ -804,7 +804,7 @@
 
             <!-- </div> -->
 
-        </section>
+        </div>
 
     </section>
 
@@ -831,7 +831,7 @@
         <div class="homepage-moments scroll-wrap">
             <div class="grid grid-cols-12 gap-5  ">
                 <!-- <div class="moments__list-wrapper"> -->
-                <div class="col-span-12 lg:col-span-9">
+                <div class="homepage-moments__featured col-span-12 lg:col-span-9">
                     <div class="moments-list__item">
                         <div class="moments-list__item-image relative">
                             <div class="placeholder__img-wrapper  ">
@@ -849,8 +849,8 @@
                                     </span>
                                 </div>
                             </div>
-                            <div class="absolute bottom-6 left-4 text-white z-10">
-                                <h4 class="text-2xl text-white font-extrabold ">Everest Base Camp
+                            <div class="moments-list__item-meta">
+                                <h4 class="moments-list__item-meta-title ">Everest Base Camp
                                 </h4>
                                 <span class="text-sm">Jhon - Australia</span>
                             </div>
@@ -858,8 +858,8 @@
                     </div>
 
                 </div>
-                <div class="col-span-12 lg:col-span-3">
-                    <div class="flex flex-col gap-5 h-full">
+                <div class="homepage-moments__side col-span-12 lg:col-span-3">
+                    <div class="homepage-moments__side-list flex flex-col gap-5 h-full">
                         <div class="moments-list__item">
                             <div class="moments-list__item-image relative">
                                 <div class="placeholder__img-wrapper">
@@ -880,8 +880,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="absolute bottom-4 left-4 text-white z-10">
-                                    <h4 class="text-lg font-semibold text-white">Travel Nepal</h4>
+                                <div class="moments-list__item-meta">
+                                    <h4 class="moments-list__item-meta-title">Travel Nepal</h4>
                                     <span class="text-xs">John - Australia</span>
                                 </div>
                             </div>
@@ -907,8 +907,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="absolute bottom-4 left-4 text-white z-10">
-                                    <h4 class="text-lg font-semibold text-white">Things to Do in Nepal</h4>
+                                <div class="moments-list__item-meta">
+                                    <h4 class="moments-list__item-meta-title">Things to Do in Nepal</h4>
                                     <span class="text-xs">John - Australia</span>
                                 </div>
                             </div>
@@ -924,7 +924,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="container md:pt-15 lg:pt-15 hav-title-btn pb-0">
+    <section class="container md:pb-15 lg:pt-15 hav-title-btn pb-0">
 
         <div class="flex items-center justify-between">
             <div class="mb-0 section-title-wrap">
@@ -977,12 +977,12 @@
 
             </div>
             <div class="homepage__review-center review-center">
-                <div class="flex items-center gap-3 ">
+                <div class="flex items-center gap-1 lg:gap-3 justify-center flex-wrap">
                     <a href="">
                         <img id="reviewIcon" src="/images/svg/tripadvisor.svg" class="w-147px h-31px cursor-pointer"
                             alt="Trip Advisor" />
                     </a>
-                    <div class="mt-2 flex items-center justify-center gap-3">
+                    <div class=" flex items-center justify-center gap-3">
                         <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2" id="reviewRating">
                             <div class="rating-wrap rating-5">
                                 <span class="star"></span>
@@ -1038,10 +1038,10 @@
 
                                 </div>
                                 <div class="reviewer-content ">
-                                    <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                                    <div class="text-base lg:text-lg font-bold leading-5 text-text_color">Ramiro Barraza -
                                         USA
                                     </div>
-                                    <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
+                                    <span class=" block text-xs leading-5 text-text_color">Annapurna Circuit, 2014</span>
                                 </div>
                             </div>
                         </div>
@@ -1064,7 +1064,7 @@
                                 </div>
                             </div>
                             <div class="testimonial__list-item-title">" The trek was life-changing!</div>
-                            <div class="review-list__item-content text-text_color text-sm">
+                            <div class="review-list__item-content">
                                 <div class="testimonial__list-item-content">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
                                         eum mollitia. Similique harum veniam totam iste?</p>
@@ -1081,10 +1081,10 @@
 
                                 </div>
                                 <div class="reviewer-content ">
-                                    <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                                    <div class="text-base lg:text-lg font-bold leading-5 text-text_color">Ramiro Barraza -
                                         USA
                                     </div>
-                                    <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
+                                    <span class=" block text-xs leading-5 text-text_color">Annapurna Circuit, 2014</span>
                                 </div>
                             </div>
                         </div>
@@ -1118,9 +1118,9 @@
                                     <div class="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-secondary font-poppins text-xl text-white">R</div>
                                 </div>
                                 <div class="reviewer-content ">
-                                    <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza - USA
+                                    <div class="text-base lg:text-lg font-bold leading-5 text-text_color">Ramiro Barraza - USA
                                     </div>
-                                    <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
+                                    <span class=" block text-xs leading-5 text-text_color">Annapurna Circuit, 2014</span>
                                 </div>
                             </div>
                         </div>
@@ -1141,7 +1141,7 @@
     </section>
 
     <!-- Blogs -->
-    <section class="homepage__blogs container md:py-15 lg:py-15 hav-title-btn ">
+    <section class="homepage__blogs container md:pb-15 lg:py-15 hav-title-btn ">
 
         <!-- title -->
         <div class="flex items-center justify-between mb-6">

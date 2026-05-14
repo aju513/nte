@@ -1,7 +1,7 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="team-details-page common-box bg-secondary " role="main">
+<section class="team-details-page common-box pt-0 bg-secondary " role="main">
   <div class="common-page-wrapper">
     <div class="container">
       <div class="page-title">

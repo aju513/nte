@@ -3,8 +3,8 @@
 <?php include('./inc/breadcrumbs.php'); ?>
 <section class="bg-secondary pb-10 md:pb-15 lg:pb-20" role="main">
   <?php include('./inc/innerbanner.php') ?>
-  <div class="w-[95%] bg-white rounded-[15px] m-auto relative -top-30">
-    <section class="common-box pb-0">
+  <div class="w-[95%] bg-white rounded-[15px] m-auto relative -top-25">
+    <div class="common-box pb-0">
       <div class="container ">
         <div class="page-title common-box pb-0">
           <h1 class="pt-6">Article List</h1>
@@ -82,8 +82,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="inner_whyus why-us  common-box  relative ">
+    </div>
+    <div class="inner_whyus why-us  common-box  relative ">
       <div class="container scroll-wrap">
         <h2 class="font-black text-3xl">
           Why Choose Us
@@ -167,10 +167,10 @@
           </div>
         </div>
       </div>
-      <section class=" video-review common-box scroll-wrap mt-0">
+      <div class="video-review common-box pb-0  scroll-wrap ">
         <div class="container">
           <h2 class="package__section-title ">
-            Video Reviews
+            Travel Moments
           </h2>
           <div class="grid grid-cols-12 gap-5">
             <div class="col-span-4">
@@ -193,7 +193,7 @@
                   <div class="font-mulish font-extrabold md:text-2xl text-text_color text-[22px] mt-2 leading-7.5">
                     Everest Base Camp
                   </div>
-                  <div class="text-[16px] text-text_color leading-4.5">
+                  <div class="text-base text-text_color leading-4.5">
                     Jhone - USA
                   </div>
                 </div>
@@ -207,8 +207,8 @@
                       <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                     </div>
                   </div>
-                  <div class=" video-review__item-link">
-                    <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate">
+                  <div class="video-review__item-link">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
                       <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
                       </span>
@@ -253,19 +253,17 @@
             </div>
           </div>
         </div>
-      </section>
-      <section class=" pb-0 inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
+      </div>
+      <div class="inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
         <div class="container">
-          <div class="package__reviews-header mb-7.5">
+          <div class="package__reviews-header mb-1.5 lg:mb-7.5">
             <h2 class="package__section-title">
               Customer Review
             </h2>
             <div class="package__review-platforms">
-              <div class="package__review-platform">
-
-                <img src="/images/svg/circular-tripadvisor.svg" width="31" height="31" alt="Tripadvisor" />
+              <a href="" class="package__review-platform">
+                <img src="/images/svg/circular-tripadvisor.svg" width="31" height="31" alt="Tripadvisor" class="cursor-pointer" />
                 <div class="package__review-platform-copy">
-
                   <div class="package__review-platform-rating green-dot-rating">
                     <span class="text-sm ">4.9</span>
                     <div class="rating-wrap rating-5">
@@ -278,17 +276,14 @@
                   </div>
                   <div class="text-xs text-black">Based on 22 reviews</div>
                 </div>
-
-              </div>
-              <div class="package__review-platform">
-
-                <img src="/images/svg/circular-google.svg" width="31" height="31" alt="Google" />
+              </a>
+              <a href="" class="package__review-platform">
+                <img src="/images/svg/circular-google.svg" width="31" height="31" alt="Google" class="cursor-pointer" />
                 <div class="package__review-platform-copy">
-
                   <div class="package__review-platform-rating star-rating">
                     <span class="text-sm ">4.9</span>
                     <div class="rating-wrap rating-5">
-                      <span class="star"></span>
+                      <span class="star "></span>
                       <span class="star"></span>
                       <span class="star"></span>
                       <span class="star"></span>
@@ -297,16 +292,14 @@
                   </div>
                   <div class="text-xs text-black">Based on 22 reviews</div>
                 </div>
-
-              </div>
-              <div class="package__review-platform">
-
+              </a>
+              <a href="" class="package__review-platform">
                 <img src="/images/svg/trustpilot.svg" width="31" height="31" alt="Trustpilot" />
                 <div class="package__review-platform-copy">
 
-                  <div class="package__review-platform-rating green-dot-rating">
+                  <div class="package__review-platform-rating">
                     <span class="text-sm ">4.9</span>
-                    <div class="rating-wrap rating-5">
+                    <div class="rating-wrap rating-5 ">
                       <span class="star"></span>
                       <span class="star"></span>
                       <span class="star"></span>
@@ -316,18 +309,18 @@
                   </div>
                   <div class="text-xs text-black">Based on 22 reviews</div>
                 </div>
+              </a>
 
-              </div>
             </div>
 
           </div>
           <div class="relative mb-7.5">
 
-            <div class="grid grid-cols-12 gap-5">
+            <div class="grid grid-cols-12 gap-5 p-1!">
 
               <div class="col-span-6">
                 <div class="testimonial__list-item m-0!">
-                  <div class="testimonial__list-item-meta mb-0 flex items-center justify-between">
+                  <div class="testimonial__list-item-meta mb-0 ">
                     <div class="testimonial__list-item-rating green-dot-rating">
                       <div class="rating-wrap rating-5">
                         <span class="star"></span>
@@ -356,10 +349,10 @@
 
                     </div>
                     <div class="reviewer-content ">
-                      <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                      <div class="text-base md:text-lg leading-6 font-bold text-text_color">Ramiro Barraza -
                         USA
                       </div>
-                      <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
+                      <span class="block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
                     </div>
                   </div>
                 </div>
@@ -367,7 +360,7 @@
 
               <div class="col-span-6">
                 <div class="testimonial__list-item m-0!">
-                  <div class="testimonial__list-item-meta mb-0 flex items-center justify-between">
+                  <div class="testimonial__list-item-meta mb-0">
                     <div class="testimonial__list-item-rating green-dot-rating">
                       <div class="rating-wrap rating-5">
                         <span class="star"></span>
@@ -379,7 +372,7 @@
                     </div>
                   </div>
                   <div class="testimonial__list-item-title">" The trek was life-changing!</div>
-                  <div class="review-list__item-content text-text_color text-sm">
+                  <div class="review-list__item-content ">
                     <div class="testimonial__list-item-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
                         eum mollitia. Similique harum veniam totam iste?</p>
@@ -387,16 +380,10 @@
                   </div>
                   <div class="testimonial__list-item-reviewer ">
                     <div class="reviewer-image">
-                      <div class="placeholder__img-wrapper">
-                        <div class="w-full placeholder__img">
-                          <img src="/images/dynamic/reviewer.webp" width="55" height="55"
-                            class="rounded-full" alt="" />
-                        </div>
-                      </div>
-
+                      <div class="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-secondary font-poppins text-xl text-white">R</div>
                     </div>
                     <div class="reviewer-content ">
-                      <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                      <div class=" text-base md:text-lg leading-6 font-bold text-text_color">Ramiro Barraza -
                         USA
                       </div>
                       <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
@@ -413,14 +400,14 @@
           </button>
 
         </div>
-      </section>
-      <section class="common-box top-65 -mt-64 package-list relative">
+      </div>
+      <div class="common-box pt-0 package-list relative top-50 -mt-50">
         <div class="container ">
           <h2 class="package__section-title">
             You May Also Like </h2>
 
           <!--Package Grid -->
-          <div class="relative">
+          <div class="relative scroll-wrap md:mb-10">
             <div class="grid grid-cols-12 gap-5">
               <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                 <div class="package-list__item">
@@ -451,12 +438,12 @@
                     </div>
                     <div class="package-list__item-title">
                       <h3 class="homepage__package-title">
-                        <a href="#" class="">
+                        <a href="#">
                           Everest Base Camp Trekking
                         </a>
                       </h3>
                     </div>
-                    <div class="text-lg text-text_color">
+                    <div class="text-sm text-text_color">
                       Price From
                     </div>
                     <div class="package-list__item-bottom ">
@@ -466,7 +453,7 @@
                       </div>
 
                       <div class="package-list__item-explore-btn arrow-move-effect">
-                        <a href="#" class="">
+                        <a href="#">
                           Explore
                           <span class="icon-arrow-right"></span>
                         </a>
@@ -505,12 +492,12 @@
                     </div>
                     <div class="package-list__item-title">
                       <h3 class="homepage__package-title">
-                        <a href="#" class="">
+                        <a href="#">
                           Everest Base Camp Trekking
                         </a>
                       </h3>
                     </div>
-                    <div class="text-lg text-text_color">
+                    <div class="text-sm text-text_color">
                       Price From
                     </div>
                     <div class="package-list__item-bottom ">
@@ -520,7 +507,7 @@
                       </div>
 
                       <div class="package-list__item-explore-btn arrow-move-effect">
-                        <a href="#" class="">
+                        <a href="#">
                           Explore
                           <span class="icon-arrow-right"></span>
                         </a>
@@ -556,12 +543,12 @@
                     </div>
                     <div class="package-list__item-title">
                       <h3 class="homepage__package-title">
-                        <a href="#" class="">
+                        <a href="#">
                           Everest Base Camp Trekking
                         </a>
                       </h3>
                     </div>
-                    <div class="text-lg text-text_color">
+                    <div class="text-sm text-text_color">
                       Price From
                     </div>
                     <div class="package-list__item-bottom ">
@@ -571,7 +558,7 @@
                       </div>
 
                       <div class="package-list__item-explore-btn arrow-move-effect">
-                        <a href="#" class="">
+                        <a href="#">
                           Explore
                           <span class="icon-arrow-right"></span>
                         </a>
@@ -585,8 +572,10 @@
           </div>
 
 
-      </section>
-    </section>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 <?php include('./inc/footer.php') ?>

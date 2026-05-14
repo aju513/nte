@@ -8,16 +8,16 @@
         Gallery
       </h1>
     </div>
-    <div class="gallery-list">
+    <div class="common-gallery">
       <div class="grid grid-cols-12 gap-5">
         <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
-          <div class="gallery-list__item ">
+          <div class="common-gallery relative">
             <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
               data-src="./images/dynamic/album.webp">
-              <figure class="relative">
+              <figure class=" ">
                 <div class="placeholder__img-wrapper">
                   <div class="w-full placeholder__img">
-                    <img width={600} height={450} class="rounded-custom" src="./images/dynamic/album.webp"
+                    <img width={600} height={450} src="./images/dynamic/album.webp"
                       alt="thumb" />
                   </div>
                 </div>
@@ -29,7 +29,7 @@
           </div>
         </div>
         <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
-          <div class="gallery-list__item ">
+          <div class="common-gallery ">
             <a href="./images/dynamic/album.webp"
               data-fancybox="gallery">
               <div class="placeholder__img-wrapper">

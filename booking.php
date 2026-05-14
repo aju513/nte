@@ -267,7 +267,7 @@
 
 
                     <button
-                      class="inline-block px-5 py-3 text-sm font-semibold text-white bg-primary-effect custom-rounded bg-primary">
+                      class="btn-outline-primary ">
                       Proceed to Payment
                     </button>
                   </div>
@@ -306,16 +306,16 @@
 
                     <div class="my-3 booking-group-price">
                       <div class="collapsible__wrap">
-                        <button role="button" type="button" class="collapsible active">
-                          <span class="text-text_color text-sm font-bold uppercase">Group Discount cost</span>
+                        <button role="button" type="button" class="collapsible active px-2">
+                          <span class="text-text_color text-sm font-bold">Group Discount Cost</span>
                           <span class="text-text_color mr-1 text-2xl font-bold icon">-</span>
                         </button>
                         <div class="collapsible-content">
                           <div class="booking__discount-list">
                             <ul class="booking__discount-list-group">
                               <li class="booking__discount-list-item  ">
-                                <span class="text-base font-bold text-text_color">No. of traveler</span>
-                                <span class="text-base font-bold text-text_color">Price per person</span>
+                                <span class=" text-sm lg:text-base font-bold text-text_color">No. of traveler</span>
+                                <span class="text-sm lg:text-base font-bold text-text_color">Price per person</span>
                               </li>
                               <li class="booking__discount-list-item  ">
                                 <span class="text-sm text-text_color">1 - 1</span>

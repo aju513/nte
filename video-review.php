@@ -2,7 +2,7 @@
 <?php include('./inc/header.php') ?>
 <section class="bg-secondary">
   <?php include('./inc/breadcrumbs.php') ?>
-  <section class="common-box  video-review-page bg-secondary" role="main">
+  <section class="common-box pt-0 video-review-page bg-secondary" role="main">
     <div class="common-page-wrapper">
       <div class="container">
         <div class="page-title">

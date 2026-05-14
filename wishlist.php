@@ -1,7 +1,7 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box wishlist-page bg-secondary" role="main">
+<section class="common-box pt-0 wishlist-page bg-secondary" role="main">
   <div class="common-page-wrapper">
     <div class="container">
       <div class="page-title">
@@ -179,10 +179,6 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class=" package-list__wrapper package-list common-box pb-0">
-        <div class="grid grid-cols-12 gap-5">
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
             <div class="package-list__item">
               <div class="package-list__item-badge">
@@ -246,58 +242,7 @@
                 <div class="placeholder__img-wrapper">
                   <div class="placeholder__img">
                     <a href="#">
-                      <img src="../images/dynamic/package-thumb2.webp" width="600" height="400"
-                        alt="image">
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="package-list__item-content">
-                <div class="package-list__item-meta">
-                  <div class="package-list__item-duration">
-                    <span class="icon-time-quarter-to"></span>
-                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                  </div>
-                  <div class="package-list__item-reviews text-text_color text-xs">
-                    <span class="icon-star-rate text-[#dfd200]"></span>
-                    <span class="font-bold ">4.9</span>
-                    <span>(4 Reviews)</span>
-                  </div>
-                </div>
-                <div class="package-list__item-title">
-                  <h3 class="homepage__package-title">
-                    <a href="#" class="">
-                      Everest Base Camp Trekking
-                    </a>
-                  </h3>
-                </div>
-                <div class="text-lg text-text_color">
-                  Price From
-                </div>
-                <div class="package-list__item-bottom ">
-                  <div class="package-list__item-price">
-                    <span class="package-list__item-price-new">US$ 1680</span>
-                    <span class="package-list__item-price-old ">US$ 1800</span>
-                  </div>
-
-                  <div class="package-list__item-explore-btn arrow-move-effect">
-                    <a href="#" class="">
-                      Explore
-                      <span class="icon-arrow-right"></span>
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-            <div class="package-list__item">
-              <div class="package-list__item-image">
-                <div class="placeholder__img-wrapper">
-                  <div class="placeholder__img">
-                    <a href="#">
-                      <img src="../images/dynamic/package-thumb3.webp" width="600" height="400"
+                      <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
                         alt="image">
                     </a>
                   </div>

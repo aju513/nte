@@ -139,7 +139,7 @@
       </div>
     </div>
   </div>
-  <section class="package__content-wrapper absolute -top-17">
+  <div class="package__content-wrapper absolute -top-17">
     <div class="container">
       <div class="grid grid-cols-12 gap-5">
         <div class="col-span-12 common-box pb-0">
@@ -410,11 +410,11 @@
                 </a>
               </button>
             </div>
-            <div class="package__gallery mb-3.75 common-module " id="package-gallery">
+            <div class="package__gallery common-module " id="package-gallery">
               <h2 class="package__section-title">Photo Gallery</h2>
-              <div class="grid grid-cols-12  gap-3.75">
+              <div class="grid grid-cols-12 gap-2.75">
                 <div class="col-span-6 sm:col-span-3">
-                  <div class="package__gallery-photo mb-0 common__gallery">
+                  <div class="package__gallery-photo mb-0! common__gallery">
                     <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
                       data-src="./images/dynamic/album.webp">
                       <figure class="relative">
@@ -432,7 +432,7 @@
                   </div>
                 </div>
                 <div class="col-span-6 sm:col-span-3">
-                  <div class="package__gallery-photo mb-0 common__gallery">
+                  <div class="package__gallery-photo mb-0! common__gallery">
                     <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
                       data-src="./images/dynamic/album.webp">
                       <figure class="relative">
@@ -450,7 +450,7 @@
                   </div>
                 </div>
                 <div class="col-span-6 sm:col-span-3">
-                  <div class="package__gallery-photo mb-0 common__gallery">
+                  <div class="package__gallery-photo mb-0! common__gallery">
                     <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
                       data-src="./images/dynamic/album.webp">
                       <figure class="relative">
@@ -468,7 +468,7 @@
                   </div>
                 </div>
                 <div class="col-span-6 sm:col-span-3">
-                  <div class="package__gallery-photo mb-0 common__gallery">
+                  <div class="package__gallery-photo mb-0! common__gallery">
                     <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
                       data-src="./images/dynamic/album.webp">
                       <figure class="relative">
@@ -486,24 +486,21 @@
                   </div>
                 </div>
               </div>
-              <div class="package__gallery-video common-module scroll-mt-20 relative " id="package-video">
+              <div class="package__gallery-video mt-2.75 common-module scroll-mt-20 relative " id="package-video">
                 <div class="placeholder__img-wrapper">
                   <div class="w-full placeholder__img">
-                    <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
-                      data-src="./images/dynamic/album.webp">
-                      <img src="/images/dynamic/album.webp" width="1200" height="675" alt="banner" />
-                    </a>
-                  </div>
-                </div>
-                <div class="fancybox-wrapper absolute top-1/2 left-1/2">
-                  <a href="https://www.youtube.com/watch?v=K4TOrB7at0Y" data-fancybox="video"
-                    data-width="1080" data-height="608"
-                    class="circular-animate ">
-                    <span class="absolute left-1/2 top-1/2 z-40 flex h-12.5 w-12.5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-18.75 md:w-18.75 cursor-pointer"><span
-                        class=" icon-play-button text-primary">
-                      </span></span>
+                    <img src="/images/dynamic/album.webp" width="1200" height="675" alt="banner" />
+                    <div class="fancybox-wrapper absolute top-1/2 left-1/2">
+                      <a href="https://www.youtube.com/watch?v=K4TOrB7at0Y" data-fancybox="video"
+                        data-width="1080" data-height="608"
+                        class="circular-animate ">
+                        <span class="absolute left-1/2 top-1/2 z-40 flex h-12.5 w-12.5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-18.75 md:w-18.75 cursor-pointer"><span
+                            class=" icon-play-button text-primary">
+                          </span></span>
 
-                  </a>
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1068,7 +1065,7 @@
               </p>
             </div>
           </div>
-          <div class="package__faqs common-module" id="package-faq">
+          <div class="package__faqs" id="package-faq">
             <h2 class="package__section-title">FAQs</h2>
             <div class="accordion with-arrow">
               <div class="accordion__item active">
@@ -1109,11 +1106,11 @@
                     <span class="text-text_color mr-1 text-2xl font-bold icon">-</span>
                   </button>
                   <div class="collapsible-content">
-                    <div class="package__discount-list px-6.5">
+                    <div class="package__discount-list px-5 lg:px-6.5">
                       <ul class="package__discount-list-group">
                         <li class="package__discount-list-item  ">
-                          <span class="text-base font-bold text-text_color">No. of traveler</span>
-                          <span class="text-base font-bold text-text_color">Price per person</span>
+                          <span class=" text-sm lg:text-base font-bold text-text_color">No. of traveler</span>
+                          <span class="text-sm lg:text-base font-bold text-text_color">Price per person</span>
                         </li>
                         <li class="package__discount-list-item  ">
                           <span class="text-sm text-text_color">1 - 1</span>
@@ -1198,9 +1195,9 @@
         </div>
       </div>
     </div>
-    </div>
 
-    <section class="video-review common-box pb-0 scroll-wrap ">
+
+    <div class="video-review lg:pt-15  scroll-wrap ">
       <div class="container">
         <h2 class="package__section-title ">
           Travel Moments
@@ -1286,10 +1283,10 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
+    </div>
+    <div class="inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
       <div class="container">
-        <div class="package__reviews-header mb-7.5">
+        <div class="package__reviews-header mb-1.5 lg:mb-7.5">
           <h2 class="package__section-title">
             Customer Review
           </h2>
@@ -1433,9 +1430,9 @@
         </button>
 
       </div>
-    </section>
+    </div>
     <div id="no-nav"></div>
-    <section class="common-box pt-0 package-list relative top-50 -mt-50">
+    <div class="common-box pt-0 package-list relative top-50 -mt-50">
       <div class="container ">
         <h2 class="package__section-title">
           You May Also Like </h2>
@@ -1606,8 +1603,8 @@
         </div>
 
 
-    </section>
-  </section>
+      </div>
+    </div>
 
 </section>
 

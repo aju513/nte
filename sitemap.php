@@ -1,7 +1,7 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class=" common-box sitemap-page bg-secondary" role="main">
+<section class=" common-box pt-0 sitemap-page bg-secondary" role="main">
   <div class="common-page-wrapper">
     <div class="container">
       <div class="page-title">

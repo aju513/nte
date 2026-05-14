@@ -4,7 +4,7 @@
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box pt-0 category-page bg-secondary" role="main">
   <div class="common-page-wrapper">
-    <div class="container common-box pt-0">
+    <div class="container">
       <div class="page-title">
         <h1>
           Nepal

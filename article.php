@@ -320,11 +320,11 @@
           </div>
           <div class="relative mb-7.5">
 
-            <div class="grid grid-cols-12 gap-5">
+            <div class="grid grid-cols-12 gap-5 p-1!">
 
               <div class="col-span-6">
                 <div class="testimonial__list-item m-0!">
-                  <div class="testimonial__list-item-meta mb-0 flex items-center justify-between">
+                  <div class="testimonial__list-item-meta mb-0 ">
                     <div class="testimonial__list-item-rating green-dot-rating">
                       <div class="rating-wrap rating-5">
                         <span class="star"></span>
@@ -353,10 +353,10 @@
 
                     </div>
                     <div class="reviewer-content ">
-                      <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                      <div class="text-base md:text-lg leading-6 font-bold text-text_color">Ramiro Barraza -
                         USA
                       </div>
-                      <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
+                      <span class="block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
                     </div>
                   </div>
                 </div>
@@ -364,7 +364,7 @@
 
               <div class="col-span-6">
                 <div class="testimonial__list-item m-0!">
-                  <div class="testimonial__list-item-meta mb-0 flex items-center justify-between">
+                  <div class="testimonial__list-item-meta mb-0">
                     <div class="testimonial__list-item-rating green-dot-rating">
                       <div class="rating-wrap rating-5">
                         <span class="star"></span>
@@ -376,7 +376,7 @@
                     </div>
                   </div>
                   <div class="testimonial__list-item-title">" The trek was life-changing!</div>
-                  <div class="review-list__item-content text-text_color text-sm">
+                  <div class="review-list__item-content ">
                     <div class="testimonial__list-item-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum voluptates nobis fugit. Quas,
                         eum mollitia. Similique harum veniam totam iste?</p>
@@ -384,16 +384,10 @@
                   </div>
                   <div class="testimonial__list-item-reviewer ">
                     <div class="reviewer-image">
-                      <div class="placeholder__img-wrapper">
-                        <div class="w-full placeholder__img">
-                          <img src="/images/dynamic/reviewer.webp" width="55" height="55"
-                            class="rounded-full" alt="" />
-                        </div>
-                      </div>
-
+                      <div class="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-secondary font-poppins text-xl text-white">R</div>
                     </div>
                     <div class="reviewer-content ">
-                      <div class=" text-lg font-bold leading-6 text-text_color">Ramiro Barraza -
+                      <div class=" text-base md:text-lg leading-6 font-bold text-text_color">Ramiro Barraza -
                         USA
                       </div>
                       <span class=" block text-xs leading-6 text-text_color">Annapurna Circuit, 2014</span>
