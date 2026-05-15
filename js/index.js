@@ -74,9 +74,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
       accordion.addEventListener("click", (event) => {
         const title = event.target.closest(".accordion__item-title");
-        if (!title || !accordion.contains(title)) return;
+        let item = title?.closest(".accordion__item");
 
-        const item = title.closest(".accordion__item");
+        if (!item && accordion.classList.contains("with-arrow")) {
+          const possibleItem = event.target.closest(".accordion__item");
+          if (possibleItem && possibleItem.parentElement === accordion) {
+            const rect = possibleItem.getBoundingClientRect();
+            const clickedArrow =
+              event.clientX >= rect.right - 56 &&
+              event.clientY <= rect.top + 72;
+            if (clickedArrow) item = possibleItem;
+          }
+        }
+
         if (!item || item.parentElement !== accordion) return;
 
         const isOpen = item.classList.contains("open");
@@ -897,7 +907,23 @@ document.addEventListener("DOMContentLoaded", () => {
       const trigger = qs(".websearch-trigger");
       const closeButton = qs(".websearch-close");
       const form = qs(".websearch-form");
-      const mobileTriggers = qsa(".show-search");
+      const mobileTriggers = qsa(".show-search, .mobile-search-trigger");
+      const mobileSearch = qs(".header .mobile-search");
+      const mobileSearchDialog = mobileSearch
+        ? qs(".mobile-search__dialog", mobileSearch)
+        : null;
+      const mobileSearchContent = mobileSearch
+        ? qs(".mobile-search__content", mobileSearch)
+        : null;
+      const mobileSearchClose = mobileSearch
+        ? qs(".mobile-search__close", mobileSearch)
+        : null;
+
+      const setMobileSearchOpen = (open) => {
+        if (!mobileSearch) return;
+        mobileSearch.classList.toggle("is-open", open);
+        mobileSearch.setAttribute("aria-hidden", open ? "false" : "true");
+      };
 
       if (trigger && form) {
         trigger.addEventListener("click", () => {
@@ -916,9 +942,26 @@ document.addEventListener("DOMContentLoaded", () => {
         mobileTriggers.forEach((button) => {
           button.addEventListener("click", () => {
             form.classList.remove("hidden");
+            setMobileSearchOpen(true);
           });
         });
+      } else if (mobileSearch) {
+        mobileTriggers.forEach((button) => {
+          button.addEventListener("click", () => setMobileSearchOpen(true));
+        });
       }
+
+      mobileSearchClose?.addEventListener("click", () =>
+        setMobileSearchOpen(false),
+      );
+      mobileSearchDialog?.addEventListener("mousedown", (event) => {
+        if (
+          mobileSearchContent &&
+          !mobileSearchContent.contains(event.target)
+        ) {
+          setMobileSearchOpen(false);
+        }
+      });
     };
 
     const initMobileMenu = () => {
@@ -960,7 +1003,8 @@ document.addEventListener("DOMContentLoaded", () => {
           if (
             node.tagName === "UL" &&
             node.style.maxHeight &&
-            node.style.maxHeight !== "0px"
+            node.style.maxHeight !== "0px" &&
+            node.style.maxHeight !== "none"
           ) {
             node.style.maxHeight = `${node.scrollHeight}px`;
           }
@@ -975,7 +1019,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const isOpen = iconElement.classList.contains("opened");
         if (isOpen) {
-          submenu.style.maxHeight = `${submenu.scrollHeight}px`;
+          if (submenu.style.maxHeight === "none") {
+            submenu.style.maxHeight = `${submenu.scrollHeight}px`;
+            submenu.offsetHeight;
+          }
           requestAnimationFrame(() => {
             submenu.style.maxHeight = "0px";
             refreshAncestorHeights(submenu);
@@ -985,6 +1032,16 @@ document.addEventListener("DOMContentLoaded", () => {
           submenu.style.maxHeight = `${submenu.scrollHeight}px`;
           iconElement.classList.add("opened");
           refreshAncestorHeights(submenu);
+          submenu.addEventListener(
+            "transitionend",
+            () => {
+              if (iconElement.classList.contains("opened")) {
+                submenu.style.maxHeight = "none";
+                refreshAncestorHeights(submenu);
+              }
+            },
+            { once: true },
+          );
         }
       };
 

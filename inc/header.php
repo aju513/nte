@@ -16,7 +16,7 @@
                                 <div class="col-span-10">
                                         <div class="flex min-h-15 items-center justify-between">
                                                 <nav class="nav-menu flex items-center justify-end gap-5">
-                                                        <ul class="items-center gap-3 lg:flex">
+                                                        <ul class="items-center gap-3 lg:gap-4 lg:flex">
                                                                 <li>
                                                                         <span class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm  leading-3.5 font-extrabold transition-all duration-500"
                                                                                 aria-expanded="false">Destinations
@@ -1171,7 +1171,9 @@
                                 </a>
                         </div>
                         <div class="flex items-center gap-3">
-                                <span class="icon text-primary text-2xl icon-searchicon"></span>
+                                <button class="mobile-search-trigger" type="button" aria-label="Open search">
+                                        <span class="icon text-primary text-2xl icon-searchicon"></span>
+                                </button>
                                 <div class="mobile-menu-button" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation"
                                         role="button">
                                         <div class="mobile-menu-trigger ">
@@ -1364,6 +1366,31 @@
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Contact Us</a></li>
                         </ul>
+                </div>
+                <div class="mobile-search" aria-hidden="true">
+                        <div class="mobile-search__dialog">
+                                <button class="mobile-search__close" type="button" aria-label="Close search">
+                                        <span class="icon-close text-white text-xs"></span>
+                                </button>
+                                <div class="mobile-search__content search-wrapper">
+                                        <form class="relative">
+                                                <input type="text"
+                                                        class="block h-13.75 w-full rounded-lg border border-gray-300 bg-white px-4 py-2"
+                                                        placeholder="Search" required="">
+                                                <button type="submit" aria-label="Search">
+                                                        <span class="icon icon-searchicon"></span>
+                                                </button>
+                                        </form>
+                                        <div class="search-wrapper__list">
+                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
+                                        </div>
+                                </div>
+                        </div>
                 </div>
         </div>
         <div class="header-height"></div>

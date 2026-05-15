@@ -24,7 +24,7 @@
             <div class="grid grid-cols-12 gap-[15px]">
               <div class="col-span-12 lg:col-span-8">
                 <form class="floating-form">
-                  <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white px-6 py-5">
+                  <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white px-4 py-5 sm:px-6">
                     <div class="pb-3 text-lg font-bold text-text_color">
                       Date and Travelers
                     </div>
@@ -47,8 +47,8 @@
                         </div>
                       </div>
 
-                      <div class="form-group hav-counter">
-                        <span class="flex-[0_0_60%]">
+                      <div class="form-group hav-counter booking-traveler-counter">
+                        <span class="min-w-0">
                           Number of Travellers
                         </span>
                         <div class="counter-wrap">
@@ -59,14 +59,14 @@
                       </div>
                     </div>
                   </div>
-                  <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white px-6 py-5">
+                  <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white px-4 py-5 sm:px-6">
                     <div class="pb-3 text-lg font-bold border-b text-text_color">
                       Add-Ons and Extra Options
                     </div>
 
                     <div class="grid grid-cols-1 gap-2 pb-4 mt-4 border-b border-dashed md:grid-cols-2 md:gap-10">
                       <div class="form-group">
-                        <span class="flex items-center gap-3 font-semibold">
+                        <span class="flex flex-wrap items-center gap-3 font-semibold">
                           Private Porter Service
                           <div class="relative inline-flex ml-2 items-center group popover-wrap">
                             <span class="text-sm icon-nav-information cursor-pointer "></span>
@@ -89,14 +89,14 @@
 
                         </span>
                       </div>
-                      <div class="flex flex-col items-start justify-between w-full gap-2 md:flex-row md:items-center">
+                      <div class="flex flex-col items-start justify-between w-full gap-2 sm:flex-row sm:items-center">
                         <span class="block text-base font-bold text-text_color">
                           US$450
                           <span class="pl-2 text-sm text-text_color">
                             Per Porter
                           </span>
                         </span>
-                        <div class="justify-center flex w-full gap-4 form-group hav-counter lg:w-2/4">
+                        <div class="justify-center flex w-full gap-4 form-group hav-counter sm:w-auto lg:w-2/4">
                           <div class="counter-wrap">
                             <span class="decrement-trigger icon-minus"></span>
                             <input type="number" min="1" value="1">
@@ -107,18 +107,18 @@
                     </div>
                     <div class="grid grid-cols-1 gap-2 mt-4 md:grid-cols-2 md:gap-10">
                       <div class="relative flex items-center w-full group">
-                        <sapn class="block gap-3 font-semibold">
+                        <span class="block gap-3 font-semibold">
                           Hotel Upgrade to 4 Star
-                        </sapn>
+                        </span>
                       </div>
-                      <div class="flex flex-col items-start justify-between w-full gap-2 md:flex-row md:items-center">
+                      <div class="flex flex-col items-start justify-between w-full gap-2 sm:flex-row sm:items-center">
                         <span class="text-base font-bold span text-text_color">
                           US$450
                           <span class="pl-2 text-sm text-text_color">
                             Per Porter
                           </span>
                         </span>
-                        <div class="justify-center flex w-full gap-4 form-group hav-counter lg:w-2/4">
+                        <div class="justify-center flex w-full gap-4 form-group hav-counter sm:w-auto lg:w-2/4">
                           <div class="counter-wrap">
                             <span class="decrement-trigger icon-minus"></span>
                             <input type="number" min="1" value="1">
@@ -128,7 +128,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white px-6 py-5">
+                  <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white px-4 py-5 sm:px-6">
                     <div class="pb-5 text-lg font-bold text-text_color">
                       Lead Traveller Details
                     </div>
@@ -158,7 +158,7 @@
                           placeholder=" "
                           required />
                         <label
-                          for="last name"
+                          for="lastname"
                           class="floating-label">
                           Last Name<sup>*</sup>
                         </label>
@@ -215,13 +215,13 @@
                       <div class="relative form-group">
                         <input
                           type="text"
-                          name="phone"
-                          id="phone"
+                          name="whatsapp"
+                          id="whatsapp"
                           class="floating-input peer"
                           placeholder=" "
                           required />
                         <label
-                          for="phone"
+                          for="whatsapp"
                           class="floating-label">
                           Whatsapp Number
                         </label>
@@ -231,7 +231,7 @@
                       <textarea
                         name="extra_info"
                         id="extrainfo"
-                        rows={8}
+                        rows="8"
                         class="floating-input peer"
                         placeholder=" "
                         required></textarea>
@@ -267,12 +267,12 @@
 
 
                     <button
-                      class="btn-outline-primary ">
+                      class="btn-outline-primary w-full justify-center sm:w-auto">
                       Proceed to Payment
                     </button>
                   </div>
                 </form>
-                <div class="mt-5 rounded-[5px] border border-secondary px-4 py-3 flex items-center justify-between">
+                <div class="mt-5 rounded-[5px] border border-secondary px-4 py-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                   <div class="text-sm font-bold text-text_color">
                     Please wait while you are redirected to the payment...
                   </div>
@@ -284,14 +284,14 @@
                 </div>
               </div>
               <div class="col-span-12 lg:col-span-4">
-                <div class="shadow-custom booking-info sticky top-20 rounded-[5px] bg-white">
+                <div class="shadow-custom booking-info rounded-[5px] bg-white lg:sticky lg:top-20">
                   <div
                     class="booking-info__title rounded-t-[5px] bg-primary p-3 font-barlow text-base font-exo font-bold text-white sm:text-lg">
                     Your Trip Details
                   </div>
-                  <div class="px-6 py-5 booking-info__body">
-                    <div class="flex items-center gap-3 rounded-[5px] booking-info__package">
-                      <div class="booking-info__package-image flex-[0_0_80px]">
+                  <div class="px-4 py-5 booking-info__body sm:px-6">
+                    <div class="flex items-start gap-3 rounded-[5px] booking-info__package">
+                      <div class="booking-info__package-image flex-[0_0_70px] sm:flex-[0_0_80px]">
                         <img src="/images/dynamic/package-thumb.webp" width="600" height="630" alt="banner" />
                       </div>
                       <div class="booking-info__package-content">
@@ -317,19 +317,19 @@
                                 <span class=" text-sm lg:text-base font-bold text-text_color">No. of traveler</span>
                                 <span class="text-sm lg:text-base font-bold text-text_color">Price per person</span>
                               </li>
-                              <li class="booking__discount-list-item  ">
+                              <li class="booking__discount-list-item" data-min-travelers="1" data-max-travelers="1" data-price="1620">
                                 <span class="text-sm text-text_color">1 - 1</span>
                                 <span class="text-sm text-text_color">US$ 1620</span>
                               </li>
-                              <li class="booking__discount-list-item   ">
+                              <li class="booking__discount-list-item" data-min-travelers="2" data-max-travelers="2" data-price="1600">
                                 <span class="text-sm text-text_color">2 - 2</span>
                                 <span class="text-sm text-text_color">US$ 1600</span>
                               </li>
-                              <li class="booking__discount-list-item  ">
+                              <li class="booking__discount-list-item" data-min-travelers="3" data-max-travelers="5" data-price="1590">
                                 <span class="text-sm text-text_color">3 - 5</span>
                                 <span class="text-sm text-text_color">US$ 1590</span>
                               </li>
-                              <li class="booking__discount-list-item  ">
+                              <li class="booking__discount-list-item" data-min-travelers="10" data-price="1200">
                                 <span class="text-sm text-text_color">10+</span>
                                 <span class="text-sm text-text_color">US$ 1200</span>
                               </li>
@@ -340,7 +340,7 @@
                     </div>
                     <div class="pb-4 mb-3 border-b border-dashed">
                       <div class="flex justify-between gap-3 py-1">
-                        <div class="flex-[0_0_50%] text-right text-sm font-semibold text-text_color">
+                        <div class="booking-info__label flex-[0_0_50%] text-right text-sm font-semibold text-text_color">
                           Trip Date:
                         </div>
                         <div class="text-sm text-text_color">
@@ -348,15 +348,15 @@
                         </div>
                       </div>
                       <div class="flex justify-between gap-3 py-1">
-                        <div class="flex-[0_0_50%] text-right text-sm font-semibold text-text_color">
+                        <div class="booking-info__label flex-[0_0_50%] text-right text-sm font-semibold text-text_color">
                           Number of Traveler:
                         </div>
-                        <div class="text-sm text-text_color">
+                        <div class="text-sm text-text_color" data-booking-travelers>
                           1 Person(s)
                         </div>
                       </div>
                       <div class="flex justify-between gap-3 py-1">
-                        <div class="flex-[0_0_50%] text-right text-sm font-semibold text-text_color">
+                        <div class="booking-info__label flex-[0_0_50%] text-right text-sm font-semibold text-text_color">
                           Trip Begins:
                         </div>
                         <div class="text-sm text-text_color">
@@ -366,18 +366,18 @@
                     </div>
                     <div class="pb-4 mb-3 border-b">
                       <div class="flex items-center justify-between gap-3 py-2">
-                        <div class="flex-[0_0_50%] text-right text-sm font-semibold text-text_color md:text-base">
+                        <div class="booking-info__label flex-[0_0_50%] text-right text-sm font-semibold text-text_color md:text-base">
                           Package Price:
-                          <span class="block text-xs text-heading_color">
+                          <span class="block text-xs text-heading_color" data-booking-package-rate>
                             US$1600 x 1 traveler
                           </span>
                         </div>
-                        <div class="text-sm text-text_color md:text-base">
+                        <div class="text-sm text-text_color md:text-base" data-booking-package-total>
                           US$1600
                         </div>
                       </div>
                       <div class="flex items-center justify-between gap-3 py-2">
-                        <div class="flex-[0_0_50%] text-right text-sm font-semibold text-text_color md:text-base">
+                        <div class="booking-info__label flex-[0_0_50%] text-right text-sm font-semibold text-text_color md:text-base">
                           Private Porter Service
                           <span class="block text-xs text-heading_color">
                             US$200 x 1 traveler
@@ -389,26 +389,26 @@
                       </div>
 
                       <div class="flex justify-between gap-3 py-2">
-                        <div class="flex-[0_0_50%] text-right text-sm font-bold text-primary md:text-base">
+                        <div class="booking-info__label flex-[0_0_50%] text-right text-sm font-bold text-primary md:text-base">
                           Total Price:
                         </div>
-                        <div class="text-sm font-bold text-primary md:text-base">
+                        <div class="text-sm font-bold text-primary md:text-base" data-booking-total>
                           US$1800
                         </div>
                       </div>
                     </div>
                     <div class="flex items-center justify-between gap-3 py-1 pb-3">
-                      <div class="flex-[0_0_50%] text-right text-sm font-bold text-primary md:text-base">
+                      <div class="booking-info__label flex-[0_0_50%] text-right text-sm font-bold text-primary md:text-base">
                         Deposit Payable Now:
                         <span class="block text-xs text-block">
                           (20% of total amount)
                         </span>
                       </div>
-                      <div class="text-sm font-bold text-primary md:text-base">
+                      <div class="text-sm font-bold text-primary md:text-base" data-booking-deposit>
                         US$360
                       </div>
                     </div>
-                    <div class="p-2 text-xs border custom-rounded border-primary bg-dim_bg text-text_color">
+                    <div class="p-2 text-xs border custom-rounded border-primary bg-dim_bg text-text_color" data-booking-balance>
                       The balance of US$1440 is payable online before the trip
                       start date, or upon arrival.
                     </div>
@@ -431,24 +431,91 @@
 </section>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll(".counter-input").forEach(counter => {
+    const formatUsd = (amount) => `US$${amount.toLocaleString("en-US")}`;
+    const travelerInput = document.querySelector(".booking-traveler-counter input");
+    const discountRows = Array.from(document.querySelectorAll("[data-min-travelers][data-price]"));
+    const porterTotal = 200;
+
+    const getActiveDiscount = (travelers) => {
+      const exactMatch = discountRows.find((row) => {
+        const min = parseInt(row.dataset.minTravelers || "0", 10);
+        const max = row.dataset.maxTravelers
+          ? parseInt(row.dataset.maxTravelers, 10)
+          : Infinity;
+        return travelers >= min && travelers <= max;
+      });
+
+      if (exactMatch) return exactMatch;
+
+      return discountRows
+        .filter((row) => travelers >= parseInt(row.dataset.minTravelers || "0", 10))
+        .sort(
+          (a, b) =>
+            parseInt(b.dataset.minTravelers || "0", 10) -
+            parseInt(a.dataset.minTravelers || "0", 10),
+        )[0];
+    };
+
+    const updateBookingSummary = () => {
+      if (!travelerInput) return;
+
+      const min = parseInt(travelerInput.min || "1", 10);
+      const travelers = Math.max(parseInt(travelerInput.value || `${min}`, 10), min);
+      travelerInput.value = travelers;
+
+      const activeDiscount = getActiveDiscount(travelers);
+      const pricePerPerson = activeDiscount
+        ? parseInt(activeDiscount.dataset.price || "0", 10)
+        : 1600;
+      const packageTotal = pricePerPerson * travelers;
+      const total = packageTotal + porterTotal;
+      const deposit = Math.round(total * 0.2);
+      const balance = total - deposit;
+
+      discountRows.forEach((row) => {
+        row.classList.toggle("is-active", row === activeDiscount);
+      });
+
+      document.querySelector("[data-booking-travelers]").textContent =
+        `${travelers} Person(s)`;
+      document.querySelector("[data-booking-package-rate]").textContent =
+        `${formatUsd(pricePerPerson)} x ${travelers} traveler${travelers > 1 ? "s" : ""}`;
+      document.querySelector("[data-booking-package-total]").textContent =
+        formatUsd(packageTotal);
+      document.querySelector("[data-booking-total]").textContent = formatUsd(total);
+      document.querySelector("[data-booking-deposit]").textContent =
+        formatUsd(deposit);
+      document.querySelector("[data-booking-balance]").textContent =
+        `The balance of ${formatUsd(balance)} is payable online before the trip start date, or upon arrival.`;
+    };
+
+    document.querySelectorAll(".hav-counter").forEach(counter => {
       const minus = counter.querySelector(".icon-minus");
       const plus = counter.querySelector(".icon-plus");
       const input = counter.querySelector("input");
+      if (!minus || !plus || !input) return;
 
       minus.addEventListener("click", () => {
         let value = parseInt(input.value) || 1;
         let min = parseInt(input.min) || 1;
         if (value > min) {
           input.value = value - 1;
+          input.dispatchEvent(new Event("input", { bubbles: true }));
         }
       });
 
       plus.addEventListener("click", () => {
         let value = parseInt(input.value) || 1;
         input.value = value + 1;
+        input.dispatchEvent(new Event("input", { bubbles: true }));
+      });
+
+      input.addEventListener("input", () => {
+        if (input === travelerInput) updateBookingSummary();
       });
     });
+
+    updateBookingSummary();
   });
 </script>
 <script>

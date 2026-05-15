@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepal Travel Experience</title>
     <!-- favicon -->
-    <link rel="icon" type="image/svg+xml" href="favicon/mountain.svg">
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon_io/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="favicon/favicon.icon" type="image/x-icon" />
+    <link rel="icon" href="favicon/favicon.icon" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
