@@ -2737,6 +2737,10 @@
 
   .why-choose-accordion__icon {
     @apply mt-1 inline-flex shrink-0 items-center justify-center text-xl text-white;
+    img {
+      @apply w-[20px] h-[20px] h-auto;
+      filter: brightness(0) invert(1);
+    }
   }
 
   .why-choose-accordion__title {

@@ -3,42 +3,52 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
 
-<?php include('./inc/innerbanner.php') ?>
-<div class="bg-secondary common-box" role="main">
-  <div class="w-[95%]  bg-white rounded-[15px] m-auto relative  -top-40">
-    <section class="common-box pb-0">
-      <div class="container ">
-        <div class="page-title common-box pb-0">
-          <h1 class="pt-6">About us</h1>
-        </div>
-        <div class="page-summary lg:w-4/5">
-          <article>
-            <p>
-              Embark on the ultimate adventure with a trek to Mount Everest,
-              the world's highest peak. The{' '}
-              <Link href="">Mount Everest trekking </Link> route offers
-              unparalleled views of breathtaking landscapes, including
-              towering snow-capped peaks, lush valleys, and rugged tVerrain.
-              As you journey through the Khumbu region of Nepal, you'll
-              encounter charming Sherpa villages, ancient monasteries, and
-              vibrant local culture. Experience the thrill of ascending to
-              Everest Base Camp, where you'll stand in awe of the iconic
-              summit towering above. Whether you're an experienced mountaineer
-              or a novice adventurer, trekking to Mount Everest promises an
-              unforgettable journey filled with exhilarating challenges and
-              unforgettable memories.
-            </p>
-            <h3 class="py-4 font-extrabold font-mulish text-2xl">Our Journey</h3>
-            <figure>
-              <img class="rounded-custom" src="../images/dynamic/about.webp" width="1200" height="675" alt="about" />
-              <figcaption>Travel with Confidence</figcaption>
-            </figure>
-
-          </article>
+<section class="bg-secondary" role="main">
+  <div class="innerpage-banner ">
+    <div class="container-fluid">
+      <div class="placeholder__img-wrapper">
+        <div class="placeholder__img w-full"><img alt="about" loading="lazy"
+            width="1400"
+            height="630"
+            decoding="async"
+            data-nimg="1" class="rounded-custom" style="color:transparent"
+            src="../images/dynamic/page-banner.webp">
         </div>
       </div>
-    </section>
-    <section class="inner_whyus why-us  common-box  relative ">
+    </div>
+  </div>
+  <div class="common-page-wrapper">
+    <div class="container ">
+      <div class="page-title">
+        <h1 class="pt-6">About us</h1>
+      </div>
+      <div class="page-summary lg:w-4/5">
+        <article>
+          <p>
+            Embark on the ultimate adventure with a trek to Mount Everest,
+            the world's highest peak. The{' '}
+            <Link href="">Mount Everest trekking </Link> route offers
+            unparalleled views of breathtaking landscapes, including
+            towering snow-capped peaks, lush valleys, and rugged tVerrain.
+            As you journey through the Khumbu region of Nepal, you'll
+            encounter charming Sherpa villages, ancient monasteries, and
+            vibrant local culture. Experience the thrill of ascending to
+            Everest Base Camp, where you'll stand in awe of the iconic
+            summit towering above. Whether you're an experienced mountaineer
+            or a novice adventurer, trekking to Mount Everest promises an
+            unforgettable journey filled with exhilarating challenges and
+            unforgettable memories.
+          </p>
+          <h3 class="py-4 font-extrabold font-mulish text-2xl">Our Journey</h3>
+          <figure>
+            <img class="rounded-custom" src="../images/dynamic/about.webp" width="1200" height="675" alt="about" />
+            <figcaption>Travel with Confidence</figcaption>
+          </figure>
+
+        </article>
+      </div>
+    </div>
+    <div class="inner_whyus why-us  common-box  relative ">
       <div class="container scroll-wrap">
         <h2 class="font-black text-3xl">
           Why Choose Us
@@ -541,10 +551,10 @@
 
 
       </section>
-    </section>
+    </div>
 
   </div>
-</div>
+</section>
 
 
 

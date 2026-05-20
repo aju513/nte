@@ -516,7 +516,8 @@
                                         aria-controls="why-choose-q1">
                                         <span class="why-choose-accordion__label">
                                             <span class="why-choose-accordion__icon">
-                                                <span class="icon-circle-dollar-sign"></span>
+                                                <img src="/images/svg/circle-dollar-sign.svg" alt="">
+
                                             </span>
                                             <span class="why-choose-accordion__title">Best Price Guarantee</span>
                                         </span>
@@ -536,7 +537,7 @@
                                         aria-controls="why-choose-q2">
                                         <span class="why-choose-accordion__label">
                                             <span class="why-choose-accordion__icon">
-                                                <span class="icon-binoculars"></span>
+                                                <img src="/images/svg/binoculars.svg" alt="">
                                             </span>
                                             <span class="why-choose-accordion__title">Local Expert Guides</span>
                                         </span>
@@ -555,7 +556,7 @@
                                         aria-controls="why-choose-q3">
                                         <span class="why-choose-accordion__label">
                                             <span class="why-choose-accordion__icon">
-                                                <span class="icon-route"></span>
+                                                <img src="/images/svg/route.svg" alt="">
                                             </span>
                                             <span class="why-choose-accordion__title">Easy Trip Planning</span>
                                         </span>
@@ -574,7 +575,7 @@
                                         aria-controls="why-choose-q4">
                                         <span class="why-choose-accordion__label">
                                             <span class="why-choose-accordion__icon">
-                                                <span class="icon-shield-check"></span>
+                                                <img src="/images/svg/shield-check.svg" alt="">
                                             </span>
                                             <span class="why-choose-accordion__title">Safety &amp; Responsible</span>
                                         </span>

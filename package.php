@@ -31,19 +31,19 @@
         </a>
       </li>
       <li>
-        <a class="nav-item-link " href="#package-route">
-          <span class="package-page__nav-item-icon">
-            <span class="relative text-xl text-white top-1 icon-nav-map"></span>
-          </span>
-          <span class="package-page__nav-item-title"> Route Map</span>
-        </a>
-      </li>
-      <li>
         <a class="nav-item-link " href="#package-cost-details">
           <span class="package-page__nav-item-icon">
             <span class="relative text-xl text-white top-1 icon-nav-cost"></span>
           </span>
           <span class="package-page__nav-item-title">Cost Details</span>
+        </a>
+      </li>
+      <li>
+        <a class="nav-item-link " href="#package-route">
+          <span class="package-page__nav-item-icon">
+            <span class="relative text-xl text-white top-1 icon-nav-map"></span>
+          </span>
+          <span class="package-page__nav-item-title"> Route Map</span>
         </a>
       </li>
       <li>
