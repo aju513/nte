@@ -6,7 +6,7 @@
           height="630"
           decoding="async"
           data-nimg="1" class="rounded-custom" style="color:transparent"
-          src="../images/dynamic/page-banner.webp">
+          src="/images/dynamic/page-banner.webp">
       </div>
     </div>
   </div>
