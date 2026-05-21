@@ -2,7 +2,7 @@
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="team-details-page common-box pt-0 bg-secondary " role="main">
-  <div class="common-page-wrapper">
+  <div class="container-fluid-custom">
     <div class="container">
       <div class="page-title">
         <h1>Mr. First Last Name Name</h1>

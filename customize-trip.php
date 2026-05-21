@@ -1,8 +1,8 @@
 <?php include('./inc/common-header.php'); ?>
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box customize-trip-page bg-secondary" role="main">
-  <div class="common-page-wrapper">
+<section class="common-box pt-0 customize-trip-page bg-secondary" role="main">
+  <div class="container-fluid-custom">
     <div class="container">
       <div class="page-title">
         <h1>

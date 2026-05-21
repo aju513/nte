@@ -3,13 +3,11 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box pt-0 bg-secondary legal-page" role="main">
-  <div class="common-page-wrapper">
+  <div class="container-fluid-custom">
     <div class="container">
-
       <div class="page-title">
         <h1>Legal Document</h1>
       </div>
-
       <div class="page-summary lg:w-4/5">
         <p>
           Proin vestibulum finibus dolor eget euismod. Suspendisse
@@ -19,15 +17,12 @@
           non gravida.
         </p>
       </div>
-
       <!-- Wrapper 1 -->
       <div class="legal-document__wrapper mt-8">
         <div class="font-mulish text-primary mb-5 text-xl font-bold lg:text-2xl">
           Documents List title
         </div>
-
         <div class="grid grid-cols-12 gap-5">
-
           <!-- Item -->
           <div class="col-span-12 sm:col-span-6">
             <div class="legal-document__item">
@@ -50,7 +45,6 @@
               </div>
             </div>
           </div>
-
           <!-- Repeat item -->
           <div class="col-span-12 sm:col-span-6">
             <div class="legal-document__item">
@@ -76,15 +70,12 @@
 
         </div>
       </div>
-
       <!-- Wrapper 2 -->
       <div class="legal-document__wrapper mt-8">
         <div class="font-merriweather text-primary mb-5 text-xl font-bold lg:text-2xl">
           Documents List title
         </div>
-
         <div class="grid grid-cols-12 gap-5">
-
           <div class="col-span-12 sm:col-span-6">
             <div class="legal-document__item">
               <div class="legal-document__item-image">
@@ -105,7 +96,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-span-12 sm:col-span-6">
             <div class="legal-document__item">
               <div class="legal-document__item-image">
@@ -126,10 +116,8 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
-
     </div>
   </div>
 </section>

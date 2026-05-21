@@ -291,11 +291,9 @@
       }
     }
   }
-
   .accordion__item {
     @apply relative;
   }
-
   /* Default (plus icon) */
   .accordion.with-plus-minus .accordion__item::before {
     content: url("/images/svg/plus.svg");
@@ -307,10 +305,6 @@
     content: url("/images/svg/minus.svg");
     @apply absolute top-5 right-5 w-[15px] transition-all duration-700;
   }
-  /* custom container fluid */
-  /* .container-fluid-custom {
-    @apply px-3.75 xl:pr-3.75 xl:pl-[calc((100vw-1260px)/2)];
-  } */
   /* custom radio starts */
   .custom-radio {
     .custom-radio__item {

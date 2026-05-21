@@ -284,13 +284,17 @@
               <div class="col-span-12 lg:col-span-4">
                 <div class="shadow-custom booking-info rounded-[5px] bg-white lg:sticky lg:top-20">
                   <div
-                    class="booking-info__title rounded-t-[5px] bg-primary p-3 font-barlow text-base font-exo font-bold text-white sm:text-lg">
+                    class="booking-info__title rounded-t-[5px] bg-primary p-3 font-Montserrat text-base  font-bold text-white sm:text-lg">
                     Your Trip Details
                   </div>
-                  <div class="px-4 py-5 booking-info__body sm:px-6">
-                    <div class="flex items-start gap-3 rounded-[5px] booking-info__package">
-                      <div class="booking-info__package-image flex-[0_0_70px] sm:flex-[0_0_80px]">
-                        <img src="/images/dynamic/package-thumb.webp" width="600" height="630" alt="banner" />
+                  <div class="px-6 py-5 booking-info__body">
+                    <div class="flex items-center gap-3 rounded-[5px] booking-info__package">
+                      <div class="booking-info__package-image flex-[0_0_80px]">
+                        <img
+                          src="/images/dynamic/blog-thumb.webp"
+                          width="600"
+                          height="450"
+                          alt="banner" />
                       </div>
                       <div class="booking-info__package-content">
                         <div class="font-bold leading-5 font-playfair text-primary">
@@ -301,7 +305,6 @@
                         </div>
                       </div>
                     </div>
-
                     <div class="my-3 booking-group-price">
                       <div class="collapsible__wrap">
                         <button role="button" type="button" class="collapsible active px-2">
@@ -337,7 +340,7 @@
                       </div>
                     </div>
                     <div class="pb-4 mb-3 border-b border-dashed">
-                      <div class="flex justify-between gap-3 py-1">
+                      <div class="flex items-center gap-3 rounded-[5px] booking-info__package">
                         <div class="booking-info__label flex-[0_0_50%] text-right text-sm font-semibold text-text_color">
                           Trip Date:
                         </div>

@@ -3,8 +3,8 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php'); ?>
 
-<section class="bg-secondary common-box pt-0 contact-page pb-25" role="main">
-  <div class="package__content-wrapper">
+<section class="bg-secondary common-box pt-0 contact-page" role="main">
+  <div class="container-fluid-custom">
     <div class="container">
       <div class="page-title">
         <h1>Contact Us</h1>

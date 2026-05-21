@@ -3,7 +3,7 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box pt-0 bg-secondary packagelist-page" role="main">
-  <div class="common-page-wrapper">
+  <div class="container-fluid-custom">
     <div class="container">
       <div class="page-title">
         <h1>Package List</h1>
