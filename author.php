@@ -2,8 +2,8 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="pb-8 author-page bg-secondary" role="main">
-  <div class="common-page-wrapper">
+<section class="author-page bg-secondary common-box pt-0" role="main">
+  <div class="container-fluid-custom">
     <div class="container">
       <div class="author-profile">
         <div class="author-profile__image">
@@ -37,7 +37,7 @@
         </div>
       </div>
     </div>
-    <div class="blog-list pt-15">
+    <div class="blog-list pt-7.5">
       <div class="container">
         <div class="page-title">
           <h1>Latest Blog</h1>

@@ -4425,38 +4425,22 @@
   @apply text-base;
 }
 .container-fluid-custom {
-  @apply bg-white relative max-w-full mx-auto rounded-none px-0! py-15 before:content-none 2xl:max-w-[calc(100%-100px)] 2xl:rounded-[30px] 2xl:px-7.5;
+  @apply bg-white relative max-w-full mx-auto rounded-none px-0! py-12.5 before:content-none 2xl:max-w-[calc(100%-100px)] 2xl:rounded-[30px] 2xl:px-7.5;
 }
 .innerpage-banner + .common-box .container-fluid-custom {
-  @apply -top-15 -mb-15 pt-[105px];
+  @apply -top-15 -mb-15 pt-24;
 }
-.package__similar {
-  @apply relative;
-  container-fluid {
-    &:after {
-      content: "";
-      @apply absolute left-0 bottom-0 block h-[177px] w-full bg-secondary;
-    }
-  }
+.package-page .package__banner + .container-fluid-custom {
+  @apply -top-15 -mb-15 pt-24;
 }
-/* .package__similar {
-  @apply relative;
 
+.package__similar {
+  @apply relative isolate -mt-15;
   &::before {
     content: "";
-    @apply absolute left-0 top-0 block h-[177px] w-full bg-[#f2f3fb];
-    z-index: 0;
-    background: linear-gradient(
-      to bottom,
-      #f2f3fb 0%,
-      #f6f7fd 50%,
-      #ffffff 100%
-    );
-
-    z-index: 0;
+    @apply pointer-events-none absolute inset-x-0 -top-10 block h-90 w-full bg-white z-0 2xl:max-w-[calc(100%-100px)] 2xl:rounded-b-[30px] 2xl:px-7.5 mx-auto rounded-none px-0!;
   }
-
   > * {
     @apply relative z-1;
   }
-} */
+}

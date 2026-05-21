@@ -1,4 +1,4 @@
-<div class="header-top hidden md:block">
+<section class="header-top hidden md:block">
     <div class="container-fluid header-top_content">
 
         <div class="header-top_content_registration">
@@ -20,4 +20,4 @@
         </div>
 
     </div>
-</div>
+</section>

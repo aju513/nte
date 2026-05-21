@@ -100,8 +100,8 @@
 </section>
 
 
-<section class="common-box pt-0 package-page bg-secondary relative md:-mb-5 " role="main">
-  <div class="package__banner relative">
+<section class="common-box pt-0 package-page bg-secondary relative " role="main">
+  <div class="package__banner">
     <div class="container-fluid ">
       <div class="fancybox-wrapper">
         <div class="package__banner-wrapper">
@@ -139,10 +139,10 @@
       </div>
     </div>
   </div>
-  <div class="package__content-wrapper absolute -top-17">
+  <div class="container-fluid-custom">
     <div class="container">
       <div class="grid grid-cols-12 gap-5">
-        <div class="col-span-12 common-box pb-0">
+        <div class="col-span-12">
           <div class="flex flex-wrap items-center justify-between gap-2.5">
             <div class="package__title-wrap ">
               <div class="page-title">
@@ -1196,7 +1196,6 @@
       </div>
     </div>
 
-
     <div class="video-review lg:pt-15  scroll-wrap ">
       <div class="container">
         <h2 class="package__section-title ">
@@ -1284,7 +1283,7 @@
         </div>
       </div>
     </div>
-    <div class="inner__review review-list common-box hav-gradient-bg scroll-wrap " id="package-reviews">
+    <div class="inner__review review-list common-box pb-0 hav-gradient-bg scroll-wrap " id="package-reviews">
       <div class="container">
         <div class="package__reviews-header mb-1.5 lg:mb-7.5">
           <h2 class="package__section-title">
@@ -1432,179 +1431,177 @@
       </div>
     </div>
     <div id="no-nav"></div>
-    <div class="common-box pt-0 package-list relative top-50 -mt-50">
-      <div class="container ">
-        <h2 class="package__section-title">
-          You May Also Like </h2>
-
-        <!--Package Grid -->
-        <div class="relative scroll-wrap md:mb-10">
-          <div class="grid grid-cols-12 gap-5">
-            <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-              <div class="package-list__item">
-                <div class="package-list__item-badge">
-                  <span>TOP RATED</span>
-                </div>
-                <div class="package-list__item-image">
-                  <div class="placeholder__img-wrapper">
-                    <div class="placeholder__img">
-                      <a href="#">
-                        <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
-                          alt="image">
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="package-list__item-content">
-                  <div class="package-list__item-meta">
-                    <div class="package-list__item-duration">
-                      <span class="icon-time-quarter-to"></span>
-                      <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                    </div>
-                    <div class="package-list__item-reviews text-text_color text-xs">
-                      <span class="icon-star-rate text-[#dfd200]"></span>
-                      <span class="font-bold ">4.9</span>
-                      <span>(4 Reviews)</span>
-                    </div>
-                  </div>
-                  <div class="package-list__item-title">
-                    <h3 class="homepage__package-title">
-                      <a href="#">
-                        Everest Base Camp Trekking
-                      </a>
-                    </h3>
-                  </div>
-                  <div class="text-sm text-text_color">
-                    Price From
-                  </div>
-                  <div class="package-list__item-bottom ">
-                    <div class="package-list__item-price">
-                      <span class="package-list__item-price-new">US$ 1680</span>
-                      <span class="package-list__item-price-old ">US$ 1800</span>
-                    </div>
-
-                    <div class="package-list__item-explore-btn arrow-move-effect">
-                      <a href="#">
-                        Explore
-                        <span class="icon-arrow-right"></span>
-                      </a>
-                    </div>
-
+  </div>
+  <div class="package__similar package-list relative scroll-wrap">
+    <div class="container ">
+      <h2 class="package__section-title">
+        You May Also Like </h2>
+      <!--Package Grid -->
+      <div class="relative">
+        <div class="grid grid-cols-12 gap-5">
+          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+            <div class="package-list__item">
+              <div class="package-list__item-badge">
+                <span>TOP RATED</span>
+              </div>
+              <div class="package-list__item-image">
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                        alt="image">
+                    </a>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-              <div class="package-list__item">
-                <div class="package-list__item-badge">
-                  <span>TOP RATED</span>
-                </div>
-                <div class="package-list__item-image">
-                  <div class="placeholder__img-wrapper">
-                    <div class="placeholder__img">
-                      <a href="#">
-                        <img src="../images/dynamic/package-thumb2.webp" width="600" height="400"
-                          alt="image">
-                      </a>
-                    </div>
+              <div class="package-list__item-content">
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                  </div>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
                   </div>
                 </div>
-                <div class="package-list__item-content">
-                  <div class="package-list__item-meta">
-                    <div class="package-list__item-duration">
-                      <span class="icon-time-quarter-to"></span>
-                      <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                    </div>
-                    <div class="package-list__item-reviews text-text_color text-xs">
-                      <span class="icon-star-rate text-[#dfd200]"></span>
-                      <span class="font-bold ">4.9</span>
-                      <span>(4 Reviews)</span>
-                    </div>
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
                   </div>
-                  <div class="package-list__item-title">
-                    <h3 class="homepage__package-title">
-                      <a href="#">
-                        Everest Base Camp Trekking
-                      </a>
-                    </h3>
-                  </div>
-                  <div class="text-sm text-text_color">
-                    Price From
-                  </div>
-                  <div class="package-list__item-bottom ">
-                    <div class="package-list__item-price">
-                      <span class="package-list__item-price-new">US$ 1680</span>
-                      <span class="package-list__item-price-old ">US$ 1800</span>
-                    </div>
 
-                    <div class="package-list__item-explore-btn arrow-move-effect">
-                      <a href="#">
-                        Explore
-                        <span class="icon-arrow-right"></span>
-                      </a>
-                    </div>
-
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
                   </div>
+
                 </div>
               </div>
             </div>
-            <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-              <div class="package-list__item">
-                <div class="package-list__item-image">
-                  <div class="placeholder__img-wrapper">
-                    <div class="placeholder__img">
-                      <a href="#">
-                        <img src="../images/dynamic/package-thumb3.webp" width="600" height="400"
-                          alt="image">
-                      </a>
-                    </div>
+          </div>
+          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+            <div class="package-list__item">
+              <div class="package-list__item-badge">
+                <span>TOP RATED</span>
+              </div>
+              <div class="package-list__item-image">
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb2.webp" width="600" height="400"
+                        alt="image">
+                    </a>
                   </div>
                 </div>
-                <div class="package-list__item-content">
-                  <div class="package-list__item-meta">
-                    <div class="package-list__item-duration">
-                      <span class="icon-time-quarter-to"></span>
-                      <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                    </div>
-                    <div class="package-list__item-reviews text-text_color text-xs">
-                      <span class="icon-star-rate text-[#dfd200]"></span>
-                      <span class="font-bold ">4.9</span>
-                      <span>(4 Reviews)</span>
-                    </div>
+              </div>
+              <div class="package-list__item-content">
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                   </div>
-                  <div class="package-list__item-title">
-                    <h3 class="homepage__package-title">
-                      <a href="#">
-                        Everest Base Camp Trekking
-                      </a>
-                    </h3>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
                   </div>
-                  <div class="text-sm text-text_color">
-                    Price From
+                </div>
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
                   </div>
-                  <div class="package-list__item-bottom ">
-                    <div class="package-list__item-price">
-                      <span class="package-list__item-price-new">US$ 1680</span>
-                      <span class="package-list__item-price-old ">US$ 1800</span>
-                    </div>
 
-                    <div class="package-list__item-explore-btn arrow-move-effect">
-                      <a href="#">
-                        Explore
-                        <span class="icon-arrow-right"></span>
-                      </a>
-                    </div>
-
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
                   </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+            <div class="package-list__item">
+              <div class="package-list__item-image">
+                <div class="placeholder__img-wrapper">
+                  <div class="placeholder__img">
+                    <a href="#">
+                      <img src="../images/dynamic/package-thumb3.webp" width="600" height="400"
+                        alt="image">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="package-list__item-content">
+                <div class="package-list__item-meta">
+                  <div class="package-list__item-duration">
+                    <span class="icon-time-quarter-to"></span>
+                    <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                  </div>
+                  <div class="package-list__item-reviews text-text_color text-xs">
+                    <span class="icon-star-rate text-[#dfd200]"></span>
+                    <span class="font-bold ">4.9</span>
+                    <span>(4 Reviews)</span>
+                  </div>
+                </div>
+                <div class="package-list__item-title">
+                  <h3 class="homepage__package-title">
+                    <a href="#">
+                      Everest Base Camp Trekking
+                    </a>
+                  </h3>
+                </div>
+                <div class="text-sm text-text_color">
+                  Price From
+                </div>
+                <div class="package-list__item-bottom ">
+                  <div class="package-list__item-price">
+                    <span class="package-list__item-price-new">US$ 1680</span>
+                    <span class="package-list__item-price-old ">US$ 1800</span>
+                  </div>
+
+                  <div class="package-list__item-explore-btn arrow-move-effect">
+                    <a href="#">
+                      Explore
+                      <span class="icon-arrow-right"></span>
+                    </a>
+                  </div>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
+  </div>
 
 </section>
 

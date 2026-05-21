@@ -1,4 +1,4 @@
-<div class="innerpage-banner ">
+<section class="innerpage-banner ">
   <div class="container-fluid">
     <div class="placeholder__img-wrapper">
       <div class="placeholder__img w-full"><img alt="about" loading="lazy"
@@ -10,5 +10,4 @@
       </div>
     </div>
   </div>
-
-</div>
+</section>

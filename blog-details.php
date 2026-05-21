@@ -3,9 +3,9 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
 
+<?php include('./inc/innerbanner.php') ?>
 <section class="bg-secondary blog-page common-box pt-0" role="main">
-  <?php include('./inc/innerbanner.php') ?>
-  <div class="common-page-wrapper ">
+  <div class="container-fluid-custom ">
     <div class="container">
       <div class="page-title">
         <h1>Manaslu Circuit Trek – An Authentic Himalayan Experience That Still Feels Real</h1>
@@ -229,7 +229,7 @@
 
         </div>
       </div>
-      <div class="scroll-wrap blog-details-recent-post blog-list common-box">
+      <div class="scroll-wrap blog-details-recent-post blog-list common-box pb-0">
         <div class="container">
           <div class="grid grid-cols-12 gap-5">
             <div class="col-span-12 sm:col-span-6 lg:col-span-4">

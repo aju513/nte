@@ -2,7 +2,7 @@
 <?php include('./inc/header.php') ?>
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="common-box booking-page bg-secondary pt-0" role="main">
-  <div class="common-page-wrapper">
+  <div class="container-fluid-custom">
     <div class="container">
       <div class="page-title">
         <h1>
@@ -264,8 +264,6 @@
                         </a>
                       </label>
                     </div>
-
-
                     <button
                       class="btn-outline-primary w-full justify-center sm:w-auto">
                       Proceed to Payment
@@ -439,9 +437,9 @@
     const getActiveDiscount = (travelers) => {
       const exactMatch = discountRows.find((row) => {
         const min = parseInt(row.dataset.minTravelers || "0", 10);
-        const max = row.dataset.maxTravelers
-          ? parseInt(row.dataset.maxTravelers, 10)
-          : Infinity;
+        const max = row.dataset.maxTravelers ?
+          parseInt(row.dataset.maxTravelers, 10) :
+          Infinity;
         return travelers >= min && travelers <= max;
       });
 
@@ -451,8 +449,8 @@
         .filter((row) => travelers >= parseInt(row.dataset.minTravelers || "0", 10))
         .sort(
           (a, b) =>
-            parseInt(b.dataset.minTravelers || "0", 10) -
-            parseInt(a.dataset.minTravelers || "0", 10),
+          parseInt(b.dataset.minTravelers || "0", 10) -
+          parseInt(a.dataset.minTravelers || "0", 10),
         )[0];
     };
 
@@ -464,9 +462,9 @@
       travelerInput.value = travelers;
 
       const activeDiscount = getActiveDiscount(travelers);
-      const pricePerPerson = activeDiscount
-        ? parseInt(activeDiscount.dataset.price || "0", 10)
-        : 1600;
+      const pricePerPerson = activeDiscount ?
+        parseInt(activeDiscount.dataset.price || "0", 10) :
+        1600;
       const packageTotal = pricePerPerson * travelers;
       const total = packageTotal + porterTotal;
       const deposit = Math.round(total * 0.2);
@@ -500,14 +498,18 @@
         let min = parseInt(input.min) || 1;
         if (value > min) {
           input.value = value - 1;
-          input.dispatchEvent(new Event("input", { bubbles: true }));
+          input.dispatchEvent(new Event("input", {
+            bubbles: true
+          }));
         }
       });
 
       plus.addEventListener("click", () => {
         let value = parseInt(input.value) || 1;
         input.value = value + 1;
-        input.dispatchEvent(new Event("input", { bubbles: true }));
+        input.dispatchEvent(new Event("input", {
+          bubbles: true
+        }));
       });
 
       input.addEventListener("input", () => {

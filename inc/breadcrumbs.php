@@ -1,4 +1,4 @@
-<div class="breadcrumbs__wrapper" aria-label="Breadcrumb">
+<section class="breadcrumbs__wrapper" aria-label="Breadcrumb">
   <div class="container">
     <ul class="inline-flex flex-wrap items-center gap-1">
       <li class="mr-3 inline-flex items-center"><a href="#">Home</a></li>
@@ -10,4 +10,4 @@
           days</a></li>
     </ul>
   </div>
-</div>
+</section>

@@ -2,8 +2,8 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<div class="bg-secondary blog-page common-box pt-0" role="main">
-  <div class="common-page-wrapper">
+<section class="bg-secondary blog-page common-box pt-0" role="main">
+  <div class="container-fluid-custom">
     <div class="container">
       <div class="page-title">
         <h1>Blog</h1>
@@ -16,14 +16,14 @@
           deserunt mollit anim id est laborum.</p>
       </div>
     </div>
-    <section class="featured-blog">
+    <div class="featured-blog">
       <div class="container">
         <div class="grid grid-cols-12">
           <div class="hidden lg:col-span-6 lg:block">
             <div class="featured-blog__image">
               <div class="placeholder__img-wrapper">
                 <div class="placeholder__img"><img alt="thumb" loading="lazy" width="600" height="400"
-                    src="../images/dynamic/blog.webp"></div>
+                    src="../images/dynamic/blog-thumb.webp"></div>
               </div>
             </div>
           </div>
@@ -49,8 +49,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="recent-blog-list common-box">
+    </div>
+    <div class="recent-blog-list common-box pb-0!">
       <div class="container">
         <div class="blog-search">
           <div class="flex flex-col justify-between gap-5 sm:flex-row">
@@ -260,7 +260,7 @@
           </div>
         </div>
       </div>
+    </div>
   </div>
-</div>
-
+</section>
 <?php include('./inc/footer.php'); ?>
