@@ -13,10 +13,10 @@
                                                         src="./images/svg/logo.svg" />
                                         </a>
                                 </div>
-                                <div class="col-span-10">
+                                <div class="col-span-10 xl:ml-25">
                                         <div class="flex min-h-15 items-center justify-between">
                                                 <nav class="nav-menu flex items-center justify-end gap-5">
-                                                        <ul class="items-center gap-3 lg:gap-4 lg:flex">
+                                                        <ul class="items-center gap-3 xl:gap-5 lg:flex">
                                                                 <li>
                                                                         <span class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm  leading-3.5 font-extrabold transition-all duration-500"
                                                                                 aria-expanded="false">Destinations
@@ -1129,7 +1129,7 @@
                                                                                                                 class="block h-13.75 w-full rounded-lg border border-gray-300 bg-white px-4 py-2"
                                                                                                                 placeholder="Search" required="">
                                                                                                         <button type="submit"
-                                                                                                                class="absolute inset-e-2.5 bottom-2.5 rounded-lg bg-white px-2 py-2 text-sm font-medium">
+                                                                                                                class="absolute inset-e-2.5 bottom-2.5  bg-white  text-sm font-medium">
                                                                                                                 <span class="icon  icon-searchicon"></span>
                                                                                                         </button>
                                                                                                 </form>
@@ -1378,7 +1378,7 @@
                                                         class="block h-13.75 w-full rounded-lg border border-gray-300 bg-white px-4 py-2"
                                                         placeholder="Search" required="">
                                                 <button type="submit" aria-label="Search">
-                                                        <span class="icon icon-searchicon"></span>
+                                                        <span class=" icon-searchicon"></span>
                                                 </button>
                                         </form>
                                         <div class="search-wrapper__list">
