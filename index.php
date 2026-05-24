@@ -2,7 +2,6 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <main id="main" class="bg-secondary">
-
     <!-- homepage -->
     <section class="relative homepage__banner">
 
@@ -63,7 +62,6 @@
             </div>
         </div>
     </section>
-
     <!-- Bestselling -->
     <section class="homepage__bestselling common-box package-list hav-title-btn">
         <div class="container ">
@@ -246,11 +244,8 @@
                 </div>
             </div>
     </section>
-
     <!-- Top Places to Explore Whole Section -->
-
     <section class="homepage__featured homepage__feature-shell ">
-
         <!-- Top places to Explore -->
         <div class="container common-box hav-title-btn ">
             <!-- Title -->
@@ -440,7 +435,6 @@
             </div>
 
         </div>
-
         <!-- Join Our Upcoming Trips -->
         <div class="homepage__explore-section container common-box pt-0 ">
             <div class="homepage__join-banner ">
@@ -467,7 +461,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Homepage-Content -->
         <div class="homepage__main-content homepage__main-content-grid common-box pt-0 ">
             <div class="container">
@@ -599,7 +592,6 @@
             </div>
         </div>
         </div>
-
         <!-- Most Popular -->
         <div class="container hav-title-btn common-box pt-0">
             <!-- <div class=" container"> -->
@@ -806,12 +798,9 @@
             <!-- </div> -->
 
         </div>
-
     </section>
-
     <!-- Videos Section -->
     <section class="homepage__videos common-box pb-0 container hav-title-btn  relative">
-
         <!-- Title Section -->
         <div class="flex items-center justify-between mb-6">
             <div class="mb-0 section-title-wrap">
@@ -827,7 +816,6 @@
                     All Activities <span class="icon-view"></span></a>
             </div>
         </div>
-
         <!-- Videos Layout -->
         <div class="homepage-moments scroll-wrap">
             <div class="grid grid-cols-12 gap-5  ">
@@ -920,13 +908,9 @@
 
             </div>
         </div>
-
-
     </section>
-
     <!-- Testimonials -->
-    <section class="container md:pb-15 lg:pt-15 hav-title-btn pb-0">
-
+    <section class="container common-box hav-title-btn pb-0">
         <div class="flex items-center justify-between">
             <div class="mb-0 section-title-wrap">
                 <div class="relative section-title-sm ">
@@ -941,7 +925,6 @@
                     All Reviews <span class="text-sm icon-view"></span></a>
             </div>
         </div>
-
         <!-- Reviews Section -->
         <div class="homepage__review-summary review-block ">
 
@@ -998,9 +981,7 @@
                 </div>
             </div>
         </div>
-
         <!-- Testimonials -->
-
         <div class="relative">
             <div class="swiper testimonialSwiper p-12.5 sm:px-4 mt-5.75">
                 <div class="swiper-wrapper">
@@ -1138,12 +1119,9 @@
                 <span class="icon-arrow-right text-primary text-2xl"></span>
             </button>
         </div>
-
     </section>
-
     <!-- Blogs -->
-    <section class="homepage__blogs container md:pb-15 lg:py-15 hav-title-btn ">
-
+    <section class="homepage__blogs container common-box  hav-title-btn ">
         <!-- title -->
         <div class="flex items-center justify-between mb-6">
             <div class="mb-0 section-title-wrap">
@@ -1155,11 +1133,9 @@
                 </div>
             </div>
             <div class="flex items-center section-title-btn">
-                <a href="">View
-                    All Articles <span class="text-sm icon-view"></span></a>
+                <a href="">View All Articles <span class="text-sm icon-view"></span></a>
             </div>
         </div>
-
         <!-- blogs -->
         <div class="scroll-wrap ">
             <div class="grid grid-cols-12 gap-5">
@@ -1181,7 +1157,6 @@
                                 <span> 20 Jan</span>
                             </div>
                         </div>
-
                         <h3 class="blog-list__item-content-title">
                             <a href="">
                                 The Highest Mountain in the world
@@ -1191,7 +1166,6 @@
                             <span>Continue Reading</span>
                             <span class="icon-arrow-right"></span>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
@@ -1207,12 +1181,10 @@
                             </div>
                             <div class="blog-list__item-meta homepage__blog-badge">
                                 <span class="icon-calendar text-white">
-
                                 </span>
                                 <span> 20 Jan</span>
                             </div>
                         </div>
-
                         <h3 class="blog-list__item-content-title">
                             <a href="">
                                 The Highest Mountain in the world
@@ -1222,7 +1194,6 @@
                             <span>Continue Reading</span>
                             <span class="icon-arrow-right"></span>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-span-12 sm:col-span-6 lg:col-span-4">
@@ -1243,7 +1214,6 @@
                                 <span> 20 Jan</span>
                             </div>
                         </div>
-
                         <h3 class="blog-list__item-content-title">
                             <a href="">
                                 The Highest Mountain in the world
@@ -1253,19 +1223,12 @@
                             <span>Continue Reading</span>
                             <span class="icon-arrow-right"></span>
                         </div>
-
                     </div>
                 </div>
-
-
             </div>
         </div>
-
     </section>
-
 </main>
-
-
 <!-- Swipper -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

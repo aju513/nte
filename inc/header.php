@@ -1123,25 +1123,15 @@
                                                                                         <a class="websearch-close" href="#">
                                                                                                 <span class="icon-close text-xs"></span>
                                                                                         </a>
-                                                                                        <div class="search-wrapper">
-                                                                                                <form class="relative">
-                                                                                                        <input type="text" id="default-search"
-                                                                                                                class="block h-13.75 w-full rounded-lg border border-gray-300 bg-white px-4 py-2"
-                                                                                                                placeholder="Search" required="">
-                                                                                                        <button type="submit"
-                                                                                                                class="absolute inset-e-2.5 bottom-2.5  bg-white  text-sm font-medium">
-                                                                                                                <span class="icon  icon-searchicon"></span>
-                                                                                                        </button>
-                                                                                                </form>
-                                                                                                <div class="search-wrapper__list">
-                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                                                                        <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                                                                </div>
-                                                                                        </div>
+                                                                                        <form class="relative">
+                                                                                                <input type="text" id="default-search"
+                                                                                                        class="block h-13.75 w-full rounded-lg border border-gray-300 bg-white px-2 py-2"
+                                                                                                        placeholder="Search" required="">
+                                                                                                <button type="submit"
+                                                                                                        class="absolute inset-e-2.5 bottom-3.5   text-sm font-medium">
+                                                                                                        <span class="icon  icon-searchicon"></span>
+                                                                                                </button>
+                                                                                        </form>
                                                                                 </div>
                                                                         </div>
                                                                 </div>
@@ -1370,9 +1360,9 @@
                 <div class="mobile-search" aria-hidden="true">
                         <div class="mobile-search__dialog">
                                 <button class="mobile-search__close" type="button" aria-label="Close search">
-                                        <span class="icon-close text-white text-xs"></span>
+                                        <span class="icon-close  text-sm"></span>
                                 </button>
-                                <div class="mobile-search__content search-wrapper">
+                                <div class="mobile-search__content">
                                         <form class="relative">
                                                 <input type="text"
                                                         class="block h-13.75 w-full rounded-lg border border-gray-300 bg-white px-4 py-2"
@@ -1381,14 +1371,6 @@
                                                         <span class=" icon-searchicon"></span>
                                                 </button>
                                         </form>
-                                        <div class="search-wrapper__list">
-                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                                <a class="search-item" href="">Everest Base Camp Trek - 14 days</a>
-                                        </div>
                                 </div>
                         </div>
                 </div>

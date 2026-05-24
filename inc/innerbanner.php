@@ -1,5 +1,5 @@
 <section class="innerpage-banner ">
-  <div class="container-fluid">
+  <div class="container">
     <div class="placeholder__img-wrapper">
       <div class="placeholder__img w-full"><img alt="about" loading="lazy"
           width="1400"

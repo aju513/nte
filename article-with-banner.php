@@ -2,7 +2,7 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php'); ?>
 <?php include('./inc/innerbanner.php') ?>
-<section class="bg-secondary common-box pt-0" role="main">
+<section class="bg-secondary common-box" role="main">
   <div class="container-fluid-custom">
     <div class="container ">
       <div class="page-title">
