@@ -265,7 +265,7 @@
                       </label>
                     </div>
                     <button
-                      class="btn-outline-primary w-full justify-center sm:w-auto">
+                      class="btn-outline-primary">
                       Proceed to Payment
                     </button>
                   </div>

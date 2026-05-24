@@ -57,9 +57,9 @@
           </div>
         </div>
         <div>
-          <div class="contact-page__form-card">
+          <!-- <div class="contact-page__form"> -->
+          <div class="contact-page__form-box">
             <div class="contact-page__form-title">Get in touch</div>
-
             <form class="contact-page__form" action="#" method="post">
               <div class="contact-page__form-grid">
                 <div class="contact-page__field contact-page__field--full">
@@ -93,11 +93,12 @@
               </div>
 
             </form>
+            <button type="submit" class="btn-outline-primary bg-white! hav-icon mt-6">
+              Send Message
+              <span class="icon-view "></span>
+            </button>
           </div>
-          <button type="submit" class="btn-outline-primary hav-icon mt-6">
-            Send Message
-            <span class="icon-view "></span>
-          </button>
+          <!-- </div> -->
         </div>
       </div>
 

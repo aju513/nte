@@ -185,7 +185,7 @@
   /* tooltip end*/
   /* common gapping */
   .common-box {
-    @apply py-15;
+    @apply py-10 md:py-15;
   }
   .common-box.pt-0 {
     @apply pt-0;
@@ -361,9 +361,9 @@
   }
   /* button primary starts*/
   .btn-primary {
-    @apply bg-primary rounded-[17px]  px-5 py-1.5 text-xs leading-5 font-semibold  text-white transition-all duration-500;
+    @apply inline-flex items-center gap-3 rounded-[21.5px] bg-primary text-white px-4 py-2 text-sm font-medium transition-all duration-500;
     &:hover {
-      @apply text-text_color shadow-[inset_0_0_0_2em_var(--color-secondary)];
+      @apply text-white shadow-[inset_0_0_0_2em_var(--color-block)] duration-500 ease-in-out;
     }
   }
   .btn-primary.hav-icon {
@@ -373,7 +373,7 @@
     }
     &:hover {
       span {
-        @apply translate-x-2.5 duration-500 ease-in-out text-text_color;
+        @apply translate-x-2.5 duration-500 ease-in-out text-white;
       }
       span.animate-spin {
         @apply translate-x-0;
@@ -383,37 +383,13 @@
 
   @media (max-width: 1023px) {
     .hav-title-btn {
-      position: relative;
-      padding-bottom: 110px !important;
-    }
-  }
-  @media (max-width: 1023px) {
-    .hav-title-btn {
-      @apply relative pb-27.5;
+      @apply relative pb-16;
     }
 
     .hav-title-btn .section-title-btn {
-      @apply absolute left-3.75 bottom-10 z-10;
+      @apply absolute left-3.75 bottom-4 z-10;
     }
   }
-  .section-title-btn a {
-    @apply inline-flex items-center gap-3 rounded-4xl border border-dashed border-primary px-5 py-2.5  text-sm font-medium;
-    transition:
-      color 0.3s ease,
-      background-color 0.3s ease,
-      border-color 0.3s ease,
-      transform 0.3s ease,
-      box-shadow 0.3s ease;
-  }
-
-  .section-title-btn a .icon-view {
-    @apply text-sm text-primary translate-x-0 transition-transform ease-in-out duration-500;
-  }
-
-  .section-title-btn a:hover .icon-view {
-    @apply translate-x-2.5 transition-transform duration-500 ease-in-out;
-  }
-
   /*Button secondary*/
   .btn-secondary {
     @apply bg-[#f6faff] rounded-[17px] px-5 py-1.5 text-xs leading-5 font-semibold text-text_color transition-all duration-500;
@@ -458,11 +434,11 @@
   }
   /*Button primary outline*/
   .btn-outline-primary {
-    @apply inline-flex items-center gap-3 rounded-4xl border border-dashed border-primary px-5 py-2.5  text-sm font-medium;
+    @apply inline-flex items-center gap-3 rounded-[21.5px] border border-dashed border-primary px-4 py-1.5 text-sm font-medium;
     cursor: pointer;
 
     &:hover {
-      @apply text-primary;
+      @apply text-white shadow-[inset_0_0_0_2em_var(--color-primary)] border-none transition-all duration-500 ease-in-out;
     }
 
     &.hav-icon {
@@ -472,7 +448,7 @@
 
       &:hover {
         .icon-view {
-          @apply text-primary translate-x-2.5;
+          @apply text-white translate-x-2.5;
         }
 
         span.animate-spin {
@@ -483,7 +459,7 @@
   }
   /*Button secondary outline*/
   .btn-outline-secondary {
-    @apply inline-flex w-full flex-none items-center justify-center gap-3 rounded-[30px] border border-dashed border-white text-white px-4 py-2.5 text-sm font-medium leading-none transition-all duration-500 sm:w-auto sm:min-w-40 lg:min-w-44;
+    @apply inline-flex w-full flex-none items-center justify-center gap-3 rounded-[21.5] border border-dashed border-white text-white px-4 py-2.5 text-sm font-medium leading-none transition-all duration-500 sm:w-auto sm:min-w-40 lg:min-w-44;
   }
   .btn-outline-secondary.hav-icon {
     @apply inline-flex items-center gap-2;
@@ -1256,9 +1232,7 @@
       }
     }
   }
-
   /* last minute ends */
-
   /* moments list starts */
   .moments-list__item {
     @apply relative rounded-[10px] h-full;
@@ -1276,7 +1250,6 @@
         @apply aspect-600/400 rounded-[10px];
       }
     }
-
     .moments-list__item-content {
       @apply absolute bottom-7.5 left-7.5 z-5;
     }
@@ -1296,9 +1269,7 @@
       @apply text-primary text-xs lg:text-xl z-10;
     }
   }
-
   /* moments list ends */
-
   /* blog search */
   .blog-search {
     @apply rounded-custom shadow-custom mb-9 bg-block/20 p-4 lg:p-10;
@@ -1347,7 +1318,6 @@
   }
   /* article reader ends */
   /* review list starts*/
-
   /* ── Review Summary ──────────────────────────────────── */
   .review__summary {
     .review__tabs {
@@ -1396,7 +1366,6 @@
       }
     }
   }
-
   .testimonial__list-item {
     @apply rounded-xl bg-white p-5 md:p-8 lg:p-12 shadow-custom mb-3;
     .testimonial__list-item-meta {
@@ -2175,7 +2144,6 @@
       }
     }
     .megamenu-items {
-      @apply pt-2;
       li {
         @apply mb-0 grid min-w-65 break-inside-avoid pb-0;
         grid-template-rows: 1fr auto;
@@ -2728,13 +2696,12 @@
   }
 
   .why-choose-accordion__label {
-    @apply flex flex-col md:flex-row lg:flex-row min-w-0 items-start gap-2 lg:gap-4;
+    @apply flex flex-col md:flex-row lg:flex-row min-w-0 items-center gap-2 lg:gap-4;
   }
 
   .why-choose-accordion__icon {
     @apply mt-1 inline-flex shrink-0 items-center justify-center text-xl text-white;
     img {
-      @apply w-[20px] h-[20px] h-auto;
       filter: brightness(0) invert(1);
     }
   }
@@ -3071,8 +3038,8 @@
     }
   }
 
-  .contact-page__form-card {
-    @apply rounded-[12px] bg-[#6cafda] p-5 shadow-lg sm:p-7 lg:p-8;
+  .contact-page__form-box {
+    @apply rounded-[10px] bg-[#6cafda] p-5 shadow-lg sm:p-7 lg:p-8;
   }
 
   .contact-page__form-title {

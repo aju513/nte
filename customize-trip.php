@@ -206,8 +206,7 @@
               </label>
             </div>
 
-            <button class="btn-primary">
-              <span class="w-4 h-4 icon-loading loader"></span>Submit
+            <button class="btn-primary">Submit
             </button>
           </div>
         </form>
