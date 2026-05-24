@@ -330,7 +330,6 @@
     }
   }
   /* custom radio ends */
-
   /* Breadcrumbs  */
   .breadcrumbs__wrapper {
     @apply py-2 bg-secondary;
@@ -392,7 +391,7 @@
   }
   /*Button secondary*/
   .btn-secondary {
-    @apply bg-[#f6faff] rounded-[17px] px-5 py-1.5 text-xs leading-5 font-semibold text-text_color transition-all duration-500;
+    @apply bg-[#f6faff] rounded-[21.5px] px-4 py-2 text-xs leading-5 font-semibold text-text_color transition-all duration-500;
     &:hover {
       @apply text-white shadow-[inset_0_0_0_2em_var(--color-primary)];
     }
@@ -434,7 +433,7 @@
   }
   /*Button primary outline*/
   .btn-outline-primary {
-    @apply inline-flex items-center gap-3 rounded-[21.5px] border border-dashed border-primary px-4 py-1.5 text-sm font-medium;
+    @apply inline-flex items-center gap-3 rounded-[21.5px] border border-dashed border-primary px-4 py-2 text-sm font-medium;
     cursor: pointer;
 
     &:hover {

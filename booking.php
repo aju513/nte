@@ -526,10 +526,15 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     document.querySelectorAll(".date-picker").forEach((input) => {
+      if (typeof Litepicker === "undefined") return;
       new Litepicker({
         element: input,
         format: 'YYYY-MM-DD'
       });
+
+      // Optional: clicking the calendar button should open the picker
+      const button = input.parentElement?.querySelector('button[type="button"]');
+      if (button) button.addEventListener("click", () => input.focus());
     });
   });
 </script>
