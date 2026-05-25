@@ -458,7 +458,7 @@
   }
   /*Button secondary outline*/
   .btn-outline-secondary {
-    @apply inline-flex w-full flex-none items-center justify-center gap-3 rounded-[21.5] border border-dashed border-white text-white px-4 py-2.5 text-sm font-medium leading-none transition-all duration-500 sm:w-auto sm:min-w-40 lg:min-w-44;
+    @apply inline-flex items-center gap-3 rounded-[21.5px] border border-dashed border-white text-white px-4 py-2 text-sm font-medium transition-all duration-500 sm:w-auto sm:min-w-40 lg:min-w-44;
   }
   .btn-outline-secondary.hav-icon {
     @apply inline-flex items-center gap-2;
@@ -2695,7 +2695,7 @@
   }
 
   .why-choose-accordion__label {
-    @apply flex flex-col md:flex-row lg:flex-row min-w-0 items-center gap-2 lg:gap-4;
+    @apply flex flex-col md:flex-row lg:flex-row min-w-0 items-start md:items-center gap-2 lg:gap-4;
   }
 
   .why-choose-accordion__icon {
