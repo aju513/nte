@@ -2699,7 +2699,7 @@
   }
 
   .why-choose-accordion__icon {
-    @apply mt-1 inline-flex shrink-0 items-center justify-center text-xl text-white;
+    @apply inline-flex shrink-0 items-center justify-center text-xl text-white;
     img {
       filter: brightness(0) invert(1);
     }
