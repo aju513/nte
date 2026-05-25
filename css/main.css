@@ -2516,7 +2516,7 @@
   @apply mb-0!;
 }
 .section-title {
-  @apply font-playfair lg:text-[39px] text-2xl font-black leading-8 lg:leading-11 text-black;
+  @apply font-playfair lg:text-[39px] text-[28px] font-black leading-8 lg:leading-11 text-black;
 }
 .section-title-sm {
   @apply mb-2 block text-lg leading-5 text-primary;
