@@ -98,8 +98,6 @@
     </ul>
   </div>
 </section>
-
-
 <section class="common-box pt-0 package-page bg-secondary relative " role="main">
   <div class="package__banner">
     <div class="container-fluid ">
@@ -575,7 +573,6 @@
                         </a>
                       </div>
                     </div>
-
                   </div>
                 </div>
                 <div class="package__full-itinerary-item relative mb-6.25 last:mb-0">

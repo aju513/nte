@@ -16,9 +16,9 @@
                                 <div class="col-span-10 xl:ml-25">
                                         <div class="flex min-h-15 items-center justify-between">
                                                 <nav class="nav-menu flex items-center justify-end gap-5">
-                                                        <ul class="items-center gap-3 xl:gap-5 lg:flex">
+                                                        <ul class="items-center gap-3 xl:gap-7 lg:flex">
                                                                 <li>
-                                                                        <span class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm  leading-3.5 font-extrabold transition-all duration-500"
+                                                                        <span class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Destinations
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -771,7 +771,7 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-extrabold transition-all duration-500"
+                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Trekking in Nepal
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -986,7 +986,7 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-extrabold transition-all duration-500"
+                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Travel Guide
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -1021,7 +1021,7 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-sm leading-3.5 font-extrabold transition-all duration-500"
+                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Company
                                                                                 <span class="icon ml-1 icon-dropdown"></span>
                                                                         </span>
@@ -1106,9 +1106,9 @@
                                                                                 </div>
                                                                         </div>
                                                                 </li>
-                                                                <li><a class="hover:text-primary text-text_color text-sm leading-3.5 font-extrabold transition-all duration-500"
+                                                                <li><a class="hover:text-primary text-text_color text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 href="">Blog</a></li>
-                                                                <li><a class="hover:text-primary text-text_color text-sm leading-3.5 font-extrabold transition-all duration-500"
+                                                                <li><a class="hover:text-primary text-text_color text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 href="../contact-new.php">Contact Us</a></li>
                                                         </ul>
                                                 </nav>
