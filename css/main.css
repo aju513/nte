@@ -437,7 +437,7 @@
     cursor: pointer;
 
     &:hover {
-      @apply text-white shadow-[inset_0_0_0_2em_var(--color-primary)] border-none transition-all duration-500 ease-in-out;
+      @apply text-white shadow-[inset_0_0_0_2em_var(--color-primary)] border-transparent transition-all duration-500 ease-in-out;
     }
 
     &.hav-icon {
