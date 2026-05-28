@@ -2463,15 +2463,12 @@
       }
 
       .footer-subscribe {
-        @apply inline-flex items-center gap-3 border-dashed border justify-center border-primary rounded-4xl px-3 py-2  text-sm font-bold mt-3 shrink-0;
+        @apply inline-flex items-center gap-3 border-dashed border justify-center border-primary rounded-4xl px-3 py-2  text-sm font-bold mt-3 shrink-0 transition-all duration-500;
         span {
           @apply inline-block transition-transform duration-500;
         }
         &:hover {
-          @apply text-white shadow-[inset_0_0_0_2em_var(--color-primary)];
-        }
-        &:hover span {
-          @apply translate-x-0.5 duration-200 ease-out;
+          @apply text-white shadow-[inset_0_0_0_2em_var(--color-primary)] border-transparent;
         }
       }
 
