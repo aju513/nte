@@ -1862,7 +1862,7 @@
     @apply hidden;
   }
   #toggleButton {
-    @apply bg-dim_bg rounded-r-custom shadow-custom absolute top-12.5 -right-9 hidden p-2;
+    @apply bg-dim_bg rounded-r-custom shadow-custom absolute top-5 -right-7 hidden p-1.25;
   }
   #toggleButton.scroll-show {
     @apply max-lg:block;

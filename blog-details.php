@@ -192,12 +192,9 @@
               </div>
               <div class="col-span-12 lg:col-span-4">
                 <aside class="sticky top-37.5" id="sidebar-toc">
-                  <div id="toggleButton" class=""><span class="show-icon"><svg class=" h-6 w-6"
-                        aria-hidden="true">
-                        <use href="/sprite.svg#icon-toc"></use>
-                      </svg></span><span class="close-icon"><span class="icon-close"></span></span></div>
+                  <div id="toggleButton" class=""><span class="show-icon"><span class="icon-toc text-primary text-lg"></span></span><span class="close-icon"><span class="icon-close text-lg text-primary"></span></span></div>
                   <div
-                    class="toc-list-wrapper border-primary rounded-r-custom my-6 border-t-4 bg-white p-4 px-6 py-5 shadow">
+                    class="toc-list-wrapper border-primary rounded-r-custom my-6 border-t-4 bg-dim_bg p-4 px-6 py-5 shadow">
                     <span class="mb-4 block text-xl font-bold">Table of Contents</span><span
                       class="js-toc mb-5 border-b border-dashed pb-3 text-lg md:text-xl">
                       <ol class="toc-list ">
@@ -347,5 +344,48 @@
     if (!shareDropdown.contains(event.target)) {
       dropdownMenu.classList.remove('show');
     }
+  });
+</script>
+<script>
+  function initTocbot() {
+    tocbot.init({
+      tocSelector: '.js-toc',
+      contentSelector: '.js-toc-content',
+      headingSelector: 'h1, h2, h3,h4,h5,h6',
+      collapseDepth: 6,
+    });
+  }
+  document.addEventListener('DOMContentLoaded', initTocbot);
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const sidebar = document.getElementById("sidebar-toc");
+    const button = document.getElementById("toggleButton");
+    const tocContent = document.querySelector(".js-toc-content");
+
+    // toggle sidebar
+    button.addEventListener("click", function() {
+      sidebar.classList.toggle("active");
+    });
+
+    // show only while heading/content section is visible
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (window.innerWidth <= 1023) {
+            if (entry.isIntersecting) {
+              button.classList.add("scroll-show");
+            } else {
+              button.classList.remove("scroll-show");
+              sidebar.classList.remove("active");
+            }
+          }
+        });
+      }, {
+        threshold: 0.05,
+      }
+    );
+
+    observer.observe(tocContent);
   });
 </script>
