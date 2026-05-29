@@ -669,11 +669,6 @@
     background-position: 50% 50%;
     background-size: auto 20%;
     content: "";
-    background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.7) 0%,
-      rgba(247, 248, 250, 0) 35%
-    );
   }
   .placeholder__img {
     @apply absolute top-0 size-full w-full rounded-[inherit];

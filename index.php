@@ -9,7 +9,7 @@
             <div class="placeholder__img-wrapper w-full">
                 <div class="w-full placeholder__img">
                     <a href="">
-                        <img src="" width="1920" height="700" loading="eager"
+                        <img src="../images/dynamic/banner.webp" width="1920" height="700" loading="eager"
                             decoding="async" data-nimg="1" alt="banner" style="color: transparent" />
                     </a>
                 </div>
