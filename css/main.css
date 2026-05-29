@@ -649,21 +649,6 @@
       @apply z-1010;
     }
   }
-  /* .no-header-sticky :where(.web__menu.sticky, .mobile__menu.sticky) {
-    @apply relative!;
-  }
-  .no-header-sticky .mob-quick-contact {
-    @apply hidden;
-  }
-  .package-quick-book {
-    @apply hidden;
-  }
-  .no-header-sticky .package-quick-book {
-    @apply bg-dim_bg fixed bottom-0 left-0 z-9999 flex w-full items-center gap-2 p-3 lg:hidden;
-  }
-  .mob-quick-contact {
-    @apply bg-dim_bg fixed bottom-0 left-0 z-9999 flex w-full items-center gap-2 p-3 lg:hidden;
-  } */
   @keyframes slide-progress {
     0% {
       transform: translateX(-100%);
