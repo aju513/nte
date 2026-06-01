@@ -90,14 +90,14 @@
             <div class="flex flex-col items-start gap-4 py-4">
 
               <div class="why-travel-icon">
-                <span class="icon-circle-dollar-sign "></span>
+                <img alt="" loading="lazy" width="23" height="23" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/circle-dollar-sign.svg">
               </div>
 
               <div class="space-y-1">
-                <h4 class="text-text_color font-bold text:lg lg:text-2xl font-mulish">
+                <h4 class="text-text_color font-bold text-2xl font-mulish">
                   Best Price Guarantee
                 </h4>
-                <p class="text-gray-500 text-sm">
+                <p class="text-gray-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequatur. Velit quia tenetur maiores
                   similique.
                 </p>
@@ -109,57 +109,50 @@
             <div class="flex flex-col items-start gap-4 py-4">
 
               <div class="why-travel-icon">
-                <span class="icon-binoculars"></span>
+                <img alt="" loading="lazy" width="22" height="20" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/binoculars.svg">
               </div>
 
               <div class="space-y-1">
-                <h4 class="text-text_color font-bold text:lg lg:text-2xl font-mulish">
+                <h4 class="text-text_color font-bold text-2xl font-mulish">
                   Local Expert Guides
                 </h4>
-                <p class="text-gray-500 text-sm">
+                <p class="text-gray-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequatur. Velit quia tenetur maiores
                   similique.
                 </p>
               </div>
-
             </div>
           </div>
           <div class="col-span-3">
             <div class="flex flex-col items-start gap-4 py-4">
-
               <div class="why-travel-icon">
-                <span class="icon-route"></span>
+                <img alt="" loading="lazy" width="22" height="20" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/route.svg">
               </div>
-
               <div class="space-y-1">
-                <h4 class="text-text_color font-bold text:lg lg:text-2xl font-mulish">
+                <h4 class="text-text_color font-bold text-2xl font-mulish">
                   Easy Trip Planning
                 </h4>
-                <p class="text-gray-500 text-sm">
+                <p class="text-gray-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequatur. Velit quia tenetur maiores
                   similique.
                 </p>
               </div>
-
             </div>
           </div>
           <div class="col-span-3">
             <div class="flex flex-col items-start gap-4 py-4">
-
               <div class="why-travel-icon">
-                <span class="icon-shield-check"></span>
+                <img alt="" loading="lazy" width="22" height="20" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/shield-check.svg">
               </div>
-
               <div class="space-y-1">
-                <h4 class="text-text_color font-bold text:lg lg:text-2xl font-mulish">
+                <h4 class="text-text_color font-bold text-2xl font-mulish">
                   Safety and Responsible
                 </h4>
-                <p class="text-gray-500 text-sm">
+                <p class="text-gray-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequatur. Velit quia tenetur maiores
                   similique.
                 </p>
               </div>
-
             </div>
           </div>
         </div>

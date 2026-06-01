@@ -569,25 +569,6 @@
   }
 
   /* circular animation wave starts*/
-
-  /* .circular-animate {
-    @apply relative;
-
-    &::after {
-      content: "";
-      @apply absolute top-1/2 left-1/2 z-10 h-22.5 w-22.5 -translate-1/2 rounded-full bg-white/50 opacity-0;
-      transition: opacity 1.5s ease-out;
-    }
-
-    &:hover::before,
-    &:hover::after {
-      @apply opacity-60 duration-500;
-    }
-
-    svg {
-      @apply relative z-12;
-    }
-  } */
   .circular-animate {
     @apply relative;
     &::before {
@@ -807,11 +788,6 @@
     .placeholder__img-wrapper {
       @apply rounded-custom relative aspect-1400/630;
     }
-
-    /* &::after {
-      content: "";
-      @apply absolute -bottom-3 inset-x-0 mx-auto h-24 w-[95%] bg-white rounded-t-[15px] sm:h-28 md:h-32 lg:h-40;
-    } */
   }
   /* inner banner ends */
   /* inner section title starts */
@@ -917,11 +893,6 @@
       @apply pb-2.5;
     }
   }
-  /* .booking__discount-list,
-  .package__discount-list {
-    @apply max-h-0 overflow-hidden;
-    transition: max-height 0.3s ease;
-  } */
   /* collapse end */
   /* notice bar */
   .notice-bar {
@@ -1111,7 +1082,6 @@
   /* last minute starts */
   .last-minute {
     .last-minute__wrapper {
-      /* @apply rounded-custom items-center gap-4 bg-block/30 p-3; */
       .last-minute__wrapper-header {
         @apply rounded-custom grid grid-cols-2 items-center gap-2 bg-white p-3 lg:grid-cols-7;
       }
@@ -1959,18 +1929,6 @@
     max-height: 1000px;
   }
 }
-/* @keyframes slideDown {
-  from {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-} */
-/* animation ends */
-
 /* header top starts */
 .header-top {
   @apply py-2 md:py-3 bg-primary;
@@ -2471,7 +2429,6 @@
     }
   }
 }
-
 /* footer end */
 /* FAQs page starts */
 .faqs__wrapper {
@@ -2487,7 +2444,6 @@
   }
 }
 /* FAQs page ends */
-
 /* homepage section title */
 .section-title-wrap {
   @apply mb-6;
@@ -2660,11 +2616,6 @@
   .why-choose-accordion__item {
     @apply border-t border-white/60 py-3 md:py-5 lg:py-6;
   }
-
-  /* .why-choose-accordion__item:last-child {
-    @apply border-b-0 pb-0;
-  } */
-
   .why-choose-accordion__item.is-open .why-choose-accordion__toggle::after {
     @apply rotate-0;
     transform: translate(-50%, -50%) scaleY(0);
@@ -2680,6 +2631,7 @@
 
   .why-choose-accordion__icon {
     @apply inline-flex shrink-0 items-center justify-center text-xl text-white;
+    color: white;
     img {
       filter: brightness(0) invert(1);
     }
@@ -2807,12 +2759,6 @@
         @apply text-base leading-4 font-semibold text-white;
       }
     }
-
-    /* Give the featured card more height on mobile so the centered play button
-       doesn't visually collide with the bottom text overlay. */
-    /* .homepage-moments__featured .placeholder__img-wrapper {
-      @apply aspect-1200/550;
-    } */
     @media (max-width: 374px) {
       .moments-list__item-meta {
         @apply absolute bottom-1! left-2 text-white z-10;
@@ -3065,10 +3011,6 @@
   .contact-page__submit .icon-arrow-right {
     @apply text-sm transition-transform duration-300 hover:-translate-y-1;
   }
-
-  /* .contact-page__submit:hover .icon-arrow-right {
-    transform: translateX(4px);
-  } */
 }
 /* contact page ends*/
 /* inner page common page starts */
@@ -4215,9 +4157,6 @@
       @apply flex justify-between items-center border-t border-[#6cafda] py-2;
     }
   }
-  /* .collapsible.active .collapsible-content {
-    @apply pb-2.5;
-  } */
 }
 .package-book-options {
   @apply bg-[#f6faff] p-6.25 rounded-b-[10px];
@@ -4355,7 +4294,11 @@
 }
 
 .why-travel-icon {
-  @apply flex items-center justify-center w-10 h-10 rounded-[53px] bg-block text-white text-[23px] flex-shrink-0;
+  @apply flex items-center justify-center w-[53px] h-[53px] rounded-full bg-block text-white text-[23px] flex-shrink-0;
+  color: white;
+  img {
+    filter: brightness(0) invert(1);
+  }
 }
 .page-summary {
   @apply text-base;
