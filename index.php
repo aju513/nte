@@ -820,7 +820,7 @@
                                 <div class="moments-list__item-meta">
                                     <h4 class="moments-list__item-meta-title ">Everest Base Camp
                                     </h4>
-                                    <span class="text-sm">Jhon - Australia</span>
+                                    <span class="text-[15px]">Jhon - Australia</span>
                                 </div>
                             </div>
                         </div>
@@ -849,7 +849,7 @@
                                     </div>
                                     <div class="moments-list__item-meta">
                                         <h4 class="moments-list__item-meta-title">Travel Nepal</h4>
-                                        <span class="text-xs">John - Australia</span>
+                                        <span class="text-[15px]">John - Australia</span>
                                     </div>
                                 </div>
                             </div>
@@ -876,7 +876,7 @@
                                     </div>
                                     <div class="moments-list__item-meta">
                                         <h4 class="moments-list__item-meta-title">Things to Do in Nepal</h4>
-                                        <span class="text-xs">John - Australia</span>
+                                        <span class="text-[15px]">John - Australia</span>
                                     </div>
                                 </div>
                             </div>
