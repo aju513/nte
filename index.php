@@ -4,7 +4,6 @@
 <main id="main" class="bg-secondary">
     <!-- homepage -->
     <section class="relative homepage__banner">
-
         <div class="homepage__banner-media overflow-hidden">
             <div class="placeholder__img-wrapper w-full">
                 <div class="w-full placeholder__img">
@@ -21,11 +20,8 @@
                 <div class="homepage__banner-subcontent ">
                     Find what makes you happy anytime, anywhere
                 </div>
-
-
             </div>
         </div>
-
         <div class="homepage__notice ">
             <div class="homepage__notice-wrap " id="heroNoticeSlider" aria-live="polite">
                 <div class="container">

@@ -1383,12 +1383,15 @@
     }
   }
   /* album page ends*/
-  /* common Gallery    starts*/
+  /* common Gallery   starts*/
   .common__gallery {
     [data-src] {
       @apply cursor-pointer;
+      figure {
+        @apply relative overflow-hidden rounded-custom;
+      }
       img {
-        @apply rounded-custom;
+        @apply rounded-custom  transition-all duration-500;
       }
       .zoom-icon {
         @apply rounded-custom absolute top-1/2 left-1/2 z-1 size-full -translate-x-1/2 -translate-y-1/2 bg-black/20 opacity-0 transition-all duration-500;
