@@ -111,7 +111,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-sm text-text_color">
+                                <div class="text-sm text-text_color md:mt-2">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -165,7 +165,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-sm text-text_color">
+                                <div class="text-sm text-text_color md:mt-2">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -216,7 +216,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-sm text-text_color">
+                                <div class="text-sm text-text_color md:mt-2">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -299,7 +299,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-sm text-text_color">
+                                <div class="text-sm text-text_color md:mt-2">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -353,7 +353,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-sm text-text_color">
+                                <div class="text-sm text-text_color md:mt-2">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">
@@ -404,7 +404,7 @@
                                         </a>
                                     </h3>
                                 </div>
-                                <div class="text-sm text-text_color">
+                                <div class="text-sm text-text_color md:mt-2">
                                     Price From
                                 </div>
                                 <div class="package-list__item-bottom ">

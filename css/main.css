@@ -986,7 +986,7 @@
     }
 
     .package-list__item-bottom {
-      @apply flex items-center justify-between;
+      @apply flex items-center justify-between md:pb-3;
       .package-list__item-price {
         @apply flex gap-2 items-center;
         .package-list__item-price-new {
