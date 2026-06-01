@@ -59,7 +59,7 @@
         </div>
     </section>
     <!-- Bestselling -->
-    <section class="homepage__bestselling common-box package-list hav-title-btn">
+    <section class="homepage__bestselling py-15 package-list hav-title-btn">
         <div class="container ">
             <div class="mb-6 flex items-start gap-4 flex-row md:items-center justify-between">
                 <div class="mb-0 section-title-wrap">
@@ -240,547 +240,544 @@
             </div>
     </section>
     <!-- Top Places to Explore Whole Section -->
-    <section class="homepage__featured">
-        <div class="container-fluid-custom pb-0!">
-            <!-- Top places to Explore -->
-            <div class="container  hav-title-btn ">
-                <!-- Title -->
-                <div class="grid grid-cols-12 gap-5 mb-6 ">
-                    <div class="mb-0 section-title-wrap col-span-12 lg:col-span-6 max-w-[410px] ">
-                        <div class=" lg:col-span-6">
-                            <div class="section-title-sm ">
-                                Top Places to Explore
-                            </div>
-                            <h2 class="section-title ">
-                                Book your next NTE Designer Tours
-                            </h2>
+    <section class="container-fluid-custom pb-0!">
+        <!-- Top places to Explore -->
+        <div class="container  hav-title-btn ">
+            <!-- Title -->
+            <div class="grid grid-cols-12 gap-5 mb-6 ">
+                <div class="mb-0 section-title-wrap col-span-12 lg:col-span-6 max-w-[410px] ">
+                    <div class=" lg:col-span-6">
+                        <div class="section-title-sm ">
+                            Top Places to Explore
                         </div>
-                    </div>
-                    <div class="mb-0 col-span-12 lg:col-span-6 max-w-[600px]">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum magni
-                            recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
-                        <div class="section-title-btn">
-                            <a href="" class="btn-outline-primary hav-icon">View All Regions <span class="icon-view"></span></a>
-                        </div>
+                        <h2 class="section-title ">
+                            Book your next NTE Designer Tours
+                        </h2>
                     </div>
                 </div>
-                <div class="relative mt-9">
-                    <div class="grid grid-cols-12 gap-5">
-                        <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                            <div class="package-list__item">
-                                <div class="package-list__item-badge">
-                                    <span>TOP RATED</span>
-                                </div>
-                                <div class="package-list__item-image">
-                                    <div class="placeholder__img-wrapper">
-                                        <div class="placeholder__img">
-                                            <a href="#">
-                                                <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
-                                                    alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="package-list__item-content">
-                                    <div class="package-list__item-meta">
-                                        <div class="package-list__item-duration">
-                                            <span class="icon-time-quarter-to"></span>
-                                            <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                                        </div>
-                                        <div class="package-list__item-reviews text-text_color text-xs">
-                                            <span class="icon-star-rate text-[#dfd200]"></span>
-                                            <span class="font-bold ">4.9</span>
-                                            <span>(4 Reviews)</span>
-                                        </div>
-                                    </div>
-                                    <div class="package-list__item-title">
-                                        <h3 class="homepage__package-title">
-                                            <a href="#">
-                                                Everest Base Camp Trekking
-                                            </a>
-                                        </h3>
-                                    </div>
-                                    <div class="text-sm text-text_color">
-                                        Price From
-                                    </div>
-                                    <div class="package-list__item-bottom ">
-                                        <div class="package-list__item-price">
-                                            <span class="package-list__item-price-new">US$ 1680</span>
-                                            <span class="package-list__item-price-old ">US$ 1800</span>
-                                        </div>
-
-                                        <div class="package-list__item-explore-btn arrow-move-effect">
-                                            <a href="#">
-                                                Explore
-                                                <span class="icon-arrow-right"></span>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                            <div class="package-list__item">
-                                <div class="package-list__item-badge">
-                                    <span>TOP RATED</span>
-                                </div>
-                                <div class="package-list__item-image">
-                                    <div class="placeholder__img-wrapper">
-                                        <div class="placeholder__img">
-                                            <a href="#">
-                                                <img src="../images/dynamic/package-thumb2.webp" width="600" height="400"
-                                                    alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="package-list__item-content">
-                                    <div class="package-list__item-meta">
-                                        <div class="package-list__item-duration">
-                                            <span class="icon-time-quarter-to"></span>
-                                            <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                                        </div>
-                                        <div class="package-list__item-reviews text-text_color text-xs">
-                                            <span class="icon-star-rate text-[#dfd200]"></span>
-                                            <span class="font-bold ">4.9</span>
-                                            <span>(4 Reviews)</span>
-                                        </div>
-                                    </div>
-                                    <div class="package-list__item-title">
-                                        <h3 class="homepage__package-title">
-                                            <a href="#">
-                                                Everest Base Camp Trekking
-                                            </a>
-                                        </h3>
-                                    </div>
-                                    <div class="text-sm text-text_color">
-                                        Price From
-                                    </div>
-                                    <div class="package-list__item-bottom ">
-                                        <div class="package-list__item-price">
-                                            <span class="package-list__item-price-new">US$ 1680</span>
-                                            <span class="package-list__item-price-old ">US$ 1800</span>
-                                        </div>
-
-                                        <div class="package-list__item-explore-btn arrow-move-effect">
-                                            <a href="#">
-                                                Explore
-                                                <span class="icon-arrow-right"></span>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-                            <div class="package-list__item">
-                                <div class="package-list__item-image">
-                                    <div class="placeholder__img-wrapper">
-                                        <div class="placeholder__img">
-                                            <a href="#">
-                                                <img src="../images/dynamic/package-thumb3.webp" width="600" height="400"
-                                                    alt="image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="package-list__item-content">
-                                    <div class="package-list__item-meta">
-                                        <div class="package-list__item-duration">
-                                            <span class="icon-time-quarter-to"></span>
-                                            <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
-                                        </div>
-                                        <div class="package-list__item-reviews text-text_color text-xs">
-                                            <span class="icon-star-rate text-[#dfd200]"></span>
-                                            <span class="font-bold ">4.9</span>
-                                            <span>(4 Reviews)</span>
-                                        </div>
-                                    </div>
-                                    <div class="package-list__item-title">
-                                        <h3 class="homepage__package-title">
-                                            <a href="#">
-                                                Everest Base Camp Trekking
-                                            </a>
-                                        </h3>
-                                    </div>
-                                    <div class="text-sm text-text_color">
-                                        Price From
-                                    </div>
-                                    <div class="package-list__item-bottom ">
-                                        <div class="package-list__item-price">
-                                            <span class="package-list__item-price-new">US$ 1680</span>
-                                            <span class="package-list__item-price-old ">US$ 1800</span>
-                                        </div>
-
-                                        <div class="package-list__item-explore-btn arrow-move-effect">
-                                            <a href="#">
-                                                Explore
-                                                <span class="icon-arrow-right"></span>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="mb-0 col-span-12 lg:col-span-6 max-w-[600px]">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum magni
+                        recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
+                    <div class="section-title-btn">
+                        <a href="" class="btn-outline-primary hav-icon">View All Regions <span class="icon-view"></span></a>
                     </div>
                 </div>
             </div>
-            <!-- Join Our Upcoming Trips -->
-            <div class="homepage__explore-section container common-box pb-0 ">
-                <div class="homepage__join-banner ">
-                    <div class="homepage__explore-content">
-                        <div class="flex flex-col items-star">
-                            <h2 class="font-playfair text-xl font-bold text-white  lg:text-4xl">
-                                Join Our Upcoming Trips
-                            </h2>
-                            <p class="text-white mt-2">
-                                Explore breathtaking destinations and travel with like-minded adventures.
-                            </p>
-                        </div>
-                        <div class="homepage__explore-content-actions">
-                            <button class="btn-outline-secondary hav-icon">
-                                View Our Upcoming Trips
-                                <span class="icon-view"></span>
-                            </button>
-
-                            <button class="btn-outline-secondary hav-icon">
-                                Customize Your Own Trip
-                                <span class="icon-view"></span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Homepage-Content -->
-            <div class="homepage__main-content homepage__main-content-grid common-box pb-0 ">
-                <div class="container">
-                    <div class=" grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-10">
-                        <div class="col-span-6 ">
-                            <div class="section-title-wrap">
-                                <div class="section-title-sm ">
-                                    About Nepal Travel Experience
-                                </div>
-                                <h2 class="section-title ">
-                                    Namaste!
-                                </h2>
+            <div class="relative mt-9">
+                <div class="grid grid-cols-12 gap-5">
+                    <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                        <div class="package-list__item">
+                            <div class="package-list__item-badge">
+                                <span>TOP RATED</span>
                             </div>
-                            <div class="welcome-content mt-4">
-                                <p>
-                                    Nepal Travel Experience (NTE) offers customized tours for groups wanting to create their
-                                    own
-                                    tour with an array of memorable experiences from the likes of-
-                                </p>
-                                <p>
-                                    Magnificient natural Nepali sights including soaring mountains and fast-flowing rivers,
-                                    Visits to locations rich in Nepali art, culture and history, and Immersion with Nepalese
-                                    in
-                                    theor own ommunity environments. To help create your own special NTE tour we will-
-                                </p>
-                                <p>
-                                    Adapt tour itineraries to match the objectives of your group. Provide guides who have
-                                    excellent local knowledge and an ability to inform and entertain your group.
-                                    Take you to locations suppported by our charity partners, and introduce you to people in
-                                    local communities, to get involved in activities in an authentic environment, ranging
-                                    from
-                                    cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
-                                </p>
-                            </div>
-                            <button class="btn-outline-primary hav-icon mt-6.5 lg:mt-12.5">
-                                More About Us <span class="icon-view"></span>
-                            </button>
-                        </div>
-                        <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish ">
-                            <div class="why-choose-accordion container">
-                                <h2 class="why-choose-accordion__heading ">Why choose us?</h2>
-
-                                <div class="why-choose-accordion__list">
-                                    <div class="why-choose-accordion__item is-open" data-id="q1">
-                                        <button class="why-choose-accordion__trigger" type="button" aria-expanded="true"
-                                            aria-controls="why-choose-q1">
-                                            <div class="why-choose-accordion__label">
-                                                <div class="why-choose-accordion__icon">
-                                                    <img alt="" loading="lazy" width="23" height="23" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/circle-dollar-sign.svg">
-                                                </div>
-                                                <span class="why-choose-accordion__title">Best Price Guarantee</span>
-                                            </div>
-                                            <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
-                                        </button>
-                                        <div class="why-choose-accordion__content" id="why-choose-q1">
-                                            <p>We keep pricing transparent and competitive, with quality service and value
-                                                built
-                                                into every trip.</p>
-                                            <a href="#" class="why-choose-accordion__link arrow-move-effect ">Read More <span
-                                                    class="icon-arrow-right"></span></a>
-                                        </div>
-                                    </div>
-
-                                    <div class="why-choose-accordion__item" data-id="q2">
-                                        <button class="why-choose-accordion__trigger" type="button" aria-expanded="false"
-                                            aria-controls="why-choose-q2">
-                                            <div class="why-choose-accordion__label">
-                                                <div class="why-choose-accordion__icon">
-                                                    <img alt="" loading="lazy" width="22" height="20" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/binoculars.svg">
-                                                </div>
-                                                <span class="why-choose-accordion__title">Local Expert Guides</span>
-                                            </div>
-                                            <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
-                                        </button>
-                                        <div class="why-choose-accordion__content" id="why-choose-q2">
-                                            <p>Our local guides share firsthand knowledge, cultural insight, and practical
-                                                support throughout your journey.</p>
-                                            <a href="#" class="why-choose-accordion__link arrow-move-effect">Read More <span
-                                                    class="icon-arrow-right"></span></a>
-                                        </div>
-                                    </div>
-
-                                    <div class="why-choose-accordion__item" data-id="q3">
-                                        <button class="why-choose-accordion__trigger" type="button" aria-expanded="false"
-                                            aria-controls="why-choose-q3">
-                                            <div class="why-choose-accordion__label">
-                                                <div class="why-choose-accordion__icon">
-                                                    <img alt="" loading="lazy" width="18" height="24" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/shield-check.svg">
-                                                </div>
-                                                <span class="why-choose-accordion__title">Easy Trip Planning</span>
-                                            </div>
-                                            <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
-                                        </button>
-                                        <div class="why-choose-accordion__content" id="why-choose-q3">
-                                            <p>From choosing destinations to finalizing details, we make planning simple and
-                                                flexible for your group.</p>
-                                            <a href="#" class="why-choose-accordion__link arrow-move-effect">Read More <span
-                                                    class="icon-arrow-right"></span></a>
-                                        </div>
-                                    </div>
-
-                                    <div class="why-choose-accordion__item" data-id="q4">
-                                        <button class="why-choose-accordion__trigger" type="button" aria-expanded="false"
-                                            aria-controls="why-choose-q4">
-                                            <div class="why-choose-accordion__label">
-                                                <div class="why-choose-accordion__icon">
-                                                    <img alt="" loading="lazy" width="20" height="22" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/route.svg">
-                                                </div>
-                                                <span class="why-choose-accordion__title">Safety &amp; Responsible</span>
-                                            </div>
-                                            <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
-                                        </button>
-                                        <div class="why-choose-accordion__content" id="why-choose-q4">
-                                            <p>We focus on safe travel practices and thoughtful experiences that respect
-                                                local
-                                                communities and nature.</p>
-                                            <a href="#" class="why-choose-accordion__link arrow-move-effect">Read More <span
-                                                    class="icon-arrow-right"></span></a>
-                                        </div>
+                            <div class="package-list__item-image">
+                                <div class="placeholder__img-wrapper">
+                                    <div class="placeholder__img">
+                                        <a href="#">
+                                            <img src="../images/dynamic/package-thumb1.webp" width="600" height="400"
+                                                alt="image">
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-            <!-- Most Popular -->
-            <div class="container hav-title-btn common-box ">
-                <div class="grid grid-cols-12 gap-5 mb-6">
-                    <div class="mb-0 section-title-wrap lg:max-w-[460px] col-span-12 lg:col-span-6">
-                        <div class="lg:col-span-6">
-                            <div class=" section-title-sm ">
-                                Best Moment Captured
-                            </div>
-                            <h2 class="section-title">
-                                Most Popular Activities and Experiences to Enjoy
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="mb-0 mb-0 col-span-12 lg:col-span-6 max-w-[600px]">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum
-                            magni recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
-                        <div class="section-title-btn">
-                            <a href="" class="btn-outline-primary hav-icon">View All Packages <span class="text-sm icon-view"></span></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Wrapper -->
-                <div class="relative">
-                    <!-- Swiper -->
-                    <div class="swiper categorySwiper px-12 sm:px-4">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="category-list__item">
-                                    <div class="category-list__item-image">
-                                        <div class="placeholder__img-wrapper w-full">
-                                            <div class="w-full placeholder__img">
-                                                <a href="">
-                                                    <img src="/images/dynamic/trekking.webp" width="600" height="800"
-                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
-                                                        style="color: transparent" />
-                                                </a>
-                                            </div>
-                                        </div>
+                            <div class="package-list__item-content">
+                                <div class="package-list__item-meta">
+                                    <div class="package-list__item-duration">
+                                        <span class="icon-time-quarter-to"></span>
+                                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
                                     </div>
-                                    <div class="category-list__item-meta">
-                                        <div class="category-list__item-meta-content ">
-                                            <div>
-                                                <span class="icon-milestone"> </span>12 Trips
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="category-list__wrappper">
-                                    <div class="container-fluid">
-
-                                        <div class="category-list__item-title">
-                                            <a href="">Trekking</a>
-                                        </div>
+                                    <div class="package-list__item-reviews text-text_color text-xs">
+                                        <span class="icon-star-rate text-[#dfd200]"></span>
+                                        <span class="font-bold ">4.9</span>
+                                        <span>(4 Reviews)</span>
                                     </div>
                                 </div>
-                            </div>
-                            <div class=" swiper-slide">
-                                <div class="category-list__item">
-                                    <div class="category-list__item-image">
-                                        <div class="placeholder__img-wrapper w-full">
-                                            <div class="w-full placeholder__img">
-                                                <a href="">
-                                                    <img src="/images/dynamic/hiking.webp" width="600" height="800"
-                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
-                                                        style="color: transparent" />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="category-list__item-meta">
-                                        <div class="category-list__item-meta-content ">
-                                            <div>
-                                                <span class="icon-milestone"> </span>12 Trips
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                <div class="package-list__item-title">
+                                    <h3 class="homepage__package-title">
+                                        <a href="#">
+                                            Everest Base Camp Trekking
+                                        </a>
+                                    </h3>
                                 </div>
-                                <div class="category-list__wrappper">
-                                    <div class="container-fluid">
-
-                                        <div class="category-list__item-title">
-                                            <a href="">Hiking</a>
-                                        </div>
-                                    </div>
+                                <div class="text-sm text-text_color">
+                                    Price From
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="category-list__item">
-                                    <div class="category-list__item-image">
-                                        <div class="placeholder__img-wrapper w-full">
-                                            <div class="w-full placeholder__img">
-                                                <a href="">
-                                                    <img src="/images/dynamic/tour.webp" width="600" height="800"
-                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
-                                                        style="color: transparent" />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="category-list__item-meta">
-                                        <div class="category-list__item-meta-content ">
-                                            <div>
-                                                <span class="icon-milestone"> </span>12 Trips
-                                            </div>
-                                        </div>
+                                <div class="package-list__item-bottom ">
+                                    <div class="package-list__item-price">
+                                        <span class="package-list__item-price-new">US$ 1680</span>
+                                        <span class="package-list__item-price-old ">US$ 1800</span>
                                     </div>
 
-                                </div>
-                                <div class="category-list__wrappper">
-                                    <div class="container-fluid">
-
-                                        <div class="category-list__item-title">
-                                            <a href="">Tour</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="category-list__item">
-                                    <div class="category-list__item-image">
-                                        <div class="placeholder__img-wrapper w-full">
-                                            <div class="w-full placeholder__img">
-                                                <a href="">
-                                                    <img src="/images/dynamic/climbing.webp" width="600" height="800"
-                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
-                                                        style="color: transparent" />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="category-list__item-meta">
-                                        <div class="category-list__item-meta-content ">
-                                            <div>
-                                                <span class="icon-milestone"> </span>12 Trips
-                                            </div>
-                                        </div>
+                                    <div class="package-list__item-explore-btn arrow-move-effect">
+                                        <a href="#">
+                                            Explore
+                                            <span class="icon-arrow-right"></span>
+                                        </a>
                                     </div>
 
-                                </div>
-                                <div class="category-list__wrappper">
-                                    <div class="container-fluid">
-
-                                        <div class="category-list__item-title">
-                                            <a href="">Climbing</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="category-list__item">
-                                    <div class="category-list__item-image">
-                                        <div class="placeholder__img-wrapper w-full">
-                                            <div class="w-full placeholder__img">
-                                                <a href="">
-                                                    <img src="/images/dynamic/trekking.webp" width="600" height="800"
-                                                        loading="lazy" decoding="async" data-nimg="1" alt="banner"
-                                                        style="color: transparent" />
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="category-list__item-meta">
-                                        <div class="category-list__item-meta-content ">
-                                            <div>
-                                                <span class="icon-milestone"> </span>12 Trips
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="category-list__wrappper">
-                                    <div class="container-fluid">
-
-                                        <div class="category-list__item-title">
-                                            <a href="">Trekking</a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- LEFT ARROW -->
-                    <button class="homepage__slider-prev category-prev prev-btn">
-                        <span class="icon-arrow-left text-primary text-2xl"></span>
-                    </button>
-                    <!-- RIGHT ARROW -->
-                    <button class="homepage__slider-next category-next next-btn">
-                        <span class="icon-arrow-right text-primary text-2xl "></span>
-                    </button>
+                    <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                        <div class="package-list__item">
+                            <div class="package-list__item-badge">
+                                <span>TOP RATED</span>
+                            </div>
+                            <div class="package-list__item-image">
+                                <div class="placeholder__img-wrapper">
+                                    <div class="placeholder__img">
+                                        <a href="#">
+                                            <img src="../images/dynamic/package-thumb2.webp" width="600" height="400"
+                                                alt="image">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="package-list__item-content">
+                                <div class="package-list__item-meta">
+                                    <div class="package-list__item-duration">
+                                        <span class="icon-time-quarter-to"></span>
+                                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                                    </div>
+                                    <div class="package-list__item-reviews text-text_color text-xs">
+                                        <span class="icon-star-rate text-[#dfd200]"></span>
+                                        <span class="font-bold ">4.9</span>
+                                        <span>(4 Reviews)</span>
+                                    </div>
+                                </div>
+                                <div class="package-list__item-title">
+                                    <h3 class="homepage__package-title">
+                                        <a href="#">
+                                            Everest Base Camp Trekking
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div class="text-sm text-text_color">
+                                    Price From
+                                </div>
+                                <div class="package-list__item-bottom ">
+                                    <div class="package-list__item-price">
+                                        <span class="package-list__item-price-new">US$ 1680</span>
+                                        <span class="package-list__item-price-old ">US$ 1800</span>
+                                    </div>
+
+                                    <div class="package-list__item-explore-btn arrow-move-effect">
+                                        <a href="#">
+                                            Explore
+                                            <span class="icon-arrow-right"></span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                        <div class="package-list__item">
+                            <div class="package-list__item-image">
+                                <div class="placeholder__img-wrapper">
+                                    <div class="placeholder__img">
+                                        <a href="#">
+                                            <img src="../images/dynamic/package-thumb3.webp" width="600" height="400"
+                                                alt="image">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="package-list__item-content">
+                                <div class="package-list__item-meta">
+                                    <div class="package-list__item-duration">
+                                        <span class="icon-time-quarter-to"></span>
+                                        <span class="package text-xs font-bold text-text_color">Duration: 15 Days</span>
+                                    </div>
+                                    <div class="package-list__item-reviews text-text_color text-xs">
+                                        <span class="icon-star-rate text-[#dfd200]"></span>
+                                        <span class="font-bold ">4.9</span>
+                                        <span>(4 Reviews)</span>
+                                    </div>
+                                </div>
+                                <div class="package-list__item-title">
+                                    <h3 class="homepage__package-title">
+                                        <a href="#">
+                                            Everest Base Camp Trekking
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div class="text-sm text-text_color">
+                                    Price From
+                                </div>
+                                <div class="package-list__item-bottom ">
+                                    <div class="package-list__item-price">
+                                        <span class="package-list__item-price-new">US$ 1680</span>
+                                        <span class="package-list__item-price-old ">US$ 1800</span>
+                                    </div>
+
+                                    <div class="package-list__item-explore-btn arrow-move-effect">
+                                        <a href="#">
+                                            Explore
+                                            <span class="icon-arrow-right"></span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- Join Our Upcoming Trips -->
+        <div class="homepage__explore-section container common-box pb-0 ">
+            <div class="homepage__join-banner ">
+                <div class="homepage__explore-content">
+                    <div class="flex flex-col items-star">
+                        <h2 class="font-playfair text-xl font-bold text-white  lg:text-4xl">
+                            Join Our Upcoming Trips
+                        </h2>
+                        <p class="text-white mt-2">
+                            Explore breathtaking destinations and travel with like-minded adventures.
+                        </p>
+                    </div>
+                    <div class="homepage__explore-content-actions">
+                        <button class="btn-outline-secondary hav-icon">
+                            View Our Upcoming Trips
+                            <span class="icon-view"></span>
+                        </button>
+
+                        <button class="btn-outline-secondary hav-icon">
+                            Customize Your Own Trip
+                            <span class="icon-view"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Homepage-Content -->
+        <div class="homepage__main-content homepage__main-content-grid common-box pb-0 ">
+            <div class="container">
+                <div class=" grid grid-cols-1 items-start gap-8 lg:grid-cols-12 lg:gap-10">
+                    <div class="col-span-6 ">
+                        <div class="section-title-wrap">
+                            <div class="section-title-sm ">
+                                About Nepal Travel Experience
+                            </div>
+                            <h2 class="section-title ">
+                                Namaste!
+                            </h2>
+                        </div>
+                        <div class="welcome-content mt-4">
+                            <p>
+                                Nepal Travel Experience (NTE) offers customized tours for groups wanting to create their
+                                own
+                                tour with an array of memorable experiences from the likes of-
+                            </p>
+                            <p>
+                                Magnificient natural Nepali sights including soaring mountains and fast-flowing rivers,
+                                Visits to locations rich in Nepali art, culture and history, and Immersion with Nepalese
+                                in
+                                theor own ommunity environments. To help create your own special NTE tour we will-
+                            </p>
+                            <p>
+                                Adapt tour itineraries to match the objectives of your group. Provide guides who have
+                                excellent local knowledge and an ability to inform and entertain your group.
+                                Take you to locations suppported by our charity partners, and introduce you to people in
+                                local communities, to get involved in activities in an authentic environment, ranging
+                                from
+                                cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
+                            </p>
+                        </div>
+                        <button class="btn-outline-primary hav-icon mt-6.5 lg:mt-12.5">
+                            More About Us <span class="icon-view"></span>
+                        </button>
+                    </div>
+                    <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish ">
+                        <div class="why-choose-accordion container">
+                            <h2 class="why-choose-accordion__heading ">Why choose us?</h2>
+
+                            <div class="why-choose-accordion__list">
+                                <div class="why-choose-accordion__item is-open" data-id="q1">
+                                    <button class="why-choose-accordion__trigger" type="button" aria-expanded="true"
+                                        aria-controls="why-choose-q1">
+                                        <div class="why-choose-accordion__label">
+                                            <div class="why-choose-accordion__icon">
+                                                <img alt="" loading="lazy" width="23" height="23" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/circle-dollar-sign.svg">
+                                            </div>
+                                            <span class="why-choose-accordion__title">Best Price Guarantee</span>
+                                        </div>
+                                        <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="why-choose-accordion__content" id="why-choose-q1">
+                                        <p>We keep pricing transparent and competitive, with quality service and value
+                                            built
+                                            into every trip.</p>
+                                        <a href="#" class="why-choose-accordion__link arrow-move-effect ">Read More <span
+                                                class="icon-arrow-right"></span></a>
+                                    </div>
+                                </div>
+
+                                <div class="why-choose-accordion__item" data-id="q2">
+                                    <button class="why-choose-accordion__trigger" type="button" aria-expanded="false"
+                                        aria-controls="why-choose-q2">
+                                        <div class="why-choose-accordion__label">
+                                            <div class="why-choose-accordion__icon">
+                                                <img alt="" loading="lazy" width="22" height="20" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/binoculars.svg">
+                                            </div>
+                                            <span class="why-choose-accordion__title">Local Expert Guides</span>
+                                        </div>
+                                        <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="why-choose-accordion__content" id="why-choose-q2">
+                                        <p>Our local guides share firsthand knowledge, cultural insight, and practical
+                                            support throughout your journey.</p>
+                                        <a href="#" class="why-choose-accordion__link arrow-move-effect">Read More <span
+                                                class="icon-arrow-right"></span></a>
+                                    </div>
+                                </div>
+
+                                <div class="why-choose-accordion__item" data-id="q3">
+                                    <button class="why-choose-accordion__trigger" type="button" aria-expanded="false"
+                                        aria-controls="why-choose-q3">
+                                        <div class="why-choose-accordion__label">
+                                            <div class="why-choose-accordion__icon">
+                                                <img alt="" loading="lazy" width="18" height="24" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/shield-check.svg">
+                                            </div>
+                                            <span class="why-choose-accordion__title">Easy Trip Planning</span>
+                                        </div>
+                                        <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="why-choose-accordion__content" id="why-choose-q3">
+                                        <p>From choosing destinations to finalizing details, we make planning simple and
+                                            flexible for your group.</p>
+                                        <a href="#" class="why-choose-accordion__link arrow-move-effect">Read More <span
+                                                class="icon-arrow-right"></span></a>
+                                    </div>
+                                </div>
+
+                                <div class="why-choose-accordion__item" data-id="q4">
+                                    <button class="why-choose-accordion__trigger" type="button" aria-expanded="false"
+                                        aria-controls="why-choose-q4">
+                                        <div class="why-choose-accordion__label">
+                                            <div class="why-choose-accordion__icon">
+                                                <img alt="" loading="lazy" width="20" height="22" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/route.svg">
+                                            </div>
+                                            <span class="why-choose-accordion__title">Safety &amp; Responsible</span>
+                                        </div>
+                                        <span class="why-choose-accordion__toggle" aria-hidden="true"></span>
+                                    </button>
+                                    <div class="why-choose-accordion__content" id="why-choose-q4">
+                                        <p>We focus on safe travel practices and thoughtful experiences that respect
+                                            local
+                                            communities and nature.</p>
+                                        <a href="#" class="why-choose-accordion__link arrow-move-effect">Read More <span
+                                                class="icon-arrow-right"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Most Popular -->
+        <div class="container hav-title-btn common-box ">
+            <div class="grid grid-cols-12 gap-5 mb-6">
+                <div class="mb-0 section-title-wrap lg:max-w-[460px] col-span-12 lg:col-span-6">
+                    <div class="lg:col-span-6">
+                        <div class=" section-title-sm ">
+                            Best Moment Captured
+                        </div>
+                        <h2 class="section-title">
+                            Most Popular Activities and Experiences to Enjoy
+                        </h2>
+                    </div>
+                </div>
+                <div class="mb-0 mb-0 col-span-12 lg:col-span-6 max-w-[600px]">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum
+                        magni recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
+                    <div class="section-title-btn">
+                        <a href="" class="btn-outline-primary hav-icon">View All Packages <span class="text-sm icon-view"></span></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Wrapper -->
+            <div class="relative">
+                <!-- Swiper -->
+                <div class="swiper categorySwiper px-12 sm:px-4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="category-list__item">
+                                <div class="category-list__item-image">
+                                    <div class="placeholder__img-wrapper w-full">
+                                        <div class="w-full placeholder__img">
+                                            <a href="">
+                                                <img src="/images/dynamic/trekking.webp" width="600" height="800"
+                                                    loading="lazy" decoding="async" data-nimg="1" alt="banner"
+                                                    style="color: transparent" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-list__item-meta">
+                                    <div class="category-list__item-meta-content ">
+                                        <div>
+                                            <span class="icon-milestone"> </span>12 Trips
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
+
+                                    <div class="category-list__item-title">
+                                        <a href="">Trekking</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" swiper-slide">
+                            <div class="category-list__item">
+                                <div class="category-list__item-image">
+                                    <div class="placeholder__img-wrapper w-full">
+                                        <div class="w-full placeholder__img">
+                                            <a href="">
+                                                <img src="/images/dynamic/hiking.webp" width="600" height="800"
+                                                    loading="lazy" decoding="async" data-nimg="1" alt="banner"
+                                                    style="color: transparent" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-list__item-meta">
+                                    <div class="category-list__item-meta-content ">
+                                        <div>
+                                            <span class="icon-milestone"> </span>12 Trips
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
+
+                                    <div class="category-list__item-title">
+                                        <a href="">Hiking</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-list__item">
+                                <div class="category-list__item-image">
+                                    <div class="placeholder__img-wrapper w-full">
+                                        <div class="w-full placeholder__img">
+                                            <a href="">
+                                                <img src="/images/dynamic/tour.webp" width="600" height="800"
+                                                    loading="lazy" decoding="async" data-nimg="1" alt="banner"
+                                                    style="color: transparent" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-list__item-meta">
+                                    <div class="category-list__item-meta-content ">
+                                        <div>
+                                            <span class="icon-milestone"> </span>12 Trips
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
+
+                                    <div class="category-list__item-title">
+                                        <a href="">Tour</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-list__item">
+                                <div class="category-list__item-image">
+                                    <div class="placeholder__img-wrapper w-full">
+                                        <div class="w-full placeholder__img">
+                                            <a href="">
+                                                <img src="/images/dynamic/climbing.webp" width="600" height="800"
+                                                    loading="lazy" decoding="async" data-nimg="1" alt="banner"
+                                                    style="color: transparent" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-list__item-meta">
+                                    <div class="category-list__item-meta-content ">
+                                        <div>
+                                            <span class="icon-milestone"> </span>12 Trips
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
+
+                                    <div class="category-list__item-title">
+                                        <a href="">Climbing</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-list__item">
+                                <div class="category-list__item-image">
+                                    <div class="placeholder__img-wrapper w-full">
+                                        <div class="w-full placeholder__img">
+                                            <a href="">
+                                                <img src="/images/dynamic/trekking.webp" width="600" height="800"
+                                                    loading="lazy" decoding="async" data-nimg="1" alt="banner"
+                                                    style="color: transparent" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-list__item-meta">
+                                    <div class="category-list__item-meta-content ">
+                                        <div>
+                                            <span class="icon-milestone"> </span>12 Trips
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="category-list__wrappper">
+                                <div class="container-fluid">
+
+                                    <div class="category-list__item-title">
+                                        <a href="">Trekking</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- LEFT ARROW -->
+                <button class="homepage__slider-prev category-prev prev-btn">
+                    <span class="icon-arrow-left text-primary text-2xl"></span>
+                </button>
+                <!-- RIGHT ARROW -->
+                <button class="homepage__slider-next category-next next-btn">
+                    <span class="icon-arrow-right text-primary text-2xl "></span>
+                </button>
+            </div>
         </div>
     </section>
     <!-- Videos Section -->
-    <section class="homepage__videos common-box  hav-title-btn relative">
+    <section class="homepage__videos common-box pb-0  hav-title-btn relative">
         <div class="container">
             <!-- Title Section -->
             <div class="flex items-center justify-between mb-6">
@@ -889,7 +886,7 @@
         </div>
     </section>
     <!-- Testimonials -->
-    <section class="reviews hav-title-btn common-box lg:py-0!">
+    <section class="reviews hav-title-btn pb-0 common-box">
         <div class="container">
             <div class="flex items-center justify-between">
                 <div class="mb-0 section-title-wrap">
@@ -1091,7 +1088,7 @@
         </div>
     </section>
     <!-- Blogs -->
-    <section class="homepage__blogs common-box hav-title-btn ">
+    <section class="homepage__blogs common-box  hav-title-btn ">
         <div class="container">
             <!-- title -->
             <div class="flex items-center justify-between mb-6">
