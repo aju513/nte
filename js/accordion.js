@@ -18,7 +18,7 @@ document.querySelectorAll(".accordion__item-title").forEach((title) => {
 document.addEventListener("DOMContentLoaded", () => {
   // SHOW MORE
   const equipmentWrapper = document.querySelector(
-    ".package__equipment-wrapper",
+    ".package__equipment-item-list",
   );
 
   const toggleBtn = document.querySelector(".expand-all-equipment");

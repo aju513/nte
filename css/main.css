@@ -116,13 +116,13 @@
     background-repeat: no-repeat !important;
     background-position: right 16px center !important;
     background-size: 1em !important;
-    background-image: url("/images/svg/angle-bottom.svg");
+    background-image: url("../images/svg/angle-bottom.svg");
     option {
       padding-right: 10px;
     }
   }
   select.bg-primary {
-    background-image: url("/images/svg/angle-bottom.svg");
+    background-image: url("../images/svg/angle-bottom.svg");
   }
   .input-file {
     @apply bg-text_color border-text_color/20 rounded-custom text-text_color h-12.5 w-auto border;
@@ -279,7 +279,7 @@
         &::before {
           content: "";
           @apply absolute top-2 left-0 h-2.5 w-2.5 bg-block;
-          mask: url("/images/svg/splotch.svg") no-repeat center;
+          mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -289,7 +289,7 @@
     .accordion__item {
       &:before {
         @apply absolute  top-5 right-5 h-auto w-3.75 cursor-pointer transition-all duration-700 text-text_color;
-        content: url(/images/svg/angle-bottom.svg);
+        content: url(../images/svg/angle-bottom.svg);
       }
       &.active::before {
         @apply rotate-180 transition-all duration-700;
@@ -301,13 +301,13 @@
   }
   /* Default (plus icon) */
   .accordion.with-plus-minus .accordion__item::before {
-    content: url("/images/svg/plus.svg");
+    content: url("../images/svg/plus.svg");
     @apply absolute top-5 right-5 w-[15px] transition-all duration-700;
   }
 
   /* When open → show minus */
   .accordion.with-plus-minus .accordion__item.active::before {
-    content: url("/images/svg/minus.svg");
+    content: url("../images/svg/minus.svg");
     @apply absolute top-5 right-5 w-[15px] transition-all duration-700;
   }
   /* custom radio starts */
@@ -349,7 +349,7 @@
       }
       &:after {
         @apply absolute top-1 -right-2 z-0 h-2 w-2 text-xs opacity-70 rotate-270;
-        content: url("../images/svg/angle-bottom.svg");
+        content: url("..../images/svg/angle-bottom.svg");
         /* content: "/"; */
       }
       &:last-child {
@@ -651,7 +651,7 @@
   }
   .placeholder__img-wrapper:before {
     @apply bg-dim_bg absolute inset-0 z-0 w-full rounded-[inherit] bg-no-repeat;
-    background-image: url("../images/placeholder-logo.svg");
+    background-image: url("..../images/placeholder-logo.svg");
     background-position: 50% 50%;
     background-size: auto 20%;
     content: "";
@@ -702,7 +702,7 @@
         &::before {
           content: "";
           @apply absolute top-1 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
-          mask: url("../images/svg/splotch.svg") no-repeat center;
+          mask: url("..../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -779,7 +779,7 @@
         &::before {
           content: "";
           @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#a79ad9];
-          mask: url("/images/svg/splotch.svg") no-repeat center;
+          mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -1558,7 +1558,7 @@
           @apply relative h-5 w-5;
           &:after {
             @apply absolute top-0 left-0 z-1 h-5 w-5 brightness-0 invert;
-            content: url("/images/svg/star-rate.svg");
+            content: url("../images/svg/star-rate.svg");
           }
         }
       }
@@ -1568,7 +1568,7 @@
           @apply relative h-5 w-5;
           &:after {
             @apply absolute top-0 left-0 z-1 h-5 w-5 brightness-0 invert;
-            content: url("/images/svg/duration.svg");
+            content: url("../images/svg/duration.svg");
           }
         }
       }
@@ -2273,7 +2273,7 @@
   @apply relative;
 
   &::before {
-    content: url("/images/svg/footer.svg");
+    content: url("../images/svg/footer.svg");
     @apply absolute w-full pointer-events-none z-10;
 
     @media (min-width: 0px) {
@@ -2536,7 +2536,7 @@
 }
 .homepage__explore-section {
   .homepage__join-banner {
-    @apply relative bg-[url('/images/dynamic/join-banner.webp')] bg-cover bg-center bg-no-repeat text-white rounded-[10px] flex flex-col justify-center gap-4 p-3 lg:p-10 min-h-[180px];
+    @apply relative bg-[url('../images/dynamic/join-banner.webp')] bg-cover bg-center bg-no-repeat text-white rounded-[10px] flex flex-col justify-center gap-4 p-3 lg:p-10 min-h-[180px];
 
     &::before {
       content: "";
@@ -2580,7 +2580,7 @@
       content: "";
       @apply absolute inset-0 block h-108.25 w-213 lg:-left-51 -top-14;
       background-color: rgb(241, 245, 249);
-      -webkit-mask: url("/images/svg/map.svg") no-repeat center;
+      -webkit-mask: url("../images/svg/map.svg") no-repeat center;
       -webkit-mask-size: contain;
 
       pointer-events: none;
@@ -3263,7 +3263,7 @@
         &::before {
           content: "";
           @apply absolute top-1.25 left-0 w-2.5 h-2.5 bg-current text-block;
-          mask: url("/images/svg/splotch.svg") no-repeat center;
+          mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -3373,7 +3373,7 @@
       @apply relative cursor-pointer rounded-[10px] lg:p-7.5 max-sm:px-4 max-sm:pb-3;
       &:before {
         @apply absolute top-7 right-3 h-auto w-3 transition-all duration-700 max-sm:top-6 max-sm:right-5 max-sm:w-3.75;
-        content: url(/images/svg/angle-bottom.svg);
+        content: url(../images/svg/angle-bottom.svg);
       }
     }
     .package__full-itinerary-item-day {
@@ -3608,7 +3608,7 @@
           &::before {
             content: "";
             @apply absolute top-px left-0 h-6 w-6 bg-current text-block;
-            mask: url("../images/svg/correct.svg") no-repeat center;
+            mask: url("..../images/svg/correct.svg") no-repeat center;
             mask-size: contain;
           }
         }
@@ -3651,7 +3651,7 @@
           &::before {
             content: "";
             @apply absolute top-0.75 left-0 h-5 w-5  text-primary;
-            mask: url("../images/svg/correct.svg") no-repeat center;
+            mask: url("..../images/svg/correct.svg") no-repeat center;
             mask-size: contain;
           }
         }
@@ -3700,9 +3700,9 @@
           &::before {
             content: "";
             @apply absolute left-0 top-0.75 block h-5 w-5 bg-block;
-            mask: url("/images/svg/exclude-icon.svg") no-repeat center;
+            mask: url("../images/svg/exclude-icon.svg") no-repeat center;
             mask-size: contain;
-            -webkit-mask: url("/images/svg/exclude-icon.svg") no-repeat center;
+            -webkit-mask: url("../images/svg/exclude-icon.svg") no-repeat center;
             -webkit-mask-size: contain;
           }
         }
@@ -3809,7 +3809,7 @@
           &::before {
             content: "";
             @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-block;
-            mask: url("/images/svg/splotch.svg") no-repeat center;
+            mask: url("../images/svg/splotch.svg") no-repeat center;
             mask-size: contain;
           }
         }
@@ -3859,7 +3859,7 @@
         &::before {
           content: "";
           @apply absolute top-px left-0 h-6 w-6 bg-current text-text_color;
-          mask: url("/images/svg/splotch.svg") no-repeat center;
+          mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -3964,7 +3964,7 @@
         &::before {
           content: "";
           @apply absolute top-2 left-0 w-2.5 h-2.5 bg-current text-block;
-          mask: url("/images/svg/splotch.svg") no-repeat center;
+          mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -3974,70 +3974,64 @@
 /* package equipment */
 .package__equipment-wrapper {
   @apply mt-5;
+  .package__equipment-item-list {
+    .package__equipment-item {
+      @apply mb-6 last:mb-0;
 
-  .package__equipment-item {
-    @apply mb-6 last:mb-0;
-
-    &:not(:first-child) {
-      display: none;
+      &:not(:first-child) {
+        display: none;
+      }
+      .package__equipment-item-title {
+        @apply font-mulish mt-3 mb-3 text-xl font-bold text-black;
+      }
     }
-    .package__equipment-item-title {
-      @apply font-mulish mt-3 mb-3 text-xl font-bold text-black;
-    }
-    .package__equipment-content {
-      a {
-        @apply text-secondary font-medium underline;
-      }
-      h2 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1.5rem, 3vw, 1.7rem);
-      }
-      h3 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1.3rem, 3vw, 1.6rem);
-      }
-      h4 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1.2rem, 3vw, 1.5rem);
-      }
-      h5 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1rem, 3vw, 1.25rem);
-      }
-      h6 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1rem, 3vw, 1rem);
-      }
-      ul {
-        @apply mb-7;
-
-        &:last-of-type {
-          @apply mb-0;
-        }
-        li {
-          @apply text-text_color relative mb-2.75 pl-7.5 text-base leading-5 last:mb-0;
-
-          &::before {
-            content: "";
-            @apply absolute top-1.5 left-2 w-2.5 h-2.5 bg-current text-block;
-            mask: url("/images/svg/splotch.svg") no-repeat center;
-            mask-size: contain;
-          }
-        }
+    &.show-all {
+      .package__equipment-item {
+        display: block;
+        animation: slideDown 0.5s ease-out;
       }
     }
   }
-
-  &.show-all {
-    .package__equipment-item {
-      display: block;
-      animation: slideDown 0.5s ease-out;
+  .package__equipment-content {
+    a {
+      @apply text-secondary font-medium underline;
     }
-  }
-  &.Show less list {
-    .package__equipment-item {
-      display: block;
-      animation: slideDown 0.5s ease-out;
+    h2 {
+      @apply font-playfair mb-3 font-bold text-black;
+      font-size: clamp(1.5rem, 3vw, 1.7rem);
+    }
+    h3 {
+      @apply font-playfair mb-3 font-bold text-black;
+      font-size: clamp(1.3rem, 3vw, 1.6rem);
+    }
+    h4 {
+      @apply font-playfair mb-3 font-bold text-black;
+      font-size: clamp(1.2rem, 3vw, 1.5rem);
+    }
+    h5 {
+      @apply font-playfair mb-3 font-bold text-black;
+      font-size: clamp(1rem, 3vw, 1.25rem);
+    }
+    h6 {
+      @apply font-playfair mb-3 font-bold text-black;
+      font-size: clamp(1rem, 3vw, 1rem);
+    }
+    ul {
+      @apply mb-7;
+
+      &:last-of-type {
+        @apply mb-0;
+      }
+      li {
+        @apply text-text_color relative mb-2.75 pl-7.5 text-base leading-5 last:mb-0;
+
+        &::before {
+          content: "";
+          @apply absolute top-1.5 left-2 w-2.5 h-2.5 bg-current text-block;
+          mask: url("../images/svg/splotch.svg") no-repeat center;
+          mask-size: contain;
+        }
+      }
     }
   }
 }

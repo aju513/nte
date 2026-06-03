@@ -913,7 +913,7 @@
               Nepal,
               you'll encounter charming Sherpa villages, ancient monasteries, and vibrant local culture.
             </div>
-            <div class="">
+            <div class="package__equipment-item-list">
               <div class="package__equipment-item ">
                 <div class="package__equipment-item-title ">
                   <span class="icon-upper-body"></span>
