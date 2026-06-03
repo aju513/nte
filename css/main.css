@@ -81,7 +81,7 @@
   ol {
     @apply mb-6;
     li {
-      @apply mb-3 list-inside list-decimal pl-4.5 -indent-4.5;
+      @apply mb-2.75 list-inside list-decimal pl-4.5 -indent-4.5 last:mb-0 leading-5 text-base;
     }
   }
   /* heading tags */
@@ -3972,100 +3972,80 @@
   }
 }
 /* package equipment */
-.package__equipment {
-  .package__equipment-content {
-    a {
-      @apply text-secondary font-medium underline;
+.package__equipment-wrapper {
+  @apply mt-5;
+
+  .package__equipment-item {
+    @apply mb-6 last:mb-0;
+
+    &:not(:first-child) {
+      display: none;
     }
-
-    h2 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.5rem, 3vw, 1.7rem);
+    .package__equipment-item-title {
+      @apply font-mulish mt-3 mb-3 text-xl font-bold text-black;
     }
-
-    h3 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.3rem, 3vw, 1.6rem);
-    }
-
-    h4 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.2rem, 3vw, 1.5rem);
-    }
-
-    h5 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1rem, 3vw, 1.25rem);
-    }
-
-    h6 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1rem, 3vw, 1rem);
-    }
-
-    ul {
-      @apply mb-7;
-
-      &:last-of-type {
-        @apply mb-0;
+    .package__equipment-content {
+      a {
+        @apply text-secondary font-medium underline;
       }
+      h2 {
+        @apply font-playfair mb-3 font-bold text-black;
+        font-size: clamp(1.5rem, 3vw, 1.7rem);
+      }
+      h3 {
+        @apply font-playfair mb-3 font-bold text-black;
+        font-size: clamp(1.3rem, 3vw, 1.6rem);
+      }
+      h4 {
+        @apply font-playfair mb-3 font-bold text-black;
+        font-size: clamp(1.2rem, 3vw, 1.5rem);
+      }
+      h5 {
+        @apply font-playfair mb-3 font-bold text-black;
+        font-size: clamp(1rem, 3vw, 1.25rem);
+      }
+      h6 {
+        @apply font-playfair mb-3 font-bold text-black;
+        font-size: clamp(1rem, 3vw, 1rem);
+      }
+      ul {
+        @apply mb-7;
 
-      li {
-        @apply text-text_color relative mb-2.75 pl-7.5 text-base leading-9;
-
-        &::before {
-          content: "";
-          @apply absolute top-0.5 left-2 w-2.5 h-2.5 bg-current text-block;
-          mask: url("/images/svg/splotch.svg") no-repeat center;
-          mask-size: contain;
+        &:last-of-type {
+          @apply mb-0;
         }
-      }
-    }
-  }
-  .package__equipment-wrapper {
-    @apply mt-5;
+        li {
+          @apply text-text_color relative mb-2.75 pl-7.5 text-base leading-5 last:mb-0;
 
-    .package__equipment-item {
-      @apply mb-8;
-
-      &:not(:first-child) {
-        display: none;
-      }
-      .package__equipment-item-title {
-        @apply font-mulish mb-3 text-xl font-bold text-black;
-      }
-
-      .package__equipment-item-content {
-        @apply opacity-100 overflow-visible max-h-full;
-        ol,
-        ul {
-          @apply mt-0 mb-0;
-          li {
-            @apply mb-3 list-decimal text-base  text-text_color leading-5;
+          &::before {
+            content: "";
+            @apply absolute top-1.5 left-2 w-2.5 h-2.5 bg-current text-block;
+            mask: url("/images/svg/splotch.svg") no-repeat center;
+            mask-size: contain;
           }
         }
       }
     }
+  }
 
-    &.show-all {
-      .package__equipment-item {
-        display: block;
-        animation: slideDown 0.5s ease-out;
-      }
-    }
-    &.Show less list {
-      .package__equipment-item {
-        display: block;
-        animation: slideDown 0.5s ease-out;
-      }
+  &.show-all {
+    .package__equipment-item {
+      display: block;
+      animation: slideDown 0.5s ease-out;
     }
   }
-  .package__cta-links {
-    @apply mt-8 flex items-center gap-10;
-
-    .package__cta-btn {
-      @apply text-base font-bold text-text_color underline cursor-pointer bg-transparent border-0 p-0 hover:text-primary;
+  &.Show less list {
+    .package__equipment-item {
+      display: block;
+      animation: slideDown 0.5s ease-out;
     }
+  }
+}
+.package__cta-links {
+  @apply mt-4 flex items-center gap-10;
+
+  .package__cta-btn {
+    @apply text-base font-bold text-text_color underline cursor-pointer bg-transparent border-0 p-0 hover:text-primary;
   }
 }
 /* package before you book */

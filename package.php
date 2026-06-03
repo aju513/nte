@@ -904,7 +904,7 @@
               </div>
             </div>
           </div>
-          <div class="package__equipment common-module" id="package-equipments">
+          <div class="package__equipment-wrapper common-module" id="package-equipments">
             <h2 class="package__section-title">Equipment List</h2>
             <div class="package__equipment-content text-base leading-7">
               Embark on the ultimate adventure with a trek to Mount Everest, the world's highest peak. The Mount
@@ -913,20 +913,20 @@
               Nepal,
               you'll encounter charming Sherpa villages, ancient monasteries, and vibrant local culture.
             </div>
-            <div class="package__equipment-wrapper">
+            <div class="">
               <div class="package__equipment-item ">
                 <div class="package__equipment-item-title ">
                   <span class="icon-upper-body"></span>
                   Upper Body
                 </div>
-                <div class="package__equipment-item-content">
-                  <ul>
+                <div class="package__equipment-content">
+                  <ol>
                     <li>Moisture-wicking base layers (2-3 t-shirts, long-sleeve shirts)</li>
                     <li>Mid-layers (fleece jacket, lightweight micro-fleece)</li>
                     <li>Insulated jacket (down or synthetic for -10°C nights)</li>
                     <li>Waterproof/windproof shell (Gore-Tex jacket)</li>
                     <li>Gloves (liner pair + insulated mittens/overmitts)</li>
-                  </ul>
+                  </ol>
                 </div>
               </div>
               <div class="package__equipment-item hidden-item">
