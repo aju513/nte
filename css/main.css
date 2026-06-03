@@ -4022,7 +4022,6 @@
       }
     }
   }
-
   .package__equipment-wrapper {
     @apply mt-5;
 
@@ -4032,18 +4031,15 @@
       &:not(:first-child) {
         display: none;
       }
-
       .package__equipment-item-title {
         @apply font-mulish mb-3 text-xl font-bold text-black;
       }
 
       .package__equipment-item-content {
         @apply opacity-100 overflow-visible max-h-full;
-
         ol,
         ul {
           @apply mt-0 mb-0;
-
           li {
             @apply mb-3 list-decimal text-base  text-text_color leading-5;
           }

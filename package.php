@@ -920,13 +920,13 @@
                   Upper Body
                 </div>
                 <div class="package__equipment-item-content">
-                  <ol>
+                  <ul>
                     <li>Moisture-wicking base layers (2-3 t-shirts, long-sleeve shirts)</li>
                     <li>Mid-layers (fleece jacket, lightweight micro-fleece)</li>
                     <li>Insulated jacket (down or synthetic for -10°C nights)</li>
                     <li>Waterproof/windproof shell (Gore-Tex jacket)</li>
                     <li>Gloves (liner pair + insulated mittens/overmitts)</li>
-                  </ol>
+                  </ul>
                 </div>
               </div>
               <div class="package__equipment-item hidden-item">
