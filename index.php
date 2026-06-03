@@ -240,7 +240,7 @@
             </div>
     </section>
     <!-- Top Places to Explore Whole Section -->
-    <section class="container-fluid-custom pb-0!">
+    <section class="container-fluid-custom">
         <!-- Top places to Explore -->
         <div class="container  hav-title-btn ">
             <!-- Title -->
@@ -583,7 +583,7 @@
             </div>
         </div>
         <!-- Most Popular -->
-        <div class="container hav-title-btn common-box ">
+        <div class="container hav-title-btn common-box pb-0">
             <div class="grid grid-cols-12 gap-5 mb-6">
                 <div class="mb-0 section-title-wrap lg:max-w-[460px] col-span-12 lg:col-span-6">
                     <div class="lg:col-span-6">
@@ -623,16 +623,12 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div>
-                                            <span class="icon-milestone"> </span>12 Trips
-                                        </div>
+                                        <span class="icon-milestone"> </span>12 Trips
                                     </div>
                                 </div>
-
                             </div>
                             <div class="category-list__wrappper">
                                 <div class="container-fluid">
-
                                     <div class="category-list__item-title">
                                         <a href="">Trekking</a>
                                     </div>
@@ -654,12 +650,9 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div>
-                                            <span class="icon-milestone"> </span>12 Trips
-                                        </div>
+                                        <span class="icon-milestone"> </span>12 Trips
                                     </div>
                                 </div>
-
                             </div>
                             <div class="category-list__wrappper">
                                 <div class="container-fluid">
@@ -685,16 +678,13 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div>
-                                            <span class="icon-milestone"> </span>12 Trips
-                                        </div>
+                                        <span class="icon-milestone"> </span>12 Trips
                                     </div>
                                 </div>
 
                             </div>
                             <div class="category-list__wrappper">
                                 <div class="container-fluid">
-
                                     <div class="category-list__item-title">
                                         <a href="">Tour</a>
                                     </div>
@@ -716,16 +706,12 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div>
-                                            <span class="icon-milestone"> </span>12 Trips
-                                        </div>
+                                        <span class="icon-milestone"> </span>12 Trips
                                     </div>
                                 </div>
-
                             </div>
                             <div class="category-list__wrappper">
                                 <div class="container-fluid">
-
                                     <div class="category-list__item-title">
                                         <a href="">Climbing</a>
                                     </div>
@@ -747,16 +733,12 @@
                                 </div>
                                 <div class="category-list__item-meta">
                                     <div class="category-list__item-meta-content ">
-                                        <div>
-                                            <span class="icon-milestone"> </span>12 Trips
-                                        </div>
+                                        <span class="icon-milestone"> </span>12 Trips
                                     </div>
                                 </div>
-
                             </div>
                             <div class="category-list__wrappper">
                                 <div class="container-fluid">
-
                                     <div class="category-list__item-title">
                                         <a href="">Trekking</a>
                                     </div>

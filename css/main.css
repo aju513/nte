@@ -1036,7 +1036,7 @@
       @apply -bottom-3 pl-4 z-10 absolute;
     }
     .category-list__item-meta-content {
-      @apply inline-flex text-center rounded-xl bg-[#6cafda] py-0.75 px-3.5 text-sm text-white gap-4 leading-4.5;
+      @apply inline-flex text-center rounded-xl bg-[#6cafda] py-1 px-3.5 text-sm text-white gap-4 leading-4.5;
     }
     .icon-milestone {
       @apply text-xs;

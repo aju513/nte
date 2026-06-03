@@ -37,9 +37,7 @@
               </div>
               <div class="category-list__item-meta">
                 <div class="category-list__item-meta-content ">
-                  <div class="">
-                    <span class="icon-milestone"> </span>12 Trips
-                  </div>
+                  <span class="icon-milestone"> </span>12 Trips
                 </div>
               </div>
 
@@ -68,16 +66,12 @@
               </div>
               <div class="category-list__item-meta">
                 <div class="category-list__item-meta-content ">
-                  <div class="">
-                    <span class="icon-milestone"> </span>12 Trips
-                  </div>
+                  <span class="icon-milestone"> </span>12 Trips
                 </div>
               </div>
-
             </div>
             <div class="category-list__wrappper">
               <div class="container-fluid">
-
                 <div class="category-list__item-title">
                   <a href="">Hiking</a>
                 </div>
@@ -99,16 +93,13 @@
               </div>
               <div class="category-list__item-meta">
                 <div class="category-list__item-meta-content ">
-                  <div class="">
-                    <span class="icon-milestone"> </span>12 Trips
-                  </div>
+                  <span class="icon-milestone"> </span>12 Trips
                 </div>
               </div>
 
             </div>
             <div class="category-list__wrappper">
               <div class="container-fluid">
-
                 <div class="category-list__item-title">
                   <a href="">Climbing</a>
                 </div>
@@ -130,16 +121,12 @@
               </div>
               <div class="category-list__item-meta">
                 <div class="category-list__item-meta-content ">
-                  <div class="">
-                    <span class="icon-milestone"> </span>12 Trips
-                  </div>
+                  <span class="icon-milestone"> </span>12 Trips
                 </div>
               </div>
-
             </div>
             <div class="category-list__wrappper">
               <div class="container-fluid">
-
                 <div class="category-list__item-title">
                   <a href="">Tour</a>
                 </div>
