@@ -698,10 +698,10 @@
         @apply mb-0;
       }
       li {
-        @apply text-text_color relative mb-2.5 pl-5.5 text-base leading-5;
+        @apply text-text_color relative mb-2.5 pl-5.5 text-base leading-6;
         &::before {
           content: "";
-          @apply absolute top-1 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
+          @apply absolute top-2 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
           mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
@@ -3264,10 +3264,10 @@
       @apply mb-5;
 
       li {
-        @apply relative text-text_color leading-5 text-base;
+        @apply relative text-text_color leading-6 text-base;
         &::before {
           content: "";
-          @apply absolute top-1.25 left-0 w-2.5 h-2.5 bg-current text-block;
+          @apply absolute top-2 left-0 w-2.5 h-2.5 bg-current text-block;
           mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
@@ -3965,7 +3965,7 @@
         @apply mb-0;
       }
       li {
-        @apply text-text_color relative mb-2.75 pl-5.5 text-base leading-7;
+        @apply text-text_color relative mb-2.75 pl-5.5 text-base leading-6;
         &::before {
           content: "";
           @apply absolute top-2 left-0 w-2.5 h-2.5 bg-current text-block;
