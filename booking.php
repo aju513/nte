@@ -24,7 +24,7 @@
             <div class="grid grid-cols-12 gap-[15px]">
               <div class="col-span-12 lg:col-span-8">
                 <form class="floating-form">
-                  <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white px-4 py-5 sm:px-6">
+                  <div class="border border-primary/10 mb-4 rounded-custom bg-white px-4 py-5 sm:px-6">
                     <div class="pb-3 text-lg font-bold text-text_color">
                       Date and Travelers
                     </div>
@@ -59,7 +59,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white px-4 py-5 sm:px-6">
+                  <div class="border border-primary/10 mb-4 rounded-custom bg-white px-4 py-5 sm:px-6">
                     <div class="pb-3 text-lg font-bold border-b text-text_color">
                       Add-Ons and Extra Options
                     </div>
@@ -128,7 +128,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="border border-primary border-opacity-10 mb-4 rounded-[5px] bg-white px-4 py-5 sm:px-6">
+                  <div class="border border-primary/10 mb-4 rounded-custom bg-white px-4 py-5 sm:px-6">
                     <div class="pb-5 text-lg font-bold text-text_color">
                       Lead Traveller Details
                     </div>
@@ -270,7 +270,7 @@
                     </button>
                   </div>
                 </form>
-                <div class="mt-5 rounded-[5px] border border-secondary px-4 py-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <div class="mt-5 rounded-custom border border-secondary px-4 py-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                   <div class="text-sm font-bold text-text_color">
                     Please wait while you are redirected to the payment...
                   </div>
@@ -282,14 +282,14 @@
                 </div>
               </div>
               <div class="col-span-12 lg:col-span-4">
-                <div class="shadow-custom booking-info rounded-[5px] bg-white lg:sticky lg:top-20">
+                <div class="shadow-custom booking-info rounded-custom bg-white lg:sticky lg:top-20">
                   <div
-                    class="booking-info__title rounded-t-[5px] bg-primary p-3 font-Montserrat text-base  font-bold text-white sm:text-lg">
+                    class="booking-info__title rounded-t-custom bg-primary p-3 font-Montserrat text-base  font-bold text-white sm:text-lg">
                     Your Trip Details
                   </div>
                   <div class="px-6 py-5 booking-info__body">
-                    <div class="flex items-center gap-3 rounded-[5px] booking-info__package">
-                      <div class="booking-info__package-image flex-[0_0_80px]">
+                    <div class="flex items-center gap-3 rounded-custom booking-info__package">
+                      <div class="booking-info__package-image ">
                         <img
                           src="/images/dynamic/blog-thumb.webp"
                           width="600"
@@ -340,7 +340,7 @@
                       </div>
                     </div>
                     <div class="pb-4 mb-3 border-b border-dashed">
-                      <div class="flex items-center gap-3 rounded-[5px] booking-info__package">
+                      <div class="flex items-center gap-3 rounded-custom booking-info__package">
                         <div class="booking-info__label flex-[0_0_50%] text-right text-sm font-semibold text-text_color">
                           Trip Date:
                         </div>

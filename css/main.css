@@ -349,7 +349,7 @@
       }
       &:after {
         @apply absolute top-1 -right-2 z-0 h-2 w-2 text-xs opacity-70 rotate-270;
-        content: url("..../images/svg/angle-bottom.svg");
+        content: url("../images/svg/angle-bottom.svg");
         /* content: "/"; */
       }
       &:last-child {
@@ -651,7 +651,7 @@
   }
   .placeholder__img-wrapper:before {
     @apply bg-dim_bg absolute inset-0 z-0 w-full rounded-[inherit] bg-no-repeat;
-    background-image: url("..../images/placeholder-logo.svg");
+    background-image: url("../images/placeholder-logo.svg");
     background-position: 50% 50%;
     background-size: auto 20%;
     content: "";
@@ -702,7 +702,7 @@
         &::before {
           content: "";
           @apply absolute top-1 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
-          mask: url("..../images/svg/splotch.svg") no-repeat center;
+          mask: url("../images/svg/splotch.svg") no-repeat center;
           mask-size: contain;
         }
       }
@@ -2877,6 +2877,11 @@
   .booking-info__body :where(.border-b, .pb-4, .pb-3) > .flex {
     @apply max-sm:flex-col max-sm:items-start max-sm:gap-1.5;
   }
+  .booking-info__package-image {
+    img {
+      @apply flex-[0_0_80px] w-[80px];
+    }
+  }
 
   .booking-info__label {
     @apply max-sm:flex-none max-sm:text-left;
@@ -3608,7 +3613,7 @@
           &::before {
             content: "";
             @apply absolute top-px left-0 h-6 w-6 bg-current text-block;
-            mask: url("..../images/svg/correct.svg") no-repeat center;
+            mask: url("../images/svg/correct.svg") no-repeat center;
             mask-size: contain;
           }
         }
@@ -3651,7 +3656,7 @@
           &::before {
             content: "";
             @apply absolute top-0.75 left-0 h-5 w-5  text-primary;
-            mask: url("..../images/svg/correct.svg") no-repeat center;
+            mask: url("../images/svg/correct.svg") no-repeat center;
             mask-size: contain;
           }
         }
@@ -4105,10 +4110,10 @@
   }
 }
 .package-price-main-wrapper {
-  @apply rounded-[10px] bg-primary border-block border;
+  @apply rounded-[10px] border-block border;
 }
 .package-price-wrapper {
-  @apply p-5 lg:p-6.25;
+  @apply p-5 lg:p-6.25 bg-primary rounded-t-[10px];
 }
 .package-price-title {
   @apply text-base font-bold text-white leading-7;
@@ -4123,7 +4128,7 @@
   }
 }
 .package-group-price {
-  @apply bg-white;
+  @apply bg-white rounded-t-[10px];
   .package__discount-list {
     @apply px-6.25;
   }
@@ -4139,6 +4144,9 @@
   button {
     @apply font-mulish mb-3 block w-full py-4 text-center font-bold uppercase;
   }
+}
+.package-price-main-wrapper .package-book-options {
+  @apply rounded-[10px];
 }
 .package-price-rating {
   @apply mt-5;
@@ -4297,4 +4305,8 @@
   > * {
     @apply relative z-1;
   }
+}
+.more-less-wrapper {
+  overflow: hidden;
+  transition: height 0.3s ease;
 }
