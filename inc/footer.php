@@ -78,7 +78,6 @@
                 <!-- Quick Links -->
                 <div class="footer_links">
                     <h4>Quick Links</h4>
-
                     <ul>
                         <li><a href="" class="link-underline">Destinations</a></li>
                         <li><a href="" class="link-underline">Travel Guides</a></li>

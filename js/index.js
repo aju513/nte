@@ -975,10 +975,10 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       breakpoints: {
         0: {
-          slidesPerView: 1,
+          slidesPerView: 1.15,
         },
         640: {
-          slidesPerView: 2,
+          slidesPerView: 2.25,
         },
         1024: {
           slidesPerView: 3,
@@ -991,7 +991,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     new Swiper(".testimonialSwiper", {
       loop: false,
-      slidesPerView: 1,
+      slidesPerView: 1.15,
       spaceBetween: 20,
       navigation: {
         nextEl: ".testimonial-next",
@@ -999,7 +999,7 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       breakpoints: {
         768: {
-          slidesPerView: 1,
+          slidesPerView: 1.25,
           spaceBetween: 24,
         },
         1024: {

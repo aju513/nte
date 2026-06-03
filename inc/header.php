@@ -1160,7 +1160,7 @@
                                                 src="./images/svg/logo.svg">
                                 </a>
                         </div>
-                        <div class="flex items-center gap-3">
+                        <div class="flex items-center gap-5">
                                 <button class="mobile-search-trigger" type="button" aria-label="Open search">
                                         <span class="icon text-primary text-2xl icon-searchicon"></span>
                                 </button>

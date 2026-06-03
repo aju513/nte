@@ -98,7 +98,7 @@
     </ul>
   </div>
 </section>
-<section class="common-box pt-0 package-page bg-secondary relative " role="main">
+<section class="package-page bg-secondary relative " role="main">
   <div class="package__banner">
     <div class="container-fluid ">
       <div class="fancybox-wrapper">
@@ -1602,10 +1602,7 @@
       </div>
     </div>
   </div>
-
 </section>
-
-
 <script>
   //add class in body
   document.body.classList.add("no-header-sticky");

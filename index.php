@@ -59,7 +59,7 @@
         </div>
     </section>
     <!-- Bestselling -->
-    <section class="homepage__bestselling py-15 package-list hav-title-btn">
+    <section class="homepage__bestselling py-15 package-list hav-title-btn scroll-wrap">
         <div class="container ">
             <div class="mb-6 flex items-start gap-4 flex-row md:items-center justify-between">
                 <div class="mb-0 section-title-wrap">
@@ -242,7 +242,7 @@
     <!-- Top Places to Explore Whole Section -->
     <section class="container-fluid-custom">
         <!-- Top places to Explore -->
-        <div class="container  hav-title-btn ">
+        <div class="container  hav-title-btn scroll-wrap">
             <!-- Title -->
             <div class="grid grid-cols-12 gap-5 mb-6 ">
                 <div class="mb-0 section-title-wrap col-span-12 lg:col-span-6 max-w-[410px] ">
@@ -496,7 +496,7 @@
                             <h2 class="why-choose-accordion__heading ">Why choose us?</h2>
 
                             <div class="why-choose-accordion__list">
-                                <div class="why-choose-accordion__item is-open" data-id="q1">
+                                <div class="why-choose-accordion__item" data-id="q1">
                                     <button class="why-choose-accordion__trigger" type="button" aria-expanded="true"
                                         aria-controls="why-choose-q1">
                                         <div class="why-choose-accordion__label">

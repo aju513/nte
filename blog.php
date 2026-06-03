@@ -3,7 +3,7 @@
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
 <section class="bg-secondary blog-page common-box pt-0" role="main">
-  <div class="container-fluid-custom">
+  <div class="container-fluid-custom" role="main">
     <div class="container">
       <div class="page-title">
         <h1>Blog</h1>
