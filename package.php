@@ -510,6 +510,9 @@
                   <div class="package__full-itinerary-note-content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                    <ul>
+                      <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eveniet beatae inventore nesciunt delectus eligendi earum nihil suscipit saepe eum, accusantium totam, officiis odio. Unde.</li>
+                    </ul>
                   </div>
                 </div>
                 <div class="package__full-itinerary-item relative mb-6.25 last:mb-0">

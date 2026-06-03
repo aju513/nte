@@ -1,9 +1,6 @@
 <footer class="footer  relative">
     <div class="bg-secondary md:h-10 lg:h-43 h-6 w-full relative">
     </div>
-
-
-
     <!-- Main Footer Content -->
     <div class="footer_container relative">
 
@@ -57,21 +54,21 @@
                         <li>
                             <span class="icon-envelope"></span>
                             <a href="mailto:info@nepaltravelexperience.com"
-                                class="max-w-65 md:max-w-none wrap-break-words ">
+                                class="max-w-65 md:max-w-none wrap-break-words link-underline ">
                                 info@nepaltravelexperience.com
                             </a>
                         </li>
 
                         <li>
                             <span class="icon-phone"></span>
-                            <a href="tel:+977014123456" class="">
+                            <a href="tel:+977014123456" class="link-underline">
                                 +977 - 01 - 4123456
                             </a>
                         </li>
 
                         <li>
                             <span class="icon-whatapp "></span>
-                            <a href="https://wa.me/9779851012345" class="">
+                            <a href="https://wa.me/9779851012345" class="link-underline">
                                 +977 9851012345
                             </a>
                         </li>
@@ -83,14 +80,14 @@
                     <h4>Quick Links</h4>
 
                     <ul>
-                        <li><a href="">Destinations</a></li>
-                        <li><a href="">Travel Guides</a></li>
-                        <li><a href="">Nepal Trekking</a></li>
-                        <li><a href="">Customize Trip</a></li>
-                        <li><a href="">Photos</a></li>
-                        <li><a href="">Write a Review</a></li>
-                        <li><a href="">Terms and Conditions</a></li>
-                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="" class="link-underline">Destinations</a></li>
+                        <li><a href="" class="link-underline">Travel Guides</a></li>
+                        <li><a href="" class="link-underline">Nepal Trekking</a></li>
+                        <li><a href="" class="link-underline">Customize Trip</a></li>
+                        <li><a href="" class="link-underline">Photos</a></li>
+                        <li><a href="" class="link-underline">Write a Review</a></li>
+                        <li><a href="" class="link-underline">Terms and Conditions</a></li>
+                        <li><a href="" class="link-underline">Privacy Policy</a></li>
                     </ul>
                 </div>
 

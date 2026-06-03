@@ -562,7 +562,7 @@
   .link-underline {
     @apply relative inline-block;
     &:after {
-      @apply absolute -bottom-1.5 left-1/2 block h-0.5 w-0 bg-white transition-all duration-500;
+      @apply absolute -bottom-1.5 left-1/2 block h-0.5 w-0 bg-primary/60 transition-all duration-500;
       content: "";
     }
     &:hover:after {
@@ -2386,7 +2386,7 @@
             }
 
             a {
-              @apply hover:text-primary transition;
+              @apply transition duration-500 ease-out;
             }
           }
         }
@@ -2402,7 +2402,7 @@
             @apply mb-2;
 
             a {
-              @apply hover:text-primary transition text-base font-mulish;
+              @apply transition text-base font-mulish;
             }
           }
         }
@@ -3363,7 +3363,7 @@
           &::before {
             content: "";
             @apply absolute top-2 left-0 h-2.5 w-2.5 text-block;
-            mask: url("images/svg/splotch.svg") no-repeat center;
+            mask: url("..images/svg/splotch.svg") no-repeat center;
             mask-size: contain;
           }
         }
