@@ -2,13 +2,13 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-<section class="common-box" role="main">
+<section class="common-box bg-secondary" role="main">
   <div class="container">
     <img
       src="/images/dynamic/404.svg"
       width="400"
       height="235"
-      class="mx-auto "
+      class="mx-auto bg-white rounded-xl"
       alt="banner" />
 
     <div class="pt-10 text-center page-title">
