@@ -1125,11 +1125,11 @@
                                                                                         </a>
                                                                                         <form class="relative">
                                                                                                 <input type="text" id="default-search"
-                                                                                                        class="block h-13.75 w-full rounded-lg border border-gray-300 bg-white px-2 py-2"
+                                                                                                        class="block h-12 w-full rounded-lg border border-gray-300 px-3.5 bg-white"
                                                                                                         placeholder="Search" required="">
                                                                                                 <button type="submit"
-                                                                                                        class="absolute inset-e-2.5 bottom-3.5   text-sm font-medium">
-                                                                                                        <span class="icon  icon-searchicon"></span>
+                                                                                                        class="absolute inset-e-2.5 bottom-2.5   text-sm font-medium">
+                                                                                                        <span class="icon icon-searchicon"></span>
                                                                                                 </button>
                                                                                         </form>
                                                                                 </div>
@@ -1365,10 +1365,11 @@
                                 <div class="mobile-search__content">
                                         <form class="relative">
                                                 <input type="text"
-                                                        class="block h-13.75 w-full rounded-lg border border-gray-300 bg-white px-4 py-2"
+                                                        class="block h-12 w-full rounded-lg border border-gray-300 bg-white px-3.5"
                                                         placeholder="Search" required="">
-                                                <button type="submit" aria-label="Search">
-                                                        <span class=" icon-searchicon"></span>
+                                                <button type="submit"
+                                                        class="absolute inset-e-2.5 bottom-1 text-sm font-medium">
+                                                        <span class="icon icon-searchicon"></span>
                                                 </button>
                                         </form>
                                 </div>

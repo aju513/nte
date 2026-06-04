@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <div class="homepage__notice ">
+        <div class="homepage__notice">
             <div class="homepage__notice-wrap " id="heroNoticeSlider" aria-live="polite">
                 <div class="container">
                     <div class="homepage__notice-bar">
@@ -59,7 +59,7 @@
         </div>
     </section>
     <!-- Bestselling -->
-    <section class="homepage__bestselling py-15 package-list hav-title-btn scroll-wrap">
+    <section class="homepage__bestselling  hav-title-btn ">
         <div class="container ">
             <div class="mb-6 flex items-start gap-4 flex-row md:items-center justify-between">
                 <div class="mb-0 section-title-wrap">
@@ -75,7 +75,7 @@
                 </div>
             </div>
             <!--Package Grid -->
-            <div class="relative mt-7">
+            <div class="relative mt-7 scroll-wrap">
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                         <div class="package-list__item">
@@ -240,12 +240,12 @@
             </div>
     </section>
     <!-- Top Places to Explore Whole Section -->
-    <section class="container-fluid-custom">
+    <section class="container-fluid-custom ">
         <!-- Top places to Explore -->
-        <div class="container  hav-title-btn scroll-wrap">
+        <div class="container  hav-title-btn ">
             <!-- Title -->
             <div class="grid grid-cols-12 gap-5 mb-6 ">
-                <div class="mb-0 section-title-wrap col-span-12 lg:col-span-6 max-w-[410px] ">
+                <div class="mb-0 section-title-wrap col-span-12 lg:col-span-6 lg:max-w-[410px] ">
                     <div class=" lg:col-span-6">
                         <div class="section-title-sm ">
                             Top Places to Explore
@@ -255,7 +255,7 @@
                         </h2>
                     </div>
                 </div>
-                <div class="mb-0 col-span-12 lg:col-span-6 max-w-[600px]">
+                <div class="mb-0 col-span-12 lg:col-span-6 lg:max-w-[600px]">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum magni
                         recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
                     <div class="section-title-btn">
@@ -263,9 +263,9 @@
                     </div>
                 </div>
             </div>
-            <div class="relative mt-9">
+            <div class="relative mt-9 scroll-wrap ">
                 <div class="grid grid-cols-12 gap-5">
-                    <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                    <div class="col-span-4">
                         <div class="package-list__item">
                             <div class="package-list__item-badge">
                                 <span>TOP RATED</span>
@@ -319,7 +319,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                    <div class="col-span-4">
                         <div class="package-list__item">
                             <div class="package-list__item-badge">
                                 <span>TOP RATED</span>
@@ -373,7 +373,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                    <div class="col-span-4">
                         <div class="package-list__item">
                             <div class="package-list__item-image">
                                 <div class="placeholder__img-wrapper">
@@ -583,7 +583,7 @@
             </div>
         </div>
         <!-- Most Popular -->
-        <div class="container hav-title-btn common-box pb-0">
+        <div class="homepage-popular container hav-title-btn common-box pb-0!">
             <div class="grid grid-cols-12 gap-5 mb-6">
                 <div class="mb-0 section-title-wrap lg:max-w-[460px] col-span-12 lg:col-span-6">
                     <div class="lg:col-span-6">
@@ -884,50 +884,52 @@
                 </div>
             </div>
             <!-- Reviews Section -->
-            <div class="homepage__review-summary review-block ">
-                <div class="homepage__review-tabs review-tabs" role="tablist" aria-label="Review sources">
-                    <button type="button" class="homepage__review-tab review-tab-item " data-name="All Reviews"
-                        data-count="500" data-rating="4.6" data-icon="" data-testimonial-icon="" aria-pressed="false">
-                        <span>All Reviews</span>
-                        <span class="font-semibold">4.6</span>
-                    </button>
-                    <button type="button" class="homepage__review-tab review-tab-item active" data-name="Trip Advisor"
-                        data-count="222" data-rating="4.6" data-icon="/images/svg/tripadvisor.svg"
-                        data-testimonial-icon="/images/svg/circular-tripadvisor.svg" aria-pressed="true">
-                        <img src="/images/svg/circular-tripadvisor.svg" class="w-5 h-5" alt="Trip Advisor">
-                        <span>Trip Advisor</span>
-                        <span class="font-semibold">4.6</span>
-                    </button>
-                    <button type="button" class="homepage__review-tab review-tab-item" data-name="Facebook" data-count="180"
-                        data-rating="4.6" data-icon="/images/svg/facebook.svg"
-                        data-testimonial-icon="/images/svg/circular-facebook.svg" aria-pressed="false">
-                        <img src="/images/svg/circular-facebook.svg" class="w-5 h-5" alt="Facebook">
-                        <span>Facebook</span>
-                        <span class="font-semibold">4.6</span>
-                    </button>
-                    <button type="button" class="homepage__review-tab review-tab-item" data-name="Google" data-count="300"
-                        data-rating="4.6" data-icon="/images/svg/google.svg"
-                        data-testimonial-icon="/images/svg/circular-google.svg" aria-pressed="false">
-                        <img src="/images/svg/circular-google.svg" class="w-5 h-5" alt="Google">
-                        <span>Google</span>
-                        <span class="font-semibold">4.6</span>
-                    </button>
-                </div>
-                <div class="homepage__review-center review-center">
-                    <div class="flex items-center gap-1 lg:gap-3 justify-center flex-wrap">
+            <div class="homepage__review-summary">
+                <div class="flex flex-wrap items-center justify-center lg:justify-between gap-4 md:gap-4 lg:gap-4  py-2 text-sm sm:flex-row">
+                    <div class="flex flex-col items-end justify-center flex-wrap">
                         <a href="">
                             <img id="reviewIcon" src="/images/svg/tripadvisor.svg" class="w-147px h-31px cursor-pointer"
                                 alt="Trip Advisor" />
                         </a>
-                        <div class=" flex items-center justify-center gap-3">
-                            <div class="testimonial__list-item-rating green-dot-rating flex items-center gap-2" id="reviewRating">
-                                <div class="rating-wrap rating-5">
-                                    <span class="star"></span>
-                                    <span class="star"></span>
-                                    <span class="star"></span>
-                                    <span class="star"></span>
-                                    <span class="star"></span>
-                                </div>
+                        <div class=" flex items-center justify-center gap-2">
+                            <div class="flex gap-0.5 ">
+                                <span class="icon-green-circle text-[8px]"></span>
+                                <span class="icon-green-circle text-[8px]"></span>
+                                <span class="icon-green-circle text-[8px]"></span>
+                                <span class="icon-green-circle text-[8px]"></span>
+                                <span class="icon-green-circle text-[8px]"></span>
+                            </div>
+                            <span id="reviewCount" class="text-xs">222 reviews</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-end justify-center flex-wrap">
+                        <a href="">
+                            <img id="reviewIcon" src="/images/svg/google.svg" class="w-147px h-31px cursor-pointer"
+                                alt="Google" />
+                        </a>
+                        <div class=" flex items-center justify-center gap-2">
+                            <div class="flex gap-0.5 ">
+                                <span class="icon-star-rate text-[8px]"></span>
+                                <span class="icon-star-rate text-[8px]"></span>
+                                <span class="icon-star-rate text-[8px]"></span>
+                                <span class="icon-star-rate text-[8px]"></span>
+                                <span class="icon-star-rate text-[8px]"></span>
+                            </div>
+                            <span id="reviewCount" class="text-xs">222 reviews</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-end justify-center flex-wrap">
+                        <a href="">
+                            <img id="reviewIcon" src="/images/svg/facebook.svg" class="w-147px h-31px cursor-pointer"
+                                alt="Facebook" />
+                        </a>
+                        <div class=" flex items-center justify-center gap-2">
+                            <div class="flex gap-0.5 ">
+                                <span class="icon-star-rate text-[8px]"></span>
+                                <span class="icon-star-rate text-[8px]"></span>
+                                <span class="icon-star-rate text-[8px]"></span>
+                                <span class="icon-star-rate text-[8px]"></span>
+                                <span class="icon-star-rate text-[8px]"></span>
                             </div>
                             <span id="reviewCount" class="text-xs">222 reviews</span>
                         </div>
@@ -1089,7 +1091,7 @@
             <!-- blogs -->
             <div class="scroll-wrap ">
                 <div class="grid grid-cols-12 gap-5">
-                    <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                    <div class="col-span-4">
                         <div class="blog-list__item ">
                             <div class="blog-list__item-image relative ">
                                 <div class="placeholder__img-wrapper ">
@@ -1118,7 +1120,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                    <div class="col-span-4">
                         <div class="blog-list__item ">
                             <div class="blog-list__item-image relative ">
                                 <div class="placeholder__img-wrapper ">
@@ -1146,7 +1148,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-span-12 sm:col-span-6 lg:col-span-4">
+                    <div class="col-span-4">
                         <div class="blog-list__item ">
                             <div class="blog-list__item-image relative ">
                                 <div class="placeholder__img-wrapper ">

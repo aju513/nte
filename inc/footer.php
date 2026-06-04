@@ -1,8 +1,8 @@
 <footer class="footer  relative">
-    <div class="bg-secondary md:h-10 lg:h-43 h-6 w-full relative">
+    <div class="bg-secondary max-[350px]:pt-8 md:pt-20 sm:pt-15 pt-10 lg:pt-30 2xl:pt-40  w-full relative">
     </div>
     <!-- Main Footer Content -->
-    <div class="footer_container relative">
+    <div class="footer_main relative">
 
         <!-- Affiliations -->
         <div class="footer_affiliations ">
@@ -24,13 +24,14 @@
                     <img width="61" height="53" src="/images/associate/nepal-goverment-logo.svg" alt="logo" />
                 </div>
                 <div class="footer_affiliations-item">
-                    <img width="110" height="42" src="/images/associate/keep-logo.svg" alt="logo" />
+                    <img width="110" height="42" src="/images/associate/keep-logo.svg" alt="logo"
+                        class="w-16! sm:w-16! md:w-auto! h-auto" />
                 </div>
             </div>
         </div>
 
         <!-- Footer Grid -->
-        <div class="container-fluid  px-4">
+        <div class="container-fluid ">
             <div class="footer_grid">
 
                 <!-- Logo -->

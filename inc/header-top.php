@@ -8,12 +8,12 @@
         </div>
 
         <div class="header-top_content_contact">
-            <a href="">
+            <a href="" class="link-underline">
                 <span class="icon-whatapp"></span>
                 <span>+977 98510123456</span>
             </a>
 
-            <a href="contact-new.php">
+            <a href="contact-new.php" class="link-underline">
                 <span class="icon-mail"></span>
                 <span>info@nepaltravelexperience.com</span>
             </a>
