@@ -1283,7 +1283,7 @@
         </div>
       </div>
     </div>
-    <div class="inner__review review-list common-box pb-0 hav-gradient-bg scroll-wrap " id="package-reviews">
+    <div class="inner__review review-list common-box pb-0 hav-gradient-bg " id="package-reviews">
       <div class="container">
         <div class="package__reviews-header mb-1.5 lg:mb-7.5">
           <h2 class="package__section-title">
@@ -1344,10 +1344,8 @@
 
         </div>
         <div class="relative mb-7.5">
-
           <div class="grid grid-cols-12 gap-5 p-1!">
-
-            <div class="col-span-6">
+            <div class="col-span-12 lg:col-span-6">
               <div class="testimonial__list-item m-0!">
                 <div class="testimonial__list-item-meta mb-0 ">
                   <div class="testimonial__list-item-rating green-dot-rating">
@@ -1387,7 +1385,7 @@
               </div>
             </div>
 
-            <div class="col-span-6">
+            <div class="col-span-12 lg:col-span-6">
               <div class="testimonial__list-item m-0!">
                 <div class="testimonial__list-item-meta mb-0">
                   <div class="testimonial__list-item-rating green-dot-rating">

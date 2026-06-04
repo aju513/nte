@@ -4274,10 +4274,10 @@
   }
 }
 .innerpage-banner + .common-box .container-fluid-custom {
-  @apply -top-15 pt-24;
+  @apply -top-15 -mb-15 pt-24;
 }
 .package-page .package__banner + .container-fluid-custom {
-  @apply -top-15 pt-24;
+  @apply -top-15 -mb-15 pt-24;
 }
 
 .package__similar {
