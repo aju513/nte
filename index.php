@@ -26,15 +26,15 @@
             <div class="homepage__notice-wrap " id="heroNoticeSlider" aria-live="polite">
                 <div class="container">
                     <div class="homepage__notice-bar">
-                        <div class="notice-message js-notice-slide is-active">
+                        <a href="" class="notice-message js-notice-slide is-active">
                             Nepal bans solo trekkers throughout the country.
-                        </div>
-                        <div class="notice-message js-notice-slide">
+                        </a>
+                        <a href="" class="notice-message js-notice-slide">
                             Spring trekking permits are now open for Everest regions.
-                        </div>
-                        <div class="notice-message js-notice-slide">
+                        </a>
+                        <a href="" class="notice-message js-notice-slide">
                             Weather in high-altitude routes can change quickly.
-                        </div>
+                        </a>
 
                         <div class="notice-controls">
                             <div class="notice-nav">
