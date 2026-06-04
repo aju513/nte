@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="category-list pt-5 scroll-wrap">
+      <div class="category-list pt-5">
         <div class="grid grid-cols-12 gap-5">
           <div class="col-span-12 sm:col-span-6 md:col-span-3">
             <div class="category-list__item">

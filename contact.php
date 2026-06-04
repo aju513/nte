@@ -57,7 +57,6 @@
           </div>
         </div>
         <div>
-          <!-- <div class="contact-page__form"> -->
           <div class="contact-page__form-box">
             <div class="contact-page__form-title">Get in touch</div>
             <form class="contact-page__form" action="#" method="post">
@@ -98,7 +97,6 @@
               <span class="icon-view "></span>
             </button>
           </div>
-          <!-- </div> -->
         </div>
       </div>
 

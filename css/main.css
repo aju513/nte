@@ -226,7 +226,7 @@
     @apply mb-5;
 
     h1 {
-      @apply font-playfair text-2xl leading-8 font-extrabold text-black sm:leading-10 md:text-3xl lg:text-[40px] lg:leading-12;
+      @apply font-playfair leading-8 font-extrabold text-black sm:leading-10 text-3xl lg:text-[40px] lg:leading-12;
     }
   }
   .page-title.mb-0 {
@@ -254,7 +254,7 @@
       @apply bg-white relative mb-3 rounded-[10px] p-5 sm:px-7 sm:py-6;
     }
     .accordion__item-title {
-      @apply font-mulish text-text_color cursor-pointer pr-5 font-extrabold sm:pr-10 md:text-xl leading-6;
+      @apply font-mulish text-text_color cursor-pointer pr-5 font-extrabold sm:pr-10 text-xl leading-6;
     }
     .accordion__item-content {
       @apply max-h-0 overflow-hidden opacity-0 leading-6! text-base;
@@ -1961,7 +1961,7 @@
 .header-top {
   @apply py-2 md:py-3 bg-primary;
   .header-top_content {
-    @apply font-mulish flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-2 text-[11px] sm:text-xs md:text-sm text-white;
+    @apply font-mulish flex md:flex-col lg:flex-row  md:items-start lg:items-center justify-center sm:justify-between gap-2 text-[11px] sm:text-xs md:text-sm text-white;
     .link-underline {
       @apply relative inline-block;
       &:after {
@@ -1976,13 +1976,13 @@
       }
     }
     .header-top_content_registration {
-      @apply flex flex-wrap items-center justify-center sm:justify-start gap-1 sm:gap-2 text-center sm:text-left;
+      @apply flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-start gap-1 sm:gap-2 text-center sm:text-left;
       span {
         @apply whitespace-nowrap;
       }
     }
     .header-top_content_contact {
-      @apply flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-end gap-2 sm:gap-4 text-center sm:text-right;
+      @apply flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-end gap-1 sm:gap-4 text-center sm:text-right;
       a {
         @apply flex items-center gap-1  transition whitespace-nowrap;
         span {
@@ -2919,7 +2919,7 @@
   }
 
   .contact-page__info-title {
-    @apply mb-3 font-playfair font-black text-black text-2xl;
+    @apply mb-3 font-playfair font-black text-black text-xl lg:text-2xl;
   }
 
   .contact-page__info-list {
@@ -2947,7 +2947,7 @@
   }
 
   .contact-page__social-title {
-    @apply mb-4 font-playfair text-2xl font-black text-black;
+    @apply mb-4 font-playfair text-xl lg:text-2xl font-black text-black;
   }
 
   .contact-page__socials {
@@ -3071,7 +3071,7 @@
 }
 /* package section title */
 .package__section-title {
-  @apply font-playfair mb-2 lg:mb-4 text-2xl lg:text-3xl font-black text-black;
+  @apply font-playfair mb-2 lg:mb-4 text-[28px] lg:text-3xl leading-9 lg:leading-10 font-black text-black;
 }
 /* package banner starts */
 .package__banner {
@@ -3388,7 +3388,7 @@
         padding 150ms ease,
         margin 0.4s ease;
       .package__full-itinerary-item-content-description {
-        @apply mb-5 text-base py-5 lg:p-5;
+        @apply mb-5 text-base py-2 lg:py-5;
         &:last-of-type {
           @apply mb-0;
         }
@@ -3510,7 +3510,7 @@
     }
   }
   .package__cta-btn {
-    @apply inline-flex flex-wrap w-full flex-none cursor-pointer items-center justify-center gap-4 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition md:w-fit lg:min-w-44;
+    @apply inline-flex flex-wrap w-full flex-none cursor-pointer items-center justify-center gap-4 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition text-center;
     .icon-view {
       @apply translate-x-0 transition-transform duration-500 ease-in-out text-[10px];
     }
@@ -3559,7 +3559,7 @@
   .package__cost-details-includes {
     @apply mb-8;
     .includes-title {
-      @apply font-mulish text-text_color mb-2 text-lg font-extrabold lg:text-xl leading-6;
+      @apply font-mulish text-text_color mb-2 text-xl font-extrabold  leading-6;
     }
     .includes-content {
       a {
@@ -4069,7 +4069,7 @@
   .accordion__item {
     @apply bg-[#f6faff];
     .accordion__item-title {
-      @apply text-base lg:text-xl font-bold;
+      @apply text-lg lg:text-xl font-bold;
     }
     .accordion__item-content {
       @apply text-base;

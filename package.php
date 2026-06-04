@@ -538,7 +538,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 lg:px-5">
+                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 ">
                       <div class="package__full-itinerary-item-facts-wrapper flex items-stretch  ">
                         <div class="itinerary-item-facts-unit ">
                           <span class="text-xl text-text_color icon-max-altitude"></span>
@@ -601,7 +601,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 lg:px-5">
+                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 ">
                       <div class="package__full-itinerary-item-facts-wrapper flex items-stretch  ">
                         <div class="itinerary-item-facts-unit ">
                           <span class="text-xl text-text_color icon-max-altitude"></span>
@@ -665,7 +665,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 lg:px-5">
+                    <div class="grid grid-cols-1 md:grid-cols-2 px-0">
                       <div class="package__full-itinerary-item-facts-wrapper flex items-stretch  ">
                         <div class="itinerary-item-facts-unit ">
                           <span class="text-xl text-text_color icon-max-altitude"></span>
