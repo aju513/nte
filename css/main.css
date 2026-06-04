@@ -835,7 +835,7 @@
     }
   }
   .share-list {
-    @apply rounded-custom absolute top-9 right-0 z-50 w-36.25 border border-[#dbdbdb] bg-white;
+    @apply rounded-custom absolute top-9 max-sm:left-0 right-0 z-50 w-36.25 border border-[#dbdbdb] bg-white;
     display: none;
     button {
       @apply flex w-full items-center gap-1 border-b border-dashed border-[#e0e0e0] px-3 py-2 text-sm text-[17px] font-semibold text-black;
@@ -1843,7 +1843,7 @@
     @apply hidden;
   }
   #toggleButton {
-    @apply bg-dim_bg rounded-r-custom shadow-custom absolute top-5 -right-7 hidden p-1.25;
+    @apply bg-dim_bg rounded-r-custom shadow-custom absolute top-7 -right-7 hidden p-1.25;
   }
   #toggleButton.scroll-show {
     @apply max-lg:block;
@@ -1961,11 +1961,11 @@
 .header-top {
   @apply py-2 md:py-3 bg-primary;
   .header-top_content {
-    @apply font-mulish flex md:flex-col lg:flex-row  md:items-start lg:items-center justify-center sm:justify-between gap-2 text-[11px] sm:text-xs md:text-sm text-white;
+    @apply font-mulish flex flex-row items-center justify-center sm:justify-between gap-2 text-[13px] text-white;
     .link-underline {
       @apply relative inline-block;
       &:after {
-        @apply absolute bottom-0 left-1/2 block h-0.25 w-0 bg-white transition-all duration-500;
+        @apply absolute bottom-0 left-1/2 block h-px w-0 bg-white transition-all duration-500;
         content: "";
       }
       &:hover:after {
@@ -3510,7 +3510,7 @@
     }
   }
   .package__cta-btn {
-    @apply inline-flex flex-wrap w-full flex-none cursor-pointer items-center justify-center gap-4 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition text-center;
+    @apply inline-flex flex-wrap w-full md:w-fit flex-none cursor-pointer items-center justify-center gap-4 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition text-center;
     .icon-view {
       @apply translate-x-0 transition-transform duration-500 ease-in-out text-[10px];
     }
@@ -4173,12 +4173,6 @@
   }
 }
 /* package page ends */
-.package-list__wrapper,
-.departure-list,
-.recent-blog-list {
-  @apply py-15;
-}
-
 /* csr list starts */
 
 .csr-list__item {

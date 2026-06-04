@@ -50,7 +50,7 @@
         </div>
       </div>
     </div>
-    <div class="recent-blog-list common-box pb-0!">
+    <div class="recent-blog-list">
       <div class="container">
         <div class="blog-search">
           <div class="flex flex-col justify-between gap-5 sm:flex-row">

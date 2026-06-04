@@ -719,7 +719,7 @@
                   No worries. Our team is ready to guide you every step of the way.
                 </div>
               </div>
-              <div class="flex flex-col md:flex-row lg:flex-row gap-2">
+              <div class="flex flex-col w-full md:flex-row lg:flex-row gap-2">
                 <button type="button" class="package__cta-btn"> Download Itinerary <span class="icon-view"></span>
                 </button>
                 <a href="" class="package__cta-btn">Customize trip <span class="text-sm icon-view"></span></a>

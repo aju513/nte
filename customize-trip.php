@@ -20,7 +20,7 @@
             <div class="pb-5 mt-5 text-lg font-bold text-primary md:mt-0">
               Personal Information
             </div>
-            <div class="grid gap-2 mb-5 md:mb-6 md:grid-cols-2 md:gap-6">
+            <div class="grid  mb-5 md:mb-6 md:grid-cols-2 gap-6">
               <div class="relative form-group ">
                 <input
                   type="text"
@@ -181,7 +181,7 @@
                 </label>
               </div>
             </div>
-            <div class="relative w-full form-group">
+            <div class="relative w-full form-group mt-2">
               <textarea
                 name="extra_info"
                 id="extrainfo"

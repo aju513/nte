@@ -148,7 +148,7 @@
                     </form>
                   </div>
                 </div>
-                <div class="blog__nav flex items-center py-10">
+                <div class="blog__nav flex items-center pt-5 lg:pt-10">
                   <div class="blog__nav-prev"><a href="">
                       <div class="flex items-center justify-start gap-5 sm:pr-10">
                         <div class="blog__nav-prev-img">
