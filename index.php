@@ -242,9 +242,9 @@
     <!-- Top Places to Explore Whole Section -->
     <section class="container-fluid-custom ">
         <!-- Top places to Explore -->
-        <div class="container  hav-title-btn ">
+        <div class="container hav-title-btn ">
             <!-- Title -->
-            <div class="grid grid-cols-12 gap-5 mb-6 ">
+            <div class="grid grid-cols-12 gap-3 lg:gap-5 mb-3 lg:mb-6 ">
                 <div class="mb-0 section-title-wrap col-span-12 lg:col-span-6 lg:max-w-[410px] ">
                     <div class=" lg:col-span-6">
                         <div class="section-title-sm ">
@@ -263,7 +263,7 @@
                     </div>
                 </div>
             </div>
-            <div class="relative mt-9 scroll-wrap ">
+            <div class="relative mb-4 lg:mt-9 scroll-wrap ">
                 <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-4">
                         <div class="package-list__item">
@@ -584,7 +584,7 @@
         </div>
         <!-- Most Popular -->
         <div class="homepage-popular container hav-title-btn common-box pb-0!">
-            <div class="grid grid-cols-12 gap-5 mb-6">
+            <div class="grid grid-cols-12 gap-3 lg:gap-5 mb-3 lg:mb-6">
                 <div class="mb-0 section-title-wrap lg:max-w-[460px] col-span-12 lg:col-span-6">
                     <div class="lg:col-span-6">
                         <div class=" section-title-sm ">

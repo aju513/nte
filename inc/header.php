@@ -1125,10 +1125,10 @@
                                                                                         </a>
                                                                                         <form class="relative">
                                                                                                 <input type="text" id="default-search"
-                                                                                                        class="block h-12 w-full rounded-lg border border-gray-300 px-3.5 bg-white"
+                                                                                                        class="block h-10 w-full rounded-lg border border-gray-300 px-3 bg-white"
                                                                                                         placeholder="Search" required="">
                                                                                                 <button type="submit"
-                                                                                                        class="absolute inset-e-2.5 bottom-2.5   text-sm font-medium">
+                                                                                                        class="absolute inset-e-2.5 bottom-1   text-sm font-medium">
                                                                                                         <span class="icon icon-searchicon"></span>
                                                                                                 </button>
                                                                                         </form>
@@ -1365,10 +1365,10 @@
                                 <div class="mobile-search__content">
                                         <form class="relative">
                                                 <input type="text"
-                                                        class="block h-12 w-full rounded-lg border border-gray-300 bg-white px-3.5"
+                                                        class="block h-10 w-full rounded-lg border border-gray-300 bg-white px-3"
                                                         placeholder="Search" required="">
                                                 <button type="submit"
-                                                        class="absolute inset-e-2.5 bottom-1 text-sm font-medium">
+                                                        class="absolute inset-e-2.5 bottom-0 text-sm font-medium">
                                                         <span class="icon icon-searchicon"></span>
                                                 </button>
                                         </form>

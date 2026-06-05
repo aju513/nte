@@ -211,6 +211,12 @@
     }
   }
   @media (max-width: 1023px) {
+    .reviews.common-box,
+    .homepage__blogs.common-box {
+      @apply pt-0!;
+    }
+  }
+  @media (max-width: 1023px) {
     .common-box:has(.hav-title-btn) {
       @apply pb-0;
     }
@@ -468,19 +474,18 @@
   }
   /*Button secondary outline*/
   .btn-outline-secondary {
-    @apply inline-flex items-center gap-3 rounded-[21.5px] border border-dashed border-white text-white px-4 py-2 text-sm font-medium transition-all duration-500 sm:w-auto sm:min-w-40 lg:min-w-44;
+    @apply inline-flex items-center justify-center gap-3 rounded-[21.5px] border border-dashed border-white text-white px-4 py-2 text-sm font-medium  md:w-fit w-full text-center;
     &:hover {
       @apply shadow-[inset_0_0_0_2em_var(--color-primary)] border-transparent transition-all duration-500 ease-in-out text-white;
     }
   }
   .btn-outline-secondary.hav-icon {
-    @apply inline-flex items-center gap-2;
-    span {
-      @apply translate-x-0 transition-transform duration-500 ease-in-out text-xs;
+    .icon-view {
+      @apply inline-block translate-x-0 transition-transform duration-500 ease-in-out text-xs;
     }
     &:hover {
-      span {
-        @apply translate-x-2.5  text-white transition-transform duration-500 ease-in-out;
+      .icon-view {
+        @apply translate-x-2.5 text-white translate-x-2.5;
       }
       span.animate-spin {
         @apply translate-x-0;
@@ -696,23 +701,23 @@
       @apply text-primary font-semibold hover:underline;
     }
     h2 {
-      @apply font-mulish mb-3 font-bold text-black;
+      @apply font-playfair mb-3 font-bold text-black;
       font-size: clamp(1.4rem, 3vw, 1.7rem);
     }
     h3 {
-      @apply font-mulish mb-3 font-bold text-black;
+      @apply font-playfair mb-3 font-bold text-black;
       font-size: clamp(1.2rem, 3vw, 1.25rem);
     }
     h4 {
-      @apply font-mulish mb-3 font-bold text-black;
+      @apply font-playfair mb-3 font-bold text-black;
       font-size: clamp(1.1rem, 3vw, 1.125rem);
     }
     h5 {
-      @apply font-mulish mb-3 font-bold text-black;
+      @apply font-playfair mb-3 font-bold text-black;
       font-size: clamp(0.875rem, 3vw, 1rem);
     }
     h6 {
-      @apply font-mulish mb-3 font-bold text-black;
+      @apply font-playfair mb-3 font-bold text-black;
       font-size: clamp(0.875rem, 3vw, 0.875rem);
     }
     ul {
@@ -2318,13 +2323,13 @@
   }
 
   .footer_main {
-    @apply flex flex-col gap-5  pb-6 pt-25 md:pt-36 bg-[#c4dfef] text-left relative;
+    @apply flex flex-col gap-5  pb-6 pt-28 md:pt-36 bg-[#c4dfef] text-left relative;
 
     .footer_affiliations {
-      @apply flex flex-col items-center lg:justify-center absolute top-4 lg:-top-4 sm:right-1/4 md:right-1/5 lg:right-1/3 z-10 px-3.75;
+      @apply flex flex-col items-start! md:items-center! lg:justify-center absolute top-4 lg:-top-4 sm:right-1/4 md:right-1/5 lg:right-1/3 z-10 px-3.75;
 
       span {
-        @apply text-sm lg:text-xl uppercase font-extrabold text-center;
+        @apply text-sm lg:text-xl uppercase font-extrabold;
       }
       .footer_affiliations-logos {
         @apply flex flex-wrap justify-center items-center gap-4 sm:gap-9 mt-2 sm:mt-4;
@@ -2408,7 +2413,7 @@
     }
     @media (max-width: 1023px) {
       .footer_bottom {
-        @apply pb-20;
+        @apply pb-13;
       }
     }
   }
@@ -2465,7 +2470,7 @@
     }
   }
   .homepage__banner-content {
-    @apply absolute bottom-10 left-0 md:left-[50%] md:top-[60%] lg:top-[50%] z-10 w-full md:w-[65%] lg:w-[65%] md:translate-x-[-50%] md:translate-y-[-50%] text-left md:text-center text-white  px-3.75 md:p-0;
+    @apply absolute bottom-10 left-0 md:left-[50%] top-[60%]  z-10 w-full md:w-[65%] lg:w-[65%] md:translate-x-[-50%] md:translate-y-[-50%] text-left md:text-center text-white  px-3.75 md:p-0;
     h2 {
       @apply uppercase font-black text-white  text-3xl leading-9.5 lg:text-[52px] lg:leading-15 font-playfair;
     }
@@ -2544,7 +2549,7 @@
       @apply mx-auto mt-2 max-w-prose text-[15px] leading-relaxed text-white  md:mx-0;
     }
     .homepage__explore-content-actions {
-      @apply flex flex-col md:flex-row flex-wrap gap-3 lg:gap-5 mt-3 lg:shrink-0;
+      @apply flex flex-col md:flex-row flex-wrap gap-3 lg:gap-5 mt-3 lg:shrink-0 text-center;
     }
   }
 }
@@ -3226,23 +3231,23 @@
       @apply leading-6.5 text-text_color;
     }
     h2 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1.3rem, 3vw, 1.4rem);
     }
     h3 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1.2rem, 3vw, 1.3rem);
     }
     h4 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1.1rem, 3vw, 1.2rem);
     }
     h5 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1rem, 3vw, 1.1rem);
     }
     h6 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1rem, 3vw, 1rem);
     }
     ul {
@@ -3319,23 +3324,23 @@
         @apply text-secondary font-medium underline;
       }
       h2 {
-        @apply font-mulish mb-3 font-extrabold text-black;
+        @apply font-playfair mb-3 font-extrabold text-black;
         font-size: clamp(1.5rem, 3vw, 1.7rem);
       }
       h3 {
-        @apply font-mulish mb-3 font-extrabold text-black;
+        @apply font-playfair mb-3 font-extrabold text-black;
         font-size: clamp(1.3rem, 3vw, 1.6rem);
       }
       h4 {
-        @apply font-mulish mb-3 font-extrabold text-black;
+        @apply font-playfair mb-3 font-extrabold text-black;
         font-size: clamp(1.2rem, 3vw, 1.5rem);
       }
       h5 {
-        @apply font-mulish mb-3 font-extrabold text-black;
+        @apply font-playfair mb-3 font-extrabold text-black;
         font-size: clamp(1rem, 3vw, 1.25rem);
       }
       h6 {
-        @apply font-mulish mb-3 font-extrabold text-black;
+        @apply font-playfair mb-3 font-extrabold text-black;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3396,27 +3401,27 @@
           @apply text-block font-medium underline;
         }
         h2 {
-          @apply font-mulish mb-3 font-bold text-black;
+          @apply font-playfair mb-3 font-bold text-black;
           font-size: clamp(1.5rem, 3vw, 1.7rem);
         }
         h3 {
-          @apply font-mulish mb-3 font-bold text-black;
+          @apply font-playfair mb-3 font-bold text-black;
           font-size: clamp(1.3rem, 3vw, 1.6rem);
         }
         h4 {
-          @apply font-mulish mb-3 font-bold text-black;
+          @apply font-playfair mb-3 font-bold text-black;
           font-size: clamp(1.2rem, 3vw, 1.5rem);
         }
         h5 {
-          @apply font-mulish mb-3 font-bold text-black;
+          @apply font-playfair mb-3 font-bold text-black;
           font-size: clamp(1rem, 3vw, 1.25rem);
         }
         h6 {
-          @apply font-mulish mb-3 font-bold text-black;
+          @apply font-playfair mb-3 font-bold text-black;
           font-size: clamp(1rem, 3vw, 1rem);
         }
         p {
-          @apply font-mulish text-base leading-6;
+          @apply font-playfair text-base leading-6;
         }
         ul {
           @apply mb-7;
@@ -3569,23 +3574,23 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1.3rem, 3vw, 1.4rem);
       }
       h3 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1.2rem, 3vw, 1.3rem);
       }
       h4 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1.1rem, 3vw, 1.2rem);
       }
       h5 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1.1rem);
       }
       h6 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3612,23 +3617,23 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1.3rem, 3vw, 1.4rem);
       }
       h3 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1.2rem, 3vw, 1.3rem);
       }
       h4 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1.1rem, 3vw, 1.2rem);
       }
       h5 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1.1rem);
       }
       h6 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3661,23 +3666,23 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1.3rem, 3vw, 1.4rem);
       }
       h3 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1.2rem, 3vw, 1.3rem);
       }
       h4 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1.1rem, 3vw, 1.2rem);
       }
       h5 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1.1rem);
       }
       h6 {
-        @apply font-mulish text-text_color mb-3 font-bold;
+        @apply font-playfair text-text_color mb-3 font-bold;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3770,23 +3775,23 @@
         @apply text-secondary font-medium underline;
       }
       h2 {
-        @apply font-mulish mb-3 font-bold text-black;
+        @apply font-playfair mb-3 font-bold text-black;
         font-size: clamp(1.5rem, 3vw, 1.7rem);
       }
       h3 {
-        @apply font-mulish mb-3 font-bold text-black;
+        @apply font-playfair mb-3 font-bold text-black;
         font-size: clamp(1.3rem, 3vw, 1.6rem);
       }
       h4 {
-        @apply font-mulish mb-3 font-bold text-black;
+        @apply font-playfair mb-3 font-bold text-black;
         font-size: clamp(1.2rem, 3vw, 1.5rem);
       }
       h5 {
-        @apply font-mulish mb-3 font-bold text-black;
+        @apply font-playfair mb-3 font-bold text-black;
         font-size: clamp(1rem, 3vw, 1.25rem);
       }
       h6 {
-        @apply font-mulish mb-3 font-bold text-black;
+        @apply font-playfair mb-3 font-bold text-black;
         font-size: clamp(1rem, 3vw, 1rem);
       }
       ul {
@@ -3820,23 +3825,23 @@
       @apply leading-6 text-text_color;
     }
     h2 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1.3rem, 3vw, 1.4rem);
     }
     h3 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1.2rem, 3vw, 1.3rem);
     }
     h4 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1.1rem, 3vw, 1.2rem);
     }
     h5 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1rem, 3vw, 1.1rem);
     }
     h6 {
-      @apply font-mulish mb-3 font-bold text-text_color;
+      @apply font-playfair mb-3 font-bold text-text_color;
       font-size: clamp(1rem, 3vw, 1rem);
     }
     ul {
