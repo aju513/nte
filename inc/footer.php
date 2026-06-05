@@ -6,26 +6,28 @@
 
         <!-- Affiliations -->
         <div class="footer_affiliations ">
-            <span>
-                Our Affiliations
-            </span>
+            <div class="container">
+                <h2 class="text-base lg:text-[20px] uppercase font-mulish font-extrabold max-[639px]:text-left text-center text-text_color">
+                    Our Affiliations
+                </h2>
 
-            <div class="footer_affiliations-logos ">
-                <div class="footer_affiliations-item">
-                    <img width="43" height="58" src="/images/associate/taan-logo.svg" alt="logo" />
-                </div>
-                <div class="footer_affiliations-item">
-                    <img width="46" height="48" src="/images/associate/ntb-logo.svg" alt="logo" />
-                </div>
-                <div class="footer_affiliations-item">
-                    <img width="68" height="58" src="/images/associate/nma-logo.svg" alt="logo" />
-                </div>
-                <div class="footer_affiliations-item">
-                    <img width="61" height="53" src="/images/associate/nepal-goverment-logo.svg" alt="logo" />
-                </div>
-                <div class="footer_affiliations-item">
-                    <img width="110" height="42" src="/images/associate/keep-logo.svg" alt="logo"
-                        class="w-16! sm:w-16! md:w-auto! h-auto" />
+                <div class="footer_affiliations-logos ">
+                    <div class="footer_affiliations-item">
+                        <img width="43" height="58" src="/images/associate/taan-logo.svg" alt="logo" />
+                    </div>
+                    <div class="footer_affiliations-item">
+                        <img width="46" height="48" src="/images/associate/ntb-logo.svg" alt="logo" />
+                    </div>
+                    <div class="footer_affiliations-item">
+                        <img width="68" height="58" src="/images/associate/nma-logo.svg" alt="logo" />
+                    </div>
+                    <div class="footer_affiliations-item">
+                        <img width="61" height="53" src="/images/associate/nepal-goverment-logo.svg" alt="logo" />
+                    </div>
+                    <div class="footer_affiliations-item">
+                        <img width="110" height="42" src="/images/associate/keep-logo.svg" alt="logo"
+                            class="w-16! sm:w-16! md:w-auto! h-auto" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,7 +170,7 @@
         </div>
 
 </footer>
-<div class="fixed bottom-0 z-[10000] hidden  w-full bg-white bg-opacity-95 py-5">
+<div class="mob-quick-contact fixed bottom-0 z-[10000] lg:hidden bg-dim_bg w-full bg-white bg-opacity-95 py-5">
     <div class="container">
         <div class="flex flex-col items-center justify-between lg:flex-row">
             <p class="mb-3 text-sm text-center md:text-base lg:mb-0 lg:text-left">
@@ -179,29 +181,36 @@
                 <a
                     class="flex min-w-[140px] items-center gap-2 text-sm font-bold text-primary md:text-base"
                     href="#!">
-                    <span class="text-2xl icon-include"></span> Privacy Policy
+                    <span class="text-xl icon-correct"></span> Privacy Policy
                 </a>
                 <a
                     href="/"
-                    class="block px-3 py-2 text-sm font-bold text-center text-white transition-all ease-in delay-75 border rounded border-primary bg-primary hover:bg-white hover:text-primary">
+                    class="block px-1.5 py-2 text-sm font-bold text-center text-white transition-all ease-in delay-75 border rounded border-primary bg-primary hover:bg-white hover:text-primary">
                     Allow Cookies
                 </a>
             </div>
         </div>
     </div>
     <div class="absolute right-4 top-[-15px] rounded-full bg-primary p-2 w-10 h-10">
-        <span class="text-2xl text-secondary icon-cross"></span>
+        <span class="text-xl text-secondary icon-close"></span>
     </div>
 </div>
 
-<div class="fixed hidden left-5 bottom-5 whatsapp-sticky lg:block z-[10000]">
+<div class="mob-quick-contact fixed bottom-0 left-0 z-[9999] flex w-full items-center gap-2 bg-dim_bg p-3 lg:hidden">
     <a
         href="https://wa.me/+9779851012345"
         target="_blank"
         aria-label="whatsapp"
-        class="rounded-full bg-[#29A71A] p-[3px] flex items-center justify-center w-[60px] h-[60px]">
-        <span class="text-3xl text-white icon-whatapp "></span>
+        class="rounded-custom bg-[#29A71A] p-3 flex items-center justify-center w-[35px] h-[35px]">
+        <span class="text-2xl text-white icon-whatapp "></span>
     </a>
+    <div class="fancybox-wrapper">
+        <button type="button" data-fancybox class="block px-2 py-2 text-xs font-bold text-center text-white transition-all ease-in delay-75 border rounded border-primary bg-primary hover:bg-white hover:text-primary inquiry-button" data-src="pop-up-inquiry-modal">Send an inquiry</button>
+    </div>
+    <span>
+        <strong class="block text-xs font-normal leading-[12px]">Need Help? Call Us</strong>
+        <div class="text-sm font-bold text-primary">+9779851000000</div>
+    </span>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>

@@ -19,26 +19,37 @@
       <div class="contact-page__layout ">
         <div class="contact-page__info">
           <h2 class="contact-page__info-title">Nepal Travel Experience</h2>
-
           <div class="contact-page__info-list">
             <div class="contact-page__info-item">
-              <span class="icon-place "></span>
-              <p>Thamel, Kathmandu, Nepal</p>
+              <span class="icon-place icon"></span>
+              <div class="flex flex-col justify-start gap-2">
+                <span class="text-sm font-bold leading-2 text-block">Address</span>
+                <span class="text-base leading-4">Thamel Marg, Kathmandu, Nepal</span>
+              </div>
             </div>
-
             <div class="contact-page__info-item">
-              <span class="icon-envelope "></span>
-              <p><a href="mailto:info@nepaltravelexperience.com">info@nepaltravelexperience.com</a></p>
+              <span class="icon-envelope icon"></span>
+              <div class="flex flex-col justify-start gap-1">
+                <span class="text-sm font-bold leading-2 text-block">Email</span>
+                <a href="mailto:info@nepaltravelexperience.com"
+                  class="max-w-65 md:max-w-none wrap-break-words break-all text-base">
+                  info@nepaltravelexperience.com
+                </a>
+              </div>
             </div>
-
             <div class="contact-page__info-item">
-              <span class="icon-whatapp "></span>
-              <p><a href="tel:+977015123456">+977 015123456</a></p>
+              <span class="icon-whatapp icon"></span>
+              <div class="flex flex-col justify-start gap-1">
+                <span class="text-sm font-bold leading-2 text-block">Whatsapp</span>
+                <a href="tel:+977015123456" class="break-all text-base">+977 015123456</a>
+              </div>
             </div>
-
             <div class="contact-page__info-item">
-              <span class="icon-phone "></span>
-              <p><a href="tel:+9779851234567">+977 9851234567</a></p>
+              <span class="icon-phone icon"></span>
+              <div class="flex flex-col justify-start gap-1">
+                <span class="text-sm font-bold leading-2 text-block">Mobile</span>
+                <a href="tel:+9779851234567" class="break-all text-base">+977 9851234567</a>
+              </div>
             </div>
           </div>
 

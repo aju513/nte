@@ -22,7 +22,7 @@
       </div>
       <div class="category-list pt-5">
         <div class="grid grid-cols-12 gap-5">
-          <div class="col-span-12 sm:col-span-6 md:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 xl:col-span-3">
             <div class="category-list__item">
               <div class="category-list__item-image">
                 <div class="placeholder__img-wrapper w-full">
@@ -45,13 +45,13 @@
             <div class="category-list__wrappper">
               <div class="container-fluid">
 
-                <div class="category-list__item-title">
+                <h3 class="category-list__item-title">
                   <a href="">Trekking</a>
-                </div>
+                </h3>
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 xl:col-span-3">
             <div class="category-list__item">
               <div class="category-list__item-image">
                 <div class="placeholder__img-wrapper w-full">
@@ -72,13 +72,13 @@
             </div>
             <div class="category-list__wrappper">
               <div class="container-fluid">
-                <div class="category-list__item-title">
+                <h3 class="category-list__item-title">
                   <a href="">Hiking</a>
-                </div>
+                </h3>
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 xl:col-span-3">
             <div class="category-list__item">
               <div class="category-list__item-image">
                 <div class="placeholder__img-wrapper w-full">
@@ -100,13 +100,13 @@
             </div>
             <div class="category-list__wrappper">
               <div class="container-fluid">
-                <div class="category-list__item-title">
+                <h3 class="category-list__item-title">
                   <a href="">Climbing</a>
-                </div>
+                </h3>
               </div>
             </div>
           </div>
-          <div class="col-span-12 sm:col-span-6 md:col-span-3">
+          <div class="col-span-12 sm:col-span-6 md:col-span-4 xl:col-span-3">
             <div class="category-list__item">
               <div class="category-list__item-image">
                 <div class="placeholder__img-wrapper w-full">
@@ -127,9 +127,9 @@
             </div>
             <div class="category-list__wrappper">
               <div class="container-fluid">
-                <div class="category-list__item-title">
+                <h3 class="category-list__item-title">
                   <a href="">Tour</a>
-                </div>
+                </h3>
               </div>
             </div>
           </div>

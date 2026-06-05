@@ -17,7 +17,7 @@
       <div class="my-10 customize-page__info">
         <form class="w-full floating-form">
           <div class=" mb-4 rounded-custom bg-transparent p-8 shadow-custom">
-            <div class="pb-5 mt-5 text-lg font-bold text-primary md:mt-0">
+            <div class="pb-5 text-xl font-bold text-primary md:mt-0">
               Personal Information
             </div>
             <div class="grid  mb-5 md:mb-6 md:grid-cols-2 gap-6">
@@ -85,10 +85,10 @@
               </div>
             </div>
 
-            <div class="pb-5 text-lg font-bold text-primary">
+            <div class="pb-5 text-xl font-bold text-primary">
               Trip Details
             </div>
-            <div class="grid gap-2 md:grid-cols-2 md:gap-6">
+            <div class="grid md:grid-cols-2 gap-5">
               <div class="relative form-group">
                 <select
                   name="package"
@@ -128,7 +128,7 @@
                 </div>
               </div>
               <div>
-                <div class="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-3">
+                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 ">
                   <div class="relative form-group">
                     <input
                       type="number"
@@ -181,7 +181,7 @@
                 </label>
               </div>
             </div>
-            <div class="relative w-full form-group mt-2">
+            <div class="relative w-full form-group mt-5 lg:mt-3">
               <textarea
                 name="extra_info"
                 id="extrainfo"

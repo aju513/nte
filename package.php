@@ -490,7 +490,7 @@
                     <div class="fancybox-wrapper absolute top-1/2 left-1/2">
                       <a href="https://www.youtube.com/watch?v=K4TOrB7at0Y" data-fancybox="video"
                         data-width="1080" data-height="608"
-                        class="circular-animate ">
+                        class="circular-animate">
                         <span class="absolute left-1/2 top-1/2 z-40 flex h-12.5 w-12.5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-18.75 md:w-18.75 cursor-pointer"><span
                             class=" icon-play-button text-primary">
                           </span></span>
@@ -715,7 +715,7 @@
                   No worries. Our team is ready to guide you every step of the way.
                 </div>
               </div>
-              <div class="flex flex-col w-full md:flex-row lg:flex-row gap-2">
+              <div class="flex max-[480px]:flex-col w-full flex-row lg:flex-row gap-2">
                 <button type="button" class="package__cta-btn"> Download Itinerary <span class="icon-view"></span>
                 </button>
                 <a href="" class="package__cta-btn">Customize trip <span class="text-sm icon-view"></span></a>
@@ -1598,6 +1598,23 @@
     </div>
   </div>
 
+</section>
+<section class="mob-quick-contact fixed bottom-0 left-0 z-[9999] flex w-full items-center gap-2 bg-dim_bg p-3 lg:hidden">
+  <a
+    href="https://wa.me/+9779851012345"
+    target="_blank"
+    aria-label="whatsapp"
+    class="rounded-custom bg-[#29A71A] p-2.5 flex items-center justify-center w-[30px] h-[30px]">
+    <span class="text-xl text-white icon-whatapp "></span>
+  </a>
+  <div class="fancybox-wrapper">
+    <button type="button" data-fancybox class="block px-1.25 py-1.25 text-xs font-bold text-center text-white transition-all ease-in delay-75 border rounded border-primary bg-primary hover:bg-white hover:text-primary inquiry-button" data-src="pop-up-inquiry-modal">Send an inquiry</button>
+  </div>
+  <a href="" class="rounded-custom block border border-primary bg-white p-1.25 text-center text-xs font-bold text-text_color"> Book Now</a>
+  <span>
+    <strong class="block text-xs font-normal leading-[12px]">Price From</strong>
+    <div class="text-sm font-bold text-primary">US$1680</div>
+  </span>
 </section>
 <script>
   //add class in body

@@ -991,7 +991,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     new Swiper(".testimonialSwiper", {
       loop: false,
-      slidesPerView: 1.15,
+      slidesPerView: 1.25,
       spaceBetween: 20,
       navigation: {
         nextEl: ".testimonial-next",
@@ -1003,7 +1003,7 @@ document.addEventListener("DOMContentLoaded", () => {
           spaceBetween: 24,
         },
         1024: {
-          slidesPerView: 2.25,
+          slidesPerView: 2,
           spaceBetween: 30,
         },
       },
