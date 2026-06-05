@@ -8,8 +8,6 @@
     <div class="container">
       <div class="page-title">
         <h1>Contact Us</h1>
-        <div class="contact-page__share">
-        </div>
       </div>
 
       <div class="contact-page__description ">
@@ -18,7 +16,7 @@
         </div>
       </div>
 
-      <div class="contact-page__layout py-9">
+      <div class="contact-page__layout ">
         <div class="contact-page__info">
           <h2 class="contact-page__info-title">Nepal Travel Experience</h2>
 

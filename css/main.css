@@ -181,7 +181,6 @@
       @apply rounded-custom bg-black/80 p-3 text-[13px] leading-5 text-white;
     }
   }
-  /* group-hover:visible group-hover:opacity-100 group-hover:-translate-y-2 */
   /* tooltip end*/
   /* common gapping */
   .common-box {
@@ -232,7 +231,7 @@
     @apply mb-5;
 
     h1 {
-      @apply font-playfair leading-8 font-extrabold text-black sm:leading-10 text-3xl lg:text-[40px] lg:leading-12;
+      @apply font-playfair leading-8 font-extrabold text-black sm:leading-10 text-[32px] lg:text-[40px] lg:leading-12;
     }
   }
   .page-title.mb-0 {
@@ -701,23 +700,23 @@
       @apply text-primary font-semibold hover:underline;
     }
     h2 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.4rem, 3vw, 1.7rem);
+      @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+      font-size: clamp(1.3rem, 3vw, 1.7rem);
     }
     h3 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
       font-size: clamp(1.2rem, 3vw, 1.25rem);
     }
     h4 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
       font-size: clamp(1.1rem, 3vw, 1.125rem);
     }
     h5 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(0.875rem, 3vw, 1rem);
+      @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+      font-size: clamp(0.975rem, 3vw, 1rem);
     }
     h6 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
       font-size: clamp(0.875rem, 3vw, 0.875rem);
     }
     ul {
@@ -778,23 +777,23 @@
       @apply text-secondary font-medium underline;
     }
     h2 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.4rem, 3vw, 1.7rem);
+      @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+      font-size: clamp(1.3rem, 3vw, 1.7rem);
     }
     h3 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
       font-size: clamp(1.2rem, 3vw, 1.25rem);
     }
     h4 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
       font-size: clamp(1.1rem, 3vw, 1.125rem);
     }
     h5 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(0.875rem, 3vw, 1rem);
+      @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+      font-size: clamp(0.975rem, 3vw, 1rem);
     }
     h6 {
-      @apply font-playfair mb-3 font-bold text-black;
+      @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
       font-size: clamp(0.875rem, 3vw, 0.875rem);
     }
     ul {
@@ -833,6 +832,12 @@
   .share-wrap {
     @apply relative;
   }
+  .package-actions-btn {
+    @apply flex items-center justify-end gap-2 bg-primary rounded-[17px]  px-5 py-1.5 text-xs leading-5 font-semibold  text-white transition-all duration-500;
+    .icon-title {
+      @apply text-text_color text-sm;
+    }
+  }
   .share-btn {
     @apply flex items-center justify-end gap-2 bg-primary rounded-[17px]  px-5 py-1.5 text-xs leading-5 font-semibold  text-white transition-all duration-500;
     .icon-title {
@@ -840,7 +845,7 @@
     }
   }
   .share-list {
-    @apply rounded-custom absolute top-9 max-sm:left-0 right-0 z-50 w-36.25 border border-[#dbdbdb] bg-white;
+    @apply rounded-custom absolute top-9 max-[1023px]:left-0 right-0 z-50 w-36.25 border border-[#dbdbdb] bg-white;
     display: none;
     button {
       @apply flex w-full items-center gap-1 border-b border-dashed border-[#e0e0e0] px-3 py-2 text-sm text-[17px] font-semibold text-black;
@@ -2358,10 +2363,10 @@
           @apply space-y-2;
 
           li {
-            @apply flex items-center sm:text-sm md:text-base lg:justify-start gap-3;
+            @apply flex  sm:text-sm md:text-base lg:justify-start gap-3;
 
             span {
-              @apply text-primary mt-0.5 text-base shrink-0;
+              @apply text-primary  text-base shrink-0;
             }
 
             a {
@@ -2912,11 +2917,11 @@
   }
 
   .contact-page__content {
-    @apply leading-7 text-text_color;
+    @apply leading-7 text-text_color mb-6;
   }
 
   .contact-page__layout {
-    @apply grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-12;
+    @apply grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-12 max-[1023px]:pb-5 lg:py-5;
   }
 
   .contact-page__info {
@@ -2932,10 +2937,10 @@
   }
 
   .contact-page__info-item {
-    @apply flex items-center gap-3 text-text_color;
+    @apply flex  gap-3 text-text_color;
 
     span {
-      @apply mt-1 shrink-0 text-lg text-[#89bfe1];
+      @apply shrink-0 text-lg text-[#89bfe1];
     }
 
     p {
@@ -2943,7 +2948,7 @@
     }
 
     a {
-      @apply text-text_color transition-colors duration-300 hover:text-primary;
+      @apply text-text_color transition-colors duration-300 hover:text-primary break-all;
     }
   }
 
@@ -3231,24 +3236,24 @@
       @apply leading-6.5 text-text_color;
     }
     h2 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1.3rem, 3vw, 1.4rem);
+      @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+      font-size: clamp(1.3rem, 3vw, 1.7rem);
     }
     h3 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1.2rem, 3vw, 1.3rem);
+      @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+      font-size: clamp(1.2rem, 3vw, 1.25rem);
     }
     h4 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1.1rem, 3vw, 1.2rem);
+      @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+      font-size: clamp(1.1rem, 3vw, 1.125rem);
     }
     h5 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1rem, 3vw, 1.1rem);
+      @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+      font-size: clamp(0.975rem, 3vw, 1rem);
     }
     h6 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1rem, 3vw, 1rem);
+      @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+      font-size: clamp(0.875rem, 3vw, 0.875rem);
     }
     ul {
       @apply mb-5;
@@ -3324,24 +3329,24 @@
         @apply text-secondary font-medium underline;
       }
       h2 {
-        @apply font-playfair mb-3 font-extrabold text-black;
-        font-size: clamp(1.5rem, 3vw, 1.7rem);
+        @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+        font-size: clamp(1.3rem, 3vw, 1.7rem);
       }
       h3 {
-        @apply font-playfair mb-3 font-extrabold text-black;
-        font-size: clamp(1.3rem, 3vw, 1.6rem);
+        @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+        font-size: clamp(1.2rem, 3vw, 1.25rem);
       }
       h4 {
-        @apply font-playfair mb-3 font-extrabold text-black;
-        font-size: clamp(1.2rem, 3vw, 1.5rem);
+        @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+        font-size: clamp(1.1rem, 3vw, 1.125rem);
       }
       h5 {
-        @apply font-playfair mb-3 font-extrabold text-black;
-        font-size: clamp(1rem, 3vw, 1.25rem);
+        @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+        font-size: clamp(0.975rem, 3vw, 1rem);
       }
       h6 {
-        @apply font-playfair mb-3 font-extrabold text-black;
-        font-size: clamp(1rem, 3vw, 1rem);
+        @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+        font-size: clamp(0.875rem, 3vw, 0.875rem);
       }
       ul {
         @apply mb-7;
@@ -3373,7 +3378,7 @@
     }
     .package__full-itinerary-item-day {
       @apply bg-primary font-bold flex items-center gap-2 text-white rounded-custom px-3 py-1.5 text-sm shadow-md;
-      @apply relative lg:absolute lg:-left-5;
+      @apply relative lg:absolute lg:-left-2 2xl:-left-5;
     }
     .icon-place {
       @apply text-sm;
@@ -3393,7 +3398,7 @@
         padding 150ms ease,
         margin 0.4s ease;
       .package__full-itinerary-item-content-description {
-        @apply mb-5 text-base py-2 lg:py-5;
+        @apply mb-5 text-base py-2 lg:py-5 leading-6;
         &:last-of-type {
           @apply mb-0;
         }
@@ -3401,27 +3406,27 @@
           @apply text-block font-medium underline;
         }
         h2 {
-          @apply font-playfair mb-3 font-bold text-black;
-          font-size: clamp(1.5rem, 3vw, 1.7rem);
+          @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+          font-size: clamp(1.3rem, 3vw, 1.7rem);
         }
         h3 {
-          @apply font-playfair mb-3 font-bold text-black;
-          font-size: clamp(1.3rem, 3vw, 1.6rem);
+          @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+          font-size: clamp(1.2rem, 3vw, 1.25rem);
         }
         h4 {
-          @apply font-playfair mb-3 font-bold text-black;
-          font-size: clamp(1.2rem, 3vw, 1.5rem);
+          @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+          font-size: clamp(1.1rem, 3vw, 1.125rem);
         }
         h5 {
-          @apply font-playfair mb-3 font-bold text-black;
-          font-size: clamp(1rem, 3vw, 1.25rem);
+          @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+          font-size: clamp(0.975rem, 3vw, 1rem);
         }
         h6 {
-          @apply font-playfair mb-3 font-bold text-black;
-          font-size: clamp(1rem, 3vw, 1rem);
+          @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+          font-size: clamp(0.875rem, 3vw, 0.875rem);
         }
         p {
-          @apply font-playfair text-base leading-6;
+          @apply font-mulish text-base leading-6;
         }
         ul {
           @apply mb-7;
@@ -3515,7 +3520,7 @@
     }
   }
   .package__cta-btn {
-    @apply inline-flex flex-wrap w-full md:w-fit flex-none cursor-pointer items-center justify-center gap-4 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition text-center;
+    @apply inline-flex flex-wrap max-[480px]:w-full max-[480px]:justify-center w-full md:w-fit flex-none cursor-pointer items-center justify-center gap-4 rounded-full border border-dashed border-white px-4 py-2.5 text-sm font-semibold leading-none text-white transition text-center;
     .icon-view {
       @apply translate-x-0 transition-transform duration-500 ease-in-out text-[10px];
     }
@@ -3574,24 +3579,24 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1.3rem, 3vw, 1.4rem);
+        @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+        font-size: clamp(1.3rem, 3vw, 1.7rem);
       }
       h3 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1.2rem, 3vw, 1.3rem);
+        @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+        font-size: clamp(1.2rem, 3vw, 1.25rem);
       }
       h4 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1.1rem, 3vw, 1.2rem);
+        @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+        font-size: clamp(1.1rem, 3vw, 1.125rem);
       }
       h5 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1rem, 3vw, 1.1rem);
+        @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+        font-size: clamp(0.975rem, 3vw, 1rem);
       }
       h6 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1rem, 3vw, 1rem);
+        @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+        font-size: clamp(0.875rem, 3vw, 0.875rem);
       }
       ul {
         @apply mb-7;
@@ -3617,24 +3622,24 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1.3rem, 3vw, 1.4rem);
+        @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+        font-size: clamp(1.3rem, 3vw, 1.7rem);
       }
       h3 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1.2rem, 3vw, 1.3rem);
+        @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+        font-size: clamp(1.2rem, 3vw, 1.25rem);
       }
       h4 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1.1rem, 3vw, 1.2rem);
+        @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+        font-size: clamp(1.1rem, 3vw, 1.125rem);
       }
       h5 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1rem, 3vw, 1.1rem);
+        @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+        font-size: clamp(0.975rem, 3vw, 1rem);
       }
       h6 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1rem, 3vw, 1rem);
+        @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+        font-size: clamp(0.875rem, 3vw, 0.875rem);
       }
       ul {
         @apply mb-7;
@@ -3666,24 +3671,24 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1.3rem, 3vw, 1.4rem);
+        @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+        font-size: clamp(1.3rem, 3vw, 1.7rem);
       }
       h3 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1.2rem, 3vw, 1.3rem);
+        @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+        font-size: clamp(1.2rem, 3vw, 1.25rem);
       }
       h4 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1.1rem, 3vw, 1.2rem);
+        @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+        font-size: clamp(1.1rem, 3vw, 1.125rem);
       }
       h5 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1rem, 3vw, 1.1rem);
+        @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+        font-size: clamp(0.975rem, 3vw, 1rem);
       }
       h6 {
-        @apply font-playfair text-text_color mb-3 font-bold;
-        font-size: clamp(1rem, 3vw, 1rem);
+        @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+        font-size: clamp(0.875rem, 3vw, 0.875rem);
       }
       ul {
         @apply mb-7;
@@ -3775,24 +3780,24 @@
         @apply text-secondary font-medium underline;
       }
       h2 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1.5rem, 3vw, 1.7rem);
+        @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+        font-size: clamp(1.3rem, 3vw, 1.7rem);
       }
       h3 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1.3rem, 3vw, 1.6rem);
+        @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+        font-size: clamp(1.2rem, 3vw, 1.25rem);
       }
       h4 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1.2rem, 3vw, 1.5rem);
+        @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+        font-size: clamp(1.1rem, 3vw, 1.125rem);
       }
       h5 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1rem, 3vw, 1.25rem);
+        @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+        font-size: clamp(0.975rem, 3vw, 1rem);
       }
       h6 {
-        @apply font-playfair mb-3 font-bold text-black;
-        font-size: clamp(1rem, 3vw, 1rem);
+        @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+        font-size: clamp(0.875rem, 3vw, 0.875rem);
       }
       ul {
         @apply mb-7;
@@ -3825,24 +3830,24 @@
       @apply leading-6 text-text_color;
     }
     h2 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1.3rem, 3vw, 1.4rem);
+      @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+      font-size: clamp(1.3rem, 3vw, 1.7rem);
     }
     h3 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1.2rem, 3vw, 1.3rem);
+      @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+      font-size: clamp(1.2rem, 3vw, 1.25rem);
     }
     h4 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1.1rem, 3vw, 1.2rem);
+      @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+      font-size: clamp(1.1rem, 3vw, 1.125rem);
     }
     h5 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1rem, 3vw, 1.1rem);
+      @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+      font-size: clamp(0.975rem, 3vw, 1rem);
     }
     h6 {
-      @apply font-playfair mb-3 font-bold text-text_color;
-      font-size: clamp(1rem, 3vw, 1rem);
+      @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+      font-size: clamp(0.875rem, 3vw, 0.875rem);
     }
     ul {
       @apply mb-7;
@@ -3930,24 +3935,24 @@
       @apply text-block font-medium underline;
     }
     h2 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.5rem, 3vw, 1.7rem);
+      @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+      font-size: clamp(1.3rem, 3vw, 1.7rem);
     }
     h3 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.3rem, 3vw, 1.6rem);
+      @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+      font-size: clamp(1.2rem, 3vw, 1.25rem);
     }
     h4 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.2rem, 3vw, 1.5rem);
+      @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+      font-size: clamp(1.1rem, 3vw, 1.125rem);
     }
     h5 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1rem, 3vw, 1.25rem);
+      @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+      font-size: clamp(0.975rem, 3vw, 1rem);
     }
     h6 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1rem, 3vw, 1rem);
+      @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+      font-size: clamp(0.875rem, 3vw, 0.875rem);
     }
     ul {
       @apply mb-7;
@@ -3992,24 +3997,24 @@
       @apply text-secondary font-medium underline;
     }
     h2 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.5rem, 3vw, 1.7rem);
+      @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+      font-size: clamp(1.3rem, 3vw, 1.7rem);
     }
     h3 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.3rem, 3vw, 1.6rem);
+      @apply font-playfair mb-2 font-bold  leading-7.5 lg:leading-8;
+      font-size: clamp(1.2rem, 3vw, 1.25rem);
     }
     h4 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1.2rem, 3vw, 1.5rem);
+      @apply font-playfair mb-2 font-bold  leading-7 lg:leading-8;
+      font-size: clamp(1.1rem, 3vw, 1.125rem);
     }
     h5 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1rem, 3vw, 1.25rem);
+      @apply font-playfair mb-2 font-bold  leading-6.5 lg:leading-7.5;
+      font-size: clamp(0.975rem, 3vw, 1rem);
     }
     h6 {
-      @apply font-playfair mb-3 font-bold text-black;
-      font-size: clamp(1rem, 3vw, 1rem);
+      @apply font-playfair mb-2 font-bold  leading-6 lg:leading-6.5;
+      font-size: clamp(0.875rem, 3vw, 0.875rem);
     }
     ul {
       @apply mb-7;
@@ -4049,15 +4054,15 @@
   }
 }
 .package__reviews-header {
-  @apply flex flex-col gap-1 lg:gap-4 lg:flex-row lg:items-center lg:justify-between;
+  @apply flex flex-col gap-1 lg:gap-4 lg:flex-row items-start lg:items-center lg:justify-between;
 }
 
 .package__review-platforms {
-  @apply grid w-full grid-cols-1 gap-1.5 lg:gap-3 md:grid-cols-3 lg:w-auto lg:grid-cols-3 lg:gap-6 xl:gap-10;
+  @apply flex flex-wrap items-start lg:items-center gap-5;
 }
 
 .package__review-platform {
-  @apply flex items-start gap-2 rounded-[10px] bg-white/70 lg:px-3 lg:py-2 sm:items-center sm:px-0 sm:py-0 lg:bg-transparent;
+  @apply flex items-end gap-2 rounded-[10px] bg-white/70 lg:px-3 lg:py-2 sm:items-center sm:px-0 sm:py-0 lg:bg-transparent;
 }
 
 .package__review-platform-copy {
@@ -4271,7 +4276,7 @@
   @apply text-base;
 }
 .container-fluid-custom {
-  @apply bg-white relative max-w-full mx-auto rounded-none px-0! py-12.5 before:content-none 2xl:max-w-[calc(100%-100px)] 2xl:rounded-[30px] 2xl:px-7.5;
+  @apply bg-white relative max-w-full mx-auto rounded-none px-0! py-9 lg:py-12.5 before:content-none 2xl:max-w-[calc(100%-100px)] 2xl:rounded-[30px] 2xl:px-7.5;
 }
 @media (max-width: 1023px) {
   .container-fluid-custom:has(.homepage-popular) {
@@ -4279,10 +4284,10 @@
   }
 }
 .innerpage-banner + .common-box .container-fluid-custom {
-  @apply -top-15 -mb-15 pt-24;
+  @apply -top-15 -mb-15 pt-19;
 }
 .package-page .package__banner + .container-fluid-custom {
-  @apply -top-15 -mb-15 pt-24;
+  @apply -top-15 -mb-15 pt-19;
 }
 
 .package__similar {

@@ -141,7 +141,7 @@
     <div class="container">
       <div class="grid grid-cols-12 gap-5">
         <div class="col-span-12">
-          <div class="flex flex-wrap items-center justify-between gap-2.5">
+          <div class="flex flex-wrap max-[1023px]:flex-col items-start lg:items-center justify-between gap-2.5">
             <div class="package__title-wrap ">
               <div class="page-title">
                 <h1>Everest Base Camp Trek-15 Days</h1>
@@ -170,7 +170,7 @@
               </div>
             </div>
             <div class="package-actions">
-              <button class="package-actions__item btn-primary gap-2" data-src="./images/dynamic/route-map.webp" data-fancybox="true">
+              <button class="package-actions-btn gap-2" data-src="./images/dynamic/route-map.webp" data-fancybox="true">
                 <span class=" icon-send text-lg hover:text-[#6cafda]"></span>
                 View Map
               </button>
@@ -401,7 +401,6 @@
                   </p>
                 </article>
               </div>
-
               <button class="mt-5">
                 <a href="" class="inline-flex w-full flex-none items-center justify-center gap-3 rounded-[21px] border border-dashed border-primary px-4 py-2.5 text-sm font-medium leading-none transition-all duration-500  hover:bg-primary hover:text-white hover">Read
                   More
@@ -510,9 +509,6 @@
                   <div class="package__full-itinerary-note-content">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                    <ul>
-                      <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eveniet beatae inventore nesciunt delectus eligendi earum nihil suscipit saepe eum, accusantium totam, officiis odio. Unde.</li>
-                    </ul>
                   </div>
                 </div>
                 <div class="package__full-itinerary-item relative mb-6.25 last:mb-0">
@@ -1285,7 +1281,7 @@
     </div>
     <div class="inner__review review-list common-box pb-0 hav-gradient-bg " id="package-reviews">
       <div class="container">
-        <div class="package__reviews-header mb-1.5 lg:mb-7.5">
+        <div class="package__reviews-header mb-2.5 lg:mb-7.5">
           <h2 class="package__section-title">
             Customer Review
           </h2>
@@ -1428,6 +1424,7 @@
 
       </div>
     </div>
+
     <div id="no-nav"></div>
   </div>
   <div class="package__similar package-list relative scroll-wrap">
@@ -1600,6 +1597,7 @@
       </div>
     </div>
   </div>
+
 </section>
 <script>
   //add class in body

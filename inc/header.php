@@ -1152,8 +1152,8 @@
                                 <a class="flex items-center gap-3" href="/">
                                         <img alt="logo"
                                                 loading="lazy"
-                                                width="75"
-                                                height="40"
+                                                width="85"
+                                                height="45"
                                                 decoding="async"
                                                 data-nimg="1"
                                                 style="color:transparent"

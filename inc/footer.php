@@ -55,7 +55,7 @@
                         <li>
                             <span class="icon-envelope"></span>
                             <a href="mailto:info@nepaltravelexperience.com"
-                                class="max-w-65 md:max-w-none wrap-break-words link-underline ">
+                                class="max-w-65 md:max-w-none wrap-break-words link-underline break-all ">
                                 info@nepaltravelexperience.com
                             </a>
                         </li>
