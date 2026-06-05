@@ -2476,7 +2476,7 @@
   .homepage__banner-content {
     @apply absolute bottom-10 left-0 md:left-[50%] top-[60%]  z-10 w-full md:w-[65%] lg:w-[65%] md:translate-x-[-50%] md:translate-y-[-50%] text-left md:text-center text-white  px-3.75 md:p-0;
     h2 {
-      @apply uppercase font-black text-white  text-3xl leading-9.5 lg:text-[52px] lg:leading-15 font-playfair;
+      @apply font-black text-white  text-3xl leading-9.5 lg:text-[52px] lg:leading-15 font-playfair;
     }
     .homepage__banner-subcontent {
       @apply sm:text-base md:text-xl font-medium font-mulish mt-2 md:mt-3;
@@ -2920,10 +2920,15 @@
   }
 
   .contact-page__layout {
-    @apply grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-12 max-[1023px]:pb-5 lg:py-5;
+    .container-fluid {
+      @apply bg-dim_bg p-4 lg:py-8 rounded-[10px];
+    }
   }
 
   .contact-page__info {
+    @apply grid grid-cols-1 lg:grid-cols-2 lg:py-5;
+  }
+  .contact-page__info-left {
     @apply pr-0 lg:pr-8;
   }
 
@@ -2956,15 +2961,15 @@
   }
 
   .contact-page__socials {
-    @apply flex flex-wrap gap-2 text-xl text-block;
+    @apply flex flex-wrap gap-2 text-xl text-white;
 
     a {
-      @apply inline-flex h-10 w-10 items-center justify-center rounded-full bg-white transition-all duration-300 hover:-translate-y-1 hover:bg-primary hover:text-white;
+      @apply inline-flex h-10 w-10 items-center justify-center rounded-full bg-block transition-all duration-300 hover:-translate-y-1 hover:bg-primary hover:text-white;
     }
   }
 
   .contact-page__form-box {
-    @apply rounded-[10px] bg-[#6cafda] p-5 shadow-lg sm:p-7 lg:p-8;
+    @apply rounded-[10px] bg-[#6cafda] p-5 shadow-lg sm:p-7 lg:p-8 mt-5 lg:mt-0;
   }
 
   .contact-page__form-title {
