@@ -14,9 +14,9 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem labore optio dignissimos repudiandae ab accusantium soluta maxime odit ratione officiis? Labore quasi natus esse tempore eum nulla illum, magni eos.
         </div>
       </div>
-      <div class="my-10 customize-page__info">
+      <div class="mt-5 customize-page__info">
         <form class="w-full floating-form">
-          <div class=" mb-4 rounded-custom bg-transparent p-8 shadow-custom">
+          <div class="rounded-custom bg-transparent p-5 md:p-8 shadow-custom">
             <div class="pb-5 text-xl font-bold text-primary md:mt-0">
               Personal Information
             </div>
