@@ -20,7 +20,7 @@
                                                                 <li>
                                                                         <span class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Destinations
-                                                                                <span class="icon ml-1 icon-dropdown"></span>
+                                                                                <span class="icon ml-1 icon-dropdown text-lg"></span>
                                                                         </span>
                                                                         <div class="item dropdown shadow-custom rounded-br-custom rounded-bl-custom absolute top-19 left-0 z-10 w-full px-6 py-3 hidden">
                                                                                 <div class="flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
@@ -773,7 +773,7 @@
                                                                 <li>
                                                                         <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Trekking in Nepal
-                                                                                <span class="icon ml-1 icon-dropdown"></span>
+                                                                                <span class="icon ml-1 icon-dropdown text-lg"></span>
                                                                         </span>
                                                                         <div
                                                                                 class="item dropdown shadow-custom absolute top-19 left-0 z-10 w-full p-6 hidden">
@@ -988,7 +988,7 @@
                                                                 <li>
                                                                         <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Travel Guide
-                                                                                <span class="icon ml-1 icon-dropdown"></span>
+                                                                                <span class="icon ml-1 icon-dropdown text-lg"></span>
                                                                         </span>
                                                                         <div class="item dropdown shadow-custom rounded-b-custom absolute top-19 left-auto z-10 hidden">
                                                                                 <div class="flex flex-wrap justify-start">
@@ -1023,7 +1023,7 @@
                                                                 <li>
                                                                         <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Company
-                                                                                <span class="icon ml-1 icon-dropdown"></span>
+                                                                                <span class="icon ml-1 icon-dropdown text-lg"></span>
                                                                         </span>
                                                                         <div class="item dropdown rounded-b-custom shadow-custom absolute top-19 left-auto z-10 hidden">
                                                                                 <div class="flex flex-wrap justify-start">

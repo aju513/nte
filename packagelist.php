@@ -14,10 +14,9 @@
           vulputate. Vestibulum ultricies efficitur est non gravida.</p>
       </div>
     </div>
-    <div class="package-list__wrapper common-box">
+    <div class="package-list pt-5">
       <div class="container">
         <div class="font-playfair mb-5 text-base">Showing <span class="text-primary font-bold">14</span>
-          <!-- -->
         </div>
         <div class="grid grid-cols-12 gap-x-5 gap-y-10">
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">

@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@source "../../views/";
+@source "../";
+@source "../../../app/";
 
 @theme {
   /* Color Variables */
@@ -231,7 +234,7 @@
     @apply mb-5;
 
     h1 {
-      @apply font-playfair leading-8 font-extrabold text-black sm:leading-10 text-[32px] lg:text-[40px] lg:leading-12;
+      @apply font-playfair leading-8 font-extrabold text-black sm:leading-10 text-[28px] lg:text-[40px] lg:leading-12;
     }
   }
   .page-title.mb-0 {
@@ -256,7 +259,7 @@
   /* accordion starts*/
   .accordion {
     .accordion__item {
-      @apply bg-white relative mb-3 rounded-[10px] p-5 sm:px-7 sm:py-6;
+      @apply bg-white relative mb-3 rounded-[10px] p-5 sm:px-7 sm:py-6 last:mb-0;
     }
     .accordion__item-title {
       @apply font-mulish text-text_color cursor-pointer pr-5 font-extrabold sm:pr-10 text-xl leading-6;
@@ -725,7 +728,7 @@
         @apply mb-0;
       }
       li {
-        @apply text-text_color relative mb-2.5 pl-5.5 text-base leading-6;
+        @apply text-text_color relative mb-2.5 pl-5.5 text-base leading-6 last:mb-0;
         &::before {
           content: "";
           @apply absolute top-2 left-0 h-2.5 w-2.5 bg-current text-[#6cafda];
@@ -802,7 +805,7 @@
         @apply mb-0;
       }
       li {
-        @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5;
+        @apply text-text_color relative mb-2.75 pl-7.5 text-[15px] leading-5.5 last:mb-0;
         &::before {
           content: "";
           @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-[#a79ad9];
@@ -1475,12 +1478,12 @@
     span {
       @apply cursor-pointer;
     }
-    .unrated .icon-star-rate {
-      @apply text-[#e1e1e1];
+    .unrated .icon-star-rate::before {
+      color: #e1e1e1;
       transition: color 0.2s ease;
     }
-    .rated .icon-star-rate {
-      @apply text-[#f7bf00];
+    .rated .icon-star-rate::before {
+      color: #f7bf00;
       transition: color 0.2s ease;
     }
   }
@@ -2474,7 +2477,7 @@
     }
   }
   .homepage__banner-content {
-    @apply absolute bottom-10 left-0 md:left-[50%] top-[60%]  z-10 w-full md:w-[65%] lg:w-[65%] md:translate-x-[-50%] md:translate-y-[-50%] text-left md:text-center text-white  px-3.75 md:p-0;
+    @apply absolute max-md:bottom-10 left-0 md:left-1/2 md:top-1/2  z-10 w-full md:w-[65%] lg:w-[65%] md:-translate-x-1/2 md:-translate-y-1/2 text-left md:text-center text-white  px-3.75 md:p-0;
     h2 {
       @apply font-black text-white  text-3xl leading-9.5 lg:text-[52px] lg:leading-15 font-playfair;
     }
@@ -3081,7 +3084,7 @@
 }
 /* package section title */
 .package__section-title {
-  @apply font-playfair mb-2 lg:mb-4 text-[28px] lg:text-3xl leading-9 lg:leading-10 font-black text-black;
+  @apply font-playfair mb-2 lg:mb-4 text-[27px] lg:text-3xl leading-9 lg:leading-10 font-black text-black;
 }
 /* package banner starts */
 .package__banner {
@@ -3259,7 +3262,7 @@
       @apply mb-5;
 
       li {
-        @apply relative text-text_color leading-6 text-base;
+        @apply relative text-text_color leading-6 text-base last:mb-0;
         &::before {
           content: "";
           @apply absolute top-2 left-0 w-2.5 h-2.5 bg-current text-block;
@@ -3434,7 +3437,7 @@
             @apply mb-0;
           }
           li {
-            @apply text-text_color relative mb-2.75 pl-5.5 text-base leading-6;
+            @apply text-text_color relative mb-2.75 pl-5.5 text-base leading-6 last:mb-0;
             &::before {
               content: "";
               @apply absolute top-2 left-0 h-2.5 w-2.5 text-block;
@@ -3446,7 +3449,7 @@
       }
 
       .package__full-itinerary-item-facts-wrapper {
-        @apply mb-3 flex flex-col flex-wrap justify-between items-start gap-x-5 gap-y-3 rounded-[10px];
+        @apply mb-3 flex flex-col flex-wrap items-start gap-x-5 gap-y-3 rounded-[10px];
         &:last-of-type {
           @apply mb-0;
         }
@@ -3604,7 +3607,7 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.75 leading-5;
+          @apply text-text_color relative mb-2.75 pl-7.75 leading-5 last:mb-0;
           &::before {
             content: "";
             @apply absolute top-px left-0 h-6 w-6 bg-current text-block;
@@ -3647,7 +3650,7 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.75 leading-6 text-base;
+          @apply text-text_color relative mb-2.75 pl-7.75 leading-6 text-base last:mb-0;
           &::before {
             content: "";
             @apply absolute top-0.75 left-0 h-5 w-5  text-primary;
@@ -3696,7 +3699,7 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.75 leading-6 text-base;
+          @apply text-text_color relative mb-2.75 pl-7.75 leading-6 text-base last:mb-0;
           &::before {
             content: "";
             @apply absolute left-0 top-0.75 block h-5 w-5 bg-block;
@@ -3805,7 +3808,7 @@
           @apply mb-0;
         }
         li {
-          @apply text-text_color relative mb-2.75 pl-7.5 text-sm;
+          @apply text-text_color relative mb-2.75 pl-7.5 text-sm last:mb-0;
           &::before {
             content: "";
             @apply absolute top-0.5 left-0 h-5 w-5 bg-current text-block;
@@ -3855,7 +3858,7 @@
         @apply mb-0;
       }
       li {
-        @apply relative mb-2.75 pl-7.75 leading-6 text-text_color;
+        @apply relative mb-2.75 pl-7.75 leading-6 text-text_color last:mb-0;
         &::before {
           content: "";
           @apply absolute top-px left-0 h-6 w-6 bg-current text-text_color;
@@ -3966,7 +3969,7 @@
         @apply mb-0;
       }
       li {
-        @apply text-text_color relative mb-2.75 pl-5.5 text-base leading-6;
+        @apply text-text_color relative mb-2.75 pl-5.5 text-base leading-6 last:mb-0;
         &::before {
           content: "";
           @apply absolute top-2 left-0 w-2.5 h-2.5 bg-current text-block;

@@ -534,8 +534,8 @@
                         </p>
                       </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 ">
-                      <div class="package__full-itinerary-item-facts-wrapper flex items-stretch  ">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                      <div class="package__full-itinerary-item-facts-wrapper">
                         <div class="itinerary-item-facts-unit ">
                           <span class="text-xl text-text_color icon-max-altitude"></span>
                           <span class="text-sm text-text_color">Max Altitude: 1300m</span>
@@ -566,8 +566,8 @@
                           data-src="./images/dynamic/day1.webp">
                           <img
                             src="/images/dynamic/day1.webp"
-                            width="600"
-                            height="630"
+                            width="1200"
+                            height="675"
                             alt="banner" />
                         </a>
                       </div>
@@ -597,8 +597,8 @@
                         </p>
                       </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 px-0 ">
-                      <div class="package__full-itinerary-item-facts-wrapper flex items-stretch  ">
+                    <div class="grid grid-cols-1 md:grid-cols-2">
+                      <div class="package__full-itinerary-item-facts-wrapper ">
                         <div class="itinerary-item-facts-unit ">
                           <span class="text-xl text-text_color icon-max-altitude"></span>
                           <span class="text-sm text-text_color">Max Altitude: 1300m</span>
@@ -629,8 +629,8 @@
                           data-src="./images/dynamic/day1.webp">
                           <img
                             src="/images/dynamic/day1.webp"
-                            width="600"
-                            height="630"
+                            width="1200"
+                            height="675"
                             alt="banner" />
                         </a>
                       </div>
@@ -693,8 +693,8 @@
                           data-src="./images/dynamic/day1.webp">
                           <img
                             src="/images/dynamic/day1.webp"
-                            width="600"
-                            height="630"
+                            width="1200"
+                            height="675"
                             alt="banner" />
                         </a>
                       </div>
@@ -1192,7 +1192,7 @@
       </div>
     </div>
 
-    <div class="video-review lg:pt-15  scroll-wrap ">
+    <div class="video-review common-box pb-0  scroll-wrap ">
       <div class="container">
         <h2 class="package__section-title ">
           Travel Moments

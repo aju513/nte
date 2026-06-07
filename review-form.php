@@ -105,57 +105,49 @@
 </section>
 <?php include('./inc/footer.php') ?>
 <script>
-  (function() {
-    function setupStarRating() {
-      const ratings = document.querySelectorAll(".select-rating");
-      if (!ratings.length) return;
+  document.addEventListener("DOMContentLoaded", () => {
+    const ratingWidgets = document.querySelectorAll(".select-rating");
 
-      ratings.forEach((widget) => {
-        const stars = [...widget.querySelectorAll("span[data-value]")];
-        let currentRating = 0;
+    ratingWidgets.forEach((widget) => {
+      const stars = widget.querySelectorAll("[data-value]");
+      const ratingInput = widget.parentElement.querySelector("#rating-value");
 
-        function highlight(upTo) {
-          stars.forEach((star) => {
-            const val = parseInt(star.dataset.value);
-            star.classList.toggle("rated", val <= upTo);
-            star.classList.toggle("unrated", val > upTo);
-          });
-        }
+      let currentRating = 0;
 
+      const highlightStars = (rating) => {
         stars.forEach((star) => {
-          star.setAttribute("role", "radio");
-          star.setAttribute("tabindex", "0");
-          star.setAttribute("aria-label", `${star.dataset.value} star`);
+          const value = Number(star.dataset.value);
 
-          star.addEventListener("mouseenter", () => {
-            highlight(parseInt(star.dataset.value));
-          });
+          if (value <= rating) {
+            star.classList.add("rated");
+            star.classList.remove("unrated");
+          } else {
+            star.classList.add("unrated");
+            star.classList.remove("rated");
+          }
+        });
+      };
 
-          star.addEventListener("mouseleave", () => {
-            highlight(currentRating);
-          });
+      stars.forEach((star) => {
+        const value = Number(star.dataset.value);
 
-          star.addEventListener("click", () => {
-            currentRating = parseInt(star.dataset.value);
-            highlight(currentRating);
-            const input = widget.closest("div")?.querySelector("#rating-value");
-            if (input) input.value = currentRating;
-          });
+        star.addEventListener("mouseenter", () => {
+          highlightStars(value);
+        });
 
-          star.addEventListener("keydown", (e) => {
-            if (e.key === "Enter" || e.key === " ") {
-              e.preventDefault();
-              star.click();
-            }
-          });
+        star.addEventListener("click", () => {
+          currentRating = value;
+          highlightStars(currentRating);
+
+          if (ratingInput) {
+            ratingInput.value = currentRating;
+          }
         });
       });
-    }
 
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", setupStarRating);
-    } else {
-      setupStarRating();
-    }
-  })();
+      widget.addEventListener("mouseleave", () => {
+        highlightStars(currentRating);
+      });
+    });
+  });
 </script>
