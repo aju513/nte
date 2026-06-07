@@ -170,14 +170,14 @@
               </div>
             </div>
             <div class="package-actions">
-              <button class="package-actions-btn gap-2" data-src="./images/dynamic/route-map.webp" data-fancybox="true">
-                <span class=" icon-send text-lg hover:text-[#6cafda]"></span>
+              <button class="btn-outline-primary hav-icon" data-src="./images/dynamic/route-map.webp" data-fancybox="true">
+                <span class=" icon-send text-lg text-[#6cafda] hover:text-white"></span>
                 View Map
               </button>
               <div class=" package-actions__item group ">
                 <div class=" share-wrap" id="shareDropdown">
-                  <button type="button" class=" share-btn gap-2" id="sharetoggle">
-                    <span class="icon-share text-lg"></span>
+                  <button type="button" class="btn-outline-primary hav-icon" id="sharetoggle">
+                    <span class="icon-share text-lg text-[#6cafda] "></span>
                     Share
                   </button>
                   <div class="share-list" aria-label="Share options" id="dropdownMenu">
@@ -230,7 +230,7 @@
                       <span class="text-3xl icon-duration"></span>
                     </div>
                     <div class="package__facts-item-content">
-                      <div class="block text-left text-sm font-extrabold text-text_color ">
+                      <div class="block text-left text-sm font-extrabold text-primary ">
                         Duration
                       </div>
                       <div class="block text-left text-xs text-text_color">
@@ -246,7 +246,7 @@
                         <span class="text-3xl icon-trip-grade"></span>
                       </div>
                       <div class="package__facts-item-content">
-                        <div class="block text-left text-sm font-extrabold text-text_color">
+                        <div class="block text-left text-sm font-extrabold text-primary">
                           Trip Grade
                         </div>
                         <div class="block text-left text-xs text-text_color">
@@ -280,7 +280,7 @@
                       <span class="text-3xl  icon-trip-grade"></span>
                     </div>
                     <div class="package__facts-item-content">
-                      <div class="block text-left text-sm font-extrabold text-text_color">
+                      <div class="block text-left text-sm font-extrabold text-primary">
                         Maximum Altitude
                       </div>
                       <div class="block text-left text-xs text-text_color">
@@ -295,7 +295,7 @@
                       <span class="text-3xl icon-group-size"></span>
                     </div>
                     <div class="package__facts-item-content">
-                      <div class="block text-left text-sm font-extrabold text-text_color">
+                      <div class="block text-left text-sm font-extrabold text-primary">
                         Group Size
                       </div>
                       <div class="block text-left text-xs text-text_color">
@@ -310,7 +310,7 @@
                       <span class="text-3xl  icon-start"></span>
                     </div>
                     <div class="package__facts-item-content">
-                      <div class="block text-left text-sm font-extrabold text-text_color">
+                      <div class="block text-left text-sm font-extrabold text-primary">
                         Starts
                       </div>
                       <div class="block text-left text-xs text-text_color">
@@ -325,7 +325,7 @@
                       <span class="text-3xl icon-start"></span>
                     </div>
                     <div class="package__facts-item-content">
-                      <div class="block text-left text-sm font-extrabold text-text_color">
+                      <div class="block text-left text-sm font-extrabold text-primary">
                         Ends
                       </div>
                       <div class="block text-left text-xs text-text_color">
@@ -340,7 +340,7 @@
                       <span class="text-3xl icon-travel-style"></span>
                     </div>
                     <div class="package__facts-item-content">
-                      <div class="block text-left text-sm font-extrabold text-text_color">
+                      <div class="block text-left text-sm font-extrabold text-primary">
                         Activities
                       </div>
                       <div class="block text-left text-xs text-text_color">
@@ -355,7 +355,7 @@
                       <span class="text-3xl  icon-best-time"></span>
                     </div>
                     <div class="package__facts-item-content">
-                      <div class="block text-left text-sm font-extrabold text-text_color">
+                      <div class="block text-left text-sm font-extrabold text-primary">
                         Best Time
                       </div>
                       <div class="block text-left text-xs text-text_color">
@@ -370,7 +370,7 @@
                       <span class="text-3xl  icon-best-time"></span>
                     </div>
                     <div class="package__facts-item-content">
-                      <div class="block text-left text-sm font-extrabold text-text_color">
+                      <div class="block text-left text-sm font-extrabold text-primary">
                         Country
                       </div>
                       <div class="block text-left text-xs text-text_color">
@@ -534,43 +534,41 @@
                         </p>
                       </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                      <div class="package__full-itinerary-item-facts-wrapper">
-                        <div class="itinerary-item-facts-unit ">
-                          <span class="text-xl text-text_color icon-max-altitude"></span>
-                          <span class="text-sm text-text_color">Max Altitude: 1300m</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-meal"></span>
-                          <span class="text-sm text-text_color">Meals: B/L/D</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-calendar-lines"></span>
-                          <span class="text-sm text-text_color">Duration: 1 day</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-distance"></span>
-                          <span class="text-sm text-text_color">Distance: 2 km</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-accommodation"></span>
-                          <span class="text-sm text-text_color">Accommodation: Hotel</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-travel-style"></span>
-                          <span class="text-sm text-text_color">Trekking: 5 hours</span>
-                        </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                      <div class="itinerary-item-facts-unit ">
+                        <span class="text-xl text-text_color icon-max-altitude"></span>
+                        <span class="text-sm text-text_color">Max Altitude: 1300m</span>
                       </div>
-                      <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
-                        <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
-                          data-src="./images/dynamic/day1.webp">
-                          <img
-                            src="/images/dynamic/day1.webp"
-                            width="1200"
-                            height="675"
-                            alt="banner" />
-                        </a>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-meal"></span>
+                        <span class="text-sm text-text_color">Meals: B/L/D</span>
                       </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-calendar-lines"></span>
+                        <span class="text-sm text-text_color">Duration: 1 day</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-distance"></span>
+                        <span class="text-sm text-text_color">Distance: 2 km</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-accommodation"></span>
+                        <span class="text-sm text-text_color">Accommodation: Hotel</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-travel-style"></span>
+                        <span class="text-sm text-text_color">Trekking: 5 hours</span>
+                      </div>
+                    </div>
+                    <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
+                      <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
+                        data-src="./images/dynamic/day1.webp">
+                        <img
+                          src="/images/dynamic/day1.webp"
+                          width="1200"
+                          height="675"
+                          alt="banner" />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -597,45 +595,42 @@
                         </p>
                       </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                      <div class="package__full-itinerary-item-facts-wrapper ">
-                        <div class="itinerary-item-facts-unit ">
-                          <span class="text-xl text-text_color icon-max-altitude"></span>
-                          <span class="text-sm text-text_color">Max Altitude: 1300m</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-meal"></span>
-                          <span class="text-sm text-text_color">Meals: B/L/D</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-calendar-lines"></span>
-                          <span class="text-sm text-text_color">Duration: 1 day</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-distance"></span>
-                          <span class="text-sm text-text_color">Distance: 2 km</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-accommodation"></span>
-                          <span class="text-sm text-text_color">Accommodation: Hotel</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-travel-style"></span>
-                          <span class="text-sm text-text_color">Trekking: 5 hours</span>
-                        </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                      <div class="itinerary-item-facts-unit ">
+                        <span class="text-xl text-text_color icon-max-altitude"></span>
+                        <span class="text-sm text-text_color">Max Altitude: 1300m</span>
                       </div>
-                      <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
-                        <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
-                          data-src="./images/dynamic/day1.webp">
-                          <img
-                            src="/images/dynamic/day1.webp"
-                            width="1200"
-                            height="675"
-                            alt="banner" />
-                        </a>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-meal"></span>
+                        <span class="text-sm text-text_color">Meals: B/L/D</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-calendar-lines"></span>
+                        <span class="text-sm text-text_color">Duration: 1 day</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-distance"></span>
+                        <span class="text-sm text-text_color">Distance: 2 km</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-accommodation"></span>
+                        <span class="text-sm text-text_color">Accommodation: Hotel</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-travel-style"></span>
+                        <span class="text-sm text-text_color">Trekking: 5 hours</span>
                       </div>
                     </div>
-
+                    <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
+                      <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
+                        data-src="./images/dynamic/day1.webp">
+                        <img
+                          src="/images/dynamic/day1.webp"
+                          width="1200"
+                          height="675"
+                          alt="banner" />
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div class="package__full-itinerary-item relative mb-6.25 last:mb-0">
@@ -661,45 +656,42 @@
                         </p>
                       </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 px-0">
-                      <div class="package__full-itinerary-item-facts-wrapper flex items-stretch  ">
-                        <div class="itinerary-item-facts-unit ">
-                          <span class="text-xl text-text_color icon-max-altitude"></span>
-                          <span class="text-sm text-text_color">Max Altitude: 1300m</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-meal"></span>
-                          <span class="text-sm text-text_color">Meals: B/L/D</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-calendar-lines"></span>
-                          <span class="text-sm text-text_color">Duration: 1 day</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-distance"></span>
-                          <span class="text-sm text-text_color">Distance: 2 km</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-accommodation"></span>
-                          <span class="text-sm text-text_color">Accommodation: Hotel</span>
-                        </div>
-                        <div class="itinerary-item-facts-unit">
-                          <span class="text-xl text-text_color icon-travel-style"></span>
-                          <span class="text-sm text-text_color">Trekking: 5 hours</span>
-                        </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                      <div class="itinerary-item-facts-unit ">
+                        <span class="text-xl text-text_color icon-max-altitude"></span>
+                        <span class="text-sm text-text_color">Max Altitude: 1300m</span>
                       </div>
-                      <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
-                        <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
-                          data-src="./images/dynamic/day1.webp">
-                          <img
-                            src="/images/dynamic/day1.webp"
-                            width="1200"
-                            height="675"
-                            alt="banner" />
-                        </a>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-meal"></span>
+                        <span class="text-sm text-text_color">Meals: B/L/D</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-calendar-lines"></span>
+                        <span class="text-sm text-text_color">Duration: 1 day</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-distance"></span>
+                        <span class="text-sm text-text_color">Distance: 2 km</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-accommodation"></span>
+                        <span class="text-sm text-text_color">Accommodation: Hotel</span>
+                      </div>
+                      <div class="itinerary-item-facts-unit">
+                        <span class="text-xl text-text_color icon-travel-style"></span>
+                        <span class="text-sm text-text_color">Trekking: 5 hours</span>
                       </div>
                     </div>
-
+                    <div class="package__full-itinerary-item-gallery flex-[0_0_200px]">
+                      <a href="./images/dynamic/album.webp" data-fancybox="package-gallery"
+                        data-src="./images/dynamic/day1.webp">
+                        <img
+                          src="/images/dynamic/day1.webp"
+                          width="1200"
+                          height="675"
+                          alt="banner" />
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -1131,15 +1123,15 @@
               </div>
               <div class=" package-book-options">
                 <button type="button"
-                  class="bg-block rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)] ">
+                  class="package-book-options__item bg-block text-white hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)] ">
                   Book This Trip
                 </button>
                 <a href=""
-                  class="bg-secondary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-text_color transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)]">
+                  class="package-book-options__item bg-secondary text-text_color hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-primary)]">
                   Check Availability
                 </a>
                 <button type="button" data-fancybox data-src="#dialog-content"
-                  class="bg-primary rounded-custom px-5 py-2.5 text-base leading-5 font-bold text-white transition-all duration-500 hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)]">
+                  class="package-book-options__item bg-primary text-white hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)]">
                   Make an INQUIRY
                 </button>
 

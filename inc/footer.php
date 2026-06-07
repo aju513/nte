@@ -7,7 +7,7 @@
         <!-- Affiliations -->
         <div class="footer_affiliations ">
             <div class="container">
-                <h2 class="text-base lg:text-[20px] uppercase font-mulish font-extrabold max-[639px]:text-left text-center text-text_color">
+                <h2 class="text-base lg:text-[20px] uppercase font-mulish font-extrabold max-[639px]:text-left text-center text-primary">
                     Our Affiliations
                 </h2>
 
@@ -92,12 +92,11 @@
                         <li><a href="" class="link-underline">Privacy Policy</a></li>
                     </ul>
                 </div>
-
                 <!-- Newsletter & Social -->
                 <div class="col-span-1 sm:col-span-1 lg:col-span-3 ">
                     <div class="flex flex-col gap-0.5">
                         <h4>Newsletter</h4>
-                        <div class="text-base ">
+                        <div class="text-[15px] ">
                             Sign up for the latest news, offers!
                         </div>
                         <div class="flex  items-start">
@@ -134,26 +133,12 @@
                     </div>
 
                 </div>
-
             </div>
             <!-- Bottom Bar -->
             <div class="footer_bottom">
-                <div class="flex gap-1.75 items-center justify-center">
-                    <div class="footer__payment">
-                        <img src="/images/payment/paypal.svg" width="48" height="13" alt="Payment Methods" />
-                    </div>
-                    <div class="footer__payment">
-                        <img src="/images/payment/mastercard.svg" width="42" height="26" alt="Payment Methods" />
-                    </div>
-                    <div class="footer__payment">
-
-                        <img src="/images/payment/visa.svg" width="47" height="16" alt="Payment Methods" />
-                    </div>
+                <div class="footer__payment">
+                    <img src="/images/payment/payment-logo.svg" width="230" height="35" alt="Payment Methods" />
                 </div>
-
-
-
-
                 <div class="text-left md:text-center lg:text-right  text-text_color">
                     <div class="font-extrabold mt-2 text-[15px]">
                         © <?= date('Y') ?>, Nepal Travel Experience Pvt. Ltd. All Rights Reserved.
@@ -165,10 +150,8 @@
                             alt="Imagine Web Solution">
                     </div>
                 </div>
-
             </div>
         </div>
-
 </footer>
 <div class="mob-quick-contact fixed bottom-0 z-[10000] lg:hidden bg-dim_bg w-full bg-white bg-opacity-95 py-5">
     <div class="container">

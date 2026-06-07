@@ -258,7 +258,7 @@
                 <div class="mb-0 col-span-12 lg:col-span-6 lg:max-w-[600px]">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum magni
                         recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
-                    <div class="section-title-btn">
+                    <div class="section-title-btn lg:mt-4">
                         <a href="" class="btn-outline-primary hav-icon">View All Regions <span class="icon-view"></span></a>
                     </div>
                 </div>
@@ -466,7 +466,7 @@
                                 Namaste!
                             </h2>
                         </div>
-                        <div class="welcome-content mt-4">
+                        <div class="welcome-content">
                             <p>
                                 Nepal Travel Experience (NTE) offers customized tours for groups wanting to create their
                                 own
@@ -487,12 +487,12 @@
                                 cookking, art, craft, music, dancing, meditation, yoga and organic farming. [...]
                             </p>
                         </div>
-                        <button class="btn-outline-primary hav-icon mt-6.5 lg:mt-12.5">
+                        <button class="btn-outline-primary hav-icon mt-5 lg:mt-8">
                             More About Us <span class="icon-view"></span>
                         </button>
                     </div>
                     <div class="homepage__why-choose col-span-6 scroll-mt-20 font-mulish ">
-                        <div class="why-choose-accordion container">
+                        <div class="why-choose-accordion">
                             <h2 class="why-choose-accordion__heading ">Why choose us?</h2>
 
                             <div class="why-choose-accordion__list">
@@ -598,7 +598,7 @@
                 <div class="mb-0 mb-0 col-span-12 lg:col-span-6 max-w-[600px]">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias, porro laborum
                         magni recusandae ducimus fugit laboriosam nam nisi dolorum.</p>
-                    <div class="section-title-btn">
+                    <div class="section-title-btn mt-4">
                         <a href="" class="btn-outline-primary hav-icon">View All Packages <span class="text-sm icon-view"></span></a>
                     </div>
                 </div>
@@ -777,91 +777,64 @@
             </div>
             <!-- Videos Layout -->
             <div class="homepage-moments scroll-wrap">
-                <div class="grid grid-cols-12 gap-5  ">
-                    <div class="homepage-moments__featured col-span-12 lg:col-span-9">
+                <div class="grid grid-cols-12 gap-3.75 lg:gap-5">
+                    <div class="col-span-4">
                         <div class="moments-list__item">
-                            <div class="moments-list__item-image relative">
-                                <div class="placeholder__img-wrapper  ">
-                                    <div class="placeholder__img  ">
-                                        <img src="/images/dynamic/video-thumb.webp" width="1200" height="550" loading="lazy"
-                                            decoding="async" data-nimg="1" style="color: transparent;"
-                                            alt="Everest Base Camp" />
-                                    </div>
-                                </div>
-                                <div class="fancybox-wrapper video-review__item-link">
-                                    <div role="button" data-fancybox="true"
-                                        data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
-                                        area-label="Watch video review" class="circular-animate">
-                                        <span class="video-play-btn"><span class="icon-play-button "></span>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="moments-list__item-meta">
-                                    <h4 class="moments-list__item-meta-title ">Everest Base Camp
-                                    </h4>
-                                    <span class="text-[15px]">Jhon - Australia</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="homepage-moments__side col-span-12 lg:col-span-3">
-                        <div class="homepage-moments__side-list flex flex-col gap-5 h-full">
-                            <div class="moments-list__item">
-                                <div class="moments-list__item-image relative">
-                                    <div class="placeholder__img-wrapper">
-                                        <div class="placeholder__img w-full">
-                                            <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
-                                                decoding="async" data-nimg="1" style="color: transparent;"
-                                                alt="Everest Base Camp" />
-                                        </div>
-                                    </div>
-                                    <div class="fancybox-wrapper">
-                                        <div role="button" data-fancybox="true"
-                                            data-src="https://www.youtube.com/watch?v=bVYJNM1Pih0&t=2s"
-                                            area-label="Watch video review">
-                                            <div
-                                                class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3 right-2">
-                                                <span class="video-play-btn-side circular-animate">
-                                                    <span class="icon-play-button text-xs!"></span></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="moments-list__item-meta">
-                                        <h4 class="moments-list__item-meta-title">Travel Nepal</h4>
-                                        <span class="text-[15px]">John - Australia</span>
+                            <div class="relative moments-list__item-image">
+                                <div class="placeholder__img-wrapper">
+                                    <div class="w-full placeholder__img">
+                                        <img src="/images/dynamic/video-review.webp" width="1200" height="550" alt="banner" />
                                     </div>
                                 </div>
                             </div>
+                            <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="video-play-btn circular-animate ">
 
-                            <div class="moments-list__item">
-                                <div class="moments-list__item-image relative">
-                                    <div class="placeholder__img-wrapper">
-                                        <div class="placeholder__img w-full">
-                                            <img src="/images/dynamic/video.webp" width="1200" height="550" loading="lazy"
-                                                decoding="async" data-nimg="1" style="color: transparent;"
-                                                alt="Everest Base Camp" />
-                                        </div>
-                                    </div>
-                                    <div class="fancybox-wrapper">
-                                        <div role="button" data-fancybox="true"
-                                            data-src="https://www.youtube.com/watch?v=irvZaxT6L3A&t=15s"
-                                            area-label="Watch video review">
-                                            <div class="absolute inset-0 flex items-start cursor-pointer justify-end z-10 mt-3 right-2">
-                                                <span class="video-play-btn-side circular-animate">
-                                                    <span
-                                                        class="icon-play-button text-xs! "></span></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="moments-list__item-meta">
-                                        <h4 class="moments-list__item-meta-title">Things to Do in Nepal</h4>
-                                        <span class="text-[15px]">John - Australia</span>
-                                    </div>
-                                </div>
+                                <span class="icon-play-button text-xs!"></span>
+                            </a>
+                            <div class="moments-list__item-content">
+                                <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
+                                <span class="text-[15px]">John - Australia</span>
                             </div>
                         </div>
                     </div>
-                    <!-- </div> -->
+                    <div class="col-span-4">
+                        <div class="moments-list__item">
+                            <div class="relative moments-list__item-image">
+                                <div class="placeholder__img-wrapper">
+                                    <div class="w-full placeholder__img">
+                                        <img src="/images/dynamic/video-review.webp" width="1200" height="550" alt="banner" />
+                                    </div>
+                                </div>
+                            </div>
+                            <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="video-play-btn circular-animate ">
+
+                                <span class="icon-play-button text-xs!"></span>
+                            </a>
+                            <div class="moments-list__item-content">
+                                <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
+                                <span class="text-[15px]">John - Australia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-4">
+                        <div class="moments-list__item">
+                            <div class="relative moments-list__item-image">
+                                <div class="placeholder__img-wrapper">
+                                    <div class="w-full placeholder__img">
+                                        <img src="/images/dynamic/video-review.webp" width="1200" height="550" alt="banner" />
+                                    </div>
+                                </div>
+                            </div>
+                            <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="video-play-btn circular-animate ">
+
+                                <span class="icon-play-button text-xs!"></span>
+                            </a>
+                            <div class="moments-list__item-content">
+                                <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
+                                <span class="text-[15px]">John - Australia</span>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -870,7 +843,7 @@
     <!-- Testimonials -->
     <section class="reviews hav-title-btn pb-0 common-box">
         <div class="container">
-            <div class="flex items-center justify-between">
+            <div class="flex flex-col gap-1 lg:gap-4 lg:flex-row items-start lg:items-center lg:justify-between">
                 <div class="mb-0 section-title-wrap">
                     <div class="relative section-title-sm ">
                         Testimonials
@@ -879,61 +852,58 @@
                         Real Feedback From Our Travelers
                     </h2>
                 </div>
-                <div class="flex items-center section-title-btn">
-                    <a href="" class="btn-outline-primary hav-icon">View All Reviews <span class="text-sm icon-view"></span></a>
-                </div>
-            </div>
-            <!-- Reviews Section -->
-            <div class="homepage__review-summary">
-                <div class="flex flex-wrap items-center justify-center lg:justify-between gap-4 md:gap-4 lg:gap-4  py-2 text-sm sm:flex-row">
-                    <div class="flex flex-col items-end justify-center flex-wrap">
-                        <a href="">
-                            <img id="reviewIcon" src="/images/svg/tripadvisor.svg" class="w-147px h-31px cursor-pointer"
-                                alt="Trip Advisor" />
-                        </a>
-                        <div class=" flex items-center justify-center gap-2">
-                            <div class="flex gap-0.5 ">
-                                <span class="icon-green-circle text-[8px]"></span>
-                                <span class="icon-green-circle text-[8px]"></span>
-                                <span class="icon-green-circle text-[8px]"></span>
-                                <span class="icon-green-circle text-[8px]"></span>
-                                <span class="icon-green-circle text-[8px]"></span>
+                <!-- Reviews Section -->
+                <div class="package__review-platforms max-[1023px]:mt-3">
+                    <a href="" class="package__review-platform">
+                        <img src="/images/svg/circular-tripadvisor.svg" width="31" height="31" alt="Tripadvisor" class="cursor-pointer" />
+                        <div class="package__review-platform-copy">
+                            <div class="package__review-platform-rating green-dot-rating">
+                                <span class="text-sm ">4.9</span>
+                                <div class="rating-wrap rating-5">
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
                             </div>
-                            <span id="reviewCount" class="text-xs">222 reviews</span>
+                            <div class="text-xs text-black">Based on 22 reviews</div>
                         </div>
-                    </div>
-                    <div class="flex flex-col items-end justify-center flex-wrap">
-                        <a href="">
-                            <img id="reviewIcon" src="/images/svg/google.svg" class="w-147px h-31px cursor-pointer"
-                                alt="Google" />
-                        </a>
-                        <div class=" flex items-center justify-center gap-2">
-                            <div class="flex gap-0.5 ">
-                                <span class="icon-star-rate text-[8px]"></span>
-                                <span class="icon-star-rate text-[8px]"></span>
-                                <span class="icon-star-rate text-[8px]"></span>
-                                <span class="icon-star-rate text-[8px]"></span>
-                                <span class="icon-star-rate text-[8px]"></span>
+                    </a>
+                    <a href="" class="package__review-platform">
+                        <img src="/images/svg/circular-google.svg" width="31" height="31" alt="Google" class="cursor-pointer" />
+                        <div class="package__review-platform-copy">
+                            <div class="package__review-platform-rating star-rating">
+                                <span class="text-sm ">4.9</span>
+                                <div class="rating-wrap rating-5">
+                                    <span class="star "></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
                             </div>
-                            <span id="reviewCount" class="text-xs">222 reviews</span>
+                            <div class="text-xs text-black">Based on 22 reviews</div>
                         </div>
-                    </div>
-                    <div class="flex flex-col items-end justify-center flex-wrap">
-                        <a href="">
-                            <img id="reviewIcon" src="/images/svg/facebook.svg" class="w-147px h-31px cursor-pointer"
-                                alt="Facebook" />
-                        </a>
-                        <div class=" flex items-center justify-center gap-2">
-                            <div class="flex gap-0.5 ">
-                                <span class="icon-star-rate text-[8px]"></span>
-                                <span class="icon-star-rate text-[8px]"></span>
-                                <span class="icon-star-rate text-[8px]"></span>
-                                <span class="icon-star-rate text-[8px]"></span>
-                                <span class="icon-star-rate text-[8px]"></span>
+                    </a>
+                    <a href="" class="package__review-platform">
+                        <img src="/images/svg/trustpilot.svg" width="31" height="31" alt="Trustpilot" />
+                        <div class="package__review-platform-copy">
+
+                            <div class="package__review-platform-rating">
+                                <span class="text-sm ">4.9</span>
+                                <div class="rating-wrap rating-5 ">
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
                             </div>
-                            <span id="reviewCount" class="text-xs">222 reviews</span>
+                            <div class="text-xs text-black">Based on 22 reviews</div>
                         </div>
-                    </div>
+                    </a>
+
                 </div>
             </div>
             <!-- Testimonials -->
@@ -1068,6 +1038,9 @@
                 <button class="homepage__slider-next testimonial-next">
                     <span class="icon-arrow-right text-primary text-2xl"></span>
                 </button>
+            </div>
+            <div class="flex items-center section-title-btn lg:mt-5">
+                <a href="" class="btn-outline-primary hav-icon">View All Reviews <span class="text-sm icon-view"></span></a>
             </div>
         </div>
     </section>

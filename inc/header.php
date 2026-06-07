@@ -18,7 +18,7 @@
                                                 <nav class="nav-menu flex items-center justify-end gap-5">
                                                         <ul class="items-center gap-3 xl:gap-7 lg:flex">
                                                                 <li>
-                                                                        <span class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
+                                                                        <span class="dropdown-toggle  hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] xl:text-base leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Destinations
                                                                                 <span class="icon ml-1 icon-dropdown text-lg"></span>
                                                                         </span>
@@ -771,7 +771,7 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
+                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] xl:text-base leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Trekking in Nepal
                                                                                 <span class="icon ml-1 icon-dropdown text-lg"></span>
                                                                         </span>
@@ -986,7 +986,7 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
+                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] xl:text-base leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Travel Guide
                                                                                 <span class="icon ml-1 icon-dropdown text-lg"></span>
                                                                         </span>
@@ -1021,7 +1021,7 @@
                                                                         </div>
                                                                 </li>
                                                                 <li>
-                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] leading-5 font-bold transition-all duration-500"
+                                                                        <span class="dropdown-toggle hover:text-primary text-text_color flex w-full cursor-pointer items-center gap-0 text-[15px] xl:text-base leading-5 font-bold transition-all duration-500"
                                                                                 aria-expanded="false">Company
                                                                                 <span class="icon ml-1 icon-dropdown text-lg"></span>
                                                                         </span>
@@ -1106,9 +1106,9 @@
                                                                                 </div>
                                                                         </div>
                                                                 </li>
-                                                                <li><a class="hover:text-primary text-text_color text-[15px] leading-5 font-bold transition-all duration-500"
+                                                                <li><a class="hover:text-primary text-text_color text-[15px] xl:text-base leading-5 font-bold transition-all duration-500"
                                                                                 href="">Blog</a></li>
-                                                                <li><a class="hover:text-primary text-text_color text-[15px] leading-5 font-bold transition-all duration-500"
+                                                                <li><a class="hover:text-primary text-text_color text-[15px] xl:text-base leading-5 font-bold transition-all duration-500"
                                                                                 href="../contact-new.php">Contact Us</a></li>
                                                         </ul>
                                                 </nav>
@@ -1125,10 +1125,10 @@
                                                                                         </a>
                                                                                         <form class="relative">
                                                                                                 <input type="text" id="default-search"
-                                                                                                        class="block h-10 w-full rounded-lg border border-gray-300 px-3 bg-white"
+                                                                                                        class="block h-12 w-full rounded-lg border border-gray-300 px-3.5 bg-white"
                                                                                                         placeholder="Search" required="">
                                                                                                 <button type="submit"
-                                                                                                        class="absolute inset-e-2.5 bottom-1   text-sm font-medium">
+                                                                                                        class="absolute inset-e-2.5 bottom-2   text-sm font-medium">
                                                                                                         <span class="icon icon-searchicon"></span>
                                                                                                 </button>
                                                                                         </form>
@@ -1365,10 +1365,10 @@
                                 <div class="mobile-search__content">
                                         <form class="relative">
                                                 <input type="text"
-                                                        class="block h-10 w-full rounded-lg border border-gray-300 bg-white px-3"
+                                                        class="block h-12 w-full rounded-lg border border-gray-300 bg-white px-3.5"
                                                         placeholder="Search" required="">
                                                 <button type="submit"
-                                                        class="absolute inset-e-2.5 bottom-0 text-sm font-medium">
+                                                        class="absolute inset-e-2.5 bottom-1 text-sm font-medium">
                                                         <span class="icon icon-searchicon"></span>
                                                 </button>
                                         </form>
