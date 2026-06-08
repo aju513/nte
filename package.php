@@ -779,60 +779,52 @@
             <div class="package__availability-wrapper">
               <div class="package__availability-list ">
                 <div class="package__availability-item ">
-                  <div class="inner">
+                  <div class="package__availability-item-meta">
+                    <span class="font-bold text-base leading-6">Start on Sunday</span>
+                    <span class="font-medium text-sm leading-6">14 Feb, 2025</span>
+                  </div>
+                  <div class="package__availability-item-meta">
+                    <span class="font-bold text-base leading-6">Ends on Sunday</span>
+                    <span class="font-medium text-sm leading-6">28 Feb, 2025</span>
+                  </div>
+                  <div class="package__availability-item-meta">
+                    <span class="font-bold text-base leading-6">Status</span>
+                    <span class="font-medium text-sm leading-6">Guaranteed</span>
+                  </div>
 
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-base leading-6">14 Feb, 2025</span>
-                      <span class="font-medium text-sm leading-6">Start on Sunday</span>
-                    </div>
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-base leading-6">28 Feb, 2025</span>
-                      <span class="font-medium text-sm leading-6">Ends on Sunday</span>
-                    </div>
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-base leading-6">20</span>
-                      <span class="font-medium text-sm leading-6">Group Size</span>
-                    </div>
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-base leading-6">Guaranteed</span>
-                      <span class="font-medium text-sm leading-6">2 spaces left</span>
-                    </div>
-
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-lg leading-5">US$ 1680</span>
-                      <span class="font-medium text-lg leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
-                    </div>
+                  <div class="package__availability-item-meta">
+                    <span class="font-bold text-base leading-6">US$ 1680</span>
+                    <span class="font-medium text-sm leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
+                  </div>
+                  <div class="package__availability-item-meta">
+                    <span class="font-medium text-xs leading-4 mb-1.25">2 spaces left</span>
                     <div class="package__book-cta">
                       <a href="" class="package__book-cta ">Book Now</a>
                     </div>
                   </div>
                 </div>
                 <div class="package__availability-item ">
-                  <div class="inner">
+                  <div class="package__availability-item-meta">
+                    <span class="font-bold text-base leading-6">Start on Sunday</span>
+                    <span class="font-medium text-sm leading-6">14 Feb, 2025</span>
+                  </div>
+                  <div class="package__availability-item-meta">
+                    <span class="font-bold text-base leading-6">Ends on Sunday</span>
+                    <span class="font-medium text-sm leading-6">28 Feb, 2025</span>
+                  </div>
+                  <div class="package__availability-item-meta">
+                    <span class="font-bold text-base leading-6">Status</span>
+                    <span class="font-medium text-sm leading-6">Guaranteed</span>
+                  </div>
 
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-base leading-6">14 Feb, 2025</span>
-                      <span class="font-medium text-sm leading-6">Start on Sunday</span>
-                    </div>
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-base leading-6">28 Feb, 2025</span>
-                      <span class="font-medium text-sm leading-6">Ends on Sunday</span>
-                    </div>
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-base leading-6">20</span>
-                      <span class="font-medium text-sm leading-6">Group Size</span>
-                    </div>
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-base leading-6">Guaranteed</span>
-                      <span class="font-medium text-sm leading-6">2 spaces left</span>
-                    </div>
-
-                    <div class="package__availability-item-meta">
-                      <span class="font-bold text-lg leading-5">US$ 1680</span>
-                      <span class="font-medium text-lg leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
-                    </div>
+                  <div class="package__availability-item-meta">
+                    <span class="font-bold text-base leading-6">US$ 1680</span>
+                    <span class="font-medium text-sm leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
+                  </div>
+                  <div class="package__availability-item-meta">
+                    <span class="font-medium text-xs leading-4 mb-1.25">2 spaces left</span>
                     <div class="package__book-cta">
-                      <a href="" class="package__book-cta">Book Now</a>
+                      <a href="" class="package__book-cta ">Book Now</a>
                     </div>
                   </div>
                 </div>
@@ -1131,7 +1123,7 @@
                   Check Availability
                 </a>
                 <button type="button" data-fancybox data-src="#dialog-content"
-                  class="package-book-options__item bg-primary text-white hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)]">
+                  class="package-book-options__item bg-primary text-white hover:text-white hover:shadow-[inset_0_0_0_2em_var(--color-block)] mb-0!">
                   Make an INQUIRY
                 </button>
 
@@ -1271,7 +1263,7 @@
         </div>
       </div>
     </div>
-    <div class="inner__review review-list common-box pb-0 hav-gradient-bg " id="package-reviews">
+    <div class="inner__review review-list common-box pb-0 hav-gradient-bg mb-2" id="package-reviews">
       <div class="container">
         <div class="package__reviews-header mb-2.5 lg:mb-7.5">
           <h2 class="package__section-title">
@@ -1329,9 +1321,8 @@
             </a>
 
           </div>
-
         </div>
-        <div class="relative mb-7.5">
+        <div class="relative">
           <div class="grid grid-cols-12 gap-5 p-1!">
             <div class="col-span-12 lg:col-span-6">
               <div class="testimonial__list-item m-0!">
@@ -1408,15 +1399,12 @@
             </div>
 
           </div>
-
         </div>
-        <button class="text-lg font-bold text-text_color font-mulish leading-7 underline hover:text-primary">
-          Load More
+        <button class="btn-outline-primary hav-icon mt-4">
+          See More <span class="icon-view"></span>
         </button>
-
       </div>
     </div>
-
     <div id="no-nav"></div>
   </div>
   <div class="package__similar package-list relative scroll-wrap">
@@ -1589,7 +1577,6 @@
       </div>
     </div>
   </div>
-
 </section>
 <section class="mob-quick-contact fixed bottom-0 left-0 z-[9999] flex w-full items-center gap-2 bg-dim_bg p-3 lg:hidden">
   <a

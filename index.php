@@ -793,7 +793,7 @@
                             </a>
                             <div class="moments-list__item-content">
                                 <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
-                                <span class="text-[15px]">John - Australia</span>
+                                <span class="text-sm md:text-[15px]">John - Australia</span>
                             </div>
                         </div>
                     </div>
@@ -812,7 +812,7 @@
                             </a>
                             <div class="moments-list__item-content">
                                 <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
-                                <span class="text-[15px]">John - Australia</span>
+                                <span class="text-sm md:text-[15px]">John - Australia</span>
                             </div>
                         </div>
                     </div>
@@ -831,7 +831,7 @@
                             </a>
                             <div class="moments-list__item-content">
                                 <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
-                                <span class="text-[15px]">John - Australia</span>
+                                <span class="text-sm md:text-[15px]">John - Australia</span>
                             </div>
                         </div>
                     </div>

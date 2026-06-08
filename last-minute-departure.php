@@ -50,7 +50,7 @@
     </div>
     <div class="my-10 last-minute-page__filter">
       <div class="container">
-        <select class="w-full border custom-rounded border-primary border-opacity-20 md:w-40">
+        <select class="w-full border custom-rounded border-primary/10 md:w-40">
           <option>Feb 2024</option>
           <option>Mar 2024</option>
           <option>Apr 2024</option>

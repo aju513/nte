@@ -2,7 +2,6 @@
 <?php include('./inc/header-top.php'); ?>
 <?php include('./inc/header.php'); ?>
 <?php include('./inc/breadcrumbs.php') ?>
-
 <?php include('./inc/innerbanner.php') ?>
 <section class="bg-secondary common-box pt-0" role="main">
   <div class="container-fluid-custom">
@@ -41,9 +40,9 @@
         <h2 class="font-black text-3xl">
           Why Choose Us
         </h2>
-        <div class="grid grid-cols-12 gap-2 mt-2">
+        <div class="grid grid-cols-12 gap-2 mt-4">
           <div class="col-span-3">
-            <div class="flex flex-col items-start gap-4 py-4">
+            <div class="flex flex-col items-start gap-4">
               <div class="why-travel-icon">
                 <img alt="" loading="lazy" width="23" height="23" decoding="async" data-nimg="1" class="brightness-200" style="color:white" src="../images/svg/circle-dollar-sign.svg">
               </div>
@@ -252,11 +251,9 @@
                 <div class="text-xs text-black">Based on 22 reviews</div>
               </div>
             </a>
-
           </div>
-
         </div>
-        <div class="relative mb-7.5">
+        <div class="relative">
           <div class="grid grid-cols-12 gap-5 p-1!">
             <div class="col-span-12 lg:col-span-6">
               <div class="testimonial__list-item m-0!">
@@ -335,8 +332,8 @@
           </div>
 
         </div>
-        <button class="text-lg font-bold text-text_color font-mulish leading-7 underline hover:text-primary">
-          Load More
+        <button class="btn-outline-primary hav-icon mt-4">
+          See More <span class="icon-view"></span>
         </button>
 
       </div>

@@ -54,8 +54,9 @@
       <div class="container">
         <div class="blog-search">
           <div class="flex flex-col justify-between gap-5 sm:flex-row">
-            <div class="relative"><select class="">
-                <option selected="">All Topics</option>
+            <div class="relative">
+              <select class="border-primary/15 border">
+                <option selected="">Choose a Category</option>
                 <option>Cultural Tours</option>
                 <option>Tours</option>
                 <option>Golfing</option>
@@ -65,9 +66,9 @@
               </select>
             </div>
             <div class="relative"><input type="text" placeholder="Search the blog"
-                class="text-text_color placeholder:text-text_color rounded-custom shadow-custom w-full bg-white px-6.25 py-3.75 text-[15px] leading-6 lg:w-112.5">
+                class="text-text_color rounded-custom border-primary/15 placeholder:text-text_color block w-full border px-3.75.25 py-3.75 ps-6 text-[15px] leading-6 bg-white shadow-sm md:w-75">
               <div class="absolute top-4 right-4">
-                <span class="icon icon-searchicon text-lg text-primary"></span>
+                <span class="icon icon-searchicon text-2xl text-primary"></span>
               </div>
             </div>
           </div>

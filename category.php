@@ -21,6 +21,8 @@
         </div>
       </div>
       <div class="category-list pt-5">
+        <div class="font-playfair mb-5 text-base">Showing <span class="text-primary font-bold">14</span>
+        </div>
         <div class="grid grid-cols-12 gap-5">
           <div class="col-span-12 sm:col-span-6 md:col-span-4 xl:col-span-3">
             <div class="category-list__item">

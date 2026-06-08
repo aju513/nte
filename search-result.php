@@ -13,7 +13,7 @@
         <div class=" search-page__filter min-w-75">
           <div class="flex flex-wrap items-center gap-3">
             <div class="w-full search-page__filter-duration md:w-40">
-              <select class="w-full border custom-rounded border-primary border-opacity-20">
+              <select class="w-full border custom-rounded border-primary/20">
                 <option>Duration</option>
                 <option>Duration</option>
                 <option>Duration</option>
@@ -21,7 +21,7 @@
               </select>
             </div>
             <div class="w-full search-page__filter-price md:w-40">
-              <select class="w-full border custom-rounded border-primary border-opacity-20">
+              <select class="w-full border custom-rounded border-primary/20">
                 <option>Price</option>
                 <option>Price</option>
                 <option>Price</option>
