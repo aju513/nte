@@ -1176,7 +1176,7 @@
       </div>
     </div>
 
-    <div class="video-review common-box pb-0  scroll-wrap ">
+    <div class="video-review common-box pb-0 scroll-wrap">
       <div class="container">
         <h2 class="package__section-title ">
           Travel Moments
@@ -1184,7 +1184,7 @@
         <div class="grid grid-cols-12 gap-5">
           <div class="col-span-4">
             <div class="moments-list__item">
-              <div class="relative moments-list__item-image">
+              <div class=" moments-list__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="w-full placeholder__img">
                     <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
@@ -1210,7 +1210,7 @@
           </div>
           <div class="col-span-4">
             <div class="moments-list__item">
-              <div class="relative moments-list__item-image">
+              <div class=" moments-list__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="w-full placeholder__img">
                     <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
@@ -1236,7 +1236,7 @@
           </div>
           <div class="col-span-4">
             <div class="moments-list__item">
-              <div class="relative moments-list__item-image">
+              <div class=" moments-list__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="w-full placeholder__img">
                     <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />

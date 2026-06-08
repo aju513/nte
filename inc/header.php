@@ -13,7 +13,7 @@
                                                         src="./images/svg/logo.svg" />
                                         </a>
                                 </div>
-                                <div class="col-span-10 2xl:ml-25">
+                                <div class="col-span-10 xl:ml-25">
                                         <div class="flex min-h-15 items-center xl:gap-2 justify-between">
                                                 <nav class="nav-menu flex items-center justify-end gap-5">
                                                         <ul class="items-center gap-3 xl:gap-7 lg:flex">

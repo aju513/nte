@@ -37,18 +37,7 @@
                         </a>
 
                         <div class="notice-controls">
-                            <div class="notice-nav">
-                                <button type="button" class="notice-btn js-notice-prev" aria-label="Previous notice">
-                                    <span class="icon-back rotate-180"></span>
-                                </button>
-                                <span class="notice-counter">
-                                    <span class="js-notice-current">1</span>/3
-                                </span>
-                                <button type="button" class="notice-btn js-notice-next" aria-label="Next notice">
-                                    <span class="icon-back "></span>
-                                </button>
-                            </div>
-                            <button type="button" class="notice-btn homepage__notice-close js-notice-close"
+                            <button type="button" class="homepage__notice-close js-notice-close"
                                 aria-label="Close notice">
                                 <span class="icon-close text-[8px]"></span>
                             </button>
@@ -793,7 +782,7 @@
                             </a>
                             <div class="moments-list__item-content">
                                 <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
-                                <span class="text-sm md:text-[15px]">John - Australia</span>
+                                <span class="text-[15px] leading-6">John - Australia</span>
                             </div>
                         </div>
                     </div>
@@ -812,7 +801,7 @@
                             </a>
                             <div class="moments-list__item-content">
                                 <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
-                                <span class="text-sm md:text-[15px]">John - Australia</span>
+                                <span class="text-[15px] leading-6">John - Australia</span>
                             </div>
                         </div>
                     </div>
@@ -831,7 +820,7 @@
                             </a>
                             <div class="moments-list__item-content">
                                 <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
-                                <span class="text-sm md:text-[15px]">John - Australia</span>
+                                <span class="text-[15px] leading-5">John - Australia</span>
                             </div>
                         </div>
                     </div>

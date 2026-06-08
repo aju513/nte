@@ -108,15 +108,15 @@
         </div>
       </div>
     </div>
-    <div class=" video-review common-box pb-0 scroll-wrap mt-0">
+    <div class="video-review common-box pb-0 scroll-wrap">
       <div class="container">
         <h2 class="package__section-title ">
-          Video Reviews
+          Travel Moments
         </h2>
         <div class="grid grid-cols-12 gap-5">
           <div class="col-span-4">
             <div class="moments-list__item">
-              <div class="relative moments-list__item-image">
+              <div class=" moments-list__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="w-full placeholder__img">
                     <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
@@ -134,7 +134,7 @@
                 <div class="font-mulish font-extrabold md:text-2xl text-text_color text-[22px] mt-2 leading-7.5">
                   Everest Base Camp
                 </div>
-                <div class="text-[16px] text-text_color leading-4.5">
+                <div class="text-base text-text_color leading-4.5">
                   Jhone - USA
                 </div>
               </div>
@@ -142,14 +142,14 @@
           </div>
           <div class="col-span-4">
             <div class="moments-list__item">
-              <div class="relative moments-list__item-image">
+              <div class=" moments-list__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="w-full placeholder__img">
                     <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                   </div>
                 </div>
-                <div class=" video-review__item-link">
-                  <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate">
+                <div class="video-review__item-link">
+                  <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
                     <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
@@ -168,7 +168,7 @@
           </div>
           <div class="col-span-4">
             <div class="moments-list__item">
-              <div class="relative moments-list__item-image">
+              <div class=" moments-list__item-image">
                 <div class="placeholder__img-wrapper">
                   <div class="w-full placeholder__img">
                     <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
