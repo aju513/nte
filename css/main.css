@@ -3246,7 +3246,7 @@
           font-size: clamp(0.875rem, 3vw, 0.875rem);
         }
         p {
-          @apply font-mulish text-base leading-6;
+          @apply font-mulish text-base leading-6.5;
         }
         ul {
           @apply mb-5;
