@@ -4111,7 +4111,7 @@
 }
 
 .package__similar {
-  @apply relative isolate -mt-15 pb-7 xl:pb-15;
+  @apply relative isolate -mt-15;
   &::before {
     content: "";
     @apply pointer-events-none absolute inset-x-0 -top-10 block h-90 w-full bg-white z-0 2xl:max-w-[calc(100%-100px)] 2xl:rounded-b-[30px] 2xl:px-7.5 mx-auto rounded-none px-0!;

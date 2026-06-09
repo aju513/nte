@@ -98,7 +98,7 @@
     </ul>
   </div>
 </section>
-<section class="package-page bg-secondary relative " role="main">
+<div class="package-page bg-secondary relative common-box pt-0" role="main">
   <div class="package__banner">
     <div class="container-fluid ">
       <div class="fancybox-wrapper">
@@ -1577,7 +1577,7 @@
       </div>
     </div>
   </div>
-</section>
+</div>
 <section class="mob-quick-contact fixed bottom-0 left-0 z-[9999] flex w-full items-center gap-2 bg-dim_bg p-3 lg:hidden">
   <a
     href="https://wa.me/+9779851012345"
