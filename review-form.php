@@ -76,7 +76,7 @@
               </div>
             </div>
             <div class="col-span-12 sm:col-span-6 lg:col-span-4">
-              <label class="text-text_color block pb-2 font-bold">Rating</label>
+              <label class="text-text_color block pb-2 font-bold">Rating<span class="text-red-700">*</span></label>
               <div class="select-rating">
                 <span class="unrated" data-value="1"><span class="icon-star-rate"></span></span>
                 <span class="unrated" data-value="2"><span class="icon-star-rate"></span></span>

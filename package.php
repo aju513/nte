@@ -1327,7 +1327,7 @@
             <div class="col-span-12 lg:col-span-6">
               <div class="testimonial__list-item m-0!">
                 <div class="testimonial__list-item-meta mb-0 ">
-                  <div class="testimonial__list-item-rating green-dot-rating">
+                  <div class="testimonial__list-item-rating">
                     <div class="rating-wrap rating-5">
                       <span class="star"></span>
                       <span class="star"></span>

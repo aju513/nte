@@ -3557,7 +3557,7 @@
     .package__availability-list {
       @apply rounded-[10px] border border-[#6cafda] p-0;
       .package__availability-item {
-        @apply grid  gap-3 border-b border-primary/20  grid-cols-2 md:grid-cols-3 xl:grid-cols-5 md:gap-x-4 md:gap-y-3 items-center xl:gap-2 xl:p-3;
+        @apply grid  gap-3 border-b border-primary/20  grid-cols-2 md:grid-cols-3 xl:grid-cols-5 md:gap-x-4 md:gap-y-3 items-center gap-2 p-4;
         &:last-child {
           @apply border-b-0;
         }
