@@ -65,11 +65,15 @@
                 <option>Canoying</option>
               </select>
             </div>
-            <div class="relative"><input type="text" placeholder="Search the blog"
-                class="text-text_color rounded-custom border-primary/15 placeholder:text-text_color block w-full border px-3.75.25 py-3.75 ps-6 text-[15px] leading-6 bg-white shadow-sm md:w-75">
-              <div class="absolute top-4 right-4">
-                <span class="icon icon-searchicon text-2xl text-primary"></span>
-              </div>
+            <div class="relative">
+              <form action="">
+
+                <input type="text" placeholder="Search the blog"
+                  class="text-text_color rounded-custom border-primary/15 placeholder:text-text_color block w-full border px-3.75 py-3.75 ps-6 text-[15px] leading-6 bg-white shadow-sm md:w-75">
+                <div class="absolute top-4 right-4">
+                  <span class="icon icon-searchicon text-2xl text-primary"></span>
+                </div>
+              </form>
             </div>
           </div>
         </div>

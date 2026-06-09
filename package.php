@@ -170,14 +170,14 @@
               </div>
             </div>
             <div class="package-actions">
-              <button class="btn-outline-primary hav-icon" data-src="./images/dynamic/route-map.webp" data-fancybox="true">
-                <span class=" icon-send text-lg text-[#6cafda] hover:text-white"></span>
+              <button class="btn-outline-primary hav-icon group" data-src="./images/dynamic/route-map.webp" data-fancybox="true">
+                <span class=" icon-send text-lg text-[#6cafda] group-hover:text-white"></span>
                 View Map
               </button>
               <div class=" package-actions__item group ">
                 <div class=" share-wrap" id="shareDropdown">
-                  <button type="button" class="btn-outline-primary hav-icon" id="sharetoggle">
-                    <span class="icon-share text-lg text-[#6cafda] "></span>
+                  <button type="button" class="btn-outline-primary hav-icon  group" id="sharetoggle">
+                    <span class="icon-share text-lg text-[#6cafda] group-hover:text-white"></span>
                     Share
                   </button>
                   <div class="share-list" aria-label="Share options" id="dropdownMenu">

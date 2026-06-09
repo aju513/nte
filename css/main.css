@@ -1237,7 +1237,7 @@
       @apply text-lg md:text-2xl leading-6 font-semibold text-white xl:mb-2;
     }
     .moments-list__item-content {
-      @apply absolute  bottom-5 left-5 z-5 text-white;
+      @apply absolute max-[365px]:bottom-4 bottom-5 left-5 z-5 text-white;
     }
     .video-play {
       @apply z-10 flex items-center justify-center;
@@ -2833,6 +2833,11 @@
   .contact-page__submit .icon-arrow-right {
     @apply text-sm transition-transform duration-300 hover:-translate-y-1;
   }
+  .floating-label {
+    @apply top-3;
+    @apply peer-focus:top-0 peer-focus:text-sm;
+    @apply peer-[:not(:placeholder-shown)]:top-0;
+  }
 }
 /* contact page ends*/
 /* inner page common page starts */
@@ -3261,15 +3266,8 @@
           }
         }
       }
-
-      .package__full-itinerary-item-facts-wrapper {
-        @apply mb-3 flex flex-col flex-wrap items-start gap-x-5 gap-y-3 rounded-[10px];
-        &:last-of-type {
-          @apply mb-0;
-        }
-        .itinerary-item-facts-unit {
-          @apply flex items-center gap-4;
-        }
+      .itinerary-item-facts-unit {
+        @apply flex items-start flex-auto gap-2;
       }
       .package__full-itinerary-item-gallery {
         @apply mt-5 rounded-custom;
