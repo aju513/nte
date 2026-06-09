@@ -772,7 +772,7 @@
                             <div class="relative moments-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="w-full placeholder__img">
-                                        <img src="/images/dynamic/video-review.webp" width="1200" height="550" alt="banner" />
+                                        <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                                     </div>
                                 </div>
                             </div>
@@ -791,7 +791,7 @@
                             <div class="relative moments-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="w-full placeholder__img">
-                                        <img src="/images/dynamic/video-review.webp" width="1200" height="550" alt="banner" />
+                                        <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                                     </div>
                                 </div>
                             </div>
@@ -810,7 +810,7 @@
                             <div class="relative moments-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="w-full placeholder__img">
-                                        <img src="/images/dynamic/video-review.webp" width="1200" height="550" alt="banner" />
+                                        <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                                     </div>
                                 </div>
                             </div>

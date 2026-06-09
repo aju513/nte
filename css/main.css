@@ -532,6 +532,12 @@
     }
   }
   /* button blue*/
+  .btn-blue {
+    @apply inline-flex items-center gap-3 rounded-custom bg-primary text-white px-6.5 py-2 text-sm font-medium transition-all duration-500 uppercase;
+    &:hover {
+      @apply text-white shadow-[inset_0_0_0_2em_var(--color-block)] duration-500 ease-in-out;
+    }
+  }
   .btn-outline-blue {
     @apply rounded-4xl border border-[#039be6] bg-white px-5 py-2.5 text-sm font-bold transition-all duration-500;
     &:hover {

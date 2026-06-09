@@ -206,7 +206,7 @@
               </label>
             </div>
 
-            <button class="btn-primary">Submit
+            <button class="btn-blue">Submit
             </button>
           </div>
         </form>

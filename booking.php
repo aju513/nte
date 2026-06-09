@@ -252,7 +252,7 @@
                         </label>
                       </div>
                       <button
-                        class="btn-primary">Apply</button>
+                        class="btn-blue">Apply</button>
                     </div>
                     <div class="my-4 custom-checkbox cursor-pointer">
                       <input type="checkbox" id="terms">
@@ -265,7 +265,7 @@
                       </label>
                     </div>
                     <button
-                      class="btn-outline-primary">
+                      class="btn-blue">
                       Proceed to Payment
                     </button>
                   </div>
