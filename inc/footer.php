@@ -46,7 +46,7 @@
 
                 <!-- Contact -->
                 <div class="footer_contacts">
-                    <h4>Need Help?</h4>
+                    <h3>Need Help?</h3>
 
                     <ul>
                         <li>
@@ -80,7 +80,7 @@
 
                 <!-- Quick Links -->
                 <div class="footer_links">
-                    <h4>Quick Links</h4>
+                    <h3>Quick Links</h3>
                     <ul>
                         <li><a href="" class="link-underline">Destinations</a></li>
                         <li><a href="" class="link-underline">Travel Guides</a></li>
@@ -95,7 +95,7 @@
                 <!-- Newsletter & Social -->
                 <div class="col-span-1 sm:col-span-1 lg:col-span-3 ">
                     <div class="flex flex-col gap-0.5">
-                        <h4>Newsletter</h4>
+                        <h3>Newsletter</h3>
                         <div class="text-[15px] ">
                             Sign up for the latest news, offers!
                         </div>
@@ -105,9 +105,9 @@
                             </button>
                         </div>
 
-                        <h4 class="mt-4">
+                        <h3 class="mt-4">
                             Follow Us
-                        </h4>
+                        </h3>
 
                         <div class="footer__contact-social flex flex-wrap gap-1.25  lg:justify-start ">
                             <a class="social-common social-tiktok" aria-label="Tiktok" href="">
