@@ -111,7 +111,7 @@
 
                                     <div class="package-list__item-explore-btn arrow-move-effect">
                                         <a href="#">
-                                            Explore
+                                            Trip Details
                                             <span class="icon-arrow-right"></span>
                                         </a>
                                     </div>
