@@ -3226,7 +3226,7 @@
         padding 150ms ease,
         margin 0.4s ease;
       .package__full-itinerary-item-content-description {
-        @apply mb-5 text-base py-2 lg:py-5 leading-6;
+        @apply mb-5 text-base py-2 lg:py-5 leading-7;
         &:last-of-type {
           @apply mb-0;
         }
@@ -3397,7 +3397,7 @@
         @apply text-secondary font-medium underline;
       }
       p {
-        @apply text-text_color leading-6;
+        @apply text-text_color leading-7;
       }
       h2 {
         @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
@@ -3437,7 +3437,7 @@
         @apply text-secondary font-medium underline;
       }
       p {
-        @apply text-text_color leading-6;
+        @apply text-text_color leading-7;
       }
       h2 {
         @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
@@ -3483,7 +3483,7 @@
         @apply text-secondary font-medium underline;
       }
       p {
-        @apply text-text_color leading-6;
+        @apply text-text_color leading-7;
       }
       h2 {
         @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9 mt-2;
