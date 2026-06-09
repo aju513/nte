@@ -2588,7 +2588,7 @@
   }
 
   .why-choose-accordion__heading {
-    @apply relative pb-3  font-playfair font-black leading-7 text-white text-xl sm:text-2xl lg:text-3xl;
+    @apply relative pb-3 md:pb-5 lg:pb-6 font-playfair font-black leading-7 text-white text-xl sm:text-2xl lg:text-3xl;
   }
 
   .why-choose-accordion__list {
@@ -2596,7 +2596,7 @@
   }
 
   .why-choose-accordion__item {
-    @apply border-t border-white/40! py-3 md:py-5 lg:py-6 last:py-0 last:pt-4;
+    @apply border-t border-white/30! py-3 md:py-5 lg:py-6 last:py-0 last:pt-4;
   }
   .why-choose-accordion__item.is-open .why-choose-accordion__toggle::after {
     @apply rotate-0;
