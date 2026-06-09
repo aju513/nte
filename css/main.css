@@ -3421,9 +3421,6 @@
       }
       ul {
         @apply mb-7;
-        &:last-of-type {
-          @apply mb-0;
-        }
         li {
           @apply text-text_color relative mb-2.75 pl-7.75 leading-5 last:mb-0;
           &::before {
@@ -3464,9 +3461,6 @@
       }
       ul {
         @apply mb-7;
-        &:last-of-type {
-          @apply mb-0;
-        }
         li {
           @apply text-text_color relative mb-2.75 pl-7.75 leading-6 text-base last:mb-0;
           &::before {
@@ -3492,7 +3486,7 @@
         @apply text-text_color leading-6;
       }
       h2 {
-        @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9;
+        @apply font-playfair mb-2 font-bold  leading-8 lg:leading-9 mt-2;
         font-size: clamp(1.3rem, 3vw, 1.7rem);
       }
       h3 {
@@ -3513,9 +3507,6 @@
       }
       ul {
         @apply mb-7;
-        &:last-of-type {
-          @apply mb-0;
-        }
         li {
           @apply text-text_color relative mb-2.75 pl-7.75 leading-6 text-base last:mb-0;
           &::before {
