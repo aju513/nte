@@ -25,8 +25,8 @@
         </div>
         <div class="flex items-center gap-3">
           <div class="share-wrap" id="shareDropdown">
-            <button type="button" class="btn-outline-primary hav-icon " id="sharetoggle">
-              <span class="icon-share text-lg  "></span>
+            <button type="button" class="btn-outline-primary hav-icon group" id="sharetoggle">
+              <span class="icon-share text-lg  text-[#6cafda] group-hover:text-white"></span>
               Share
             </button>
             <div class="share-list" aria-label="Share options" id="dropdownMenu">

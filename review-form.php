@@ -96,7 +96,7 @@
                   class="floating-input peer"></textarea><label for="extras" class="floating-label">Write
                   your Review<sup>*</sup></label></div>
             </div>
-            <div class="col-span-12"><button class="btn-primary hav-icon rounded-lg">Post Review</button></div>
+            <div class="col-span-12"><button class="btn-blue">Post Review</button></div>
           </div>
         </form>
       </div>

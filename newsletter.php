@@ -57,7 +57,7 @@
                 I'm interested in receiving updates and exclusive offers.
               </label>
             </div>
-            <button class="btn-primary">
+            <button class="btn-blue">
               Submit
             </button>
           </form>
