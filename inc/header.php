@@ -22,7 +22,7 @@
                                                                                 aria-expanded="false">Destinations
                                                                                 <span class="icon ml-1 icon-dropdown text-lg"></span>
                                                                         </span>
-                                                                        <div class="item dropdown shadow-custom rounded-br-custom rounded-bl-custom absolute top-19 left-0 z-10 w-full px-6 py-3 hidden">
+                                                                        <div class="item dropdown shadow-custom rounded-br-custom rounded-bl-custom absolute top-19 left-0 z-10 w-full p-6 hidden">
                                                                                 <div class="flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
                                                                                         <div class="flex gap-3">
                                                                                                 <ul class="nav-tab-links">
@@ -33,7 +33,7 @@
                                                                                                 <div class="tab" style="display: none;">
                                                                                                         <div class="flex flex-wrap justify-start">
                                                                                                                 <ul class="megamenu-items columns-2 xl:columns-3">
-                                                                                                                        <li class="p-0 lg:p-2">
+                                                                                                                        <li class="p-0 lg:px-2">
                                                                                                                                 <a class="text-primary! mb-0.75 flex justify-between font-bold"
                                                                                                                                         aria-expanded="false"
                                                                                                                                         href="/category-list.php">Everest
@@ -162,13 +162,13 @@
                                                                                                                                         </li>
                                                                                                                                 </ul>
                                                                                                                         </li>
-                                                                                                                        <li class="p-0 lg:p-2">
+                                                                                                                        <li class="p-0 lg:px-2">
                                                                                                                                 <a aria-expanded="false"
                                                                                                                                         class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Multi City
                                                                                                                                 </a>
                                                                                                                         </li>
-                                                                                                                        <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                        <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                         class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Kanchenjunga
                                                                                                                                 </a>
@@ -181,7 +181,7 @@
                                                                                                                                         </li>
                                                                                                                                 </ul>
                                                                                                                         </li>
-                                                                                                                        <li class="p-0 lg:p-2">
+                                                                                                                        <li class="p-0 lg:px-2">
                                                                                                                                 <a aria-expanded="false"
                                                                                                                                         class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Mustang and Manang
@@ -199,7 +199,7 @@
                                                                                                                                         </li>
                                                                                                                                 </ul>
                                                                                                                         </li>
-                                                                                                                        <li class="p-0 lg:p-2">
+                                                                                                                        <li class="p-0 lg:px-2">
                                                                                                                                 <a aria-expanded="false"
                                                                                                                                         class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Mustang and Manang
@@ -217,7 +217,7 @@
                                                                                                                                         </li>
                                                                                                                                 </ul>
                                                                                                                         </li>
-                                                                                                                        <li class="p-0 lg:p-2">
+                                                                                                                        <li class="p-0 lg:px-2">
                                                                                                                                 <a aria-expanded="false"
                                                                                                                                         class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Test
@@ -272,7 +272,7 @@
                                                                                                                                         </li>
                                                                                                                                 </ul>
                                                                                                                         </li>
-                                                                                                                        <li class="p-0 lg:p-2">
+                                                                                                                        <li class="p-0 lg:px-2">
                                                                                                                                 <a aria-expanded="false"
                                                                                                                                         class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Mustang and Manang
@@ -289,7 +289,7 @@
                                                                                                                                         </li>
                                                                                                                                 </ul>
                                                                                                                         </li>
-                                                                                                                        <li class="p-0 lg:p-2">
+                                                                                                                        <li class="p-0 lg:px-2">
                                                                                                                                 <a aria-expanded="false"
                                                                                                                                         class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         href="/categorylist">Test
@@ -344,7 +344,7 @@
                                                                                                                                         </li>
                                                                                                                                 </ul>
                                                                                                                         </li>
-                                                                                                                        <li class="p-0 lg:p-2">
+                                                                                                                        <li class="p-0 lg:px-2">
                                                                                                                                 <a class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                         aria-expanded="false" href="/categorylist">Test
                                                                                                                                 </a>
@@ -405,7 +405,7 @@
                                                                                                         <div class="flex flex-wrap justify-start">
                                                                                                                 <div class="flex flex-wrap justify-start">
                                                                                                                         <ul class="megamenu-items columns-2 xl:columns-3">
-                                                                                                                                <li class="p-0 lg:p-2"><a
+                                                                                                                                <li class="p-0 lg:px-2"><a
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Annapurna</a>
@@ -418,7 +418,7 @@
                                                                                                                                                 </li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a
+                                                                                                                                <li class="p-0 lg:px-2"><a
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Manaslu</a>
@@ -428,10 +428,10 @@
                                                                                                                                                                 Trek</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Multi City</a></li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Kanchenjunga</a>
                                                                                                                                         <ul class="space-y-2">
@@ -440,7 +440,7 @@
                                                                                                                                                                 Trek</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul class="space-y-2">
@@ -452,7 +452,7 @@
                                                                                                                                                                 Tour</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul class="space-y-2">
@@ -464,7 +464,7 @@
                                                                                                                                                                 Tour</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Test</a>
                                                                                                                                         <ul class="space-y-2">
@@ -494,7 +494,7 @@
                                                                                                                                                                 Luxury Trek</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul>
@@ -506,7 +506,7 @@
                                                                                                                                                                 Tour</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Test</a>
                                                                                                                                         <ul class="space-y-2">
@@ -536,7 +536,7 @@
                                                                                                                                                                 Luxury Trek</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a
+                                                                                                                                <li class="p-0 lg:px-2"><a
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Test</a>
@@ -575,7 +575,7 @@
                                                                                                         <div class="flex flex-wrap justify-start">
                                                                                                                 <div class="flex flex-wrap justify-start">
                                                                                                                         <ul class="megamenu-items columns-2 xl:columns-3">
-                                                                                                                                <li class="p-0 lg:p-2"><a
+                                                                                                                                <li class="p-0 lg:px-2"><a
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Everest</a>
@@ -642,7 +642,7 @@
                                                                                                                                                                 Rolwaling Valley - 10 Days</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a
+                                                                                                                                <li class="p-0 lg:px-2"><a
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Annapurna</a>
@@ -655,7 +655,7 @@
                                                                                                                                                 </li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a
+                                                                                                                                <li class="p-0 lg:px-2"><a
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Manaslu</a>
@@ -665,10 +665,10 @@
                                                                                                                                                                 Trek</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Multi City</a></li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Kanchenjunga</a>
                                                                                                                                         <ul class="space-y-2">
@@ -677,7 +677,7 @@
                                                                                                                                                                 Trek</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul class="space-y-2">
@@ -689,7 +689,7 @@
                                                                                                                                                                 Tour</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Test</a>
                                                                                                                                         <ul class="space-y-2">
@@ -719,7 +719,7 @@
                                                                                                                                                                 Luxury Trek</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 href="/categorylist">Mustang and Manang</a>
                                                                                                                                         <ul class="space-y-2">
@@ -731,7 +731,7 @@
                                                                                                                                                                 Tour</a></li>
                                                                                                                                         </ul>
                                                                                                                                 </li>
-                                                                                                                                <li class="p-0 lg:p-2"><a
+                                                                                                                                <li class="p-0 lg:px-2"><a
                                                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                                                 aria-expanded="false"
                                                                                                                                                 href="/categorylist">Test</a>
@@ -779,7 +779,7 @@
                                                                                 class="item dropdown shadow-custom absolute top-19 left-0 z-10 w-full p-6 hidden">
                                                                                 <div class="flex max-h-112.5 flex-wrap justify-start overflow-y-auto">
                                                                                         <ul class="megamenu-items columns-3 xl:columns-4">
-                                                                                                <li class="p-0 lg:p-2"><a aria-expanded="false"
+                                                                                                <li class="p-0 lg:px-2"><a aria-expanded="false"
                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 href="/categorylist">Everest</a>
                                                                                                         <ul class="space-y-2">
@@ -852,7 +852,7 @@
                                                                                                                 </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2">
+                                                                                                <li class="p-0 lg:px-2">
                                                                                                         <a aria-expanded="false"
                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 href="../category.php">Annapurna
@@ -870,12 +870,12 @@
                                                                                                                 </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2">
+                                                                                                <li class="p-0 lg:px-2">
                                                                                                         <a class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 href="/categorylist">Multi City
                                                                                                         </a>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2">
+                                                                                                <li class="p-0 lg:px-2">
                                                                                                         <a class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Kanchenjunga</a>
                                                                                                         <ul class="space-y-2">
@@ -886,7 +886,7 @@
                                                                                                                 </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2">
+                                                                                                <li class="p-0 lg:px-2">
                                                                                                         <a class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Mustang and
                                                                                                                 Manang
@@ -904,7 +904,7 @@
                                                                                                                 </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2">
+                                                                                                <li class="p-0 lg:px-2">
                                                                                                         <a class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Mustang and
                                                                                                                 Manang
@@ -922,7 +922,7 @@
                                                                                                                 </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2">
+                                                                                                <li class="p-0 lg:px-2">
                                                                                                         <a class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Test
                                                                                                         </a>
@@ -970,7 +970,7 @@
                                                                                                                 </li>
                                                                                                         </ul>
                                                                                                 </li>
-                                                                                                <li class="p-0 lg:p-2"><a
+                                                                                                <li class="p-0 lg:px-2"><a
                                                                                                                 class="text-primary mb-0.75 flex justify-between font-bold"
                                                                                                                 aria-expanded="false" href="/categorylist">Mustang and
                                                                                                                 Manang</a>

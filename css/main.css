@@ -2011,7 +2011,7 @@
       content: "";
     }
     .nav-tab-links {
-      @apply bg-primary/80 rounded-custom mt-3 flex w-62.5 min-w-62.5 flex-col gap-1 pt-2.5 pb-2.5 pl-3.75;
+      @apply bg-primary/80 rounded-custom flex w-62.5 min-w-62.5 flex-col gap-1 pt-2.5 pb-2.5 pl-3.75;
       button {
         @apply w-full cursor-pointer px-2.5 py-1.75 font-medium text-white;
         &.active {

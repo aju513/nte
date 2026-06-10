@@ -845,9 +845,9 @@
                   <div class="col-span-6 lg:col-span-2">
                     <div class="package__availability__item-link lg:mt-0 flex items-center lg:justify-end">
                       <div class="flex flex-col items-start">
-                        <span class="font-medium text-xs leading-4 mb-0.5">2 spaces left</span>
+                        <span class="font-medium text-xs leading-4">2 spaces left</span>
                         <form action="">
-                          <button type="submit" class="bg-primary text-white rounded-custom px-3 py-2 leading-5 font-semibold  transition-all duration-500 hover:shadow-[inset_0_0_0_2em_var(--color-block)]">Book Now</button>
+                          <button type="submit" class="bg-primary mt-2 text-white rounded-custom px-3 py-2 leading-5 font-semibold  transition-all duration-500 hover:shadow-[inset_0_0_0_2em_var(--color-block)]">Book Now</button>
                         </form>
                       </div>
                     </div>
