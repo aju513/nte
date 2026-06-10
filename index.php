@@ -766,65 +766,84 @@
             </div>
             <!-- Videos Layout -->
             <div class="homepage-moments scroll-wrap">
-                <div class="grid grid-cols-12 gap-3.75 lg:gap-5">
+                <div class="grid grid-cols-12 gap-5">
                     <div class="col-span-4">
                         <div class="moments-list__item">
-                            <div class="relative moments-list__item-image">
+                            <div class=" moments-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="w-full placeholder__img">
                                         <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                                     </div>
                                 </div>
+                                <div class="video-review__item-link">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
+                                        <span class="video-play-btn"><span class="icon-play-button icon-video text-sm"></span>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
-                            <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="video-play-btn circular-animate ">
-
-                                <span class="icon-play-button text-xs!"></span>
-                            </a>
-                            <div class="moments-list__item-content">
-                                <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
-                                <span class="text-[15px] leading-6">John - Australia</span>
+                            <div class="video-review__item-content">
+                                <div class="font-mulish font-extrabold md:text-2xl text-text_color text-[22px] mt-2 leading-7.5">
+                                    Everest Base Camp
+                                </div>
+                                <div class="text-base text-text_color leading-4.5">
+                                    Jhone - USA
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-span-4">
                         <div class="moments-list__item">
-                            <div class="relative moments-list__item-image">
+                            <div class=" moments-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="w-full placeholder__img">
                                         <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                                     </div>
                                 </div>
-                            </div>
-                            <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="video-play-btn circular-animate ">
+                                <div class="video-review__item-link">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                                <span class="icon-play-button text-xs!"></span>
-                            </a>
-                            <div class="moments-list__item-content">
-                                <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
-                                <span class="text-[15px] leading-6">John - Australia</span>
+                                        <span class="video-play-btn"><span class="icon-play-button icon-video text-sm"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="video-review__item-content">
+                                <div class="font-mulish font-extrabold md:text-2xl text-text_color text-[22px] mt-2 leading-7.5">
+                                    Manaslu Trekking
+                                </div>
+                                <div class="text-[16px] text-text_color leading-4.5">
+                                    Jhone - USA
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-span-4">
                         <div class="moments-list__item">
-                            <div class="relative moments-list__item-image">
+                            <div class=" moments-list__item-image">
                                 <div class="placeholder__img-wrapper">
                                     <div class="w-full placeholder__img">
                                         <img src="/images/dynamic/video-review.webp" width="600" height="400" alt="banner" />
                                     </div>
                                 </div>
-                            </div>
-                            <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="video-play-btn circular-animate ">
+                                <div class="video-review__item-link">
+                                    <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                                <span class="icon-play-button text-xs!"></span>
-                            </a>
-                            <div class="moments-list__item-content">
-                                <h4 class="moments-list__item-title">Things to Do in Nepal</h4>
-                                <span class="text-[15px] leading-5">John - Australia</span>
+                                        <span class="video-play-btn"><span class="icon-play-button icon-video text-sm"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="video-review__item-content">
+                                <div class="font-mulish font-extrabold md:text-2xl text-text_color text-[22px] mt-2 leading-7.5">
+                                    Ghorepani Poonhill Trek
+                                </div>
+                                <div class="text-[16px] text-text_color leading-4.5">
+                                    Jhone - USA
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

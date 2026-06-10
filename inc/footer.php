@@ -140,7 +140,7 @@
                     <img src="/images/payment/payment-logo.svg" width="230" height="35" alt="Payment Methods" />
                 </div>
                 <div class="text-left md:text-center lg:text-right  text-text_color">
-                    <div class="font-extrabold mt-2 text-[15px]">
+                    <div class=" mt-2 text-[15px]">
                         © <?= date('Y') ?>, Nepal Travel Experience Pvt. Ltd. All Rights Reserved.
                     </div>
 
@@ -174,8 +174,8 @@
             </div>
         </div>
     </div>
-    <div class="absolute right-4 top-[-15px] rounded-full bg-primary p-2 w-10 h-10">
-        <span class="text-xl text-secondary icon-close"></span>
+    <div class="absolute right-4 top-[-15px] rounded-full bg-primary p-2 w-8 h-8">
+        <span class="absolute text-xs text-secondary icon-close top-[10px] right-2.5"></span>
     </div>
 </div>
 

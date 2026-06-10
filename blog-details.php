@@ -227,6 +227,7 @@
       </div>
       <div class="scroll-wrap blog-details-recent-post blog-list lg:pt-15">
         <div class="container">
+          <div class="innersection-title">Recent Post</div>
           <div class="grid grid-cols-12 gap-5">
             <div class="col-span-12 sm:col-span-6 lg:col-span-4">
               <div class="blog-list__item ">

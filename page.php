@@ -124,7 +124,7 @@
                 <div class="video-review__item-link">
                   <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                    <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
+                    <span class="video-play-btn"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
                   </a>
                 </div>
@@ -150,7 +150,7 @@
                 <div class="video-review__item-link">
                   <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                    <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
+                    <span class="video-play-btn"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
                   </a>
                 </div>
@@ -176,7 +176,7 @@
                 <div class="video-review__item-link">
                   <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                    <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
+                    <span class="video-play-btn"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
                   </a>
                 </div>

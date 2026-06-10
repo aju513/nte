@@ -8,7 +8,7 @@
       <div class="page-title flex flex-col items-start justify-between sm:flex-row">
         <h1>Reviews</h1>
         <div class="review-list__sort max-sm:w-full">
-          <select class="rounded-custom border-dim-border mb-5 w-full border bg-white max-sm:mt-2 sm:max-w-52">
+          <select class="rounded-custom border-dim_bg  w-full border bg-white max-sm:mt-2 sm:max-w-52">
             <option>Top Reviews</option>
             <option>Newest</option>
             <option>Rating: Highest to Lowest</option>

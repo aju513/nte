@@ -147,7 +147,7 @@
                 </label>
               </div>
             </form>
-            <button type="submit" class="btn-white  hav-icon mt-6">
+            <button type="submit" class="btn-white  hav-icon mt-4">
               Send Message
               <span class="icon-view "></span>
             </button>
@@ -155,9 +155,9 @@
         </div>
       </div>
     </div>
-    <div class="common-box pt-3 lg:pt-6">
+    <div class="common-box pt-8">
       <div class="container">
-        <h2 class="text-2xl font-black mb-6 font-playfair">We're Here</h2>
+        <h2 class="text-2xl font-black mb-4 font-playfair">We're Here</h2>
         <div class="h-105 relative z-10 overflow-hidden rounded-2xl border-4 border-white -mb-52.5">
           <iframe src="https://maps.google.com/maps?q=thamel,kathmandu&t=&z=13&ie=UTF8&iwloc=&output=embed"
             class="w-full h-full" allowfullscreen>

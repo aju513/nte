@@ -115,7 +115,7 @@
   }
   /* form starts*/
   select {
-    @apply text-text_color rounded-custom w-full cursor-pointer appearance-none bg-white px-6.25 py-3.75 leading-6 shadow-sm sm:w-67.5;
+    @apply text-text_color rounded-custom w-full cursor-pointer appearance-none bg-white px-4.25 py-3.75 leading-6 shadow-sm sm:w-67.5;
     background-repeat: no-repeat !important;
     background-position: right 16px center !important;
     background-size: 1em !important;
@@ -442,7 +442,7 @@
   }
   /*Button primary outline*/
   .btn-outline-primary {
-    @apply inline-flex items-center gap-3 rounded-[21.5px] border border-dashed border-primary px-4 py-2 text-sm font-medium;
+    @apply inline-flex items-center gap-3 rounded-[21.5px] border border-dashed border-primary px-5 py-2 text-sm font-medium;
     cursor: pointer;
 
     &:hover {
@@ -515,7 +515,7 @@
   }
   /*Button text outline*/
   .btn-white {
-    @apply inline-flex items-center gap-3 rounded-[21.5px] bg-white text-text_color px-4 py-2 text-sm font-medium transition-all duration-500;
+    @apply inline-flex items-center gap-3 rounded-custom bg-white text-text_color px-5 py-2 text-sm font-medium transition-all duration-500;
     &:hover {
       @apply text-white shadow-[inset_0_0_0_2em_var(--color-primary)] duration-500 ease-in-out;
     }
@@ -756,7 +756,7 @@
       }
     }
     .article-list__item-title {
-      @apply font-mulish text-text_color hover:text-primary mb-1 text-lg font-bold transition-all duration-500;
+      @apply font-mulish text-text_color hover:text-primary mb-2 text-lg font-bold transition-all duration-500;
       a {
         @apply font-mulish text-text_color hover:text-primary text-lg font-bold transition-all duration-500;
       }
@@ -838,7 +838,7 @@
     }
   }
   .share-list {
-    @apply rounded-custom absolute top-9 max-[1023px]:left-0 right-0 z-50 w-36.25 border border-[#dbdbdb] bg-white;
+    @apply rounded-custom absolute top-12 max-[1023px]:left-0 right-0 z-50 w-36.25 border border-[#dbdbdb] bg-white;
     display: none;
     button {
       @apply flex w-full items-center gap-1 border-b border-dashed border-[#e0e0e0] px-3 py-2 text-sm text-[17px] font-semibold text-black;
@@ -1239,14 +1239,8 @@
     .moments-list__item-content {
       @apply absolute max-[365px]:bottom-4 bottom-5 left-5 z-5 text-white;
     }
-    .video-play {
-      @apply z-10 flex items-center justify-center;
-    }
     .video-play-btn {
-      @apply absolute left-4 lg:left-6 max-[352px]:top-[30%] max-[403px]:top-[35%] max-[427px]:top-[45%] top-1/2 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-white cursor-pointer;
-    }
-    .video-play-btn-side {
-      @apply absolute flex items-center justify-center h-10 w-10 -translate-x-1/8 -translate-y-1/8 rounded-full bg-white cursor-pointer mr-3 mt-3;
+      @apply absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer;
     }
     .video-review__item-link {
       @apply absolute z-10 -translate-x-1/2 -translate-y-7 left-1/2 top-1/2;
@@ -1523,7 +1517,7 @@
       }
     }
     .featured-blog__content-wrap {
-      @apply bg-secondary relative z-10 mt-5 h-[calc(100%-40px)] rounded-2xl p-5 max-lg:pb-17 max-sm:pb-12 sm:p-10 lg:-left-10;
+      @apply bg-white relative z-10 mt-5 h-[calc(100%-40px)] rounded-2xl p-5 max-lg:pb-17 max-sm:pb-12 sm:p-10 lg:-left-10;
       a {
         @apply max-lg:mb-4;
       }
@@ -1547,6 +1541,9 @@
     .share-wrap {
       @apply max-sm:absolute max-sm:-bottom-4 max-sm:left-20;
     }
+    .share-list {
+      @apply -left-10;
+    }
     .blog-page__author-image {
       @apply flex-[0_0_60px] rounded-full;
       .placeholder__img-wrapper {
@@ -1554,7 +1551,7 @@
       }
     }
     .blog-page__author-content {
-      @apply max-sm:border-primary/50 max-sm:border-b max-sm:border-dashed max-sm:pr-3 max-sm:pb-2;
+      @apply max-sm:pr-3 max-sm:pb-2;
       .blog-page__author-name {
         @apply font-playfair text-primary text-base font-semibold sm:text-lg;
       }
@@ -1854,7 +1851,7 @@
     @apply hidden;
   }
   #toggleButton {
-    @apply bg-dim_bg rounded-r-custom shadow-custom absolute top-7 -right-7 hidden p-1.25;
+    @apply bg-dim_bg rounded-r-custom shadow-custom absolute top-11 -right-8 hidden p-2 -z-1;
   }
   #toggleButton.scroll-show {
     @apply max-lg:block;
@@ -2141,7 +2138,7 @@
         grid-template-rows: 1fr auto;
         page-break-inside: avoid;
         &:last-child a.border-b {
-          @apply border border-solid border-[#ececec];
+          @apply border border-solid;
         }
         a {
           @apply border-b-0! py-1! leading-5;
@@ -2246,7 +2243,7 @@
       }
     }
     ul li ul li .mobile-toggle-icon {
-      @apply top-3 min-h-[70%];
+      @apply top-3;
       a {
         @apply text-base leading-5.5 font-normal;
       }
@@ -2752,7 +2749,7 @@
     @apply leading-7 text-text_color mb-6;
   }
   .contact-page__info {
-    @apply grid grid-cols-1 lg:grid-cols-2 lg:py-5;
+    @apply grid grid-cols-1 lg:grid-cols-2 lg:pt-5;
   }
   .contact-page__info-left {
     @apply pr-0 lg:pr-8;
@@ -2788,7 +2785,7 @@
     }
   }
   .contact-page__form-box {
-    @apply rounded-[10px] bg-[#6cafda] p-4 shadow-lg  lg:p-8 mt-5 lg:mt-0;
+    @apply rounded-[10px] bg-[#6cafda] p-5 lg:p-8 mt-8 lg:mt-0;
   }
   .contact-page__form-title {
     @apply mb-5 font-playfair text-2xl font-bold text-white lg:text-[28px];
@@ -2832,11 +2829,6 @@
 
   .contact-page__submit .icon-arrow-right {
     @apply text-sm transition-transform duration-300 hover:-translate-y-1;
-  }
-  .floating-label {
-    @apply top-3;
-    @apply peer-focus:top-0 peer-focus:text-sm;
-    @apply peer-[:not(:placeholder-shown)]:top-0;
   }
 }
 /* contact page ends*/
@@ -3523,7 +3515,7 @@
   .package__availability-filter {
     @apply mt-3 flex flex-wrap items-center gap-3;
     .availability-filter__item {
-      @apply text-text_color cursor-pointer rounded-custom bg-[#f6faff] px-1.5 py-1.5 text-sm lg:text-base leading-4 lg:leading-5 font-bold transition-all duration-500 hover:text-primary;
+      @apply text-text_color cursor-pointer rounded-custom bg-[#f6faff] px-2.5 py-1.5 text-sm lg:text-base leading-4 lg:leading-5 font-bold transition-all duration-500 hover:text-primary;
     }
     .availability-filter__item.active {
       @apply bg-[#6cafda] text-white;
@@ -3844,7 +3836,7 @@
   }
 }
 .package__reviews-header {
-  @apply flex flex-col gap-1 lg:gap-4 lg:flex-row items-start lg:items-center lg:justify-between;
+  @apply flex flex-col gap-1 lg:gap-4 lg:flex-row items-start lg:items-center lg:justify-between mb-4;
 }
 
 .package__review-platforms {

@@ -10,30 +10,27 @@
             Search Result
           </h1>
         </div>
-        <div class=" search-page__filter min-w-75">
-          <div class="flex flex-wrap items-center gap-3">
-            <div class="w-full search-page__filter-duration md:w-40">
-              <select class="w-full border custom-rounded border-primary/20">
-                <option>Duration</option>
-                <option>Duration</option>
-                <option>Duration</option>
-                <option>Duration</option>
-              </select>
-            </div>
-            <div class="w-full search-page__filter-price md:w-40">
-              <select class="w-full border custom-rounded border-primary/20">
-                <option>Price</option>
-                <option>Price</option>
-                <option>Price</option>
-                <option>Price</option>
-              </select>
-            </div>
+        <div class="search-list__sort flex flex-col gap-0 max-md:mt-3 max-md:w-full md:flex-row md:items-center md:gap-3">
+          <div class="w-full search-page__filter-duration ">
+            <select id="duration" name="duration" class="rounded-custom border-primary/10 mb-2 border bg-white max-md:w-full md:mb-5 md:w-52">
+              <option value="selected">Sort by Duration</option>
+              <option>Duration</option>
+              <option>Duration</option>
+              <option>Duration</option>
+            </select>
+          </div>
+          <div class="w-full search-page__filter-price ">
+            <select class="rounded-custom border-primary/10 mb-2 border bg-white max-md:w-full md:mb-5 md:w-52">
+              <option value="selected">Sort by Price</option>
+              <option>Price</option>
+              <option>Price</option>
+              <option>Price</option>
+              <option>Price</option>
+            </select>
           </div>
         </div>
       </div>
-
       <div class="mt-8 search-page__list package-list">
-
         <div class="grid grid-cols-12 gap-5">
           <div class="col-span-12 sm:col-span-6 lg:col-span-4">
             <div class="package-list__item">

@@ -9,8 +9,8 @@
           Gallery
         </h1>
       </div>
-      <div class="grid grid-cols-12 gap-5">
-        <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+      <div class="grid grid-cols-12 gap-3.75">
+        <div class="col-span-6 md:col-span-4 lg:col-span-3">
           <div class="common__gallery relative">
             <a href="./images/dynamic/album.webp" data-fancybox="gallery"
               data-src="./images/dynamic/album.webp">
@@ -30,7 +30,7 @@
             </a>
           </div>
         </div>
-        <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+        <div class="col-span-6 md:col-span-4 lg:col-span-3">
           <div class="common__gallery relative">
             <a href="./images/dynamic/album.webp" data-fancybox="gallery"
               data-src="./images/dynamic/album.webp">
@@ -50,7 +50,7 @@
             </a>
           </div>
         </div>
-        <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+        <div class="col-span-6 md:col-span-4 lg:col-span-3">
           <div class="common__gallery relative">
             <a href="./images/dynamic/album.webp" data-fancybox="gallery"
               data-src="./images/dynamic/album.webp">
@@ -70,7 +70,7 @@
             </a>
           </div>
         </div>
-        <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+        <div class="col-span-6 md:col-span-4 lg:col-span-3">
           <div class="common__gallery relative">
             <a href="./images/dynamic/album.webp" data-fancybox="gallery"
               data-src="./images/dynamic/album.webp">
@@ -90,7 +90,7 @@
             </a>
           </div>
         </div>
-        <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+        <div class="col-span-6 md:col-span-4 lg:col-span-3">
           <div class="common__gallery relative">
             <a href="./images/dynamic/album.webp" data-fancybox="gallery"
               data-src="./images/dynamic/album.webp">
@@ -110,7 +110,7 @@
             </a>
           </div>
         </div>
-        <div class="col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3">
+        <div class="col-span-6 md:col-span-4 lg:col-span-3">
           <div class="common__gallery relative">
             <a href="./images/dynamic/album.webp" data-fancybox="gallery"
               data-src="./images/dynamic/album.webp">

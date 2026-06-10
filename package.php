@@ -1193,7 +1193,7 @@
                 <div class="video-review__item-link">
                   <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                    <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
+                    <span class="video-play-btn"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
                   </a>
                 </div>
@@ -1219,7 +1219,7 @@
                 <div class="video-review__item-link">
                   <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                    <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
+                    <span class="video-play-btn"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
                   </a>
                 </div>
@@ -1245,7 +1245,7 @@
                 <div class="video-review__item-link">
                   <a data-fancybox href="https://www.youtube.com/watch?v=UsN0nuJakLc" class="circular-animate ">
 
-                    <span class="absolute left-1/2 top-1/2 z-40 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white md:h-14 md:w-14 cursor-pointer"><span class="icon-play-button icon-video text-sm"></span>
+                    <span class="video-play-btn"><span class="icon-play-button icon-video text-sm"></span>
                     </span>
                   </a>
                 </div>
@@ -1265,8 +1265,8 @@
     </div>
     <div class="inner__review review-list common-box pb-0 hav-gradient-bg mb-2" id="package-reviews">
       <div class="container">
-        <div class="package__reviews-header mb-2.5 lg:mb-7.5">
-          <h2 class="package__section-title">
+        <div class="package__reviews-header">
+          <h2 class="package__section-title mb-0!">
             Customer Review
           </h2>
           <div class="package__review-platforms">

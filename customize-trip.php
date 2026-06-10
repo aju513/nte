@@ -17,7 +17,7 @@
       <div class="mt-5 customize-page__info">
         <form class="w-full floating-form">
           <div class="rounded-custom bg-transparent p-5 md:p-8 shadow-custom">
-            <div class="pb-5 text-xl font-bold text-primary md:mt-0">
+            <div class="pb-5 text-xl font-bold text-primary mt-0">
               Personal Information
             </div>
             <div class="grid  mb-5 md:mb-6 md:grid-cols-2 gap-6">
