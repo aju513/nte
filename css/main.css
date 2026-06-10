@@ -2254,11 +2254,11 @@
         @apply relative py-1.5;
 
         &:before {
-          @apply absolute top-6 -left-2.5 h-px w-1.5 bg-white;
+          @apply absolute top-5 -left-2.5 h-px w-1.5 bg-white;
           content: "";
         }
         a {
-          @apply text-sm leading-5.5;
+          @apply text-sm leading-5.5 font-normal;
         }
       }
     }
@@ -3515,7 +3515,7 @@
   .package__availability-filter {
     @apply mt-3 flex flex-wrap items-center gap-3;
     .availability-filter__item {
-      @apply text-text_color cursor-pointer rounded-custom bg-[#f6faff] px-2.5 py-1.5 text-sm lg:text-base leading-4 lg:leading-5 font-bold transition-all duration-500 hover:text-primary;
+      @apply text-text_color cursor-pointer rounded-custom bg-[#f6faff] px-3 py-2 text-sm lg:text-base leading-4 lg:leading-5 font-bold transition-all duration-500 hover:text-primary;
     }
     .availability-filter__item.active {
       @apply bg-[#6cafda] text-white;
@@ -3537,11 +3537,11 @@
   .package__availability-wrapper {
     @apply mt-4 grid grid-cols-1 gap-3;
     .package__availability-list {
-      @apply rounded-[10px] border border-[#6cafda] p-0;
+      @apply rounded-[10px] border border-[#6cafda] p-4;
       .package__availability-item {
-        @apply grid  gap-3 border-b border-primary/20  grid-cols-2 md:grid-cols-3 xl:grid-cols-5 md:gap-x-4 md:gap-y-3 items-center gap-2 p-4;
+        @apply grid  gap-3 border-b border-primary/20  grid-cols-2 md:grid-cols-3 xl:grid-cols-5 md:gap-x-4 md:gap-y-6 items-center  px-2 py-2.5 max-[770px]:mb-2 last:mb-0;
         &:last-child {
-          @apply border-b-0;
+          @apply border-b-0 mb-0;
         }
         .package__availability-item-meta {
           @apply flex flex-col flex-wrap items-start text-sm text-text_color;
@@ -3550,17 +3550,17 @@
           @apply bg-secondary absolute -top-3 flex items-center gap-1 rounded-full px-3.5 py-1 text-sm font-bold text-white max-sm:left-3 sm:right-7.5 lg:py-1.5;
         }
         .package__book-cta {
-          @apply xl:text-center;
+          @apply text-center max-[770px]:mb-2;
           button,
           a {
-            @apply bg-primary rounded-custom px-2.5 py-1.5 text-sm leading-5 font-semibold text-white transition-all duration-500 hover:shadow-[inset_0_0_0_2em_var(--color-block)];
+            @apply bg-primary rounded-custom px-4 py-2 text-sm leading-5 font-semibold text-white transition-all duration-500 hover:shadow-[inset_0_0_0_2em_var(--color-block)];
           }
         }
       }
     }
   }
   .package__availability-note {
-    @apply bg-[#f6faff] mb-2.5 rounded-[10px] p-6 mt-[12px];
+    @apply bg-[#f6faff] mb-2.5 rounded-[10px] p-6 mt-3;
     .package__availability-note-title {
       @apply text-text_color font-bold leading-6 text-base;
     }

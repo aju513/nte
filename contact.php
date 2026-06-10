@@ -155,7 +155,7 @@
         </div>
       </div>
     </div>
-    <div class="common-box pt-8">
+    <div class="common-box pt-7">
       <div class="container">
         <h2 class="text-2xl font-black mb-4 font-playfair">We're Here</h2>
         <div class="h-105 relative z-10 overflow-hidden rounded-2xl border-4 border-white -mb-52.5">

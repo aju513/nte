@@ -797,7 +797,7 @@
                     <span class="font-medium text-sm leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
                   </div>
                   <div class="package__availability-item-meta">
-                    <span class="font-medium text-xs leading-4 mb-1.25">2 spaces left</span>
+                    <span class="font-medium text-xs leading-4 mb-2">2 spaces left</span>
                     <div class="package__book-cta">
                       <a href="" class="package__book-cta ">Book Now</a>
                     </div>
@@ -1175,7 +1175,6 @@
         </div>
       </div>
     </div>
-
     <div class="video-review common-box pb-0 scroll-wrap">
       <div class="container">
         <h2 class="package__section-title ">
