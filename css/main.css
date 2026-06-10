@@ -1910,6 +1910,16 @@
 .dot-loader__item-2 {
   animation-delay: 0.6s;
 }
+/* loader */
+.loader {
+  @apply inline-block;
+  animation: spin 1300ms linear infinite;
+}
+
+.spin {
+  @apply inline-block;
+  animation: spin 11000ms linear infinite;
+}
 /*  animation */
 @keyframes dot-loader {
   0%,
