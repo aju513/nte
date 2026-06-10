@@ -777,60 +777,84 @@
               </div>
             </div>
             <div class="package__availability-wrapper">
-              <div class="package__availability-list ">
-                <div class="package__availability-item ">
-                  <div class="package__availability-item-meta">
-                    <span class="font-bold text-base leading-6">Start on Sunday</span>
-                    <span class="font-medium text-sm leading-6">14 Feb, 2025</span>
+              <!-- <div class="package__availability-list "> -->
+              <div class="package__availability-item">
+                <div class="grid grid-cols-12 gap-3 w-full">
+                  <div class="col-span-6 lg:col-span-3">
+                    <div class="flex flex-col items-start">
+                      <span class="font-bold text-base leading-6">Start on Sunday</span>
+                      <span class="font-medium text-sm leading-6">14 Feb, 2025</span>
+                    </div>
                   </div>
-                  <div class="package__availability-item-meta">
-                    <span class="font-bold text-base leading-6">Ends on Sunday</span>
-                    <span class="font-medium text-sm leading-6">28 Feb, 2025</span>
+                  <div class="col-span-6 lg:col-span-3">
+                    <div class="flex flex-col items-start">
+                      <span class="font-bold text-base leading-6">Ends on Sunday</span>
+                      <span class="font-medium text-sm leading-6">28 Feb, 2025</span>
+                    </div>
                   </div>
-                  <div class="package__availability-item-meta">
-                    <span class="font-bold text-base leading-6">Status</span>
-                    <span class="font-medium text-sm leading-6">Guaranteed</span>
+                  <div class="col-span-6 lg:col-span-2">
+                    <div class="flex flex-col items-start">
+                      <span class="font-bold text-base leading-6">Status</span>
+                      <span class="font-medium text-sm leading-6">Guaranteed</span>
+                    </div>
                   </div>
-
-                  <div class="package__availability-item-meta">
-                    <span class="font-bold text-base leading-6">US$ 1680</span>
-                    <span class="font-medium text-sm leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
+                  <div class="col-span-6 lg:col-span-2">
+                    <div class="flex flex-col items-start">
+                      <span class="font-bold text-base leading-6">US$ 1680</span>
+                      <span class="font-medium text-sm leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
+                    </div>
                   </div>
-                  <div class="package__availability-item-meta">
-                    <span class="font-medium text-xs leading-4 mb-2">2 spaces left</span>
-                    <div class="package__book-cta">
-                      <a href="" class="package__book-cta ">Book Now</a>
+                  <div class="col-span-6 lg:col-span-2">
+                    <div class="package__availability__item-link lg:mt-0 flex items-center lg:justify-end ">
+                      <div class="flex flex-col items-start">
+                        <span class="font-medium text-xs leading-4 mb-0.5">2 spaces left</span>
+                        <form action="">
+                          <button type="submit" class="bg-primary text-white rounded-custom px-3 py-2 leading-5 font-semibold  transition-all duration-500 hover:shadow-[inset_0_0_0_2em_var(--color-block)]">Book Now</button>
+                        </form>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="package__availability-item ">
-                  <div class="package__availability-item-meta">
-                    <span class="font-bold text-base leading-6">Start on Sunday</span>
-                    <span class="font-medium text-sm leading-6">14 Feb, 2025</span>
+              </div>
+              <div class="package__availability-item">
+                <div class="grid grid-cols-12 gap-5 w-full">
+                  <div class="col-span-6 lg:col-span-3">
+                    <div class="flex flex-col items-start">
+                      <span class="font-bold text-base leading-6">Start on Sunday</span>
+                      <span class="font-medium text-sm leading-6">14 Feb, 2025</span>
+                    </div>
                   </div>
-                  <div class="package__availability-item-meta">
-                    <span class="font-bold text-base leading-6">Ends on Sunday</span>
-                    <span class="font-medium text-sm leading-6">28 Feb, 2025</span>
+                  <div class="col-span-6 lg:col-span-3">
+                    <div class="flex flex-col items-start">
+                      <span class="font-bold text-base leading-6">Ends on Sunday</span>
+                      <span class="font-medium text-sm leading-6">28 Feb, 2025</span>
+                    </div>
                   </div>
-                  <div class="package__availability-item-meta">
-                    <span class="font-bold text-base leading-6">Status</span>
-                    <span class="font-medium text-sm leading-6">Guaranteed</span>
+                  <div class="col-span-6 lg:col-span-2">
+                    <div class="flex flex-col items-start">
+                      <span class="font-bold text-base leading-6">Status</span>
+                      <span class="font-medium text-sm leading-6">Guaranteed</span>
+                    </div>
                   </div>
-
-                  <div class="package__availability-item-meta">
-                    <span class="font-bold text-base leading-6">US$ 1680</span>
-                    <span class="font-medium text-sm leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
+                  <div class="col-span-6 lg:col-span-2">
+                    <div class="flex flex-col items-start">
+                      <span class="font-bold text-base leading-6">US$ 1680</span>
+                      <span class="font-medium text-sm leading-5 line-through text-[#c2c2c2]">US$ 1800</span>
+                    </div>
                   </div>
-                  <div class="package__availability-item-meta">
-                    <span class="font-medium text-xs leading-4 mb-1.25">2 spaces left</span>
-                    <div class="package__book-cta">
-                      <a href="" class="package__book-cta ">Book Now</a>
+                  <div class="col-span-6 lg:col-span-2">
+                    <div class="package__availability__item-link lg:mt-0 flex items-center lg:justify-end">
+                      <div class="flex flex-col items-start">
+                        <span class="font-medium text-xs leading-4 mb-0.5">2 spaces left</span>
+                        <form action="">
+                          <button type="submit" class="bg-primary text-white rounded-custom px-3 py-2 leading-5 font-semibold  transition-all duration-500 hover:shadow-[inset_0_0_0_2em_var(--color-block)]">Book Now</button>
+                        </form>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
             <div class="package__availability-note">
               <div class="package__availability-note-title">
                 Note to Solo Travelers:

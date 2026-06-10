@@ -3535,26 +3535,23 @@
   }
 
   .package__availability-wrapper {
-    @apply mt-4 grid grid-cols-1 gap-3;
-    .package__availability-list {
-      @apply rounded-[10px] border border-[#6cafda] p-4;
-      .package__availability-item {
-        @apply grid  gap-3 border-b border-primary/20  grid-cols-2 md:grid-cols-3 xl:grid-cols-5 md:gap-x-4 md:gap-y-6 items-center  px-2 py-2.5 max-[770px]:mb-2 last:mb-0;
-        &:last-child {
-          @apply border-b-0 mb-0;
-        }
-        .package__availability-item-meta {
-          @apply flex flex-col flex-wrap items-start text-sm text-text_color;
-        }
-        .package__availability-item-tag {
-          @apply bg-secondary absolute -top-3 flex items-center gap-1 rounded-full px-3.5 py-1 text-sm font-bold text-white max-sm:left-3 sm:right-7.5 lg:py-1.5;
-        }
-        .package__book-cta {
-          @apply text-center max-[770px]:mb-2;
-          button,
-          a {
-            @apply bg-primary rounded-custom px-4 py-2 text-sm leading-5 font-semibold text-white transition-all duration-500 hover:shadow-[inset_0_0_0_2em_var(--color-block)];
-          }
+    @apply relative border border-[#6cafda] p-3 lg:p-5 rounded-[10px] mt-5;
+    .package__availability-item {
+      @apply border-t border-primary/20 mt-2.5 pt-2.5;
+      &:first-child {
+        @apply border-t-0 mt-0 pt-0;
+      }
+      .package__availability-item-meta {
+        @apply flex flex-col flex-wrap items-start text-sm text-text_color;
+      }
+      .package__availability-item-tag {
+        @apply bg-secondary absolute -top-3 flex items-center gap-1 rounded-full px-3.5 py-1 text-sm font-bold text-white max-sm:left-3 sm:right-7.5 lg:py-1.5;
+      }
+      .package__book-cta {
+        @apply text-center;
+        button,
+        a {
+          @apply bg-primary text-white rounded-custom px-3 py-1.5 leading-5 font-semibold  transition-all duration-500 hover:shadow-[inset_0_0_0_2em_var(--color-block)];
         }
       }
     }
