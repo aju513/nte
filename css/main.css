@@ -119,13 +119,13 @@
     background-repeat: no-repeat !important;
     background-position: right 16px center !important;
     background-size: 1em !important;
-    background-image: url("../images/svg/angle-bottom.svg");
+    background-image: url("../images/svg/angle-bottom-primary.svg");
     option {
       padding-right: 10px;
     }
   }
   select.bg-primary {
-    background-image: url("../images/svg/angle-bottom.svg");
+    background-image: url("../images/svg/angle-bottom-primary.svg");
   }
   .input-file {
     @apply bg-text_color border-text_color/20 rounded-custom text-text_color h-12.5 w-auto border;
@@ -293,7 +293,7 @@
     .accordion__item {
       &:before {
         @apply absolute  top-5 right-5 h-auto w-3.75 cursor-pointer transition-all duration-700 text-text_color;
-        content: url(../images/svg/angle-bottom.svg);
+        content: url(../images/svg/angle-bottom-primary.svg);
       }
       &.active::before {
         @apply rotate-180 transition-all duration-700;
@@ -1915,7 +1915,9 @@
   @apply inline-block;
   animation: spin 1300ms linear infinite;
 }
-
+.loader.hidden {
+  display: none;
+}
 .spin {
   @apply inline-block;
   animation: spin 11000ms linear infinite;

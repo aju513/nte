@@ -190,7 +190,7 @@
                 </div>
               </div>
               <div class="col-span-12 lg:col-span-4">
-                <aside class="sticky top-37.5" id="sidebar-toc">
+                <aside class="sticky top-27" id="sidebar-toc">
                   <div id="toggleButton" class=""><span class="show-icon"><span class="icon-toc text-primary text-lg"></span></span><span class="close-icon"><span class="icon-close text-lg text-primary"></span></span></div>
                   <div
                     class="toc-list-wrapper border-primary rounded-r-custom my-6 border-t-4 bg-dim_bg p-4 px-6 py-5 shadow">
